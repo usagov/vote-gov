@@ -1,0 +1,16 @@
+{
+  "name": "vote.gov",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/18F/vote-gov.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/18F/vote-gov/issues"
+  },
+  "homepage": "https://github.com/18F/vote-gov#readme"
+}
