@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/18F/vote-gov/issues"
   },
-  "homepage": "https://github.com/18F/vote-gov#readme"
+  "homepage": "https://github.com/18F/vote-gov#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
