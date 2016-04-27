@@ -1,3 +1,6 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+[params]
+  Title = "Voter Registration"
+  Description = "Register to vote"
+  Repo = "https://github.com/18F/vote-gov"
