@@ -1,0 +1,149 @@
+---
+---
+
+// Imports -------------- //
+
+@import '../../node_modules/uswds/src/stylesheets/all';
+
+// Variables ------------ //
+
+// Styles --------------- //
+
+.page-inner {
+  max-width: 490px;
+}
+
+h1 {
+  color: $color-primary-darker;
+}
+
+.usa-display {
+  font-size: $h1-font-size;
+  margin-bottom: .5em;
+
+  @include media($medium-screen) {
+    font-size: $title-font-size;
+  }
+}
+
+footer {
+  @include padding(1rem null);
+  background-color: $color-white;
+  width: 100%;
+}
+
+.footer-fixed {
+  bottom: 0;
+  position: absolute;
+}
+
+.footer-inner {
+  @include margin(null $site-margins);
+  align-items: center;
+  background-color: $color-white;
+  display: flex;
+  float: right;
+  text-align: right;
+
+  a {
+    color: $color-base;
+    font-size: $h6-font-size;
+    text-transform: uppercase;
+  }
+
+  img {
+    margin-right: 2rem;
+    max-width: 3.4rem;
+  }
+}
+
+// Home page ------------ //
+
+.page-vote {
+  background-color: #286397;
+
+  h1,
+  label {
+    color: $color-white;
+  }
+}
+
+.form-register {
+  margin: 0 auto;
+
+  @include media($medium-screen) {
+    max-width: 300px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+.img-ballot_box-2 {
+  width: 175px;
+  margin-top: 6rem;
+}
+
+.img-ballot_box {
+  bottom: 0;
+  width: 175px;
+  position: absolute;
+  right: 40%;
+}
+
+.ballot-container {
+  text-align: center;
+}
+
+// Inner pages ---------- //
+
+.main-content {
+  padding-bottom: 4rem;
+
+  @include media($medium-screen) {
+    min-height: 50rem;
+  }
+}
+
+.section-back {
+  @include padding(1rem $site-margins);
+  background-color: $color-gray-warm-light;
+}
+
+.width-one-half {
+  @include span-columns(6);
+}
+
+// Register by mail --------- //
+
+.graphic-list {
+  padding-bottom: 1rem;
+
+  img {
+    float: left;
+    margin-right: 2rem;
+  }
+
+  p {
+    margin-top: 0;
+  }
+}
+
+.usa-graphic-list-heading {
+  clear: none;
+}
+
+
+
+
+
+
+
+
+
+// Shame --------------- //
+
+select {
+  background-image: url("/assets/img/arrow-down.svg");
+}
