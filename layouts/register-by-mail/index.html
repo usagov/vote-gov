@@ -10,13 +10,13 @@
 
       <!-- Steps BEGIN -->
       <div class="graphic-list">
-        <img src="{{ site.baseurl }}/img/step-1.png">
+        <img src="{{ .Site.baseURL }}/img/step-1.png">
         <h4 class="usa-graphic-list-heading">Step 1</h4>
         <p>Fill out your voter registration.</p>
-        <img src="{{ site.baseurl }}/img/step-2.png">
+        <img src="{{ .Site.baseURL }}/img/step-2.png">
         <h4 class="usa-graphic-list-heading">Step 2</h4>
         <p>Mail it to your state.</p>
-        <img src="{{ site.baseurl }}/img/step-3.png">
+        <img src="{{ .Site.baseURL }}/img/step-3.png">
         <h4 class="usa-graphic-list-heading">Step 3</h4>
         <p>Vote in the upcoming election!</p>
       </div>
@@ -63,7 +63,7 @@
         </ul>
       </div>
       <!-- Download form END -->
-      
+
       {{ partial "go-back.html" . }}
       {{ partial "footer.html" . }}
     </div>
