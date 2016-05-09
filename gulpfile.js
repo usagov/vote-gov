@@ -239,16 +239,11 @@ function printPackageInfo () {
     gutil.colors.green(pkg.name)
   );
   gutil.log();
-  gutil.log(gutil.colors.red(' ______ ______ _____    '));
-  gutil.log(gutil.colors.red('/\\  ___/\\  ___/\\  __-.  '));
-  gutil.log(gutil.colors.blue('\\ \\  __\\ \\  __\\ \\ \\/\\ \\ '));
-  gutil.log(gutil.colors.blue(' \\ \\_\\  \\ \\_\\  \\ \\____- '));
-  gutil.log(gutil.colors.white('  \\/_/   \\/_/   \\/____/ '));
-  gutil.log(gutil.colors.red(' __   ________  ______  ______  ______  ______  __   __  '));
-  gutil.log(gutil.colors.red('/\\ \\ / /\\  __ \\/\\__  _\\/\\  ___\\/\\  ___\\/\\  __ \\/\\ \\ / /  '));
-  gutil.log(gutil.colors.blue('\\ \\ \\\'/\\ \\ \\/\\ \\/_/\\ \\/\\ \\  __\\\\ \\ \\__ \\ \\ \\/\\ \\ \\ \\\'/   '));
-  gutil.log(gutil.colors.blue(' \\ \\__| \\ \\_____\\ \\ \\_\\ \\ \\_____\\ \\_____\\ \\_____\\ \\__|   '));
-  gutil.log(gutil.colors.white('  \\/_/   \\/_____/  \\/_/  \\/_____/\\/_____/\\/_____/\\/_/    '));
+  gutil.log(gutil.colors.red(' ______  ______  _____       __   ________  ______  ______'));
+  gutil.log(gutil.colors.red('/\\  ___\\/\\  ___\\/\\  __-.    /\\ \\ / /\\  __ \\/\\__  _\\/\\  ___\\'));
+  gutil.log(gutil.colors.blue('\\ \\  __\\\\ \\  __\\\\ \\ \\/\\ \\   \\ \\ \\\'/\\ \\ \\/\\ \\/_/\\ \\/\\ \\  __\\'));
+  gutil.log(gutil.colors.blue(' \\ \\_\\   \\ \\_\\   \\ \\____-    \\ \\__| \\ \\_____\\ \\ \\_\\ \\ \\_____\\'));
+  gutil.log(gutil.colors.white('  \\/_/    \\/_/    \\/____/     \\/_/   \\/_____/  \\/_/  \\/_____/'));
   gutil.log();
 }
 
