@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body class="page-register-not-needed">
+
+    <div id="main" role="main">
+      <a class="skipnav" href="#main-content">Skip main navigation</a>
+
+      <!-- Register BEGIN -->
+      <div class="usa-grid page-inner main-content">
+        <header>
+          <h1 class="usa-display">No registration needed</h1>
+        </header>
+        <p>North Dakota only requires that you bring a valid state ID to your polling place.</p>
+        <b>
+          <a href="#">Learn more about voting</a>
+        </b>
+      </div>
+      <!-- Register END -->
+
+      {{ partial "go-back.html" . }}
+      {{ partial "footer.html" . }}
+    </div>
+
+    {{ partial "analytics.html" . }}
+    {{ partial "scripts.html" . }}
+
+  </body>
+
+</html>
