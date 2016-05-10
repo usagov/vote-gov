@@ -1,0 +1,69 @@
+<div class="usa-grid page-inner">
+  <header>
+    <h1 class="usa-display">Register to vote</h1>
+  </header>
+  <!-- Steps BEGIN -->
+  <div class="graphic-list">
+    <img src="{{ .Site.BaseURL }}/assets/img/step-1.png">
+    <h4 class="usa-graphic-list-heading">Step 1</h4>
+    <p>Fill out your voter registration.</p>
+    <img src="{{ .Site.BaseURL }}/assets/img/step-2.png">
+    <h4 class="usa-graphic-list-heading">Step 2</h4>
+    <p>Mail it to your state.</p>
+    <img src="{{ .Site.BaseURL }}/assets/img/step-3.png">
+    <h4 class="usa-graphic-list-heading">Step 3</h4>
+    <p>Vote in the upcoming election!</p>
+  </div>
+  <!-- Steps END -->
+
+  <ul>
+    {{ range $.Site.Data.registration_forms }}
+    <li>
+      {{ . }}
+    </li>
+    {{ end }}
+  </ul>
+
+  <!-- Download form BEGIN -->
+  <b>
+    <a href="#">Download the registration form (PDF)</a>
+  </b>
+  <p>Download the form in other languages:</p>
+  <div class="width-one-half">
+    <ul class="usa-unstyled-list">
+      <li>
+        <a href="#">Bengali</a>
+      </li>
+      <li>
+        <a href="#">Chinese</a>
+      </li>
+      <li>
+        <a href="#">Hindi</a>
+      </li>
+      <li>
+        <a href="#">Japanese</a>
+      </li>
+      <li>
+        <a href="#">Khmer</a>
+      </li>
+    </ul>
+  </div>
+  <div class="width-one-half">
+    <ul class="usa-unstyled-list">
+      <li>
+        <a href="#">Korean</a>
+      </li>
+      <li>
+        <a href="#">Spanish</a>
+      </li>
+      <li>
+        <a href="#">Tagalog</a>
+      </li>
+      <li>
+        <a href="#">Vietnamese</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Download form END -->
+</div>
+

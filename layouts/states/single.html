@@ -1,0 +1,18 @@
+{{ partial "head.html" . }}
+
+  {{ $registration_type := .Params.registration_type }}
+
+  {{ $registration_template := printf "register-%s" $registration_type }}
+
+  <body class="page-register-{{ .Params.registration_type }}">
+    <div id="main" role="main">
+      <a class="skipnav" href="#main-content">Skip main navigation</a>
+
+      {{ .Render $registration_template }}
+
+      {{ partial "go-back.html" . }}
+      {{ partial "footer.html" . }}
+    </div>
+    {{ partial "analytics.html" . }}
+  </body>
+</html>
