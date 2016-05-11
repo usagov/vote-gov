@@ -12,16 +12,6 @@ var build = require('./config/gulp/build');
 
 var gulp = require('gulp');
 var gutil = require('gulp-util');
-var del = require('del');
-var filter = require('gulp-filter');
-var buffer = require('vinyl-buffer');
-var source = require('vinyl-source-stream');
-var rename = require('gulp-rename');
-var runSequence = require('run-sequence');
-var pkg = require('./package.json');
-var sassFiles = filter([ '**/*.scss' ], { restore: true });
-var jsFiles = filter([ '**/*.js' ], { restore: true });
-var spawn = require('child_process').spawn;
 
 global.cFlags = {
   production: false,
