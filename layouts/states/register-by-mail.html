@@ -20,7 +20,7 @@
   <b>
     {{ range $key, $form := $.Site.Data.registration_forms }}
       {{ if gt $form.weight 0 }}
-      <a href="{{ $form.file_path }}">Download the registration form (PDF)</a>
+      <a href="{{ $.Site.BaseURL }}{{ $form.file_path }}" target="_blank">Download the registration form (PDF)</a>
       {{ end }}
     {{ end }}
   </b>
@@ -33,7 +33,7 @@
     {{ if lt .weight 1 }}
       {{ $.Scratch.Add "alt_forms" 1 }}
       <li>
-        <a href="{{ .file_path }}">{{ .language }}</a>
+        <a href="{{ $.Site.BaseURL }}{{ .file_path }}" target="_blank">{{ .language }}</a>
       </li>
     {{ end }}
     {{ if modBool ( $.Scratch.Get "alt_forms" ) 5 }}
