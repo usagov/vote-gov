@@ -2,6 +2,8 @@
 
 require('./config/gulp/styles');
 require('./config/gulp/scripts');
+require('./config/gulp/images');
+require('./config/gulp/fonts');
 
 // This gulp asset pipeline supports linting of scss and js files along with
 // compiling and bundling css and js files into static/assets/ directories to
@@ -48,45 +50,6 @@ gulp.task('clean-all', function () {
     './public/**/*',
   ]);
 });
-
-//gulp.task('eslint', function (done) {
-
-  //if (!cFlags.test) {
-    //gutil.log(gutil.colors.cyan('eslint'), 'Disabling linting');
-    //return done();
-  //}
-
-  //return gulp.src('./assets/scripts/**/*.js')
-    //.pipe(eslint({
-      //configFile: './.eslintrc',
-    //}))
-    //.pipe(eslint.format());
-
-//});
-
-//gulp.task('scripts', [ 'eslint' ], function () {
-
-  //gutil.log(gutil.colors.cyan('scripts'), 'Browserifying JavaScript assets');
-
-  //var bundle = browserify({
-    //entries: './assets/scripts/start.js',
-    //debug: true,
-  //}).bundle();
-
-  //bundle = bundle.pipe(source('start.js'))
-    //.pipe(buffer());
-
-  //if (cFlags.production) {
-    //gutil.log(gutil.colors.cyan('scripts'), 'Compressing scripts');
-    //bundle = bundle.pipe(uglify());
-  //}
-
-  //bundle = bundle.pipe(rename('main.js'))
-    //.pipe(gulp.dest('./static/assets/scripts'));
-
-  //return bundle;
-
-//});
 
 gulp.task('images', function () {
 
