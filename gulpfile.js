@@ -30,6 +30,7 @@ gulp.task('default', function (done) {
   done();
 });
 
+// TODO: delete or move into separate config if put into use
 //function setBranchBaseUrl() {
   //if (process.env.SITE_BASEURL) {
     //gutil.log(gutil.colors.yellow('set-baseurl'), "Found pre-set SITE_BASEURL: " + process.env.SITE_BASEURL);
