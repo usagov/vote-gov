@@ -4,6 +4,7 @@ require('./config/gulp/styles');
 require('./config/gulp/scripts');
 require('./config/gulp/images');
 require('./config/gulp/fonts');
+var build = require('./config/gulp/build');
 
 // This gulp asset pipeline supports linting of scss and js files along with
 // compiling and bundling css and js files into static/assets/ directories to
@@ -11,11 +12,6 @@ require('./config/gulp/fonts');
 
 var gulp = require('gulp');
 var gutil = require('gulp-util');
-var eslint = require('gulp-eslint');
-var browserify = require('browserify');
-var sass = require('gulp-sass');
-var uglify = require('gulp-uglify');
-var scsslint = require('gulp-scss-lint');
 var del = require('del');
 var filter = require('gulp-filter');
 var buffer = require('vinyl-buffer');
@@ -44,70 +40,6 @@ global.cFlags = {
   //done();
 //});
 
-gulp.task('clean-all', function () {
-  return del([
-    './static/assets/**/*',
-    './public/**/*',
-  ]);
-});
-
-gulp.task('images', function () {
-
-  gutil.log(gutil.colors.cyan('images'), 'Copying image assets');
-  var stream = gulp.src([
-    './assets/img/**/*',
-    './node_modules/uswds/src/img/**/*',
-  ]);
-
-  return stream.pipe(gulp.dest('./static/assets/img'));
-
-});
-
-gulp.task('fonts', function () {
-
-  gutil.log(gutil.colors.cyan('fonts'), 'Copying font assets');
-  var stream = gulp.src([
-    './assets/fonts/**/*',
-    './node_modules/uswds/src/fonts/**/*',
-  ]);
-
-  return stream.pipe(gulp.dest('./static/assets/fonts'));
-
-});
-
-gulp.task('build', [ 'clean-all' ], function (done) {
-  printPackageInfo();
-  gutil.log(gutil.colors.cyan('build'), 'Building asset-pipeline');
-  runSequence([ 'styles:homepage', /*'scripts',*/ 'images', 'fonts' ], done);
-});
-
-
-gulp.task('build:website', [ 'build' ], function (done) {
-
-  gutil.log(gutil.colors.cyan('build:website'), 'Building static website via Hugo');
-
-  if (cFlags.production) {
-    gutil.log(gutil.colors.cyan('build:website'), 'Production mode: Looking for branch-specific BaseUrl variables...');
-    //setBranchBaseUrl();
-  }
-
-  var hugo_args = [];
-  if (process.env.SITE_BASEURL) {
-    gutil.log(gutil.colors.cyan('build:website'), 'Using environment-specified BaseUrl: ' + process.env.SITE_BASEURL);
-    hugo_args = [ '-b', process.env.SITE_BASEURL];
-  }
-
-  var hugo = spawn('hugo', hugo_args);
-
-  hugo.stdout.on('data', function (data) {
-    gutil.log(gutil.colors.blue('build:website'), '\n' + data);
-  });
-
-  hugo.on('error', done);
-  hugo.on('close', done);
-
-});
-
 gulp.task('watch', function () {
   gutil.log(gutil.colors.cyan('watch'), 'Watching assets for changes');
   gulp.watch('./assets/styles/**/*.scss', [ 'styles:homepage' ]);
@@ -135,7 +67,7 @@ gulp.task('website', [ 'build', 'watch' ], function (done) {
 });
 
 gulp.task('default', function (done) {
-  printPackageInfo();
+  build.printPackageInfo();
   gutil.log('Available tasks');
   gutil.log('$', gutil.colors.magenta('gulp watch'));
   gutil.log('Watch for changes and build the asset-pipeline');
@@ -149,20 +81,6 @@ gulp.task('default', function (done) {
   gutil.log('Build the asset-pipeline and the website using Hugo');
   done();
 });
-
-function printPackageInfo () {
-  gutil.log(
-    gutil.colors.yellow('v' + pkg.version),
-    gutil.colors.green(pkg.name)
-  );
-  gutil.log();
-  gutil.log(gutil.colors.red(' ______  ______  _____       __   ________  ______  ______'));
-  gutil.log(gutil.colors.red('/\\  ___\\/\\  ___\\/\\  __-.    /\\ \\ / /\\  __ \\/\\__  _\\/\\  ___\\'));
-  gutil.log(gutil.colors.blue('\\ \\  __\\\\ \\  __\\\\ \\ \\/\\ \\   \\ \\ \\\'/\\ \\ \\/\\ \\/_/\\ \\/\\ \\  __\\'));
-  gutil.log(gutil.colors.blue(' \\ \\_\\   \\ \\_\\   \\ \\____-    \\ \\__| \\ \\_____\\ \\ \\_\\ \\ \\_____\\'));
-  gutil.log(gutil.colors.white('  \\/_/    \\/_/    \\/____/     \\/_/   \\/_____/  \\/_/  \\/_____/'));
-  gutil.log();
-}
 
 //function setBranchBaseUrl() {
   //if (process.env.SITE_BASEURL) {
