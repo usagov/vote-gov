@@ -4,6 +4,7 @@ require('./config/gulp/styles');
 require('./config/gulp/scripts');
 require('./config/gulp/images');
 require('./config/gulp/fonts');
+require('./config/gulp/flags');
 var build = require('./config/gulp/build');
 
 // This gulp asset pipeline supports linting of scss and js files along with
@@ -12,49 +13,6 @@ var build = require('./config/gulp/build');
 
 var gulp = require('gulp');
 var gutil = require('gulp-util');
-
-global.cFlags = {
-  production: false,
-  test: true,
-};
-
-//gulp.task('no-test', function (done) {
-  //gutil.log(gutil.colors.cyan('no-test'), 'Disabling tests');
-  //cFlags.test = false;
-  //done();
-//});
-
-//gulp.task('production', function (done) {
-  //gutil.log(gutil.colors.cyan('production'), 'Enabling production tasks');
-  //cFlags.production = true;
-  //done();
-//});
-
-gulp.task('watch', function () {
-  gutil.log(gutil.colors.cyan('watch'), 'Watching assets for changes');
-  gulp.watch('./assets/styles/**/*.scss', [ 'styles:homepage' ]);
-  //gulp.watch('./assets/scripts/**/*.js', [ 'scripts' ]);
-  gulp.watch('./assets/images/**/*', [ 'images' ]);
-});
-
-gulp.task('website', [ 'build', 'watch' ], function (done) {
-
-  var buildDrafts = '--buildDrafts';
-
-  if (cFlags.production) {
-    buildDrafts = '';
-  }
-
-  var hugo = spawn('hugo', [ 'server', buildDrafts ]);
-
-  hugo.stdout.on('data', function (data) {
-    gutil.log(gutil.colors.blue('website'), '\n' + data);
-  });
-
-  hugo.on('error', done);
-  hugo.on('close', done);
-
-});
 
 gulp.task('default', function (done) {
   build.printPackageInfo();

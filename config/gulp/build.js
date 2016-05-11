@@ -45,6 +45,32 @@ gulp.task('build:website', [ 'build' ], function (done) {
 
 });
 
+gulp.task('watch', function () {
+  gutil.log(gutil.colors.cyan('watch'), 'Watching assets for changes');
+  gulp.watch('./assets/styles/**/*.scss', [ 'styles:homepage' ]);
+  //gulp.watch('./assets/scripts/**/*.js', [ 'scripts' ]);
+  gulp.watch('./assets/images/**/*', [ 'images' ]);
+});
+
+gulp.task('website', [ 'build', 'watch' ], function (done) {
+
+  var buildDrafts = '--buildDrafts';
+
+  if (cFlags.production) {
+    buildDrafts = '';
+  }
+
+  var hugo = spawn('hugo', [ 'server', buildDrafts ]);
+
+  hugo.stdout.on('data', function (data) {
+    gutil.log(gutil.colors.blue('website'), '\n' + data);
+  });
+
+  hugo.on('error', done);
+  hugo.on('close', done);
+
+});
+
 exports.printPackageInfo = function(){
   gutil.log(
     gutil.colors.yellow('v' + pkg.version),
