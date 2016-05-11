@@ -12,5 +12,3 @@ gulp.task('images', function () {
   return stream.pipe(gulp.dest('./static/assets/img'));
 
 });
-
-

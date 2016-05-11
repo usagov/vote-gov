@@ -12,5 +12,3 @@ gulp.task('fonts', function () {
   return stream.pipe(gulp.dest('./static/assets/fonts'));
 
 });
-
-
