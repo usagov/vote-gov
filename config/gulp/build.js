@@ -71,6 +71,33 @@ gulp.task('website', [ 'build', 'watch' ], function (done) {
 
 });
 
+//function setBranchBaseUrl() {
+  //if (process.env.SITE_BASEURL) {
+    //gutil.log(gutil.colors.yellow('set-baseurl'), "Found pre-set SITE_BASEURL: " + process.env.SITE_BASEURL);
+    //gutil.log(gutil.colors.yellow('set-baseurl'), "(If you see this in a Travis log, things are happening in the wrong order.");
+  //} else
+    //if (process.env.TRAVIS_BRANCH == "master" &&
+        //checkBranchBaseUrl('master', 'production', 'SITE_BASEURL_PRODUCTION')) {
+      //process.env.SITE_BASEURL = process.env.SITE_BASEURL_PRODUCTION;
+    //} else
+    //if (process.env.TRAVIS_BRANCH == "staging" &&
+        //checkBranchBaseUrl('staging', 'staging', 'SITE_BASEURL_STAGING')) {
+      //process.env.SITE_BASEURL = process.env.SITE_BASEURL_STAGING;
+    //} else {
+    //gutil.log(gutil.colors.yellow('set-baseurl'), 'No environmental config found; using BaseUrl from config file.');
+  //}
+//}
+
+//function checkBranchBaseUrl(branch, environmentName, baseUrlVarName) {
+  //if (process.env[baseUrlVarName]) {
+    //gutil.log(gutil.colors.cyan('set-baseurl'), 'Using '+environmentName+' site BaseUrl: ' + process.env[baseUrlVarName]);
+    //return true;
+  //} else {
+    //gutil.log(gutil.colors.red('set-baseurl'), 'ERROR: '+environmentName+' build ('+branch+' branch) lacking a '+baseUrlVarName+' env var. Check the Travis configuration?');
+    //process.exit(1);
+  //}
+//}
+
 exports.printPackageInfo = function(){
   gutil.log(
     gutil.colors.yellow('v' + pkg.version),
