@@ -1,0 +1,50 @@
+<div class="usa-grid page-inner">
+  <header>
+    <h1 class="usa-display">Register to vote</h1>
+  </header>
+  <!-- Steps BEGIN -->
+  <div class="graphic-list">
+    <img src="{{ .Site.BaseURL }}assets/img/step-1.png">
+    <h4 class="usa-graphic-list-heading">Step 1</h4>
+    <p>Fill out your voter registration.</p>
+    <img src="{{ .Site.BaseURL }}assets/img/step-2.png">
+    <h4 class="usa-graphic-list-heading">Step 2</h4>
+    <p>Mail it to your state.</p>
+    <img src="{{ .Site.BaseURL }}assets/img/step-3.png">
+    <h4 class="usa-graphic-list-heading">Step 3</h4>
+    <p>Vote in the upcoming election!</p>
+  </div>
+  <!-- Steps END -->
+
+  <!-- Download form BEGIN -->
+  <b>
+    {{ range $key, $form := $.Site.Data.registration_forms }}
+      {{ if gt $form.weight 0 }}
+      <a href="{{ $.Site.BaseURL }}{{ $form.file_path }}" target="_blank">Download the registration form (PDF)</a>
+      {{ end }}
+    {{ end }}
+  </b>
+  <p>{{ $.Scratch.Get "alt_forms" }}</p>
+  <p>Download the form in other languages:</p>
+  <div class="width-one-half">
+    <ul class="usa-unstyled-list">
+  {{ $.Scratch.Set "alt_forms" 0 }}
+  {{ range $.Site.Data.registration_forms }}
+    {{ if lt .weight 1 }}
+      {{ $.Scratch.Add "alt_forms" 1 }}
+      <li>
+        <a href="{{ $.Site.BaseURL }}{{ .file_path }}" target="_blank">{{ .language }}</a>
+      </li>
+    {{ end }}
+    {{ if modBool ( $.Scratch.Get "alt_forms" ) 5 }}
+    </ul>
+  </div>
+  <div class="width-one-half">
+    <ul class="usa-unstyled-list">
+    {{ end }}
+  {{ end }}
+    </ul>
+  </div>
+  <!-- Download form END -->
+</div>
+

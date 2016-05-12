@@ -1,8 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    {{ partial "head.html" . }}
-  </head>
+{{ partial "head.html" . }}
   <body class="page-vote">
 
     <div id="main" role="main">
@@ -14,34 +10,34 @@
         <header>
           <h1 class="usa-display">Register to vote</h1>
         </header>
-        <form class="form-register">
-          <label for="options">Select your state or territory</label>
-          <select name="options" id="options">
-            <option value="value1"></option>
-            <option value="value1">Option A</option>
-            <option value="value2">Option B</option>
-            <option value="value3">Option C</option>
+        <form class="form-register" action="/states/" method="get">
+          <label for="user-selection">Select your state or territory</label>
+          <select name="user-selection" id="js-user-selection">
+            <option value=""></option>
+            {{ range where .Data.Pages.ByTitle "Section" "states" }}
+              <option value="{{ .Slug}}">{{ title .Title }}</option>
+            {{ end }}
           </select>
-          <button class="usa-button-secondary">Find out how to register</button>
+          <button id="js-user-submit" type="submit" class="usa-button-secondary">Find out how to register</button>
         </form>
       </div>
       <!-- Register END -->
 
-        <div class="ballot-container">
-          <img class="img-ballot_box-2" src="{{ .Site.BaseURL }}/assets/images/ballot_box-blue.svg" alt="Web design standards">
-        </div>
+      <div class="ballot-container">
+        <img class="img-ballot_box-2" src="{{ .Site.BaseURL }}assets/img/ballot_box-blue.svg" alt="Web design standards">
+      </div>
 
       <!-- Footer BEGIN -->
       <footer class="footer-fixed">
       <!--
         <div class="ballot-container">
-          <img class="img-ballot_box" src="{{ .Site.BaseURL }}/assets/images/ballot_box-blue.svg" alt="Web design standards">
+          <img class="img-ballot_box" src="{{ .Site.BaseURL }}assets/img/ballot_box-blue.svg" alt="Web design standards">
         </div>
        -->
 
         <div class="footer-inner">
           <a href="https://usa.gov/">
-            <img src="{{ .Site.BaseURL }}/assets/images/usagov-logo.png">
+            <img src="{{ .Site.BaseURL }}assets/img/usagov-logo.png">
           </a>
           <a href="#">Privacy policy</a>
         </div>
@@ -50,10 +46,24 @@
 
     </div>
 
-    {{/*
     {{ partial "analytics.html" . }}
+
+    {{/*
     {{ partial "scripts.html" . }}
     */}}
+
+    <script>
+      // TODO: This exists only for basic testing. It will be removed once
+      // the designs are more fleshed out. This is just a work in progress for now.
+      ( function( g ) {;
+        var button = document.getElementById( 'js-user-submit' );
+        button.addEventListener( 'click', function ( event ) {
+          event.preventDefault();
+          var selection = document.getElementById( 'js-user-selection' );
+          g.location.href = g.location.origin + '/states/' + selection.value;
+        }, false );
+      } )( this );
+    </script>
 
   </body>
 
