@@ -17,9 +17,11 @@ h1 {
 .usa-display {
   font-size: $h1-font-size;
   margin-bottom: .5em;
+  margin-top: $site-margins;
 
   @include media($medium-screen) {
     font-size: $title-font-size;
+    margin-top: 1.5em;
   }
 }
 
