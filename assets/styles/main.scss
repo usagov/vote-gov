@@ -33,16 +33,28 @@ footer {
 
 .footer-inner {
   @include margin(null $site-margins);
-  align-items: center;
-  background-color: $color-white;
-  display: flex;
-  float: right;
-  text-align: right;
+
+  @include media($medium-screen) {
+    align-items: center;
+    background-color: $color-white;
+    display: flex;
+    float: right;
+    text-align: right;
+  }
 
   a {
     color: $color-base;
     font-size: $h6-font-size;
     text-transform: uppercase;
+
+    &:nth-child(2) {
+      float: right;
+      margin-top: 1rem;
+
+      @include media($medium-screen) {
+        margin-top: 0;
+      }
+    }
   }
 
   img {
