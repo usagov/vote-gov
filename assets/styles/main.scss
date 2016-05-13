@@ -75,10 +75,15 @@ footer {
   }
 
   .page-inner {
-    min-height: 60rem;
+    min-height: 50rem;
+
+    @include media($medium-screen) {
+      min-height: 60rem;
+    }
   }
 
   footer {
+    height: 2rem;
     position: relative;
   }
 }
