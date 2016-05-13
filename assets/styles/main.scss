@@ -31,11 +31,6 @@ footer {
   width: 100%;
 }
 
-.footer-fixed {
-  bottom: 0;
-  position: absolute;
-}
-
 .footer-inner {
   @include margin(null $site-margins);
   align-items: center;
@@ -59,12 +54,24 @@ footer {
 // Home page ------------ //
 
 .page-vote {
-  background-color: #286397; // fallback color
-  @include linear-gradient(#225BA0, #1C4B84);
-
   h1,
   label {
     color: $color-white;
+  }
+
+  // hack to remove margin and replace with padding for background color issues
+  .usa-display {
+    margin: 0;
+    padding-top: $site-margins;
+
+    @include media($medium-screen) {
+      padding-top: 1.5em;
+    }
+  }
+
+  .page-vote-main {
+    background-color: #286397; // fallback color
+    @include linear-gradient(#225BA0, #1C4B84);
   }
 }
 
