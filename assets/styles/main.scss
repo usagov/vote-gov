@@ -73,6 +73,24 @@ footer {
     background-color: #286397; // fallback color
     @include linear-gradient(#225BA0, #1C4B84);
   }
+
+  .page-inner {
+    min-height: 60rem;
+  }
+
+  footer {
+    position: relative;
+  }
+}
+
+.img-ballot_box {
+  bottom: -3.5rem;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 175px;
 }
 
 .form-register {
@@ -85,18 +103,6 @@ footer {
   button {
     width: 100%;
   }
-}
-
-.img-ballot_box-2 {
-  width: 175px;
-  margin-top: 6rem;
-}
-
-.img-ballot_box {
-  bottom: 0;
-  width: 175px;
-  position: absolute;
-  right: 40%;
 }
 
 .ballot-container {
