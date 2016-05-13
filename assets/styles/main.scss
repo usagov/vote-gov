@@ -59,7 +59,8 @@ footer {
 // Home page ------------ //
 
 .page-vote {
-  background-color: #286397;
+  background-color: #286397; // fallback color
+  @include linear-gradient(#225BA0, #1C4B84);
 
   h1,
   label {
