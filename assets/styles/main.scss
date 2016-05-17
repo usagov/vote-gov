@@ -17,9 +17,11 @@ h1 {
 .usa-display {
   font-size: $h1-font-size;
   margin-bottom: .5em;
+  margin-top: $site-margins;
 
   @include media($medium-screen) {
     font-size: $title-font-size;
+    margin-top: 1.5em;
   }
 }
 
@@ -29,23 +31,30 @@ footer {
   width: 100%;
 }
 
-.footer-fixed {
-  bottom: 0;
-  position: absolute;
-}
-
 .footer-inner {
   @include margin(null $site-margins);
-  align-items: center;
-  background-color: $color-white;
-  display: flex;
-  float: right;
-  text-align: right;
+
+  @include media($medium-screen) {
+    align-items: center;
+    background-color: $color-white;
+    display: flex;
+    float: right;
+    text-align: right;
+  }
 
   a {
     color: $color-base;
     font-size: $h6-font-size;
     text-transform: uppercase;
+
+    &:nth-child(2) {
+      float: right;
+      margin-top: 1rem;
+
+      @include media($medium-screen) {
+        margin-top: 0;
+      }
+    }
   }
 
   img {
@@ -57,12 +66,48 @@ footer {
 // Home page ------------ //
 
 .page-vote {
-  background-color: #286397;
-
   h1,
   label {
     color: $color-white;
   }
+
+  // hack to remove margin and replace with padding for background color issues
+  .usa-display {
+    margin: 0;
+    padding-top: $site-margins;
+
+    @include media($medium-screen) {
+      padding-top: 1.5em;
+    }
+  }
+
+  .page-vote-main {
+    background-color: #286397; // fallback color
+    @include linear-gradient(#225BA0, #1C4B84);
+  }
+
+  .page-inner {
+    min-height: 50rem;
+
+    @include media($medium-screen) {
+      min-height: 60rem;
+    }
+  }
+
+  footer {
+    height: 6rem;
+    position: relative;
+  }
+}
+
+.img-ballot_box {
+  bottom: 5px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 175px;
 }
 
 .form-register {
@@ -72,21 +117,9 @@ footer {
     max-width: 300px;
   }
 
-  button {
+  [type="submit"] {
     width: 100%;
   }
-}
-
-.img-ballot_box-2 {
-  width: 175px;
-  margin-top: 6rem;
-}
-
-.img-ballot_box {
-  bottom: 0;
-  width: 175px;
-  position: absolute;
-  right: 40%;
 }
 
 .ballot-container {
@@ -96,7 +129,7 @@ footer {
 // Inner pages ---------- //
 
 .main-content {
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
 
   @include media($medium-screen) {
     min-height: 50rem;
