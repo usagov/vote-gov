@@ -5,7 +5,7 @@
   {{ $registration_template := printf "register-%s" $registration_type }}
 
   <body class="page-register-{{ .Params.registration_type }}">
-    {{ partial "navbar.html" . }}
+    {{ partial "header.html" . }}
     <div id="main" role="main">
 
       {{ .Render $registration_template }}
