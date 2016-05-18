@@ -15,6 +15,7 @@
     "url": "https://github.com/18F/vote-gov/issues"
   },
   "homepage": "https://github.com/18F/vote-gov#readme",
+  "license": "CC0-1.0",
   "devDependencies": {
     "browserify": "^13.0.0",
     "del": "^2.2.0",
