@@ -3,43 +3,46 @@ var gutil = require('gulp-util');
 var eslint = require('gulp-eslint');
 var browserify = require('browserify');
 var uglify = require('gulp-uglify');
+var source = require('vinyl-source-stream');
+var buffer = require('vinyl-buffer');
+var rename = require('gulp-rename');
+var cFlags = global.cFlags;
 
-//gulp.task('eslint', function (done) {
+gulp.task('eslint', function (done) {
 
-  //if (!cFlags.test) {
-    //gutil.log(gutil.colors.cyan('eslint'), 'Disabling linting');
-    //return done();
-  //}
+  if (!cFlags.test) {
+    gutil.log(gutil.colors.cyan('eslint'), 'Disabling linting');
+    return done();
+  }
 
-  //return gulp.src('./assets/scripts/**/*.js')
-    //.pipe(eslint({
-      //configFile: './.eslintrc',
-    //}))
-    //.pipe(eslint.format());
+  return gulp.src('./assets/scripts/**/*.js')
+    .pipe(eslint({
+      configFile: './.eslintrc',
+    }))
+    .pipe(eslint.format());
 
-//});
+});
 
-//gulp.task('scripts', [ 'eslint' ], function () {
+gulp.task('scripts', [ 'eslint' ], function () {
 
-  //gutil.log(gutil.colors.cyan('scripts'), 'Browserifying JavaScript assets');
+  gutil.log(gutil.colors.cyan('scripts'), 'Browserifying JavaScript assets');
 
-  //var bundle = browserify({
-    //entries: './assets/scripts/start.js',
-    //debug: true,
-  //}).bundle();
+  var bundle = browserify({
+    entries: './assets/scripts/start.js',
+    debug: true,
+  }).bundle();
 
-  //bundle = bundle.pipe(source('start.js'))
-    //.pipe(buffer());
+  bundle = bundle.pipe(source('start.js'))
+    .pipe(buffer());
 
-  //if (cFlags.production) {
-    //gutil.log(gutil.colors.cyan('scripts'), 'Compressing scripts');
-    //bundle = bundle.pipe(uglify());
-  //}
+  if (cFlags.production) {
+    gutil.log(gutil.colors.cyan('scripts'), 'Compressing scripts');
+    bundle = bundle.pipe(uglify());
+  }
 
-  //bundle = bundle.pipe(rename('main.js'))
-    //.pipe(gulp.dest('./static/assets/scripts'));
+  bundle = bundle.pipe(rename('main.js'))
+    .pipe(gulp.dest('./static/assets/scripts'));
 
-  //return bundle;
+  return bundle;
 
-//});
-
+});
