@@ -68,6 +68,22 @@ footer {
   color: $color-white;
 }
 
+.usa-site-header {
+  border-bottom: 1px solid $color-gray-lighter;
+}
+
+.site-logo {
+  h1 {
+    @include margin (16px null);
+    font-family: $font-sans;
+    font-size: $h3-font-size;
+  }
+
+  a {
+    color: $color-secondary-dark;
+  }
+}
+
 // Home page ------------ //
 
 .page-vote {
