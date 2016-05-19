@@ -1,6 +1,4 @@
 baseurl = "https://vote.usa.gov/"
-languageCode = "en-us"
-title = "Voter Registration"
 
 # Taxnomies used to categorize states and territories by registration type
 # ex. registration_types = [ 'by_mail', 'in_person', 'not_needed', 'online' ]
@@ -9,3 +7,4 @@ registration_type = "registration_types"
 
 [params]
 Owner = "USA.gov"
+lang = "en-US"

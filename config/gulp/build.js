@@ -60,7 +60,7 @@ gulp.task('website', [ 'build', 'watch' ], function (done) {
     buildDrafts = '';
   }
 
-  var hugo = spawn('hugo', [ 'server', buildDrafts ]);
+  var hugo = spawn('hugo', [ 'server', buildDrafts, '--config=config_es.toml' ]);
 
   hugo.stdout.on('data', function (data) {
     gutil.log(gutil.colors.blue('website'), '\n' + data);
