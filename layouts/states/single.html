@@ -5,8 +5,8 @@
   {{ $registration_template := printf "register-%s" $registration_type }}
 
   <body class="page-register-{{ .Params.registration_type }}">
+    {{ partial "header.html" . }}
     <div id="main" role="main">
-      <a class="skipnav" href="#main-content">Skip main navigation</a>
 
       {{ .Render $registration_template }}
 
