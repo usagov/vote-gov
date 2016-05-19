@@ -1,0 +1,4 @@
+---
+inherit: manifest.yml
+host: vote-usa-staging
+
