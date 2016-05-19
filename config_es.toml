@@ -1,0 +1,6 @@
+baseurl = "https://vote.usa.gov/es"
+languageCode = "es"
+title = "Voter Registration but in spanish"
+
+[params]
+lang = "es"
