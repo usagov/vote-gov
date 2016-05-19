@@ -1,29 +1,32 @@
-<div class="usa-grid page-inner main-content">
-  <header>
-    <h1>Register to vote</h1>
-  </header>
+<div class="usa-grid page-inner registration-steps">
+  <h1>Register to vote</h1>
+  <p class="usa-font-lead">{{ .Title }} allows residents to register by mail.</p>
   <!-- Steps BEGIN -->
-  <div class="graphic-list">
+  <div class="usa-width-one-third">
     <img src="{{ .Site.BaseURL }}assets/img/step-1.png">
-    <h4 class="usa-graphic-list-heading">Step 1</h4>
+    <h4>Step 1</h4>
     <p>Fill out your voter registration.</p>
+  </div>
+  <div class="usa-width-one-third">
     <img src="{{ .Site.BaseURL }}assets/img/step-2.png">
-    <h4 class="usa-graphic-list-heading">Step 2</h4>
+    <h4>Step 2</h4>
     <p>Mail it to your state.</p>
+  </div>
+  <div class="usa-width-one-third">
     <img src="{{ .Site.BaseURL }}assets/img/step-3.png">
-    <h4 class="usa-graphic-list-heading">Step 3</h4>
+    <h4>Step 3</h4>
     <p>Vote in the upcoming election!</p>
   </div>
   <!-- Steps END -->
+</div>
 
-  <!-- Download form BEGIN -->
-  <b>
-    {{ range $key, $form := $.Site.Data.registration_forms }}
-      {{ if gt $form.weight 0 }}
-      <a href="{{ $.Site.BaseURL }}{{ $form.file_path }}" target="_blank">Download the registration form (PDF)</a>
-      {{ end }}
+<!-- Download form BEGIN -->
+<div class="usa-grid page-inner section-pdf-download">
+  {{ range $key, $form := $.Site.Data.registration_forms }}
+    {{ if gt $form.weight 0 }}
+    <a class="usa-button" href="{{ $.Site.BaseURL }}{{ $form.file_path }}" target="_blank">Download the form (PDF)</a>
     {{ end }}
-  </b>
+  {{ end }}
   <p>{{ $.Scratch.Get "alt_forms" }}</p>
   <p>Download the form in other languages:</p>
   <div class="width-one-half">
@@ -45,6 +48,5 @@
   {{ end }}
     </ul>
   </div>
-  <!-- Download form END -->
 </div>
-
+<!-- Download form END -->

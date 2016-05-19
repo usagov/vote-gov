@@ -196,7 +196,8 @@ footer {
 }
 
 .section-back {
-  padding: 1rem 3rem 6rem 3rem;
+  padding-bottom: 6rem;
+  padding-top: 1rem;
 
   a:hover > .chevron-left {
     fill: $color-primary-darker;
@@ -215,19 +216,14 @@ footer {
 
 // Register by mail --------- //
 
-.graphic-list {
-  padding-bottom: 1rem;
-
-  img {
-    float: left;
-    margin-right: 2rem;
-  }
-
-  p {
-    margin-top: 0;
-  }
+.registration-steps {
+  margin-bottom: 2rem;
 }
 
-.usa-graphic-list-heading {
-  clear: none;
+.section-pdf-download {
+  padding-bottom: 3rem;
+
+  @include media($medium-screen) {
+    padding-bottom: 8.3rem;
+  }
 }
