@@ -9,13 +9,9 @@ $font-light: 300;
 
 // Styles --------------- //
 
-.page-inner {
-  max-width: 638px;
-}
-
 h1 {
   color: $color-primary-darkest;
-  margin-top: 3rem;
+  margin-top: $site-margins;
 
   @include media($medium-screen) {
     margin-top: 1.5em;
@@ -37,53 +33,13 @@ h1 {
   font-weight: $font-light;
 }
 
-footer {
-  @include padding(1rem null);
-  background-color: $color-gray-lightest;
-  height: 5.7rem;
-  width: 100%;
-
-  a {
-    color: $color-base;
-    font-size: $h6-font-size;
-    text-transform: uppercase;
-  }
+.usa-site-header {
+  border-bottom: 1px solid $color-gray-lighter;
 }
-
-.footer-inner {
-  @include margin(null $site-margins);
-
-  @include media($medium-screen) {
-    align-items: center;
-    display: flex;
-    float: right;
-    text-align: right;
-  }
-}
-
-.footer-logo {
-  margin-top: 2px;
-  max-width: 3.4rem;
-}
-
-.media_link {
-  display: inline-block;
-  line-height: 0;
-}
-
-.footer-link {
-  float: right;
-  margin-top: 1rem;
-}
-
 
 .usa-disclaimer {
   background-color: $color-primary-darkest;
   color: $color-white;
-}
-
-.usa-site-header {
-  border-bottom: 1px solid $color-gray-lighter;
 }
 
 .site-logo {
@@ -98,6 +54,36 @@ footer {
   }
 }
 
+footer {
+  @include padding(1rem null);
+  background-color: $color-gray-lightest;
+  height: 5.7rem;
+
+  a {
+    @include h6();
+    color: $color-base;
+  }
+}
+
+.media_link {
+  display: inline-block;
+  line-height: 0;
+}
+
+.footer-logo {
+  margin-top: 2px;
+  max-width: 3.4rem;
+}
+
+.footer-link {
+  float: right;
+  margin-top: 1rem;
+}
+
+.page-inner {
+  max-width: 63.8rem;
+}
+
 // Home page ------------ //
 
 .page-vote {
@@ -106,10 +92,8 @@ footer {
     border-bottom: 0;
   }
 
-  .site-logo {
-    a {
-      color: $color-white;
-    }
+  a {
+    color: $color-white;
   }
 
   h1,
@@ -128,10 +112,7 @@ footer {
   }
 
   .page-vote-main {
-    background: $color-primary; // fallback color
-    background: -moz-linear-gradient(-180deg, $color-primary 66%, #003366 100%); // FF3.6-15
-    background: -webkit-linear-gradient(-180deg, $color-primary 66%, #003366 100%); // Chrome10-25,Safari5.1-6
-    background: linear-gradient(-180deg, $color-primary 66%, #003366 100%); // W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+    @include linear-gradient($color-primary 66%, #003366 100%, $fallback: $color-primary);
   }
 
   .page-inner {
@@ -140,7 +121,8 @@ footer {
     @include media($medium-screen) {
       min-height: 60rem;
     }
-
+    
+    // third level nesting
     header {
       @include media($medium-screen) {
         text-align: center;
@@ -149,26 +131,15 @@ footer {
   }
 
   footer {
-    height: 5.7rem;
     position: relative;
   }
-}
-
-.img-ballot_box {
-  bottom: 2px;
-  left: 0;
-  margin: 0 auto;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  width: 175px;
 }
 
 .form-register {
   margin: 0 auto;
 
   @include media($medium-screen) {
-    max-width: 290px;
+    max-width: 29rem;
   }
   
   p {
@@ -180,8 +151,18 @@ footer {
   }
 }
 
-.ballot-container {
+.footer-graphic {
   text-align: center;
+
+  img {
+    bottom: 2px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 17.5rem;
+  }
 }
 
 // Inner pages ---------- //
@@ -195,37 +176,34 @@ footer {
 }
 
 .chevron-left {
-  height: 14px;
+  height: 1.4rem;
   fill: $color-primary;
-  width: 14px;
+  width: 1.4rem;
 }
 
 .section-back {
   padding-bottom: 6rem;
+}
 
-  a:hover > .chevron-left {
+a:hover {
+  > .chevron-left {
     fill: $color-primary-darker;
   }
 }
 
-.section-back-border {
+.section-back-inner {
   border-top: 1px solid $color-gray-lighter;
   padding-top: 2rem;
 }
 
-.width-one-half {
-  @include span-columns(6);
-}
-
-
 // Register by mail --------- //
 
-.registration-steps {
+.mail-steps {
   margin-bottom: 2rem;
 }
 
-.section-pdf-download {
-  padding-bottom: 3rem;
+.mail-download {
+  padding-bottom: $site-margins;
 
   @include media($medium-screen) {
     padding-bottom: 8.3rem;

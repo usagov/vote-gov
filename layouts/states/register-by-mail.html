@@ -1,4 +1,4 @@
-<div class="usa-grid page-inner registration-steps">
+<div class="usa-grid page-inner mail-steps">
   <h1>Register to vote</h1>
   <p class="usa-font-lead">{{ .Title }} allows residents to register by mail.</p>
   <!-- Steps BEGIN -->
@@ -21,7 +21,7 @@
 </div>
 
 <!-- Download form BEGIN -->
-<div class="usa-grid page-inner section-pdf-download">
+<div class="usa-grid page-inner mail-download">
   {{ range $key, $form := $.Site.Data.registration_forms }}
     {{ if gt $form.weight 0 }}
     <a class="usa-button" href="{{ $.Site.BaseURL }}{{ $form.file_path }}" target="_blank">Download the form (PDF)</a>
