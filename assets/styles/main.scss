@@ -37,6 +37,12 @@ footer {
   background-color: $color-gray-lightest;
   height: 5.7rem;
   width: 100%;
+
+  a {
+    color: $color-base;
+    font-size: $h6-font-size;
+    text-transform: uppercase;
+  }
 }
 
 .footer-inner {
@@ -48,27 +54,23 @@ footer {
     float: right;
     text-align: right;
   }
-
-  a {
-    color: $color-base;
-    font-size: $h6-font-size;
-    text-transform: uppercase;
-
-    &:nth-child(2) {
-      float: right;
-      margin-top: 1rem;
-
-      @include media($medium-screen) {
-        margin-top: 0;
-      }
-    }
-  }
-
-  img {
-    margin-right: 2rem;
-    max-width: 3.4rem;
-  }
 }
+
+.footer-logo {
+  margin-top: 2px;
+  max-width: 3.4rem;
+}
+
+.media_link {
+  display: inline-block;
+  line-height: 0;
+}
+
+.footer-link {
+  float: right;
+  margin-top: 1rem;
+}
+
 
 .usa-disclaimer {
   background-color: $color-primary-darkest;
