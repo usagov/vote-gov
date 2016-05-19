@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "gulpfile.js",
   "scripts": {
+    "start": "gulp website",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
