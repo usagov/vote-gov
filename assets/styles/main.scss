@@ -106,8 +106,10 @@ footer {
     border-bottom: 0;
   }
 
-  a {
-    color: $color-white;
+  .site-logo {
+    a {
+      color: $color-white;
+    }
   }
 
   h1,
@@ -146,10 +148,6 @@ footer {
 
   footer {
     position: relative;
-
-    a {
-      color: $color-base;
-    }
   }
 }
 
