@@ -201,13 +201,29 @@ footer {
   padding-bottom: 6rem;
 
   a {
-    color: $color-primary;
+    display: block;
+    position: relative;
+    width: 9rem;
+
+    &:visited {
+      color: $color-primary;
+    }
+  }
+
+  span {
+    position: absolute;
+    padding-left: 5px;
+    top: -1px;
   }
 }
 
 a:hover {
   > .chevron-left {
     fill: $color-primary-darker;
+  }
+
+  > span {
+    color: $color-primary-darker;
   }
 }
 
