@@ -35,7 +35,7 @@ h1 {
 footer {
   @include padding(1rem null);
   background-color: $color-gray-lightest;
-  height: 5.3rem;
+  height: 5.7rem;
   width: 100%;
 }
 
@@ -94,6 +94,17 @@ footer {
 // Home page ------------ //
 
 .page-vote {
+  .usa-site-header {
+    background-color: $color-primary;
+    border-bottom: 0;
+  }
+
+  .site-logo {
+    a {
+      color: $color-white;
+    }
+  }
+
   h1,
   label {
     color: $color-white;
@@ -110,8 +121,8 @@ footer {
   }
 
   .page-vote-main {
-    background-color: #286397; // fallback color
-    @include linear-gradient(#225BA0, #1C4B84);
+    background-color: $color-primary; // fallback color
+    background-image: linear-gradient(-180deg, $color-primary 66%, #003366 100%);
   }
 
   .page-inner {
@@ -120,16 +131,22 @@ footer {
     @include media($medium-screen) {
       min-height: 60rem;
     }
+
+    header {
+      @include media($medium-screen) {
+        text-align: center;
+      }
+    }
   }
 
   footer {
-    height: 6rem;
+    height: 5.7rem;
     position: relative;
   }
 }
 
 .img-ballot_box {
-  bottom: 5px;
+  bottom: 2px;
   left: 0;
   margin: 0 auto;
   position: absolute;
@@ -142,7 +159,11 @@ footer {
   margin: 0 auto;
 
   @include media($medium-screen) {
-    max-width: 300px;
+    max-width: 290px;
+  }
+  
+  p {
+    color: $color-white;
   }
 
   [type="submit"] {

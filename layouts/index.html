@@ -6,21 +6,22 @@
       <a class="skipnav" href="#main-content">Skip main navigation</a>
 
       <!-- Register BEGIN -->
-      <div class="usa-grid page-inner">
+      <section class="usa-grid page-inner">
         <header>
           <h1 class="usa-display">Register to vote</h1>
         </header>
         <form class="form-register" action="/states/" method="get">
-          <label for="user-selection">Select your state or territory</label>
+          <p>Where do you vote?</p>
+          <label class="usa-sr-only" for="user-selection">Select your state or territory</label>
           <select name="user-selection" id="js-user-selection">
-            <option value=""></option>
+            <option value="">Select your state or territory</option>
             {{ range where .Data.Pages.ByTitle "Section" "states" }}
               <option value="{{ .Slug}}">{{ title .Title }}</option>
             {{ end }}
           </select>
-          <button class="usa-button-secondary usa-button-big" id="js-user-submit" type="submit">Find out how to register</button>
+          <button class="usa-button-big usa-button-disabled" id="js-user-submit" type="submit">Find out how to register</button>
         </form>
-      </div>
+      </section>
       <!-- Register END -->
 
       <!-- Footer BEGIN -->
