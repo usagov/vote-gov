@@ -251,3 +251,31 @@ a:hover {
     text-decoration: underline;
   }
 }
+
+.graphic-list {
+  img {
+    float: left;
+    margin-right: 2rem;
+
+    @include media($medium-screen) {
+      float: none;
+      margin-right: 0;      
+    }
+  }
+
+  p {
+    margin-top: 0;
+
+    @include media($medium-screen) {
+      margin-top: 1em;
+    }
+  }
+}
+
+.usa-graphic-list-heading {
+  clear: none;
+
+  @include media($medium-screen) {
+    clear: both;
+  }
+}
