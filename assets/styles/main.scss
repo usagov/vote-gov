@@ -15,6 +15,11 @@ $font-light: 300;
 
 h1 {
   color: $color-primary-darkest;
+  margin-top: 3rem;
+
+  @include media($medium-screen) {
+    margin-top: 1.5em;
+  }
 }
 
 .usa-display {
@@ -182,7 +187,7 @@ footer {
 // Inner pages ---------- //
 
 .main-content {
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 
   @include media($medium-screen) {
     min-height: 50rem;
@@ -197,7 +202,6 @@ footer {
 
 .section-back {
   padding-bottom: 6rem;
-  padding-top: 1rem;
 
   a:hover > .chevron-left {
     fill: $color-primary-darker;
