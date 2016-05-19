@@ -56,13 +56,17 @@ h1 {
 }
 
 footer {
-  @include padding(1rem null);
+  @include padding(.6rem null);
   background-color: $color-gray-lightest;
-  height: 5.7rem;
+  height: 6.2rem;
 
   a {
     @include h6();
     color: $color-base;
+
+    &:hover {
+      color: $color-base;
+    }
   }
 }
 
@@ -71,15 +75,24 @@ footer {
   line-height: 0;
 }
 
-.footer-logo {
-  margin-top: 2px;
-  max-width: 3.4rem;
+.footer-link {
+  display: inline-block;
+  margin-top: 1.8rem;
+
+  &:visited {
+    color: $color-base;
+  }
 }
 
-.footer-link {
+.footer-logo {
   float: right;
-  margin-top: 1rem;
+
+  img {
+    margin-top: 2px;
+    max-width: 4.6rem;    
+  }
 }
+
 
 .page-inner {
   max-width: 63.8rem;
@@ -188,6 +201,10 @@ footer {
 
 .section-back {
   padding-bottom: 6rem;
+
+  a {
+    color: $color-primary;
+  }
 }
 
 a:hover {
