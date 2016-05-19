@@ -29,7 +29,7 @@
   {{ end }}
   <p>{{ $.Scratch.Get "alt_forms" }}</p>
   <p>Download the form in other languages:</p>
-  <ul class="usa-unstyled-list">
+  <ul class="usa-unstyled-list mail-download-list">
     {{ $.Scratch.Set "alt_forms" 0 }}
     {{ range $.Site.Data.registration_forms }}
       {{ if lt .weight 1 }}
