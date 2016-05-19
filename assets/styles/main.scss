@@ -4,14 +4,17 @@
 
 // Variables ------------ //
 
+$font-light: 300;
+
+
 // Styles --------------- //
 
 .page-inner {
-  max-width: 490px;
+  max-width: 638px;
 }
 
 h1 {
-  color: $color-primary-darker;
+  color: $color-primary-darkest;
 }
 
 .usa-display {
@@ -23,6 +26,10 @@ h1 {
     font-size: $title-font-size;
     margin-top: 1.5em;
   }
+}
+
+.usa-font-lead {
+  font-weight: $font-light;
 }
 
 footer {
