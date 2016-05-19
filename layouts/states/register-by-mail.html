@@ -29,24 +29,16 @@
   {{ end }}
   <p>{{ $.Scratch.Get "alt_forms" }}</p>
   <p>Download the form in other languages:</p>
-  <div class="width-one-half">
-    <ul class="usa-unstyled-list">
-  {{ $.Scratch.Set "alt_forms" 0 }}
-  {{ range $.Site.Data.registration_forms }}
-    {{ if lt .weight 1 }}
-      {{ $.Scratch.Add "alt_forms" 1 }}
-      <li>
-        <a href="{{ $.Site.BaseURL }}{{ .file_path }}" target="_blank">{{ .language }}</a>
-      </li>
+  <ul class="usa-unstyled-list">
+    {{ $.Scratch.Set "alt_forms" 0 }}
+    {{ range $.Site.Data.registration_forms }}
+      {{ if lt .weight 1 }}
+        {{ $.Scratch.Add "alt_forms" 1 }}
+        <li>
+          <a href="{{ $.Site.BaseURL }}{{ .file_path }}" target="_blank">{{ .language }}</a>
+        </li>
+      {{ end }}
     {{ end }}
-    {{ if modBool ( $.Scratch.Get "alt_forms" ) 5 }}
-    </ul>
-  </div>
-  <div class="width-one-half">
-    <ul class="usa-unstyled-list">
-    {{ end }}
-  {{ end }}
-    </ul>
-  </div>
+  </ul>
 </div>
 <!-- Download form END -->
