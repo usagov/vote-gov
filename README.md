@@ -7,6 +7,7 @@ website.
  ------- | -----------
  [Installation](#installation)   | Installing the project locally.
  [Development](#development)     | Development workflow using `gulp`.
+ [Deployment](#deployment)       | Manual deployment information using `cloud.gov`.
  [Contributing](CONTRIBUTING.md) | Contributing to the project
 
 ## Installation
@@ -104,6 +105,59 @@ affected by them.
 - `no-test` This flag disables linters and tests for all assets.
 - `production` This flag enables minification and compression of all assets in
   prep for a production environment.
+
+## Deployment
+
+The microsite is deployed on [cloud.gov] [cg-homepage]. To read the `cloud.gov`
+documentation, [click here] [cg-docs]. The documentation below makes the
+following assumptions.
+
+- Assuming you have the `cf` binary installed on your machine and within your
+  `$PATH`.
+    - [Please read _Setting up the command line_] [cg-docs-cli-install] for more
+      information.
+- Assuming that you have a `cloud.gov` account.
+    - [Please read _Setting up your account_] [cg-docs-cg-account] for more
+      information.
+
+[cg-homepage]: https://cloud.gov "Cloud.gov: Homepage"
+[cg-docs]: https://docs.cloud.gov "Cloud.gov: Documentation"
+[cg-docs-cli-install]: https://docs.cloud.gov/getting-started/setup/ "Cloud.gov: Setting up the command line"
+[cg-docs-cg-account]: https://docs.cloud.gov/getting-started/accounts/ "Cloud.gov: Setting up your account"
+
+### Manual deployment
+
+Using the `cf` command-line tool, you can run a manual deployment to the
+`staging` environment by targeting the corresponding organization / space
+and as long as you have access to `cf push` the target. More information on
+deploying to `cloud.gov` can be found [here] [cg-deploy-hw] and [here] [cg-deploy-ss].
+
+[cg-deploy-hw]: https://docs.cloud.gov/getting-started/your-first-deploy/ "Cloud.gov: Your First Deploy"
+[cg-deploy-ss]: https://docs.cloud.gov/apps/static/ "Cloud.gov: Deploying Static Sites"
+
+To check which space you're targeting using the `cf` command-line tool, type the
+following in your terminal.
+
+```sh
+cf target
+```
+
+#### Building the `vote.gov` site locally
+
+Type the following in your terminal.
+
+```sh
+SITE_BASEURL="https://vote-usa-staging.apps.cloud.gov/" npm run build
+```
+
+#### Pushing to a target
+
+Once the `vote.gov` site has been built locally by running the above command, you
+can push your changes up to the targeted space. Type the following in your terminal.
+
+```sh
+cf push -f manifest-staging.yml
+```
 
 ## Public domain
 
