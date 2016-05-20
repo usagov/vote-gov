@@ -6,13 +6,13 @@
       <a class="skipnav" href="#main-content">Skip main navigation</a>
 
       <!-- Register BEGIN -->
-      <section class="usa-grid page-inner">
+      <section class="usa-grid page-inner" id="main-content">
         <header>
           <h1 class="usa-display">Register to vote</h1>
         </header>
         <form class="form-register" action="/states/" method="get">
           <p>Where do you vote?</p>
-          <label class="usa-sr-only" for="user-selection">Select your state or territory</label>
+          <label class="usa-sr-only" for="js-user-selection">Select your state or territory</label>
           <select name="user-selection" id="js-user-selection">
             <option value="">Select your state or territory</option>
             {{ range where .Data.Pages.ByTitle "Section" "states" }}
@@ -31,10 +31,10 @@
         </div>
 
         <div class="usa-grid">
-          <a class="media_link" href="https://usa.gov/">
-            <img class="footer-logo" src="{{ .Site.BaseURL }}assets/img/usagov-logo.png">
-          </a>
           <a class="footer-link" href="#">Privacy policy</a>
+          <a class="footer-logo media_link" href="https://usa.gov/">
+            <img src="{{ .Site.BaseURL }}assets/img/usagov-logo.png" alt="USA.gov logo">
+          </a>
         </div>
       </footer>
       <!-- Footer END -->

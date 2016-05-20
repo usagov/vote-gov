@@ -40,6 +40,11 @@ h1 {
 .usa-disclaimer {
   background-color: $color-primary-darkest;
   color: $color-white;
+  font-size: 12px;
+
+  @include media($medium-screen) {
+    font-size: $h6-font-size;
+  }
 }
 
 .site-logo {
@@ -55,13 +60,17 @@ h1 {
 }
 
 footer {
-  @include padding(1rem null);
+  @include padding(.6rem null);
   background-color: $color-gray-lightest;
-  height: 5.7rem;
+  height: 6.2rem;
 
   a {
     @include h6();
     color: $color-base;
+
+    &:hover {
+      color: $color-base;
+    }
   }
 }
 
@@ -70,15 +79,24 @@ footer {
   line-height: 0;
 }
 
-.footer-logo {
-  margin-top: 2px;
-  max-width: 3.4rem;
+.footer-link {
+  display: inline-block;
+  margin-top: 1.8rem;
+
+  &:visited {
+    color: $color-base;
+  }
 }
 
-.footer-link {
+.footer-logo {
   float: right;
-  margin-top: 1rem;
+
+  img {
+    margin-top: 2px;
+    max-width: 4.6rem;    
+  }
 }
+
 
 .page-inner {
   max-width: 63.8rem;
@@ -92,8 +110,10 @@ footer {
     border-bottom: 0;
   }
 
-  a {
-    color: $color-white;
+  .site-logo {
+    a {
+      color: $color-white;
+    }
   }
 
   h1,
@@ -132,10 +152,6 @@ footer {
 
   footer {
     position: relative;
-
-    a {
-      color: $color-base;
-    }
   }
 }
 
@@ -159,7 +175,7 @@ footer {
   text-align: center;
 
   img {
-    bottom: 2px;
+    bottom: 7px;
     left: 0;
     margin: 0 auto;
     position: absolute;
@@ -187,11 +203,31 @@ footer {
 
 .section-back {
   padding-bottom: 6rem;
+
+  a {
+    display: block;
+    position: relative;
+    width: 9rem;
+
+    &:visited {
+      color: $color-primary;
+    }
+  }
+
+  span {
+    position: absolute;
+    padding-left: 5px;
+    top: -1px;
+  }
 }
 
 a:hover {
   > .chevron-left {
     fill: $color-primary-darker;
+  }
+
+  > span {
+    color: $color-primary-darker;
   }
 }
 
@@ -211,5 +247,39 @@ a:hover {
 
   @include media($medium-screen) {
     padding-bottom: 8.3rem;
+  }
+}
+
+.mail-download-list {
+  a {
+    text-decoration: underline;
+  }
+}
+
+.graphic-list {
+  img {
+    float: left;
+    margin-right: 2rem;
+
+    @include media($medium-screen) {
+      float: none;
+      margin-right: 0;      
+    }
+  }
+
+  p {
+    margin-top: 0;
+
+    @include media($medium-screen) {
+      margin-top: 1em;
+    }
+  }
+}
+
+.usa-graphic-list-heading {
+  clear: none;
+
+  @include media($medium-screen) {
+    clear: both;
   }
 }

@@ -2,20 +2,22 @@
   <h1>Register to vote</h1>
   <p class="usa-font-lead">{{ .Title }} allows residents to register by mail.</p>
   <!-- Steps BEGIN -->
-  <div class="usa-width-one-third">
-    <img src="{{ .Site.BaseURL }}assets/img/step-1.png">
-    <h4>Step 1</h4>
-    <p>Fill out your voter registration.</p>
-  </div>
-  <div class="usa-width-one-third">
-    <img src="{{ .Site.BaseURL }}assets/img/step-2.png">
-    <h4>Step 2</h4>
-    <p>Mail it to your state.</p>
-  </div>
-  <div class="usa-width-one-third">
-    <img src="{{ .Site.BaseURL }}assets/img/step-3.png">
-    <h4>Step 3</h4>
-    <p>Vote in the upcoming election!</p>
+  <div class="graphic-list">
+    <div class="usa-width-one-third">
+      <img src="{{ .Site.BaseURL }}assets/img/step-1.png">
+      <h4 class="usa-graphic-list-heading">Step 1</h4>
+      <p>Fill out your voter registration.</p>
+    </div>
+    <div class="usa-width-one-third">
+      <img src="{{ .Site.BaseURL }}assets/img/step-2.png">
+      <h4 class="usa-graphic-list-heading">Step 2</h4>
+      <p>Mail it to your state.</p>
+    </div>
+    <div class="usa-width-one-third">
+      <img src="{{ .Site.BaseURL }}assets/img/step-3.png">
+      <h4 class="usa-graphic-list-heading">Step 3</h4>
+      <p>Vote in the upcoming election!</p>
+    </div>
   </div>
   <!-- Steps END -->
 </div>
@@ -29,7 +31,7 @@
   {{ end }}
   <p>{{ $.Scratch.Get "alt_forms" }}</p>
   <p>Download the form in other languages:</p>
-  <ul class="usa-unstyled-list">
+  <ul class="usa-unstyled-list mail-download-list">
     {{ $.Scratch.Set "alt_forms" 0 }}
     {{ range $.Site.Data.registration_forms }}
       {{ if lt .weight 1 }}
