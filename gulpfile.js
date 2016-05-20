@@ -3,11 +3,11 @@
 // be used by Hugo.
 
 // Bring in individual gulp configs
+require('./config/gulp/flags');
 require('./config/gulp/styles');
 require('./config/gulp/scripts');
 require('./config/gulp/images');
 require('./config/gulp/fonts');
-require('./config/gulp/flags');
 var build = require('./config/gulp/build');
 
 var gulp = require('gulp');
