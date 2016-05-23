@@ -6,7 +6,7 @@
     "postinstall": "gem install scss_lint",
     "build": "gulp build:website",
     "start": "gulp website",
-    "test": "gulp eslint scss-lint"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
