@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "gulpfile.js",
   "scripts": {
+    "postinstall": "gem install scss_lint",
     "build": "gulp build:website",
     "start": "gulp website",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp eslint scss-lint"
   },
   "repository": {
     "type": "git",

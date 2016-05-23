@@ -19,7 +19,8 @@ gulp.task('eslint', function (done) {
     .pipe(eslint({
       configFile: './.eslintrc',
     }))
-    .pipe(eslint.format());
+    .pipe(eslint.format())
+    .pipe(eslint.failAfterError());
 
 });
 
