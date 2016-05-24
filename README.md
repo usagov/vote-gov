@@ -8,7 +8,8 @@ website.
  [Installation](#installation)   | Installing the project locally.
  [Development](#development)     | Development workflow using `gulp`.
  [Deployment](#deployment)       | Automated & Manual deployment information using `cloud.gov`.
- [Contributing](CONTRIBUTING.md) | Contributing to the project
+ [Contributing](CONTRIBUTING.md) | Contributing to the project.
+ [Wiki](https://github.com/18F/vote-gov/wiki) | `18F/vote-gov` wiki.
 
 ## Installation
 
