@@ -7,7 +7,7 @@ website.
  ------- | -----------
  [Installation](#installation)   | Installing the project locally.
  [Development](#development)     | Development workflow using `gulp`.
- [Deployment](#deployment)       | Manual deployment information using `cloud.gov`.
+ [Deployment](#deployment)       | Automated & Manual deployment information using `cloud.gov`.
  [Contributing](CONTRIBUTING.md) | Contributing to the project
 
 ## Installation
@@ -125,15 +125,28 @@ following assumptions.
 [cg-docs-cli-install]: https://docs.cloud.gov/getting-started/setup/ "Cloud.gov: Setting up the command line"
 [cg-docs-cg-account]: https://docs.cloud.gov/getting-started/accounts/ "Cloud.gov: Setting up your account"
 
+### Automated deployment
+
+This project uses [CircleCI] [cci-homepage] for continuous deployment. Our
+current process deploys our `staging` branch and our `master` branch to their
+own [`staging`] [vote-staging] and [`production`] [vote-production] URLs.
+
+[cci-homepage]: https://circleci.com "CircleCI: Homepage"
+[vote-staging]: https://vote-gov-staging.apps.cloud.gov "Vote USA: Staging"
+[vote-production]: https://vote-gov.apps.cloud.gov "Vote USA: Production"
+
 ### Manual deployment
 
-Using the `cf` command-line tool, you can run a manual deployment to the
-`staging` environment by targeting the corresponding organization / space
+Using the `cf` command-line tool, you can run a manual deployment to either
+`staging` or `production` by targeting the corresponding organization / space
 and as long as you have access to `cf push` the target. More information on
 deploying to `cloud.gov` can be found [here] [cg-deploy-hw] and [here] [cg-deploy-ss].
 
 [cg-deploy-hw]: https://docs.cloud.gov/getting-started/your-first-deploy/ "Cloud.gov: Your First Deploy"
 [cg-deploy-ss]: https://docs.cloud.gov/apps/static/ "Cloud.gov: Deploying Static Sites"
+
+> Manual deployments are not necessary as all deployments _should_ go through
+> CircleCI.
 
 To check which space you're targeting using the `cf` command-line tool, type the
 following in your terminal.
@@ -144,19 +157,38 @@ cf target
 
 #### Building the `vote.gov` site locally
 
-Type the following in your terminal.
+The `vote.gov` site is built using the `npm run build` command. This command
+looks for an environment variable containing the site's base-URL. This URL must
+be assigned to the `SITE_BASEURL` variable before running `npm run build` and
+must be set to the proper value depending on the space you're targeting.
+
+Type the following in your terminal to build the site for the staging space:
 
 ```sh
-SITE_BASEURL="https://vote-usa-staging.apps.cloud.gov/" npm run build
+SITE_BASEURL="https://vote-gov-staging.apps.cloud.gov/" npm run build
+```
+
+Type the following in your terminal to build the site for the production space:
+
+```sh
+SITE_BASEURL="https://vote-gov.apps.cloud.gov/" npm run build
 ```
 
 #### Pushing to a target
 
 Once the `vote.gov` site has been built locally by running the above command, you
-can push your changes up to the targeted space. Type the following in your terminal.
+can push your changes up to the targeted space.
+
+Type the following in your terminal to deploy to the staging space:
 
 ```sh
 cf push -f manifest-staging.yml
+```
+
+Type the following in your terminal to deploy to the production space:
+
+```sh
+cf push
 ```
 
 ## Public domain

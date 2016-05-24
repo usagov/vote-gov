@@ -5,6 +5,7 @@
 // Variables ------------ //
 
 $font-light: 300;
+$color-blue-dark: #003366;
 
 
 // Styles --------------- //
@@ -93,7 +94,7 @@ footer {
 
   img {
     margin-top: 2px;
-    max-width: 4.6rem;    
+    max-width: 4.6rem;
   }
 }
 
@@ -132,7 +133,7 @@ footer {
   }
 
   .page-vote-main {
-    @include linear-gradient($color-primary 66%, #003366 100%, $fallback: $color-primary);
+    @include linear-gradient($color-primary 66%, $color-blue-dark 100%, $fallback: $color-primary);
   }
 
   .page-inner {
@@ -141,7 +142,7 @@ footer {
     @include media($medium-screen) {
       min-height: 60rem;
     }
-    
+
     // third level nesting
     header {
       @include media($medium-screen) {
@@ -161,7 +162,7 @@ footer {
   @include media($medium-screen) {
     max-width: 29rem;
   }
-  
+
   p {
     color: $color-white;
   }
@@ -263,7 +264,7 @@ a:hover {
 
     @include media($medium-screen) {
       float: none;
-      margin-right: 0;      
+      margin-right: 0;
     }
   }
 
