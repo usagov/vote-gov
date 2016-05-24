@@ -5,6 +5,7 @@
 // Variables ------------ //
 
 $font-light: 300;
+$color-blue-dark: #003366;
 
 
 // Styles --------------- //
@@ -132,7 +133,7 @@ footer {
   }
 
   .page-vote-main {
-    @include linear-gradient($color-primary 66%, #003366 100%, $fallback: $color-primary);
+    @include linear-gradient($color-primary 66%, $color-blue-dark 100%, $fallback: $color-primary);
   }
 
   .page-inner {
