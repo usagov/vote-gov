@@ -23,7 +23,7 @@ test:
   pre:
     - gulp -v
     - scss-lint -v
-    - hugo -v
+    - hugo version
 
 deployment:
   production:
