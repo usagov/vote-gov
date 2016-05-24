@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "gulpfile.js",
   "scripts": {
+    "postinstall": "gem install scss_lint",
+    "build": "gulp build:website",
     "start": "gulp website",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -15,9 +17,13 @@
     "url": "https://github.com/18F/vote-gov/issues"
   },
   "homepage": "https://github.com/18F/vote-gov#readme",
+  "license": "CC0-1.0",
   "devDependencies": {
     "browserify": "^13.0.0",
     "del": "^2.2.0",
+    "eslint": "^2.10.2",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.0",
     "gulp": "^3.9.1",
     "gulp-eslint": "^2.0.0",
     "gulp-filter": "^3.0.1",
