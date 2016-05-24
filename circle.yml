@@ -8,10 +8,9 @@ dependencies:
     - if [ ! -f debs/temp.deb ]; then wget -qO debs/temp.deb https://cli.run.pivotal.io/stable?release=debian64; fi
     - sudo dpkg -i debs/temp.deb
     - cf -v
+    - rm -rf ./node_modules/node-sass
   cache_directories:
     - debs
-  post:
-    - rm -rvf ./node_modules
 
 deployment:
   production:
