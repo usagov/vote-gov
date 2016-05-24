@@ -10,6 +10,8 @@ dependencies:
     - cf -v
   cache_directories:
     - debs
+  post:
+    - rm -rvf ./node_modules
 
 deployment:
   production:
