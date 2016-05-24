@@ -1,4 +1,9 @@
 machine:
+  environment:
+    CIRCLE_BUILD_DIR: $HOME/$CIRCLE_PROJECT_REPONAME
+    PATH: $PATH:$CIRCLE_BUILD_DIR/bin
+  post:
+    - mkdir -p $CIRCLE_BUILD_DIR/bin
   node:
     version: 5.1.0
 
@@ -9,8 +14,16 @@ dependencies:
     - sudo dpkg -i debs/temp.deb
     - cf -v
     - rm -rf ./node_modules
+    - bash ./config/ci/install-hugo.sh
   cache_directories:
     - debs
+    - bin
+
+test:
+  pre:
+    - gulp -v
+    - scss-lint -v
+    - hugo -v
 
 deployment:
   production:
