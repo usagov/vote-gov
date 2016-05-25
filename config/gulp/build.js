@@ -71,6 +71,7 @@ gulp.task('website', [ 'build', 'watch' ], function (done) {
 
 });
 
+// TODO: Do we really need this? Let's remove it in a separate PR
 //function setBranchBaseUrl() {
   //if (process.env.SITE_BASEURL) {
     //gutil.log(gutil.colors.yellow('set-baseurl'), "Found pre-set SITE_BASEURL: " + process.env.SITE_BASEURL);
