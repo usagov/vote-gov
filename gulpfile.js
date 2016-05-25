@@ -3,13 +3,13 @@
 // be used by Hugo.
 
 // Bring in individual gulp configs
+require('./config/gulp/flags');
 require('./config/gulp/styles');
 require('./config/gulp/scripts');
 require('./config/gulp/images');
 require('./config/gulp/fonts');
-require('./config/gulp/flags');
 var build = require('./config/gulp/build');
-
+var runSequence = require('run-sequence');
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 
@@ -28,3 +28,12 @@ gulp.task('default', function (done) {
   gutil.log('Build the asset-pipeline and the website using Hugo');
   done();
 });
+
+gulp.task('test', function (done) {
+  build.printPackageInfo();
+  runSequence(
+    'eslint',
+    'scss-lint',
+    done
+  );
+})

@@ -4,14 +4,19 @@
 
 // Variables ------------ //
 
+$font-light: 300;
+$color-blue-dark: #003366;
+
+
 // Styles --------------- //
 
-.page-inner {
-  max-width: 490px;
-}
-
 h1 {
-  color: $color-primary-darker;
+  color: $color-primary-darkest;
+  margin-top: $site-margins;
+
+  @include media($medium-screen) {
+    margin-top: 1.5em;
+  }
 }
 
 .usa-display {
@@ -25,47 +30,93 @@ h1 {
   }
 }
 
-footer {
-  @include padding(1rem null);
-  background-color: $color-white;
-  width: 100%;
+.usa-font-lead {
+  font-weight: $font-light;
 }
 
-.footer-inner {
-  @include margin(null $site-margins);
+.usa-site-header {
+  border-bottom: 1px solid $color-gray-lighter;
+}
+
+.usa-disclaimer {
+  background-color: $color-primary-darkest;
+  color: $color-white;
+  font-size: 12px;
 
   @include media($medium-screen) {
-    align-items: center;
-    background-color: $color-white;
-    display: flex;
-    float: right;
-    text-align: right;
+    font-size: $h6-font-size;
+  }
+}
+
+.site-logo {
+  h1 {
+    @include margin (16px null);
+    font-family: $font-sans;
+    font-size: $h3-font-size;
   }
 
   a {
+    color: $color-secondary-dark;
+  }
+}
+
+footer {
+  @include padding(.6rem null);
+  background-color: $color-gray-lightest;
+  height: 6.2rem;
+
+  a {
+    @include h6();
     color: $color-base;
-    font-size: $h6-font-size;
-    text-transform: uppercase;
 
-    &:nth-child(2) {
-      float: right;
-      margin-top: 1rem;
-
-      @include media($medium-screen) {
-        margin-top: 0;
-      }
+    &:hover {
+      color: $color-base;
     }
   }
+}
+
+.media_link {
+  display: inline-block;
+  line-height: 0;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-top: 1.8rem;
+
+  &:visited {
+    color: $color-base;
+  }
+}
+
+.footer-logo {
+  float: right;
 
   img {
-    margin-right: 2rem;
-    max-width: 3.4rem;
+    margin-top: 2px;
+    max-width: 4.6rem;
   }
+}
+
+
+.page-inner {
+  max-width: 63.8rem;
 }
 
 // Home page ------------ //
 
 .page-vote {
+  .usa-site-header {
+    background-color: $color-primary;
+    border-bottom: 0;
+  }
+
+  .site-logo {
+    a {
+      color: $color-white;
+    }
+  }
+
   h1,
   label {
     color: $color-white;
@@ -82,8 +133,7 @@ footer {
   }
 
   .page-vote-main {
-    background-color: #286397; // fallback color
-    @include linear-gradient(#225BA0, #1C4B84);
+    @include linear-gradient($color-primary 66%, $color-blue-dark 100%, $fallback: $color-primary);
   }
 
   .page-inner {
@@ -92,29 +142,29 @@ footer {
     @include media($medium-screen) {
       min-height: 60rem;
     }
+
+    // third level nesting
+    header {
+      @include media($medium-screen) {
+        text-align: center;
+      }
+    }
   }
 
   footer {
-    height: 6rem;
     position: relative;
   }
-}
-
-.img-ballot_box {
-  bottom: 5px;
-  left: 0;
-  margin: 0 auto;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  width: 175px;
 }
 
 .form-register {
   margin: 0 auto;
 
   @include media($medium-screen) {
-    max-width: 300px;
+    max-width: 29rem;
+  }
+
+  p {
+    color: $color-white;
   }
 
   [type="submit"] {
@@ -122,44 +172,115 @@ footer {
   }
 }
 
-.ballot-container {
+.footer-graphic {
   text-align: center;
+
+  img {
+    bottom: 7px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 17.5rem;
+  }
 }
 
 // Inner pages ---------- //
 
 .main-content {
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 
   @include media($medium-screen) {
     min-height: 50rem;
   }
 }
 
-.section-back {
-  @include padding(1rem $site-margins);
-  background-color: $color-gray-warm-light;
+.chevron-left {
+  height: 1.4rem;
+  fill: $color-primary;
+  width: 1.4rem;
 }
 
-.width-one-half {
-  @include span-columns(6);
+.section-back {
+  padding-bottom: 6rem;
+
+  a {
+    display: block;
+    position: relative;
+    width: 9rem;
+
+    &:visited {
+      color: $color-primary;
+    }
+  }
+
+  span {
+    position: absolute;
+    padding-left: 5px;
+    top: -1px;
+  }
+}
+
+a:hover {
+  > .chevron-left {
+    fill: $color-primary-darker;
+  }
+
+  > span {
+    color: $color-primary-darker;
+  }
+}
+
+.section-back-inner {
+  border-top: 1px solid $color-gray-lighter;
+  padding-top: 2rem;
 }
 
 // Register by mail --------- //
 
-.graphic-list {
-  padding-bottom: 1rem;
+.mail-steps {
+  margin-bottom: 2rem;
+}
 
+.mail-download {
+  padding-bottom: $site-margins;
+
+  @include media($medium-screen) {
+    padding-bottom: 8.3rem;
+  }
+}
+
+.mail-download-list {
+  a {
+    text-decoration: underline;
+  }
+}
+
+.graphic-list {
   img {
     float: left;
     margin-right: 2rem;
+
+    @include media($medium-screen) {
+      float: none;
+      margin-right: 0;
+    }
   }
 
   p {
     margin-top: 0;
+
+    @include media($medium-screen) {
+      margin-top: 1em;
+    }
   }
 }
 
 .usa-graphic-list-heading {
   clear: none;
+
+  @include media($medium-screen) {
+    clear: both;
+  }
 }
