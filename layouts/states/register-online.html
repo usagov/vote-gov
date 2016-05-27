@@ -5,7 +5,7 @@
   </header>
   <p class="usa-font-lead">{{ title .Title }} allows residents to register online.</p>
   <p>
-    <a href="{{ .Params.external_link }}">Start your online registration</a>
+    <a href="{{ .Params.external_link }}?ref={{ .Site.Params.Referrer_Short_Code }}">Start your online registration</a>
   </p>
 </div>
 <!-- Register END -->
