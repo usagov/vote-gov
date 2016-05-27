@@ -1,14 +1,10 @@
 {{ partial "head.html" . }}
 
-  {{ $registration_type := .Params.registration_type }}
-
-  {{ $registration_template := printf "register-%s" $registration_type }}
-
   <body class="page-register-{{ .Params.registration_type }}">
     {{ partial "header.html" . }}
     <div id="main-content" role="main">
 
-      {{ .Render $registration_template }}
+      {{ .Render .Params.registration_type }}
 
       {{ partial "go-back.html" . }}
       {{ partial "footer.html" . }}
