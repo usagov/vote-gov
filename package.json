@@ -5,7 +5,12 @@
   "scripts": {
     "postinstall": "gem install scss_lint",
     "build": "gulp build:website",
-    "start": "gulp website",
+    "build-staging": "SITE_BASEURL=\"https://vote-gov-staging.apps.cloud.gov\" gulp build:website",
+    "build-production": "SITE_BASEURL=\"https://vote-gov.apps.cloud.gov\" gulp build:website",
+    "build-staging-spanish": "SITE_CONFIGPATH=config_es.toml SITE_BASEURL=\"https://vote-gov-staging.apps.cloud.gov/es/\" gulp build:website",
+    "build-production-spanish": "SITE_CONFIGPATH=config_es.toml SITE_BASEURL=\"https://vote-gov.apps.cloud.gov/es/\" gulp build:website",
+    "start": "SITE_BASEURL=\"http://localhost/\" gulp website",
+    "start-spanish": "SITE_CONFIGPATH=config_es.toml SITE_BASEURL=\"http://localhost/es/\" gulp website",
     "test": "gulp test"
   },
   "repository": {

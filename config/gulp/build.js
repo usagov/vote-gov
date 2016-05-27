@@ -29,9 +29,15 @@ gulp.task('build:website', [ 'build' ], function (done) {
   }
 
   var hugo_args = [];
+
+  if (process.env.SITE_CONFIGPATH) {
+    gutil.log(gutil.colors.cyan('build:website'), 'Using environment-specified --config path:' + process.env.SITE_CONFIGPATH);
+    hugo_args.push('--config=' + process.env.SITE_CONFIGPATH);
+  }
+
   if (process.env.SITE_BASEURL) {
     gutil.log(gutil.colors.cyan('build:website'), 'Using environment-specified BaseUrl: ' + process.env.SITE_BASEURL);
-    hugo_args = [ '-b', process.env.SITE_BASEURL];
+    hugo_args.push('--baseURL=' + process.env.SITE_BASEURL);
   }
 
   var hugo = spawn('hugo', hugo_args);
@@ -60,7 +66,19 @@ gulp.task('website', [ 'build', 'watch' ], function (done) {
     buildDrafts = '';
   }
 
-  var hugo = spawn('hugo', [ 'server', buildDrafts, '--config=config_es.toml' ]);
+  var hugo_args = [ 'server', buildDrafts ];
+
+  if (process.env.SITE_CONFIGPATH) {
+    gutil.log(gutil.colors.cyan('website'), 'Using environment-specified --config path:' + process.env.SITE_CONFIGPATH);
+    hugo_args.push('--config=' + process.env.SITE_CONFIGPATH);
+  }
+
+  if (process.env.SITE_BASEURL) {
+    gutil.log(gutil.colors.cyan('website'), 'Using environment-specified BaseUrl: ' + process.env.SITE_BASEURL);
+    hugo_args.push('--baseURL=' + process.env.SITE_BASEURL);
+  }
+
+  var hugo = spawn('hugo', hugo_args);
 
   hugo.stdout.on('data', function (data) {
     gutil.log(gutil.colors.blue('website'), '\n' + data);
@@ -71,6 +89,7 @@ gulp.task('website', [ 'build', 'watch' ], function (done) {
 
 });
 
+// TODO: Do we really need this? Let's remove it in a separate PR
 //function setBranchBaseUrl() {
   //if (process.env.SITE_BASEURL) {
     //gutil.log(gutil.colors.yellow('set-baseurl'), "Found pre-set SITE_BASEURL: " + process.env.SITE_BASEURL);

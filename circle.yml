@@ -29,12 +29,14 @@ deployment:
   production:
     branch: [master]
     commands:
-      - SITE_BASEURL="$CF_GSA_VOTE_PRODUCTION_URL" npm run build
+      - echo "CURRENTLY ONLY BUILDING SINGLE LANGUAGE SITE"
+      - SITE_BASEURL="$CF_GSA_VOTE_PRODUCTION_URL" gulp build:website
       - cf login -a https://api.cloud.gov -u $CF_GSA_VOTE_USER -p $CF_GSA_VOTE_PASS -o gsa-ffd -s vote-production
       - cf push
   staging:
     branch: [staging]
     commands:
+      - echo "CURRENTLY ONLY BUILDING SINGLE LANGUAGE SITE"
       - SITE_BASEURL="$CF_GSA_VOTE_STAGING_URL" gulp build:website
       - cf login -a https://api.cloud.gov -u $CF_GSA_VOTE_USER -p $CF_GSA_VOTE_PASS -o gsa-ffd -s vote-staging
       - cf push -f manifest-staging.yml
