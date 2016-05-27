@@ -4,7 +4,7 @@
     {{ partial "header.html" . }}
     <div id="main-content" role="main">
 
-      {{ .Render .Params.registration_type }}
+      {{ .Render ( print "types/" .Params.registration_type ) }}
 
       {{ partial "go-back.html" . }}
       {{ partial "footer.html" . }}
