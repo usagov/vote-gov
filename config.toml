@@ -8,4 +8,4 @@ registration_type = "registration_types"
 
 [params]
 Owner = "USA.gov"
-lang = "en-US"
+Referrer_Short_Code = "voteusa"
