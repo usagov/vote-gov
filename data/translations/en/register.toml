@@ -1,19 +1,19 @@
-[by-mail]
 heading = "Register to Vote"
-body = ""
+
+[by_mail]
+body = "%state_name% allows residents to register online."
+download = "Download the form (PDF)"
+download_others = "Download the form in other languages:"
+
+[in_person]
+body = "%state_name% requires residents to register in person at their local election office."
 link = ""
 
-[in-person]
+[not_needed]
 heading = "No registration needed"
-body = ""
-link = ""
-
-[not-needed]
-heading = "No registration needed"
-body = ""
-link = ""
+body = "%state_name% only requires that you bring a valid state ID to your polling place."
+link = "Learn more about voting in %state_name%"
 
 [online]
-heading = "No registration needed"
-body = ""
-link = ""
+body = "%state_name% allows residents to register online."
+link = "Start your online registration"

@@ -1,20 +1,20 @@
-[by-mail]
 heading = "Inscríbase para votar"
-body = ""
+
+[by_mail]
+body = "Los residentes de %state_name% pueden inscribirse para votar por correo."
+download = "Download the form (PDF)"
+download_others = "Download the form in other languages:"
+
+[in_person]
+body = "%state_name% requires residents to register in person at their local election office."
 link = ""
 
-[in-person]
-heading = "Inscríbase para votar"
-body = ""
-link = ""
-
-[not-needed]
-heading = "No registration needed"
-body = ""
-link = ""
+[not_needed]
+heading = "Sin necesidad de registro"
+body = "%state_name% only requires that you bring a valid state ID to your polling place."
+link = "Ver la guía para votar en %state_name%"
 
 [online]
-heading = "Inscríbase para votar"
-body = ""
-link = ""
+body = "Los residentes de %state_name% pueden inscribirse para votar por Internet."
+link = "Empiece su inscripción por Internet"
 
