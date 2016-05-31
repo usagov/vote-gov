@@ -1,6 +1,0 @@
-baseurl = "https://vote.usa.gov/"
-languageCode = "en-us"
-title = "Voter Registration"
-
-[params]
-lang = "en-US"
