@@ -1,0 +1,19 @@
+[by-mail]
+heading = "Register to Vote"
+body = ""
+link = ""
+
+[in-person]
+heading = "No registration needed"
+body = ""
+link = ""
+
+[not-needed]
+heading = "No registration needed"
+body = ""
+link = ""
+
+[online]
+heading = "No registration needed"
+body = ""
+link = ""
