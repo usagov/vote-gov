@@ -1,9 +1,12 @@
 <!-- Register BEGIN -->
 <div class="usa-grid page-inner main-content">
   <header>
-    <h1>Register to vote</h1>
+    <h1>
+      {{ ( index $.Site.Data.translations $.Site.Params.lang ).register.heading }}
+    </h1>
   </header>
-  <p class="usa-font-lead">{{ .Title }} requires residents to register in person at their local election office.</p>
+  <p class="usa-font-lead">
+  </p>
   <p>Visit the <a href="{{ .Params.external_link }}">{{ .Title }} elections site</a> to find out how to register.</p>
 </div>
 <!-- Register END -->

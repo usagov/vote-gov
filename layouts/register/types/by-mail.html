@@ -1,6 +1,10 @@
 <div class="usa-grid page-inner mail-steps">
-  <h1>Register to vote</h1>
-  <p class="usa-font-lead">{{ .Title }} allows residents to register by mail.</p>
+  <h1>
+    {{ ( index $.Site.Data.translations $.Site.Params.lang ).register.heading }}
+  </h1>
+  <p class="usa-font-lead">
+    {{ replace ( index $.Site.Data.translations $.Site.Params.lang).register.by_mail.body "%state_name%" ( title .Title ) }}
+  </p>
   <!-- Steps BEGIN -->
   <div class="graphic-list">
     <div class="usa-width-one-third">
@@ -26,11 +30,15 @@
 <div class="usa-grid page-inner mail-download">
   {{ range $key, $form := $.Site.Data.registration_forms }}
     {{ if gt $form.weight 0 }}
-    <a class="usa-button" href="{{ $.Site.BaseURL }}{{ $form.file_path }}" target="_blank">Download the form (PDF)</a>
+    <a class="usa-button" href="{{ $.Site.BaseURL }}{{ $form.file_path }}" target="_blank">
+      {{ ( index $.Site.Data.translations $.Site.Params.lang ).register.by_mail.download }}
+    </a>
     {{ end }}
   {{ end }}
   <p>{{ $.Scratch.Get "alt_forms" }}</p>
-  <p>Download the form in other languages:</p>
+  <p>
+    {{ ( index $.Site.Data.translations $.Site.Params.lang ).register.by_mail.download_others }}
+  </p>
   <ul class="usa-unstyled-list mail-download-list">
     {{ $.Scratch.Set "alt_forms" 0 }}
     {{ range $.Site.Data.registration_forms }}
