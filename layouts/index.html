@@ -8,18 +8,24 @@
       <!-- Register BEGIN -->
       <section class="usa-grid page-inner" id="main-content">
         <header>
-          <h1 class="usa-display">{{ ( index $.Site.Data.translations $.Site.Params.lang ).homepageheader }}</h1>
+          <h1 class="usa-display">{{ ( index $.Site.Data.translations $.Site.Params.lang ).homepage.header }}</h1>
         </header>
         <form class="form-register" action="/states/" method="get">
-          <p>Where do you vote?</p>
-          <label class="usa-sr-only" for="js-user-selection">Select your state or territory</label>
+          <p>{{ ( index $.Site.Data.translations $.Site.Params.lang ).homepage.state_selection.label }}</p>
+          <label class="usa-sr-only" for="js-user-selection">
+            {{ ( index $.Site.Data.translations $.Site.Params.lang ).homepage.state_selection.default }}
+          </label>
           <select name="user-selection" id="js-user-selection">
-            <option value="">Select your state or territory</option>
+            <option value="">
+              {{ ( index $.Site.Data.translations $.Site.Params.lang ).homepage.state_selection.default }}
+            </option>
             {{ range where .Data.Pages.ByTitle "Section" "register" }}
               <option value="{{ replace .Title "." "" | lower | urlize }}">{{ title .Title }}</option>
             {{ end }}
           </select>
-          <button class="usa-button-big usa-button-disabled" id="js-user-submit" type="submit">Find out how to register</button>
+          <button class="usa-button-big usa-button-disabled" id="js-user-submit" type="submit">
+            {{ ( index $.Site.Data.translations $.Site.Params.lang ).homepage.state_selection.submit }}
+          </button>
         </form>
       </section>
       <!-- Register END -->
@@ -30,12 +36,7 @@
           <img src="{{ .Site.BaseURL }}assets/img/ballot_box-blue.svg" alt="Web design standards">
         </div>
 
-        <div class="usa-grid">
-          <a class="footer-link" href="#">Privacy policy</a>
-          <a class="footer-logo media_link" href="https://usa.gov/">
-            <img src="{{ .Site.BaseURL }}assets/img/usagov-logo.png" alt="USA.gov logo">
-          </a>
-        </div>
+        {{ partial "footer.html" . }}
       </footer>
       <!-- Footer END -->
 
@@ -52,7 +53,9 @@
         button.addEventListener( 'click', function ( event ) {
           event.preventDefault();
           var selection = document.getElementById( 'js-user-selection' );
-          g.location.href = g.location.origin + '/register/' + selection.value;
+          if ( selection.value ) {
+            g.location.href = g.location.origin + g.location.pathname + 'register/' + selection.value;
+          }
         }, false );
       } )( this );
     </script>
