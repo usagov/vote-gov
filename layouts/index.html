@@ -21,8 +21,14 @@
             <option value="">
               {{ $translation.homepage.state_selection.default }}
             </option>
-            {{ range where .Data.Pages.ByTitle "Section" "register" }}
-              <option value="{{ replace .Title "." "" | lower | urlize }}">{{ title .Title }}</option>
+            {{ if eq $.Site.Params.language "english" }}
+              {{ range where .Data.Pages.ByTitle "Section" "register" }}
+                <option value="{{ replace .Title "." "" | lower | urlize }}">{{ title .Title }}</option>
+              {{ end }}
+            {{ else }}
+              {{ range where .Data.Pages.ByTitle "Section" "registrar" }}
+                <option value="{{ replace .Title "." "" | lower | urlize }}">{{ title .Title }}</option>
+              {{ end }}
             {{ end }}
           </select>
           <button class="usa-button-big usa-button-disabled" id="js-user-submit" type="submit">
@@ -54,9 +60,14 @@
         var button = document.getElementById( 'js-user-submit' );
         button.addEventListener( 'click', function ( event ) {
           event.preventDefault();
+          {{ if eq $.Site.Params.language "english" }}
+          var registerPath = "register/";
+          {{ else }}
+          var registerPath = "registrar/";
+          {{ end }}
           var selection = document.getElementById( 'js-user-selection' );
           if ( selection.value ) {
-            g.location.href = g.location.origin + g.location.pathname + 'register/' + selection.value;
+            g.location.href = g.location.origin + g.location.pathname + registerPath + selection.value;
           }
         }, false );
       } )( this );
