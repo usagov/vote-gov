@@ -2,6 +2,6 @@ header = "Inscríbase para votar"
 
 [state_selection]
 
-label = "Guía para votar en su estado"
+label = "¿Dónde se vota?"
 default = "Seleccione su estado o territorio"
 submit = "Vea las guías de votación en su estado"
