@@ -56,6 +56,11 @@ gulp.task('watch', function () {
   gulp.watch('./assets/styles/**/*.scss', [ 'styles:homepage' ]);
   gulp.watch('./assets/scripts/**/*.js', [ 'scripts' ]);
   gulp.watch('./assets/images/**/*', [ 'images' ]);
+  gutil.log(gutil.colors.cyan('watch'), 'Watching content & layouts for changes');
+  gulp.watch([
+    './content/register/*.md',
+    './layouts/register/**/*.html',
+  ], [ 'copy-translation'] );
 });
 
 gulp.task('website', [ 'build', 'watch' ], function (done) {
