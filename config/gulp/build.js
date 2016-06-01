@@ -3,7 +3,7 @@ var gutil = require('gulp-util');
 var del = require('del');
 var pkg = require('../../package.json');
 var runSequence = require('run-sequence');
-var spawn = require('child_process').spawn;
+var spawn = require('cross-spawn');
 
 gulp.task('clean-all', function () {
   return del([

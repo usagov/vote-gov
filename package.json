@@ -42,6 +42,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "browserify": "^13.0.0",
+    "cross-spawn": "^4.0.0",
     "del": "^2.2.0",
     "eslint": "^2.10.2",
     "eslint-config-airbnb-base": "^3.0.1",
