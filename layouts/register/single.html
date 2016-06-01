@@ -1,0 +1,15 @@
+{{ partial "head.html" . }}
+
+  <body class="page-register-{{ .Params.registration_type }}">
+    {{ partial "header.html" . }}
+    <div id="main-content" role="main">
+
+      {{ .Render ( print "types/" .Params.registration_type ) }}
+
+      {{ partial "go-back.html" . }}
+      {{ partial "footer.html" . }}
+    </div>
+    {{ partial "analytics.html" . }}
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

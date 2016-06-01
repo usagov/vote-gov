@@ -2,10 +2,32 @@
   "name": "vote.gov",
   "version": "1.0.0",
   "main": "gulpfile.js",
+  "config": {
+    "votegov": {
+      "hugo": {
+        "en": "config.toml",
+        "es": "config_es.toml"
+      },
+      "urls": {
+        "en": {
+          "staging": "https://vote-gov-staging.apps.cloud.gov/",
+          "production": "https://vote-gov.apps.cloud.gov/"
+        },
+        "es": {
+          "staging": "https://vote-gov-staging.apps.cloud.gov/es/",
+          "production": "https://vote-gov.apps.cloud.gov/es/"
+        }
+      }
+    }
+  },
   "scripts": {
     "postinstall": "gem install scss_lint",
-    "build": "gulp build:website",
-    "start": "gulp website",
+    "build:staging": "SITE_CONFIGPATH=$npm_package_config_votegov_hugo_en SITE_BASEURL=\"${npm_package_config_votegov_urls_en_staging}\" gulp build:website",
+    "build:production": "SITE_CONFIGPATH=$npm_package_config_votegov_hugo_en SITE_BASEURL=\"${npm_package_config_votegov_urls_en_production}\" gulp build:website",
+    "build:staging:spanish": "SITE_CONFIGPATH=$npm_package_config_votegov_hugo_es SITE_BASEURL=\"${npm_package_config_votegov_urls_es_staging}\" gulp build:website",
+    "build:production:spanish": "SITE_CONFIGPATH=$npm_package_config_votegov_hugo_es SITE_BASEURL=\"${npm_package_config_votegov_urls_es_production}\" gulp build:website",
+    "start": "SITE_CONFIGPATH=$npm_package_config_votegov_hugo_en SITE_BASEURL=\"http://localhost/\" gulp website",
+    "start:spanish": "SITE_CONFIGPATH=$npm_package_config_votegov_hugo_es SITE_BASEURL=\"http://localhost/es/\" gulp website",
     "test": "gulp test"
   },
   "repository": {

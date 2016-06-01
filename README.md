@@ -5,6 +5,8 @@ website.
 
  Section | Description
  ------- | -----------
+ [![CircleCI](https://circleci.com/gh/18F/vote-gov/tree/staging.svg?style=svg)](https://circleci.com/gh/18F/vote-gov/tree/staging) | CI status for staging ( click badge to see all staging builds )
+ [![CircleCI](https://circleci.com/gh/18F/vote-gov/tree/master.svg?style=svg)](https://circleci.com/gh/18F/vote-gov/tree/master) | CI status for production ( click badge to see all production builds )
  [Installation](#installation)   | Installing the project locally.
  [Development](#development)     | Development workflow using `gulp`.
  [Deployment](#deployment)       | Automated & Manual deployment information using `cloud.gov`.
@@ -163,13 +165,13 @@ looks for an environment variable containing the site's base-URL. This URL must
 be assigned to the `SITE_BASEURL` variable before running `npm run build` and
 must be set to the proper value depending on the space you're targeting.
 
-Type the following in your terminal to build the site for the staging space:
+Type the following in your terminal to build the site for the `staging` space:
 
 ```sh
 SITE_BASEURL="https://vote-gov-staging.apps.cloud.gov/" npm run build
 ```
 
-Type the following in your terminal to build the site for the production space:
+Type the following in your terminal to build the site for the `production` space:
 
 ```sh
 SITE_BASEURL="https://vote-gov.apps.cloud.gov/" npm run build
@@ -180,13 +182,13 @@ SITE_BASEURL="https://vote-gov.apps.cloud.gov/" npm run build
 Once the `vote.gov` site has been built locally by running the above command, you
 can push your changes up to the targeted space.
 
-Type the following in your terminal to deploy to the staging space:
+Type the following in your terminal to deploy to the `staging` space:
 
 ```sh
 cf push -f manifest-staging.yml
 ```
 
-Type the following in your terminal to deploy to the production space:
+Type the following in your terminal to deploy to the `production` space:
 
 ```sh
 cf push
