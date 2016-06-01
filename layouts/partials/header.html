@@ -1,11 +1,15 @@
-<a class="skipnav" href="#main-content">Skip to main content</a>
+{{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+
+<a class="skipnav" href="#main-content">
+  {{ $translation.micro_copy.skip_text }}
+</a>
 <header class="usa-site-header" role="banner">
   {{ partial "disclaimer.html" . }}
   <nav class="usa-grid">
     <div class="site-logo" id="logo">
       <h1>
         <a href="{{ .Site.BaseURL }}" accesskey="1" title="Home" aria-label="Home">
-          {{ ( index $.Site.Data.translations $.Site.Params.lang ).header.domain }}
+          {{ $translation.micro_copy.domain }}
         </a>
       </h1>
     </div>

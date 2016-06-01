@@ -1,4 +1,6 @@
-title = "Voter Registration but in spanish"
+title = "Registro de Votantes"
 
 [params]
-lang = "es"
+Owner = "USA.gov"
+Referrer_Short_Code = "voteusa_spanish"
+language = "spanish"

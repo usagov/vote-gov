@@ -1,6 +1,8 @@
+{{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+
 <div class="usa-grid">
   <a class="footer-link" href="https://www.usa.gov/policies">
-    {{ ( index $.Site.Data.translations $.Site.Params.lang ).footer.privacy_policy }}
+    {{ $translation.footer.privacy_policy }}
   </a>
   <a class="footer-logo media_link" href="https://usa.gov/">
     <img src="{{ .Site.BaseURL }}assets/img/usagov-logo.png" alt="USA.gov logo">
