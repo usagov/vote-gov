@@ -15,7 +15,11 @@ gulp.task('clean-all', function () {
 gulp.task('build', [ 'clean-all' ], function (done) {
   exports.printPackageInfo();
   gutil.log(gutil.colors.cyan('build'), 'Building asset-pipeline');
-  runSequence([ 'styles:homepage', 'scripts', 'images', 'fonts' ], done);
+  runSequence(
+    [ 'styles', 'scripts', 'images', 'fonts' ],
+    'copy-translation',
+    done
+  );
 });
 
 
@@ -60,7 +64,7 @@ gulp.task('watch', function () {
   gulp.watch([
     './content/register/*.md',
     './layouts/register/**/*.html',
-  ], [ 'copy-translation'] );
+  ], [ 'copy-translation' ] );
 });
 
 gulp.task('website', [ 'build', 'watch' ], function (done) {
