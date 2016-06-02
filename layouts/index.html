@@ -27,7 +27,7 @@
               {{ end }}
             {{ else }}
               {{ range where .Data.Pages.ByTitle "Section" "registrar" }}
-                <option value="{{ replace .Title "." "" | lower | urlize }}">{{ title .Title }}</option>
+                <option value="{{ .Slug }}">{{ title .Title }}</option>
               {{ end }}
             {{ end }}
           </select>
