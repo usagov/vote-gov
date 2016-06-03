@@ -25,24 +25,40 @@ gulp.task('build', [ 'clean-all' ], function (done) {
 
 gulp.task('build:website', [ 'build' ], function (done) {
 
+  // TODO: Run through this build task recursively for langauge files found.
+
   gutil.log(gutil.colors.cyan('build:website'), 'Building static website via Hugo');
 
-  if (cFlags.production) {
-    gutil.log(gutil.colors.cyan('build:website'), 'Production mode: Looking for branch-specific BaseUrl variables...');
-    //setBranchBaseUrl();
+  // English config and Staging URL are the defaults
+  var setConfig = process.env.npm_package_config_votegov_hugo_en;
+  var setURL = process.env.npm_package_config_votegov_urls_en_staging;
+
+  if ('spanish' === process.env.NODE_LANG) {
+    setConfig = process.env.npm_package_config_votegov_hugo_es;
+    setURL = process.env.npm_package_config_votegov_urls_es_staging;
   }
 
-  var hugo_args = [];
-
-  if (process.env.SITE_CONFIGPATH) {
-    gutil.log(gutil.colors.cyan('build:website'), 'Using environment-specified --config path:' + process.env.SITE_CONFIGPATH);
-    hugo_args.push('--config=' + process.env.SITE_CONFIGPATH);
+  if ('production' === process.env.NODE_ENV) {
+    setURL = process.env.npm_package_config_votegov_urls_en_production;
+    if ('spanish' === process.env.NODE_LANG) {
+      setURL = process.env.npm_package_config_votegov_urls_es_production;
+    }
   }
 
-  if (process.env.SITE_BASEURL) {
-    gutil.log(gutil.colors.cyan('build:website'), 'Using environment-specified BaseUrl: ' + process.env.SITE_BASEURL);
-    hugo_args.push('--baseURL=' + process.env.SITE_BASEURL);
-  }
+  gutil.log(
+    gutil.colors.cyan('build:website'),
+    'Using environment-specified --config path: ' + setConfig
+  );
+
+  gutil.log(
+    gutil.colors.cyan('build:website'),
+    'Using environment-specified BaseUrl: ' + setURL
+  );
+
+  var hugo_args = [
+    '--config=' + setConfig,
+    '--baseURL=' + setURL,
+  ];
 
   var hugo = spawn('hugo', hugo_args);
 
@@ -69,23 +85,32 @@ gulp.task('watch', function () {
 
 gulp.task('website', [ 'build', 'watch' ], function (done) {
 
-  var buildDrafts = '--buildDrafts';
+  // English config and Staging URL are the defaults
+  var setConfig = process.env.npm_package_config_votegov_hugo_en;
+  var setURL = 'http://localhost/';
 
-  if (cFlags.production) {
-    buildDrafts = '';
+  if ('spanish' === process.env.NODE_LANG) {
+    setConfig = process.env.npm_package_config_votegov_hugo_es;
+    setURL = 'http://localhost/es/';
   }
 
-  var hugo_args = [ 'server', buildDrafts ];
+  gutil.log(
+    gutil.colors.cyan('website'),
+    'Using environment-specified --config path: ' + setConfig
+  );
 
-  if (process.env.SITE_CONFIGPATH) {
-    gutil.log(gutil.colors.cyan('website'), 'Using environment-specified --config path:' + process.env.SITE_CONFIGPATH);
-    hugo_args.push('--config=' + process.env.SITE_CONFIGPATH);
-  }
+  gutil.log(
+    gutil.colors.cyan('website'),
+    'Using environment-specified BaseUrl: ' + setURL
+  );
 
-  if (process.env.SITE_BASEURL) {
-    gutil.log(gutil.colors.cyan('website'), 'Using environment-specified BaseUrl: ' + process.env.SITE_BASEURL);
-    hugo_args.push('--baseURL=' + process.env.SITE_BASEURL);
-  }
+  var hugo_args = [
+    'server',
+    '--watch',
+    '--buildDrafts',
+    '--config=' + setConfig,
+    '--baseURL=' + setURL,
+  ];
 
   var hugo = spawn('hugo', hugo_args);
 
