@@ -92,13 +92,23 @@ $ gulp
   ...
 ```
 
-To start the local webserver and have gulp watch for changes:
+To start the local webserver for the English site and have gulp and hugo watch
+for changes:
 
 ```sh
 npm start
 ```
 
 The website is now available at [`http://localhost:1313/`](http://localhost:1313/).
+
+To start the local webserver for the Spanish site and have gulp and hugo watch
+for changes:
+
+```sh
+NODE_LANG=spanish npm start
+```
+
+The website is now available at [`http://localhost:1313/es/`](http://localhost:1313/es/).
 
 ### Descriptions for optional `gulp [ flags ]` task prefixes
 
@@ -165,32 +175,53 @@ looks for an environment variable containing the site's base-URL. This URL must
 be assigned to the `SITE_BASEURL` variable before running `npm run build` and
 must be set to the proper value depending on the space you're targeting.
 
-Type the following in your terminal to build the site for the `staging` space:
+Type the following in your terminal to build the English site for the `staging`
+space:
 
 ```sh
-SITE_BASEURL="https://vote-gov-staging.apps.cloud.gov/" npm run build
+npm run build
 ```
 
-Type the following in your terminal to build the site for the `production` space:
+Type the following in your terminal to build the English site for the
+`production` space:
 
 ```sh
-SITE_BASEURL="https://vote-gov.apps.cloud.gov/" npm run build
+NODE_ENV=production npm run build
 ```
+
+Type the following in your terminal to build the Spanish site for the `staging`
+space:
+
+```sh
+# NOTE: Building the Spanish version of the site is currently experimental
+NODE_LANG=spanish npm run build
+```
+
+Type the following in your terminal to build the Spanish site for the
+`production` space:
+
+```sh
+# NOTE: Building the Spanish version of the site is currently experimental
+NODE_LANG=spanish NODE_ENV=production npm run build
+```
+
 
 #### Pushing to a target
 
-Once the `vote.gov` site has been built locally by running the above command, you
-can push your changes up to the targeted space.
+Once the `vote.gov` English site has been built locally by running the above
+command, you can push your changes up to the targeted space.
 
 Type the following in your terminal to deploy to the `staging` space:
 
 ```sh
+# NODE: Deploying the Spanish version of the site is experimental
 cf push -f manifest-staging.yml
 ```
 
 Type the following in your terminal to deploy to the `production` space:
 
 ```sh
+# NODE: Deploying the Spanish version of the site is experimental
 cf push
 ```
 
