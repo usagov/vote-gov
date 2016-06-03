@@ -208,7 +208,7 @@ NODE_LANG=spanish NODE_ENV=production npm run build
 
 #### Pushing to a target
 
-Once the `vote.gov` English site has been built locally by running the above
+Once you've built the `vote.gov` English site locally by running the above
 command, you can push your changes up to the targeted space.
 
 Type the following in your terminal to deploy to the `staging` space:
