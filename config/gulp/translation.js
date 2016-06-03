@@ -6,7 +6,7 @@ var runSequence = require('run-sequence');
 var spawn = require('cross-spawn');
 var rename = require('gulp-rename');
 var replace = require('gulp-replace');
-var stateNames = require('./state-names.json');
+var spanishStateNames = require('./lang/spanish/state-names.json');
 
 gulp.task('clean-translation', function () {
   gutil.log(gutil.colors.cyan('clean-translation'), 'Removing generated register/ files');
@@ -20,13 +20,13 @@ gulp.task('copy-content-spanish', function (done) {
 
   return gulp.src('./content/register/*.md')
     .pipe(rename(function (path) {
-      var file = stateNames[path.basename].file;
+      var file = spanishStateNames[path.basename].file;
       path.basename = file;
     }))
     .pipe(replace(/title = "(.+)"/, function (match, p1) {
       var name = p1.replace(/\s/g, '-').replace(/\./g, '').toLowerCase();
-      var title = stateNames[name].title;
-      var file = stateNames[name].file;
+      var title = spanishStateNames[name].title;
+      var file = spanishStateNames[name].file;
       return (
         'title = "' + title + '"' +
         "\n" +
