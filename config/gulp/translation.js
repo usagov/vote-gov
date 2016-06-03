@@ -30,7 +30,7 @@ gulp.task('copy-content-spanish', function (done) {
       return (
         'title = "' + title + '"' +
         "\n" +
-        'slug = "' + file + '"';
+        'slug = "' + file + '"'
       );
     }))
     .pipe(gulp.dest('./content/registrar'));
