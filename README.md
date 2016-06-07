@@ -18,23 +18,23 @@ here](https://github.com/presidential-innovation-fellows/vote-2016).
 
 ## Installation
 
-The development for the future `vote.gov` site has the following dependencies
+The development for the future `vote.gov` site has the following dependencies:
 
-- [Hugo](http://gohugo.io "Hugo Homepage"), a static-site generator written in Go.
-- [Gulp](http://gulpjs.com "GulpJS Homepage"), an automation tool for asset-pipelines.
+- [Hugo](http://gohugo.io "Hugo Homepage"), a static-site generator written in Go
+- [Gulp](http://gulpjs.com "GulpJS Homepage"), an automation tool for asset pipelines
 - [NodeJS](https://nodejs.org/ "NodeJS Homepage")
 - [Ruby](https://www.ruby-lang.org/ "Ruby Homepage")
 
 This documentation assumes that you have Ruby and NodeJS installed on your
-machine.  Instructions for installing `node`, and `npm`, [can be found here] [node-install].
+machine. You can find instructions for installing `node` and `npm` [here] [node-install].
 
 [node-install]: https://nodejs.org/en/download/ "NodeJS Downloads"
 
 ### Installing Hugo
 
 In order to serve the future `vote.gov` site locally, you will need to install
-the `hugo` command-line tool. This can be installed easily via [Homebrew][homebrew-install]
-on Mac OS X with the following command in your Terminal.
+the `hugo` command-line tool. You can install this easily via [Homebrew][homebrew-install]
+on Mac OS X with the following command in your terminal:
 
 [homebrew-install]: http://brew.sh "Homebrew Installation"
 
@@ -43,7 +43,7 @@ brew update && \
 brew install hugo
 ```
 
-You can also [download the latest release][hugo-release] and checkout the
+You can also [download the latest release][hugo-release] and check out the
 [quick start guide][hugo-quick-guide] for further instructions.
 
 [hugo-release]: https://github.com/spf13/hugo/releases "Download Latest Hugo Release"
@@ -61,7 +61,7 @@ npm install --global gulp-cli
 ### Installing SCSS-Lint
 
 The Sass file linter uses the Ruby gem `scss_lint`. This gem must be installed
-on your machine in order to run any tasks that depend on the `scss-lint` binary.
+on your machine in order to run tasks that depend on the `scss-lint` binary.
 
 ```sh
 gem install scss_lint
@@ -69,8 +69,8 @@ gem install scss_lint
 
 ## Development
 
-Once `gulp` is installed globally, navigate to this directory in your Terminal
-and tell `npm` to bring in the asset-pipeline's dependencies.
+Once you've installed `gulp` globally, navigate to this directory in your Terminal
+and tell `npm` to bring in the asset pipeline's dependencies.
 
 ```sh
 npm install
@@ -116,7 +116,7 @@ affected by them.
 
 The microsite is deployed on [cloud.gov] [cg-homepage]. To read the `cloud.gov`
 documentation, [click here] [cg-docs]. The documentation below makes the
-following assumptions.
+following assumptions:
 
 - Assuming you have the `cf` binary installed on your machine and within your
   `$PATH`.
@@ -145,8 +145,8 @@ own [`staging`] [vote-staging] and [`production`] [vote-production] URLs.
 
 Using the `cf` command-line tool, you can run a manual deployment to either
 `staging` or `production` by targeting the corresponding organization / space
-and as long as you have access to `cf push` the target. More information on
-deploying to `cloud.gov` can be found [here] [cg-deploy-hw] and [here] [cg-deploy-ss].
+and as long as you have access to `cf push` the target. You can find more information on
+deploying to `cloud.gov` [here] [cg-deploy-hw] and [here] [cg-deploy-ss].
 
 [cg-deploy-hw]: https://docs.cloud.gov/getting-started/your-first-deploy/ "Cloud.gov: Your First Deploy"
 [cg-deploy-ss]: https://docs.cloud.gov/apps/static/ "Cloud.gov: Deploying Static Sites"
@@ -155,7 +155,7 @@ deploying to `cloud.gov` can be found [here] [cg-deploy-hw] and [here] [cg-deplo
 > CircleCI.
 
 To check which space you're targeting using the `cf` command-line tool, type the
-following in your terminal.
+following in your terminal:
 
 ```sh
 cf target
@@ -165,7 +165,7 @@ cf target
 
 The future `vote.gov` site is built using the `npm run build` command. This command
 looks for an environment variable containing the site's base-URL. This URL must
-be assigned to the `SITE_BASEURL` variable before running `npm run build` and
+be assigned to the `SITE_BASEURL` variable before running `npm run build`, and
 must be set to the proper value depending on the space you're targeting.
 
 Type the following in your terminal to build the site for the `staging` space:
@@ -182,7 +182,7 @@ SITE_BASEURL="https://vote-gov.apps.cloud.gov/" npm run build
 
 #### Pushing to a target
 
-Once the future `vote.gov` site has been built locally by running the above
+Once you've built the future `vote.gov` site locally by running the above
 command, you can push your changes up to the targeted space.
 
 Type the following in your terminal to deploy to the `staging` space:
