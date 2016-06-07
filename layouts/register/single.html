@@ -3,16 +3,15 @@
   <body class="page-register-{{ .Params.registration_type }}">
     {{ partial "header.html" . }}
     <div id="main-content" role="main">
-
       {{ .Render ( print "types/" .Params.registration_type ) }}
-
-      {{ partial "go-back.html" . }}
-
-      <footer>
-        {{ partial "footer.html" . }}
-      </footer>
-
     </div>
+
+    {{ partial "go-back.html" . }}
+
+    <footer>
+      {{ partial "footer.html" . }}
+    </footer>
+
     {{ partial "analytics.html" . }}
     {{ partial "scripts.html" . }}
   </body>
