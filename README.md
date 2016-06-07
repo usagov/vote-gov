@@ -1,10 +1,13 @@
 # Vote.gov
 
-This repository contains the files and infrastructure to run the `vote.gov`
-website.
+This repository contains the files and infrastructure to run the future
+`vote.gov` website. [The current `vote.gov` site repository is
+here](https://github.com/presidential-innovation-fellows/vote-2016).
 
  Section | Description
  ------- | -----------
+ [Staging URL](https://vote-gov-staging.apps.cloud.gov/) | Staging URL deployed from the `staging` branch
+ [Production URL](https://vote-gov.apps.cloud.gov/) | Production URL deployed form the `master` branch
  [![CircleCI](https://circleci.com/gh/18F/vote-gov/tree/staging.svg?style=svg)](https://circleci.com/gh/18F/vote-gov/tree/staging) | CI status for staging ( click badge to see all staging builds )
  [![CircleCI](https://circleci.com/gh/18F/vote-gov/tree/master.svg?style=svg)](https://circleci.com/gh/18F/vote-gov/tree/master) | CI status for production ( click badge to see all production builds )
  [Installation](#installation)   | Installing the project locally.
