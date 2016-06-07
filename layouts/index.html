@@ -4,39 +4,57 @@
   <body class="page-vote">
     {{ partial "header.html" . }}
     <div class="page-vote-main" id="main" role="main">
-
       <a class="skipnav" href="#main-content">Skip main navigation</a>
-
-      <!-- Register BEGIN -->
-      <section class="usa-grid page-inner" id="main-content">
+      <div class="usa-grid page-inner" id="main-content">
         <header>
           <h1 class="usa-display">{{ $translation.homepage.header }}</h1>
         </header>
-        <form class="form-register" action="/states/" method="get">
-          <p>{{ $translation.homepage.state_selection.label }}</p>
-          <label class="usa-sr-only" for="js-user-selection">
+      </div>
+    </div>
+
+      <!-- Register BEGIN -->
+      <form class="form-register" action="/states/" method="get">
+        <h2>{{ $translation.homepage.state_selection.label }}</h2>
+        <label class="usa-sr-only" for="js-user-selection">
+          {{ $translation.homepage.state_selection.default }}
+        </label>
+        <select name="user-selection" id="js-user-selection">
+          <option value="">
             {{ $translation.homepage.state_selection.default }}
-          </label>
-          <select name="user-selection" id="js-user-selection">
-            <option value="">
-              {{ $translation.homepage.state_selection.default }}
-            </option>
-            {{ if eq $.Site.Params.language "english" }}
-              {{ range where .Data.Pages.ByTitle "Section" "register" }}
-                <option value="{{ replace .Title "." "" | lower | urlize }}">{{ title .Title }}</option>
-              {{ end }}
-            {{ else }}
-              {{ range where .Data.Pages.ByTitle "Section" "registrar" }}
-                <option value="{{ .Slug }}">{{ title .Title }}</option>
-              {{ end }}
+          </option>
+          {{ if eq $.Site.Params.language "english" }}
+            {{ range where .Data.Pages.ByTitle "Section" "register" }}
+              <option value="{{ replace .Title "." "" | lower | urlize }}">{{ title .Title }}</option>
             {{ end }}
-          </select>
-          <button class="usa-button-big usa-button-disabled" id="js-user-submit" type="submit">
-            {{ $translation.homepage.state_selection.submit }}
-          </button>
-        </form>
-      </section>
+          {{ else }}
+            {{ range where .Data.Pages.ByTitle "Section" "registrar" }}
+              <option value="{{ .Slug }}">{{ title .Title }}</option>
+            {{ end }}
+          {{ end }}
+        </select>
+        <button class="usa-button-big usa-button-disabled" id="js-user-submit" type="submit">
+          {{ $translation.homepage.state_selection.submit }}
+        </button>
+      </form>
       <!-- Register END -->
+
+      <div class="usa-grid">
+        <div class="usa-width-one-third">
+          <h2>
+            <a href="#">{{ $translation.homepage.learn }}</a>
+          </h2>
+        </div>
+        <div class="usa-width-one-third">
+          <h2>
+            <a href="#">{{ $translation.homepage.check }}</a>
+          </h2>
+        </div>
+        <div class="usa-width-one-third">
+          <h2>
+            <a href="#">{{ $translation.homepage.find }}</a>
+          </h2>
+        </div>
+      </div>
 
       <!-- Footer BEGIN -->
       <footer>
@@ -47,8 +65,6 @@
         {{ partial "footer.html" . }}
       </footer>
       <!-- Footer END -->
-
-    </div>
 
     {{ partial "analytics.html" . }}
     {{ partial "scripts.html" . }}

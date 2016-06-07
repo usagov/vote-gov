@@ -12,6 +12,12 @@
           {{ $translation.micro_copy.domain }}
         </a>
       </h1>
+      <p>Where do you vote?</p>
+      <select>
+        <option value="">
+          {{ $translation.micro_copy.select_state }}
+        </option>
+      </select>
     </div>
     {{ partial "language-switcher.html" . }}
   </nav>
