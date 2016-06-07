@@ -18,7 +18,7 @@ here](https://github.com/presidential-innovation-fellows/vote-2016).
 
 ## Installation
 
-The development for the `vote.gov` site has the following dependencies
+The development for the future `vote.gov` site has the following dependencies
 
 - [Hugo](http://gohugo.io "Hugo Homepage"), a static-site generator written in Go.
 - [Gulp](http://gulpjs.com "GulpJS Homepage"), an automation tool for asset-pipelines.
@@ -32,8 +32,8 @@ machine.  Instructions for installing `node`, and `npm`, [can be found here] [no
 
 ### Installing Hugo
 
-In order to serve the `vote.gov` site locally, you will need to install the `hugo`
-command-line tool. This can be installed easily via [Homebrew][homebrew-install]
+In order to serve the future `vote.gov` site locally, you will need to install
+the `hugo` command-line tool. This can be installed easily via [Homebrew][homebrew-install]
 on Mac OS X with the following command in your Terminal.
 
 [homebrew-install]: http://brew.sh "Homebrew Installation"
@@ -51,8 +51,8 @@ You can also [download the latest release][hugo-release] and checkout the
 
 ### Installing Gulp
 
-In order to build the assets for the `vote.gov` site, you will need to install the
-`gulp` command-line tool.
+In order to build the assets for the future `vote.gov` site, you will need to
+install the `gulp` command-line tool.
 
 ```sh
 npm install --global gulp-cli
@@ -161,9 +161,9 @@ following in your terminal.
 cf target
 ```
 
-#### Building the `vote.gov` site locally
+#### Building the future `vote.gov` site locally
 
-The `vote.gov` site is built using the `npm run build` command. This command
+The future `vote.gov` site is built using the `npm run build` command. This command
 looks for an environment variable containing the site's base-URL. This URL must
 be assigned to the `SITE_BASEURL` variable before running `npm run build` and
 must be set to the proper value depending on the space you're targeting.
@@ -182,8 +182,8 @@ SITE_BASEURL="https://vote-gov.apps.cloud.gov/" npm run build
 
 #### Pushing to a target
 
-Once the `vote.gov` site has been built locally by running the above command, you
-can push your changes up to the targeted space.
+Once the future `vote.gov` site has been built locally by running the above
+command, you can push your changes up to the targeted space.
 
 Type the following in your terminal to deploy to the `staging` space:
 
