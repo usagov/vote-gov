@@ -176,13 +176,17 @@ footer {
   text-align: center;
 
   img {
-    bottom: 7px;
+    bottom: 3.8rem;
     left: 0;
     margin: 0 auto;
     position: absolute;
     right: 0;
     text-align: center;
-    width: 17.5rem;
+    width: 7.5rem;
+
+    @include media($medium-screen) {
+      display: none;
+    }
   }
 }
 
