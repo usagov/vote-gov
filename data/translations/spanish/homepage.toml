@@ -1,7 +1,10 @@
-header = "Inscríbase para votar"
+header = "Dar el siguiente paso para ser un votante."
+learn = "Guía para votar en su estado"
+check = "Verifique su inscripción"
+find = "Sepa dónde votar"
 
 [state_selection]
 
-label = "¿Dónde se vota?"
+label = "Inscríbase para votar"
 default = "Seleccione su estado o territorio"
 submit = "Vea las guías de votación en su estado"

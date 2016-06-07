@@ -1,7 +1,10 @@
-header = "Register to vote"
+header = "Take the next step to being a voter."
+learn = "Learn about voting in your state"
+check = "Check your voter registration"
+find = "Find your polling place"
 
 [state_selection]
 
-label = "Where do you vote?"
+label = "Register to vote"
 default = "Select your state or territory"
-submit = "Find out how to register"
+submit = "Learn how to register"
