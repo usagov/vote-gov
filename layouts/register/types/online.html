@@ -1,11 +1,19 @@
+{{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+
 <!-- Register BEGIN -->
 <div class="usa-grid page-inner main-content">
   <header>
-    <h1>Register to vote</h1>
+    <h1>
+      {{ $translation.register.heading }}
+    </h1>
   </header>
-  <p class="usa-font-lead">{{ title .Title }} allows residents to register online.</p>
+  <p class="usa-font-lead">
+    {{ replace $translation.register.online.body "%state_name%" ( title .Title ) }}
+  </p>
   <p>
-    <a href="{{ .Params.external_link }}?ref={{ .Site.Params.Referrer_Short_Code }}">Start your online registration</a>
+    <a href="{{ .Params.external_link }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+      {{ $translation.register.online.link }}
+    </a>
   </p>
 </div>
 <!-- Register END -->

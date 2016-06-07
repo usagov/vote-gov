@@ -1,0 +1,4 @@
+domain = "vote.gov/es"
+go_back = "Volver"
+skip_text = "Saltar al contenido principal"
+disclaimer = "Un sitio web oficial del Gobierno de los Estados Unidos"

@@ -1,0 +1,7 @@
+header = "Register to vote"
+
+[state_selection]
+
+label = "Where do you vote?"
+default = "Select your state or territory"
+submit = "Find out how to register"

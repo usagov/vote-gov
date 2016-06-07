@@ -3,7 +3,7 @@ var gutil = require('gulp-util');
 var del = require('del');
 var pkg = require('../../package.json');
 var runSequence = require('run-sequence');
-var spawn = require('child_process').spawn;
+var spawn = require('cross-spawn');
 
 gulp.task('clean-all', function () {
   return del([
@@ -15,30 +15,50 @@ gulp.task('clean-all', function () {
 gulp.task('build', [ 'clean-all' ], function (done) {
   exports.printPackageInfo();
   gutil.log(gutil.colors.cyan('build'), 'Building asset-pipeline');
-  runSequence([ 'styles:homepage', 'scripts', 'images', 'fonts' ], done);
+  runSequence(
+    [ 'styles', 'scripts', 'images', 'fonts' ],
+    'copy-translation',
+    done
+  );
 });
 
 
 gulp.task('build:website', [ 'build' ], function (done) {
 
+  // TODO: Run through this build task recursively for langauge files found.
+
   gutil.log(gutil.colors.cyan('build:website'), 'Building static website via Hugo');
 
-  if (cFlags.production) {
-    gutil.log(gutil.colors.cyan('build:website'), 'Production mode: Looking for branch-specific BaseUrl variables...');
-    //setBranchBaseUrl();
+  // English config and Staging URL are the defaults
+  var setConfig = process.env.npm_package_config_votegov_hugo_en;
+  var setURL = process.env.npm_package_config_votegov_urls_en_staging;
+
+  if ('spanish' === process.env.NODE_LANG) {
+    setConfig = process.env.npm_package_config_votegov_hugo_es;
+    setURL = process.env.npm_package_config_votegov_urls_es_staging;
   }
 
-  var hugo_args = [];
-
-  if (process.env.SITE_CONFIGPATH) {
-    gutil.log(gutil.colors.cyan('build:website'), 'Using environment-specified --config path:' + process.env.SITE_CONFIGPATH);
-    hugo_args.push('--config=' + process.env.SITE_CONFIGPATH);
+  if ('production' === process.env.NODE_ENV) {
+    setURL = process.env.npm_package_config_votegov_urls_en_production;
+    if ('spanish' === process.env.NODE_LANG) {
+      setURL = process.env.npm_package_config_votegov_urls_es_production;
+    }
   }
 
-  if (process.env.SITE_BASEURL) {
-    gutil.log(gutil.colors.cyan('build:website'), 'Using environment-specified BaseUrl: ' + process.env.SITE_BASEURL);
-    hugo_args.push('--baseURL=' + process.env.SITE_BASEURL);
-  }
+  gutil.log(
+    gutil.colors.cyan('build:website'),
+    'Using environment-specified --config path: ' + setConfig
+  );
+
+  gutil.log(
+    gutil.colors.cyan('build:website'),
+    'Using environment-specified BaseUrl: ' + setURL
+  );
+
+  var hugo_args = [
+    '--config=' + setConfig,
+    '--baseURL=' + setURL,
+  ];
 
   var hugo = spawn('hugo', hugo_args);
 
@@ -56,27 +76,41 @@ gulp.task('watch', function () {
   gulp.watch('./assets/styles/**/*.scss', [ 'styles:homepage' ]);
   gulp.watch('./assets/scripts/**/*.js', [ 'scripts' ]);
   gulp.watch('./assets/images/**/*', [ 'images' ]);
+  gutil.log(gutil.colors.cyan('watch'), 'Watching content & layouts for changes');
+  gulp.watch([
+    './content/register/*.md',
+    './layouts/register/**/*.html',
+  ], [ 'copy-translation' ] );
 });
 
 gulp.task('website', [ 'build', 'watch' ], function (done) {
 
-  var buildDrafts = '--buildDrafts';
+  // English config and Staging URL are the defaults
+  var setConfig = process.env.npm_package_config_votegov_hugo_en;
+  var setURL = 'http://localhost/';
 
-  if (cFlags.production) {
-    buildDrafts = '';
+  if ('spanish' === process.env.NODE_LANG) {
+    setConfig = process.env.npm_package_config_votegov_hugo_es;
+    setURL = 'http://localhost/es/';
   }
 
-  var hugo_args = [ 'server', buildDrafts ];
+  gutil.log(
+    gutil.colors.cyan('website'),
+    'Using environment-specified --config path: ' + setConfig
+  );
 
-  if (process.env.SITE_CONFIGPATH) {
-    gutil.log(gutil.colors.cyan('website'), 'Using environment-specified --config path:' + process.env.SITE_CONFIGPATH);
-    hugo_args.push('--config=' + process.env.SITE_CONFIGPATH);
-  }
+  gutil.log(
+    gutil.colors.cyan('website'),
+    'Using environment-specified BaseUrl: ' + setURL
+  );
 
-  if (process.env.SITE_BASEURL) {
-    gutil.log(gutil.colors.cyan('website'), 'Using environment-specified BaseUrl: ' + process.env.SITE_BASEURL);
-    hugo_args.push('--baseURL=' + process.env.SITE_BASEURL);
-  }
+  var hugo_args = [
+    'server',
+    '--watch',
+    '--buildDrafts',
+    '--config=' + setConfig,
+    '--baseURL=' + setURL,
+  ];
 
   var hugo = spawn('hugo', hugo_args);
 
@@ -88,34 +122,6 @@ gulp.task('website', [ 'build', 'watch' ], function (done) {
   hugo.on('close', done);
 
 });
-
-// TODO: Do we really need this? Let's remove it in a separate PR
-//function setBranchBaseUrl() {
-  //if (process.env.SITE_BASEURL) {
-    //gutil.log(gutil.colors.yellow('set-baseurl'), "Found pre-set SITE_BASEURL: " + process.env.SITE_BASEURL);
-    //gutil.log(gutil.colors.yellow('set-baseurl'), "(If you see this in a Travis log, things are happening in the wrong order.");
-  //} else
-    //if (process.env.TRAVIS_BRANCH == "master" &&
-        //checkBranchBaseUrl('master', 'production', 'SITE_BASEURL_PRODUCTION')) {
-      //process.env.SITE_BASEURL = process.env.SITE_BASEURL_PRODUCTION;
-    //} else
-    //if (process.env.TRAVIS_BRANCH == "staging" &&
-        //checkBranchBaseUrl('staging', 'staging', 'SITE_BASEURL_STAGING')) {
-      //process.env.SITE_BASEURL = process.env.SITE_BASEURL_STAGING;
-    //} else {
-    //gutil.log(gutil.colors.yellow('set-baseurl'), 'No environmental config found; using BaseUrl from config file.');
-  //}
-//}
-
-//function checkBranchBaseUrl(branch, environmentName, baseUrlVarName) {
-  //if (process.env[baseUrlVarName]) {
-    //gutil.log(gutil.colors.cyan('set-baseurl'), 'Using '+environmentName+' site BaseUrl: ' + process.env[baseUrlVarName]);
-    //return true;
-  //} else {
-    //gutil.log(gutil.colors.red('set-baseurl'), 'ERROR: '+environmentName+' build ('+branch+' branch) lacking a '+baseUrlVarName+' env var. Check the Travis configuration?');
-    //process.exit(1);
-  //}
-//}
 
 exports.printPackageInfo = function(){
   gutil.log(
