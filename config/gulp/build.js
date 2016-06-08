@@ -75,7 +75,7 @@ gulp.task('watch', function () {
   gutil.log(gutil.colors.cyan('watch'), 'Watching assets for changes');
   gulp.watch('./assets/styles/**/*.scss', [ 'styles' ]);
   gulp.watch('./assets/scripts/**/*.js', [ 'scripts' ]);
-  gulp.watch('./assets/images/**/*', [ 'images' ]);
+  gulp.watch('./assets/img/**/*', [ 'images' ]);
   gutil.log(gutil.colors.cyan('watch'), 'Watching content & layouts for changes');
   gulp.watch([
     './content/register/*.md',
