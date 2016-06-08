@@ -12,31 +12,38 @@
       </div>
     </div>
 
-      <!-- Register BEGIN -->
-      <form class="form-register" action="/states/" method="get">
-        <h2>{{ $translation.homepage.state_selection.label }}</h2>
-        <label class="usa-sr-only" for="js-user-selection">
-          {{ $translation.homepage.state_selection.default }}
-        </label>
-        <select name="user-selection" id="js-user-selection">
-          <option value="">
+    <!-- Register BEGIN -->
+    <div class="usa-grid">
+      <div class="usa-width-one-third">
+        <img src="{{ .Site.BaseURL }}assets/img/ballot_box-blue.svg" alt="Ballot box">
+      </div>
+      <div class="usa-width-two-thirds">
+        <form class="form-register" action="/states/" method="get">
+          <h2>{{ $translation.homepage.state_selection.label }}</h2>
+          <label class="usa-sr-only" for="js-user-selection">
             {{ $translation.homepage.state_selection.default }}
-          </option>
-          {{ if eq $.Site.Params.language "english" }}
-            {{ range where .Data.Pages.ByTitle "Section" "register" }}
-              <option value="{{ replace .Title "." "" | lower | urlize }}">{{ title .Title }}</option>
+          </label>
+          <select name="user-selection" id="js-user-selection">
+            <option value="">
+              {{ $translation.homepage.state_selection.default }}
+            </option>
+            {{ if eq $.Site.Params.language "english" }}
+              {{ range where .Data.Pages.ByTitle "Section" "register" }}
+                <option value="{{ replace .Title "." "" | lower | urlize }}">{{ title .Title }}</option>
+              {{ end }}
+            {{ else }}
+              {{ range where .Data.Pages.ByTitle "Section" "registrar" }}
+                <option value="{{ .Slug }}">{{ title .Title }}</option>
+              {{ end }}
             {{ end }}
-          {{ else }}
-            {{ range where .Data.Pages.ByTitle "Section" "registrar" }}
-              <option value="{{ .Slug }}">{{ title .Title }}</option>
-            {{ end }}
-          {{ end }}
-        </select>
-        <button class="usa-button-big usa-button-disabled" id="js-user-submit" type="submit">
-          {{ $translation.homepage.state_selection.submit }}
-        </button>
-      </form>
-      <!-- Register END -->
+          </select>
+          <button class="usa-button-big usa-button-disabled" id="js-user-submit" type="submit">
+            {{ $translation.homepage.state_selection.submit }}
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- Register END -->
 
       <div class="usa-grid">
         <div class="usa-width-one-third">
@@ -59,7 +66,7 @@
       <!-- Footer BEGIN -->
       <footer>
         <div class="footer-graphic">
-          <img src="{{ .Site.BaseURL }}assets/img/ballot_box-blue.svg" alt="Web design standards">
+          <img src="{{ .Site.BaseURL }}assets/img/ballot_box-blue.svg" alt="Ballot box">
         </div>
 
         {{ partial "footer.html" . }}

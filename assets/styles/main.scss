@@ -157,9 +157,14 @@ footer {
     color: $color-white;
   }
 
+  h2 {
+    font-size: 2.4rem;
+  }
+
   // hack to remove margin and replace with padding for background color issues
   .usa-display {
     margin: 0;
+    padding-bottom: 4.5rem;
     padding-top: $site-margins;
 
     @include media($medium-screen) {
@@ -172,11 +177,6 @@ footer {
   }
 
   .page-inner {
-    min-height: 50rem;
-
-    @include media($medium-screen) {
-      min-height: 60rem;
-    }
 
     // third level nesting
     header {
@@ -195,7 +195,7 @@ footer {
   margin: 0 auto;
 
   @include media($medium-screen) {
-    max-width: 29rem;
+    max-width: 100%;
   }
 
   p {
@@ -203,7 +203,7 @@ footer {
   }
 
   [type="submit"] {
-    width: 100%;
+//    width: 100%;
   }
 }
 
