@@ -61,7 +61,7 @@ h2 {
   float: left;
 
   em {
-    @include margin (16px null);
+    @include margin (1.8rem null);
     display: inline-block;
     font-family: $font-sans;
     font-size: $h3-font-size;
@@ -76,12 +76,12 @@ h2 {
 
 .site-header-select {
   float: right;
-  margin-top: 1.6rem;
+  margin-top: 1rem;
 
   p {
     display: none;
     font-size: $h6-font-size;
-    margin-right: 2rem;
+    margin-right: 2.3rem;
 
     @include media($medium-screen) {
       display: inline-flex;
