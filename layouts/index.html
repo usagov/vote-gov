@@ -14,12 +14,12 @@
 
     <!-- Register BEGIN -->
     <div class="usa-grid">
-      <div class="usa-width-one-third">
-        <img src="{{ .Site.BaseURL }}assets/img/ballot_box.svg" alt="Ballot box">
+      <div class="usa-width-one-third container-ballot">
+        <img class="ballot-img" src="{{ .Site.BaseURL }}assets/img/ballot_box.svg" alt="Ballot box">
       </div>
       <div class="usa-width-two-thirds">
         <form class="form-register" action="/states/" method="get">
-          <h2>{{ $translation.homepage.state_selection.label }}</h2>
+          <h2 class="form-register-heading">{{ $translation.homepage.state_selection.label }}</h2>
           <label class="usa-sr-only" for="js-user-selection">
             {{ $translation.homepage.state_selection.default }}
           </label>

@@ -200,6 +200,20 @@ footer {
   }
 }
 
+.container-ballot {
+  text-align: center;
+}
+
+.ballot-img {
+  display: none;
+  margin-top: 4.5rem;
+  width: 8.9rem;
+
+  @include media($medium-screen) {
+    display: initial;
+  }
+}
+
 .form-register {
   margin: 0 auto;
 
@@ -212,29 +226,23 @@ footer {
   }
 
   [type="submit"] {
-//    width: 100%;
+    min-width: 29rem;
   }
 }
 
+.form-register-heading {
+  margin-top: 4.5rem;
+}
 
 .home-trio {
-  &.usa-grid {
-    border-top: 1px solid $color-gray-lightest;
-  }
-
+  margin-bottom: 1.5rem;
+  
   .usa-width-one-third {
-    &:nth-child(2) {
-      border-left: 1px solid $color-gray-lightest;
-    }
-
-    &:nth-child(3) {
-      border-left: 1px solid $color-gray-lightest;
-    }
+    border-top: 3px solid $color-primary;
   }
 
   h2 {
-    @include margin (4.5rem null);
-    padding-left: 1em;
+    @include margin ($site-margins null);
 
     &::after {
       display: inline-block;
