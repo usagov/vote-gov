@@ -1,0 +1,168 @@
+[alabama]
+file = "alabama"
+
+[alaska]
+file = "alaska"
+
+[samoa-americana]
+file = "american-samoa"
+
+[arizona]
+file = "arizona"
+
+[arkansas]
+file = "arkansas"
+
+[california]
+file = "california"
+
+[colorado]
+file = "colorado"
+
+[conecticut]
+file = "connecticut"
+
+[delaware]
+file = "delaware"
+
+[florida]
+file = "florida"
+
+[georgia]
+file = "georgia"
+
+[guam]
+file = "guam"
+
+[hawai]
+file = "hawaii"
+
+[idaho]
+file = "idaho"
+
+[ilinois]
+file = "illinois"
+
+[indiana]
+file = "indiana"
+
+[iowa]
+file = "iowa"
+
+[kansas]
+file = "kansas"
+
+[kentucky]
+file = "kentucky"
+
+[luisiana]
+file = "louisiana"
+
+[maine]
+file = "maine"
+
+[mariland]
+file = "maryland"
+
+[masachusets]
+file = "massachusetts"
+
+[michigan]
+file = "michigan"
+
+[minesota]
+file = "minnesota"
+
+[misisipi]
+file = "mississippi"
+
+[misuri]
+file = "missouri"
+
+[montana]
+file = "montana"
+
+[nebraska]
+file = "nebraska"
+
+
+[nevada]
+file = "nevada"
+
+[nuevo-hampshire]
+file = "new-hampshire"
+
+[nueva-jersey]
+file = "new-jersey"
+
+[nuevo-mexico]
+file = "new-mexico"
+
+[nueva-york]
+file = "new-york"
+
+[carolina-del-norte]
+file = "north-carolina"
+
+[dakota-del-norte]
+file = "north-dakota"
+
+[islas-marianas-del-norte]
+file = "northern-mariana-islands"
+
+[ohio]
+file = "ohio"
+
+[oklahoma]
+file = "oklahoma"
+
+[oregon]
+file = "oregon"
+
+[pensilvania]
+file = "pennsylvania"
+
+[puerto-rico]
+file = "puerto-rico"
+
+[isla-de-rode]
+file = "rhode-island"
+
+[dakota-del-sur]
+file = "south-dakota"
+
+[carolina-del-sur]
+file = "south-carolina"
+
+[tenesi]
+file = "tennessee"
+
+[texas]
+file = "texas"
+
+[islas-virgenes-de-ee-uu]
+file = "us-virgin-islands"
+
+[utah]
+file = "utah"
+
+[vermont]
+file = "vermont"
+
+[virginia]
+file = "virginia"
+
+[distrito-federal-de-columbia]
+file = "washington-dc"
+
+[washington]
+file = "washington"
+
+[virginia-occidental]
+file = "west-virginia"
+
+[wisconsin]
+file = "wisconsin"
+
+[wyoming]
+file = "wyoming"
