@@ -200,6 +200,12 @@ footer {
   }
 }
 
+.container-register {
+  @include media($medium-screen) {
+    margin-bottom: $site-margins;
+  }
+}
+
 .container-ballot {
   text-align: center;
 }
@@ -235,8 +241,12 @@ footer {
 }
 
 .home-trio {
-  margin-bottom: 1.5rem;
-  
+  margin-bottom: 5.5rem;
+
+  @include media($medium-screen) {
+    margin-bottom: 1.5rem;
+  }
+
   .usa-width-one-third {
     border-top: 3px solid $color-primary;
   }
