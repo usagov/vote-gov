@@ -9,14 +9,8 @@
         "es": "config_es.toml"
       },
       "urls": {
-        "en": {
-          "staging": "https://vote-gov-staging.apps.cloud.gov/",
-          "production": "https://vote-gov.apps.cloud.gov/"
-        },
-        "es": {
-          "staging": "https://vote-gov-staging.apps.cloud.gov/es/",
-          "production": "https://vote-gov.apps.cloud.gov/es/"
-        }
+        "staging": "https://vote-gov-staging.apps.cloud.gov",
+        "production": "https://vote-gov.apps.cloud.gov/"
       }
     }
   },
@@ -24,7 +18,8 @@
     "postinstall": "gem install scss_lint",
     "build": "gulp build:website",
     "start": "gulp website",
-    "test": "gulp test"
+    "test": "gulp test",
+    "deploy": "gulp deploy"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,14 @@
 title = "Voter Registration"
+publishdir = "tmp/public"
+verbose = "true"
+ignoreFiles = [
+  "content/registrar/.*",
+  "layouts/registrar/.*"
+]
 
 [params]
 Owner = "USA.gov"
 Referrer_Short_Code = "voteusa"
 language = "english"
+root_path = ""
+register_path = "register/"
