@@ -19,6 +19,15 @@ h1 {
   }
 }
 
+h2 {
+  color: $color-primary-darkest;
+
+  a,
+  a:visited {
+    color: $color-primary-darkest;
+  }
+}
+
 .usa-display {
   font-size: $h1-font-size;
   margin-bottom: .5em;
@@ -204,6 +213,38 @@ footer {
 
   [type="submit"] {
 //    width: 100%;
+  }
+}
+
+
+.home-trio {
+  &.usa-grid {
+    border-top: 1px solid $color-gray-lightest;
+  }
+
+  .usa-width-one-third {
+    &:nth-child(2) {
+      border-left: 1px solid $color-gray-lightest;
+    }
+
+    &:nth-child(3) {
+      border-left: 1px solid $color-gray-lightest;
+    }
+  }
+
+  h2 {
+    @include margin (4.5rem null);
+    padding-left: 1em;
+
+    &::after {
+      display: inline-block;
+      width: $base-font-size;
+      height: $base-font-size;
+      margin-left: 5px;
+      content: '';
+      background: url('../img/arrow-right-blue.svg') no-repeat 0 0;
+      background-size: 100%;
+    }
   }
 }
 
