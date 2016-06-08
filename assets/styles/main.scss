@@ -49,14 +49,48 @@ h1 {
 }
 
 .site-logo {
-  h1 {
+  float: left;
+
+  em {
     @include margin (16px null);
+    display: inline-block;
     font-family: $font-sans;
     font-size: $h3-font-size;
+    font-style: normal;
+    font-weight: $font-bold;
   }
 
   a {
     color: $color-secondary-dark;
+  }
+}
+
+.site-header-select {
+  float: right;
+  margin-top: 1.6rem;
+
+  p {
+    display: none;
+    font-size: $h6-font-size;
+    margin-right: 2rem;
+
+    @include media($medium-screen) {
+      display: inline-flex;
+    }
+  }
+
+  select {
+    background-color: $color-gray-lightest;
+    border: none;
+    display: inline;
+    float: right;
+    font-size: $h6-font-size;
+    width: 16rem;
+
+    @include media($medium-screen) {
+      color: $color-gray;
+      font-weight: $font-bold;
+    }
   }
 }
 
@@ -118,7 +152,8 @@ footer {
   }
 
   h1,
-  label {
+  label,
+  .site-header-select p {
     color: $color-white;
   }
 
