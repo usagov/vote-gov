@@ -266,6 +266,12 @@ footer {
   }
 }
 
+.heading-find_polling {
+  @include media($medium-screen) {
+    max-width: 25rem;
+  }
+}
+
 .footer-graphic {
   text-align: center;
 
