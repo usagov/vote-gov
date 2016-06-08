@@ -7,13 +7,16 @@
   {{ partial "disclaimer.html" . }}
   <nav class="usa-grid">
     <div class="site-logo" id="logo">
-      <h1>
+      <em>
         <a href="{{ .Site.BaseURL }}" accesskey="1" title="Home" aria-label="Home">
           {{ $translation.micro_copy.domain }}
         </a>
-      </h1>
+      </em>
+    </div>
+    <div class="site-header-select">
       <p>Where do you vote?</p>
-      <select>
+      <label class="usa-sr-only" for="site-state-select">{{ $translation.micro_copy.select_state }}</label>
+      <select id="site-state-select">
         <option value="">
           {{ $translation.micro_copy.select_state }}
         </option>
