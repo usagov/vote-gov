@@ -8,7 +8,6 @@ var spawn = require('cross-spawn');
 gulp.task('clean-all', function () {
   return del([
     './static/assets/**/*',
-    './public/**/*',
   ]);
 });
 
@@ -22,27 +21,25 @@ gulp.task('build', [ 'clean-all' ], function (done) {
   );
 });
 
-
 gulp.task('build:website', [ 'build' ], function (done) {
-
-  // TODO: Run through this build task recursively for langauge files found.
 
   gutil.log(gutil.colors.cyan('build:website'), 'Building static website via Hugo');
 
-  // English config and Staging URL are the defaults
+  // English config is default
   var setConfig = process.env.npm_package_config_votegov_hugo_en;
-  var setURL = process.env.npm_package_config_votegov_urls_en_staging;
+  var setURL = process.env.npm_package_config_votegov_urls_staging;
 
   if ('spanish' === process.env.NODE_LANG) {
     setConfig = process.env.npm_package_config_votegov_hugo_es;
-    setURL = process.env.npm_package_config_votegov_urls_es_staging;
+    setURL = process.env.npm_package_config_votegov_urls_staging;
   }
 
   if ('production' === process.env.NODE_ENV) {
-    setURL = process.env.npm_package_config_votegov_urls_en_production;
-    if ('spanish' === process.env.NODE_LANG) {
-      setURL = process.env.npm_package_config_votegov_urls_es_production;
-    }
+    setURL = process.env.npm_package_config_votegov_urls_production;
+  }
+
+  if ('version2' === process.env.NODE_ENV) {
+    setURL = process.env.npm_package_config_votegov_urls_version2;
   }
 
   gutil.log(

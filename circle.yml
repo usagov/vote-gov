@@ -29,14 +29,18 @@ deployment:
   production:
     branch: [master]
     commands:
-      - echo "CURRENTLY ONLY BUILDING SINGLE LANGUAGE SITE"
-      - NODE_ENV=production npm run build
+      - NODE_ENV=production npm run deploy
       - cf login -a https://api.cloud.gov -u $CF_GSA_VOTE_USER -p $CF_GSA_VOTE_PASS -o gsa-ffd -s vote-production
       - cf push
   staging:
     branch: [staging]
     commands:
-      - echo "CURRENTLY ONLY BUILDING SINGLE LANGUAGE SITE"
-      - npm run build
+      - npm run deploy
       - cf login -a https://api.cloud.gov -u $CF_GSA_VOTE_USER -p $CF_GSA_VOTE_PASS -o gsa-ffd -s vote-staging
       - cf push -f manifest-staging.yml
+  staging:
+    branch: [new-designs]
+    commands:
+      - NODE_ENV=version2 npm run deploy
+      - cf login -a https://api.cloud.gov -u $CF_GSA_VOTE_USER -p $CF_GSA_VOTE_PASS -o gsa-ffd -s vote-staging
+      - cf push -f manifest-new-designs.yml
