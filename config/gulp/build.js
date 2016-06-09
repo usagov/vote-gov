@@ -38,6 +38,10 @@ gulp.task('build:website', [ 'build' ], function (done) {
     setURL = process.env.npm_package_config_votegov_urls_production;
   }
 
+  if ('version2' === process.env.NODE_ENV) {
+    setURL = process.env.npm_package_config_votegov_urls_version2;
+  }
+
   gutil.log(
     gutil.colors.cyan('build:website'),
     'Using environment-specified --config path: ' + setConfig

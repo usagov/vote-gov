@@ -41,7 +41,6 @@ deployment:
   staging:
     branch: [new-designs]
     commands:
-      - echo "CURRENTLY ONLY BUILDING SINGLE LANGUAGE SITE"
-      - npm run build
+      - NODE_ENV=version2 npm run deploy
       - cf login -a https://api.cloud.gov -u $CF_GSA_VOTE_USER -p $CF_GSA_VOTE_PASS -o gsa-ffd -s vote-staging
       - cf push -f manifest-new-designs.yml

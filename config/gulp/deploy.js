@@ -82,6 +82,12 @@ gulp.task('deploy', function (done) {
 
   }
 
+  if ('version2' === process.env.NODE_ENV) {
+
+    url = process.env.npm_package_config_votegov_urls_version2;
+
+  }
+
   gutil.log(
     gutil.colors.green('deploy'),
     'Deploying multilingual site : ' + url

@@ -9,6 +9,7 @@
         "es": "config_es.toml"
       },
       "urls": {
+        "version2": "https://vote-gov-new-designs.apps.cloud.gov",
         "staging": "https://vote-gov-staging.apps.cloud.gov",
         "production": "https://vote-gov.apps.cloud.gov/"
       }
