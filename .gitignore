@@ -24,3 +24,9 @@ static/assets/*
 
 # The compiled Hugo site
 public/
+
+# The generated langauge content and layouts directories
+content/registrar
+layouts/registrar
+
+tmp/

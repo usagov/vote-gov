@@ -1,0 +1,26 @@
+heading = "Inscríbase para votar"
+
+[by_mail]
+body = "Los residentes de %state_name% pueden inscribirse para votar por correo."
+download = "Descargar el formulario (PDF)"
+download_others = "Descargar el formulario en otros idiomas:"
+step_one_label = "Paso 1"
+step_one = "Llenar su registro de votante."
+step_two_label = "Paso 2"
+step_two = "Enviarla por correo a su estado."
+step_three_label = "Paso 3"
+step_three = "Votar en las próximas elecciones!"
+
+[in_person]
+body = "%state_name% requiere que los residentes a inscribirse en persona en su oficina electoral local."
+link = "Visita el sitio elecciones de %state_name% para averiguar cómo registrar."
+
+[not_needed]
+heading = "Sin necesidad de registro"
+body = "%state_name% sólo se requiere que traer una identificación válida del estado de su lugar de votación."
+link = "Ver la guía para votar en %state_name%"
+
+[online]
+body = "Los residentes de %state_name% pueden inscribirse para votar por Internet."
+link = "Empiece su inscripción por Internet"
+

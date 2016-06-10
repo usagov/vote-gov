@@ -1,11 +1,14 @@
 title = "Voter Registration"
-
-# Taxnomies used to categorize states and territories by registration type
-# ex. registration_types = [ 'by_mail', 'in_person', 'not_needed', 'online' ]
-[taxonomies]
-registration_type = "registration_types"
+publishdir = "tmp/public"
+verbose = "true"
+ignoreFiles = [
+  "content/registrar/.*",
+  "layouts/registrar/.*"
+]
 
 [params]
 Owner = "USA.gov"
 Referrer_Short_Code = "voteusa"
-lang = "en-US"
+language = "english"
+root_path = ""
+register_path = "register/"

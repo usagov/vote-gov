@@ -1,4 +1,14 @@
-title = "Voter Registration but in spanish"
+title = "Registro de Votantes"
+publishdir = "tmp/public/es"
+verbose = "true"
+ignoreFiles = [
+  "content/register/.*",
+  "layouts/register/.*"
+]
 
 [params]
-lang = "es"
+Owner = "USA.gov"
+Referrer_Short_Code = "voteusa_spanish"
+language = "spanish"
+root_path = "es/"
+register_path = "registrar/"

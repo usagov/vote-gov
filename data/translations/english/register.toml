@@ -1,0 +1,25 @@
+heading = "Register to Vote"
+
+[by_mail]
+body = "%state_name% allows residents to register online."
+step_one_label = "Step 1"
+step_one = "Fill out your voter registration."
+step_two_label = "Step 2"
+step_two = "Mail it to your state."
+step_three_label = "Step 3"
+step_three = "Vote in the upcoming election!"
+download = "Download the form (PDF)"
+download_others = "Download the form in other languages:"
+
+[in_person]
+body = "%state_name% requires residents to register in person at their local election office."
+link = "Visit the %state_name% elections site to find out how to register."
+
+[not_needed]
+heading = "No registration needed"
+body = "%state_name% only requires that you bring a valid state ID to your polling place."
+link = "Learn more about voting in %state_name%"
+
+[online]
+body = "%state_name% allows residents to register online."
+link = "Start your online registration"

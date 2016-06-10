@@ -3,22 +3,22 @@ var gutil = require('gulp-util');
 var sass = require('gulp-sass');
 var scsslint = require('gulp-scss-lint');
 
-gulp.task('styles:homepage', [ 'scss-lint' ], function () {
+gulp.task('styles', [ 'scss-lint' ], function () {
 
-  gutil.log(gutil.colors.cyan('styles:homepage'), 'Compiling Sass assets');
+  gutil.log(gutil.colors.cyan('styles'), 'Compiling Sass assets');
 
   var sassStream = sass();
   var stream = gulp.src('./assets/styles/main.scss');
 
   if (cFlags.production) {
-    gutil.log(gutil.colors.cyan('styles:homepage'), 'Compressing styles');
+    gutil.log(gutil.colors.cyan('styles'), 'Compressing styles');
     sassStream = sass({ outputStyle: 'compressed' });
   }
 
   stream = stream.pipe(sassStream)
     .on('error', function (error) {
       gutil.log(
-        gutil.colors.yellow('styles:homepage'),
+        gutil.colors.yellow('styles'),
         gutil.colors.red('error'),
         '\n',
         error.messageFormatted
