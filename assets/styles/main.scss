@@ -200,9 +200,7 @@ footer {
 }
 
 .container-register {
-  @include media($medium-screen) {
-    margin-bottom: $site-margins;
-  }
+  margin-bottom: $site-margins;
 }
 
 .container-ballot {
@@ -240,8 +238,7 @@ footer {
 }
 
 .home-trio {
-  margin-bottom: 7rem;
-  margin-top: 2rem;
+  margin-bottom: 8rem;
 
   @include media($medium-screen) {
     margin-bottom: 1.5rem;
