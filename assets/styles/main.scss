@@ -190,9 +190,7 @@ footer {
 
     // third level nesting
     header {
-      @include media($medium-screen) {
-        text-align: center;
-      }
+      text-align: center;
     }
   }
 
@@ -242,7 +240,8 @@ footer {
 }
 
 .home-trio {
-  margin-bottom: 5.5rem;
+  margin-bottom: 7rem;
+  margin-top: 2rem;
 
   @include media($medium-screen) {
     margin-bottom: 1.5rem;
