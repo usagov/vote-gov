@@ -1,5 +1,4 @@
 ---
 inherit: manifest.yml
 host: vote-gov-new-designs
-name: vote-gov-new-designs
 
