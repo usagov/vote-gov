@@ -3,7 +3,6 @@
 {{ $slug := .Slug }}
 
 <div class="translations">
-  <span style="color:white;">Available translations</span>
 
   {{ if ( eq $.Site.Params.language "english" ) }}
 
@@ -15,7 +14,6 @@
     href="{{ $.Site.BaseURL }}es/registrar/{{( index $translation.states $title ).file }}"
     {{ end }}
 
-    style="cursor:pointer; color:white;"
     class="translation-link">
     Español
   </a>
@@ -30,7 +28,6 @@
     href="{{ $.Site.BaseURL }}register/{{( index $translation.states $slug ).file }}"
     {{ end }}
 
-    style="cursor:pointer; color:white;"
     class="translation-link">
     English
   </a>
