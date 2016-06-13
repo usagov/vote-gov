@@ -56,7 +56,7 @@ gulp.task('scss-lint', function (done) {
 gulp.task('module-styles', function () {
 
   gutil.log(gutil.colors.cyan('images'), 'Copying npm module stylesheets');
- gulp.src('./node_modules/typeahead/style.css')
+  gulp.src('./node_modules/typeahead/style.css')
     .pipe(rename('typeahead.css'))
     .pipe(gulp.dest('./static/assets/styles'));
 
