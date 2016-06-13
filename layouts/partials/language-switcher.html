@@ -1,40 +1,38 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+{{ $title := ( replace .Title "." "" | lower | urlize ) }}
+{{ $slug := .Slug }}
 
 <div class="translations">
-  <span style="color:white;">Available translations</span>
+
   {{ if ( eq $.Site.Params.language "english" ) }}
+
   <a
+
     {{ if .IsHome }}
     href="{{ $.Site.BaseURL }}es/"
     {{ else }}
-    href="#butts"
+    href="{{ $.Site.BaseURL }}es/registrar/{{( index $translation.states $title ).file }}"
     {{ end }}
-    style="cursor:pointer; color:white;"
+
     class="translation-link">
     Español
   </a>
-  {{ if ( ne .Title "voter-registration" ) }}
-  <h1>
-    {{$eng_title := ( replace .Title "." "" | lower | urlize )}}
-    {{/*{{ $.Site.BaseURL }}es/registrar/{{( index $translation.states $eng_title ).file }}*/}}
-  </h1>
-  {{ end }}
+
   {{ else }}
+
   <a
+
     {{ if .IsHome }}
     href="{{ $.Site.BaseURL }}"
     {{ else }}
-    href="#poop"
+    href="{{ $.Site.BaseURL }}register/{{( index $translation.states $slug ).file }}"
     {{ end }}
-    style="cursor:pointer; color:white;"
+
     class="translation-link">
     English
   </a>
-  {{ if .Slug }}
-  <h1>
-    {{ $.Site.BaseURL }}register/{{ ( index $translation.states .Slug ).file }}
-  </h1>
-  {{end}}
+
   {{ end }}
+
 </div>
 
