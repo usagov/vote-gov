@@ -2,8 +2,9 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var sass = require('gulp-sass');
 var scsslint = require('gulp-scss-lint');
+var rename = require('gulp-rename');
 
-gulp.task('styles', [ 'scss-lint' ], function () {
+gulp.task('styles', [ 'scss-lint', 'module-styles' ], function () {
 
   gutil.log(gutil.colors.cyan('styles'), 'Compiling Sass assets');
 
@@ -49,5 +50,14 @@ gulp.task('scss-lint', function (done) {
       config: './.scss-lint.yml',
     }))
     .pipe(scsslint.failReporter());
+
+});
+
+gulp.task('module-styles', function () {
+
+  gutil.log(gutil.colors.cyan('images'), 'Copying npm module stylesheets');
+ gulp.src('./node_modules/typeahead/style.css')
+    .pipe(rename('typeahead.css'))
+    .pipe(gulp.dest('./static/assets/styles'));
 
 });
