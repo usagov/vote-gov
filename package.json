@@ -49,6 +49,9 @@
     "gulp-util": "^3.0.7",
     "jquery": "^1.12.1",
     "run-sequence": "^1.1.5",
+    "toml": "^2.3.0",
+    "typeahead": "^0.2.2",
+    "typeahead.js": "^0.11.1",
     "uswds": "^0.8.5",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
