@@ -4,6 +4,7 @@ var del = require('del');
 var pkg = require('../../package.json');
 var runSequence = require('run-sequence');
 var spawn = require('cross-spawn');
+var rename = require('gulp-rename');
 
 gulp.task('clean-all', function () {
   return del([
@@ -11,11 +12,21 @@ gulp.task('clean-all', function () {
   ]);
 });
 
+gulp.task('move-state-files', function () {
+  gutil.log(gutil.colors.cyan('images'), 'Moving TOML state files');
+  gulp.src('./data/translations/english/states.toml')
+    .pipe(rename('english-states.toml'))
+    .pipe(gulp.dest('./static/files'));
+  gulp.src('./data/translations/spanish/states.toml')
+    .pipe(rename('spanish-states.toml'))
+    .pipe(gulp.dest('./static/files'));
+});
+
 gulp.task('build', [ 'clean-all' ], function (done) {
   exports.printPackageInfo();
   gutil.log(gutil.colors.cyan('build'), 'Building asset-pipeline');
   runSequence(
-    [ 'styles', 'scripts', 'images', 'fonts' ],
+    [ 'styles', 'scripts', 'images', 'fonts', 'move-state-files' ],
     'copy-translation',
     done
   );
