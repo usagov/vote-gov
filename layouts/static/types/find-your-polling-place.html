@@ -1,0 +1,42 @@
+<div class="usa-grid page-inner main-content">
+  <header>
+    <h1>
+      <!-- Translate me -->
+      Check your registration
+    </h1>
+  </header>
+  <p class="usa-font-lead">
+    <!-- Translate me -->
+    Enter your current address to find your polling place.
+  </p>
+
+  <!-- Translate me [address form text] -->
+  <form class="usa-form-large">
+    <fieldset>
+      <legend>Mailing address</legend>
+      <label for="mailing-address-1">Street address 1</label>
+      <input id="mailing-address-1" name="mailing-address-1" type="text">
+      <label for="mailing-address-2">Street address 2 <span class="usa-additional_text">Optional</span></label>
+      <input id="mailing-address-2" name="mailing-address-2" type="text">
+      <div>
+        <div class="usa-input-grid usa-input-grid-medium">
+          <label for="city">City</label>
+          <input id="city" name="city" type="text">
+        </div>
+        <div class="usa-input-grid usa-input-grid-small">
+          <label for="state">State</label>
+          <select id="state" name="state">
+            <option value=""></option>
+            <!-- Add all state options -->
+          </select>
+        </div>
+      </div>
+      <label for="zip">ZIP</label>
+      <input class="usa-input-medium" id="zip" name="zip" type="text" pattern="[\d]{5}(-[\d]{4})?" data-grouplength="5,4" data-delimiter="-" data-politespace="">
+    </fieldset>
+    <button class="usa-button-big usa-button-disabled" id="js-user-submit" type="submit">
+      <!-- Translate me -->
+      Submit
+    </button>
+  </form>
+</div>

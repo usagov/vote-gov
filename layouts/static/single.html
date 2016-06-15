@@ -1,0 +1,28 @@
+{{ partial "head.html" . }}
+
+  <body class="page-register-{{ .Params.static_page_type }}">
+    {{ partial "header.html" . }}
+    <div id="main-content" role="main">
+      {{/*
+        Expected Pages:
+        check-your-registration.html
+        find-your-polling-place.html
+        learn-about-voting-in-your-state.html
+        no-polling-place-found.html
+        state-voting-guide.html
+        your-polling-place.html
+      */}}
+      {{ .Render ( print "types/" .Params.static_page_type ) }}
+      }
+    </div>
+
+    {{ partial "go-back.html" . }}
+
+    <footer>
+      {{ partial "footer.html" . }}
+    </footer>
+
+    {{ partial "analytics.html" . }}
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

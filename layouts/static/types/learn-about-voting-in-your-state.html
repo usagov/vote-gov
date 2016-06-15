@@ -1,0 +1,32 @@
+<div class="usa-grid page-inner main-content">
+  <header>
+    <h1>
+      <!-- Translate me -->
+      Learn about voting in your state
+    </h1>
+  </header>
+  <form class="form-register" action="/states/" method="get">
+    <h2 class="form-register-heading">{{ $translation.homepage.state_selection.label }}</h2>
+    <label class="usa-sr-only" for="js-user-selection">
+      {{ $translation.homepage.state_selection.default }}
+    </label>
+    <select name="user-selection" id="js-user-selection">
+      <option value="">
+        {{ $translation.homepage.state_selection.default }}
+      </option>
+      {{ if eq $.Site.Params.language "english" }}
+        {{ range where .Data.Pages.ByTitle "Section" "register" }}
+          <option value="{{ replace .Title "." "" | lower | urlize }}">{{ title .Title }}</option>
+        {{ end }}
+      {{ else }}
+        {{ range where .Data.Pages.ByTitle "Section" "registrar" }}
+          <option value="{{ .Slug }}">{{ title .Title }}</option>
+        {{ end }}
+      {{ end }}
+    </select>
+    <button class="usa-button-big usa-button-disabled" id="js-user-submit" type="submit">
+      <!-- Translate me -->
+      View state voting guide
+    </button>
+  </form>
+</div>
