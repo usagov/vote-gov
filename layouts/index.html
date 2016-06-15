@@ -14,7 +14,7 @@
         </header>
         <form class="form-register" action="/states/" method="get">
           <p>{{ $translation.homepage.state_selection.label }}</p>
-          <input type="text" name="user-selection" id="js-user-selection" value="{{ $translation.homepage.state_selection.default }}"></input>
+          <input type="text" name="user-selection" id="js-user-selection" placeholder="{{ $translation.homepage.state_selection.default }}"></input>
           <button class="usa-button-big usa-button-disabled" id="js-user-submit" type="submit">
             {{ $translation.homepage.state_selection.submit }}
           </button>
