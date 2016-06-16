@@ -1,0 +1,223 @@
+[alabama]
+file = "alabama"
+title = "Alabama"
+
+[alaska]
+file = "alaska"
+title = "Alaska"
+
+[american-samoa]
+file = "samoa-americana"
+title = "Samoa Americana"
+
+[arizona]
+file = "arizona"
+title = "Arizona"
+
+[arkansas]
+file = "arkansas"
+title = "Arkansas"
+
+[california]
+file = "california"
+title = "California"
+
+[colorado]
+file = "colorado"
+title = "Colorado"
+
+[connecticut]
+file = "conecticut"
+title = "Conécticut"
+
+[delaware]
+file = "delaware"
+title = "Delaware"
+
+[florida]
+file = "florida"
+title = "Florida"
+
+[georgia]
+file = "georgia"
+title = "Georgia"
+
+[guam]
+file = "guam"
+title = "Guam"
+
+[hawaii]
+file = "hawai"
+title = "Hawái"
+
+[idaho]
+file = "idaho"
+title = "Ídaho"
+
+[illinois]
+file = "ilinois"
+title = "Ilinóis"
+
+[indiana]
+file = "indiana"
+title = "Indiana"
+
+[iowa]
+file = "iowa"
+title = "Iowa"
+
+[kansas]
+file = "kansas"
+title = "Kansas"
+
+[kentucky]
+file = "kentucky"
+title = "Kentucky"
+
+[louisiana]
+file = "luisiana"
+title = "Luisiana"
+
+[maine]
+file = "maine"
+title = "maine"
+
+[maryland]
+file = "mariland"
+title = "Máriland"
+
+[massachusetts]
+file = "masachusets"
+title = "Masachusets"
+
+[michigan]
+file = "michigan"
+title = "Míchigan"
+
+[minnesota]
+file = "minesota"
+title = "Minesota"
+
+[mississippi]
+file = "misisipi"
+title = "Misisipi"
+
+[missouri]
+file = "misuri"
+title = "Misuri"
+
+[montana]
+file = "montana"
+title = "Montana"
+
+[nebraska]
+file = "nebraska"
+title = "Nebraska"
+
+[nevada]
+file = "nevada"
+title = "Nevada"
+
+[new-hampshire]
+file = "nuevo-hampshire"
+title = "Nuevo Hampshire"
+
+[new-jersey]
+file = "nueva-jersey"
+title = "Nueva Jersey"
+
+[new-mexico]
+file = "nuevo-mexico"
+title = "Nuevo México"
+
+[new-york]
+file = "nueva-york"
+title = "Nueva York"
+
+[north-carolina]
+file = "carolina-del-norte"
+title = "Carolina del Norte"
+
+[north-dakota]
+file = "dakota-del-norte"
+title = "Dakota del Norte"
+
+[northern-mariana-islands]
+file = "islas-marianas-del-norte"
+title = "Islas Marianas del Norte"
+
+[ohio]
+file = "ohio"
+title = "Ohio"
+
+[oklahoma]
+file = "oklahoma"
+title = "Oklahoma"
+
+[oregon]
+file = "oregon"
+title = "Oregón"
+
+[pennsylvania]
+file = "pensilvania"
+title = "Pensilvania"
+
+[puerto-rico]
+file = "puerto-rico"
+title = "Puerto Rico"
+
+[rhode-island]
+file = "isla-de-rode"
+title = "Isla de Rode"
+
+[south-dakota]
+file = "dakota-del-sur"
+title = "Dakota del Sur"
+
+[south-carolina]
+file = "carolina-del-sur"
+title = "Carolina del Sur"
+
+[tennessee]
+file = "tenesi"
+title = "Tenesí"
+
+[texas]
+file = "texas"
+title = "Texas"
+
+[us-virgin-islands]
+file = "islas-virgenes-de-ee-uu"
+title = "Islas Vírgenes de EE.UU"
+
+[utah]
+file = "utah"
+title = "Utah"
+
+[vermont]
+file = "vermont"
+title = "Vermont"
+
+[virginia]
+file = "virginia"
+title = "Virginia"
+
+[washington-dc]
+file = "distrito-federal-de-columbia"
+title = "Distrito Federal de Columbia"
+
+[washington]
+file = "washington"
+title = "Wáshington"
+
+[west-virginia]
+file = "virginia-occidental"
+title = "Virginia Occidental"
+
+[wisconsin]
+file = "wisconsin"
+title = "Wisconsin"
+
+[wyoming]
+file = "wyoming"
+title = "Wyoming"

@@ -2,9 +2,14 @@
 
 <div class="usa-disclaimer">
   <div class="usa-grid">
-    <span class="usa-disclaimer-official">
-      <img class="usa-flag_icon" alt="US flag signifying that this is a United States Federal Government website" src="{{ .Site.BaseURL }}/assets/img/us_flag_small.png">
-      {{ $translation.micro_copy.disclaimer }}
-    </span>
+    <div class="usa-disclaimer-official">
+      <div class="usa-disclaimer-official__img">
+        <img class="usa-flag_icon" alt="US flag signifying that this is a United States Federal Government website" src="{{ .Site.BaseURL }}/assets/img/us_flag_small.png">
+      </div>
+      <div class="usa-disclaimer-official__body">
+        {{ $translation.micro_copy.disclaimer }}
+      </div>
+    </div>
+    {{ partial "language-switcher.html" . }}
   </div>
 </div>

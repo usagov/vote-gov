@@ -1,0 +1,53 @@
+// This component leverages the .usa-button-big class from `uswds`.
+//
+
+.usa-disclaimer {
+  background-color: $color-primary-darkest;
+  color: $color-white;
+  font-size: 12px;
+  height: 43px;
+
+  @include media($medium-screen) {
+    font-size: $h6-font-size;
+  }
+}
+
+.usa-disclaimer-official {
+  float: left;
+  display: block;
+  line-height: 1rem;
+  margin-top: 0.25rem;
+  width: 60%;
+  overflow: hidden;
+
+  @include media($medium-screen) {
+    margin-top: 1rem;
+  }
+}
+
+.usa-disclaimer-official__img {
+  float: left;
+  margin-right: 0.75rem;
+  padding-top: 0.25rem;
+
+  @include media($medium-screen) {
+    padding-top: 0;
+  }
+}
+
+.usa-disclaimer-official__body {
+  overflow: hidden;
+}
+
+.translations {
+  float: right;
+  display: block;
+  background-color: $color-primary-darkest;
+}
+
+.translation-link {
+  font-size: 1.4rem;
+  height: 2.4rem;
+  margin-top: 0.25rem;
+  padding-top: 0.5rem;
+}

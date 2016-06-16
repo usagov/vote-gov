@@ -1,8 +1,5 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
-<a class="skipnav" href="#main-content">
-  {{ $translation.micro_copy.skip_text }}
-</a>
 <header class="usa-site-header" role="banner">
   {{ partial "disclaimer.html" . }}
   <nav class="usa-grid">
@@ -13,6 +10,5 @@
         </a>
       </h1>
     </div>
-    {{ partial "language-switcher.html" . }}
   </nav>
 </header>
