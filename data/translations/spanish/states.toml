@@ -40,7 +40,7 @@ file = "hawaii"
 [idaho]
 file = "idaho"
 
-[ilinois]
+[illinois]
 file = "illinois"
 
 [indiana]
@@ -61,16 +61,16 @@ file = "louisiana"
 [maine]
 file = "maine"
 
-[mariland]
+[maryland]
 file = "maryland"
 
-[masachusets]
+[massachusetts]
 file = "massachusetts"
 
 [michigan]
 file = "michigan"
 
-[minesota]
+[minnesota]
 file = "minnesota"
 
 [misisipi]
@@ -95,7 +95,7 @@ file = "new-hampshire"
 [nueva-jersey]
 file = "new-jersey"
 
-[nuevo-mexico]
+[nuevo-méxico]
 file = "new-mexico"
 
 [nueva-york]
@@ -116,7 +116,7 @@ file = "ohio"
 [oklahoma]
 file = "oklahoma"
 
-[oregon]
+[oregón]
 file = "oregon"
 
 [pensilvania]
@@ -125,7 +125,7 @@ file = "pennsylvania"
 [puerto-rico]
 file = "puerto-rico"
 
-[isla-de-rode]
+[rhode island]
 file = "rhode-island"
 
 [dakota-del-sur]
@@ -140,7 +140,7 @@ file = "tennessee"
 [texas]
 file = "texas"
 
-[islas-virgenes-de-ee-uu]
+[islas-vírgenes-de-ee-uu]
 file = "us-virgin-islands"
 
 [utah]
@@ -152,7 +152,7 @@ file = "vermont"
 [virginia]
 file = "virginia"
 
-[distrito-federal-de-columbia]
+[distrito-de-columbia]
 file = "washington-dc"
 
 [washington]
