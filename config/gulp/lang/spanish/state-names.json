@@ -56,8 +56,8 @@
     "title": "Ídaho"
   },
   "illinois" : {
-    "file": "ilinois",
-    "title": "Ilinóis"
+    "file": "illinois",
+    "title": "Illinois"
   },
   "indiana" : {
     "file": "indiana",
@@ -84,20 +84,20 @@
     "title": "maine"
   },
   "maryland" : {
-    "file": "mariland",
-    "title": "Máriland"
+    "file": "maryland",
+    "title": "Maryland"
   },
   "massachusetts" : {
-    "file": "masachusets",
-    "title": "Masachusets"
+    "file": "massachusetts",
+    "title": "Massachusetts"
   },
   "michigan" : {
     "file": "michigan",
     "title": "Míchigan"
   },
   "minnesota" : {
-    "file": "minesota",
-    "title": "Minesota"
+    "file": "minnesota",
+    "title": "Minnesota"
   },
   "mississippi" : {
     "file": "misisipi",
@@ -168,8 +168,8 @@
     "title": "Puerto Rico"
   },
   "rhode-island" : {
-    "file": "isla-de-rode",
-    "title": "Isla de Rode"
+    "file": "rhode-island",
+    "title": "Rhode Island"
   },
   "south-dakota": {
     "file": "dakota-del-sur",
@@ -204,8 +204,8 @@
     "title": "Virginia"
   },
   "washington-dc" : {
-    "file": "distrito-federal-de-columbia",
-    "title": "Distrito Federal de Columbia"
+    "file": "distrito-de-columbia",
+    "title": "Distrito de Columbia"
   },
   "washington" : {
     "file": "washington",
