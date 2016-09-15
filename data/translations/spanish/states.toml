@@ -85,7 +85,6 @@ file = "montana"
 [nebraska]
 file = "nebraska"
 
-
 [nevada]
 file = "nevada"
 
@@ -95,7 +94,7 @@ file = "new-hampshire"
 [nueva-jersey]
 file = "new-jersey"
 
-[nuevo-méxico]
+[nuevo-mexico]
 file = "new-mexico"
 
 [nueva-york]
@@ -116,7 +115,7 @@ file = "ohio"
 [oklahoma]
 file = "oklahoma"
 
-[oregón]
+[oregon]
 file = "oregon"
 
 [pensilvania]
@@ -140,7 +139,7 @@ file = "tennessee"
 [texas]
 file = "texas"
 
-[islas-vírgenes-de-ee-uu]
+[islas-virgenes-de-ee-uu]
 file = "us-virgin-islands"
 
 [utah]

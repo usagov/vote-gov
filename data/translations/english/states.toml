@@ -55,8 +55,8 @@ file = "idaho"
 title = "Ídaho"
 
 [illinois]
-file = "ilinois"
-title = "Ilinóis"
+file = "illinois"
+title = "Illinois"
 
 [indiana]
 file = "indiana"
@@ -83,20 +83,20 @@ file = "maine"
 title = "maine"
 
 [maryland]
-file = "mariland"
-title = "Máriland"
+file = "maryland"
+title = "Maryland"
 
 [massachusetts]
-file = "masachusets"
-title = "Masachusets"
+file = "massachusetts"
+title = "Massachusetts"
 
 [michigan]
 file = "michigan"
 title = "Míchigan"
 
 [minnesota]
-file = "minesota"
-title = "Minesota"
+file = "minnesota"
+title = "Minnesota"
 
 [mississippi]
 file = "misisipi"
@@ -167,8 +167,8 @@ file = "puerto-rico"
 title = "Puerto Rico"
 
 [rhode-island]
-file = "isla-de-rode"
-title = "Isla de Rode"
+file = "rhode-island"
+title = "Rhode Island"
 
 [south-dakota]
 file = "dakota-del-sur"
@@ -203,8 +203,8 @@ file = "virginia"
 title = "Virginia"
 
 [washington-dc]
-file = "distrito-federal-de-columbia"
-title = "Distrito Federal de Columbia"
+file = "distrito-de-columbia"
+title = "Distrito de Columbia"
 
 [washington]
 file = "washington"
