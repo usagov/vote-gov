@@ -16,9 +16,10 @@
     ================================================== -->
     <title>{{ .Site.Title }} | {{ .Site.Params.Owner }}</title>
     <meta property="og:title" content="{{ .Site.Params.Title }}" />
-
-    <meta name="description" content="{{ .Site.Params.Description }}">
+    <meta property="og:url" content="{{ .Site.BaseURL }}" />
+    <meta name="description" content="{{ .Site.Params.Description }}" />
     <meta property="og:description" content="{{ .Site.Params.Description }}" />
+    <meta property="og:image" content="{{ .Site.BaseURL }}assets/img/ballot-box-OG.png" />
 
     <link rel="canonical" href="{{ .Site.BaseURL }}" />
 
