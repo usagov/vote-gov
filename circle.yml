@@ -15,7 +15,8 @@ dependencies:
     - if [ ! -f debs/temp.deb ]; then wget -qO debs/temp.deb https://cli.run.pivotal.io/stable?release=debian64; fi
     - sudo dpkg -i debs/temp.deb
     - cf -v
-    - rm -rf ./node_modules
+    - npm uninstall --save-dev gulp-sass
+    - npm install --save-dev gulp-sass@2    
     - bash ./config/ci/install-hugo.sh
   cache_directories:
     - debs
