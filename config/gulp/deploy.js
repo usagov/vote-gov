@@ -8,7 +8,7 @@ var spawn = require('cross-spawn');
 gulp.task('deploy-clean-all', function () {
   return del([
     './public',
-    './tmp/public',
+    './tmp/public'
   ]);
 });
 
@@ -34,7 +34,7 @@ gulp.task('deploy-english', function(done) {
   runSequence(
     'build:website',
     done
-  )
+  );
 
 });
 
@@ -44,20 +44,27 @@ gulp.task('deploy-spanish', function(done) {
   runSequence(
     'build:website',
     done
-  )
+  );
 
 });
 
 gulp.task('deploy-remove-remnants', function (done) {
   return del([
     './tmp/public/es/assets/',
-    './tmp/public/es/files/',
+    './tmp/public/es/files/'
   ]);
 });
 
-gulp.task('deploy-provision',function (done) {
+gulp.task('deploy-provision', function (done) {
 
   return gulp.src('./tmp/public/**/*')
+    .pipe(gulp.dest('./public'));
+
+});
+
+gulp.task('deploy-nginx-conf', function (done) {
+
+  return gulp.src('./nginx.conf')
     .pipe(gulp.dest('./public'));
 
 });
@@ -93,6 +100,7 @@ gulp.task('deploy', function (done) {
     'deploy-spanish',
     'deploy-remove-remnants',
     'deploy-provision',
+    'deploy-nginx-conf',
     done
   );
 
