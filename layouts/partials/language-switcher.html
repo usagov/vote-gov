@@ -8,7 +8,7 @@
 
   <a
 
-    {{ if .IsHome }}
+    {{ if or (.IsHome) (.IsNode) }}
     href="{{ $.Site.BaseURL }}es/"
     {{ else }}
     href="{{ $.Site.BaseURL }}es/registrar/{{( index $translation.states $title ).file }}"
@@ -22,7 +22,7 @@
 
   <a
 
-    {{ if .IsHome }}
+    {{ if or (.IsHome) (.IsNode) }}
     href="{{ $.Site.BaseURL }}"
     {{ else }}
     href="{{ $.Site.BaseURL }}register/{{( index $translation.states $slug ).file }}"
