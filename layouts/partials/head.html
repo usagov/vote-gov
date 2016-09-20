@@ -1,3 +1,5 @@
+{{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -15,10 +17,11 @@
     <!-- Title and meta description
     ================================================== -->
     <title>{{ .Site.Title }} | {{ .Site.Params.Owner }}</title>
-    <meta property="og:title" content="{{ .Site.Params.Title }}" />
-
-    <meta name="description" content="{{ .Site.Params.Description }}">
-    <meta property="og:description" content="{{ .Site.Params.Description }}" />
+    <meta property="og:title" content="{{ $translation.meta.title }}" />
+    <meta property="og:url" content="{{ .Site.BaseURL }}" />
+    <meta name="description" content="{{ $translation.meta.description }}" />
+    <meta property="og:description" content="{{ $translation.meta.description }}" />
+    <meta property="og:image" content="{{ .Site.BaseURL }}assets/img/ballot-box-OG.png" />
 
     <link rel="canonical" href="{{ .Site.BaseURL }}" />
 

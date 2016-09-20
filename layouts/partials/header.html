@@ -1,18 +1,18 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
-<a class="skipnav" href="#main-content">
-  {{ $translation.micro_copy.skip_text }}
-</a>
 <header class="usa-site-header" role="banner">
   {{ partial "disclaimer.html" . }}
   <nav class="usa-grid">
     <div class="site-logo" id="logo">
       <h1>
+      {{ if eq $.Site.Params.language "english" }}
         <a href="{{ .Site.BaseURL }}" accesskey="1" title="Home" aria-label="Home">
+      {{ else }}
+        <a href="{{ .Site.BaseURL }}es/" accesskey="1" title="Home" aria-label="Home">
+      {{ end }}
           {{ $translation.micro_copy.domain }}
         </a>
       </h1>
     </div>
-    {{ partial "language-switcher.html" . }}
   </nav>
 </header>

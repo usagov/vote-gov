@@ -12,12 +12,16 @@
         <header>
           <h1 class="usa-display">{{ $translation.homepage.header }}</h1>
         </header>
+      {{ if eq $.Site.Params.language "english" }}
         <form class="form-register" action="/states/" method="get">
+      {{ else }}
+        <form class="form-register" action="/es/states/" method="get">
+      {{ end }}
           <p>{{ $translation.homepage.state_selection.label }}</p>
           <label class="usa-sr-only" for="js-user-selection">
             {{ $translation.homepage.state_selection.default }}
           </label>
-          <select name="user-selection" id="js-user-selection">
+          <select name="userselection" id="js-user-selection">
             <option value="">
               {{ $translation.homepage.state_selection.default }}
             </option>
@@ -31,7 +35,7 @@
               {{ end }}
             {{ end }}
           </select>
-          <button class="usa-button-big usa-button-disabled" id="js-user-submit" type="submit">
+          <button class="usa-button-big usa-button-secondary" id="js-user-submit" type="submit">
             {{ $translation.homepage.state_selection.submit }}
           </button>
         </form>
@@ -52,26 +56,6 @@
 
     {{ partial "analytics.html" . }}
     {{ partial "scripts.html" . }}
-
-    <script>
-      // TODO: This exists only for basic testing. It will be removed once
-      // the designs are more fleshed out. This is just a work in progress for now.
-      ( function( g ) {;
-        var button = document.getElementById( 'js-user-submit' );
-        button.addEventListener( 'click', function ( event ) {
-          event.preventDefault();
-          {{ if eq $.Site.Params.language "english" }}
-          var registerPath = "register/";
-          {{ else }}
-          var registerPath = "registrar/";
-          {{ end }}
-          var selection = document.getElementById( 'js-user-selection' );
-          if ( selection.value ) {
-            g.location.href = g.location.origin + g.location.pathname + registerPath + selection.value;
-          }
-        }, false );
-      } )( this );
-    </script>
 
   </body>
 

@@ -38,15 +38,7 @@ h1 {
   border-bottom: 1px solid $color-gray-lighter;
 }
 
-.usa-disclaimer {
-  background-color: $color-primary-darkest;
-  color: $color-white;
-  font-size: 12px;
-
-  @include media($medium-screen) {
-    font-size: $h6-font-size;
-  }
-}
+@import './component/disclaimer';
 
 .site-logo {
   h1 {
