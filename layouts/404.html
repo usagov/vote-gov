@@ -1,7 +1,7 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
 {{ partial "head.html" . }}
-  <body class="page-vote">
+  <body class="page-register-single">
     {{ partial "header.html" . }}
     <div class="page-vote-main" id="main" role="main">
 
@@ -10,19 +10,15 @@
       <section class="usa-grid page-inner" id="main-content">
         <header>
           <h1 class="usa-display">Sorry, this is a bad page with broken copy and everything is horrid.</h1>
-          <h1 class="usa-display">Lo siento , pero esta página está hecha de sueños rotos y queso podrido.</h1>
+          <h1 class="usa-display">Lo siento, pero esta página está hecha de sueños rotos y queso podrido.</h1>
         </header>
 
-        <p>Now, <a href="/">scurry on back to the front page</a> before the web bugs eat you!</p>
+        <p class="usa-font-lead">Now, <a href="/">scurry on back to the front page</a> before the web bugs eat you!</p>
 
-        <p>¡Rápido! <a href="/es/">Vamos a ir a la primera página</a> antes de ser destruidos por las bestias de la Internet!</p>
+          <p class="usa-font-lead">¡Rápido! <a href="/es/">Vamos a ir a la primera página</a> antes de ser destruidos por las bestias de la Internet!</p>
         
       <!-- Footer BEGIN -->
       <footer>
-        <div class="footer-graphic">
-          <img src="{{ .Site.BaseURL }}assets/img/ballot_box-blue.svg" alt="Web design standards">
-        </div>
-
         {{ partial "footer.html" . }}
       </footer>
       <!-- Footer END -->
