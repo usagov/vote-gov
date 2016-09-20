@@ -15,10 +15,10 @@
     <!-- Title and meta description
     ================================================== -->
     <title>{{ .Site.Title }} | {{ .Site.Params.Owner }}</title>
-    <meta property="og:title" content="{{ .Site.Title }}" />
+    <meta property="og:title" content="{{ $translation.meta.title }}" />
     <meta property="og:url" content="{{ .Site.BaseURL }}" />
-    <meta name="description" content="{{ .Site.Description }}" />
-    <meta property="og:description" content="{{ .Site.Description }}" />
+    <meta name="description" content="{{ $translation.meta.description }}" />
+    <meta property="og:description" content="{{ $translation.meta.description }}" />
     <meta property="og:image" content="{{ .Site.BaseURL }}assets/img/ballot-box-OG.png" />
 
     <link rel="canonical" href="{{ .Site.BaseURL }}" />
