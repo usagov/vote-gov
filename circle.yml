@@ -1,6 +1,7 @@
 machine:
   environment:
     CIRCLE_BUILD_DIR: $HOME/$CIRCLE_PROJECT_REPONAME
+    GOPATH: "${HOME}/.go_workspace"
     PATH: $PATH:$CIRCLE_BUILD_DIR/bin
   post:
     - mkdir -p $CIRCLE_BUILD_DIR/bin
@@ -16,6 +17,8 @@ dependencies:
     - sudo dpkg -i debs/temp.deb
     - cf -v
     - rm -rf ./node_modules
+    - go get github.com/concourse/autopilot
+    - cf install-plugin $GOPATH/bin/autopilot -f
     - bash ./config/ci/install-hugo.sh
   cache_directories:
     - debs
@@ -33,10 +36,10 @@ deployment:
     commands:
       - NODE_ENV=production npm run deploy
       - cf login -a https://api.cloud.gov -u $CF_GSA_VOTE_USER -p $CF_GSA_VOTE_PASS -o gsa-ffd -s vote-production
-      - cf push
+      - cf zero-downtime-push vote-gov -f manifest.yml
   staging:
     branch: [staging]
     commands:
       - npm run deploy
       - cf login -a https://api.cloud.gov -u $CF_GSA_VOTE_USER -p $CF_GSA_VOTE_PASS -o gsa-ffd -s vote-staging
-      - cf push -f manifest-staging.yml
+      - cf zero-downtime-push vote-gov-staging -f manifest-staging.yml
