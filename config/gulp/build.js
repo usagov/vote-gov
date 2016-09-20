@@ -115,6 +115,10 @@ gulp.task('website', [ 'build', 'watch' ], function (done) {
     gutil.log(gutil.colors.blue('website'), '\n' + data);
   });
 
+  hugo.stderr.on('data', function (data) {
+    gutil.log(gutil.colors.red('build:website'), '\n' + data);
+  });
+
   hugo.on('error', done);
   hugo.on('close', done);
 
