@@ -57,26 +57,6 @@
     {{ partial "analytics.html" . }}
     {{ partial "scripts.html" . }}
 
-    <script>
-      // TODO: This exists only for basic testing. It will be removed once
-      // the designs are more fleshed out. This is just a work in progress for now.
-      ( function( g ) {;
-        var button = document.getElementById( 'js-user-submit' );
-        button.addEventListener( 'click', function ( event ) {
-          event.preventDefault();
-          {{ if eq $.Site.Params.language "english" }}
-          var registerPath = "register/";
-          {{ else }}
-          var registerPath = "registrar/";
-          {{ end }}
-          var selection = document.getElementById( 'js-user-selection' );
-          if ( selection.value ) {
-            g.location.href = g.location.origin + g.location.pathname + registerPath + selection.value;
-          }
-        }, false );
-      } )( this );
-    </script>
-
   </body>
 
 </html>
