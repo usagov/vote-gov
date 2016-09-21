@@ -19,18 +19,12 @@ gulp.task('clean-translation', function () {
 gulp.task('copy-content-spanish', function (done) {
 
   return gulp.src('./content/register/*.md')
-    .pipe(rename(function (path) {
-      var file = spanishStateNames[path.basename].file;
-      path.basename = file;
-    }))
     .pipe(replace(/title = "(.+)"/, function (match, p1) {
       var name = p1.replace(/\s/g, '-').replace(/\./g, '').toLowerCase();
       var title = spanishStateNames[name].title;
       var file = spanishStateNames[name].file;
       return (
-        'title = "' + title + '"' +
-        "\n" +
-        'slug = "' + file + '"'
+        'title = "' + title + '"'
       );
     }))
     .pipe(gulp.dest('./content/registrar'));
