@@ -27,11 +27,11 @@
             </option>
             {{ if eq $.Site.Params.language "english" }}
               {{ range where .Data.Pages.ByTitle "Section" "register" }}
-                <option value="{{ replace .Title "." "" | lower | urlize }}">{{ title .Title }}</option>
+                <option value="{{ .Params.state_abbreviation | lower }}">{{ title .Title }}</option>
               {{ end }}
             {{ else }}
               {{ range where .Data.Pages.ByTitle "Section" "registrar" }}
-                <option value="{{ .Slug }}">{{ title .Title }}</option>
+                <option value="{{ .Params.state_abbreviation | lower }}">{{ title .Title }}</option>
               {{ end }}
             {{ end }}
           </select>
