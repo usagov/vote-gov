@@ -1,7 +1,9 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
 <!doctype html>
-<html lang="en">
+{{ if ( eq $.Site.Params.language "spanish" ) }}<html lang="es">
+{{ else }}<html lang="en">
+{{ end }}
   <head>
     <!-- Basic Page Needs
     ================================================== -->
