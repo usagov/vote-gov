@@ -276,3 +276,24 @@ a:hover {
     clear: both;
   }
 }
+
+// 404 page ------------ //
+.page-vote-404 {
+
+  .page-inner {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  // these are the language-specific columns
+  [lang] {
+    > .usa-label {
+      text-transform: none;
+    }
+
+    h1 {
+      @include h2();
+      margin-top: 2rem;
+    }
+  }
+}
