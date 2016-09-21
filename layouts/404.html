@@ -3,20 +3,26 @@
 {{ partial "head.html" . }}
   <body class="page-register-single">
     {{ partial "header.html" . }}
-    <div class="page-vote-main" id="main" role="main">
+    <div class="page-vote-404" id="main" role="main">
 
       <a class="skipnav" href="#main-content">Skip main navigation</a>
 
-      <section class="usa-grid page-inner" id="main-content">
-        <header>
-          <h1 class="usa-display">Sorry, this is a bad page with broken copy and everything is horrid.</h1>
-          <h1 class="usa-display">Lo siento, pero esta página está hecha de sueños rotos y queso podrido.</h1>
-        </header>
+      <section class="usa-grid-full page-inner" id="main-content">
 
-        <p class="usa-font-lead">Now, <a href="/">scurry on back to the front page</a> before the web bugs eat you!</p>
+        <div lang="en" class="usa-width-one-half">
+          <span class="usa-label">English</span>
+          <h1>Sorry, this is a bad page with broken copy and everything is horrid.</h1>
+          <p class="usa-font-lead">Now, <a href="/">scurry on back to the front page</a> before the web bugs eat you!</p>
+        </div>
 
+        <div lang="es" class="usa-width-one-half">
+          <span class="usa-label">Español</span>
+          <h1>Lo siento, pero esta página está hecha de sueños rotos y queso podrido.</h1>
           <p class="usa-font-lead">¡Rápido! <a href="/es/">Vamos a ir a la primera página</a> antes de ser destruidos por las bestias de la Internet!</p>
-        
+        </div>
+
+      </section>
+
       <!-- Footer BEGIN -->
       <footer>
         {{ partial "footer.html" . }}
