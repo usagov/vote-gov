@@ -287,6 +287,8 @@ a:hover {
 
   // these are the language-specific columns
   [lang] {
+    padding-right: 1em;
+
     > .usa-label {
       text-transform: none;
     }
