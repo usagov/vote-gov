@@ -287,7 +287,13 @@ a:hover {
 
   // these are the language-specific columns
   [lang] {
-    padding-right: 1em;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    @include media($medium-screen) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
 
     > .usa-label {
       text-transform: none;
