@@ -22,7 +22,6 @@ gulp.task('copy-content-spanish', function (done) {
     .pipe(replace(/title = "(.+)"/, function (match, p1) {
       var name = p1.replace(/\s/g, '-').replace(/\./g, '').toLowerCase();
       var title = spanishStateNames[name].title;
-      var file = spanishStateNames[name].file;
       return (
         'title = "' + title + '"'
       );
