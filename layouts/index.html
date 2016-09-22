@@ -12,11 +12,7 @@
         <header>
           <h1 class="usa-display">{{ $translation.homepage.header }}</h1>
         </header>
-      {{ if eq $.Site.Params.language "english" }}
-        <form class="form-register" action="/states/" method="get">
-      {{ else }}
-        <form class="form-register" action="/es/states/" method="get">
-      {{ end }}
+        <form class="form-register" action="/{{ .Site.Params.root_path }}states/" method="get">
           <p>{{ $translation.homepage.state_selection.label }}</p>
           <label class="usa-sr-only" for="js-user-selection">
             {{ $translation.homepage.state_selection.default }}
@@ -25,15 +21,9 @@
             <option value="">
               {{ $translation.homepage.state_selection.default }}
             </option>
-            {{ if eq $.Site.Params.language "english" }}
-              {{ range where .Data.Pages.ByTitle "Section" "register" }}
-                <option value="{{ replace .Title "." "" | lower | urlize }}">{{ title .Title }}</option>
-              {{ end }}
-            {{ else }}
-              {{ range where .Data.Pages.ByTitle "Section" "registrar" }}
-                <option value="{{ .Slug }}">{{ title .Title }}</option>
-              {{ end }}
-            {{ end }}
+          {{ range where .Data.Pages.ByTitle "Section" .Site.Params.register_path }}
+            <option value="{{ .Params.state_abbreviation | lower }}">{{ title .Title }}</option>
+          {{ end }}
           </select>
           <button class="usa-button-big usa-button-secondary" id="js-user-submit" type="submit">
             {{ $translation.homepage.state_selection.submit }}

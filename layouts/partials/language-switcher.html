@@ -1,38 +1,24 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 {{ $title := ( replace .Title "." "" | lower | urlize ) }}
-{{ $slug := .Slug }}
 
 <div class="translations">
 
-  {{ if ( eq $.Site.Params.language "english" ) }}
+  {{ range $key, $lang := $.Site.Data.translations }}
+    {{ if ne $key $.Site.Params.language }}
+    <a
 
-  <a
+      {{ if $.IsHome }}
+        href="/{{ $lang.root_path }}"
+      {{ else }}
+        href="/{{ $lang.root_path }}{{ $lang.register_path }}{{ $.Params.state_abbreviation | lower }}/"
+      {{ end }}
 
-    {{ if .IsHome }}
-    href="{{ $.Site.BaseURL }}es/"
-    {{ else }}
-    href="{{ $.Site.BaseURL }}es/registrar/{{( index $translation.states $title ).file }}"
+      class="usa-button translation-link">
+      {{ $lang.title }}
+    </a>
+
     {{ end }}
-
-    class="usa-button translation-link">
-    Español
-  </a>
-
-  {{ else }}
-
-  <a
-
-    {{ if .IsHome }}
-    href="{{ $.Site.BaseURL }}"
-    {{ else }}
-    href="{{ $.Site.BaseURL }}register/{{( index $translation.states $slug ).file }}"
-    {{ end }}
-
-    class="usa-button translation-link">
-    English
-  </a>
-
   {{ end }}
-
+  
 </div>
 
