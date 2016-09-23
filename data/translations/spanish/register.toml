@@ -9,7 +9,7 @@ step_one = "Llene su registro de votante."
 step_two_label = "Paso 2"
 step_two = "Enviélo por correo postal a la oficina electoral de su estado."
 step_three_label = "Paso 3"
-step_three = "Vote en las próximas elecciones!"
+step_three = "¡Vote en las próximas elecciones!"
 
 [in_person]
 body = "%state_name% requiere que sus residentes se inscriban para votar en persona en su oficina electoral local."
