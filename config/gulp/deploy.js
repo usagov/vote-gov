@@ -51,7 +51,9 @@ gulp.task('deploy-spanish', function(done) {
 gulp.task('deploy-remove-remnants', function (done) {
   return del([
     './tmp/public/es/assets/',
-    './tmp/public/es/files/'
+    './tmp/public/es/files/',
+    './tmp/public/register/index.html',
+    './tmp/public/es/registrar/index.html'
   ]);
 });
 
