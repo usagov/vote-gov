@@ -1,7 +1,7 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
 <!doctype html>
-<html lang="en">
+<html lang="{{ $.Site.Params.lang }}">
   <head>
     <!-- Basic Page Needs
     ================================================== -->

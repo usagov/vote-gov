@@ -9,6 +9,7 @@ ignoreFiles = [
 [params]
 Owner = "USA.gov"
 Referrer_Short_Code = "voteusa"
+lang = "en"
 language = "english"
 root_path = ""
-register_path = "register/"
+register_path = "register"
