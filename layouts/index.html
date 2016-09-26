@@ -18,7 +18,7 @@
             {{ $translation.homepage.state_selection.default }}
           </label>
           <select name="userselection" id="js-user-selection">
-            <option value="">
+            <option value="default">
               {{ $translation.homepage.state_selection.default }}
             </option>
           {{ range where .Data.Pages.ByTitle "Section" .Site.Params.register_path }}
