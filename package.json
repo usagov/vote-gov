@@ -10,7 +10,7 @@
       },
       "urls": {
         "staging": "https://vote-gov-staging.apps.cloud.gov",
-        "production": "https://vote-gov.apps.cloud.gov/"
+        "production": "https://vote.gov/"
       }
     }
   },
