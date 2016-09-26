@@ -4,5 +4,6 @@ applications:
 - name: vote-gov
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
   path: public
+  instances: 5
   env:
     FORCE_HTTPS: true
