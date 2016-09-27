@@ -1,4 +1,4 @@
-heading = "Register to Vote"
+heading = "Register to vote"
 
 [by_mail]
 body = "%state_name% allows residents to register by mail, not online."
