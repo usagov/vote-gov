@@ -6,6 +6,7 @@
 
 $font-light: 300;
 $color-blue-dark: #003366;
+$color-white: #fff;
 
 
 // Styles --------------- //
@@ -20,7 +21,6 @@ h1 {
 }
 
 .usa-display {
-  font-size: $h1-font-size;
   margin-bottom: .5em;
   margin-top: $site-margins;
 
@@ -103,6 +103,23 @@ footer {
     border-bottom: 0;
   }
 
+  .vote-heading {
+    font-size: 4.5rem;
+  }
+
+  section {
+    color: $color-white;
+
+    a {
+      color: $color-white;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
   .site-logo {
     a {
       color: $color-white;
@@ -126,6 +143,10 @@ footer {
 
   .page-vote-main {
     @include linear-gradient($color-primary 66%, $color-blue-dark 100%, $fallback: $color-primary);
+
+    .usa-grid {
+      padding-bottom: 18rem;
+    }
   }
 
   .page-inner {
@@ -181,7 +202,7 @@ footer {
 // Inner pages ---------- //
 
 .main-content {
-  padding-bottom: 2rem;
+  padding-bottom: 12rem;
 
   @include media($medium-screen) {
     min-height: 50rem;
