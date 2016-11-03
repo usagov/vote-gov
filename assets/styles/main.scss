@@ -149,6 +149,20 @@ footer {
     }
   }
 
+  .page-section {
+    max-width: 45.5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    // third level nesting
+    header {
+      @include media($medium-screen) {
+        text-align: center;
+      }
+    }
+
+  }
+
   .page-inner {
     min-height: 50rem;
 
