@@ -185,46 +185,6 @@ footer {
     }
   }
 
-
-  .registered-resources {
-    list-style-type: none;
-    width: 100%;
-    border: 1px solid $color-primary-darkest;
-    border-bottom-width: 0;
-
-    li::before {
-      content: '';
-    }
-
-    li::after {
-      padding: 0;
-      margin: 0;
-    }
-
-    li {
-      border-bottom: 1px solid $color-primary-darkest;
-      display: inline-block;
-      margin: 0;
-      width: 100%;
-    }
-
-    a {
-      display: inline-block;
-      margin: 0;
-      padding: 1rem;
-      width: 100%;
-      text-decoration: none;
-      color: $color-primary-darkest;
-      font-weight: 700;
-      background-color: $color-white;
-    }
-
-    a:hover {
-      background-color: $color-primary-darkest;
-      color: $color-white;
-    }
-  }
-
   footer {
     position: relative;
     margin-top: 20rem;
@@ -250,8 +210,6 @@ footer {
     max-width: $inner-box-width;
   }
 }
-
-
 
 .footer-graphic {
   text-align: center;
