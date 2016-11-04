@@ -103,10 +103,6 @@ footer {
     border-bottom: 0;
   }
 
-  .vote-heading {
-    font-size: 4.5rem;
-  }
-
   section {
     color: $color-white;
 
@@ -175,6 +171,17 @@ footer {
       @include media($medium-screen) {
         text-align: center;
       }
+    }
+  }
+
+  .registered {
+
+    @include media($medium-screen) {
+      padding-left: 5rem;
+    }
+
+    .vote-heading {
+      font-size: 4rem;
     }
   }
 
