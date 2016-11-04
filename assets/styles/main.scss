@@ -5,11 +5,15 @@
 // Variables ------------ //
 
 $font-light: 300;
+$inner-box-width: 40rem;
 $color-blue-dark: #003366;
-$color-white: #fff;
 
 
 // Styles --------------- //
+
+body {
+  background-color: $color-gray-lightest;
+}
 
 h1 {
   color: $color-primary-darkest;
@@ -142,7 +146,7 @@ footer {
   }
 
   .page-section {
-    max-width: 45.5rem;
+    max-width: 63.3rem;
     margin-left: auto;
     margin-right: auto;
 
@@ -172,10 +176,6 @@ footer {
 
   .registered {
 
-    @include media($medium-screen) {
-      padding-left: 5rem;
-    }
-
     .vote-heading {
       font-size: 2rem;
 
@@ -187,7 +187,7 @@ footer {
 
   footer {
     position: relative;
-    margin-top: 15rem;
+    margin-top: 20rem;
   }
 }
 
@@ -195,17 +195,23 @@ footer {
   margin: 0 auto;
 
   @include media($medium-screen) {
-    max-width: 29rem;
-  }
-
-  p {
-    color: $color-white;
+    max-width: $inner-box-width;
   }
 
   [type="submit"] {
     width: 100%;
   }
 }
+
+.voter-resources {
+  margin: 0 auto;
+
+  @include media($medium-screen) {
+    max-width: $inner-box-width;
+  }
+}
+
+
 
 .footer-graphic {
   text-align: center;
