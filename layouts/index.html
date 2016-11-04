@@ -7,10 +7,12 @@
 
       <a class="skipnav" href="#main-content">Skip main navigation</a>
 
+      <div class="usa-grid" id="main-content">
+
       <!-- Register BEGIN -->
-      <section class="usa-grid page-inner" id="main-content">
+      <section class="page-section register" id="register">
         <header>
-          <h1 class="usa-display">{{ $translation.homepage.header }}</h1>
+          <h1 class="usa-display vote-heading">{{ $translation.homepage.header }}</h1>
         </header>
         <form class="form-register" action="/{{ .Site.Params.root_path }}states/" method="get">
           <p>{{ $translation.homepage.state_selection.label }}</p>
@@ -31,6 +33,22 @@
         </form>
       </section>
       <!-- Register END -->
+
+      <!-- Already Registered BEGIN -->
+      <section class="page-section registered" id="already-registered">
+        <header>
+          <h1 class="usa-display vote-heading">{{ $translation.homepage.registered.header }}</h1>
+        </header>
+          <p>{{ $translation.homepage.registered.resources }}</p>
+          <ul>
+            <li><a href="{{ $translation.homepage.registered_links.electionday_url }}">{{ $translation.homepage.registered_links.electionday }}</a></li>
+            <li><a href="{{ $translation.homepage.registered_links.voterid_url }}">{{ $translation.homepage.registered_links.voterid }}</a></li>
+            <li><a href="{{ $translation.homepage.registered_links.process_url }}">{{ $translation.homepage.registered_links.process }}</a></li>
+          </ul>        
+      </section>
+      <!-- Already Registered END -->
+
+      </div>
 
       <!-- Footer BEGIN -->
       <footer>

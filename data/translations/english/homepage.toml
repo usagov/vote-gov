@@ -5,3 +5,18 @@ header = "Register to vote"
 label = "Where do you reside?"
 default = "Select your state or territory"
 submit = "Find out how to register"
+
+[registered]
+
+header = "Already registered?"
+resources = "Explore our voting and election resources on USA.gov:"
+
+[registered_links]
+
+electionday = "Voting on election day"
+electionday_url = "https://www.usa.gov/election-day"
+voterid = "Voter ID requirements"
+voterid_url = "https://www.usa.gov/voter-id"
+process = "Election process"
+process_url = "https://www.usa.gov/election"
+

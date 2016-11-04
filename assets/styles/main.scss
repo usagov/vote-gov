@@ -6,6 +6,7 @@
 
 $font-light: 300;
 $color-blue-dark: #003366;
+$color-white: #fff;
 
 
 // Styles --------------- //
@@ -20,7 +21,6 @@ h1 {
 }
 
 .usa-display {
-  font-size: $h1-font-size;
   margin-bottom: .5em;
   margin-top: $site-margins;
 
@@ -103,6 +103,19 @@ footer {
     border-bottom: 0;
   }
 
+  section {
+    color: $color-white;
+
+    a {
+      color: $color-white;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
   .site-logo {
     a {
       color: $color-white;
@@ -126,6 +139,24 @@ footer {
 
   .page-vote-main {
     @include linear-gradient($color-primary 66%, $color-blue-dark 100%, $fallback: $color-primary);
+
+    .usa-grid {
+      padding-bottom: 18rem;
+    }
+  }
+
+  .page-section {
+    max-width: 45.5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    // third level nesting
+    header {
+      @include media($medium-screen) {
+        text-align: center;
+      }
+    }
+
   }
 
   .page-inner {
@@ -140,6 +171,17 @@ footer {
       @include media($medium-screen) {
         text-align: center;
       }
+    }
+  }
+
+  .registered {
+
+    @include media($medium-screen) {
+      padding-left: 5rem;
+    }
+
+    .vote-heading {
+      font-size: 4rem;
     }
   }
 
@@ -181,7 +223,7 @@ footer {
 // Inner pages ---------- //
 
 .main-content {
-  padding-bottom: 2rem;
+  padding-bottom: 12rem;
 
   @include media($medium-screen) {
     min-height: 50rem;
