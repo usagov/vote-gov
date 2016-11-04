@@ -177,7 +177,11 @@ footer {
     }
 
     .vote-heading {
-      font-size: 4rem;
+      font-size: 2rem;
+
+      @include media($small-screen) {
+        font-size: 4rem;
+      }
     }
   }
 
