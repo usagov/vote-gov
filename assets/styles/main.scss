@@ -139,10 +139,6 @@ footer {
 
   .page-vote-main {
     @include linear-gradient($color-primary 66%, $color-blue-dark 100%, $fallback: $color-primary);
-
-    .usa-grid {
-      padding-bottom: 18rem;
-    }
   }
 
   .page-section {
@@ -187,6 +183,7 @@ footer {
 
   footer {
     position: relative;
+    margin-top: 15rem;
   }
 }
 
@@ -223,7 +220,6 @@ footer {
 // Inner pages ---------- //
 
 .main-content {
-  padding-bottom: 12rem;
 
   @include media($medium-screen) {
     min-height: 50rem;
