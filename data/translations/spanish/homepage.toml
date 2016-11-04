@@ -9,7 +9,13 @@ submit = "Averigüe cómo registrarse"
 [registered]
 
 header = "¿Ya se inscribió para votar?"
-resources = "Vea nuestra sección sobre votaciones y elecciones en GobiernoUSA.gov:"
+
+resources_intro = "Vea nuestra"
+resources_link_text = "sección sobre votaciones y elecciones"
+resources_link_url = "https://gobierno.usa.gov/votaciones"
+resources_on = "en"
+resources_website = "GobiernoUSA.gov"
+resources_website_url = "https://gobierno.usa.gov"
 
 [registered_links]
 

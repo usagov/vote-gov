@@ -9,7 +9,13 @@ submit = "Find out how to register"
 [registered]
 
 header = "Already registered?"
-resources = "Explore our voting and election resources on USA.gov:"
+
+resources_intro = "Explore our"
+resources_link_text = "voting and election resources"
+resources_link_url = "https://www.usa.gov/voting"
+resources_on = "on"
+resources_website = "USA.gov"
+resources_website_url = "https://www.usa.gov"
 
 [registered_links]
 
