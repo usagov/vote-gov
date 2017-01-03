@@ -1,0 +1,4 @@
+applications:
+- name: redirect-vote-usa-gov
+  instances: 3
+  memory: 64M

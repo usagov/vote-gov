@@ -146,7 +146,7 @@ own [`staging`] [vote-staging] and [`production`] [vote-production] URLs.
 
 [cci-homepage]: https://circleci.com "CircleCI: Homepage"
 [vote-staging]: https://vote-gov-staging.apps.cloud.gov "Vote USA: Staging"
-[vote-production]: https://vote-gov.apps.cloud.gov "Vote USA: Production"
+[vote-production]: https://vote.gov "Vote USA: Production"
 
 ### Manual deployment
 
@@ -224,6 +224,20 @@ Type the following in your terminal to deploy to the `production` space:
 # NODE: Deploying the Spanish version of the site is experimental
 cf push
 ```
+
+### Vote.usa.gov redirector
+
+During the re-launch of `vote.gov`, we realised that there were lingering
+issues with cached redirects between `vote.gov` and `vote.usa.gov`. To
+fix this, we created a minimal nginx configuration which:
+
+  * redirects front page requests to `https://vote.gov/?1` (the query string
+    was added to defeat a previously-cached 301 redirect)
+  * redirects all other file requests to the original S3 bucket containing
+    the `vote.usa.gov` assets
+
+The manifest and configuration for this redirector app can be found in the
+`redirector` folder.
 
 ## Public domain
 

@@ -5,3 +5,23 @@ header = "Inscríbase para votar"
 label = "¿Dónde vive? "
 default = "Seleccione su estado o territorio"
 submit = "Averigüe cómo registrarse"
+
+[registered]
+
+header = "¿Ya se inscribió para votar?"
+
+resources_intro = "Vea nuestra"
+resources_link_text = "sección sobre votaciones y elecciones"
+resources_link_url = "https://gobierno.usa.gov/votaciones"
+resources_on = "en"
+resources_website = "GobiernoUSA.gov"
+resources_website_url = "https://gobierno.usa.gov"
+
+[registered_links]
+
+electionday = "Cómo votar el día de las elecciones"
+electionday_url = "https://gobierno.usa.gov/como-votar#item-212934"
+voterid = "Documentos de identificación personal para votar"
+voterid_url = "https://gobierno.usa.gov/documento-para-votar"
+process = "Proceso electoral"
+process_url = "https://gobierno.usa.gov/proceso-electoral"
