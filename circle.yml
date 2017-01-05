@@ -35,11 +35,11 @@ deployment:
     branch: [master]
     commands:
       - NODE_ENV=production npm run deploy
-      - cf login -a https://api.cloud.gov -u $CF_GSA_VOTE_USER -p $CF_GSA_VOTE_PASS -o gsa-ffd -s vote-production
+      - cf login -a https://api.fr.cloud.gov -u $CF_GSA_VOTE_USER -p $CF_GSA_VOTE_PASS -o gsa-opp-vote -s prod
       - cf zero-downtime-push vote-gov -f manifest.yml
   staging:
     branch: [staging]
     commands:
       - npm run deploy
-      - cf login -a https://api.cloud.gov -u $CF_GSA_VOTE_USER -p $CF_GSA_VOTE_PASS -o gsa-ffd -s vote-staging
+      - cf login -a https://api.fr.cloud.gov -u $CF_GSA_VOTE_STAGING_USER -p $CF_GSA_VOTE_STAGING_PASS -o gsa-opp-vote -s staging
       - cf zero-downtime-push vote-gov-staging -f manifest-staging.yml
