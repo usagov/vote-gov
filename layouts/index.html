@@ -76,9 +76,9 @@
 					redirectURL += '/';
 				}
 				{{ if eq $.Site.Params.language "english" }}
-					redirectURL = window.location.href + 'register/';
+					redirectURL += 'register/';
 				{{ else }}
-					redirectURL = window.location.href + 'registrar/';
+					redirectURL += 'registrar/';
 				{{ end }}
 				redirectURL = redirectURL + stateSelected + '/';
 				window.location.href = redirectURL;
