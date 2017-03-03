@@ -71,10 +71,14 @@
 			}
 			else {
 				ev.preventDefault();	
+				var redirectURL = window.location.href;
+				if (redirectURL.charAt(redirectURL.length -1) !== '/') {
+					redirectURL += '/';
+				}
 				{{ if eq $.Site.Params.language "english" }}
-					var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}register/';
+					redirectURL = window.location.href + 'register/';
 				{{ else }}
-					var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}registrar/';
+					redirectURL = window.location.href + 'registrar/';
 				{{ end }}
 				redirectURL = redirectURL + stateSelected + '/';
 				window.location.href = redirectURL;
