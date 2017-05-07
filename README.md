@@ -23,7 +23,7 @@ The development for the `vote.gov` site has the following dependencies
 - [Ruby](https://www.ruby-lang.org/ "Ruby Homepage")
 
 This documentation assumes that you have Ruby and NodeJS installed on your
-machine.  Instructions for installing `node`, and `npm`, [can be found here] [node-install].
+machine.  Instructions for installing `node`, and `npm`, [can be found here][node-install].
 
 [node-install]: https://nodejs.org/en/download/ "NodeJS Downloads"
 
@@ -121,16 +121,16 @@ affected by them.
 
 ## Deployment
 
-The microsite is deployed on [cloud.gov] [cg-homepage]. To read the `cloud.gov`
-documentation, [click here] [cg-docs]. The documentation below makes the
+The microsite is deployed on [cloud.gov][cg-homepage]. To read the `cloud.gov`
+documentation, [click here][cg-docs]. The documentation below makes the
 following assumptions.
 
 - Assuming you have the `cf` binary installed on your machine and within your
   `$PATH`.
-    - [Please read _Setting up the command line_] [cg-docs-cli-install] for more
+    - [Please read _Setting up the command line_][cg-docs-cli-install] for more
       information.
 - Assuming that you have a `cloud.gov` account.
-    - [Please read _Setting up your account_] [cg-docs-cg-account] for more
+    - [Please read _Setting up your account_][cg-docs-cg-account] for more
       information.
 
 [cg-homepage]: https://cloud.gov "Cloud.gov: Homepage"
@@ -140,9 +140,9 @@ following assumptions.
 
 ### Automated deployment
 
-This project uses [CircleCI] [cci-homepage] for continuous deployment. Our
+This project uses [CircleCI][cci-homepage] for continuous deployment. Our
 current process deploys our `staging` branch and our `master` branch to their
-own [`staging`] [vote-staging] and [`production`] [vote-production] URLs.
+own [`staging`][vote-staging] and [`production`][vote-production] URLs.
 
 [cci-homepage]: https://circleci.com "CircleCI: Homepage"
 [vote-staging]: https://vote-gov-staging.apps.cloud.gov "Vote USA: Staging"
@@ -153,7 +153,7 @@ own [`staging`] [vote-staging] and [`production`] [vote-production] URLs.
 Using the `cf` command-line tool, you can run a manual deployment to either
 `staging` or `production` by targeting the corresponding organization / space
 and as long as you have access to `cf push` the target. More information on
-deploying to `cloud.gov` can be found [here] [cg-deploy-hw] and [here] [cg-deploy-ss].
+deploying to `cloud.gov` can be found [here][cg-deploy-hw] and [here][cg-deploy-ss].
 
 [cg-deploy-hw]: https://docs.cloud.gov/getting-started/your-first-deploy/ "Cloud.gov: Your First Deploy"
 [cg-deploy-ss]: https://docs.cloud.gov/apps/static/ "Cloud.gov: Deploying Static Sites"
