@@ -29,11 +29,15 @@
   },
   "connecticut" : {
     "file": "conecticut",
-    "title": "Conécticut"
+    "title": "Connecticut"
   },
   "delaware" : {
     "file": "delaware",
     "title": "Delaware"
+  },
+  "washington-dc" : {
+    "file": "distrito-de-columbia",
+    "title": "Distrito de Columbia"
   },
   "florida" : {
     "file": "florida",
@@ -49,11 +53,11 @@
   },
   "hawaii" : {
     "file": "hawai",
-    "title": "Hawái"
+    "title": "Hawai"
   },
   "idaho" : {
     "file": "idaho",
-    "title": "Ídaho"
+    "title": "Idaho"
   },
   "illinois" : {
     "file": "illinois",
@@ -93,7 +97,7 @@
   },
   "michigan" : {
     "file": "michigan",
-    "title": "Míchigan"
+    "title": "Michigan"
   },
   "minnesota" : {
     "file": "minnesota",
@@ -181,7 +185,7 @@
   },
   "tennessee": {
     "file": "tenesi",
-    "title": "Tenesí"
+    "title": "Tennessee"
   },
   "texas": {
     "file": "texas",
@@ -189,7 +193,7 @@
   },
   "us-virgin-islands" : {
     "file": "islas-virgenes-de-ee-uu",
-    "title": "Islas Vírgenes de EE.UU"
+    "title": "Islas Vírgenes de EE. UU."
   },
   "utah" : {
     "file": "utah",
@@ -203,17 +207,13 @@
     "file": "virginia",
     "title": "Virginia"
   },
-  "washington-dc" : {
-    "file": "distrito-de-columbia",
-    "title": "Distrito de Columbia"
-  },
-  "washington" : {
-    "file": "washington",
-    "title": "Wáshington"
-  },
   "west-virginia" : {
     "file": "virginia-occidental",
     "title": "Virginia Occidental"
+  },
+  "washington" : {
+    "file": "washington",
+    "title": "Washington"
   },
   "wisconsin" : {
     "file": "wisconsin",
