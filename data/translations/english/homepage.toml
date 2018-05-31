@@ -2,7 +2,7 @@ header = "Register to vote"
 
 [state_selection]
 
-label = "Where do you reside?"
+label = "Where do you live?"
 default = "Select your state or territory"
 submit = "Find out how to register"
 
@@ -25,4 +25,3 @@ voterid = "Voter ID requirements"
 voterid_url = "https://www.usa.gov/voter-id"
 process = "Election process"
 process_url = "https://www.usa.gov/election"
-
