@@ -225,6 +225,23 @@ Type the following in your terminal to deploy to the `production` space:
 cf push
 ```
 
+#### Continuous delivery
+
+CircleCI will automatically the vote.gov application for staging and production.
+Any commits made to `staging` will be pushed to staging. Any commits made to
+`master` will be pushed to production.
+
+If setting this up for the fist time, be sure to setup a [cloud.gov deployer
+account](https://cloud.gov/docs/services/cloud-gov-service-account/) for each
+environment and set the following variables in the CircleCI [project
+settings](https://circleci.com/gh/18F/vote-gov/edit#env-vars).
+
+- `CF_GSA_VOTE_USER`
+- `CF_GSA_VOTE_PASS`
+- `CF_GSA_VOTE_STAGING_USER`
+- `CF_GSA_VOTE_STAGING_PASS`
+
+
 ### Vote.usa.gov redirector
 
 During the re-launch of `vote.gov`, we realised that there were lingering
