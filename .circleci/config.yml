@@ -1,0 +1,117 @@
+deploy-steps: &deploy-steps
+  - checkout
+  - attach_workspace:
+      at: .
+  - run: cf_deploy.sh $cf_app $cf_org $cf_space $cf_manifest
+
+build-deploy-steps: &build-deploy-steps
+  - checkout
+  - run: sudo apt-get install hugo
+  - restore_cache:
+      keys:
+        - v1-npm-{{ checksum "package-lock.json" }}
+        - v1-npm-
+  - run: npm install
+  - run: npm rebuild node-sass
+  - save_cache:
+      key: v1-npm-{{ checksum "package-lock.json" }}
+      paths:
+        - node_modules
+  - run: npm run deploy
+  - persist_to_workspace:
+      root: .
+      paths:
+        - public
+
+
+version: 2
+jobs:
+  test:
+    docker:
+      - image: circleci/ruby:2.6-node
+    steps:
+      - checkout
+      - run: sudo apt-get install hugo
+      - restore_cache:
+          keys:
+            - v1-npm-{{ checksum "package-lock.json" }}
+            - v1-npm-
+      - run: npm install
+      - run: npm rebuild node-sass
+      - save_cache:
+          key: v1-npm-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
+      - run: npm run build
+      - run: npm test
+
+  build-staging:
+    docker:
+      - image: circleci/ruby:2.6-node
+    steps: *build-deploy-steps
+
+  build-production:
+    docker:
+      - image: circleci/ruby:2.6-node
+    environment:
+      NODE_ENV=production
+    steps: *build-deploy-steps
+
+  deploy-staging:
+    docker:
+      - image: 18fgsa/cloud-foundry-cli
+    environment:
+      cf_app: vote-gov-staging
+      cf_org: gsa-opp-vote
+      cf_space: staging
+      cf_manifest: manifest-staging.yml
+      CF_DEPLOY_USER: $CF_GSA_VOTE_STAGING_USER
+      CF_DEPLOY_PASSWORD: $CF_GSA_VOTE_STAGING_PASS
+    steps: *deploy-steps
+
+  deploy-production:
+    docker:
+      - image: 18fgsa/cloud-foundry-cli
+    environment:
+      cf_app: vote-gov
+      cf_org: gsa-opp-vote
+      cf_space: prod
+      cf_manifest: manifest.yml
+      CF_DEPLOY_USER: $CF_GSA_VOTE_USER
+      CF_DEPLOY_PASSWORD: $CF_GSA_VOTE_PASS
+    steps: *deploy-steps
+
+
+workflows:
+  version: 2
+  commit:
+    jobs:
+      - test
+
+      - build-staging:
+          requires:
+            - test
+          filters:
+            branches:
+              only: staging
+
+      - deploy-staging:
+          requires:
+            - build-staging
+          filters:
+            branches:
+              only: staging
+
+      - build-production:
+          requires:
+            - test
+          filters:
+            branches:
+              only: master
+
+      - deploy-production:
+          requires:
+            - build-production
+          filters:
+            branches:
+              only: master

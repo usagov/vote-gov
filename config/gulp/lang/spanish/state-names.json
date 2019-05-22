@@ -29,11 +29,15 @@
   },
   "connecticut" : {
     "file": "conecticut",
-    "title": "Conécticut"
+    "title": "Connecticut"
   },
   "delaware" : {
     "file": "delaware",
     "title": "Delaware"
+  },
+  "washington-dc" : {
+    "file": "distrito-de-columbia",
+    "title": "Distrito de Columbia"
   },
   "florida" : {
     "file": "florida",
@@ -49,15 +53,15 @@
   },
   "hawaii" : {
     "file": "hawai",
-    "title": "Hawái"
+    "title": "Hawai"
   },
   "idaho" : {
     "file": "idaho",
-    "title": "Ídaho"
+    "title": "Idaho"
   },
   "illinois" : {
-    "file": "ilinois",
-    "title": "Ilinóis"
+    "file": "illinois",
+    "title": "Illinois"
   },
   "indiana" : {
     "file": "indiana",
@@ -84,20 +88,20 @@
     "title": "maine"
   },
   "maryland" : {
-    "file": "mariland",
-    "title": "Máriland"
+    "file": "maryland",
+    "title": "Maryland"
   },
   "massachusetts" : {
-    "file": "masachusets",
-    "title": "Masachusets"
+    "file": "massachusetts",
+    "title": "Massachusetts"
   },
   "michigan" : {
     "file": "michigan",
-    "title": "Míchigan"
+    "title": "Michigan"
   },
   "minnesota" : {
-    "file": "minesota",
-    "title": "Minesota"
+    "file": "minnesota",
+    "title": "Minnesota"
   },
   "mississippi" : {
     "file": "misisipi",
@@ -168,8 +172,8 @@
     "title": "Puerto Rico"
   },
   "rhode-island" : {
-    "file": "isla-de-rode",
-    "title": "Isla de Rode"
+    "file": "rhode-island",
+    "title": "Rhode Island"
   },
   "south-dakota": {
     "file": "dakota-del-sur",
@@ -181,7 +185,7 @@
   },
   "tennessee": {
     "file": "tenesi",
-    "title": "Tenesí"
+    "title": "Tennessee"
   },
   "texas": {
     "file": "texas",
@@ -189,7 +193,7 @@
   },
   "us-virgin-islands" : {
     "file": "islas-virgenes-de-ee-uu",
-    "title": "Islas Vírgenes de EE.UU"
+    "title": "Islas Vírgenes de EE. UU."
   },
   "utah" : {
     "file": "utah",
@@ -203,17 +207,13 @@
     "file": "virginia",
     "title": "Virginia"
   },
-  "washington-dc" : {
-    "file": "distrito-federal-de-columbia",
-    "title": "Distrito Federal de Columbia"
-  },
-  "washington" : {
-    "file": "washington",
-    "title": "Wáshington"
-  },
   "west-virginia" : {
     "file": "virginia-occidental",
     "title": "Virginia Occidental"
+  },
+  "washington" : {
+    "file": "washington",
+    "title": "Washington"
   },
   "wisconsin" : {
     "file": "wisconsin",

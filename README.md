@@ -23,7 +23,7 @@ The development for the `vote.gov` site has the following dependencies
 - [Ruby](https://www.ruby-lang.org/ "Ruby Homepage")
 
 This documentation assumes that you have Ruby and NodeJS installed on your
-machine.  Instructions for installing `node`, and `npm`, [can be found here] [node-install].
+machine.  Instructions for installing `node`, and `npm`, [can be found here][node-install].
 
 [node-install]: https://nodejs.org/en/download/ "NodeJS Downloads"
 
@@ -121,16 +121,16 @@ affected by them.
 
 ## Deployment
 
-The microsite is deployed on [cloud.gov] [cg-homepage]. To read the `cloud.gov`
-documentation, [click here] [cg-docs]. The documentation below makes the
+The microsite is deployed on [cloud.gov][cg-homepage]. To read the `cloud.gov`
+documentation, [click here][cg-docs]. The documentation below makes the
 following assumptions.
 
 - Assuming you have the `cf` binary installed on your machine and within your
   `$PATH`.
-    - [Please read _Setting up the command line_] [cg-docs-cli-install] for more
+    - [Please read _Setting up the command line_][cg-docs-cli-install] for more
       information.
 - Assuming that you have a `cloud.gov` account.
-    - [Please read _Setting up your account_] [cg-docs-cg-account] for more
+    - [Please read _Setting up your account_][cg-docs-cg-account] for more
       information.
 
 [cg-homepage]: https://cloud.gov "Cloud.gov: Homepage"
@@ -140,20 +140,20 @@ following assumptions.
 
 ### Automated deployment
 
-This project uses [CircleCI] [cci-homepage] for continuous deployment. Our
+This project uses [CircleCI][cci-homepage] for continuous deployment. Our
 current process deploys our `staging` branch and our `master` branch to their
-own [`staging`] [vote-staging] and [`production`] [vote-production] URLs.
+own [`staging`][vote-staging] and [`production`][vote-production] URLs.
 
 [cci-homepage]: https://circleci.com "CircleCI: Homepage"
 [vote-staging]: https://vote-gov-staging.apps.cloud.gov "Vote USA: Staging"
-[vote-production]: https://vote-gov.apps.cloud.gov "Vote USA: Production"
+[vote-production]: https://vote.gov "Vote USA: Production"
 
 ### Manual deployment
 
 Using the `cf` command-line tool, you can run a manual deployment to either
 `staging` or `production` by targeting the corresponding organization / space
 and as long as you have access to `cf push` the target. More information on
-deploying to `cloud.gov` can be found [here] [cg-deploy-hw] and [here] [cg-deploy-ss].
+deploying to `cloud.gov` can be found [here][cg-deploy-hw] and [here][cg-deploy-ss].
 
 [cg-deploy-hw]: https://docs.cloud.gov/getting-started/your-first-deploy/ "Cloud.gov: Your First Deploy"
 [cg-deploy-ss]: https://docs.cloud.gov/apps/static/ "Cloud.gov: Deploying Static Sites"
@@ -224,6 +224,37 @@ Type the following in your terminal to deploy to the `production` space:
 # NODE: Deploying the Spanish version of the site is experimental
 cf push
 ```
+
+#### Continuous delivery
+
+CircleCI will automatically the vote.gov application for staging and production.
+Any commits made to `staging` will be pushed to staging. Any commits made to
+`master` will be pushed to production.
+
+If setting this up for the fist time, be sure to setup a [cloud.gov deployer
+account](https://cloud.gov/docs/services/cloud-gov-service-account/) for each
+environment and set the following variables in the CircleCI [project
+settings](https://circleci.com/gh/18F/vote-gov/edit#env-vars).
+
+- `CF_GSA_VOTE_USER`
+- `CF_GSA_VOTE_PASS`
+- `CF_GSA_VOTE_STAGING_USER`
+- `CF_GSA_VOTE_STAGING_PASS`
+
+
+### Vote.usa.gov redirector
+
+During the re-launch of `vote.gov`, we realised that there were lingering
+issues with cached redirects between `vote.gov` and `vote.usa.gov`. To
+fix this, we created a minimal nginx configuration which:
+
+  * redirects front page requests to `https://vote.gov/?1` (the query string
+    was added to defeat a previously-cached 301 redirect)
+  * redirects all other file requests to the original S3 bucket containing
+    the `vote.usa.gov` assets
+
+The manifest and configuration for this redirector app can be found in the
+`redirector` folder.
 
 ## Public domain
 

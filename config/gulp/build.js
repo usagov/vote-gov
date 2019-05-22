@@ -59,6 +59,10 @@ gulp.task('build:website', [ 'build' ], function (done) {
     gutil.log(gutil.colors.blue('build:website'), '\n' + data);
   });
 
+  hugo.stderr.on('data', function (data) {
+    gutil.log(gutil.colors.red('build:website'), '\n' + data);
+  });
+
   hugo.on('error', done);
   hugo.on('close', done);
 
@@ -109,6 +113,10 @@ gulp.task('website', [ 'build', 'watch' ], function (done) {
 
   hugo.stdout.on('data', function (data) {
     gutil.log(gutil.colors.blue('website'), '\n' + data);
+  });
+
+  hugo.stderr.on('data', function (data) {
+    gutil.log(gutil.colors.red('build:website'), '\n' + data);
   });
 
   hugo.on('error', done);

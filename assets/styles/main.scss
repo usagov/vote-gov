@@ -5,10 +5,15 @@
 // Variables ------------ //
 
 $font-light: 300;
+$inner-box-width: 40rem;
 $color-blue-dark: #003366;
 
 
 // Styles --------------- //
+
+body {
+  background-color: $color-gray-lightest;
+}
 
 h1 {
   color: $color-primary-darkest;
@@ -20,7 +25,6 @@ h1 {
 }
 
 .usa-display {
-  font-size: $h1-font-size;
   margin-bottom: .5em;
   margin-top: $site-margins;
 
@@ -103,6 +107,19 @@ footer {
     border-bottom: 0;
   }
 
+  section {
+    color: $color-white;
+
+    a {
+      color: $color-white;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
   .site-logo {
     a {
       color: $color-white;
@@ -128,6 +145,20 @@ footer {
     @include linear-gradient($color-primary 66%, $color-blue-dark 100%, $fallback: $color-primary);
   }
 
+  .page-section {
+    max-width: 63.3rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    // third level nesting
+    header {
+      @include media($medium-screen) {
+        text-align: center;
+      }
+    }
+
+  }
+
   .page-inner {
     min-height: 50rem;
 
@@ -143,8 +174,20 @@ footer {
     }
   }
 
+  .registered {
+
+    .vote-heading {
+      font-size: 2rem;
+
+      @include media($small-screen) {
+        font-size: 4rem;
+      }
+    }
+  }
+
   footer {
     position: relative;
+    margin-top: 20rem;
   }
 }
 
@@ -152,15 +195,19 @@ footer {
   margin: 0 auto;
 
   @include media($medium-screen) {
-    max-width: 29rem;
-  }
-
-  p {
-    color: $color-white;
+    max-width: $inner-box-width;
   }
 
   [type="submit"] {
     width: 100%;
+  }
+}
+
+.voter-resources {
+  margin: 0 auto;
+
+  @include media($medium-screen) {
+    max-width: $inner-box-width;
   }
 }
 
@@ -181,7 +228,6 @@ footer {
 // Inner pages ---------- //
 
 .main-content {
-  padding-bottom: 2rem;
 
   @include media($medium-screen) {
     min-height: 50rem;
@@ -274,5 +320,34 @@ a:hover {
 
   @include media($medium-screen) {
     clear: both;
+  }
+}
+
+// 404 page ------------ //
+.page-vote-404 {
+
+  .page-inner {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  // these are the language-specific columns
+  [lang] {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    @include media($medium-screen) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    > .usa-label {
+      text-transform: none;
+    }
+
+    h1 {
+      @include h2();
+      margin-top: 2rem;
+    }
   }
 }

@@ -1,7 +1,7 @@
-heading = "Register to Vote"
+heading = "Register to vote"
 
 [by_mail]
-body = "%state_name% allows residents to register by mail."
+body = "%state_name% allows residents to register by mail, not online."
 step_one_label = "Step 1"
 step_one = "Fill out your voter registration."
 step_two_label = "Step 2"

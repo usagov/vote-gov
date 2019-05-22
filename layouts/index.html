@@ -7,36 +7,50 @@
 
       <a class="skipnav" href="#main-content">Skip main navigation</a>
 
+      <div class="usa-grid" id="main-content">
+
       <!-- Register BEGIN -->
-      <section class="usa-grid page-inner" id="main-content">
+      <section class="page-section register" id="register">
         <header>
-          <h1 class="usa-display">{{ $translation.homepage.header }}</h1>
+          <h1 class="usa-display vote-heading">{{ $translation.homepage.header }}</h1>
         </header>
-        <form class="form-register" action="/states/" method="get">
+        <form class="form-register" action="/{{ .Site.Params.root_path }}states/" method="get">
           <p>{{ $translation.homepage.state_selection.label }}</p>
           <label class="usa-sr-only" for="js-user-selection">
             {{ $translation.homepage.state_selection.default }}
           </label>
-          <select name="user-selection" id="js-user-selection">
-            <option value="">
+          <select name="userselection" id="js-user-selection">
+            <option value="default">
               {{ $translation.homepage.state_selection.default }}
             </option>
-            {{ if eq $.Site.Params.language "english" }}
-              {{ range where .Data.Pages.ByTitle "Section" "register" }}
-                <option value="{{ replace .Title "." "" | lower | urlize }}">{{ title .Title }}</option>
-              {{ end }}
-            {{ else }}
-              {{ range where .Data.Pages.ByTitle "Section" "registrar" }}
-                <option value="{{ .Slug }}">{{ title .Title }}</option>
-              {{ end }}
-            {{ end }}
+          {{ range where .Data.Pages.ByTitle "Section" .Site.Params.register_path }}
+            <option value="{{ .Params.state_abbreviation | lower }}">{{ title .Title }}</option>
+          {{ end }}
           </select>
-          <button class="usa-button-big usa-button-disabled" id="js-user-submit" type="submit">
+          <button class="usa-button-big usa-button-secondary" id="js-user-submit" type="submit">
             {{ $translation.homepage.state_selection.submit }}
           </button>
         </form>
       </section>
       <!-- Register END -->
+
+      <!-- Already Registered BEGIN -->
+      <section class="page-section registered" id="already-registered">
+        <header>
+          <h1 class="usa-display vote-heading">{{ $translation.homepage.registered.header }}</h1>
+        </header>
+        <div class="voter-resources">
+          <p>{{ $translation.homepage.registered.resources_intro }} <a href="{{ $translation.homepage.registered.resources_link_url }}">{{ $translation.homepage.registered.resources_link_text }}</a> {{ $translation.homepage.registered.resources_on }} <a href="{{ $translation.homepage.registered.resources_website_url }}">{{ $translation.homepage.registered.resources_website }}:</a></p>
+          <ul class="registered-resources">
+            <li><a href="{{ $translation.homepage.registered_links.electionday_url }}">{{ $translation.homepage.registered_links.electionday }}</a></li>
+            <li><a href="{{ $translation.homepage.registered_links.voterid_url }}">{{ $translation.homepage.registered_links.voterid }}</a></li>
+            <li><a href="{{ $translation.homepage.registered_links.process_url }}">{{ $translation.homepage.registered_links.process }}</a></li>
+          </ul>
+        </div>
+      </section>
+      <!-- Already Registered END -->
+
+      </div>
 
       <!-- Footer BEGIN -->
       <footer>
@@ -52,26 +66,6 @@
 
     {{ partial "analytics.html" . }}
     {{ partial "scripts.html" . }}
-
-    <script>
-      // TODO: This exists only for basic testing. It will be removed once
-      // the designs are more fleshed out. This is just a work in progress for now.
-      ( function( g ) {;
-        var button = document.getElementById( 'js-user-submit' );
-        button.addEventListener( 'click', function ( event ) {
-          event.preventDefault();
-          {{ if eq $.Site.Params.language "english" }}
-          var registerPath = "register/";
-          {{ else }}
-          var registerPath = "registrar/";
-          {{ end }}
-          var selection = document.getElementById( 'js-user-selection' );
-          if ( selection.value ) {
-            g.location.href = g.location.origin + g.location.pathname + registerPath + selection.value;
-          }
-        }, false );
-      } )( this );
-    </script>
 
   </body>
 

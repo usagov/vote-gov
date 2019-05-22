@@ -10,7 +10,7 @@
       },
       "urls": {
         "staging": "https://vote-gov-staging.apps.cloud.gov",
-        "production": "https://vote-gov.apps.cloud.gov/"
+        "production": "https://vote.gov/"
       }
     }
   },
@@ -47,7 +47,6 @@
     "gulp-scss-lint": "^0.3.9",
     "gulp-uglify": "^1.5.2",
     "gulp-util": "^3.0.7",
-    "jquery": "^1.12.1",
     "run-sequence": "^1.1.5",
     "uswds": "^0.8.5",
     "vinyl-buffer": "^1.0.0",
