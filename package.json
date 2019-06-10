@@ -19,7 +19,8 @@
     "build": "gulp build:website",
     "start": "gulp website",
     "test": "gulp test",
-    "deploy": "gulp deploy"
+    "deploy": "gulp deploy",
+    "federalist": "npm run build"
   },
   "repository": {
     "type": "git",
