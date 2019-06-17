@@ -15,7 +15,7 @@
     }
   },
   "scripts": {
-    "federalist": "gem install bundler && bundle && gulp build:website",
+    "federalist": "gem update --system && gem install bundler && bundle && gulp build:website",
     "start": "gulp website",
     "test": "gulp test",
     "deploy": "gulp deploy"
