@@ -18,7 +18,7 @@
     "federalist": "gem install bundler && bundle && gulp build:website",
     "start": "gulp website",
     "test": "gulp test",
-    "deploy": "gulp deploy",
+    "deploy": "gulp deploy"
   },
   "repository": {
     "type": "git",
