@@ -15,7 +15,7 @@
     }
   },
   "scripts": {
-    "build": "npm postinstall && gulp build:website",
+    "federalist": "gulp build:website",
     "start": "gulp website",
     "test": "gulp test",
     "deploy": "gulp deploy"
