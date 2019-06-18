@@ -15,7 +15,7 @@
     }
   },
   "scripts": {
-    "federalist": "gulp build:website",
+    "build": "gulp build:website",
     "start": "gulp website",
     "test": "gulp test",
     "deploy": "gulp deploy"

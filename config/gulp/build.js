@@ -52,9 +52,9 @@ gulp.task('build:website', [ 'build' ], function (done) {
     '--config=' + setConfig,
     '--baseURL=' + setURL,
   ];
-console.log('\n\nabout to spawn\n\n');
+// console.log('\n\nabout to spawn\n\n');
   // var hugo = spawn('hugo', hugo_args);
-console.log('\n\nspawnEDD\n\n');
+// console.log('\n\nspawnEDD\n\n');
 //   hugo.stdout.on('data', function (data) {
 //     gutil.log(gutil.colors.blue('build:website'), '\n' + data);
 //   });
@@ -64,8 +64,8 @@ console.log('\n\nspawnEDD\n\n');
 //   });
 // console.log("\n\ngutil.colors.red('build:website')\n\n");
 
-  hugo.on('error', done);
-  hugo.on('close', done);
+  // hugo.on('error', done);
+  // hugo.on('close', done);
 
 });
 
