@@ -1,10 +1,9 @@
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var sass = require('gulp-sass');
-// var scsslint = require('gulp-scss-lint');
+var scsslint = require('gulp-scss-lint');
 
-// gulp.task('styles', [ 'scss-lint' ], function () {
-gulp.task('styles', function () {
+gulp.task('styles', [ 'scss-lint' ], function () {
 
   gutil.log(gutil.colors.cyan('styles'), 'Compiling Sass assets');
 
@@ -38,17 +37,17 @@ gulp.task('styles', function () {
 
 });
 
-// gulp.task('scss-lint', function (done) {
+gulp.task('scss-lint', function (done) {
 
-//   if (!cFlags.test) {
-//     gutil.log(gutil.colors.cyan('scss-lint'), 'Disabling linting');
-//     return done();
-//   }
+  if (!cFlags.test) {
+    gutil.log(gutil.colors.cyan('scss-lint'), 'Disabling linting');
+    return done();
+  }
 
-//   return gulp.src('./assets/styles/**/*.scss')
-//     .pipe(scsslint({
-//       config: './.scss-lint.yml',
-//     }))
-//     .pipe(scsslint.failReporter());
+  return gulp.src('./assets/styles/**/*.scss')
+    .pipe(scsslint({
+      config: './.scss-lint.yml',
+    }))
+    .pipe(scsslint.failReporter());
 
-// });
+});

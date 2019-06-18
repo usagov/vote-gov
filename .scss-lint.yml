@@ -147,4 +147,4 @@ linters:
   Compass::PropertyWithMixin:
     enabled: false
 
-bundleExec: false
+bundleExec: true
