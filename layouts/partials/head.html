@@ -47,7 +47,9 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/styles/main.css">
+    {{ $sass := resources.Get "styles/main.scss" }}
+    {{ $style := $sass | resources.ToCSS }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
 
     <!-- HTML5 Shiv
     ================================================== -->
