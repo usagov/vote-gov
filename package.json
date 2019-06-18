@@ -14,6 +14,12 @@
       }
     }
   },
+  "scripts": {
+    "build": "gulp build:website",
+    "local-start": "gulp website",
+    "test": "gulp test",
+    "deploy": "gulp deploy"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/18F/vote-gov.git"
