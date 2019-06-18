@@ -1,8 +1,9 @@
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var sass = require('gulp-sass');
-var scsslint = require('gulp-scss-lint');
+// var scsslint = require('gulp-scss-lint');
 
+// gulp.task('styles', [ 'scss-lint' ], function () {
 gulp.task('styles', [ 'scss-lint' ], function () {
 
   gutil.log(gutil.colors.cyan('styles'), 'Compiling Sass assets');
