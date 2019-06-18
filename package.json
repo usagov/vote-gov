@@ -14,12 +14,7 @@
       }
     }
   },
-  "scripts": {
-    "federalist": "gulp build:website",
-    "local-start": "gulp website",
-    "test": "gulp test",
-    "deploy": "gulp deploy"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/18F/vote-gov.git"
