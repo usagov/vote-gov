@@ -34,9 +34,9 @@ gulp.task('build:website', [ 'build' ], function (done) {
     // setURL = process.env.npm_package_config_votegov_urls_staging;
   }
 
-  if ('production' === process.env.NODE_ENV) {
+  // if ('production' === process.env.NODE_ENV) {
     // setURL = process.env.npm_package_config_votegov_urls_production;
-  }
+  // }
 
   gutil.log(
     gutil.colors.cyan('build:website'),
@@ -48,24 +48,26 @@ gulp.task('build:website', [ 'build' ], function (done) {
     'Using environment-specified BaseUrl: ' + setURL
   );
 
-  var hugo_args = [
-    '--config=' + setConfig,
-    '--baseURL=' + setURL,
-  ];
-// console.log('\n\nabout to spawn\n\n');
-  // var hugo = spawn('hugo', hugo_args);
-// console.log('\n\nspawnEDD\n\n');
-//   hugo.stdout.on('data', function (data) {
-//     gutil.log(gutil.colors.blue('build:website'), '\n' + data);
-//   });
-// console.log('\n\ngutil.log(gutil.colors.blue('build:website'),\n\n');
-//   hugo.stderr.on('data', function (data) {
-//     gutil.log("gutil.colors.red('build:website'), '\n' + data");
-//   });
-// console.log("\n\ngutil.colors.red('build:website')\n\n");
+  if ('production' !== process.env.NODE_ENV) {
+    var hugo_args = [
+      '--config=' + setConfig,
+      '--baseURL=' + setURL,
+    ];
 
-  // hugo.on('error', done);
-  // hugo.on('close', done);
+    var hugo = spawn('hugo', hugo_args);
+
+    hugo.stdout.on('data', function (data) {
+      gutil.log(gutil.colors.blue('build:website'), '\n' + data);
+    });
+
+    hugo.stderr.on('data', function (data) {
+      gutil.log("gutil.colors.red('build:website'), '\n' + data");
+    });
+
+
+    hugo.on('error', done);
+    hugo.on('close', done);
+  }
 
 });
 
