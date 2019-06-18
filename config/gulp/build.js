@@ -27,7 +27,7 @@ gulp.task('build:website', [ 'build' ], function (done) {
 
   // English config is default
   var setConfig = process.env.npm_package_config_votegov_hugo_en;
-  var setURL = process.env.BASEURL || '/';//npm_package_config_votegov_urls_staging;
+  var setURL = process.env.BASEURL; || '/';//npm_package_config_votegov_urls_staging;
 
   if ('spanish' === process.env.NODE_LANG) {
     setConfig = process.env.npm_package_config_votegov_hugo_es;
@@ -52,9 +52,9 @@ gulp.task('build:website', [ 'build' ], function (done) {
     '--config=' + setConfig,
     '--baseURL=' + setURL,
   ];
-
+console.log('\n\nabout to spawn\n\n');
   var hugo = spawn('hugo', hugo_args);
-
+console.log('\n\nspawnEDD\n\n');
   hugo.stdout.on('data', function (data) {
     gutil.log(gutil.colors.blue('build:website'), '\n' + data);
   });
