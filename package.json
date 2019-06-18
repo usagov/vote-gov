@@ -14,7 +14,12 @@
       }
     }
   },
-  "scripts": {},
+  "scripts": {
+    "federalist": "gulp build:website",
+    "local-start": "gulp website",
+    "test": "gulp test",
+    "deploy": "gulp deploy"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/18F/vote-gov.git"
@@ -40,7 +45,6 @@
     "gulp-rename": "^1.4.0",
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.2",
-    "gulp-scss-lint": "^1.0.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^1.5.2",
     "gulp-util": "^3.0.7",
