@@ -53,8 +53,8 @@ gulp.task('build:website', [ 'build' ], function (done) {
     '--baseURL=' + setURL,
   ];
 console.log('\n\nabout to spawn\n\n');
-  var hugo = spawn('hugo', hugo_args);
-// console.log('\n\nspawnEDD\n\n');
+  // var hugo = spawn('hugo', hugo_args);
+console.log('\n\nspawnEDD\n\n');
 //   hugo.stdout.on('data', function (data) {
 //     gutil.log(gutil.colors.blue('build:website'), '\n' + data);
 //   });
