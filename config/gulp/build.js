@@ -27,15 +27,15 @@ gulp.task('build:website', [ 'build' ], function (done) {
 
   // English config is default
   var setConfig = process.env.npm_package_config_votegov_hugo_en;
-  var setURL = process.env.npm_package_config_votegov_urls_staging;
+  var setURL = process.env.BASEURL;//npm_package_config_votegov_urls_staging;
 
   if ('spanish' === process.env.NODE_LANG) {
     setConfig = process.env.npm_package_config_votegov_hugo_es;
-    setURL = process.env.npm_package_config_votegov_urls_staging;
+    // setURL = process.env.npm_package_config_votegov_urls_staging;
   }
 
   if ('production' === process.env.NODE_ENV) {
-    setURL = process.env.npm_package_config_votegov_urls_production;
+    // setURL = process.env.npm_package_config_votegov_urls_production;
   }
 
   gutil.log(
