@@ -15,8 +15,8 @@
     }
   },
   "scripts": {
-    "build": "gulp build:website",
-    "start": "gulp website",
+    "local-build": "gulp build:website",
+    "local-start": "gulp website",
     "test": "gulp test",
     "deploy": "gulp deploy"
   },
