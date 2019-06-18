@@ -73,7 +73,8 @@ gulp.task('deploy-nginx-conf', function (done) {
 
 gulp.task('deploy', function (done) {
 
-  var url = process.env.npm_package_config_votegov_urls_staging;
+  // var url = process.env.npm_package_config_votegov_urls_staging;
+  var url = process.env.BASEURL || '';
 
   if (! url) {
     gutil.log(
@@ -87,7 +88,7 @@ gulp.task('deploy', function (done) {
 
   if ('production' === process.env.NODE_ENV) {
 
-    url = process.env.npm_package_config_votegov_urls_production;
+    // url = process.env.npm_package_config_votegov_urls_production;
 
   }
 
