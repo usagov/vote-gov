@@ -34,9 +34,9 @@ gulp.task('build:website', [ 'build' ], function (done) {
     // setURL = process.env.npm_package_config_votegov_urls_staging;
   }
 
-  // if ('production' === process.env.NODE_ENV) {
+  if ('production' === process.env.NODE_ENV) {
     // setURL = process.env.npm_package_config_votegov_urls_production;
-  // }
+  }
 
   gutil.log(
     gutil.colors.cyan('build:website'),
@@ -47,8 +47,8 @@ gulp.task('build:website', [ 'build' ], function (done) {
     gutil.colors.cyan('build:website'),
     'Using environment-specified BaseUrl: ' + setURL
   );
-
-  if ('production' !== process.env.NODE_ENV) {
+  
+  if ('development' === process.env.NODE_ENV) {
     var hugo_args = [
       '--config=' + setConfig,
       '--baseURL=' + setURL,
@@ -68,7 +68,6 @@ gulp.task('build:website', [ 'build' ], function (done) {
     hugo.on('error', done);
     hugo.on('close', done);
   }
-
 });
 
 gulp.task('watch', function () {
