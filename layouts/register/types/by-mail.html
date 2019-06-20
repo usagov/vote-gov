@@ -44,7 +44,7 @@
 <div class="usa-grid page-inner mail-download">
   {{ range $key, $form := $.Site.Data.registration_forms }}
     {{ if eq $key $.Site.Params.language }}
-    <a class="usa-button" href="{{ $.Site.BaseURL }}{{ $form.file_path }}" target="_blank">
+    <a class="usa-button" href="{{ $form.file_path }}" target="_blank">
       {{ $translation.register.by_mail.download }}
     </a>
     {{ end }}
@@ -56,7 +56,7 @@
     {{ range $key, $form := $.Site.Data.registration_forms }}
       {{ if ne $key $.Site.Params.language }}
         <li>
-          <a href="{{ $.Site.BaseURL }}{{ $form.file_path }}" target="_blank">{{ $form.language }}</a>
+          <a href="{{ $form.file_path }}" target="_blank">{{ $form.language }}</a>
         </li>
       {{ end }}
     {{ end }}
