@@ -15,7 +15,8 @@
     }
   },
   "scripts": {
-    "federalist": "gulp build:website",
+    "federalist": "npm run build",
+    "build": "gulp build:website",
     "start": "gulp website",
     "test": "gulp test",
     "deploy": "gulp deploy"
@@ -50,5 +51,8 @@
     "uswds": "^0.8.5",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp-scss-lint": "^0.3.9"
   }
 }
