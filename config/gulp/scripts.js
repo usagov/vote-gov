@@ -24,7 +24,7 @@ gulp.task('eslint', function (done) {
 
 });
 
-gulp.task('scripts', [ 'eslint' ], function () {
+gulp.task('scripts',  gulp.series ('eslint' , function () {
 
   gutil.log(gutil.colors.cyan('scripts'), 'Browserifying JavaScript assets');
 
@@ -46,4 +46,4 @@ gulp.task('scripts', [ 'eslint' ], function () {
 
   return bundle;
 
-});
+}));

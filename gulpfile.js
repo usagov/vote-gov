@@ -31,11 +31,12 @@ gulp.task('default', function (done) {
   done();
 });
 
-gulp.task('test', function (done) {
+gulp.task('test', gulp.series('eslint', 'scss-lint'), function (done) {
   build.printPackageInfo();
-  runSequence(
-    'eslint',
-    'scss-lint',
-    done
-  );
+  done();
+  // runSequence(
+  //   'eslint',
+  //   'scss-lint',
+  //   done
+  // );
 })

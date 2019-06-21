@@ -96,15 +96,20 @@ gulp.task('deploy', function (done) {
     gutil.colors.green('deploy'),
     'Deploying multilingual site : ' + url
   );
-
-  runSequence(
-    'deploy-create-tmp',
-    'deploy-english',
-    'deploy-spanish',
-    'deploy-remove-remnants',
-    'deploy-provision',
-    'deploy-nginx-conf',
-    done
-  );
+  gulp.series('deploy-create-tmp',
+  'deploy-english',
+  'deploy-spanish',
+  'deploy-remove-remnants',
+  'deploy-provision',
+  'deploy-nginx-conf')
+  // runSequence(
+  //   'deploy-create-tmp',
+  //   'deploy-english',
+  //   'deploy-spanish',
+  //   'deploy-remove-remnants',
+  //   'deploy-provision',
+  //   'deploy-nginx-conf',
+  //   done
+  // );
 
 });

@@ -2,8 +2,11 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var del = require('del');
 var pkg = require('../../package.json');
-var runSequence = require('run-sequence');
+// var runSequence = require('run-sequence');
 var spawn = require('cross-spawn');
+
+// var buildStyle = gulp.task('styles', function(){});
+ // gulp.parallel ('styles', 'scripts', 'images', 'fonts') ;
 
 gulp.task('clean-all', function () {
   return del([
@@ -11,19 +14,27 @@ gulp.task('clean-all', function () {
   ]);
 });
 
-gulp.task('build', [ 'clean-all' ], function (done) {
-  exports.printPackageInfo();
-  gutil.log(gutil.colors.cyan('build'), 'Building asset-pipeline');
-  runSequence(
-    [ 'styles', 'scripts', 'images', 'fonts' ],
-    'copy-translation',
-    done
-  );
-});
 
-gulp.task('build:website', [ 'build' ], function (done) {
+  gulp.task('build', gulp.series('clean-all',gulp.parallel('styles', 'scripts', 'images', 'fonts'), 'copy-translation'  ,function (done) {
+
+    exports.printPackageInfo();
+    done();
+  // exports.printPackageInfo();
+  // gutil.log(gutil.colors.cyan('build'), 'Building asset-pipeline');
+
+
+  // runSequence(
+  //   [ 'styles', 'scripts', 'images', 'fonts' ],
+  //   'copy-translation',
+  //   done
+  // );
+
+}));
+
+gulp.task('build:website', gulp.series('build' , function (done) {
 
   gutil.log(gutil.colors.cyan('build:website'), 'Building static website via Hugo');
+  gutil.log(gutil.colors.cyan('build:website'), process.env.NODE_ENV);
 
   // English config is default
   var setConfig = process.env.npm_package_config_votegov_hugo_en;
@@ -47,8 +58,23 @@ gulp.task('build:website', [ 'build' ], function (done) {
     gutil.colors.cyan('build:website'),
     'Using environment-specified BaseUrl: ' + setURL
   );
-  
+
   if ('development' === process.env.NODE_ENV) {
+
+
+    gulp.task('watch', function () {
+      gutil.log(gutil.colors.cyan('watch'), 'Watching assets for changes');
+      gulp.watch('./assets/styles/**/*.scss', gulp.task( 'styles' ));
+     gulp.watch('./assets/scripts/**/*.js', gulp.task( 'scripts' ));
+     gulp.watch('./assets/images/**/*', gulp.task( 'images' ));
+     gutil.log(gutil.colors.cyan('watch'), 'Watching content & layouts for changes');
+     gulp.watch([
+       './content/register/*.md',
+       './layouts/register/**/*.html'
+     ], gulp.series( 'copy-translation' ) );
+    });
+
+
     var hugo_args = [
       '--config=' + setConfig,
       '--baseURL=' + setURL,
@@ -68,21 +94,14 @@ gulp.task('build:website', [ 'build' ], function (done) {
     hugo.on('error', done);
     hugo.on('close', done);
   }
-});
 
-gulp.task('watch', function () {
-  gutil.log(gutil.colors.cyan('watch'), 'Watching assets for changes');
-  gulp.watch('./assets/styles/**/*.scss', [ 'styles' ]);
-  gulp.watch('./assets/scripts/**/*.js', [ 'scripts' ]);
-  gulp.watch('./assets/images/**/*', [ 'images' ]);
-  gutil.log(gutil.colors.cyan('watch'), 'Watching content & layouts for changes');
-  gulp.watch([
-    './content/register/*.md',
-    './layouts/register/**/*.html',
-  ], [ 'copy-translation' ] );
-});
 
-gulp.task('website', [ 'build', 'watch' ], function (done) {
+}));
+
+
+
+gulp.task('website', gulp.series('build' , function (done) {
+// gulp.task('website', gulp.series( 'build', function (done) {
 
   // English config and Staging URL are the defaults
   var setConfig = process.env.npm_package_config_votegov_hugo_en;
@@ -102,6 +121,7 @@ gulp.task('website', [ 'build', 'watch' ], function (done) {
     gutil.colors.cyan('website'),
     'Using environment-specified BaseUrl: ' + setURL
   );
+
 
   var hugo_args = [
     'server',
@@ -124,7 +144,27 @@ gulp.task('website', [ 'build', 'watch' ], function (done) {
   hugo.on('error', done);
   hugo.on('close', done);
 
-});
+  // WATCH TASK INSIDE WEBSITE
+
+ //  gutil.log(gutil.colors.cyan('watch'), 'Watching assets for changes');
+ //  gulp.watch('./assets/styles/**/*.scss', gulp.task( 'styles' ));
+ // gulp.watch('./assets/scripts/**/*.js', gulp.task( 'scripts' ));
+ // gulp.watch('./assets/images/**/*', gulp.task( 'images' ));
+ // gutil.log(gutil.colors.cyan('watch'), 'Watching content & layouts for changes');
+ // gulp.watch([
+ //   './content/register/*.md',
+ //   './layouts/register/**/*.html'
+ // ], gulp.series( 'copy-translation' ) );
+
+ done();
+
+}));
+
+// exports.build1= function(){
+//
+//     gulp.task('styles');
+//
+// }
 
 exports.printPackageInfo = function(){
   gutil.log(
@@ -138,4 +178,5 @@ exports.printPackageInfo = function(){
   gutil.log(gutil.colors.blue(' \\ \\_\\   \\ \\_\\   \\ \\____-    \\ \\__| \\ \\_____\\ \\ \\_\\ \\ \\_____\\'));
   gutil.log(gutil.colors.white('  \\/_/    \\/_/    \\/____/     \\/_/   \\/_____/  \\/_/  \\/_____/'));
   gutil.log();
+
 }
