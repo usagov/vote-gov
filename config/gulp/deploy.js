@@ -41,10 +41,12 @@ gulp.task('deploy-english', function(done) {
 gulp.task('deploy-spanish', function(done) {
 
   process.env.NODE_LANG = 'spanish';
-  runSequence(
-    'build:website',
-    done
-  );
+  gulp.task('build:website')
+  done();
+  // runSequence(
+  //   ,
+  //   done
+  // );
 
 });
 
