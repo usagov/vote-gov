@@ -48,7 +48,6 @@ function web (done){
   // gulp.task('website', gulp.series( 'build', function (done) {
 
     // English config and Staging URL are the defaults
-      // gutil.log(gutil.colors.cyan('ENV'), process.env.NODE_ENV);
     var setConfig = process.env.npm_package_config_votegov_hugo_en;
     var setURL = 'http://localhost/';
 
@@ -76,7 +75,10 @@ function web (done){
       '--baseURL=' + setURL,
     ];
 
-
+    // gutil.log(
+    //   gutil.colors.cyan('HUGO ARGS'),
+    //   hugo_args + setURL
+    // );
 
     var hugo = spawn('hugo', hugo_args);
 
@@ -103,13 +105,14 @@ function web (done){
 function buildWebsite (done) {
 
 
-    // gutil.log(gutil.colors.cyan('ENV'), process.env.NODE_ENV);
+    gutil.log(gutil.colors.cyan('ENV'), process.env.NODE_ENV);
 
     gutil.log(gutil.colors.cyan('build:website'), 'Building static website via Hugo');
 
   // English config is default
   var setConfig = process.env.npm_package_config_votegov_hugo_en;
   var setURL = process.env.BASEURL || '';
+  // var setURL= process.env.npm_package_config_votegov_urls_staging;
 
   if ('spanish' === process.env.NODE_LANG) {
     setConfig = process.env.npm_package_config_votegov_hugo_es;
@@ -127,8 +130,11 @@ function buildWebsite (done) {
 
 
 
-  if ('development' === process.env.NODE_ENV) {
+  // if ('development' === process.env.NODE_ENV) {
     var hugo_args = [
+      'server',
+      '--watch',
+      '--buildDrafts',
       '--config=' + setConfig,
       '--baseURL=' + setURL,
     ];
@@ -147,7 +153,7 @@ function buildWebsite (done) {
 
     hugo.on('error', done);
     hugo.on('close', done);
-  }
+  // }
 
 }
 
