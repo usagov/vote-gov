@@ -130,7 +130,7 @@ function buildWebsite (done) {
 
 
 
-  // if ('development' === process.env.NODE_ENV) {
+  if ('development' === process.env.NODE_ENV) {
     var hugo_args = [
       'server',
       '--watch',
@@ -153,7 +153,7 @@ function buildWebsite (done) {
 
     hugo.on('error', done);
     hugo.on('close', done);
-  // }
+  }
 
 }
 
