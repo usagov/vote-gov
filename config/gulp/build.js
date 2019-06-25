@@ -105,7 +105,8 @@ function web (done){
 function buildWebsite (done) {
 
 
-    gutil.log(gutil.colors.cyan('ENV'), process.env.NODE_ENV);
+    // gutil.log(gutil.colors.cyan('ENV'), process.env.NODE_ENV);
+    gutil.log(gutil.colors.cyan('build:website'), 'START BUILD WEBSITE');
 
     gutil.log(gutil.colors.cyan('build:website'), 'Building static website via Hugo');
 
@@ -129,8 +130,8 @@ function buildWebsite (done) {
   );
 
 
+ if ('development' === process.env.NODE_ENV) {
 
-  if ('development' === process.env.NODE_ENV) {
     var hugo_args = [
       'server',
       '--watch',
@@ -154,6 +155,8 @@ function buildWebsite (done) {
     hugo.on('error', done);
     hugo.on('close', done);
   }
+  done();
+
 
 }
 
@@ -173,6 +176,6 @@ var bw = gulp.series (build, buildWebsite);
 var website = gulp.series (build, web);
 // var website = gulp.series (gulp.parallel (watch,build), web);
 gulp.task('build', build);
-gulp.task ('buildWebsite' , bw);
+gulp.task ('bw' , bw);
 gulp.task ('watch' , watch);
 gulp.task ('website' , website);
