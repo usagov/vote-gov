@@ -55,12 +55,6 @@ gulp.task('copy-translation', gulp.series( 'clean-translation', 'copy-content-sp
     'Copying files from content/ & layouts/ for translated URLs'
   );
   done ();
-  // gulp.series(  'copy-content-spanish',
-  //   'copy-layouts-spanish')
-  // runSequence(
-  //   'copy-content-spanish',
-  //   'copy-layouts-spanish',
-  //   done
-  // );
+
 
 }));

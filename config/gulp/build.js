@@ -2,10 +2,9 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var del = require('del');
 var pkg = require('../../package.json');
-// var runSequence = require('run-sequence');
 var spawn = require('cross-spawn');
 
- // Clean assets (returns a promise)
+
  function clean() {
    return del(['./static/assets/**/*']);
  }
@@ -27,9 +26,8 @@ function printPackageInfo (done){
 }
 
 function watch () {
-  // gulp.task('watch', function () {
-    gutil.log(gutil.colors.cyan('watch'), 'Watching assets for changes');
-    gulp.watch('./assets/styles/**/*.scss', gulp.task( 'styles' ));
+   gutil.log(gutil.colors.cyan('watch'), 'Watching assets for changes');
+   gulp.watch('./assets/styles/**/*.scss', gulp.task( 'styles' ));
    gulp.watch('./assets/scripts/**/*.js', gulp.task( 'scripts' ));
    gulp.watch('./assets/images/**/*', gulp.task( 'images' ));
    gutil.log(gutil.colors.cyan('watch'), 'Watching content & layouts for changes');
@@ -40,14 +38,9 @@ function watch () {
 
 }
 
-function web (done){
+//
+function website (done){
 
-
-
-  // gulp.task('website', gulp.series('build' , function (done) {
-  // gulp.task('website', gulp.series( 'build', function (done) {
-
-    // English config and Staging URL are the defaults
     var setConfig = process.env.npm_package_config_votegov_hugo_en;
     var setURL = 'http://localhost/';
 
@@ -75,11 +68,6 @@ function web (done){
       '--baseURL=' + setURL,
     ];
 
-    // gutil.log(
-    //   gutil.colors.cyan('HUGO ARGS'),
-    //   hugo_args + setURL
-    // );
-
     var hugo = spawn('hugo', hugo_args);
 
     gutil.log(
@@ -101,19 +89,14 @@ function web (done){
 
   }
 
-
 function buildWebsite (done) {
 
-
-    // gutil.log(gutil.colors.cyan('ENV'), process.env.NODE_ENV);
     gutil.log(gutil.colors.cyan('build:website'), 'START BUILD WEBSITE');
-
     gutil.log(gutil.colors.cyan('build:website'), 'Building static website via Hugo');
 
   // English config is default
   var setConfig = process.env.npm_package_config_votegov_hugo_en;
   var setURL = process.env.BASEURL || '';
-  // var setURL= process.env.npm_package_config_votegov_urls_staging;
 
   if ('spanish' === process.env.NODE_LANG) {
     setConfig = process.env.npm_package_config_votegov_hugo_es;
@@ -160,22 +143,18 @@ function buildWebsite (done) {
 
 }
 
-    // done();
-  // };
-
-// const builds= gulp.series('clean');
 exports.clean = clean;
 exports.printPackageInfo = printPackageInfo;
 exports.buildWebsite = buildWebsite;
 exports.watch = watch;
-exports.web= web;
+exports.website= website;
 
 var build = gulp.series(clean, printPackageInfo, gulp.parallel('styles', 'scripts', 'images', 'fonts'), 'copy-translation');
-var bw = gulp.series (build, buildWebsite);
-// var wb = gulp.series(build,web)
-var website = gulp.series (build, web);
-// var website = gulp.series (gulp.parallel (watch,build), web);
+var buildWebsite = gulp.series (build, buildWebsite);
+// TODO:  Website should run parallel(build, watch), but watch task hangs and does not complete
+var website = gulp.series (build, website);
+// var website = gulp.series (gulp.parallel (build,watch), web);
 gulp.task('build', build);
-gulp.task ('bw' , bw);
+gulp.task ('buildWebsite' , buildWebsite);
 gulp.task ('watch' , watch);
 gulp.task ('website' , website);

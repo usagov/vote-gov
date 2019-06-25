@@ -34,9 +34,5 @@ gulp.task('default', function (done) {
 gulp.task('test', gulp.series('eslint', 'scss-lint'), function (done) {
   build.printPackageInfo();
   done();
-  // runSequence(
-  //   'eslint',
-  //   'scss-lint',
-  //   done
-  // );
+
 })

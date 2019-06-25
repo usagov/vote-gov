@@ -43,10 +43,6 @@ gulp.task('deploy-spanish', function(done) {
   process.env.NODE_LANG = 'spanish';
   gulp.task('build:website')
   done();
-  // runSequence(
-  //   ,
-  //   done
-  // );
 
 });
 
@@ -75,7 +71,6 @@ gulp.task('deploy-nginx-conf', function (done) {
 
 gulp.task('deploy', function (done) {
 
-  // var url = process.env.npm_package_config_votegov_urls_staging;
   var url = process.env.BASEURL || '';
 
   if (! url) {
@@ -90,7 +85,6 @@ gulp.task('deploy', function (done) {
 
   if ('production' === process.env.NODE_ENV) {
 
-    // url = process.env.npm_package_config_votegov_urls_production;
 
   }
 
@@ -104,14 +98,5 @@ gulp.task('deploy', function (done) {
   'deploy-remove-remnants',
   'deploy-provision',
   'deploy-nginx-conf')
-  // runSequence(
-  //   'deploy-create-tmp',
-  //   'deploy-english',
-  //   'deploy-spanish',
-  //   'deploy-remove-remnants',
-  //   'deploy-provision',
-  //   'deploy-nginx-conf',
-  //   done
-  // );
 
 });
