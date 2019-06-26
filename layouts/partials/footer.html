@@ -1,7 +1,7 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
 <div class="grid-container">
-  <a class="usa-footer__primary-link" href="https://www.usa.gov/policies">
+  <a class="usa-footer__primary-link" href="{{ $translation.footer.privacy_policy_link_url }}">
     {{ $translation.footer.privacy_policy }}
   </a>
   <a class="usa-footer__logo usa-media-link" href="https://usa.gov/">
