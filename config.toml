@@ -5,7 +5,6 @@ ignoreFiles = [
   "content/registrar/.*",
   "layouts/registrar/.*"
 ]
-disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [params]
 Owner = "USA.gov"
