@@ -39,6 +39,14 @@
   display: block;
   background-color: color('primary-darker');
   padding-top: 0.4rem;
+
+  .usa-button--outline {
+    background-color: color('white');
+  }
+
+  .usa-button--outline:hover {
+    text-decoration: underline;
+  }
 }
 
 .translation-link {
