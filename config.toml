@@ -1,5 +1,6 @@
 title = "Voter Registration"
 publishdir = "public"
+# contentdir = "content/en"
 verbose = "true"
 ignoreFiles = [
   "content/registrar/.*",
