@@ -4,6 +4,6 @@ external_link = "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistra
 registration_type = "online"
 state_abbreviation = "MN"
 title = "Minnesota"
+english_only = true
 
 +++
-
