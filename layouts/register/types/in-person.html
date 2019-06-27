@@ -13,8 +13,10 @@
   <p>
     <a href="{{ .Params.external_link }}">
       {{ replace $translation.register.in_person.link "%state_name%" ( title .Title ) }}
+      {{ if and (eq $.Site.Params.language "spanish") (eq .Params.english_only true) }}
+        {{ $translation.register.english_only }}
+      {{ else }} {{ end }}
     </a>
   </p>
 </div>
 <!-- Register END -->
-
