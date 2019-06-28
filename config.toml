@@ -1,6 +1,6 @@
 title = "Voter Registration"
 verbose = "true"
-publishDir = "public"
+# publishDir = "public"
 DefaultContentLanguage = "en"
 ignoreFiles = [
   "content/registrar/.*",
@@ -22,7 +22,7 @@ register_path = "register"
   [languages.es]
 
   title = "Registro de Votantes"
-  publishDir = "/public/es"
+  # publishDir = "public/es"
   verbose = "true"
   ignoreFiles = [
     "content/register/.*",
