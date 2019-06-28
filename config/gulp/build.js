@@ -38,173 +38,27 @@ function printPackageInfo (done){
 //
 // }
 
-
-function ws (done){
-
-
-      setConfig = process.env.npm_package_config_votegov_hugo_es;
-      setURL = 'http://localhost/es/';
-
-
-    gutil.log(
-      gutil.colors.cyan('website'),
-      'Using environment-specified --config path: ' + setConfig
-    );
-
-    gutil.log(
-      gutil.colors.cyan('website'),
-      'Using environment-specified BaseUrl: ' + setURL
-    );
-
-    done();
-
-    //
-    // var hugo_args = [
-    //   'server',
-    //   '--watch',
-    //   '--buildDrafts',
-    //   '--config=' + setConfig,
-    //   '--baseURL=' + setURL,
-    // ];
-    //
-    // var hugo = spawn('hugo', hugo_args);
-    //
-    // gutil.log(
-    //   gutil.colors.cyan('spawn hugo'),
-    //
-    // );
-    //
-    // hugo.stdout.on('data', function (data) {
-    //   gutil.log(gutil.colors.blue('website'), '\n' + data);
-    // });
-    //
-    // hugo.stderr.on('data', function (data) {
-    //   gutil.log(gutil.colors.red('build:website'), '\n' + data);
-    // });
-    //
-    // hugo.on('error', done);
-    // hugo.on('close', done);
-    //
-
-  }
-
-
-  function we (done){
-
-      var setConfig = process.env.npm_package_config_votegov_hugo_en;
-      var setURL = 'http://localhost/';
-
-
-
-      gutil.log(
-        gutil.colors.cyan('website'),
-        'Using environment-specified --config path: ' + setConfig
-      );
-
-      gutil.log(
-        gutil.colors.cyan('website'),
-        'Using environment-specified BaseUrl: ' + setURL
-      );
-
-
-      var hugo_args = [
-        'server',
-        '--watch',
-        '--buildDrafts',
-        // '--config=' + setConfig,
-        // '--baseURL=' + setURL,
-      ];
-
-      var hugo = spawn('hugo', hugo_args);
-
-      gutil.log(
-        gutil.colors.cyan('spawn hugo'),
-
-      );
-
-      hugo.stdout.on('data', function (data) {
-        gutil.log(gutil.colors.blue('website'), '\n' + data);
-      });
-
-      hugo.stderr.on('data', function (data) {
-        gutil.log(gutil.colors.red('build:website'), '\n' + data);
-      });
-
-      hugo.on('error', done);
-      hugo.on('close', done);
-
-
-    }
 function website (done){
 
-    var setConfig = process.env.npm_package_config_votegov_hugo_en;
-    var setURL = 'http://localhost/';
 
-    if ('spanish' === process.env.NODE_LANG) {
-      setConfig = process.env.npm_package_config_votegov_hugo_es;
-      setURL = 'http://localhost/es/';
-    }
+  var setConfig = process.env.npm_package_config_votegov_hugo_en;
+  var setURL = 'http://localhost/';
 
-    gutil.log(
-      gutil.colors.cyan('website'),
-      'Using environment-specified --config path: ' + setConfig
-    );
-
-    gutil.log(
-      gutil.colors.cyan('website'),
-      'Using environment-specified BaseUrl: ' + setURL
-    );
-
-
-    var hugo_args = [
-      'server',
-      '--watch',
-      '--buildDrafts',
-      '--config=' + setConfig,
-      '--baseURL=' + setURL,
-    ];
-
-    var hugo = spawn('hugo', hugo_args);
-
-    gutil.log(
-      gutil.colors.cyan('spawn hugo'),
-
-    );
-
-    hugo.stdout.on('data', function (data) {
-      gutil.log(gutil.colors.blue('website'), '\n' + data);
-    });
-
-    hugo.stderr.on('data', function (data) {
-      gutil.log(gutil.colors.red('build:website'), '\n' + data);
-    });
-
-    hugo.on('error', done);
-    hugo.on('close', done);
-
-
+  if ('spanish' === process.env.NODE_LANG) {
+    setConfig = process.env.npm_package_config_votegov_hugo_es;
+    setURL = 'http://localhost/es/';
   }
 
-function buildEnglish(done) {
-  gutil.log(gutil.colors.cyan('build:website'), 'START ENGLISH WEBSITE');
-  gutil.log(gutil.colors.cyan('build:website'), 'Building static website via Hugo');
+  gutil.log(
+    gutil.colors.cyan('website'),
+    'Using environment-specified --config path: ' + setConfig
+  );
 
-// English config is default
-var setConfig = process.env.npm_package_config_votegov_hugo_en;
-var setURL = process.env.BASEURL || '';
+  gutil.log(
+    gutil.colors.cyan('website'),
+    'Using environment-specified BaseUrl: ' + setURL
+  );
 
-gutil.log(
-  gutil.colors.cyan('build:website'),
-  'Using environment-specified --config path: ' + setConfig
-);
-
-gutil.log(
-  gutil.colors.cyan('build:website'),
-  'Using environment-specified BaseUrl: ' + setURL
-);
-
-
-if ('development' === process.env.NODE_ENV) {
 
   var hugo_args = [
     'server',
@@ -214,61 +68,23 @@ if ('development' === process.env.NODE_ENV) {
     '--baseURL=' + setURL,
   ];
 
-
   var hugo = spawn('hugo', hugo_args);
 
+  gutil.log(
+    gutil.colors.cyan('spawn hugo'),
+
+  );
+
   hugo.stdout.on('data', function (data) {
-    gutil.log(gutil.colors.blue('build:website'), '\n' + data);
+    gutil.log(gutil.colors.blue('website'), '\n' + data);
   });
 
   hugo.stderr.on('data', function (data) {
-    gutil.log("gutil.colors.red('build:website'), '\n' + data");
+    gutil.log(gutil.colors.red('build:website'), '\n' + data);
   });
-
 
   hugo.on('error', done);
   hugo.on('close', done);
-}
-done();
-
-
-}
-
-function buildSpanish(done) {
-  gutil.log(gutil.colors.cyan('build:website'), 'BUILD SPANISH SITE');
-  //gutil.log(gutil.colors.cyan('build:website'), 'Building static website via Hugo');
-
-  var setURL = process.env.BASEURL || '';
-  var setConfig = process.env.npm_package_config_votegov_hugo_es;
-
-
-if ('development' === process.env.NODE_ENV) {
-
-  var hugo_args = [
-    'server',
-    '--watch',
-    '--buildDrafts',
-    '--config=' + setConfig,
-    '--baseURL=' + setURL,
-  ];
-
-
-  var hugo = spawn('hugo', hugo_args);
-
-
-  hugo.stdout.on('data', function (data) {
-    gutil.log(gutil.colors.blue('build:website'), '\n' + data);
-  });
-
-  hugo.stderr.on('data', function (data) {
-    gutil.log("gutil.colors.red('build:website'), '\n' + data");
-  });
-
-
-  hugo.on('error', done);
-  hugo.on('close', done);
-}
-done();
 
 
 }
@@ -284,7 +100,7 @@ function buildWebsite (done) {
   var setURL = process.env.BASEURL || '';
 
   // if ('spanish' === process.env.NODE_LANG) {
-    setConfig = process.env.npm_package_config_votegov_hugo_es;
+  //   setConfig = process.env.npm_package_config_votegov_hugo_es;
   // }
 
   gutil.log(
@@ -330,9 +146,9 @@ function buildWebsite (done) {
 
 exports.clean = clean;
 exports.printPackageInfo = printPackageInfo;
-// exports.buildWebsite = buildWebsite;
-exports.buildEnglish = buildEnglish;
-exports.buildSpanish = buildSpanish;
+exports.buildWebsite = buildWebsite;
+// exports.buildEnglish = buildEnglish;
+// exports.buildSpanish = buildSpanish;
 // exports.watch = watch;
 exports.website= website;
 // exports.we= we;
@@ -340,14 +156,14 @@ exports.website= website;
 
 
 var build = gulp.series(clean, printPackageInfo, gulp.parallel('styles', 'scripts', 'images', 'fonts'), 'copy-translation');
-// var buildWebsite = gulp.series (build, buildWebsite);
-var buildWebsite = gulp.series (build, gulp.parallel (buildEnglish, buildSpanish));
+var buildWebsite = gulp.series (build, buildWebsite);
+// var buildWebsite = gulp.series (build, gulp.parallel (buildEnglish, buildSpanish));
 // var buildWebsite = gulp.series (build, gulp.parbuildEnglish);
 
 
 // TODO:  Website should run parallel(build, watch), but watch task hangs and does not complete
 var website = gulp.series (build, website);
-// var website = gulp.series (build, ws,we);
+// var website = gulp.series (build, gulp.parallel(ws,we));
 
 // var website = gulp.series (gulp.parallel (build,watch), web);
 gulp.task('build', build);

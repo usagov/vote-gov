@@ -1,16 +1,18 @@
-title = "Registro de Votantes"
-publishdir = "tmp/public/es"
-# contentdir = "content/es"
-verbose = "true"
-ignoreFiles = [
-  "content/register/.*",
-  "layouts/register/.*"
-]
-
-[params]
-Owner = "USA.gov"
-Referrer_Short_Code = "voteusa_spanish"
-lang = "es"
-language = "spanish"
-root_path = "es/"
-register_path = "registrar"
+# title = "Registro de Votantes"
+# publishdir = "tmp/public/es"
+# verbose = "true"
+# ignoreFiles = [
+#   "content/register/.*",
+#   "layouts/register/.*"
+# ]
+#
+# # layoutDir = "/layouts"
+# # staticDir = "/static"
+# disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+# [params]
+# Owner = "USA.gov"
+# Referrer_Short_Code = "voteusa_spanish"
+# lang = "es"
+# language = "spanish"
+# root_path = "es"
+# register_path = "registrar"

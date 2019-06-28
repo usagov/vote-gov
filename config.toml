@@ -1,17 +1,49 @@
 title = "Voter Registration"
 publishdir = "public"
-# contentdir = "content/en"
 verbose = "true"
 ignoreFiles = [
   "content/registrar/.*",
   "layouts/registrar/.*"
 ]
-disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
-[params]
-Owner = "USA.gov"
-Referrer_Short_Code = "voteusa"
-lang = "en"
-language = "english"
-root_path = ""
-register_path = "register"
+
+# [params]
+# Owner = "USA.gov"
+# Referrer_Short_Code = "voteusa"
+# lang = "en"
+# language = "english"
+# root_path = ""
+# register_path = "register"
+
+[languages]
+  [languages.en]
+  weight =1
+
+  [languages.en.Params]
+
+    Owner = "USA.gov"
+    Referrer_Short_Code = "voteusa"
+    lang = "en"
+    language = "english"
+    root_path = ""
+    register_path = "register"
+
+  [languages.es]
+
+  title = "Registro de Votantes"
+  publishdir = "tmp/public/es"
+
+
+  verbose = "true"
+  ignoreFiles = [
+    "content/register/.*",
+    "layouts/register/.*"
+  ]
+
+  [languages.es.Params]
+  Owner = "USA.gov"
+  Referrer_Short_Code = "voteusa_spanish"
+  lang = "es"
+  language = "spanish"
+  root_path = "es/"
+  register_path = "registrar"
