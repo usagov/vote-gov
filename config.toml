@@ -21,6 +21,7 @@ register_path = "register"
   [languages.es]
 
   title = "Registro de Votantes"
+  publishdir = "/es"
   verbose = "true"
   ignoreFiles = [
     "content/register/.*",
