@@ -8,7 +8,7 @@
     <a
 
       {{ if or ($.IsHome) ($.IsNode) }}
-        href="/{{ $lang.root_path }}"
+        href="{{$.Site.BaseURL}}/{{ $lang.root_path }}"
       {{ else }}
         href="/{{ $lang.root_path }}{{ $lang.register_path }}{{ $.Params.state_abbreviation | lower }}/"
       {{ end }}
