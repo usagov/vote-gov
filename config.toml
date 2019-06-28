@@ -1,6 +1,6 @@
 title = "Voter Registration"
 verbose = "true"
-publishDir = "/public"
+publishDir = "public"
 DefaultContentLanguage = "en"
 ignoreFiles = [
   "content/registrar/.*",
