@@ -44,11 +44,6 @@ function website (done){
   var setConfig = process.env.npm_package_config_votegov_hugo_en;
   var setURL = 'http://localhost/';
 
-  if ('spanish' === process.env.NODE_LANG) {
-    setConfig = process.env.npm_package_config_votegov_hugo_es;
-    setURL = 'http://localhost/es/';
-  }
-
   gutil.log(
     gutil.colors.cyan('website'),
     'Using environment-specified --config path: ' + setConfig
@@ -58,8 +53,7 @@ function website (done){
     gutil.colors.cyan('website'),
     'Using environment-specified BaseUrl: ' + setURL
   );
-
-
+  
   var hugo_args = [
     'server',
     '--watch',
@@ -89,7 +83,6 @@ function website (done){
 
 }
 
-
 function buildWebsite (done) {
 
     gutil.log(gutil.colors.cyan('build:website'), 'START BUILD WEBSITE');
@@ -108,7 +101,6 @@ function buildWebsite (done) {
     'Using environment-specified BaseUrl: ' + setURL
   );
 
-
  if ('development' === process.env.NODE_ENV) {
 
     var hugo_args = [
@@ -118,8 +110,6 @@ function buildWebsite (done) {
       '--config=' + setConfig,
       '--baseURL=' + setURL,
     ];
-
-
     var hugo = spawn('hugo', hugo_args);
 
     hugo.stdout.on('data', function (data) {
@@ -129,39 +119,21 @@ function buildWebsite (done) {
     hugo.stderr.on('data', function (data) {
       gutil.log("gutil.colors.red('build:website'), '\n' + data");
     });
-
-
     hugo.on('error', done);
     hugo.on('close', done);
   }
   done();
-
-
 }
 
 exports.clean = clean;
 exports.printPackageInfo = printPackageInfo;
 exports.buildWebsite = buildWebsite;
-// exports.buildEnglish = buildEnglish;
-// exports.buildSpanish = buildSpanish;
-// exports.watch = watch;
 exports.website= website;
-// exports.we= we;
-// exports.ws= ws;
-
 
 var build = gulp.series(clean, printPackageInfo, gulp.parallel('styles', 'scripts', 'images', 'fonts'), 'copy-translation');
 var buildWebsite = gulp.series (build, buildWebsite);
-// var buildWebsite = gulp.series (build, gulp.parallel (buildEnglish, buildSpanish));
-// var buildWebsite = gulp.series (build, gulp.parbuildEnglish);
-
-
 // TODO:  Website should run parallel(build, watch), but watch task hangs and does not complete
 var website = gulp.series (build, website);
-// var website = gulp.series (build, gulp.parallel(ws,we));
-
-// var website = gulp.series (gulp.parallel (build,watch), web);
 gulp.task('build', build);
 gulp.task ('buildWebsite' , buildWebsite);
-// gulp.task ('watch' , watch);
 gulp.task ('website' , website);

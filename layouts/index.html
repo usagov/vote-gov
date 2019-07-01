@@ -1,8 +1,5 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
-{{print $.Site.Params.register_path}}
-
-
 {{ partial "head.html" . }}
   <body class="page-vote">
     {{ partial "header.html" . }}
@@ -27,16 +24,7 @@
               {{ $translation.homepage.state_selection.default }}
             </option>
 
-          <<script type="text/javascript">
-            {{ range where $.Data.Pages.ByTitle  "Section" "registrar"}}
-             console.log({{.Title}});
-
-            {{ end }}
-
-          </script>
-
-
-      {{ range where $.Site.AllRegularPages.ByTitle "Section" .Site.Params.register_path }}
+      {{ range where $.Data.Pages.ByTitle "Section" .Site.Params.register_path }}
 
               {{ if eq $.Site.Params.language "english" }}
                <option value="{{ .Params.state_abbreviation | lower }}">{{ title .Title }}</option>

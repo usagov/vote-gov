@@ -1,17 +1,11 @@
-
 DefaultContentLanguage = "en"
 publishDir = "tmp/public/"
-# contentDir = "content/"
-# defaultContentLanguageInSubdir = true
-
 
 [languages]
   [languages.en]
-
   title = "Voter Registration"
   verbose = "true"
   contentDir = "content/en"
-
 
   [languages.en.params]
   # [params]
@@ -23,19 +17,14 @@ publishDir = "tmp/public/"
   register_path = "register"
 
   [languages.es]
-
-
   title = "Registro de Votantes"
   verbose = "true"
   contentDir = "content/es"
-
-
 
   [languages.es.params]
   Owner = "USA.gov"
   Referrer_Short_Code = "voteusa_spanish"
   lang = "es"
-
   publishDir = "tmp/public/es"
   language = "spanish"
   root_path = "es/"
