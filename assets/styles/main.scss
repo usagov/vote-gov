@@ -87,7 +87,12 @@ footer {
 .usa-footer__logo {
   float: right;
 
-  img {
+  .spanish-img {
+    margin-top: 3px;
+    max-width: 6.5rem;
+  }
+
+  .english-img {
     margin-top: 2px;
     max-width: 2.875rem;
   }

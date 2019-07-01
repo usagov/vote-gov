@@ -5,6 +5,10 @@
     {{ $translation.footer.privacy_policy }}
   </a>
   <a class="usa-footer__logo usa-media-link" href="{{ $translation.footer.usagov_link }}">
-    <img src="{{ .Site.BaseURL }}assets/{{ $translation.footer.usagov_img }}" alt="USA.gov logo">
+    {{ if eq $.Site.Params.language "spanish" }}
+      <img class="spanish-img" src="{{ .Site.BaseURL }}assets/{{ $translation.footer.usagov_img }}" alt="USA.gov en español logo">
+    {{ else }}
+      <img class="english-img" src="{{ .Site.BaseURL }}assets/{{ $translation.footer.usagov_img }}" alt="USA.gov logo">
+    {{ end }}
   </a>
 </div>
