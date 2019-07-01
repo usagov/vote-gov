@@ -34,7 +34,7 @@
 
           </script> -->
 
-  
+
       {{ range where $.Site.AllRegularPages.ByTitle "Section" .Site.Params.register_path }}
 
               {{ if eq $.Site.Params.language "english" }}
@@ -90,7 +90,8 @@
      else {
        ev.preventDefault();
        {{ if eq $.Site.Params.language "english" }}
-         var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}register/';
+         // var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}register/';
+         var redirectURL = {{$.Site.BaseURL}}/{{ $lang.root_path }} + '/{{ .Site.Params.root_path }}register/'
        {{ else }}
          var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}registrar/';
        {{ end }}
