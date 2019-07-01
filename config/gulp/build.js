@@ -53,7 +53,7 @@ function website (done){
     gutil.colors.cyan('website'),
     'Using environment-specified BaseUrl: ' + setURL
   );
-  
+
   var hugo_args = [
     'server',
     '--watch',
@@ -63,11 +63,6 @@ function website (done){
   ];
 
   var hugo = spawn('hugo', hugo_args);
-
-  gutil.log(
-    gutil.colors.cyan('spawn hugo'),
-
-  );
 
   hugo.stdout.on('data', function (data) {
     gutil.log(gutil.colors.blue('website'), '\n' + data);
