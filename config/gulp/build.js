@@ -5,15 +5,18 @@ var pkg = require('../../package.json');
 var spawn = require('cross-spawn');
 
 
+
  function clean() {
    return del(['./static/assets/**/*']);
  }
+
 
 function printPackageInfo (done){
   gutil.log(
     gutil.colors.yellow('v' + pkg.version),
     gutil.colors.green(pkg.name)
   );
+
   gutil.log();
   gutil.log(gutil.colors.red(' ______  ______  _____       __   ________  ______  ______'));
   gutil.log(gutil.colors.red('/\\  ___\\/\\  ___\\/\\  __-.    /\\ \\ / /\\  __ \\/\\__  _\\/\\  ___\\'));
@@ -22,7 +25,6 @@ function printPackageInfo (done){
   gutil.log(gutil.colors.white('  \\/_/    \\/_/    \\/____/     \\/_/   \\/_____/  \\/_/  \\/_____/'));
   gutil.log();
   done();
-
 }
 
 // function watch () {
@@ -39,7 +41,6 @@ function printPackageInfo (done){
 // }
 
 function website (done){
-
 
   var setConfig = process.env.npm_package_config_votegov_hugo_en;
   var setURL = 'http://localhost/';

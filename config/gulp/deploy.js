@@ -70,7 +70,6 @@ gulp.task('deploy-nginx-conf', function (done) {
 });
 
 gulp.task('deploy', function (done) {
-
   var url = process.env.BASEURL || '';
 
   if (! url) {
@@ -82,12 +81,6 @@ gulp.task('deploy', function (done) {
     process.exit(1);
     return;
   }
-
-  if ('production' === process.env.NODE_ENV) {
-
-
-  }
-
   gutil.log(
     gutil.colors.green('deploy'),
     'Deploying multilingual site : ' + url

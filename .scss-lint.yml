@@ -146,5 +146,3 @@ linters:
     severity: warning
   Compass::PropertyWithMixin:
     enabled: false
-
-bundleExec: true

@@ -1,5 +1,6 @@
+
 DefaultContentLanguage = "en"
-publishDir = "tmp/public/"
+publishDir = "tmp/public"
 
 [languages]
   [languages.en]
