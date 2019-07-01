@@ -1,4 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+{{print "----------------------------------------"}}
+{{print $.Site.Params.register_path}}
 
 {{ partial "head.html" . }}
   <body class="page-vote">
@@ -14,7 +16,7 @@
         <header>
           <h1 class="usa-display vote-heading">{{ $translation.homepage.header }}</h1>
         </header>
-        <form class="form-register" action="/{{ .Site.Params.root_path }}states/" method="get">
+        <form class="form-register" method="get" id="register">
           <p>{{ $translation.homepage.state_selection.label }}</p>
           <label class="usa-sr-only" for="js-user-selection">
             {{ $translation.homepage.state_selection.default }}
@@ -23,9 +25,24 @@
             <option value="default">
               {{ $translation.homepage.state_selection.default }}
             </option>
-          {{ range where .Data.Pages.ByTitle "Section" .Site.Params.register_path }}
-            <option value="{{ .Params.state_abbreviation | lower }}">{{ title .Title }}</option>
-          {{ end }}
+
+          <!-- <<script type="text/javascript">
+            {{ range where .Data.Pages.ByTitle "Section" "registrar"}}
+             console.log({{.Title}});
+
+            {{ end }}
+
+          </script> -->
+
+  
+      {{ range where $.Site.AllRegularPages.ByTitle "Section" .Site.Params.register_path }}
+
+              {{ if eq $.Site.Params.language "english" }}
+               <option value="{{ .Params.state_abbreviation | lower }}">{{ title .Title }}</option>
+               {{ else }}
+                 <option value="{{ .Params.state_abbreviation | lower }}">{{ .Title }}</option>
+               {{ end }}
+             {{ end }}
           </select>
           <button class="usa-button-big usa-button-secondary" id="js-user-submit" type="submit">
             {{ $translation.homepage.state_selection.submit }}
@@ -63,6 +80,25 @@
       <!-- Footer END -->
 
     </div>
+
+    <script type="text/javascript">
+   document.getElementById('register').onsubmit = function(ev) {
+     var stateSelected = document.getElementById('js-user-selection').value;
+     if (stateSelected === 'default') {
+       return false;
+     }
+     else {
+       ev.preventDefault();
+       {{ if eq $.Site.Params.language "english" }}
+         var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}register/';
+       {{ else }}
+         var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}registrar/';
+       {{ end }}
+       redirectURL = redirectURL + stateSelected + '/';
+       window.location.href = redirectURL;
+     }
+   };
+ </script>
 
     {{ partial "analytics.html" . }}
     {{ partial "scripts.html" . }}

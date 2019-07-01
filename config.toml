@@ -1,32 +1,24 @@
 title = "Voter Registration"
 verbose = "true"
-publishDir = "public/"
+# publishDir = "public/"
 DefaultContentLanguage = "en"
-ignoreFiles = [
-  "content/registrar/.*",
-  "layouts/registrar/.*"
-]
-
-[params]
-Owner = "USA.gov"
-Referrer_Short_Code = "voteusa"
-lang = "en"
-language = "english"
-root_path = ""
-register_path = "register"
 
 [languages]
   [languages.en]
   weight =1
+  [languages.en.Params]
+  # [params]
+  Owner = "USA.gov"
+  Referrer_Short_Code = "voteusa"
+  lang = "en"
+  language = "english"
+  root_path = ""
+  register_path = "register"
 
   [languages.es]
 
   title = "Registro de Votantes"
   verbose = "true"
-  ignoreFiles = [
-    "content/register/.*",
-    "layouts/register/.*"
-  ]
 
   [languages.es.Params]
   Owner = "USA.gov"
