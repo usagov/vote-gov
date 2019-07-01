@@ -26,8 +26,8 @@ static/assets/*
 public/
 
 # The generated langauge content and layouts directories
-content/registrar
-layouts/registrar
+#content/registrar
+#layouts/registrar
 
 tmp/
 resources/

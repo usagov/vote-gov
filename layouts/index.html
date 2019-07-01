@@ -1,6 +1,7 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
-{{print "----------------------------------------"}}
+
 {{print $.Site.Params.register_path}}
+
 
 {{ partial "head.html" . }}
   <body class="page-vote">
@@ -26,13 +27,13 @@
               {{ $translation.homepage.state_selection.default }}
             </option>
 
-          <!-- <<script type="text/javascript">
-            {{ range where .Data.Pages.ByTitle "Section" "registrar"}}
+          <<script type="text/javascript">
+            {{ range where $.Data.Pages.ByTitle  "Section" "registrar"}}
              console.log({{.Title}});
 
             {{ end }}
 
-          </script> -->
+          </script>
 
 
       {{ range where $.Site.AllRegularPages.ByTitle "Section" .Site.Params.register_path }}
@@ -55,6 +56,10 @@
       <section class="page-section registered" id="already-registered">
         <header>
           <h1 class="usa-display vote-heading">{{ $translation.homepage.registered.header }}</h1>
+          <<script type="text/javascript">
+            console.log({{ $translation.homepage.registered.header }})
+
+          </script>
         </header>
         <div class="voter-resources">
           <p>{{ $translation.homepage.registered.resources_intro }} <a href="{{ $translation.homepage.registered.resources_link_url }}">{{ $translation.homepage.registered.resources_link_text }}</a> {{ $translation.homepage.registered.resources_on }} <a href="{{ $translation.homepage.registered.resources_website_url }}">{{ $translation.homepage.registered.resources_website }}:</a></p>
@@ -93,7 +98,7 @@
          // var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}register/';
          var redirectURL = {{$.Site.BaseURL}} + '/{{ .Site.Params.root_path }}register/'
        {{ else }}
-         var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}registrar/';
+         var redirectURL = {{$.Site.BaseURL}} + '/{{ .Site.Params.root_path }}registrar/';
        {{ end }}
        redirectURL = redirectURL + stateSelected + '/';
        window.location.href = redirectURL;
