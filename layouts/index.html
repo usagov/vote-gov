@@ -73,9 +73,9 @@
 			else {
 				ev.preventDefault();
 				{{ if eq $.Site.Params.language "english" }}
-					var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}register/';
+					var redirectURL = {{ $.Site.BaseURL }} + '/{{ .Site.Params.root_path }}register/';
 				{{ else }}
-					var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}registrar/';
+					var redirectURL = {{ $.Site.BaseURL }} + '/{{ .Site.Params.root_path }}registrar/';
 				{{ end }}
 				redirectURL = redirectURL + stateSelected + '/';
 				window.location.href = redirectURL;
