@@ -4,6 +4,6 @@ external_link = "https://registertovoteflorida.gov/en/Registration/Index"
 registration_type = "online"
 state_abbreviation = "FL"
 title = "Florida"
+english_only = false
 
 +++
-

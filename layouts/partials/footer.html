@@ -1,10 +1,14 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
 <div class="grid-container">
-  <a class="usa-footer__primary-link" href="https://www.usa.gov/policies">
+  <a class="usa-footer__primary-link" href="{{ $translation.footer.privacy_policy_link_url }}">
     {{ $translation.footer.privacy_policy }}
   </a>
-  <a class="usa-footer__logo usa-media-link" href="https://usa.gov/">
-    <img src="{{ .Site.BaseURL }}/assets/img/usagov-logo.png" alt="USA.gov logo">
+  <a class="usa-footer__logo usa-media-link" href="{{ $translation.footer.usagov_link }}">
+    {{ if eq $.Site.Params.language "spanish" }}
+      <img class="spanish-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}" alt="USA.gov en español logo">
+    {{ else }}
+      <img class="english-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}" alt="USA.gov logo">
+    {{ end }}
   </a>
 </div>

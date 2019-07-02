@@ -4,6 +4,6 @@ external_link = "https://vote.elections.virginia.gov/Registration/Eligibility"
 registration_type = "online"
 state_abbreviation = "VA"
 title = "Virginia"
+english_only = true
 
 +++
-

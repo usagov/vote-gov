@@ -4,6 +4,6 @@ external_link = "https://voterregistration.ct.gov/OLVR/"
 registration_type = "online"
 state_abbreviation = "CT"
 title = "Connecticut"
+english_only = false
 
 +++
-
