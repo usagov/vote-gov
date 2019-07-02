@@ -5,7 +5,7 @@ var pkg = require('../../package.json');
 var spawn = require('cross-spawn');
 
 
- function clean() {
+ function cleanAll() {
    return del(['./static/assets/**/*']);
  }
 
@@ -38,16 +38,10 @@ function watch () {
 
 }
 
-//
 function website (done){
 
-    var setConfig = process.env.npm_package_config_votegov_hugo_en;
+    var setConfig = "config.toml" || process.env.npm_package_config_votegov_hugo_en;
     var setURL = 'http://localhost/';
-
-    if ('spanish' === process.env.NODE_LANG) {
-      setConfig = process.env.npm_package_config_votegov_hugo_es;
-      setURL = 'http://localhost/es/';
-    }
 
     gutil.log(
       gutil.colors.cyan('website'),
@@ -91,16 +85,10 @@ function website (done){
 
 function buildWebsite (done) {
 
-    gutil.log(gutil.colors.cyan('build:website'), 'START BUILD WEBSITE');
     gutil.log(gutil.colors.cyan('build:website'), 'Building static website via Hugo');
-
   // English config is default
   var setConfig = process.env.npm_package_config_votegov_hugo_en;
   var setURL = process.env.BASEURL || '';
-
-  if ('spanish' === process.env.NODE_LANG) {
-    setConfig = process.env.npm_package_config_votegov_hugo_es;
-  }
 
   gutil.log(
     gutil.colors.cyan('build:website'),
@@ -143,18 +131,18 @@ function buildWebsite (done) {
 
 }
 
-exports.clean = clean;
+exports.cleanAll = cleanAll;
 exports.printPackageInfo = printPackageInfo;
 exports.buildWebsite = buildWebsite;
 exports.watch = watch;
 exports.website= website;
 
-var build = gulp.series(clean, printPackageInfo, gulp.parallel('styles', 'scripts', 'images', 'fonts'), 'copy-translation');
+var build = gulp.series(cleanAll, printPackageInfo, gulp.parallel('styles', 'scripts', 'images', 'fonts'), 'copy-translation');
 var buildWebsite = gulp.series (build, buildWebsite);
-// TODO:  Website should run parallel(build, watch), but watch task hangs and does not complete
 var website = gulp.series (build, website);
-// var website = gulp.series (gulp.parallel (build,watch), web);
+
 gulp.task('build', build);
 gulp.task ('buildWebsite' , buildWebsite);
 gulp.task ('watch' , watch);
 gulp.task ('website' , website);
+gulp.task ('cleanAll' , cleanAll);

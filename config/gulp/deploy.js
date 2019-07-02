@@ -4,6 +4,7 @@ var del = require('del');
 var pkg = require('../../package.json');
 var runSequence = require('run-sequence');
 var spawn = require('cross-spawn');
+var build = require('./build');
 
 gulp.task('deploy-clean-all', function () {
   return del([
@@ -25,24 +26,25 @@ gulp.task('deploy-create-tmp', function (done) {
 
   mkdir.on('error', done);
   mkdir.on('close', done);
+  done();
 
 });
 
 gulp.task('deploy-english', function(done) {
 
   process.env.NODE_LANG = '';
-  runSequence(
-    'build:website',
-    done
-  );
+  build.buildWebsite(done);
+  done();
+
 
 });
 
 gulp.task('deploy-spanish', function(done) {
 
   process.env.NODE_LANG = 'spanish';
-  gulp.task('build:website')
+  build.buildWebsite(done);
   done();
+
 
 });
 
@@ -71,7 +73,7 @@ gulp.task('deploy-nginx-conf', function (done) {
 
 gulp.task('deploy', function (done) {
 
-  var url = process.env.BASEURL || '';
+  var url = process.env.baseURL || '';
 
   if (! url) {
     gutil.log(
