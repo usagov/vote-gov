@@ -2,13 +2,13 @@
 //
 
 .usa-disclaimer {
-  background-color: $color-primary-darkest;
-  color: $color-white;
-  font-size: 12px;
+  background-color: color('primary-darker');
+  color: color('white');
+  font-size: 13px;
   height: 43px;
 
-  @include media($medium-screen) {
-    font-size: $h6-font-size;
+  @include at-media('tablet') {
+    font-size: size('body', '3xs');
   }
 }
 
@@ -19,7 +19,7 @@
   margin-top: 0.25rem;
   width: 60%;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     margin-top: 1rem;
   }
 }
@@ -29,7 +29,7 @@
   margin-right: 0.75rem;
   padding-top: 0.25rem;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     padding-top: 0;
   }
 }
@@ -37,12 +37,13 @@
 .translations {
   float: right;
   display: block;
-  background-color: $color-primary-darkest;
+  background-color: color('primary-darker');
+  padding-top: 0.4rem;
 }
 
 .translation-link {
-  font-size: 1.4rem;
-  height: 2.4rem;
-  margin-top: 0.25rem;
-  padding-top: 0.5rem;
+  font-size: .875rem;
+  height: 1.5rem;
+  margin-top: 0.17rem;
+  padding-top: .35rem;
 }
