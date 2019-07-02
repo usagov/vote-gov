@@ -1,10 +1,10 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
-<div class="usa-grid">
-  <a class="footer-link" href="https://www.usa.gov/policies">
+<div class="grid-container">
+  <a class="usa-footer__primary-link" href="https://www.usa.gov/policies">
     {{ $translation.footer.privacy_policy }}
   </a>
-  <a class="footer-logo media_link" href="https://usa.gov/">
+  <a class="usa-footer__logo usa-media-link" href="https://usa.gov/">
     <img src="{{ .Site.BaseURL }}/assets/img/usagov-logo.png" alt="USA.gov logo">
   </a>
 </div>

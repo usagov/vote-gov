@@ -1,8 +1,8 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
-<header class="usa-site-header" role="banner">
+<header class="usa-header" role="banner">
   {{ partial "disclaimer.html" . }}
-  <nav class="usa-grid">
+  <nav class="grid-container">
     <div class="site-logo" id="logo">
       <h1>
       {{ if eq $.Site.Params.language "english" }}
