@@ -6,4 +6,9 @@ state_abbreviation = "AK"
 title = "Alaska"
 english_only = true
 
+register = "Sunday September 1, 2019"
+special = "Monday September 16, 2019"
+absentee = "Monday September 23, 2019"
+early = "September 23-27, 2019"
+election = "Tuesday October 1, 2019"
 +++
