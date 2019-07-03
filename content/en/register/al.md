@@ -4,6 +4,6 @@ external_link = "https://www.alabamavotes.gov/olvr/default.aspx"
 registration_type = "online"
 state_abbreviation = "AL"
 title = "Alabama"
+english_only = true
 
 +++
-

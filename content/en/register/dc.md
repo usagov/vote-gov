@@ -4,6 +4,6 @@ external_link = "https://www.vote4dc.com/ApplyInstructions/Register?ref=voteusa"
 registration_type = "online"
 state_abbreviation = "DC"
 title = "Washington D.C."
+english_only = true 
 
 +++
-

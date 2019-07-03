@@ -4,6 +4,6 @@ external_link = "https://www.sos.mo.gov/elections/goVoteMissouri/register"
 registration_type = "online"
 state_abbreviation = "MO"
 title = "Missouri"
+english_only = true
 
 +++
-

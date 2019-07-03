@@ -4,9 +4,9 @@
     {{ partial "header.html" . }}
     <div class="page-vote-main" id="main" role="main">
 
-      <a class="skipnav" href="#main-content">Skip main navigation</a>
+      <a class="usa-skipnav" href="#main-content">Skip main navigation</a>
 
-      <div class="usa-grid" id="main-content">
+      <div class="grid-container" id="main-content">
 
       <!-- Register BEGIN -->
       <section class="page-section register" id="register">
@@ -18,21 +18,19 @@
           <label class="usa-sr-only" for="js-user-selection">
             {{ $translation.homepage.state_selection.default }}
           </label>
-          <select name="userselection" id="js-user-selection">
+          <select class="usa-select" name="userselection" id="js-user-selection">
             <option value="default">
               {{ $translation.homepage.state_selection.default }}
             </option>
-
-      {{ range where $.Data.Pages.ByTitle "Section" .Site.Params.register_path }}
-
-              {{ if eq $.Site.Params.language "english" }}
-               <option value="{{ .Params.state_abbreviation | lower }}">{{ title .Title }}</option>
-               {{ else }}
-                 <option value="{{ .Params.state_abbreviation | lower }}">{{ .Title }}</option>
-               {{ end }}
-             {{ end }}
+          {{ range where .Data.Pages.ByTitle "Section" .Site.Params.register_path }}
+            {{ if eq $.Site.Params.language "spanish" }}
+              <option value="{{ .Params.state_abbreviation | lower }}">{{ .Title }}</option>
+            {{ else }}
+              <option value="{{ .Params.state_abbreviation | lower }}">{{ title .Title }}</option>
+            {{ end }}
+          {{ end }}
           </select>
-          <button class="usa-button-big usa-button-secondary" id="js-user-submit" type="submit">
+          <button class="usa-button usa-button--accent-cool" id="js-user-submit" type="submit">
             {{ $translation.homepage.state_selection.submit }}
           </button>
         </form>
@@ -68,7 +66,7 @@
       <!-- Footer END -->
 
     </div>
-    
+
     <script type="text/javascript">
    document.getElementById('register').onsubmit = function(ev) {
      var stateSelected = document.getElementById('js-user-selection').value;
@@ -88,6 +86,25 @@
      }
    };
  </script>
+
+    <script type="text/javascript">
+		document.getElementById('register').onsubmit = function(ev) {
+			var stateSelected = document.getElementById('js-user-selection').value;
+			if (stateSelected === 'default') {
+				return false;
+			}
+			else {
+				ev.preventDefault();
+				{{ if eq $.Site.Params.language "english" }}
+					var redirectURL = {{ $.Site.BaseURL }} + '/{{ .Site.Params.root_path }}register/';
+				{{ else }}
+					var redirectURL = {{ $.Site.BaseURL }} + '/{{ .Site.Params.root_path }}registrar/';
+				{{ end }}
+				redirectURL = redirectURL + stateSelected + '/';
+				window.location.href = redirectURL;
+			}
+		};
+	</script>
 
     {{ partial "analytics.html" . }}
     {{ partial "scripts.html" . }}

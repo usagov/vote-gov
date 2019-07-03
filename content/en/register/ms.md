@@ -4,6 +4,6 @@ external_link = ""
 registration_type = "by-mail"
 state_abbreviation = "MS"
 title = "Mississippi"
+english_only = false
 
 +++
-

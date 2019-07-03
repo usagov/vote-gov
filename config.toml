@@ -1,3 +1,10 @@
+title = "Voter Registration"
+publishdir = "tmp/public"
+verbose = "true"
+ignoreFiles = [
+  "content/registrar/.*",
+  "layouts/registrar/.*"
+]
 
 DefaultContentLanguage = "en"
 publishDir = "tmp/public"

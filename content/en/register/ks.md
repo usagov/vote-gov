@@ -4,6 +4,6 @@ external_link = "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx"
 registration_type = "online"
 state_abbreviation = "KS"
 title = "Kansas"
+english_only = true
 
 +++
-

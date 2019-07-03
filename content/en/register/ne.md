@@ -4,6 +4,6 @@ external_link = "https://www.nebraska.gov/apps-sos-voter-registration/"
 registration_type = "online"
 state_abbreviation = "NE"
 title = "Nebraska"
+english_only = true 
 
 +++
-
