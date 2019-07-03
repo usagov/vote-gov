@@ -5,13 +5,14 @@ website.
 
  Section | Description
  ------- | -----------
- [![CircleCI](https://circleci.com/gh/18F/vote-gov/tree/staging.svg?style=svg)](https://circleci.com/gh/18F/vote-gov/tree/staging) | CI status for staging ( click badge to see all staging builds )
- [![CircleCI](https://circleci.com/gh/18F/vote-gov/tree/master.svg?style=svg)](https://circleci.com/gh/18F/vote-gov/tree/master) | CI status for production ( click badge to see all production builds )
+ [Federalist staging builds](https://federalistapp-staging.18f.gov/sites) | Federalist staging builds 
+ [Federalist production builds](https://federalistapp.18f.gov/sites) | Federalist production builds
  [Installation](#installation)   | Installing the project locally.
  [Development](#development)     | Development workflow using `gulp`.
- [Deployment](#deployment)       | Automated & Manual deployment information using `cloud.gov`.
+ [Deployment](#deployment)       | Automated & Manual deployment information on Federalist
  [Contributing](CONTRIBUTING.md) | Contributing to the project.
- [Wiki](https://github.com/18F/vote-gov/wiki) | `18F/vote-gov` wiki.
+ [Wiki](https://github.com/usagov/vote-gov/wiki) | `usagov/vote-gov` wiki.
+
 
 ## Installation
 
@@ -92,23 +93,28 @@ $ gulp
   ...
 ```
 
-To start the local webserver for the English site and have gulp and hugo watch
+To start the local webserver for the English and Spanish site and have hugo watch
 for changes:
 
 ```sh
 npm start
 ```
 
-The website is now available at [`http://localhost:1313/`](http://localhost:1313/).
-
-To start the local webserver for the Spanish site and have gulp and hugo watch
-for changes:
+Optional: To have gulp watch for changes to the assets and content folder run: 
 
 ```sh
-NODE_LANG=spanish npm start
+$ gulp watch 
 ```
 
-The website is now available at [`http://localhost:1313/es/`](http://localhost:1313/es/).
+Then open a new terminal, navigate to this directory, and run: 
+
+```sh
+npm start
+``` 
+
+The English website is now available at [`http://localhost:1313/`](http://localhost:1313/).
+
+The Spanish website is now available at [`http://localhost:1313/es/`](http://localhost:1313/es/).
 
 ### Descriptions for optional `gulp [ flags ]` task prefixes
 
@@ -121,31 +127,30 @@ affected by them.
 
 ## Deployment
 
-The microsite is deployed on [cloud.gov][cg-homepage]. To read the `cloud.gov`
-documentation, [click here][cg-docs]. The documentation below makes the
+The microsite is deployed on [Federalist.18f.gov][fed-homepage]. To read `Federalist`
+documentation, [click here][fed-docs]. The documentation below makes the
 following assumptions.
 
-- Assuming you have the `cf` binary installed on your machine and within your
-  `$PATH`.
-    - [Please read _Setting up the command line_][cg-docs-cli-install] for more
-      information.
-- Assuming that you have a `cloud.gov` account.
-    - [Please read _Setting up your account_][cg-docs-cg-account] for more
-      information.
+- Assuming that you have Federalist access. 
+    - [Please read _Access and Permissions_](https://federalist.18f.gov/documentation/access-permissions/) for more
+      Information.
 
-[cg-homepage]: https://cloud.gov "Cloud.gov: Homepage"
-[cg-docs]: https://docs.cloud.gov "Cloud.gov: Documentation"
-[cg-docs-cli-install]: https://docs.cloud.gov/getting-started/setup/ "Cloud.gov: Setting up the command line"
-[cg-docs-cg-account]: https://docs.cloud.gov/getting-started/accounts/ "Cloud.gov: Setting up your account"
+[fed-homepage]: https://federalist.18f.gov "Federalist.18f.gov: Homepage"
+[fed-docs]: https://federalist.18f.gov/documentation/ "Federalist.18f.gov: Documentation"
 
 ### Automated deployment
 
-This project uses [CircleCI][cci-homepage] for continuous deployment. Our
+This project uses [Federalist](https://federalist.18f.gov) for continuous deployment. Our
 current process deploys our `staging` branch and our `master` branch to their
 own [`staging`][vote-staging] and [`production`][vote-production] URLs.
 
-[cci-homepage]: https://circleci.com "CircleCI: Homepage"
-[vote-staging]: https://vote-gov-staging.apps.cloud.gov "Vote USA: Staging"
+To view the build for another branch, see the links below and replace <BRANCH> with the name of the branch. The build for the branch must have completed successfully. 
+
+For production builds: https://cg-9e8debaf-b030-4825-a43c-cb2bc850c96c.app.cloud.gov/preview/usagov/vote-gov/<BRANCH>/ 
+
+For staging builds: https://cg-82f344a8-cccc-4f34-b090-19d55b2b6585.app.cloud.gov/preview/usagov/vote-gov/<BRANCH>/ 
+
+[vote-staging]: TBD "Vote USA: Staging"
 [vote-production]: https://vote.gov "Vote USA: Production"
 
 ### Manual deployment
@@ -159,7 +164,9 @@ deploying to `cloud.gov` can be found [here][cg-deploy-hw] and [here][cg-deploy-
 [cg-deploy-ss]: https://docs.cloud.gov/apps/static/ "Cloud.gov: Deploying Static Sites"
 
 > Manual deployments are not necessary as all deployments _should_ go through
-> CircleCI.
+> Federalist.
+
+Information about launching a live site on Federalist can be found at the [launch checklist](https://federalist.18f.gov/documentation/launch-checklist/).
 
 To check which space you're targeting using the `cf` command-line tool, type the
 following in your terminal.
@@ -170,77 +177,15 @@ cf target
 
 #### Building the `vote.gov` site locally
 
-The `vote.gov` site is built using the `npm run build` command. This command
-looks for an environment variable containing the site's base-URL. This URL must
-be assigned to the `SITE_BASEURL` variable before running `npm run build` and
-must be set to the proper value depending on the space you're targeting.
+To build the `vote.gov` site locally , run  `npm start` . This command calls the `gulp website` task and starts the hugo server.  
 
-Type the following in your terminal to build the English site for the `staging`
-space:
+To mimic the Federalist build run `npm run federalist`. To start the server run ‘hugo server’ .
 
-```sh
-npm run build
-```
-
-Type the following in your terminal to build the English site for the
-`production` space:
-
-```sh
-NODE_ENV=production npm run build
-```
-
-Type the following in your terminal to build the Spanish site for the `staging`
-space:
-
-```sh
-# NOTE: Building the Spanish version of the site is currently experimental
-NODE_LANG=spanish npm run build
-```
-
-Type the following in your terminal to build the Spanish site for the
-`production` space:
-
-```sh
-# NOTE: Building the Spanish version of the site is currently experimental
-NODE_LANG=spanish NODE_ENV=production npm run build
-```
-
-
-#### Pushing to a target
-
-Once you've built the `vote.gov` English site locally by running the above
-command, you can push your changes up to the targeted space.
-
-Type the following in your terminal to deploy to the `staging` space:
-
-```sh
-# NODE: Deploying the Spanish version of the site is experimental
-cf push -f manifest-staging.yml
-```
-
-Type the following in your terminal to deploy to the `production` space:
-
-```sh
-# NODE: Deploying the Spanish version of the site is experimental
-cf push
-```
 
 #### Continuous delivery
 
-CircleCI will automatically the vote.gov application for staging and production.
-Any commits made to `staging` will be pushed to staging. Any commits made to
-`master` will be pushed to production.
-
-If setting this up for the fist time, be sure to setup a [cloud.gov deployer
-account](https://cloud.gov/docs/services/cloud-gov-service-account/) for each
-environment and set the following variables in the CircleCI [project
-settings](https://circleci.com/gh/18F/vote-gov/edit#env-vars).
-
-- `CF_GSA_VOTE_USER`
-- `CF_GSA_VOTE_PASS`
-- `CF_GSA_VOTE_STAGING_USER`
-- `CF_GSA_VOTE_STAGING_PASS`
-
+Federalist is a continuous deployment-like build environment that automatically pushes the vote.gov application for staging and production.
+Any commits made to `staging` will be automatically built on Federalist. 
 
 ### Vote.usa.gov redirector
 
@@ -269,5 +214,3 @@ This project is in the worldwide [public domain](LICENSE.md). As stated in [CONT
 >All contributions to this project will be released under the CC0
 >dedication. By submitting a pull request, you are agreeing to comply
 >with this waiver of copyright interest.
-
-
