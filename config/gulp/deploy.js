@@ -41,10 +41,8 @@ gulp.task('deploy-english', function(done) {
 gulp.task('deploy-spanish', function(done) {
 
   process.env.NODE_LANG = 'spanish';
-  runSequence(
-    'build:website',
-    done
-  );
+  gulp.task('build:website')
+  done();
 
 });
 
@@ -83,20 +81,15 @@ gulp.task('deploy', function (done) {
     process.exit(1);
     return;
   }
-
   gutil.log(
     gutil.colors.green('deploy'),
     'Deploying multilingual site : ' + url
   );
-
-  runSequence(
-    'deploy-create-tmp',
-    'deploy-english',
-    'deploy-spanish',
-    'deploy-remove-remnants',
-    'deploy-provision',
-    'deploy-nginx-conf',
-    done
-  );
+  gulp.series('deploy-create-tmp',
+  'deploy-english',
+  'deploy-spanish',
+  'deploy-remove-remnants',
+  'deploy-provision',
+  'deploy-nginx-conf')
 
 });
