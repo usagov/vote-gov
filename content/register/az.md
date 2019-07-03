@@ -4,6 +4,7 @@ external_link = "https://servicearizona.com/webapp/evoter/"
 registration_type = "online"
 state_abbreviation = "AZ"
 title = "Arizona"
+english_only = false 
+
 
 +++
-

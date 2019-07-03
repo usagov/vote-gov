@@ -4,6 +4,6 @@ external_link = "https://ivote.de.gov/"
 registration_type = "online"
 state_abbreviation = "DE"
 title = "Delaware"
+english_only = true 
 
 +++
-

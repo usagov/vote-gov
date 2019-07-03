@@ -4,6 +4,6 @@ external_link = "https://olvr.sec.state.vt.us/"
 registration_type = "online"
 state_abbreviation = "VT"
 title = "Vermont"
+english_only = true
 
 +++
-

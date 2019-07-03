@@ -1,47 +1,49 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
-<div class="usa-grid page-inner mail-steps">
+<div class="grid-container page-inner mail-steps">
   <h1>
     {{ $translation.register.heading }}
   </h1>
-  <p class="usa-font-lead">
+  <p class="usa-intro">
     {{ replace $translation.register.by_mail.body "%state_name%" ( title .Title ) }}
   </p>
   <!-- Steps BEGIN -->
-  <div class="graphic-list">
-    <div class="usa-width-one-third">
-      <img src="{{ .Site.BaseURL }}assets/img/step-1.png">
-      <h4 class="usa-graphic-list-heading">
-        {{ $translation.register.by_mail.step_one_label }}
-      </h4>
-      <p>
-        {{ $translation.register.by_mail.step_one }}
-      </p>
-    </div>
-    <div class="usa-width-one-third">
-      <img src="{{ .Site.BaseURL }}assets/img/step-2.png">
-      <h4 class="usa-graphic-list-heading">
-        {{ $translation.register.by_mail.step_two_label }}
-      </h4>
-      <p>
-        {{ $translation.register.by_mail.step_two }}
-      </p>
-    </div>
-    <div class="usa-width-one-third">
-      <img src="{{ .Site.BaseURL }}assets/img/step-3.png">
-      <h4 class="usa-graphic-list-heading">
-        {{ $translation.register.by_mail.step_three_label }}
-      </h4>
-      <p>
-        {{ $translation.register.by_mail.step_three }}
-      </p>
+  <div class="usa-graphic-list">
+    <div class="grid-row">
+      <div class="grid-col-4">
+        <img src="{{ .Site.BaseURL }}assets/img/step-1.png">
+        <h4 class="usa-graphic-list__heading">
+          {{ $translation.register.by_mail.step_one_label }}
+        </h4>
+        <p>
+          {{ $translation.register.by_mail.step_one }}
+        </p>
+      </div>
+      <div class="grid-col-4">
+        <img src="{{ .Site.BaseURL }}assets/img/step-2.png">
+        <h4 class="usa-graphic-list__heading">
+          {{ $translation.register.by_mail.step_two_label }}
+        </h4>
+        <p>
+          {{ $translation.register.by_mail.step_two }}
+        </p>
+      </div>
+      <div class="grid-col-4">
+        <img src="{{ .Site.BaseURL }}assets/img/step-3.png">
+        <h4 class="usa-graphic-list__heading">
+          {{ $translation.register.by_mail.step_three_label }}
+        </h4>
+        <p>
+          {{ $translation.register.by_mail.step_three }}
+        </p>
+      </div>
     </div>
   </div>
   <!-- Steps END -->
 </div>
 
 <!-- Download form BEGIN -->
-<div class="usa-grid page-inner mail-download">
+<div class="grid-container page-inner mail-download">
   {{ range $key, $form := $.Site.Data.registration_forms }}
     {{ if eq $key $.Site.Params.language }}
     <a class="usa-button" href="{{ $form.file_path }}" target="_blank">
@@ -52,7 +54,7 @@
   <p>
     {{ $translation.register.by_mail.download_others }}
   </p>
-  <ul class="usa-unstyled-list mail-download-list">
+  <ul class=".usa-list.usa-list--unstyled  mail-download-list">
     {{ range $key, $form := $.Site.Data.registration_forms }}
       {{ if ne $key $.Site.Params.language }}
         <li>

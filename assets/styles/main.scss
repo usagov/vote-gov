@@ -1,96 +1,100 @@
 // Imports -------------- //
 
-@import '../../node_modules/uswds/src/stylesheets/all';
+@import '../../node_modules/uswds/src/stylesheets/uswds';
 
 // Variables ------------ //
 
 $font-light: 300;
-$inner-box-width: 40rem;
+$inner-box-width: 25rem;
 $color-blue-dark: #003366;
-
+$color-blue-light: #0071bc;
 
 // Styles --------------- //
 
 body {
-  background-color: $color-gray-lightest;
+  background-color: color('base-lightest');
 }
 
 h1 {
-  color: $color-primary-darkest;
-  margin-top: $site-margins;
+  color: color('primary-darker');
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     margin-top: 1.5em;
   }
 }
 
 .usa-display {
-  margin-bottom: .5em;
-  margin-top: $site-margins;
+  padding-top: 3rem;
 
-  @include media($medium-screen) {
-    font-size: $title-font-size;
+  @include at-media('tablet') {
+    font-size: 52px;
     margin-top: 1.5em;
   }
 }
 
-.usa-font-lead {
+.usa-intro {
   font-weight: $font-light;
 }
 
-.usa-site-header {
-  border-bottom: 1px solid $color-gray-lighter;
+.usa-header {
+  border-bottom: 1px solid color('base-lightest');
 }
 
 @import './component/disclaimer';
 
 .site-logo {
   h1 {
-    @include margin (16px null);
-    font-family: $font-sans;
-    font-size: $h3-font-size;
+    @include u-margin-top (2);
+    @include u-margin-bottom (neg-2);
+    font-family: family('sans');
+    font-size: size('body', 'lg');
   }
 
   a {
-    color: $color-secondary-dark;
+    color: color('secondary-dark');
+    text-decoration: none;
   }
 }
 
 footer {
-  @include padding(.6rem null);
-  background-color: $color-gray-lightest;
+  padding-top: .6rem;
+  background-color: color('base-lightest');
   height: 6.2rem;
 
   a {
     @include h6();
-    color: $color-base;
+    color: color('base');
 
     &:hover {
-      color: $color-base;
+      color: color('base');
     }
   }
 }
 
-.media_link {
+.usa-media-link {
   display: inline-block;
   line-height: 0;
 }
 
-.footer-link {
+.usa-footer__primary-link {
   display: inline-block;
-  margin-top: 1.8rem;
 
   &:visited {
-    color: $color-base;
+    color: color('base');
   }
 }
 
-.footer-logo {
+.usa-footer__logo {
   float: right;
 
-  img {
+  .spanish-img {
+    margin-top: 3px;
+    max-width: 6.5rem;
+  }
+
+  .english-img {
     margin-top: 2px;
-    max-width: 4.6rem;
+    max-width: 2.875rem;
   }
 }
 
@@ -102,47 +106,43 @@ footer {
 // Home page ------------ //
 
 .page-vote {
-  .usa-site-header {
-    background-color: $color-primary;
+  .usa-header {
+    background-color: $color-blue-light;
     border-bottom: 0;
   }
 
   section {
-    color: $color-white;
+    color: color('white');
 
     a {
-      color: $color-white;
+      color: color('white');
       text-decoration: underline;
-    }
-
-    a:hover {
-      text-decoration: none;
+      line-height: 1.5;
     }
   }
 
   .site-logo {
     a {
-      color: $color-white;
+      color: color('white');
     }
   }
 
   h1,
   label {
-    color: $color-white;
+    color: color('white');
   }
 
   // hack to remove margin and replace with padding for background color issues
   .usa-display {
     margin: 0;
-    padding-top: $site-margins;
 
-    @include media($medium-screen) {
+    @include at-media('tablet') {
       padding-top: 1.5em;
     }
   }
 
   .page-vote-main {
-    @include linear-gradient($color-primary 66%, $color-blue-dark 100%, $fallback: $color-primary);
+    background-image: linear-gradient($color-blue-light 66%, $color-blue-dark 100%);
   }
 
   .page-section {
@@ -152,7 +152,7 @@ footer {
 
     // third level nesting
     header {
-      @include media($medium-screen) {
+      @include at-media('tablet') {
         text-align: center;
       }
     }
@@ -162,13 +162,13 @@ footer {
   .page-inner {
     min-height: 50rem;
 
-    @include media($medium-screen) {
+    @include at-media('tablet') {
       min-height: 60rem;
     }
 
     // third level nesting
     header {
-      @include media($medium-screen) {
+      @include at-media('tablet') {
         text-align: center;
       }
     }
@@ -177,24 +177,29 @@ footer {
   .registered {
 
     .vote-heading {
-      font-size: 2rem;
+      font-size: 1.25rem;
 
-      @include media($small-screen) {
-        font-size: 4rem;
+      @include at-media('mobile-lg') {
+        font-size: 2.5rem;
       }
     }
   }
 
   footer {
     position: relative;
-    margin-top: 20rem;
+    margin-top: 22.75rem;
   }
 }
 
 .form-register {
   margin: 0 auto;
 
-  @include media($medium-screen) {
+  .usa-select {
+    margin-bottom: 1.5rem;
+    -webkit-appearance: none;
+  }
+
+  @include at-media('tablet') {
     max-width: $inner-box-width;
   }
 
@@ -206,7 +211,7 @@ footer {
 .voter-resources {
   margin: 0 auto;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     max-width: $inner-box-width;
   }
 }
@@ -215,13 +220,13 @@ footer {
   text-align: center;
 
   img {
-    bottom: 7px;
+    bottom: 44px;
     left: 0;
     margin: 0 auto;
     position: absolute;
     right: 0;
     text-align: center;
-    width: 17.5rem;
+    width: 10.9375rem;
   }
 }
 
@@ -229,14 +234,14 @@ footer {
 
 .main-content {
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     min-height: 50rem;
   }
 }
 
 .chevron-left {
   height: 1.4rem;
-  fill: $color-primary;
+  fill: color('primary');
   width: 1.4rem;
 }
 
@@ -249,7 +254,7 @@ footer {
     width: 9rem;
 
     &:visited {
-      color: $color-primary;
+      color: color('primary');
     }
   }
 
@@ -262,16 +267,16 @@ footer {
 
 a:hover {
   > .chevron-left {
-    fill: $color-primary-darker;
+    fill: color('primary-darker');
   }
 
   > span {
-    color: $color-primary-darker;
+    color: color('primary-darker');
   }
 }
 
 .section-back-inner {
-  border-top: 1px solid $color-gray-lighter;
+  border-top: 1px solid color('base-lighter');
   padding-top: 2rem;
 }
 
@@ -282,9 +287,8 @@ a:hover {
 }
 
 .mail-download {
-  padding-bottom: $site-margins;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     padding-bottom: 8.3rem;
   }
 }
@@ -295,12 +299,12 @@ a:hover {
   }
 }
 
-.graphic-list {
+.usa-graphic-list {
   img {
     float: left;
     margin-right: 2rem;
 
-    @include media($medium-screen) {
+    @include at-media('tablet') {
       float: none;
       margin-right: 0;
     }
@@ -309,16 +313,16 @@ a:hover {
   p {
     margin-top: 0;
 
-    @include media($medium-screen) {
+    @include at-media('tablet') {
       margin-top: 1em;
     }
   }
 }
 
-.usa-graphic-list-heading {
+.usa-graphic-list__heading {
   clear: none;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     clear: both;
   }
 }
@@ -336,7 +340,7 @@ a:hover {
     padding-left: 2rem;
     padding-right: 2rem;
 
-    @include media($medium-screen) {
+    @include at-media('tablet') {
       padding-left: 1rem;
       padding-right: 1rem;
     }

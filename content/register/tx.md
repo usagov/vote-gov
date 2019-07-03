@@ -4,5 +4,6 @@ external_link = ""
 registration_type = "by-mail"
 state_abbreviation = "TX"
 title = "Texas"
-+++
+english_only = false 
 
++++

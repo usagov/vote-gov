@@ -4,6 +4,6 @@ external_link = "https://gec.guam.gov"
 registration_type = "in-person"
 state_abbreviation = "GU"
 title = "Guam"
+english_only = true
 
 +++
-
