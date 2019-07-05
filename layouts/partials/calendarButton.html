@@ -7,7 +7,12 @@
     {{ if eq $key $.Site.Params.language }}
     <a
 
+  {{ if or ($.IsHome) ($.IsNode) }}
       href="{{$.Site.BaseURL}}/{{ $lang.root_path }}{{ $lang.calendar_path }}"
+  {{else}}
+  href="{{$.Site.BaseURL}}/{{ $lang.root_path }}{{ $lang.calendar_path }}"
+
+  {{end}}
       class="usa-button usa-button--outline translation-link">
 
       {{ $lang.calendar}}
