@@ -1,17 +1,50 @@
 
-{{ partial "head.html" . }}
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- JS Dependencies -->
+    <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script data-require="moment.js@*" data-semver="2.14.1" src="https://npmcdn.com/moment@2.14.1"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.0/fullcalendar.min.js"></script>
 
-  <body class="page-register-{{ .Params.registration_type }}">
-    {{ partial "header.html" . }}
-    <div id="main-content" role="main">
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.0/fullcalendar.min.css" />
+  </head>
 
-      <p> Hello Worldssssss</p>
-    </div>
+  <body>
+    <div id="calendar"></div>
 
+    <script type="text/javascript">
+$(document).ready(function() {
+  // Fetch our events
 
-    {{ partial "analytics.html" . }}
-    {{ partial "scripts.html" . }}
+  $.ajax({
+      url: "/dates.json",
+    method: "GET",
+    datatype: "json",
+    error: function() {
+            alert('there was an error while fetching events!')}
+    // data: {
+    //   "$where" : "start_date_time > '" + moment().subtract(31, 'days').format("YYYY-MM-DDT00:00:00") + "'",
+    //   "city" : "Portland",
+    //   "$order" : "start_date_time DESC"
+    // }
+  }).done(function(response) {
+    // Parse our events into an event object for FullCalendar
+    var events = [];
+    $.each(response, function(idx, e) {
+      events.push({
+        start: e.start_date_time,
+        end: e.end_date_time,
+        title: e.meeting_title,
+        url: e.web_link
+      });
+    });
+    $('#calendar').fullCalendar({
+      events: events
+    });
+  });
+});
+    </script>
   </body>
-
-
 </html>
