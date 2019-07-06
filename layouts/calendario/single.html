@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <!-- JS Dependencies -->
@@ -11,26 +11,30 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.0/fullcalendar.min.css" />
   </head>
 
+
   <body>
     <div id="calendar"></div>
 
-    <script type="text/javascript">
+    {{ range where .Data.Pages.ByTitle "Section" .Site.Params.register_path }}
+    {{print .Title}}
+
+    {{end }}
+
+
+    <!-- <script type="text/javascript">
 $(document).ready(function() {
-  // Fetch our events
 
   $.ajax({
-      url: "./dates.json",
+      url: "https://data.oregon.gov/resource/yid5-c4eq.json",
     method: "GET",
     datatype: "json",
-    error: function() {
-            alert('there was an error while fetching events!')}
-    // data: {
-    //   "$where" : "start_date_time > '" + moment().subtract(31, 'days').format("YYYY-MM-DDT00:00:00") + "'",
-    //   "city" : "Portland",
-    //   "$order" : "start_date_time DESC"
-    // }
+    data: {
+      "$where" : "start_date_time > '" + moment().subtract(31, 'days').format("YYYY-MM-DDT00:00:00") + "'",
+      "city" : "Portland",
+      "$order" : "start_date_time DESC"
+    }
   }).done(function(response) {
-    // Parse our events into an event object for FullCalendar
+
     var events = [];
     $.each(response, function(idx, e) {
       events.push({
@@ -45,6 +49,6 @@ $(document).ready(function() {
     });
   });
 });
-    </script>
+    </script> -->
   </body>
 </html>
