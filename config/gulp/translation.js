@@ -2,7 +2,6 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var del = require('del');
 var pkg = require('../../package.json');
-// var runSequence = require('run-sequence');
 var spawn = require('cross-spawn');
 var rename = require('gulp-rename');
 var replace = require('gulp-replace');

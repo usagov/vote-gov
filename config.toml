@@ -6,10 +6,34 @@ ignoreFiles = [
   "layouts/registrar/.*"
 ]
 
-[params]
-Owner = "USA.gov"
-Referrer_Short_Code = "voteusa"
-lang = "en"
-language = "english"
-root_path = ""
-register_path = "register"
+DefaultContentLanguage = "en"
+publishDir = "tmp/public"
+
+[languages]
+  [languages.en]
+  title = "Voter Registration"
+  verbose = "true"
+  contentDir = "content/en"
+
+  [languages.en.params]
+  # [params]
+  Owner = "USA.gov"
+  Referrer_Short_Code = "voteusa"
+  lang = "en"
+  language = "english"
+  root_path = ""
+  register_path = "register"
+
+  [languages.es]
+  title = "Registro de Votantes"
+  verbose = "true"
+  contentDir = "content/es"
+
+  [languages.es.params]
+  Owner = "USA.gov"
+  Referrer_Short_Code = "voteusa_spanish"
+  lang = "es"
+  publishDir = "tmp/public/es"
+  language = "spanish"
+  root_path = "es/"
+  register_path = "registrar"

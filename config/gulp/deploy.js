@@ -45,7 +45,6 @@ gulp.task('deploy-spanish', function(done) {
   build.buildWebsite(done);
   done();
 
-
 });
 
 gulp.task('deploy-remove-remnants', function (done) {
@@ -84,7 +83,6 @@ var url = process.env.BASEURL || '';
     process.exit(1);
     return;
   }
-
   if ('production' === process.env.NODE_ENV) {
 
 

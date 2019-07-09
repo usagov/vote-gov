@@ -85,7 +85,7 @@ function website (done){
 
 function buildWebsite (done) {
 
-    gutil.log(gutil.colors.cyan('build:website'), 'Building static website via Hugo');
+  gutil.log(gutil.colors.cyan('build:website'), 'Building static website via Hugo');
   // English config is default
   var setConfig = process.env.npm_package_config_votegov_hugo_en;
   var setURL = process.env.BASEURL || '';

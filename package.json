@@ -17,7 +17,6 @@
   "scripts": {
     "federalist": "npm run build",
     "build": "gulp buildWebsite",
-
     "start": "gulp website",
     "test": "gulp test",
     "deploy": "gulp deploy"
