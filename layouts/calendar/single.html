@@ -4,12 +4,10 @@
 <html lang="{{ $.Site.Params.lang }}">
   <head>
     {{ partial "head.html" . }}
-
         <!-- JS Dependencies -->
         <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script data-require="moment.js@*" data-semver="2.14.1" src="https://npmcdn.com/moment@2.14.1"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.0/fullcalendar.min.js"></script>
-
         <!-- CSS Styles -->
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.0/fullcalendar.min.css" />
 </head>
@@ -27,22 +25,23 @@
 
    $(document).ready(function() {
 
-    var events = [];
-    {{ range where .Site.Pages.ByTitle "Section" .Site.Params.register_path }}
-    {{ if eq .Title "Alaska" }}
-
-    events.push({
-      start: {{.Params.register}},
-      end: {{.Params.register}},
-      title: {{.Params.title}}
-    });
-    {{end}}
-      {{end }}
-  console.log(events);
-   $('#calendar').fullCalendar({
-      events: events
-    });
+      var events = [];
+      {{ range where .Site.Pages.ByTitle "Section" .Site.Params.register_path }}
+        {{ if eq .Title "Alaska" }}
+          events.push({
+            date: {{ .Params.register }},
+            title: {{ .Params.title }},
+            state_abbreviation: {{ .Params.state_abbreviation | lower }}
+          });
+        {{ end }}
+      {{ end }}
+     $('#calendar').fullCalendar({
+        events: events,
+        eventClick: function(info) {
+          window.open( {{ .Site.BaseURL }} + {{ .Site.Params.register_path }} + "/" + info.state_abbreviation + "")
+        }
       });
+    });
     </script>
   </body>
 </html>

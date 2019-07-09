@@ -2,23 +2,17 @@
 {{ $title := ( replace .Title "." "" | lower | urlize ) }}
 
 <div class="translations">
-
   {{ range $key, $lang := $.Site.Data.translations }}
     {{ if eq $key $.Site.Params.language }}
-    <a
-
-  {{ if or ($.IsHome) ($.IsNode) }}
-      href="{{$.Site.BaseURL}}/{{ $lang.root_path }}{{ $lang.calendar_path }}"
-  {{else}}
-  href="{{$.Site.BaseURL}}/{{ $lang.root_path }}{{ $lang.calendar_path }}"
-
-  {{end}}
-      class="usa-button usa-button--outline translation-link">
-
-      {{ $lang.calendar}}
-    </a>
-
+      <a
+        {{ if or ($.IsHome) ($.IsNode) }}
+          href="{{$.Site.BaseURL}}/{{ $lang.root_path }}{{ $lang.calendar_path }}"
+        {{else}}
+          href="{{$.Site.BaseURL}}/{{ $lang.root_path }}{{ $lang.calendar_path }}"
+        {{end}}
+        class="usa-button usa-button--outline translation-link">
+          {{ $lang.calendar }}
+      </a>
     {{ end }}
   {{ end }}
-
 </div>
