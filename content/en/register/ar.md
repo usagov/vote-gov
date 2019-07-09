@@ -6,7 +6,7 @@ state_abbreviation = "AR"
 title = "Arkansas"
 english_only = false
 
-register = ""
+register = " 06-09-2019"
 special = ""
 absentee = ""
 early = ""

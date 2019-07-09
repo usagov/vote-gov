@@ -6,7 +6,7 @@ state_abbreviation = "AK"
 title = "Alaska"
 english_only = true
 
-register = ""
+register = " 06-08-2019"
 special = ""
 absentee = ""
 early = ""

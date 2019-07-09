@@ -6,7 +6,7 @@ state_abbreviation = "AL"
 title = "Alabama"
 english_only = true
 
-register = ""
+register = " 06-10-2019"
 special = ""
 absentee = ""
 early = ""

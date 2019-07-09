@@ -55,7 +55,7 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "devDependencies": {
-    "gulp-match": "^1.0.3",
+    "gulp-scan": "^0.1.4",
     "gulp-scss-lint": "^1.0.0"
   }
 }

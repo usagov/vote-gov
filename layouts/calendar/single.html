@@ -1,7 +1,7 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 <!-- {{ $json := ( index $.Site.Data.translations $.Site.Params.language ) }} -->
-{{ $resource := (.Resources.GetMatch "dates.json").RelPermalink }}
-{{ $data := getJSON "content" $resource }}
+<!-- {{ $resource := (.Resources.GetMatch "dates.json").RelPermalink }}
+{{ $data := getJSON "content" $resource }} -->
 
 <!doctype html>
 <html lang="{{ $.Site.Params.lang }}">
@@ -28,7 +28,7 @@
     <div id="calendar"></div>
 
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
 $(document).ready(function() {
 
   $.ajax({
@@ -56,10 +56,7 @@ $(document).ready(function() {
     });
   });
 });
-    </script>
-
-
-
+    </script> -->
 
     <!-- <script type="text/javascript">
 
@@ -82,6 +79,6 @@ $(document).ready(function() {
       events: events
     });
       });
-    </script> -->
+    </script>
   </body>
 </html>
