@@ -4,6 +4,6 @@ external_link = ""
 registration_type = "by-mail"
 state_abbreviation = "AR"
 title = "Arkansas"
-english_only = false 
+english_only = false
 
 +++

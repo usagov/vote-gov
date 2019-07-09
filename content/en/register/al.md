@@ -6,4 +6,10 @@ state_abbreviation = "AL"
 title = "Alabama"
 english_only = true
 
+register = ""
+special = ""
+absentee = ""
+early = ""
+election = ""
+
 +++
