@@ -6,4 +6,10 @@ state_abbreviation = "AR"
 title = "Arkansas"
 english_only = false
 
+register = ""
+special = ""
+absentee = ""
+early = ""
+election = ""
+
 +++
