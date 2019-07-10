@@ -8,6 +8,14 @@ var replace = require('gulp-replace');
 var electionDates = require('./dates/dates.json');
 
 
+function registerToCalendar (done ){
+
+  return gulp.src('./content/register/*.md')
+    .pipe(gulp.dest('./content/calendar'));
+
+}
+
+
 function populateDates (done){
   gutil.log(
     gutil.colors.cyan('populateDates'),
@@ -24,15 +32,15 @@ function populate(fileName,state ){
   return gulp.src(fileName)
     .pipe(replace(/register = "(.+)"/, function (match,p1) {
      var register_deadline = electionDates[state].important_dates[0].date;
-      return ( 'register = " ' + register_deadline + '"' )
+      return ( 'register = "' + register_deadline + '"' )
     }))
     .pipe(replace(/absentee = "(.+)"/, function (match,p1) {
      var absentee_deadline = electionDates[state].important_dates[1].date;
-      return ( 'absentee = " ' + absentee_deadline + '"')
+      return ( 'absentee = "' + absentee_deadline + '"')
     }))
     .pipe(replace(/election = "(.+)"/, function (match,p1) {
      var election_deadline = electionDates[state].important_dates[4].date;
-      return ( 'election = " ' + election_deadline + '"')
+      return ( 'election = "' + election_deadline + '"')
     }))
      .pipe(gulp.dest('./content/en/register'));
 }

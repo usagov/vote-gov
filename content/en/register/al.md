@@ -6,10 +6,10 @@ state_abbreviation = "AL"
 title = "Alabama"
 english_only = true
 
-register = " 06-10-2019"
+register = "07-10-2019"
 special = " "
-absentee = " 06-16-2019"
+absentee = "07-16-2019"
 early = ""
-election = " 06-11-2019"
+election = "06-11-2019"
 
 +++
