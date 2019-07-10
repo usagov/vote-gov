@@ -11,12 +11,8 @@
       </div>
     </div>
     {{ partial "language-switcher.html" . }}
-
     {{ if or ( not $.IsHome) (not $.IsNode) }}
-
-        {{ partial "calendarButton.html" . }}
-
-    {{end}}
-
+        {{ partial "calendar.html" . }}
+    {{ end }}
   </div>
 </div>
