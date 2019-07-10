@@ -126,7 +126,7 @@ exports.printPackageInfo = printPackageInfo;
 exports.buildWebsite = buildWebsite;
 exports.website= website;
 
-var build = gulp.series(clean, printPackageInfo, gulp.parallel('styles', 'scripts', 'images', 'fonts'), 'copy-translation');
+var build = gulp.series(clean, printPackageInfo, gulp.parallel('styles', 'scripts', 'images', 'fonts'),  'populateDates','copy-translation');
 var buildWebsite = gulp.series (build, buildWebsite);
 // TODO:  Website should run parallel(build, watch), but watch task hangs and does not complete
 var website = gulp.series (build, website);

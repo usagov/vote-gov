@@ -7,9 +7,9 @@ title = "Alabama"
 english_only = true
 
 register = " 06-10-2019"
-special = ""
-absentee = ""
+special = " "
+absentee = " 06-16-2019"
 early = ""
-election = ""
+election = " 06-11-2019"
 
 +++

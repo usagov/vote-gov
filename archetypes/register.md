@@ -6,9 +6,9 @@ external_link = ""
 
 registration_title = ""
 
-register = ""
-special = ""
-absentee = ""
-early = ""
-election = ""
+register = " "
+special = " "
+absentee = " "
+early = " "
+election = " "
 +++

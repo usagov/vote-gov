@@ -1,8 +1,4 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
-<!-- {{ $json := ( index $.Site.Data.translations $.Site.Params.language ) }} -->
-<!-- {{ $resource := (.Resources.GetMatch "dates.json").RelPermalink }}
-{{ $data := getJSON "content" $resource }} -->
-
 <!doctype html>
 <html lang="{{ $.Site.Params.lang }}">
   <head>
@@ -28,43 +24,14 @@
     <div id="calendar"></div>
 
 
-    <!-- <script type="text/javascript">
-$(document).ready(function() {
-
-  $.ajax({
-      url: "https://data.oregon.gov/resource/yid5-c4eq.json",
-    method: "GET",
-    datatype: "json",
-    data: {
-      "$where" : "start_date_time > '" + moment().subtract(31, 'days').format("YYYY-MM-DDT00:00:00") + "'",
-      "city" : "Portland",
-      "$order" : "start_date_time DESC"
-    }
-  }).done(function(response) {
-    // Parse our events into an event object for FullCalendar
-    var events = [];
-    $.each(response, function(idx, e) {
-      events.push({
-        start: e.start_date_time,
-        end: e.end_date_time,
-        title: e.meeting_title,
-        url: e.web_link
-      });
-    });
-    $('#calendar').fullCalendar({
-      events: events
-    });
-  });
-});
-    </script> -->
-
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
 
    $(document).ready(function() {
 
     var events = [];
     {{ range where .Site.Pages.ByTitle "Section" .Site.Params.register_path }}
-    {{ if eq .Title "Alaska" }}
+    {{ if or ( eq .Title "Alaska") (eq .Title "Alabama") (eq .Title "Arkansas") }}
+
 
     events.push({
       start: {{.Params.register}},
