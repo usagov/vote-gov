@@ -1,5 +1,4 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
-
 <!doctype html>
 <html lang="{{ $.Site.Params.lang }}">
   <head>
@@ -21,13 +20,14 @@
       <div class="grid-container" id="main-content">
 
     <div id="calendar"></div>
+
+
     <script type="text/javascript">
 
    $(document).ready(function() {
-
       var events = [];
       {{ range where .Site.Pages.ByTitle "Section" .Site.Params.register_path }}
-        {{ if eq .Title "Alaska" }}
+        {{ if or ( eq .Title "Alaska") (eq .Title "Alabama") (eq .Title "Arkansas") }}
           events.push({
             date: {{ .Params.register }},
             title: {{ .Params.title }},

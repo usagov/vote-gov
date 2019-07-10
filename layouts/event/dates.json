@@ -1,7 +1,0 @@
-{{ range $index, $e := (where .Data.Pages "Type" "event" ) }}
- {{ if $index }}, {{ end }}
- {
-     "title": "{{ .Title }}"
-
- }
- {{ end }}

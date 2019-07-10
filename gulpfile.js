@@ -10,6 +10,7 @@ require('./config/gulp/images');
 require('./config/gulp/fonts');
 require('./config/gulp/translation');
 require('./config/gulp/deploy');
+require('./config/gulp/calendar');
 var build = require('./config/gulp/build');
 var runSequence = require('run-sequence');
 var gulp = require('gulp');

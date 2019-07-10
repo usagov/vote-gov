@@ -39,6 +39,7 @@
         "slug": { "type": "string" },
         "state_abbreviation": { "type": "string" },
         "title": { "type": "string" },
+        "registration_title" :{ "type": "string" },
         "important_dates": {
             "type": "array",
             "items": {
