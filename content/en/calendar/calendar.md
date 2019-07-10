@@ -1,7 +1,3 @@
 +++
-
-
 type =  "calendar"
-url ="calendar"
-
 +++

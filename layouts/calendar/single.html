@@ -20,21 +20,14 @@
       <div class="grid-container" id="main-content">
 
     <div id="calendar"></div>
-
-
     <script type="text/javascript">
-
    $(document).ready(function() {
       var events = [];
-      {{ range where .Site.Pages.ByTitle "Section" .Site.Params.register_path }}
-        {{ if or ( eq .Title "Alaska") (eq .Title "Alabama") (eq .Title "Arkansas") }}
-          events.push({
+      events.push({
             date: {{ .Params.register }},
             title: {{ .Params.title }},
             state_abbreviation: {{ .Params.state_abbreviation | lower }}
           });
-        {{ end }}
-      {{ end }}
      $('#calendar').fullCalendar({
         events: events,
         eventClick: function(info) {
@@ -43,5 +36,11 @@
       });
     });
     </script>
+
+  {{ partial "go-back.html" . }}
+    <footer>
+      {{ partial "footer.html" . }}
+    </footer>
+
   </body>
 </html>

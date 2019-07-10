@@ -8,10 +8,14 @@ var replace = require('gulp-replace');
 var electionDates = require('./dates/dates.json');
 
 
-function registerToCalendar (done ){
+function registerToCalendar () {
+  gutil.log(
+    gutil.colors.cyan('registerToCalendar'),
+    'Copying state.md files into calendar/'
+  );
 
-  return gulp.src('./content/register/*.md')
-    .pipe(gulp.dest('./content/calendar'));
+  return gulp.src('./content/en/register/*.md')
+    .pipe(gulp.dest('./content/en/calendar/'));
 
 }
 
@@ -23,6 +27,7 @@ function populateDates (done){
   );
   for (var state in electionDates){
      fileName = "./content/en/register/" + electionDates[state].state_abbreviation + ".md"
+     console.log(fileName);
      populate(fileName,state);
    };
    done();
@@ -46,4 +51,6 @@ function populate(fileName,state ){
 }
 
 exports.populateDates = populateDates;
+exports.registerToCalendar = registerToCalendar;
+gulp.task('registerToCalendar',registerToCalendar)
 gulp.task('populateDates', populateDates);

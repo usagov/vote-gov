@@ -13,6 +13,8 @@
     {{ partial "language-switcher.html" . }}
     {{ if or ( not $.IsHome) (not $.IsNode) }}
         {{ partial "calendar.html" . }}
-    {{ end }}
+
+    {{end}}
+
   </div>
 </div>
