@@ -14,8 +14,8 @@ resources_intro = "Vea nuestra"
 resources_link_text = "sección sobre votaciones y elecciones"
 resources_link_url = "https://gobierno.usa.gov/votaciones"
 resources_on = "en"
-resources_website = "GobiernoUSA.gov"
-resources_website_url = "https://gobierno.usa.gov"
+resources_website = "USAGov en Español"
+resources_website_url = "https://www.usa.gov/espanol"
 
 [registered_links]
 

@@ -18,8 +18,8 @@ link = "Visit the %state_name% elections site to find out how to register."
 [not_needed]
 heading = "No registration needed"
 body = "%state_name% only requires that you bring a valid state ID to your polling place."
-link = "Learn more about voting in %state_name%"
+link = "Learn more about voting in %state_name%."
 
 [online]
 body = "%state_name% allows residents to register online."
-link = "Start your online registration"
+link = "You’re leaving this website. Start your online registration for %state_name%."

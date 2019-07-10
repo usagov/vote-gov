@@ -8,17 +8,16 @@
     <a
 
       {{ if or ($.IsHome) ($.IsNode) }}
-        href="/{{ $lang.root_path }}"
+        href="{{$.Site.BaseURL}}/{{ $lang.root_path }}"
       {{ else }}
-        href="/{{ $lang.root_path }}{{ $lang.register_path }}{{ $.Params.state_abbreviation | lower }}/"
+        href="{{$.Site.BaseURL}}/{{ $lang.root_path }}{{ $lang.register_path }}{{ $.Params.state_abbreviation | lower }}/"
       {{ end }}
 
-      class="usa-button translation-link">
+      class="usa-button usa-button--outline translation-link">
       {{ $lang.title }}
     </a>
 
     {{ end }}
   {{ end }}
-  
-</div>
 
+</div>

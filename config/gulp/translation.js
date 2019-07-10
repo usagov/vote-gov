@@ -2,7 +2,6 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var del = require('del');
 var pkg = require('../../package.json');
-var runSequence = require('run-sequence');
 var spawn = require('cross-spawn');
 var rename = require('gulp-rename');
 var replace = require('gulp-replace');
@@ -48,17 +47,13 @@ gulp.task('copy-layouts-spanish', function (done) {
 
 });
 
-gulp.task('copy-translation', [ 'clean-translation' ], function (done) {
+gulp.task('copy-translation', gulp.series( 'clean-translation', 'copy-content-spanish', 'copy-layouts-spanish'  , function (done) {
 
   gutil.log(
     gutil.colors.cyan('copy-translation'),
     'Copying files from content/ & layouts/ for translated URLs'
   );
+  done ();
 
-  runSequence(
-    'copy-content-spanish',
-    'copy-layouts-spanish',
-    done
-  );
 
-});
+}));
