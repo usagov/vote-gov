@@ -137,7 +137,7 @@ exports.buildWebsite = buildWebsite;
 exports.watch = watch;
 exports.website= website;
 
-var build = gulp.series(cleanAll, printPackageInfo, gulp.parallel('styles', 'scripts', 'images', 'fonts'),'validate','copy-translation');
+var build = gulp.series(cleanAll, printPackageInfo, gulp.parallel('styles', 'scripts', 'images', 'fonts'),'copy-translation');
 var buildWebsite = gulp.series (build, buildWebsite);
 var website = gulp.series (build, website);
 
