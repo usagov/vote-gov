@@ -3,7 +3,6 @@
     "title": "Voting and Registration Dates Schema",
     "description": "A schema for storing important voting related dates by state.",
     "type": "object",
-
     "definitions": {
         "date": {
             "type": "object",
