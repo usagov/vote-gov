@@ -34,19 +34,6 @@
     },
 
     "properties": {
-<<<<<<< HEAD
-        "slug": { "type": "string" },
-        "state_abbreviation": { "type": "string" },
-        "title": { "type": "string" },
-        "registration_title" :{ "type": "string" },
-        "important_dates": {
-            "type": "array",
-            "items": {
-                "$ref": "#/definitions/date"
-            }
-        }
-    }
-=======
       "alabama": {
         "type": "object",
         "properties": {
@@ -109,5 +96,4 @@
     "alaska",
     "arkansas"
   ]
->>>>>>> validate-json
 }

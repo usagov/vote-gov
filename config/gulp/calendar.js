@@ -14,7 +14,7 @@ function registerToCalendar () {
     'Copying state.md files into calendar/'
   );
 
-  return gulp.src('./content/en/register/*.md', {base: 'src'}).pipe(gulp.dest('./content/en/calendar/'));
+  return gulp.src('./content/en/register/*.md', {base: 'src'}).pipe(gulp.dest('./en/calendar/'));
 
 }
 
