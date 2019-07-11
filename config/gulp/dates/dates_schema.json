@@ -2,9 +2,7 @@
     "$schema": "http://json-schema.org/schema#",
     "title": "Voting and Registration Dates Schema",
     "description": "A schema for storing important voting related dates by state.",
-    "id": "https://vote.gov/config/gulp/dates/dates_schema.json",
     "type": "object",
-
     "definitions": {
         "date": {
             "type": "object",
@@ -36,6 +34,7 @@
     },
 
     "properties": {
+<<<<<<< HEAD
         "slug": { "type": "string" },
         "state_abbreviation": { "type": "string" },
         "title": { "type": "string" },
@@ -47,4 +46,68 @@
             }
         }
     }
+=======
+      "alabama": {
+        "type": "object",
+        "properties": {
+            "slug": { "type": "string" },
+            "state_abbreviation": { "type": "string" },
+            "title": { "type": "string" },
+            "registration_title" :{ "type": "string" },
+            "important_dates": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/definitions/date"
+                }
+            }
+        },
+        "required": [
+          "slug","state_abbreviation","title","registration_title","important_dates"
+        ]
+    },
+    "alaska": {
+      "type": "object",
+      "properties": {
+          "slug": { "type": "string" },
+          "state_abbreviation": { "type": "string" },
+          "title": { "type": "string" },
+          "registration_title" :{ "type": "string" },
+          "important_dates": {
+              "type": "array",
+              "items": {
+                  "$ref": "#/definitions/date"
+              }
+          }
+      },
+      "required": [
+        "slug","state_abbreviation","title","registration_title","important_dates"
+      ]
+    },
+
+    "arkansas": {
+      "type": "object",
+      "properties": {
+          "slug": { "type": "string" },
+          "state_abbreviation": { "type": "string" },
+          "title": { "type": "string" },
+          "registration_title" :{ "type": "string" },
+          "important_dates": {
+              "type": "array",
+              "items": {
+                  "$ref": "#/definitions/date"
+              }
+          }
+      },
+      "required": [
+        "slug","state_abbreviation","title","registration_title","important_dates"
+      ]
+
+  }
+},
+  "required": [
+    "alabama",
+    "alaska",
+    "arkansas"
+  ]
+>>>>>>> validate-json
 }
