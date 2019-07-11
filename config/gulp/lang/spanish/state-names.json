@@ -1,226 +1,339 @@
 {
   "alabama" : {
     "file": "alabama",
-    "title": "Alabama"
+    "title": "Alabama",
+    "state_abbreviation": "al",
+    "external_link": ""
   },
   "alaska" : {
     "file": "alaska",
-    "title": "Alaska"
+    "title": "Alaska",
+    "state_abbreviation": "ak",
+    "external_link": ""
+
   },
   "american-samoa" : {
     "file": "samoa-americana",
-    "title": "Samoa Americana"
+    "title": "Samoa Americana",
+    "state_abbreviation": "as",
+    "external_link": ""
   },
   "arizona" : {
     "file": "arizona",
-    "title": "Arizona"
+    "title": "Arizona",
+    "state_abbreviation": "az",
+    "external_link": ""
   },
   "arkansas" : {
     "file": "arkansas",
-    "title": "Arkansas"
+    "title": "Arkansas",
+    "state_abbreviation": "ar",
+    "external_link": ""
   },
   "california" : {
     "file": "california",
-    "title": "California"
+    "title": "California",
+    "state_abbreviation": "ca",
+    "external_link": ""
   },
   "colorado" : {
     "file": "colorado",
-    "title": "Colorado"
+    "title": "Colorado",
+    "state_abbreviation": "co",
+    "external_link": ""
   },
   "connecticut" : {
     "file": "conecticut",
-    "title": "Connecticut"
+    "title": "Connecticut",
+    "state_abbreviation": "ct",
+    "external_link": ""
   },
   "delaware" : {
     "file": "delaware",
-    "title": "Delaware"
+    "title": "Delaware",
+    "state_abbreviation": "de",
+    "external_link": ""
   },
   "washington-dc" : {
     "file": "distrito-de-columbia",
-    "title": "Distrito de Columbia"
+    "title": "Distrito de Columbia",
+    "state_abbreviation": "dc",
+    "external_link": ""
   },
   "florida" : {
     "file": "florida",
-    "title": "Florida"
+    "title": "Florida",
+    "state_abbreviation": "fl",
+    "external_link": ""
   },
   "georgia" : {
     "file": "georgia",
-    "title": "Georgia"
+    "title": "Georgia",
+    "state_abbreviation": "ga",
+    "external_link": ""
   },
   "guam" : {
     "file": "guam",
-    "title": "Guam"
+    "title": "Guam",
+    "state_abbreviation": "gu",
+    "external_link": ""
   },
   "hawaii" : {
     "file": "hawai",
-    "title": "Hawai"
+    "title": "Hawai",
+    "state_abbreviation": "hi",
+    "external_link": ""
   },
   "idaho" : {
     "file": "idaho",
-    "title": "Idaho"
+    "title": "Idaho",
+    "state_abbreviation": "id",
+    "external_link": ""
   },
   "illinois" : {
     "file": "illinois",
-    "title": "Illinois"
+    "title": "Illinois",
+    "state_abbreviation": "il",
+    "external_link": ""
   },
   "indiana" : {
     "file": "indiana",
-    "title": "Indiana"
+    "title": "Indiana",
+    "state_abbreviation": "in",
+    "external_link": ""
   },
   "iowa" : {
     "file": "iowa",
-    "title": "Iowa"
+    "title": "Iowa",
+    "state_abbreviation": "ia",
+    "external_link": ""
   },
   "kansas" : {
     "file": "kansas",
-    "title": "Kansas"
+    "title": "Kansas",
+    "state_abbreviation": "ks",
+    "external_link": ""
   },
   "kentucky" : {
     "file": "kentucky",
-    "title": "Kentucky"
+    "title": "Kentucky",
+    "state_abbreviation": "ky",
+    "external_link": ""
   },
   "louisiana" : {
     "file": "luisiana",
-    "title": "Luisiana"
+    "title": "Luisiana",
+    "state_abbreviation": "la",
+    "external_link": ""
   },
   "maine" : {
     "file": "maine",
-    "title": "Maine"
+    "title": "Maine",
+    "state_abbreviation": "me",
+    "external_link": ""
   },
   "maryland" : {
     "file": "maryland",
-    "title": "Maryland"
+    "title": "Maryland",
+    "state_abbreviation": "md",
+    "external_link": ""
   },
   "massachusetts" : {
     "file": "massachusetts",
-    "title": "Massachusetts"
+    "title": "Massachusetts",
+    "state_abbreviation": "ma",
+    "external_link": ""
   },
   "michigan" : {
     "file": "michigan",
-    "title": "Michigan"
+    "title": "Michigan",
+    "state_abbreviation": "mi",
+    "external_link": ""
   },
   "minnesota" : {
     "file": "minnesota",
-    "title": "Minnesota"
+    "title": "Minnesota",
+    "state_abbreviation": "mn",
+    "external_link": ""
   },
   "mississippi" : {
     "file": "misisipi",
-    "title": "Misisipi"
+    "title": "Misisipi",
+    "state_abbreviation": "ms",
+    "external_link": ""
   },
   "missouri" : {
     "file": "misuri",
-    "title": "Misuri"
+    "title": "Misuri",
+    "state_abbreviation": "mo",
+    "external_link": ""
   },
   "montana" : {
     "file": "montana",
-    "title": "Montana"
+    "title": "Montana",
+    "state_abbreviation": "mt",
+    "external_link": ""
   },
   "nebraska" : {
     "file": "nebraska",
-    "title": "Nebraska"
+    "title": "Nebraska",
+    "state_abbreviation": "ne",
+    "external_link": ""
   },
   "nevada" : {
     "file": "nevada",
-    "title": "Nevada"
+    "title": "Nevada",
+    "state_abbreviation": "nv",
+    "external_link": ""
   },
   "new-hampshire" : {
     "file": "nuevo-hampshire",
-    "title": "Nuevo Hampshire"
+    "title": "Nuevo Hampshire",
+    "state_abbreviation": "nh",
+    "external_link": ""
   },
   "new-jersey" : {
     "file": "nueva-jersey",
-    "title": "Nueva Jersey"
+    "title": "Nueva Jersey",
+    "state_abbreviation": "nj",
+    "external_link": ""
   },
   "new-mexico" : {
     "file": "nuevo-mexico",
-    "title": "Nuevo México"
+    "title": "Nuevo México",
+    "state_abbreviation": "nm",
+    "external_link": ""
   },
   "new-york" : {
     "file": "nueva-york",
-    "title": "Nueva York"
+    "title": "Nueva York",
+    "state_abbreviation": "ny",
+    "external_link": ""
   },
   "north-carolina" : {
     "file": "carolina-del-norte",
-    "title": "Carolina del Norte"
+    "title": "Carolina del Norte",
+    "state_abbreviation": "nc",
+    "external_link": ""
   },
   "north-dakota" : {
     "file": "dakota-del-norte",
-    "title": "Dakota del Norte"
+    "title": "Dakota del Norte",
+    "state_abbreviation": "nd",
+    "external_link": ""
   },
   "northern-mariana-islands" : {
     "file": "islas-marianas-del-norte",
-    "title": "Islas Marianas del Norte"
+    "title": "Islas Marianas del Norte",
+    "state_abbreviation": "mp",
+    "external_link": ""
   },
   "ohio" : {
     "file": "ohio",
-    "title": "Ohio"
+    "title": "Ohio",
+    "state_abbreviation": "oh",
+    "external_link": ""
   },
   "oklahoma" : {
     "file": "oklahoma",
-    "title": "Oklahoma"
+    "title": "Oklahoma",
+    "state_abbreviation": "ok",
+    "external_link": ""
   },
   "oregon" : {
     "file": "oregon",
-    "title": "Oregón"
+    "title": "Oregón",
+    "state_abbreviation": "or",
+    "external_link": "test"
   },
   "pennsylvania" : {
     "file": "pensilvania",
-    "title": "Pensilvania"
+    "title": "Pensilvania",
+    "state_abbreviation": "pa",
+    "external_link": ""
   },
   "puerto-rico" : {
     "file": "puerto-rico",
-    "title": "Puerto Rico"
+    "title": "Puerto Rico",
+    "state_abbreviation": "pr",
+    "external_link": ""
   },
   "rhode-island" : {
     "file": "rhode-island",
-    "title": "Rhode Island"
+    "title": "Rhode Island",
+    "state_abbreviation": "ri",
+    "external_link": ""
   },
   "south-dakota": {
     "file": "dakota-del-sur",
-    "title": "Dakota del Sur"
+    "title": "Dakota del Sur",
+    "state_abbreviation": "sd",
+    "external_link": ""
   },
   "south-carolina" : {
     "file": "carolina-del-sur",
-    "title": "Carolina del Sur"
+    "title": "Carolina del Sur",
+    "state_abbreviation": "sc",
+    "external_link": ""
   },
   "tennessee": {
     "file": "tenesi",
-    "title": "Tennessee"
+    "title": "Tennessee",
+    "state_abbreviation": "tn",
+    "external_link": ""
   },
   "texas": {
     "file": "texas",
-    "title": "Texas"
+    "title": "Texas",
+    "state_abbreviation": "tx",
+    "external_link": ""
   },
   "us-virgin-islands" : {
     "file": "islas-virgenes-de-ee-uu",
-    "title": "Islas Vírgenes de EE. UU."
+    "title": "Islas Vírgenes de EE. UU.",
+    "state_abbreviation": "vi",
+    "external_link": ""
   },
   "utah" : {
     "file": "utah",
-    "title": "Utah"
+    "title": "Utah",
+    "state_abbreviation": "ut",
+    "external_link": ""
   },
   "vermont" : {
     "file": "vermont",
-    "title": "Vermont"
+    "title": "Vermont",
+    "state_abbreviation": "vt",
+    "external_link": ""
   },
   "virginia" : {
     "file": "virginia",
-    "title": "Virginia"
+    "title": "Virginia",
+    "state_abbreviation": "va",
+    "external_link": ""
   },
   "west-virginia" : {
     "file": "virginia-occidental",
-    "title": "Virginia Occidental"
+    "title": "Virginia Occidental",
+    "state_abbreviation": "wv",
+    "external_link": ""
   },
   "washington" : {
     "file": "washington",
-    "title": "Washington"
+    "title": "Washington",
+    "state_abbreviation": "wa",
+    "external_link": ""
   },
   "wisconsin" : {
     "file": "wisconsin",
-    "title": "Wisconsin"
+    "title": "Wisconsin",
+    "state_abbreviation": "wi",
+    "external_link": ""
   },
   "wyoming" : {
     "file": "wyoming",
-    "title": "Wyoming"
+    "title": "Wyoming",
+    "state_abbreviation": "wy",
+    "external_link": ""
   }
 }
