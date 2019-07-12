@@ -3,26 +3,26 @@
     "file": "alabama",
     "title": "Alabama",
     "state_abbreviation": "al",
-    "external_link": "test"
+    "external_link": ""
   },
   "alaska" : {
     "file": "alaska",
     "title": "Alaska",
     "state_abbreviation": "ak",
-    "external_link": "test"
+    "external_link": ""
 
   },
   "american-samoa" : {
     "file": "samoa-americana",
     "title": "Samoa Americana",
     "state_abbreviation": "as",
-    "external_link": "test"
+    "external_link": ""
   },
   "arizona" : {
     "file": "arizona",
     "title": "Arizona",
     "state_abbreviation": "az",
-    "external_link": "test2"
+    "external_link": ""
   },
   "arkansas" : {
     "file": "arkansas",
@@ -40,7 +40,7 @@
     "file": "colorado",
     "title": "Colorado",
     "state_abbreviation": "co",
-    "external_link": ""
+    "external_link": "https://www.sos.state.co.us/pubs/spanish/spanishHome.html"
   },
   "connecticut" : {
     "file": "conecticut",
@@ -154,7 +154,7 @@
     "file": "minnesota",
     "title": "Minnesota",
     "state_abbreviation": "mn",
-    "external_link": ""
+    "external_link": "https://www.sos.state.mn.us/elections-voting/spanish"
   },
   "mississippi" : {
     "file": "misisipi",
@@ -178,7 +178,7 @@
     "file": "nebraska",
     "title": "Nebraska",
     "state_abbreviation": "ne",
-    "external_link": ""
+    "external_link": " https://www.nebraska.gov/apps-sos-voter-registration/?lang=es"
   },
   "nevada" : {
     "file": "nevada",
@@ -244,7 +244,7 @@
     "file": "oregon",
     "title": "Oregón",
     "state_abbreviation": "or",
-    "external_link": ""
+    "external_link": "https://secure.sos.state.or.us/orestar/vr/register.do?lang=spa"
   },
   "pennsylvania" : {
     "file": "pensilvania",
@@ -328,7 +328,7 @@
     "file": "wisconsin",
     "title": "Wisconsin",
     "state_abbreviation": "wi",
-    "external_link": ""
+    "external_link": "https://myvote.wi.gov/es-es/RegisterToVote/"
   },
   "wyoming" : {
     "file": "wyoming",
