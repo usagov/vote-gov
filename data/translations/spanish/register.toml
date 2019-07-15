@@ -24,3 +24,10 @@ link = "Ver la guía para votar en %state_name%"
 [online]
 body = "Los residentes de %state_name% pueden inscribirse para votar por Internet."
 link = "Empiece su inscripción por Internet"
+
+[dates]
+register = "Spanish - Deadline to register to vote or update registration information: %date%"
+special = "Spanish - Absentee In-Person and Special Needs voting begins: %date%"
+absentee = "Spanish - Deadline to receive absentee by-mail applications: %date%"
+early = "Spanish - Early Voting or In Person Absentee Voting: %date%"
+election = "Spanish - Election Day: %date%"

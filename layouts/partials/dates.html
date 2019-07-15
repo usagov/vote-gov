@@ -1,0 +1,9 @@
+{{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+
+<ul class="usa-prose">
+ <li>{{ replace $translation.register.dates.register "%date%" $.Params.register }}</li>
+ <li>{{ replace $translation.register.dates.special "%date%" $.Params.special }}</li>
+ <li>{{ replace $translation.register.dates.absentee "%date%" $.Params.absentee }}</li>
+ <li>{{ replace $translation.register.dates.early "%date%" $.Params.early }}</li>
+ <li>{{ replace $translation.register.dates.election "%date%" $.Params.election }}</li>
+</ul>
