@@ -12,6 +12,9 @@ gulp.task('clean-translation', function () {
   return del([
     './layouts/registrar',
     './content/registrar',
+    './layouts/calendario',
+    './content/calendario'
+
   ]);
 });
 
@@ -29,6 +32,14 @@ gulp.task('copy-content-spanish', function (done) {
 
 });
 
+
+// gulp.task('copy-calendar-content-spanish', function (done) {
+//
+//   return gulp.src('./content/calendar/*.md')
+//
+//     .pipe(gulp.dest('./content/calendario'));
+//
+// });
 gulp.task('copy-layouts-spanish', function (done) {
 
   var copyLayout = spawn('cp', [
@@ -47,7 +58,25 @@ gulp.task('copy-layouts-spanish', function (done) {
 
 });
 
-gulp.task('copy-translation', gulp.series( 'clean-translation', 'copy-content-spanish', 'copy-layouts-spanish'  , function (done) {
+// gulp.task('copy-calendar-spanish', function (done) {
+//
+//   var copyLayout = spawn('cp', [
+//     '-rvf',
+//     './layouts/calendar',
+//     './layouts/calendario',
+//   ]);
+//
+//   copyLayout.stdout.on('data', function (data) {
+//     gutil.log(gutil.colors.blue('copy-calendar-spanish'), '\n' + data);
+//   });
+//
+//   copyLayout.on('error', done);
+//   copyLayout.on('close', done);
+//
+//
+// });
+
+gulp.task('copy-translation', gulp.series( 'clean-translation', 'copy-content-spanish', 'copy-layouts-spanish', function (done) {
 
   gutil.log(
     gutil.colors.cyan('copy-translation'),
