@@ -23,3 +23,10 @@ link = "Learn more about voting in %state_name%."
 [online]
 body = "%state_name% allows residents to register online."
 link = "You’re leaving this website. Start your online registration for %state_name%."
+
+[dates]
+register = "Deadline to register to vote or update registration information: %date%"
+special = "Absentee In-Person and Special Needs voting begins: %date%"
+absentee = "Deadline to receive absentee by-mail applications: %date%"
+early = "Early Voting or In Person Absentee Voting: %date%"
+election = "Election Day: %date%"

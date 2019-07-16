@@ -1,6 +1,0 @@
-+++
-
-type =  "event"
-url = "event"
-
-+++
