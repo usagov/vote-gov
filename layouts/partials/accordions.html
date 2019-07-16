@@ -1,0 +1,37 @@
+
+<div class="accordions">
+  <div class="usa-accordion">
+  <!-- <h1>Styling is red with widescreen</h1> -->
+
+  <h2>2020 Federal Elections Dates & Deadlines</h2>
+
+  <div class="usa-accordion usa-accordion--bordered">
+    <div id="deadlines"></div>
+      <script type="text/javascript">
+        var stateObj = {{ index .Site.Data.dates2 (.Params.title | lower ) }}
+        var stateDates = stateObj.important_dates
+        for (var i = 0; i < stateDates.length; i++) {
+          var eventName = stateDates[i].date_type;
+          var eventDate = stateDates[i].date;
+          //1. Create header
+          var li = document.createElement('h2');
+          li.innerHTML = eventName;
+          li.classList.add('usa-accordion__heading');
+          li.classList.add('usa-accordion__button');
+          li.setAttribute('aria-expanded', 'false');
+          //Name aria control attribute based on order in for loop
+          li.setAttribute('aria-controls', 'b-a' + i);
+          document.getElementById('deadlines').appendChild(li);
+          //2. Create dropdown
+          var date = document.createElement('div');
+          date.innerHTML = eventDate;
+          date.classList.add('usa-accordion__content');
+          date.classList.add('usa-prose');
+          date.setAttribute('id', 'b-a' + i);
+          document.getElementById('deadlines').appendChild(date);
+      }
+    </script>
+  </div>
+  </div>
+  </div>
+</div>

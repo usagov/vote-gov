@@ -9,35 +9,36 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.0/fullcalendar.min.js"></script>
         <!-- CSS Styles -->
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.0/fullcalendar.min.css" />
-</head>
-
+  </head>
   <body class="page-vote">
     {{ partial "header.html" . }}
     <div class="page-vote-main" id="main" role="main">
-
-      <a class="usa-skipnav" href="#main-content">Skip main navigation</a>
-
-      <div class="grid-container" id="main-content">
-
+    <a class="usa-skipnav" href="#main-content">Skip main navigation</a>
+    <div class="grid-container" id="main-content">
     <div id="calendar"></div>
-    <script type="text/javascript">
-   $(document).ready(function() {
-      var events = [];
-      events.push({
-            date: {{ .Params.register }},
-            title: {{ .Params.title }},
-            state_abbreviation: {{ .Params.state_abbreviation | lower }}
-          });
-     $('#calendar').fullCalendar({
-        events: events,
-        eventClick: function(info) {
-          window.open( {{ .Site.BaseURL }} + {{ .Site.Params.register_path }} + "/" + info.state_abbreviation + "")
-        }
-      });
-    });
-    </script>
 
-  {{ partial "go-back.html" . }}
+    <!-- Calendar begins here  -->
+    <div class="calendar">
+      <script type="text/javascript">
+        $(document).ready(function() {
+          var events = [];
+          events.push({
+                date: {{ .Params.register }},
+                title: {{ .Params.title }},
+                state_abbreviation: {{ .Params.state_abbreviation | lower }}
+              });
+          $('#calendar').fullCalendar({
+            events: events,
+            eventClick: function(info) {
+              window.open( {{ .Site.BaseURL }} + {{ .Site.Params.register_path }} + "/" + info.state_abbreviation + "")
+            }
+          });
+        });
+      </script>
+    </div>
+    <!-- Calendar ends here -->
+    {{ partial "accordions.html" . }}
+    {{ partial "go-back.html" . }}
     <footer>
       {{ partial "footer.html" . }}
     </footer>
