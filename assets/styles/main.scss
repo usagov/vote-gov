@@ -281,13 +281,6 @@ a:hover {
   padding-top: 2rem;
 }
 
-.calendar {
-  padding-top: 5rem;
-  @include at-media('card') {
-
-  }
-}
-
 .accordions {
   @include at-media('widescreen') { //1400px width
     h1 {
