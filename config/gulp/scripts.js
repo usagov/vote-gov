@@ -47,3 +47,11 @@ gulp.task('scripts',  gulp.series ('eslint' , function () {
   return bundle;
 
 }));
+//
+// gulp.task('modules', function() {
+//     gutil.log(gutil.colors.cyan('modules'), 'Copying USWDS JS');
+//
+//   return gulp.src('./node_modules/uswds/dist/js/uswds.min.js')
+//
+//     .pipe(gulp.dest('./static/assets/scripts'));
+//   });
