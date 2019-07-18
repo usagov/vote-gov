@@ -34,7 +34,7 @@ gulp.task('js', function () {
 
   gutil.log(gutil.colors.cyan('js'), 'Copying font assets');
   var stream = gulp.src([
-    './node_modules/uswds/src/js/start.js',
+    './node_modules/uswds/dist/js/uswds.min.js',
   ]);
 
   return stream.pipe(gulp.dest('./assets/scripts'));
@@ -46,11 +46,11 @@ gulp.task('scripts',  gulp.series ('js' , function () {
   gutil.log(gutil.colors.cyan('scripts'), 'Browserifying JavaScript assets');
 
   var bundle = browserify({
-    entries: './assets/scripts/start.js',
+    entries: './assets/scripts/uswds.min.js',
     debug: true,
   }).bundle();
 
-  bundle = bundle.pipe(source('start.js'))
+  bundle = bundle.pipe(source('uswds.min.js'))
     .pipe(buffer());
 
   if (cFlags.production) {
