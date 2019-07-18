@@ -5,14 +5,8 @@ var browserify = require('browserify');
 var uglify = require('gulp-uglify');
 var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
-//var es  = require('event-stream');
 var rename = require('gulp-rename');
 var cFlags = global.cFlags;
-
-// var glob = require('glob');
-
-
-
 
 gulp.task('eslint', function (done) {
 
@@ -21,7 +15,7 @@ gulp.task('eslint', function (done) {
     return done();
   }
 
-  return gulp.src('./assets/scripts/**/*.js')
+  return gulp.src('./assets/scripts/start.js')
     .pipe(eslint({
       configFile: './.eslintrc',
     }))
@@ -41,16 +35,16 @@ gulp.task('js', function () {
 
 });
 
-gulp.task('scripts',  gulp.series ('js' , function () {
+gulp.task('scripts',  gulp.series ('js' , 'eslint',function () {
 
   gutil.log(gutil.colors.cyan('scripts'), 'Browserifying JavaScript assets');
 
   var bundle = browserify({
-    entries: './assets/scripts/uswds.min.js',
+    entries: './assets/scripts/start.js',
     debug: true,
   }).bundle();
 
-  bundle = bundle.pipe(source('uswds.min.js'))
+  bundle = bundle.pipe(source('start.js'))
     .pipe(buffer());
 
   if (cFlags.production) {
@@ -64,22 +58,3 @@ gulp.task('scripts',  gulp.series ('js' , function () {
   return bundle;
 
 }));
-
-
-
-//
-//
-// gulp.task('scripts', gulp.series( 'js' , function(done) {
-//     gutil.log(gutil.colors.cyan('scripts'), 'Copying scripts assets');
-//     var files = glob.sync('./assets/scripts/**/*.js');
-//     return merge(files.map(function(file) {
-//
-//       return browserify({
-//           entries: file,
-//           debug: true
-//       }).transform(reactify)
-//           .bundle()
-//           .pipe(source(file))
-//           .pipe(gulp.dest('./static/assets/scripts'));
-//     }));
-//   }));
