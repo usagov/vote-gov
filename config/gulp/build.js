@@ -3,6 +3,8 @@ var gutil = require('gulp-util');
 var del = require('del');
 var pkg = require('../../package.json');
 var spawn = require('cross-spawn');
+require('./validate.js');
+require('./calendar.js');
 
 
  function cleanAll() {
@@ -137,7 +139,7 @@ exports.buildWebsite = buildWebsite;
 exports.watch = watch;
 exports.website= website;
 
-var build = gulp.series(cleanAll, printPackageInfo, gulp.parallel('styles', 'scripts', 'images', 'fonts'), 'copy-translation');
+var build = gulp.series(cleanAll, printPackageInfo, gulp.parallel('styles', 'scripts', 'images', 'fonts'),  'populateDates','registerToCalendar','copy-translation','validate');
 var buildWebsite = gulp.series (build, buildWebsite);
 var website = gulp.series (build, website);
 

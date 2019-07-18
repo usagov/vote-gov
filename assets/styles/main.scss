@@ -2,6 +2,7 @@
 
 @import '../../node_modules/uswds/src/stylesheets/uswds';
 
+
 // Variables ------------ //
 
 $font-light: 300;
@@ -278,6 +279,21 @@ a:hover {
 .section-back-inner {
   border-top: 1px solid color('base-lighter');
   padding-top: 2rem;
+}
+
+.calendar {
+  padding-top: 5rem;
+  @include at-media('card') {
+
+  }
+}
+
+.accordions {
+  @include at-media('widescreen') { //1400px width
+    h1 {
+      color: color('secondary');
+    }
+  }
 }
 
 // Register by mail --------- //
