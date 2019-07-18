@@ -5,8 +5,16 @@ var browserify = require('browserify');
 var uglify = require('gulp-uglify');
 var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
+var glob   = require('glob');
+var reactify = require('reactify');
+// var es  = require('event-stream');
 var rename = require('gulp-rename');
 var cFlags = global.cFlags;
+var merge = require('merge-stream');
+// var glob = require('glob');
+
+
+
 
 gulp.task('eslint', function (done) {
 
@@ -24,7 +32,18 @@ gulp.task('eslint', function (done) {
 
 });
 
-gulp.task('scripts',  gulp.series ('eslint' , function () {
+gulp.task('js', function () {
+
+  gutil.log(gutil.colors.cyan('js'), 'Copying font assets');
+  var stream = gulp.src([
+    './node_modules/uswds/src/js/**/*',
+  ]);
+
+  return stream.pipe(gulp.dest('./assets/scripts'));
+
+});
+
+gulp.task('scripts',  gulp.series ('js' , function () {
 
   gutil.log(gutil.colors.cyan('scripts'), 'Browserifying JavaScript assets');
 
@@ -47,11 +66,22 @@ gulp.task('scripts',  gulp.series ('eslint' , function () {
   return bundle;
 
 }));
+
+
+
 //
-// gulp.task('modules', function() {
-//     gutil.log(gutil.colors.cyan('modules'), 'Copying USWDS JS');
 //
-//   return gulp.src('./node_modules/uswds/dist/js/uswds.min.js')
+// gulp.task('scripts', gulp.series( 'js' , function(done) {
+//     gutil.log(gutil.colors.cyan('scripts'), 'Copying scripts assets');
+//     var files = glob.sync('./assets/scripts/**/*.js');
+//     return merge(files.map(function(file) {
 //
-//     .pipe(gulp.dest('./static/assets/scripts'));
-//   });
+//       return browserify({
+//           entries: file,
+//           debug: true
+//       }).transform(reactify)
+//           .bundle()
+//           .pipe(source(file))
+//           .pipe(gulp.dest('./static/assets/scripts'));
+//     }));
+//   }));
