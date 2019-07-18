@@ -5,12 +5,10 @@ var browserify = require('browserify');
 var uglify = require('gulp-uglify');
 var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
-var glob   = require('glob');
-var reactify = require('reactify');
-// var es  = require('event-stream');
+//var es  = require('event-stream');
 var rename = require('gulp-rename');
 var cFlags = global.cFlags;
-var merge = require('merge-stream');
+
 // var glob = require('glob');
 
 
