@@ -34,7 +34,7 @@ gulp.task('js', function () {
 
   gutil.log(gutil.colors.cyan('js'), 'Copying font assets');
   var stream = gulp.src([
-    './node_modules/uswds/src/js/**/*',
+    './node_modules/uswds/src/js/start.js',
   ]);
 
   return stream.pipe(gulp.dest('./assets/scripts'));
