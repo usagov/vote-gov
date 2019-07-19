@@ -297,15 +297,15 @@ a:hover {
 }
 
 .usa-accordion--bordered .usa-accordion__heading {
-  background-color: #dcdee0 !important;
+  background-color: color('primary-lighter') !important;
 }
 .usa-accordion--bordered .usa-accordion__content {
-   border-color: #dcdee0 !important;
+   border-color: color('primary-lighter') !important;
 }
 
-// .usa-accordion--bordered .usa-accordion__heading  {
-//    border-color: color('primary') !important;
-// }
+.usa-accordion__button:hover{
+  background-color: color('primary-light') !important;
+}
 
 // Register by mail --------- //
 
