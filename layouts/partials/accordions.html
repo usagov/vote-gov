@@ -1,11 +1,9 @@
 
 <div class="accordions">
-  <div class="usa-accordion">
-  <!-- <h1>Styling is red with widescreen</h1> -->
-
   <h2>2020 Federal Elections Dates & Deadlines</h2>
-
-  <div class="usa-accordion usa-accordion--bordered">
+  <!-- <h1>Styling is red with widescreen</h1> -->
+  <button onclick="closeAccordion(b)" id="b" class="usa-button usa-button--outline">Open All</button>
+  <div class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
     <div id="deadlines"></div>
       <script type="text/javascript">
         var stateObj = {{ index .Site.Data.dates2 (.Params.title | lower ) }}
@@ -30,9 +28,22 @@
           date.setAttribute('id', 'b-a' + i);
           document.getElementById('deadlines').appendChild(date);
       }
+
+      function closeAccordion() {
+        var accordions = document.querySelectorAll('h2');
+        console.log(accordions);
+        event.preventDefault();
+        for (var i = 0; i < accordions.length; i++) {
+          var header = accordions[i];
+          header.setAttribute('aria-expanded', 'true');
+          var dropdown = document.getElementById('b-a' + i);
+          console.log(dropdown);
+          dropdown.removeAttribute('hidden');
+        }
+        b.textContent = "HI";
+      }
+
     </script>
-      {{ partial "scripts.html" . }}
-  </div>
   </div>
   </div>
 </div>
