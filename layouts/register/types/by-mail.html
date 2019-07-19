@@ -2,7 +2,7 @@
 
 <div class="grid-container page-inner mail-steps">
   <h1>
-    {{ $translation.register.heading }}
+    {{ replace $translation.register.heading "%state_name%" ( title .Title ) }}
   </h1>
   <p class="usa-intro">
     {{ replace $translation.register.by_mail.body "%state_name%" ( title .Title ) }}
