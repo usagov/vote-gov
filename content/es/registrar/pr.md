@@ -4,6 +4,6 @@ external_link = "http://ceepur.org/"
 registration_type = "in-person"
 state_abbreviation = "PR"
 title = "Puerto Rico"
+english_only = false 
 
 +++
-

@@ -23,7 +23,6 @@ publishDir = "tmp/public"
   language = "english"
   root_path = ""
   register_path = "register"
-  calendar_path = "calendar"
 
   [languages.es]
   title = "Registro de Votantes"
@@ -38,4 +37,3 @@ publishDir = "tmp/public"
   language = "spanish"
   root_path = "es/"
   register_path = "registrar"
-  calendar_path = "calendario"

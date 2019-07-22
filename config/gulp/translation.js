@@ -11,10 +11,7 @@ gulp.task('clean-translation', function () {
   gutil.log(gutil.colors.cyan('clean-translation'), 'Removing generated register/ files');
   return del([
     './layouts/registrar',
-    './content/registrar',
-    './layouts/calendario',
-    './content/calendario'
-
+    './content/registrar'
   ]);
 });
 
@@ -32,14 +29,6 @@ gulp.task('copy-content-spanish', function (done) {
 
 });
 
-
-// gulp.task('copy-calendar-content-spanish', function (done) {
-//
-//   return gulp.src('./content/calendar/*.md')
-//
-//     .pipe(gulp.dest('./content/calendario'));
-//
-// });
 gulp.task('copy-layouts-spanish', function (done) {
 
   var copyLayout = spawn('cp', [

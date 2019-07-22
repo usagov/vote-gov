@@ -4,6 +4,6 @@ external_link = "http://www.americansamoaelectionoffice.org"
 registration_type = "in-person"
 state_abbreviation = "AS"
 title = "Samoa Americana"
+english_only = true
 
 +++
-

@@ -8,7 +8,7 @@
   <div class="usa-accordion usa-accordion--bordered">
     <div id="deadlines"></div>
       <script type="text/javascript">
-        var stateObj = {{ index .Site.Data.dates2 (.Params.title | lower ) }}
+        var stateObj = {{ index .Site.Data.elections.election_dates (.Params.title | lower ) }}
         var stateDates = stateObj.important_dates
         for (var i = 0; i < stateDates.length; i++) {
           var eventName = stateDates[i].date_type;
