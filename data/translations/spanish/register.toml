@@ -25,6 +25,7 @@ link = "Ver la guía para votar en %state_name%"
 [online]
 body = "Los residentes de %state_name% pueden inscribirse para votar por Internet."
 link = "Empiece su inscripción por Internet"
+button = "Empiece su inscripción por Internet"
 
 [dates]
 register = "Spanish - Deadline to register to vote or update registration information: %date%"
