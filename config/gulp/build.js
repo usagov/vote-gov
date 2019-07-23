@@ -5,7 +5,6 @@ var pkg = require('../../package.json');
 var spawn = require('cross-spawn');
 require('./validate.js');
 
-
  function cleanAll() {
    return del(['./static/assets/**/*']);
  }
