@@ -4,6 +4,6 @@ external_link = "https://www.sos.la.gov/ElectionsAndVoting/Pages/OnlineVoterRegi
 registration_type = "online"
 state_abbreviation = "LA"
 title = "Luisiana"
+english_only = true
 
 +++
-

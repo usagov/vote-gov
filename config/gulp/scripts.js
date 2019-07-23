@@ -15,7 +15,7 @@ gulp.task('eslint', function (done) {
     return done();
   }
 
-  return gulp.src('./assets/scripts/**/*.js')
+  return gulp.src('./assets/scripts/start.js')
     .pipe(eslint({
       configFile: './.eslintrc',
     }))
@@ -24,7 +24,18 @@ gulp.task('eslint', function (done) {
 
 });
 
-gulp.task('scripts',  gulp.series ('eslint' , function () {
+gulp.task('js', function () {
+
+  gutil.log(gutil.colors.cyan('js'), 'Copying font assets');
+  var stream = gulp.src([
+    './node_modules/uswds/dist/js/uswds.min.js',
+  ]);
+
+  return stream.pipe(gulp.dest('./assets/scripts'));
+
+});
+
+gulp.task('scripts',  gulp.series ('js' , 'eslint',function () {
 
   gutil.log(gutil.colors.cyan('scripts'), 'Browserifying JavaScript assets');
 

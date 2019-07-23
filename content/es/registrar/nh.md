@@ -4,6 +4,6 @@ external_link = "http://sos.nh.gov/Elections.aspx"
 registration_type = "in-person"
 state_abbreviation = "NH"
 title = "Nuevo Hampshire"
+english_only = true
 
 +++
-

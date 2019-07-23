@@ -289,6 +289,18 @@ a:hover {
   }
 }
 
+.usa-accordion--bordered .usa-accordion__heading {
+  background-color: $color-blue-light !important;
+  color: color('base-lightest') !important;
+}
+.usa-accordion--bordered .usa-accordion__content {
+   border-color: $color-blue-light !important;
+}
+
+.usa-accordion__button:hover{
+  background-color: $color-blue-dark !important;
+}
+
 // Register by mail --------- //
 
 .mail-steps {

@@ -4,6 +4,6 @@ external_link = "https://www.votecnmi.gov.mp/"
 registration_type = "in-person"
 state_abbreviation = "MP"
 title = "Islas Marianas del Norte"
+english_only = true
 
 +++
-

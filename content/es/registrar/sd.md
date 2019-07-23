@@ -4,6 +4,6 @@ external_link = ""
 registration_type = "by-mail"
 state_abbreviation = "SD"
 title = "Dakota del Sur"
+english_only = false 
 
 +++
-
