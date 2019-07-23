@@ -1,4 +1,5 @@
 heading = "%state_name%"
+registration_heading = "Register to vote"
 
 [by_mail]
 body = "%state_name% allows residents to register by mail, not online."
@@ -22,7 +23,8 @@ link = "Learn more about voting in %state_name%."
 
 [online]
 body = "%state_name% allows residents to register online."
-link = "You’re leaving this website. Start your online registration for %state_name%."
+link = "You’re leaving this website."
+button = "Start your online registration"
 
 [dates]
 register = "Deadline to register to vote or update registration information: %date%"

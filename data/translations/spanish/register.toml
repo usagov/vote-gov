@@ -1,5 +1,6 @@
-heading = "Inscríbase para votar"
+heading = "%state_name%"
 english_only = "(en inglés)."
+registration_heading = "Inscríbase para votar"
 
 [by_mail]
 body = "Los residentes de %state_name% pueden inscribirse para votar por correo postal."

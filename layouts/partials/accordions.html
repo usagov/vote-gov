@@ -2,7 +2,7 @@
 <div class="accordions">
   <h2>2020 Federal Elections Dates & Deadlines</h2>
   <!-- <h1>Styling is red with widescreen</h1> -->
-  <button onclick="closeAccordion(b)" id="b" class="usa-button usa-button--outline">Open All</button>
+  <button onclick="accordion()" id="b" class="usa-button usa-button--outline">Open All</button>
   <div class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
     <div id="deadlines"></div>
       <script type="text/javascript">
@@ -12,7 +12,7 @@
           var eventName = stateDates[i].date_type;
           var eventDate = stateDates[i].date;
           //1. Create header
-          var li = document.createElement('h2');
+          var li = document.createElement('h3');
           li.innerHTML = eventName;
           li.classList.add('usa-accordion__heading');
           li.classList.add('usa-accordion__button');
@@ -29,18 +29,25 @@
           document.getElementById('deadlines').appendChild(date);
       }
 
-      function closeAccordion() {
-        var accordions = document.querySelectorAll('h2');
-        console.log(accordions);
+      function open() {
+        return (document.getElementById('b').innerHTML == 'Close All'? false : true);
+      }
+
+      function accordion() {
+        var accordions = document.querySelectorAll('h3');
         event.preventDefault();
         for (var i = 0; i < accordions.length; i++) {
           var header = accordions[i];
-          header.setAttribute('aria-expanded', 'true');
           var dropdown = document.getElementById('b-a' + i);
-          console.log(dropdown);
-          dropdown.removeAttribute('hidden');
+          if(open()) {
+            header.setAttribute('aria-expanded', 'true');
+            dropdown.removeAttribute('hidden');
+          } else {
+            header.setAttribute('aria-expanded', 'false');
+            dropdown.setAttribute('hidden', 'true');
+          }
         }
-        b.textContent = "HI";
+        document.getElementById('b').innerHTML = (open()? 'Close All': 'Open All');
       }
 
     </script>
