@@ -281,13 +281,6 @@ a:hover {
   padding-top: 2rem;
 }
 
-.calendar {
-  padding-top: 5rem;
-  @include at-media('card') {
-
-  }
-}
-
 .accordions {
   @include at-media('widescreen') { //1400px width
     h1 {
@@ -353,6 +346,10 @@ a:hover {
   @include at-media('tablet') {
     clear: both;
   }
+}
+
+.usa-button .usa-button--outline {
+  float: right;
 }
 
 // 404 page ------------ //

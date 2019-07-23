@@ -1,0 +1,27 @@
+{{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+
+<ul class="usa-prose">
+
+  <ul id="deadlines"></ul>
+
+<script type="text/javascript">
+
+  var stateObj = {{ index .Site.Data.dates.dates (.Params.title | lower ) }}
+  var stateDates = stateObj.important_dates
+
+  console.log(stateDates);
+
+  for (var i = 0; i < stateDates.length; i++) {
+    var eventName = stateDates[i].date_type;
+    var eventDate = stateDates[i].date;
+    console.log(eventName , eventDate);
+    var li = document.createElement('li');
+    li.innerHTML = eventName + ": " + eventDate;
+    document.getElementById('deadlines').appendChild(li);
+}
+
+
+</script>
+
+
+</ul>

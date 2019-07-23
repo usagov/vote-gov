@@ -14,7 +14,6 @@
         for (var i = 0; i < stateDates.length; i++) {
           var eventName = stateDates[i].date_type;
           var eventDate = stateDates[i].date;
-
           //1. Create header
           var li = document.createElement('h2');
           {{ if eq $.Site.Params.language "english" }}
@@ -23,7 +22,6 @@
 
             li.innerHTML = stateDates[i].spanish_date_type;
           {{ end }}
-
           li.classList.add('usa-accordion__heading');
           li.classList.add('usa-accordion__button');
           li.setAttribute('aria-expanded', 'false');
@@ -38,8 +36,29 @@
           date.setAttribute('id', 'b-a' + i);
           document.getElementById('deadlines').appendChild(date);
       }
+
+      function open() {
+        return (document.getElementById('b').innerHTML == 'Close All'? false : true);
+      }
+
+      function accordion() {
+        var accordions = document.querySelectorAll('h3');
+        event.preventDefault();
+        for (var i = 0; i < accordions.length; i++) {
+          var header = accordions[i];
+          var dropdown = document.getElementById('b-a' + i);
+          if(open()) {
+            header.setAttribute('aria-expanded', 'true');
+            dropdown.removeAttribute('hidden');
+          } else {
+            header.setAttribute('aria-expanded', 'false');
+            dropdown.setAttribute('hidden', 'true');
+          }
+        }
+        document.getElementById('b').innerHTML = (open()? 'Close All': 'Open All');
+      }
+
     </script>
-  </div>
   </div>
   </div>
 </div>

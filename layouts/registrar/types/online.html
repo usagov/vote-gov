@@ -3,20 +3,25 @@
 <div class="grid-container page-inner main-content">
   <header>
     <h1>
-      {{ $translation.register.heading }}
+      {{ replace $translation.register.heading "%state_name%" ( title .Title ) }}
     </h1>
   </header>
+  <hr>
+  <h2>{{ $translation.register.registration_heading }}</h2>
   <p class="usa-intro">
     {{ replace $translation.register.online.body "%state_name%" ( title .Title ) }}
   </p>
   <p>
-    <a href="{{ .Params.external_link }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
-      {{ replace $translation.register.online.link "%state_name%" ( title .Title ) }}
+    <!-- {{ $translation.register.online.link }} -->
+    <a class="usa-button" href="{{ .Params.external_link }}?ref={{ $.Site.Params.Referrer_Short_Code }}" target="_blank">
+      {{ $translation.register.online.button }}
       {{ if and (eq $.Site.Params.language "spanish") (eq .Params.english_only true) }}
         {{ $translation.register.english_only }}
       {{ else }} {{ end }}
     </a>
   </p>
+  <br><br><hr>
   {{ partial "accordions.html" . }}
 </div>
+
 <!-- Register END -->

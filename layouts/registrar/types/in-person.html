@@ -4,7 +4,7 @@
 <div class="grid-container page-inner main-content">
   <header>
     <h1>
-      {{ $translation.register.heading }}
+      {{ replace $translation.register.heading "%state_name%" ( title .Title ) }}
     </h1>
   </header>
   <p class="usa-intro">
@@ -18,5 +18,6 @@
       {{ else }} {{ end }}
     </a>
   </p>
+  {{ partial "dates.html" . }}
 </div>
 <!-- Register END -->
