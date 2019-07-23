@@ -7,7 +7,9 @@
         "date": {
             "type": "object",
             "properties": {
-                "date": { "type": "string" },
+                "date": {
+                    "type": "string"
+                },
                 "date_type": {
                     "type": "string",
                     "enum": [
@@ -28,72 +30,119 @@
                         "Primary Runoff Election",
                         "Runoff Election"
                     ]
+                },
+                "spanish_date_type": {
+                    "type": "string"
                 }
             }
         }
     },
-
     "properties": {
-      "alabama": {
-        "type": "object",
-        "properties": {
-            "slug": { "type": "string" },
-            "state_abbreviation": { "type": "string" },
-            "title": { "type": "string" },
-            "registration_title" :{ "type": "string" },
-            "important_dates": {
-                "type": "array",
-                "items": {
-                    "$ref": "#/definitions/date"
+        "alabama": {
+            "type": "object",
+            "properties": {
+                "slug": {
+                    "type": "string"
+                },
+                "state_abbreviation": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "registration_title": {
+                    "type": "string"
+                },
+                "important_dates": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/date"
+                    }
                 }
-            }
+            },
+            "required": [
+                "slug",
+                "state_abbreviation",
+                "title",
+                "registration_title",
+                "important_dates"
+            ]
         },
-        "required": [
-          "slug","state_abbreviation","title","registration_title","important_dates"
-        ]
+        "alaska": {
+            "type": "object",
+            "properties": {
+                "slug": {
+                    "type": "string"
+                },
+                "state_abbreviation": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "registration_title": {
+                    "type": "string"
+                },
+                "important_dates": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/date"
+                    }
+                }
+            },
+            "required": [
+                "slug",
+                "state_abbreviation",
+                "title",
+                "registration_title",
+                "important_dates"
+            ]
+        },
+        "arkansas": {
+            "type": "object",
+            "properties": {
+                "slug": {
+                    "type": "string"
+                },
+                "state_abbreviation": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                },
+                "registration_title": {
+                    "type": "string"
+                },
+                "important_dates": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/date"
+                    }
+                }
+            },
+            "required": [
+                "slug",
+                "state_abbreviation",
+                "title",
+                "registration_title",
+                "important_dates"
+            ]
+        }
     },
+    "required": [
+        "alabama",
+        "alaska",
+        "arkansas"
+    ],
     "alaska": {
-      "type": "object",
-      "properties": {
-          "slug": { "type": "string" },
-          "state_abbreviation": { "type": "string" },
-          "title": { "type": "string" },
-          "registration_title" :{ "type": "string" },
-          "important_dates": {
-              "type": "array",
-              "items": {
-                  "$ref": "#/definitions/date"
-              }
-          }
-      },
-      "required": [
-        "slug","state_abbreviation","title","registration_title","important_dates"
-      ]
+        "important_dates": {
+            "spanish_date_type": "hi"
+        }
     },
-
     "arkansas": {
-      "type": "object",
-      "properties": {
-          "slug": { "type": "string" },
-          "state_abbreviation": { "type": "string" },
-          "title": { "type": "string" },
-          "registration_title" :{ "type": "string" },
-          "important_dates": {
-              "type": "array",
-              "items": {
-                  "$ref": "#/definitions/date"
-              }
-          }
-      },
-      "required": [
-        "slug","state_abbreviation","title","registration_title","important_dates"
-      ]
-
-  }
-},
-  "required": [
-    "alabama",
-    "alaska",
-    "arkansas"
-  ]
+        "important_dates": {
+            "spanish_date_type": "hi"
+        },
+        "state_abbreviation": "hi"
+    }
 }
