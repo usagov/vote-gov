@@ -1,0 +1,50 @@
+{
+  "Absentee Ballot Request Deadline":  {
+    "spanish":"Fecha límite de solicitud de boleta de votación en ausencia"
+  },
+"Absentee Ballot Return Deadline" : {
+  "spanish": "Plazo de devolución de la boleta de votación en ausencia"
+},
+"Absentee Ballot Online Deadline" : {
+  "spanish":"Fecha límite de boleta en línea"
+  },
+  "Voter Registration Deadline":{
+    "spanish"  : "Fecha límite de inscripción de votantes"
+  },
+  "Voter Registration Deadline (In Person)":{
+    "spanish" :"Fecha límite de inscripción de votantes (En Persona)"
+  },
+  "Voter Registration Deadline (By Mail)" :{
+    "spanish" :"Voter Registration Deadline (Por Correo)"
+  },
+  "Voter Registration Deadline (Online)" :{
+    "spanish" :"Voter Registration Deadline (En Línea)"
+  },
+  "Early Voting/ In Person Absentee Voting" :{
+    "spanish" : "Fecha límite de inscripción de votantes (En Persona)"
+  },
+  "Presidential Preference Primary Election" :{
+    "spanish" :"Preferencia Presidencial Elección Primaria"
+  },
+  "Primary Election" :{
+    "spanish" : "Elección Primaria"
+  },
+  "Election" :{
+     "spanish" : "Elección"
+   },
+  "Special Election" :{
+    "spanish" : "Election Especial"
+  },
+  "Special General Election" :{
+     "spanish" : "Elección General Especial"
+ },
+  "Special Runoff Election"  :{
+    "spanish" : "Elección de Escorrentía Especial"
+  },
+  "Primary Runoff Election" :{
+    "spanish" : "Elección Primaria de Escorrentía"
+  },
+  "Runoff Election" :{
+    "spanish" : "Elección de Desempate"
+  }
+}
