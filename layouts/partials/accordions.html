@@ -1,12 +1,9 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
 <div class="accordions">
-  <div class="usa-accordion">
-  <!-- <h1>Styling is red with widescreen</h1> -->
-
   <h2>{{$translation.accordion.header}}</h2>
-
-  <div class="usa-accordion usa-accordion--bordered">
+  <button onclick="accordion()" id="b" class="usa-button usa-button--outline">Open All</button>
+  <div class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
     <div id="deadlines"></div>
       <script type="text/javascript">
         var stateObj = {{ index .Site.Data.elections.election_dates (.Params.title | lower ) }}
@@ -15,11 +12,10 @@
           var eventName = stateDates[i].date_type;
           var eventDate = stateDates[i].date;
           //1. Create header
-          var li = document.createElement('h2');
+          var li = document.createElement('h3');
           {{ if eq $.Site.Params.language "english" }}
             li.innerHTML = eventName;
           {{ else }}
-
             li.innerHTML = stateDates[i].spanish_date_type;
           {{ end }}
           li.classList.add('usa-accordion__heading');
