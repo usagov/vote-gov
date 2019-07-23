@@ -6,6 +6,38 @@ var spawn = require('cross-spawn');
 var rename = require('gulp-rename');
 var replace = require('gulp-replace');
 var spanishStateNames = require('./lang/spanish/state-names.json');
+var spanishElectionNames = require('./lang/spanish/election-names.json');
+var primaryJson = require('../../data/elections/election_dates.json');
+var jsonModify= require("gulp-json-modify");
+//place holder for now, will change to all states
+var test_states = [ "alabama","alaska","arkansas"];
+
+
+gulp.task('translate-events' , function (done) {
+  gutil.log(gutil.colors.cyan('translate-events'), 'translating election events');
+  var stream = gulp.src('./data/elections/election_dates.json');
+  test_states.forEach(function (state, index){
+      primaryJson[state].important_dates.forEach(function(obj,index1) {
+          stream =  stream.pipe(replace(/"spanish_date_type": "(.*)"/, function (match, p1) {
+            var election = obj.date_type;
+            var spanish_title = spanishElectionNames[election].spanish;
+            return ('"spanish_date_type":' + '"' + spanish_title + '"');
+          })).pipe(gulp.dest('./data/elections/'));
+          return stream;
+      });
+  done();
+  });
+});
+
+function foo(state,item,index,key){
+gutil.log(gutil.colors.cyan('modify'), item);
+   gulp.src('./data/elections/election_dates.json')
+  .pipe(jsonModify({
+    key: key,
+    value:"pizza"
+  }))
+    .pipe(gulp.dest('./data/elections/'));
+}
 
 gulp.task('clean-translation', function () {
   gutil.log(gutil.colors.cyan('clean-translation'), 'Removing generated register/ files');
@@ -72,7 +104,7 @@ function populate(fileName,state ){
     .pipe(gulp.dest('./content/es/registrar'));
 }
 
-gulp.task('copy-translation', gulp.series( 'clean-translation', 'copy-content-spanish', 'copy-layouts-spanish', 'copy-links-spanish'  , function (done) {
+gulp.task('copy-translation', gulp.series( 'clean-translation', 'copy-content-spanish', 'copy-layouts-spanish', 'copy-links-spanish','translate-events', function (done) {
   gutil.log(
     gutil.colors.cyan('copy-translation'),
     'Copying files from content/ & layouts/ for translated URLs'
