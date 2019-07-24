@@ -100,7 +100,7 @@ footer {
 
 
 .page-inner {
-  max-width: 63.8rem;
+  max-width: 35rem;
 }
 
 // Home page ------------ //
@@ -160,7 +160,7 @@ footer {
   }
 
   .page-inner {
-    min-height: 50rem;
+    min-height: 35rem;
 
     @include at-media('tablet') {
       min-height: 60rem;
@@ -235,7 +235,7 @@ footer {
 .main-content {
 
   @include at-media('tablet') {
-    min-height: 50rem;
+    min-height: 35rem;
   }
 }
 
