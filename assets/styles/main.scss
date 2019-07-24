@@ -290,7 +290,7 @@ a:hover {
 }
 
 .usa-accordion--bordered .usa-accordion__heading {
-  background-color: ('gray-cool-20') !important;
+  background-color: color('gray-cool-20') !important;
 }
 .usa-accordion--bordered .usa-accordion__content {
    border-color: color('gray-cool-20') !important;
@@ -349,6 +349,7 @@ a:hover {
 
 .usa-button .usa-button--outline {
   float: right;
+
 }
 
 // 404 page ------------ //
