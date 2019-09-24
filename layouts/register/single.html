@@ -5,8 +5,7 @@
     <div id="main-content" role="main">
 
       {{ .Render ( print "types/" .Params.registration_type ) }}
-
-      {{ partial "go-back.html" . }}
+      <div class="section-back-inner"></div>
 
       <footer>
         {{ partial "footer.html" . }}

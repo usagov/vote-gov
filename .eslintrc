@@ -1,10 +1,11 @@
 {
-    "rules": {},
+    "rules": {
+    "for-direction": "off",
+    "getter-return": "off"
+  },
     "env": {
         "node": true,
         "browser": true
     },
-    "extends": [
-      "airbnb-base/legacy"
-    ]
+    "extends": "eslint:recommended"
 }

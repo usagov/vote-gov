@@ -17,7 +17,7 @@ gulp.task('clean-translation', function () {
 
 gulp.task('copy-content-spanish', function (done) {
 
-  return gulp.src('./content/register/*.md')
+  return gulp.src('./content/en/register/*.md')
     .pipe(replace(/title = "(.+)"/, function (match, p1) {
       var name = p1.replace(/\s/g, '-').replace(/\./g, '').toLowerCase();
       var title = spanishStateNames[name].title;
@@ -25,7 +25,7 @@ gulp.task('copy-content-spanish', function (done) {
         'title = "' + title + '"'
       );
     }))
-    .pipe(gulp.dest('./content/registrar'));
+    .pipe(gulp.dest('./content/es/registrar'));
 
 });
 
@@ -47,13 +47,35 @@ gulp.task('copy-layouts-spanish', function (done) {
 
 });
 
-gulp.task('copy-translation', gulp.series( 'clean-translation', 'copy-content-spanish', 'copy-layouts-spanish'  , function (done) {
+gulp.task('copy-links-spanish', function (done) {
+  gutil.log(
+    gutil.colors.cyan('copy-links-spanish'),
+    'Copying links into state.md files.'
+  );
+  for (var state in spanishStateNames) {
+     fileName = "./content/es/registrar/" + spanishStateNames[state].state_abbreviation + ".md"
+     populate(fileName, state);
+   };
+   done();
+});
 
+function populate(fileName,state ){
+  return gulp.src(fileName)
+    .pipe(replace(/external_link = "(.*)"/, function (match,p1) {
+     var link = spanishStateNames[state].external_link;
+     if (link != "" ){
+         return ( 'external_link = "' + link + '"' )
+     } else {
+         return ( 'external_link = "' + p1 + '"' )
+     }
+    }))
+    .pipe(gulp.dest('./content/es/registrar'));
+}
+
+gulp.task('copy-translation', gulp.series( 'clean-translation', 'copy-content-spanish', 'copy-layouts-spanish', 'copy-links-spanish'  , function (done) {
   gutil.log(
     gutil.colors.cyan('copy-translation'),
     'Copying files from content/ & layouts/ for translated URLs'
   );
-  done ();
-
-
+  done();
 }));
