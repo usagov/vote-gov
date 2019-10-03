@@ -58,7 +58,7 @@
     {{ range $key, $form := $.Site.Data.registration_forms }}
       {{ if ne $key $.Site.Params.language }}
         <li>
-          <a href="{{ $form.file_path }}" target="_blank">{{ $form.language }}</a>
+          <a class="usa-link" href="{{ $form.file_path }}" target="_blank">{{ $form.language }}</a>
         </li>
       {{ end }}
     {{ end }}
