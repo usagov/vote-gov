@@ -23,4 +23,4 @@ link = "Ver la guía para votar en %state_name%"
 
 [online]
 body = "Los residentes de %state_name% pueden inscribirse para votar por Internet."
-link = "Regístrese por internet en el sitio web electoral de %state_name%."
+link = "Regístrese por internet en el sitio web electoral de %state_name%"
