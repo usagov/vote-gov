@@ -22,5 +22,5 @@ body = "%state_name% solo requiere que se presente un documento de identificaci�
 link = "Ver la guía para votar en %state_name%"
 
 [online]
-body = "Regístrese por internet en el sitio web electoral de %state_name%."
-link = "Empiece su inscripción por Internet"
+body = "Los residentes de %state_name% pueden inscribirse para votar por Internet."
+link = "Regístrese por internet en el sitio web electoral de %state_name%."
