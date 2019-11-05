@@ -14,7 +14,11 @@
       {{ replace $translation.register.online.link "%state_name%" ( title .Title ) }}
       {{ if and (eq $.Site.Params.language "spanish") (eq .Params.english_only true) }}
         {{ $translation.register.english_only }}
-      {{ else }} {{ end }}
+      {{ else }} 
+        {{ if and (eq $.Site.Params.language "spanish") (eq .Params.select_spanish true) }}
+          {{ $translation.register.select_spanish }}
+      {{end}}
+      {{ end }}
     </a>
   </p>
 </div>
