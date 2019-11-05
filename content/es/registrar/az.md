@@ -5,7 +5,7 @@ registration_type = "online"
 state_abbreviation = "AZ"
 title = "Arizona"
 english_only = false 
-select_spanish = false 
+select_spanish = true 
 spanish_form = false
 
 +++
