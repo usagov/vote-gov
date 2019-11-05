@@ -4,6 +4,8 @@ external_link = "https://voterservices.elections.state.md.us/OnlineVoterRegistra
 registration_type = "online"
 state_abbreviation = "MD"
 title = "Maryland"
-
+english_only = false
+select_spanish = true
+spanish_form = false
 +++
 
