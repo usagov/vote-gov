@@ -14,7 +14,7 @@
   },
   "american-samoa" : {
     "file": "samoa-americana",
-    "title": "Samoa Americana",
+    "title": "American Samoa",
     "state_abbreviation": "as",
     "external_link": ""
   },
@@ -56,7 +56,7 @@
   },
   "washington-dc" : {
     "file": "distrito-de-columbia",
-    "title": "Distrito de Columbia",
+    "title": "District of Columbia",
     "state_abbreviation": "dc",
     "external_link": ""
   },
@@ -80,7 +80,7 @@
   },
   "hawaii" : {
     "file": "hawai",
-    "title": "Hawai",
+    "title": "Hawaii",
     "state_abbreviation": "hi",
     "external_link": ""
   },
@@ -122,7 +122,7 @@
   },
   "louisiana" : {
     "file": "luisiana",
-    "title": "Luisiana",
+    "title": "Louisiana",
     "state_abbreviation": "la",
     "external_link": ""
   },
@@ -158,13 +158,13 @@
   },
   "mississippi" : {
     "file": "misisipi",
-    "title": "Misisipi",
+    "title": "Mississippi",
     "state_abbreviation": "ms",
     "external_link": ""
   },
   "missouri" : {
     "file": "misuri",
-    "title": "Misuri",
+    "title": "Missouri",
     "state_abbreviation": "mo",
     "external_link": ""
   },
@@ -178,7 +178,7 @@
     "file": "nebraska",
     "title": "Nebraska",
     "state_abbreviation": "ne",
-    "external_link": " https://www.nebraska.gov/apps-sos-voter-registration/?lang=es"
+    "external_link": "https://www.nebraska.gov/apps-sos-voter-registration/?lang=es"
   },
   "nevada" : {
     "file": "nevada",
@@ -188,43 +188,43 @@
   },
   "new-hampshire" : {
     "file": "nuevo-hampshire",
-    "title": "Nuevo Hampshire",
+    "title": "New Hampshire",
     "state_abbreviation": "nh",
     "external_link": ""
   },
   "new-jersey" : {
     "file": "nueva-jersey",
-    "title": "Nueva Jersey",
+    "title": "New Jersey",
     "state_abbreviation": "nj",
     "external_link": ""
   },
   "new-mexico" : {
     "file": "nuevo-mexico",
-    "title": "Nuevo México",
+    "title": "New Mexico",
     "state_abbreviation": "nm",
     "external_link": ""
   },
   "new-york" : {
     "file": "nueva-york",
-    "title": "Nueva York",
+    "title": "New York",
     "state_abbreviation": "ny",
     "external_link": ""
   },
   "north-carolina" : {
     "file": "carolina-del-norte",
-    "title": "Carolina del Norte",
+    "title": "North Carolina",
     "state_abbreviation": "nc",
     "external_link": ""
   },
   "north-dakota" : {
     "file": "dakota-del-norte",
-    "title": "Dakota del Norte",
+    "title": "North Dakota",
     "state_abbreviation": "nd",
     "external_link": ""
   },
   "northern-mariana-islands" : {
     "file": "islas-marianas-del-norte",
-    "title": "Islas Marianas del Norte",
+    "title": "Northern Mariana Islands",
     "state_abbreviation": "mp",
     "external_link": ""
   },
@@ -242,13 +242,13 @@
   },
   "oregon" : {
     "file": "oregon",
-    "title": "Oregón",
+    "title": "Oregon",
     "state_abbreviation": "or",
     "external_link": "https://secure.sos.state.or.us/orestar/vr/register.do?lang=spa"
   },
   "pennsylvania" : {
     "file": "pensilvania",
-    "title": "Pensilvania",
+    "title": "Pennsylvania",
     "state_abbreviation": "pa",
     "external_link": ""
   },
@@ -266,13 +266,13 @@
   },
   "south-dakota": {
     "file": "dakota-del-sur",
-    "title": "Dakota del Sur",
+    "title": "South Dakota",
     "state_abbreviation": "sd",
     "external_link": ""
   },
   "south-carolina" : {
     "file": "carolina-del-sur",
-    "title": "Carolina del Sur",
+    "title": "South Carolina",
     "state_abbreviation": "sc",
     "external_link": ""
   },
@@ -290,7 +290,7 @@
   },
   "us-virgin-islands" : {
     "file": "islas-virgenes-de-ee-uu",
-    "title": "Islas Vírgenes de EE. UU.",
+    "title": "U.S. Virgin Islands",
     "state_abbreviation": "vi",
     "external_link": ""
   },
@@ -314,7 +314,7 @@
   },
   "west-virginia" : {
     "file": "virginia-occidental",
-    "title": "Virginia Occidental",
+    "title": "West Virginia",
     "state_abbreviation": "wv",
     "external_link": ""
   },
