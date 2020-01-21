@@ -4,6 +4,9 @@
   <a class="usa-footer__primary-link" href="{{ $translation.footer.privacy_policy_link_url }}">
     {{ $translation.footer.privacy_policy }}
   </a>
+  <a class="usa-footer__logo usa-media-link" href="{{ $translation.footer.eac_link }}">
+    <img class="eac-logo-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.eac_img }}" alt="EAC.gov logo">
+  </a>
   <a class="usa-footer__logo usa-media-link" href="{{ $translation.footer.usagov_link }}">
     {{ if eq $.Site.Params.language "spanish" }}
       <img class="spanish-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}" alt="USA.gov en español logo">
