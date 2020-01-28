@@ -1,6 +1,6 @@
 +++
 date = "2016-05-26T21:43:04-04:00"
-external_link = "https://wei.sos.wa.gov/agency/osos/en/pages/myvote.aspx"
+external_link = "https://voter.votewa.gov/WhereToVote.aspx"
 registration_type = "online"
 state_abbreviation = "WA"
 title = "Washington"

@@ -3,7 +3,7 @@
     "file": "alabama",
     "title": "Alabama",
     "state_abbreviation": "al",
-    "external_link": ""
+    "external_link": "https://www.alabamainteractive.org/sos/voter_registration/"
   },
   "alaska" : {
     "file": "alaska",
@@ -16,13 +16,13 @@
     "file": "samoa-americana",
     "title": "American Samoa",
     "state_abbreviation": "as",
-    "external_link": ""
+    "external_link": "https://americansamoaelectionoffice.org/"
   },
   "arizona" : {
     "file": "arizona",
     "title": "Arizona",
     "state_abbreviation": "az",
-    "external_link": ""
+    "external_link": "https://servicearizona.com/webapp/evoter/selectLanguage"
   },
   "arkansas" : {
     "file": "arkansas",
@@ -52,7 +52,7 @@
     "file": "delaware",
     "title": "Delaware",
     "state_abbreviation": "de",
-    "external_link": ""
+    "external_link": "https://ivote.de.gov/VoterView/?culture=es-MX"
   },
   "washington-dc" : {
     "file": "distrito-de-columbia",
@@ -64,7 +64,7 @@
     "file": "florida",
     "title": "Florida",
     "state_abbreviation": "fl",
-    "external_link": ""
+    "external_link": "https://registertovoteflorida.gov/home"
   },
   "georgia" : {
     "file": "georgia",
@@ -184,7 +184,7 @@
     "file": "nevada",
     "title": "Nevada",
     "state_abbreviation": "nv",
-    "external_link": ""
+    "external_link": "https://www.nvsos.gov/sosvoterservices/Registration/Step0.aspx"
   },
   "new-hampshire" : {
     "file": "nuevo-hampshire",
@@ -208,7 +208,7 @@
     "file": "nueva-york",
     "title": "New York",
     "state_abbreviation": "ny",
-    "external_link": ""
+    "external_link": "https://dmv.ny.gov/more-info/electronic-voter-registration-application"
   },
   "north-carolina" : {
     "file": "carolina-del-norte",
@@ -250,7 +250,7 @@
     "file": "pensilvania",
     "title": "Pennsylvania",
     "state_abbreviation": "pa",
-    "external_link": ""
+    "external_link": "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx"
   },
   "puerto-rico" : {
     "file": "puerto-rico",
@@ -316,19 +316,19 @@
     "file": "virginia-occidental",
     "title": "West Virginia",
     "state_abbreviation": "wv",
-    "external_link": ""
+    "external_link": "https://ovr.sos.wv.gov/Register/Landing"
   },
   "washington" : {
     "file": "washington",
     "title": "Washington",
     "state_abbreviation": "wa",
-    "external_link": ""
+    "external_link": "https://voter.votewa.gov/WhereToVote.aspx"
   },
   "wisconsin" : {
     "file": "wisconsin",
     "title": "Wisconsin",
     "state_abbreviation": "wi",
-    "external_link": "https://myvote.wi.gov/es-es/RegisterToVote/"
+    "external_link": "https://myvote.wi.gov/es-es/RegisterToVote"
   },
   "wyoming" : {
     "file": "wyoming",
