@@ -53,6 +53,8 @@ h1 {
   a {
     color: color('secondary-dark');
     text-decoration: none;
+    background: url("../img/ballot_box-blue.svg") 0px 0 no-repeat;
+    padding: .5em 0em .5em 2em;
   }
 }
 
@@ -129,6 +131,8 @@ footer {
   .site-logo {
     a {
       color: color('white');
+      background: url("../img/ballot_box-blue.svg") 0px 0 no-repeat;
+      padding: .5em 0em .5em 2em;
     }
   }
 
