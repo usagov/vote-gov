@@ -6,7 +6,7 @@
     <div class="site-logo" id="logo">
       <h1>
       {{ if eq $.Site.Params.language "english" }}
-        <a href="{{ .Site.BaseURL }}" accesskey="1" title="Home" aria-label="Home">
+        <a href="{{ .Site.BaseURL }}/" accesskey="1" title="Home" aria-label="Home">
         {{ $translation.micro_copy.domain }}
       {{ else }}
         <a href="{{ .Site.BaseURL }}/es/" accesskey="1" title="Home" aria-label="Home"> Vote.gov en Español</a>
