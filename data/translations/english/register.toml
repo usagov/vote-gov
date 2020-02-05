@@ -16,9 +16,9 @@ body = "Register in person at your local election office."
 link = "Learn more about how to register on %state_name%'s elections website."
 
 [not_needed]
-heading = "No registration needed"
-body = "%state_name% only requires that you bring a valid state ID to your polling place."
-link = "Learn more about voting in %state_name%."
+heading = "No registration needed in %state_name%"
+body = "Bring a valid state ID to your polling place."
+link = "Learn more about voting on %state_name%'s election website."
 
 [online]
 
