@@ -1,4 +1,4 @@
-heading = "Register to vote"
+heading = "Register to vote in %state_name%"
 
 [by_mail]
 body = "%state_name% allows residents to register by mail, not online."
@@ -21,5 +21,5 @@ body = "%state_name% only requires that you bring a valid state ID to your polli
 link = "Learn more about voting in %state_name%."
 
 [online]
-body = "%state_name% allows residents to register online."
-link = "Register online on %state_name%'s election website."
+
+link = "Start your online registration on %state_name%'s election website."
