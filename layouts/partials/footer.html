@@ -1,17 +1,44 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
-
 <div class="grid-container">
+  <form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
+    <h3>{{ $translation.footer.subscribe_email }}</h3>
+
+        <label class="" for="email-2" id="emailsub">{{ $translation.footer.your_email_address }}</label>
+        <input id="email-2" name="email" type="email">
+
+        <button class="usa-button usa-button--secondary" id="js-user-submit" type="submit">
+          {{ $translation.footer.sign_up }}
+        </button>
+       </form>
+</div>
+
+
+<div class="footer-bottom">
   <a class="usa-footer__primary-link" href="{{ $translation.footer.privacy_policy_link_url }}">
-    {{ $translation.footer.privacy_policy }}
-  </a>
-  <a class="usa-footer__logo usa-media-link" href="{{ $translation.footer.eac_link }}">
-    <img class="eac-logo-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.eac_img }}" alt="EAC.gov logo">
-  </a>
-  <a class="usa-footer__logo usa-media-link" href="{{ $translation.footer.usagov_link }}">
+    {{ $translation.footer.privacy_policy }}</a>
+    <a class="usa-media-link" href="{{ $translation.footer.twitter_link }}">
+      <img class="twitter-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.twitter_img }}" alt="twitter">
+    </a>
+  
+<a class="usa-footer__logo usa-media-link" href="{{ $translation.footer.eac_link }}">
+     
+  {{ if eq $.Site.Params.language "spanish" }}
+    <img class="eac-logo-sp-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.eac_img }}" alt="EAC.gov logo">
+  {{ else }}
+  <img class="eac-logo-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.eac_img }}" alt="EAC.gov logo">
+  {{ end }}
+ </a>
+
+
+
+
+    <a class="usa-footer__logo usa-media-link" href="{{ $translation.footer.usagov_link }}">
     {{ if eq $.Site.Params.language "spanish" }}
       <img class="spanish-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}" alt="USA.gov en español logo">
     {{ else }}
       <img class="english-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}" alt="USA.gov logo">
     {{ end }}
-  </a>
+  </a> 
 </div>
+
+
