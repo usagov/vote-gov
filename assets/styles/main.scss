@@ -208,7 +208,11 @@ footer {
   .page-vote-main {
     background-image: linear-gradient($color-blue-light 66%, $color-blue-dark 100%);
     margin-top: -1px; /*remove the white line*/
-    height: 58rem;
+    height: 57rem;
+
+    @include at-media('tablet'){
+      height: 58rem;
+    }
   }
   
   .page-section {

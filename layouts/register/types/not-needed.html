@@ -4,7 +4,7 @@
 <div class="grid-container page-inner main-content">
   <header>
     <h1>
-      {{ $translation.register.not_needed.heading }}
+      {{ replace $translation.register.heading "%state_name%" ( title .Title ) }}
     </h1>
   </header>
   <p class="usa-intro">
