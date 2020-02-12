@@ -143,12 +143,6 @@ footer {
     }
   }
 
-  /*@media all and (max-width: 375px) and (min-width: 341px) {
-    .eac-logo-img {
-      margin-right: 20px;
-    }
-  }
-*/
   @media  all and (max-width: 479px)and (min-width: 376px) {
     .eac-logo-img {
       margin-right: 40px;
@@ -208,9 +202,13 @@ footer {
   .page-vote-main {
     background-image: linear-gradient($color-blue-light 66%, $color-blue-dark 100%);
     margin-top: -1px; /*remove the white line*/
-    height: 58rem;
+    height: 57rem;
+
+    @include at-media('tablet'){
+      height: 58rem;
+    }
   }
-  
+
   .page-section {
     max-width: 63.3rem;
     margin-left: auto;
@@ -222,7 +220,6 @@ footer {
         text-align: center;
       }
     }
-
   }
 
   .page-inner {
@@ -312,10 +309,6 @@ footer {
   margin-top: 30px;
   text-align: center;
 
- /*@include at-media('mobile-lg') {
-    padding: 2rem;
-  }
-*/
   @include at-media('tablet') {
     text-align: left;
     padding: 2rem;
