@@ -4,14 +4,14 @@
 <div class="grid-container page-inner main-content">
   <header>
     <h1>
-      {{ $translation.register.heading }}
+      {{ replace $translation.heading "%state_name%" ( title .Title ) }}
     </h1>
   </header>
   <p class="usa-intro">
     {{ replace $translation.register.in_person.body "%state_name%" ( title .Title ) }}
   </p>
   <p>
-    <a href="{{ .Params.external_link }}">
+    <a  class="reg-link" href="{{ .Params.external_link }}">
       {{ replace $translation.register.in_person.link "%state_name%" ( title .Title ) }}
       {{ if and (eq $.Site.Params.language "spanish") (eq .Params.english_only true) }}
         {{ $translation.register.english_only }}

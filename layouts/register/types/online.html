@@ -3,14 +3,14 @@
 <div class="grid-container page-inner main-content">
   <header>
     <h1>
-      {{ $translation.register.heading }}
+      {{ replace $translation.register.heading "%state_name%" ( title .Title ) }}
     </h1>
   </header>
   <p class="usa-intro">
     {{ replace $translation.register.online.body "%state_name%" ( title .Title ) }}
   </p>
   <p>
-    <a href="{{ .Params.external_link }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+    <a  class="reg-link" href="{{ .Params.external_link }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
       {{ replace $translation.register.online.link "%state_name%" ( title .Title ) }}
       {{ if and (eq $.Site.Params.language "spanish") (eq .Params.english_only true) }}
         {{ $translation.register.english_only }}

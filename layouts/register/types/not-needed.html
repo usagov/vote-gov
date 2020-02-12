@@ -11,7 +11,7 @@
     {{ replace $translation.register.not_needed.body "%state_name%" ( title .Title ) }}
   </p>
   <p>
-    <a href="{{ .Params.external_link }}?ref={{ .Site.Params.Referrer_Short_Code }}">
+    <a  class="reg-link" href="{{ .Params.external_link }}?ref={{ .Site.Params.Referrer_Short_Code }}">
       {{ replace $translation.register.not_needed.link "%state_name%" ( title .Title ) }}
     </a>
   </p>
