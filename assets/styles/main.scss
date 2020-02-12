@@ -143,12 +143,6 @@ footer {
     }
   }
 
-  /*@media all and (max-width: 375px) and (min-width: 341px) {
-    .eac-logo-img {
-      margin-right: 20px;
-    }
-  }
-*/
   @media  all and (max-width: 479px)and (min-width: 376px) {
     .eac-logo-img {
       margin-right: 40px;
@@ -214,7 +208,7 @@ footer {
       height: 58rem;
     }
   }
-  
+
   .page-section {
     max-width: 63.3rem;
     margin-left: auto;
@@ -226,7 +220,6 @@ footer {
         text-align: center;
       }
     }
-
   }
 
   .page-inner {
@@ -316,10 +309,6 @@ footer {
   margin-top: 30px;
   text-align: center;
 
- /*@include at-media('mobile-lg') {
-    padding: 2rem;
-  }
-*/
   @include at-media('tablet') {
     text-align: left;
     padding: 2rem;
