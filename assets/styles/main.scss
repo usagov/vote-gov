@@ -8,6 +8,7 @@ $font-light: 300;
 $inner-box-width: 25rem;
 $color-blue-dark: #003366;
 $color-blue-light: #0071bc;
+$theme-color-base-family: #dcdee0;
 
 // Styles --------------- //
 
@@ -89,6 +90,10 @@ footer {
 .usa-footer__logo {
   float: right;
 
+  @include at-media('tablet') {
+    text-align: center;
+  }
+
   .spanish-img {
     margin-top: 3px;
     max-width: 6.5rem;
@@ -96,15 +101,66 @@ footer {
 
   .english-img {
     margin-top: 2px;
-    max-width: 2.875rem;
+    max-width: 2.5rem;
   }
-  
-   .eac-logo-img {
+
+  .eac-logo-img {
     margin-top: 2px;
     max-width: 13rem;
+    margin-right: 0px;
+  } 
+  
+  .eac-logo-sp-img {
+    margin-top: 2px;
+    max-width: 13rem;
+    margin-right: 0px;
+  }  
+
+  @media all and (max-width: 340px) and (min-width: 321px) {
+    .eac-logo-img {
+      margin-right: 10px;
+    }
+  }
+
+  @media all and (max-width: 355px) and (min-width: 320px) {
+    .eac-logo-sp-img {
+      max-width: 10rem;
+      margin-right: 0px;
+    }
+
+    .spanish-img{
+      max-width: 5rem;
+    }
+  }
+  
+  @media all and (max-width: 479px) and (min-width: 376px) {
+    .eac-logo-sp-img {
+      margin-right: 0px;
+    }
+  }
+  @media all and (max-width: 639px) and (min-width: 480px) {
+    .eac-logo-sp-img {
+      margin-right: 50px;
+    }
+  }
+
+  @media all and (max-width: 375px) and (min-width: 341px) {
+    .eac-logo-img {
+      margin-right: 20px;
+    }
+  }
+
+  @media  all and (max-width: 479px)and (min-width: 376px) {
+    .eac-logo-img {
+      margin-right: 40px;
+    }
   }
 }
 
+.twitter-img {
+  margin: 0px 0px -10px 8px;  
+  float: left;
+}
 
 .page-inner {
   max-width: 35rem;
@@ -152,6 +208,7 @@ footer {
 
   .page-vote-main {
     background-image: linear-gradient($color-blue-light 66%, $color-blue-dark 100%);
+    margin-top: -1px; /*remove the white line*/
   }
 
   .page-section {
@@ -217,6 +274,53 @@ footer {
   }
 }
 
+.form-signup {
+  margin: 0 auto;
+
+  @include at-media('tablet') {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  h3 {
+    margin-top: 5em;
+  }
+
+  @include at-media('tablet') {
+    max-width: $inner-box-width;
+  }
+
+  [type="submit"] {
+    width: 50%;
+  }
+}
+
+#emailsub{
+  color: color('black');
+}
+
+#email-2 {
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  display: block;
+  width: 100%;
+}
+
+.footer-bottom {
+  background-color: $theme-color-base-family;
+  padding: 2rem 2rem 8rem 2rem;
+  margin-top: 30px;
+  text-align: center;
+
+  /*@include at-media('mobile-lg') {
+    padding: 2rem;
+  }*/
+
+  @include at-media('tablet') {
+    text-align: left;
+  }
+}
+
 .voter-resources {
   margin: 0 auto;
 
@@ -230,14 +334,22 @@ footer {
 
   img {
     bottom: 44px;
+    bottom: 70px;
     left: 0;
     margin: 0 auto;
     position: absolute;
     right: 0;
     text-align: center;
     width: 10.9375rem;
+    width: 6rem;
+
+    @include at-media('tablet') {
+      bottom: 44px;
+      width: 10.9375rem;
+    }
   }
 }
+
 
 // Inner pages ---------- //
 
@@ -362,5 +474,5 @@ a:hover {
       @include h2();
       margin-top: 2rem;
     }
-  }
+}
 }
