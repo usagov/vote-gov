@@ -21,5 +21,4 @@ body = "Bring a valid state ID to your polling place."
 link = "Learn more about voting on %state_name%’s election website."
 
 [online]
-body = "%state_name% allows residents to register online."
-link = "Register online on %state_name%’s election website."
+link = "Start your online registration on %state_name%’s election website."
