@@ -12,14 +12,13 @@ download = "Download the form (PDF)"
 download_others = "Download the form in other languages:"
 
 [in_person]
-body = "%state_name% requires residents to register in person at their local election office."
-link = "Visit the %state_name% elections site to find out how to register."
+body = "Register in person at your local election office."
+link = "Learn more about how to register on %state_name%’s election website."
 
 [not_needed]
 heading = "No registration needed"
-body = "%state_name% only requires that you bring a valid state ID to your polling place."
-link = "Learn more about voting in %state_name%."
+body = "Bring a valid state ID to your polling place."
+link = "Learn more about voting on %state_name%’s election website."
 
 [online]
-body = "%state_name% allows residents to register online."
-link = "Register online on %state_name%'s election website."
+link = "Start your online registration on %state_name%’s election website."
