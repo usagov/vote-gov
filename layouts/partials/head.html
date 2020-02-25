@@ -31,8 +31,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="description" content="{{ $translation.meta.description }}" />
     <meta property="og:description" content="{{ $translation.meta.description }}" />
     <meta property="og:image" content="{{ .Site.BaseURL }}/assets/img/ballot-box-OG.png" />
-
+    <meta name="twitter:widgets:autoload" content="off">
+    <meta name="twitter:dnt" content="on">
+    <meta name="twitter:widgets:csp" content="on">
+    <link rel="me" href="{{ $translation.footer.twitter_link }}">
     <link rel="canonical" href="{{ .Site.BaseURL }}" />
+
 
     <!-- Favicons
     ================================================== -->

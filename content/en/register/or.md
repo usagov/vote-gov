@@ -5,5 +5,5 @@ registration_type = "online"
 state_abbreviation = "OR"
 title = "Oregon"
 english_only = false 
-
+selecciones_link = true
 +++
