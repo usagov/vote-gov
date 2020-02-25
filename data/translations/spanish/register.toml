@@ -15,15 +15,14 @@ step_three_label = "Paso 3"
 step_three = "¡Vote en las próximas elecciones!"
 
 [in_person]
-body = "%state_name% requiere que sus residentes se inscriban para votar en persona en su oficina electoral local."
-link = "Visite el sitio web de la oficina electoral de %state_name% para averiguar cómo registrarse para votar"
+body = "Inscríbase en persona en la oficina electoral local de %state_name%." 
+link = "Visite el sitio web de %state_name% para más información sobre cómo inscribirse."
 
 [not_needed]
 heading = "No requiere estar registrado(a) para votar"
-body = "%state_name% solo requiere que se presente un documento de identificación personal válido en su centro de votación."
-link = "Ver la guía para votar en %state_name%"
+body = "Presente un documento de identificación válido en su lugar de votación."
+link = "Para más información sobre cómo votar, visite el sitio web electoral de %state_name%"  
 
 [online]
-body = "Los residentes de %state_name% pueden inscribirse para votar por Internet."
-link = "Regístrese por internet en el sitio web electoral de %state_name%"
+link = "Empiece su inscripción por internet en el sitio web electoral de %state_name%" 
 link2 = "- selecciones Español"
