@@ -16,7 +16,7 @@ step_three = "¡Vote en las próximas elecciones!"
 
 [in_person]
 body = "Inscríbase en persona en la oficina electoral local de %state_name%." 
-link = "Visite el sitio web de %state_name% para más información sobre cómo inscribirse."
+link = "Visite el sitio web de %state_name% para más información sobre cómo inscribirse"
 
 [not_needed]
 heading = "No requiere estar registrado(a) para votar"
