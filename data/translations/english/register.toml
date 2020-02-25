@@ -13,7 +13,7 @@ download_others = "Download the form in other languages:"
 
 [in_person]
 body = "Register in person at your local election office."
-link = "Learn more about how to register on %state_name%'s election website."
+link = "Learn more about how to register on %state_name%’s election website."
 
 [not_needed]
 heading = "No registration needed"
@@ -22,4 +22,4 @@ link = "Learn more about voting on %state_name%’s election website."
 
 [online]
 body = "%state_name% allows residents to register online."
-link = "Register online on %state_name%'s election website."
+link = "Register online on %state_name%’s election website."
