@@ -13,6 +13,9 @@
   <p>
     <a  class="reg-link" href="{{ .Params.external_link }}?ref={{ .Site.Params.Referrer_Short_Code }}">
       {{ replace $translation.register.not_needed.link "%state_name%" ( title .Title ) }}
+      {{ if and (eq $.Site.Params.language "spanish") (eq .Params.english_only true) }}
+        {{ $translation.register.english_only }}
+      {{ else }} {{ end }}
     </a>
   </p>
 </div>
