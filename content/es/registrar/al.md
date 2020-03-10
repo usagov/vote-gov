@@ -1,6 +1,6 @@
 +++
 date = "2016-05-26T17:17:04-04:00"
-external_link = "https://www.alabamainteractive.org/sos/voter_registration/"
+external_link = "https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action"
 registration_type = "online"
 state_abbreviation = "AL"
 title = "Alabama"
