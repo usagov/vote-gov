@@ -19,8 +19,7 @@ body = "Inscríbase en persona en la oficina electoral local."
 link = "Visite el sitio web de %state_name% para más información sobre cómo inscribirse"
 
 [not_needed]
-heading = "No requiere estar registrado(a) para votar"
-body = "Presente un documento de identificación válido en su lugar de votación."
+body = "%state_name% no requere inscripción para votar."
 link = "Para más información sobre cómo votar, visite el sitio web electoral de %state_name%"  
 
 [online]
