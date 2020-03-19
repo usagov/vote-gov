@@ -1,6 +1,6 @@
 +++
 date = "2016-05-10T09:54:01-04:00"
-external_link = "https://soswy.state.wy.us/elections/"
+external_link = "https://soswy.state.wy.us/Elections/State/RegisteringToVote.aspx"
 registration_type = "in-person"
 state_abbreviation = "WY"
 title = "Wyoming"
