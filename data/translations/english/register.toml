@@ -8,7 +8,7 @@ step_two_label = "Step 2"
 step_two = "Mail it to your state."
 step_three_label = "Step 3"
 step_three = "Vote in the upcoming election!"
-download = "Download the National Voter Registration form (PDF)"
+download = "Download the National Voter Registration Form (PDF)"
 download_others = "Download the form in other languages:"
 
 [in_person]
