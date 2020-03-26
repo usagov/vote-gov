@@ -3,12 +3,12 @@ heading = "Register to vote in %state_name%"
 [by_mail]
 body = "%state_name% allows residents to register by mail, not online."
 step_one_label = "Step 1"
-step_one = "Fill out your voter registration."
+step_one = "Fill out National Voter Registration Form."
 step_two_label = "Step 2"
 step_two = "Mail it to your state."
 step_three_label = "Step 3"
 step_three = "Vote in the upcoming election!"
-download = "Download the form (PDF)"
+download = "Download the National Voter Registration Form (PDF)"
 download_others = "Download the form in other languages:"
 
 [in_person]
