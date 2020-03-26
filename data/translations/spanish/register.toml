@@ -4,7 +4,7 @@ select_spanish ="- seleccione la opción para español"
 selecciones_link = "(seleccione español)"
 
 [by_mail]
-body = "Los residentes de %state_name% pueden inscribirse para votar por correo postal."
+body = "Los residentes de %state_name% deben inscribirse para votar por correo postal."
 download = "Descargue el formulario nacional de inscripción de votantes (PDF)"
 download_others = "Descargue el formulario en otros idiomas:"
 step_one_label = "Paso 1"
