@@ -21,3 +21,4 @@ link = "Learn more about voting on %state_name%’s election website."
 
 [online]
 link = "Start your online registration on %state_name%’s election website."
+link2 = "Find out other ways to register to vote in %state name%."
