@@ -72,6 +72,19 @@ function populate(fileName,state ){
     .pipe(gulp.dest('./content/es/registrar'));
 }
 
+function populate(fileName,state ){
+  return gulp.src(fileName)
+    .pipe(replace(/external_link2 = "(.*)"/, function (match,p1) {
+     var link2 = spanishStateNames[state].external_link2;
+     if (link2 != "" ){
+         return ( 'external_link2 = "' + link2 + '"' )
+     } else {
+         return ( 'external_link2 = "' + p1 + '"' )
+     }
+    }))
+    .pipe(gulp.dest('./content/es/registrar'));
+}
+
 gulp.task('copy-translation', gulp.series( 'clean-translation', 'copy-content-spanish', 'copy-layouts-spanish', 'copy-links-spanish'  , function (done) {
   gutil.log(
     gutil.colors.cyan('copy-translation'),

@@ -22,7 +22,8 @@
     "file": "arizona",
     "title": "Arizona",
     "state_abbreviation": "az",
-    "external_link": "https://servicearizona.com/webapp/evoter/selectLanguage"
+    "external_link": "https://servicearizona.com/webapp/evoter/selectLanguage",
+    "external_link2": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information-sp"
   },
   "arkansas" : {
     "file": "arkansas",
