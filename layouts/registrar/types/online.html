@@ -12,17 +12,24 @@
   <p> 
     <a  class="reg-link" href="{{ .Params.external_link }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
       {{ replace $translation.register.online.link "%state_name%" ( title .Title )}} 
-    <br><br>
-      <a  class="reg-link" href="{{ .Params.external_link2 }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
-        {{replace $translation.register.online.link2 "%state_name%" ( title .Title )}}
-      
-        {{ if and (eq $.Site.Params.language "spanish") (eq .Params.english_only true) }}
+         
+      {{ if and (eq $.Site.Params.language "spanish") (eq .Params.english_only true) }}
         {{ $translation.register.english_only }}
       {{ else if and (eq $.Site.Params.language "spanish") (eq .Params.selecciones_link true) }} 
         {{ $translation.register.selecciones_link }}
-        {{ end }}
+      {{ end }} 
+        <br><br>
+     <a  class="reg-link" href="{{ .Params.external_link2 }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+      {{replace $translation.register.online.link2 "%state_name%" ( title .Title )}}
+        
+      {{ if and (eq $.Site.Params.language "spanish") (eq .Params.english_only true) }}
+        {{ $translation.register.english_only }}
+      {{ else if and (eq $.Site.Params.language "spanish") (eq .Params.selecciones_link2 true) }} 
+        {{ $translation.register.selecciones_link }}
+      {{ end }} 
+     
 
-    </a>
-  </p>
-</div>
+      </a>
+    </p>
+  </div>
 <!-- Register END -->
