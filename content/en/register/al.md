@@ -6,5 +6,6 @@ registration_type = "online"
 state_abbreviation = "AL"
 title = "Alabama"
 english_only = true
+selecciones_link2 = false
 
 +++
