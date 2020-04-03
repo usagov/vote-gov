@@ -38,7 +38,8 @@
     "file": "california",
     "title": "California",
     "state_abbreviation": "ca",
-    "external_link": "https://registertovote.ca.gov/es/"
+    "external_link": "https://registertovote.ca.gov/es/",
+    "external_link2": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote/"
   },
   "colorado" : {
     "file": "colorado",
