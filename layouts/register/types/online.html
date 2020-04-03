@@ -15,15 +15,23 @@
          
       {{ if and (eq $.Site.Params.language "spanish") (eq .Params.english_only true) }}
         {{ $translation.register.english_only }}
+      {{ else if and (eq $.Site.Params.language "spanish") (eq .Params.selecciones_link false) }}
+        {{ $translation.register.english_only }}
+      {{ else if and (eq $.Site.Params.language "spanish") (eq .Params.english_only false) }}
+        {{ $translation.register.selecciones_link }}
       {{ else if and (eq $.Site.Params.language "spanish") (eq .Params.selecciones_link true) }} 
         {{ $translation.register.selecciones_link }}
       {{ end }} 
         <br><br>
-     <a  class="reg-link" href="{{ .Params.external_link2 }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+    <a  class="reg-link" href="{{ .Params.external_link2 }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
       {{replace $translation.register.online.link2 "%state_name%" ( title .Title )}}
         
       {{ if and (eq $.Site.Params.language "spanish") (eq .Params.english_only true) }}
         {{ $translation.register.english_only }}
+      {{ else if and (eq $.Site.Params.language "spanish") (eq .Params.selecciones_link2 false) }}
+        {{ $translation.register.english_only }}
+      {{ else if and (eq $.Site.Params.language "spanish") (eq .Params.english_only false) }}
+        {{ $translation.register.selecciones_link }}
       {{ else if and (eq $.Site.Params.language "spanish") (eq .Params.selecciones_link2 true) }} 
         {{ $translation.register.selecciones_link }}
       {{ end }} 
