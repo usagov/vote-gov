@@ -5,7 +5,7 @@ external_link2 = "http://www.elections.alaska.gov/Core/voterregistration.php"
 registration_type = "online"
 state_abbreviation = "AK"
 title = "Alaska"
-english_only = true
+english_only = false
 
 
 +++
