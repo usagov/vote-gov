@@ -5,7 +5,6 @@ external_link2 = "https://portal.ct.gov/SOTS/Election-Services/Voter-Information
 registration_type = "online"
 state_abbreviation = "CT"
 title = "Connecticut"
-english_only = false
 selecciones_link = true
 selecciones_link2 = false
 +++

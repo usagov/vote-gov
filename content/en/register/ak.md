@@ -6,6 +6,6 @@ registration_type = "online"
 state_abbreviation = "AK"
 title = "Alaska"
 english_only = true
-selecciones_link2 = false
+
 
 +++

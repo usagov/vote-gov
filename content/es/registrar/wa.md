@@ -4,6 +4,6 @@ external_link = "https://voter.votewa.gov/WhereToVote.aspx"
 registration_type = "online"
 state_abbreviation = "WA"
 title = "Washington"
-
+english_only = false 
+selecciones_link = true
 +++
-

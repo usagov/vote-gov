@@ -4,6 +4,6 @@ external_link = "https://secure.sos.state.or.us/orestar/vr/register.do"
 registration_type = "online"
 state_abbreviation = "OR"
 title = "Oregon"
-
+english_only = false 
+selecciones_link = true
 +++
-

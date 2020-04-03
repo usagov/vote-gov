@@ -4,5 +4,6 @@ external_link = "https://dmv.ny.gov/more-info/electronic-voter-registration-appl
 registration_type = "online"
 state_abbreviation = "ny"
 title = "New York"
-+++
+english_only = true
 
++++

@@ -3,7 +3,8 @@
     "file": "alabama",
     "title": "Alabama",
     "state_abbreviation": "al",
-    "external_link": "https://www.alabamainteractive.org/sos/voter_registration/"
+    "external_link": "https://www.alabamainteractive.org/sos/voter_registration/",
+    "external_link2": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote"
     
   },
   "alaska" : {
@@ -66,7 +67,8 @@
     "file": "florida",
     "title": "Florida",
     "state_abbreviation": "fl",
-    "external_link": "https://registertovoteflorida.gov/home"
+    "external_link": "https://registertovoteflorida.gov/home",
+    "external_link2": "https://registertovoteflorida.gov/home"
   },
   "georgia" : {
     "file": "georgia",

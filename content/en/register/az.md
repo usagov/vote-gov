@@ -5,7 +5,6 @@ external_link2 = "https://azsos.gov/elections/voting-election/register-vote-or-u
 registration_type = "online"
 state_abbreviation = "AZ"
 title = "Arizona"
-english_only = false 
 selecciones_link = true
 selecciones_link2 = false
 
