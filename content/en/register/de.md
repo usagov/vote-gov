@@ -5,5 +5,6 @@ registration_type = "online"
 state_abbreviation = "DE"
 title = "Delaware"
 english_only = false
+selecciones_link = true
 
 +++
