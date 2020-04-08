@@ -5,7 +5,7 @@ external_link2 = "https://elections.delaware.gov/voter/votereg.shtml"
 registration_type = "online"
 state_abbreviation = "DE"
 title = "Delaware"
-english_only = true
-selecciones_link2 = false
+english_only = false
+english_only2 = true
 
 +++

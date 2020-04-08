@@ -11,9 +11,10 @@
     "file": "alaska",
     "title": "Alaska",
     "state_abbreviation": "ak",
-    "external_link": ""
-
+    "external_link": "https://voterregistration.alaska.gov/",
+    "external_link2": "http://www.elections.alaska.gov/Core/spanishinformation.php"
   },
+  
   "american-samoa" : {
     "file": "samoa-americana",
     "title": "American Samoa",
@@ -37,7 +38,8 @@
     "file": "california",
     "title": "California",
     "state_abbreviation": "ca",
-    "external_link": "https://registertovote.ca.gov/es/"
+    "external_link": "https://registertovote.ca.gov/es/",
+    "external_link2": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote/"
   },
   "colorado" : {
     "file": "colorado",
@@ -55,7 +57,8 @@
     "file": "delaware",
     "title": "Delaware",
     "state_abbreviation": "de",
-    "external_link": "https://ivote.de.gov/VoterView/?culture=es-MX"
+    "external_link": "https://ivote.de.gov/voterview/?culture=es-MX",
+    "external_link2": "https://elections.delaware.gov/voter/votereg.shtml"
   },
   "washington-dc" : {
     "file": "distrito-de-columbia",

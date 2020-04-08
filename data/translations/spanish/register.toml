@@ -1,7 +1,10 @@
 heading = "Inscríbase para votar en %state_name%"
 english_only = "(en inglés)"
+english_only2 = "(en inglés)"
+no_english = ""
 select_spanish ="- seleccione la opción para español"
 selecciones_link = "(seleccione español)"
+no_selecciones_link = ""
 
 [by_mail]
 body = "Los residentes de %state_name% pueden inscribirse para votar por correo postal."
