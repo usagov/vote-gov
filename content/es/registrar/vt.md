@@ -1,9 +1,11 @@
 +++
-date = "2016-05-26T21:42:25-04:00"
-external_link = "https://olvr.sec.state.vt.us/"
+
+state_name = "Vermont"
+state_abbreviation = "vt"
 registration_type = "online"
-state_abbreviation = "VT"
-title = "Vermont"
-english_only = true
+registration_link = "https://sos.vermont.gov/elections/voters/registration/"
+registration_link_english_only = "true"
+more_info_link = "https://olvr.vermont.gov/"
+more_info_link_english_only = "true"
 
 +++

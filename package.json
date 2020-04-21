@@ -18,6 +18,7 @@
     "federalist": "npm run build",
     "build": "gulp buildWebsite",
     "start": "gulp website",
+    "watch": "gulp watch",
     "test": "gulp test",
     "deploy": "gulp deploy"
   },

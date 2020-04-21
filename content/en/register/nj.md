@@ -1,9 +1,7 @@
 +++
-date = "2016-05-26T17:17:09-04:00"
-external_link = ""
+
+state_name = "New Jersey"
+state_abbreviation = "nj"
 registration_type = "by-mail"
-state_abbreviation = "NJ"
-title = "New Jersey"
-english_only = false 
 
 +++

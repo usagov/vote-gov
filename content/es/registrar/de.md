@@ -1,11 +1,10 @@
 +++
-date = "2016-05-26T17:17:05-04:00"
-external_link = "https://ivote.de.gov/voterview/?culture=es-MX"
-external_link2 = "https://elections.delaware.gov/voter/votereg.shtml"
+
+state_name = "Delaware"
+state_abbreviation = "de"
 registration_type = "online"
-state_abbreviation = "DE"
-title = "Delaware"
-english_only = false
-selecciones_link2 = false
+registration_link = "https://ivote.de.gov/voterview/?culture=es-MX"
+more_info_link = "https://elections.delaware.gov/voter/votereg.shtml"
+more_info_link_english_only = "true"
 
 +++

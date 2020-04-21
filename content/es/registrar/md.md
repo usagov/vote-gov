@@ -1,11 +1,11 @@
 +++
-date = "2016-05-26T17:17:07-04:00"
-external_link = "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1"
-external_link2 = "undefined"
+
+state_name = "Maryland"
+state_abbreviation = "md"
 registration_type = "online"
-state_abbreviation = "MD"
-title = "Maryland"
-english_only = false 
-selecciones_link = true
-selecciones_link2 = false
+registration_link = "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1"
+registration_link_spanish_selection = "true"
+more_info_link = "https://www.elections.maryland.gov/voter_registration/application.html"
+more_info_link_english_only = "true"
+
 +++
