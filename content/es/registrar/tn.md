@@ -1,9 +1,11 @@
 +++
-date = "2016-05-26T17:17:10-04:00"
-external_link = "https://ovr.govote.tn.gov/"
+
+state_name = "Tennessee"
+state_abbreviation = "tn"
 registration_type = "online"
-state_abbreviation = "TN"
-title = "Tennessee"
-english_only = true
+registration_link = "https://ovr.govote.tn.gov/"
+registration_link_english_only = "true"
+more_info_link = "https://sos.tn.gov/products/elections/register-vote"
+more_info_link_english_only = "true"
 
 +++

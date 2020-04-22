@@ -1,12 +1,10 @@
 +++
-date = "2016-05-26T17:17:05-04:00"
-external_link = "https://servicearizona.com/webapp/evoter/selectLanguage"
-external_link2 = "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information-sp"
-registration_type = "online"
-state_abbreviation = "AZ"
-title = "Arizona"
-selecciones_link = true
-selecciones_link2 = false
 
+state_name = "Arizona"
+state_abbreviation = "az"
+registration_type = "online"
+registration_link = "https://servicearizona.com/webapp/evoter/selectLanguage"
+registration_link_spanish_selection = "true"
+more_info_link = "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information-sp"
 
 +++

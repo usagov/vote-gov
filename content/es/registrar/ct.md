@@ -1,10 +1,11 @@
 +++
-date = "2016-05-26T17:17:05-04:00"
-external_link = "https://voterregistration.ct.gov/OLVR/"
-external_link2 = "https://portal.ct.gov/SOTS/Election-Services/Register-to-Vote/Voter-Registration-Application-English-and-Spanish"
+
+state_name = "Connecticut"
+state_abbreviation = "ct"
 registration_type = "online"
-state_abbreviation = "CT"
-title = "Connecticut"
-selecciones_link = true
-selecciones_link2 = false
+registration_link = "https://voterregistration.ct.gov/OLVR/"
+more_info_link = "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet"
+registration_link_spanish_selection = "true"
+more_info_link_english_only = "true"
+
 +++

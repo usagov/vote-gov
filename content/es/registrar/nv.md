@@ -1,9 +1,11 @@
 +++
-date = "2016-05-26T17:17:09-04:00"
-external_link = "https://www.nvsos.gov/sosvoterservices/Registration/Step0.aspx"
+
+state_name = "Nevada"
+state_abbreviation = "nv"
 registration_type = "online"
-state_abbreviation = "NV"
-title = "Nevada"
-english_only = true
+registration_link = "https://www.nvsos.gov/SOSVoterServices/start.aspx"
+registration_link_english_only = "true"
+more_info_link = "https://www.nvsos.gov/sos/elections/voters/registering-to-vote"
+more_info_link_english_only = "true"
 
 +++

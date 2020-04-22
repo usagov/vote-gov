@@ -28,11 +28,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <option value="default">
               {{ $translation.homepage.state_selection.default }}
             </option>
-          {{ range where .Data.Pages.ByTitle "Section" .Site.Params.register_path }}
+          {{ range where (.Data.Pages.ByParam "state_name") "Section" .Site.Params.register_path }}
             {{ if eq $.Site.Params.language "spanish" }}
-              <option value="{{ .Params.state_abbreviation | lower }}">{{ .Title }}</option>
+              <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
             {{ else }}
-              <option value="{{ .Params.state_abbreviation | lower }}">{{ title .Title }}</option>
+              <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
             {{ end }}
           {{ end }}
           </select>

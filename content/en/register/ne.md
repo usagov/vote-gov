@@ -1,10 +1,9 @@
 +++
-date = "2016-05-26T17:17:09-04:00"
-external_link = "https://www.nebraska.gov/apps-sos-voter-registration/"
-external_link2 = "https://sos.nebraska.gov/elections/general-voter-information"
+
+state_name = "Nebraska"
+state_abbreviation = "ne"
 registration_type = "online"
-state_abbreviation = "NE"
-title = "Nebraska"
-english_only = true 
-selecciones_link2 = false
+registration_link = "https://www.nebraska.gov/apps-sos-voter-registration/"
+more_info_link = "https://sos.nebraska.gov/elections/general-voter-information"
+
 +++

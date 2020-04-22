@@ -1,10 +1,11 @@
 +++
-date = "2016-05-26T17:17:07-04:00"
-external_link = "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx"
-external_link2 = "undefined"
+
+state_name = "Kansas"
+state_abbreviation = "ks"
 registration_type = "online"
-state_abbreviation = "KS"
-title = "Kansas"
-english_only = true
-selecciones_link2 = false
+registration_link = "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx"
+registration_link_english_only = "true"
+more_info_link = "https://sos.kansas.gov/elections/"
+more_info_link_english_only = "true"
+
 +++
