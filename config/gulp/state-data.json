@@ -31,7 +31,10 @@
   "Arkansas" : {
     "state_name": "Arkansas",
     "state_abbreviation": "ar",
-    "registration_type": "by-mail"
+    "registration_type": "by-mail",
+    "english":{
+       "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/"
+    }
   },
   "american-samoa" : {
     "state_name": "American Samoa",

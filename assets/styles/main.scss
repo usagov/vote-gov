@@ -65,7 +65,7 @@ h1 {
 
 footer {
   padding-top: .6rem;
-  background-color: color('base-lightest');
+  background-color: $theme-color-base-family;
   height: 6.2rem;
 
   a {
@@ -251,6 +251,7 @@ footer {
   footer {
     position: relative;
     margin-top: 22.75rem;
+    background-color: $theme-color-base-family;
   }
 }
 
@@ -271,16 +272,33 @@ footer {
   }
 }
 
+.state-download {
+  margin: 0;
+
+  .usa-select {
+    margin-bottom: 1.5rem;
+    -webkit-appearance: none;
+  }
+
+  @include at-media('tablet') {
+    max-width: 30rem;
+  }
+  
+  [type="submit"] {
+    width: 100%;
+  }
+}
+
 .form-signup {
   margin: 0 auto;
 
-  @include at-media('tablet') {
-    padding-left: 2rem;
-    padding-right: 2rem;
+  @include at-media('mobile') {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   h3 {
-    margin-top: 5em;
+    margin-top: 2rem;
   }
 
   @include at-media('tablet') {
@@ -304,7 +322,6 @@ footer {
 }
 
 .footer-bottom-sp {
-  background-color: $theme-color-base-family;
   padding: 2rem 2rem 6rem 2rem;
   margin-top: 30px;
   text-align: center;
@@ -315,8 +332,13 @@ footer {
   }
 }
 
-.footer-bottom {
+.footer-top {
+  padding: 0rem 0rem 3rem 0rem;
+  margin-top: 0;
   background-color: $theme-color-base-family;
+}
+
+.footer-bottom {
   padding: 2rem 2rem 6rem 2rem;
   margin-top: 30px;
   text-align: center;
@@ -403,7 +425,7 @@ a:hover {
 }
 
 .section-back-inner {
-  border-top: 1px solid color('base-lighter');
+  /*border-top: 1px solid color('base-lighter');*/
   padding-top: 2rem;
 }
 
