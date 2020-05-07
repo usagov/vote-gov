@@ -18,7 +18,8 @@ body {
 
 h1 {
   color: color('primary-darker');
-
+  margin-top: 2rem;
+  
   @include at-media('tablet') {
     margin-top: 1.5em;
   }
@@ -299,6 +300,7 @@ footer {
 
   h3 {
     margin-top: 2rem;
+    font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
   }
 
   @include at-media('tablet') {
@@ -306,7 +308,7 @@ footer {
   }
 
   [type="submit"] {
-    width: 50%;
+    width: 100%;
   }
 }
 
