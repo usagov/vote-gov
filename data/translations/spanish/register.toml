@@ -15,7 +15,7 @@ link_text2= "el sitio web electoral de %state_name%."
 
 label = "También puede descargar el formulario nacional de inscripción de votantes (PDF) disponible en español y 14 idiomas más."
 default = "Seleccione su idioma"
-submit = "Descargar el formulario (PDF)"
+submit = "Descargue el formulario nacional de inscripción de votantes (PDF)"
 
 [in_person]
 body = "Inscríbase en persona en la oficina electoral local de %state_name%." 

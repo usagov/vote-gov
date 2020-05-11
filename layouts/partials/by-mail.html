@@ -8,11 +8,11 @@
       </h1>
     </header>
   
-    <p>
+    <p class="usa-intro">
       {{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}
     </p>
     
-    <p>
+    <p class="usa-intro">
       {{ $translation.register.by_mail.link_text }}
     <a href="{{ .Params.more_info_link }}?ref={{ $.Site.Params.Referrer_Short_Code }}" target="_blank">
         {{ replace $translation.register.by_mail.link_text2 "%state_name%" .Params.state_name }}
@@ -20,7 +20,7 @@
     </p>
 
     <form class="state-download" method="get" id="register">
-    <p>{{ $translation.register.other_language_selection.label }}</p>
+    <p class="usa-intro">{{ $translation.register.other_language_selection.label }}</p>
     <label class="usa-sr-only" for="js-user-selection">
       {{ $translation.register.other_language_selection.default }}
     </label>
@@ -29,12 +29,17 @@
       <option value="default">
         {{ $translation.register.other_language_selection.default }} 
       </option>
-    
-    {{ range $key, $form := $.Site.Data.registration_forms }}
-      {{ if ne $key $.Site.Params.language }}
-      <option value="{{ $form.file_path }}">{{ $form.language }}</option>
+
+      {{ range $key, $form := $.Site.Data.registration_forms }}
+        {{ if eq $key $.Site.Params.language }}
+          <option value="{{ $form.file_path }}">{{ $form.language }}</option>
+        {{ end }}
       {{ end }}
-    {{ end }}
+      {{ range $key, $form := $.Site.Data.registration_forms }}
+        {{ if ne $key $.Site.Params.language }}
+          <option value="{{ $form.file_path }}">{{ $form.language }}</option>
+        {{ end }}
+      {{ end }}
     </select>
       
     <button class="usa-button" id="js-user-submit" type="submit">

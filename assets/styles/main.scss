@@ -5,6 +5,7 @@
 // Variables ------------ //
 
 $font-light: 300;
+$font-medium: 400;
 $inner-box-width: 25rem;
 $color-blue-dark: #003366;
 $color-blue-light: #0071bc;
@@ -35,7 +36,8 @@ h1 {
 }
 
 .usa-intro {
-  font-weight: $font-light;
+  font-weight: $font-medium;
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 }
 
 .reg-link {
