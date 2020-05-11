@@ -28,12 +28,15 @@
       "more_info_link": "http://www.elections.alaska.gov/Core/spanishinformation.php"
     }
   },
-  "Arkansas" : {
+   "Arkansas" : {
     "state_name": "Arkansas",
     "state_abbreviation": "ar",
     "registration_type": "by-mail",
     "english":{
-       "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/"
+      "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/"
+    },
+    "spanish": { 
+      "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/"
     }
   },
   "american-samoa" : {
