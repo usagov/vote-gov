@@ -8,7 +8,7 @@ link_text2 = "%state_name%'s state election website."
 [other_language_selection]
 
 label = "You can also download the National Voter Registration Form (PDF) available in English and 14 additional languages from the dropdown menu below."
-default = "Select your language"
+default = "English"
 submit = "Download the National Voter Registration Form"
 
 [in_person]
