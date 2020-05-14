@@ -56,11 +56,11 @@
     "state_abbreviation": "az",
     "registration_type": "online",
     "english":{
-      "registration_link": "https://servicearizona.com/webapp/evoter/selectLanguage",
+      "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage", 
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information"
     },
     "spanish": {
-      "registration_link": "https://servicearizona.com/webapp/evoter/selectLanguage",
+      "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information-sp"
     }
@@ -89,8 +89,8 @@
     "spanish": {
       "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
       "registration_link_spanish_selection": "true",
-      "more_info_link": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html",
-      "more_info_link_english_only": "true"
+      "more_info_link": "https://www.sos.state.co.us/pubs/spanish/spanishHome.html",
+      
     }
   },
   "Connecticut" : {
