@@ -331,7 +331,7 @@
   "Maine" : {
     "state_name": "Maine",
     "state_abbreviation": "me",
-    "registration_type": "by-mail"
+    "registration_type": "by-mail",
     "english":{
       "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html"
     },
@@ -392,7 +392,7 @@
   "Mississippi" : {
     "state_name": "Mississippi",
     "state_abbreviation": "ms",
-    "registration_type": "by-mail"
+    "registration_type": "by-mail",
      "english":{
       "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
     },
