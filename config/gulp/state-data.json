@@ -178,13 +178,6 @@
       "more_info_english_only": "true"
     }
   },
-    "spanish": {
-      "registration_link": "https://gec.guam.gov",
-      "registration_link_english_only": "true",
-      "more_info_link": "https://gec.guam.gov/index.php/for-voters/for-voters",
-      "more_info_link_english_only": "true"
-    }
-  },
   "Hawaii" : {
     "state_name": "Hawaii",
     "state_abbreviation": "hi",
