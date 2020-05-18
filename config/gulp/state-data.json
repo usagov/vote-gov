@@ -144,7 +144,8 @@
     },
     "spanish": {
       "registration_link": "https://registertovoteflorida.gov/home",
-      "registration_link_english_only": "true"
+      "registration_link_spanish_selection": "true",
+       "more_info_link_spanish_selection": "true"   
     }
   },
   "Georgia" : {
