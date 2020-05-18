@@ -229,7 +229,8 @@
     "state_abbreviation": "il",
     "registration_type": "online",
     "english":{
-      "registration_link": "https://ova.elections.il.gov/"
+      "registration_link": "https://ova.elections.il.gov/",
+      "more_info_link": "https://www.elections.il.gov/Default.aspx"
     },
     "spanish": {
       "registration_link": "https://spanish-ova.elections.il.gov/",
@@ -331,6 +332,12 @@
     "state_name": "Maine",
     "state_abbreviation": "me",
     "registration_type": "by-mail"
+    "english":{
+      "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html"
+    },
+    "spanish": { 
+      "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html"
+    }
   },
   "Michigan" : {
     "state_name": "Michigan",
@@ -386,6 +393,12 @@
     "state_name": "Mississippi",
     "state_abbreviation": "ms",
     "registration_type": "by-mail"
+     "english":{
+      "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
+    },
+    "spanish": { 
+      "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
+    }
   },
   "Montana" : {
     "state_name": "Montana",
