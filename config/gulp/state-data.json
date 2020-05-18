@@ -403,7 +403,13 @@
   "Montana" : {
     "state_name": "Montana",
     "state_abbreviation": "mt",
-    "registration_type": "by-mail"
+    "registration_type": "by-mail",
+    "english":{
+      "more_info_link": "https://sosmt.gov/elections/vote/"
+    },
+    "spanish": { 
+      "more_info_link": "https://sosmt.gov/elections/vote/"
+    }
   },
   "North Carolina" : {
     "state_name": "North Carolina",
@@ -462,7 +468,13 @@
   "New Jersey" : {
     "state_name": "New Jersey",
     "state_abbreviation": "nj",
-    "registration_type": "by-mail"
+    "registration_type": "by-mail",
+    "english":{
+      "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml"
+    },
+    "spanish": { 
+      "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml"
+    }
   },
   "New Mexico" : {
     "state_name": "New Mexico",
@@ -527,7 +539,13 @@
   "Oklahoma" : {
     "state_name": "Oklahoma",
     "state_abbreviation": "ok",
-    "registration_type": "by-mail"
+    "registration_type": "by-mail",
+     "english":{
+      "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html"
+    },
+    "spanish": { 
+      "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html"
+    }
   },
   "Oregon" : {
     "state_name": "Oregon",
