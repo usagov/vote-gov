@@ -145,6 +145,7 @@
     "spanish": {
       "registration_link": "https://registertovoteflorida.gov/home",
       "registration_link_spanish_selection": "true",
+      "more_info_link": "https://registertovoteflorida.gov/home",
        "more_info_link_spanish_selection": "true"   
     }
   },
@@ -172,7 +173,9 @@
     },
     "spanish": {
       "registration_link": "https://gec.guam.gov",
-      "registration_link_english_only": "true"
+      "registration_link_english_only": "true",
+      "more_info_link": "https://gec.guam.gov/index.php/for-voters/for-voters",
+      "more_info_link_english_only": "true"
     }
   },
   "Hawaii" : {
@@ -228,8 +231,9 @@
       "registration_link": "https://ova.elections.il.gov/"
     },
     "spanish": {
-      "registration_link": "https://ova.elections.il.gov/",
-      "registration_link_english_only": "true"
+      "registration_link": "https://spanish-ova.elections.il.gov/",
+      "more_info_link": "https://www.elections.il.gov/Default.aspx",
+      "more_info_link_english_only": "true"
     }
   },
   "Indiana" : {
