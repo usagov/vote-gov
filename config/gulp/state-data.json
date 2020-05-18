@@ -589,12 +589,12 @@
     "registration_type": "online",
     "english":{
       "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
-      "more_info_link": "https://vote.sos.ri.gov/"
+      "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote"
     },
     "spanish": {
       "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
       "registration_link_english_only": "true",
-      "more_info_link": "https://vote.sos.ri.gov/",
+      "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
       "more_info_link_english_only": "true"
     }
   },
