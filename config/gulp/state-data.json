@@ -112,7 +112,8 @@
     "state_abbreviation": "dc",
     "registration_type": "online",
     "english":{
-      "registration_link": "https://www.vote4dc.com/ApplyInstructions/Register"
+      "registration_link": "https://www.vote4dc.com/ApplyInstructions/Register",
+      "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register"
     },
     "spanish": {
       "registration_link": "https://www.vote4dc.com/ApplyInstructions/Register",
@@ -587,11 +588,11 @@
     "state_abbreviation": "ri",
     "registration_type": "online",
     "english":{
-      "registration_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
+      "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
       "more_info_link": "https://vote.sos.ri.gov/"
     },
     "spanish": {
-      "registration_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
+      "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
       "registration_link_english_only": "true",
       "more_info_link": "https://vote.sos.ri.gov/",
       "more_info_link_english_only": "true"
@@ -715,6 +716,20 @@
       "more_info_link_english_only": "true"
     }
   },
+  "West Virginia" : {
+    "state_name": "West Virginia",
+    "state_abbreviation": "wv",
+    "registration_type": "online",
+    "english":{
+      "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
+      "more_info_link": "https://ovr.sos.wv.gov/Register/Landing"
+    },
+    "spanish": {
+      "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
+      "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
+      "registration_link_english_only": "true"
+    }
+  },
   "Wisconsin" : {
     "state_name": "Wisconsin",
     "state_abbreviation": "wi",
@@ -727,18 +742,6 @@
       "registration_link": "https://myvote.wi.gov/es-es/RegisterToVote",
       "more_info_link": "https://elections.wi.gov/voters/first-time",
       "more_info_link_english_only": "true"
-    }
-  },
-  "West Virginia" : {
-    "state_name": "West Virginia",
-    "state_abbreviation": "wv",
-    "registration_type": "online",
-    "english":{
-      "registration_link": "https://ovr.sos.wv.gov/Register/Landing"
-    },
-    "spanish": {
-      "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
-      "registration_link_english_only": "true"
     }
   },
   "Wyoming" : {
