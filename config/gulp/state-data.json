@@ -28,17 +28,7 @@
       "more_info_link": "http://www.elections.alaska.gov/Core/spanishinformation.php"
     }
   },
-   "Arkansas" : {
-    "state_name": "Arkansas",
-    "state_abbreviation": "ar",
-    "registration_type": "by-mail",
-    "english":{
-      "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/"
-    },
-    "spanish": { 
-      "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/"
-    }
-  },
+   
   "american-samoa" : {
     "state_name": "American Samoa",
     "state_abbreviation": "as",
@@ -63,6 +53,17 @@
       "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information-sp"
+    }
+  },
+  "Arkansas" : {
+    "state_name": "Arkansas",
+    "state_abbreviation": "ar",
+    "registration_type": "by-mail",
+    "english":{
+      "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/"
+    },
+    "spanish": { 
+      "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/"
     }
   },
   "california" : {
@@ -169,10 +170,15 @@
   "Guam" : {
     "state_name": "Guam",
     "state_abbreviation": "gu",
-    "registration_type": "online",
+    "registration_type": "in-person",
     "english":{
-      "registration_link": "https://gec.guam.gov"
+      "more_info_link": "https://gec.guam.gov/"
     },
+    "spanish": {
+      "more_info_link": "https://gec.guam.gov/",
+      "more_info_english_only": "true"
+    }
+  },
     "spanish": {
       "registration_link": "https://gec.guam.gov",
       "registration_link_english_only": "true",
