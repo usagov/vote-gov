@@ -141,6 +141,7 @@
     "registration_type": "online",
     "english":{
       "registration_link": "https://registertovoteflorida.gov/home"
+      "more_info_link": "https://registertovoteflorida.gov/home"
     },
     "spanish": {
       "registration_link": "https://registertovoteflorida.gov/home",
@@ -155,7 +156,7 @@
     "registration_type": "online",
     "english":{
       "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do",
-      "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml"
+      "more_info_link": "https://sos.ga.gov/index.php/Elections/register_to_vote"
     },
     "spanish": {
       "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do",
