@@ -27,15 +27,7 @@
       "registration_link_english_only": "true",
       "more_info_link": "http://www.elections.alaska.gov/Core/spanishinformation.php"
     }
-  },
-  "Arkansas" : {
-    "state_name": "Arkansas",
-    "state_abbreviation": "ar",
-    "registration_type": "by-mail",
-    "english":{
-       "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/"
-    }
-  },
+  },   
   "american-samoa" : {
     "state_name": "American Samoa",
     "state_abbreviation": "as",
@@ -53,13 +45,25 @@
     "state_abbreviation": "az",
     "registration_type": "online",
     "english":{
-      "registration_link": "https://servicearizona.com/webapp/evoter/selectLanguage",
+      "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage", 
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information"
     },
     "spanish": {
-      "registration_link": "https://servicearizona.com/webapp/evoter/selectLanguage",
+      "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information-sp"
+    }
+  },
+  "Arkansas" : {
+    "state_name": "Arkansas",
+    "state_abbreviation": "ar",
+    "registration_type": "by-mail",
+    "english":{
+      "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/"
+    },
+    "spanish": { 
+      "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
+      "more_info_english_only": "true"
     }
   },
   "california" : {
@@ -86,8 +90,7 @@
     "spanish": {
       "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
       "registration_link_spanish_selection": "true",
-      "more_info_link": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html",
-      "more_info_link_english_only": "true"
+      "more_info_link": "https://www.sos.state.co.us/pubs/spanish/spanishHome.html"
     }
   },
   "Connecticut" : {
@@ -110,11 +113,14 @@
     "state_abbreviation": "dc",
     "registration_type": "online",
     "english":{
-      "registration_link": "https://www.vote4dc.com/ApplyInstructions/Register"
+      "registration_link": "https://www.vote4dc.com/ApplyInstructions/Register",
+      "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register"
     },
     "spanish": {
       "registration_link": "https://www.vote4dc.com/ApplyInstructions/Register",
-      "registration_link_english_only": "true"
+      "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register",
+      "registration_link_english_only": "true",
+      "more_info_link_english_only": "true"
     }
   },
   "Delaware" : {
@@ -136,11 +142,14 @@
     "state_abbreviation": "fl",
     "registration_type": "online",
     "english":{
-      "registration_link": "https://registertovoteflorida.gov/home"
+      "registration_link": "https://registertovoteflorida.gov/home",
+      "more_info_link": "https://registertovoteflorida.gov/home"
     },
     "spanish": {
       "registration_link": "https://registertovoteflorida.gov/home",
-      "registration_link_english_only": "true"
+      "registration_link_spanish_selection": "true",
+      "more_info_link": "https://registertovoteflorida.gov/home",
+       "more_info_link_spanish_selection": "true"   
     }
   },
   "Georgia" : {
@@ -149,7 +158,7 @@
     "registration_type": "online",
     "english":{
       "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do",
-      "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml"
+      "more_info_link": "https://sos.ga.gov/index.php/Elections/register_to_vote"
     },
     "spanish": {
       "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do",
@@ -161,13 +170,13 @@
   "Guam" : {
     "state_name": "Guam",
     "state_abbreviation": "gu",
-    "registration_type": "online",
+    "registration_type": "in-person",
     "english":{
-      "registration_link": "https://gec.guam.gov"
+      "more_info_link": "https://gec.guam.gov/"
     },
     "spanish": {
-      "registration_link": "https://gec.guam.gov",
-      "registration_link_english_only": "true"
+      "more_info_link": "https://gec.guam.gov/",
+      "more_info_english_only": "true"
     }
   },
   "Hawaii" : {
@@ -220,11 +229,13 @@
     "state_abbreviation": "il",
     "registration_type": "online",
     "english":{
-      "registration_link": "https://ova.elections.il.gov/"
+      "registration_link": "https://ova.elections.il.gov/",
+      "more_info_link": "https://www.elections.il.gov/Default.aspx"
     },
     "spanish": {
-      "registration_link": "https://ova.elections.il.gov/",
-      "registration_link_english_only": "true"
+      "registration_link": "https://spanish-ova.elections.il.gov/",
+      "more_info_link": "https://www.elections.il.gov/Default.aspx",
+      "more_info_link_english_only": "true"
     }
   },
   "Indiana" : {
@@ -253,7 +264,7 @@
     "spanish": {
       "registration_link": "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx",
       "registration_link_english_only": "true",
-      "more_info_link": "https://sos.kansas.gov/elections/",
+      "more_info_link": "https://sos.kansas.gov/elections/registration-voting/",
       "more_info_link_english_only": "true"
     }
   },
@@ -281,7 +292,7 @@
       "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx"
     },
     "spanish": {
-      "registration_link": "https://www.sos.la.gov/ElectionsAndVoting/Pages/OnlineVoterRegistration.aspx",
+      "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
       "registration_link_english_only": "true",
       "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
       "more_info_link_english_only": "true"
@@ -320,7 +331,13 @@
   "Maine" : {
     "state_name": "Maine",
     "state_abbreviation": "me",
-    "registration_type": "by-mail"
+    "registration_type": "by-mail",
+    "english":{
+      "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html"
+    },
+    "spanish": { 
+      "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html"
+    }
   },
   "Michigan" : {
     "state_name": "Michigan",
@@ -367,20 +384,27 @@
       "more_info_link_english_only": "true"
     }
   },
-  "Northern Mariana Islands" : {
-    "state_name": "Northern Mariana Islands",
-    "state_abbreviation": "mp",
-    "registration_type": "in-person"
-  },
   "Mississippi" : {
     "state_name": "Mississippi",
     "state_abbreviation": "ms",
-    "registration_type": "by-mail"
+    "registration_type": "by-mail",
+     "english":{
+      "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
+    },
+    "spanish": { 
+      "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
+    }
   },
   "Montana" : {
     "state_name": "Montana",
     "state_abbreviation": "mt",
-    "registration_type": "by-mail"
+    "registration_type": "by-mail",
+    "english":{
+      "more_info_link": "https://sosmt.gov/elections/vote/"
+    },
+    "spanish": { 
+      "more_info_link": "https://sosmt.gov/elections/vote/"
+    }
   },
   "North Carolina" : {
     "state_name": "North Carolina",
@@ -408,6 +432,11 @@
       "more_info_link": "https://vip.sos.nd.gov/PortalList.aspx",
       "more_info_link_english_only": "true"
     }
+  },
+    "Northern Mariana Islands" : {
+    "state_name": "Northern Mariana Islands",
+    "state_abbreviation": "mp",
+    "registration_type": "in-person"
   },
   "Nebraska" : {
     "state_name": "Nebraska",
@@ -439,7 +468,13 @@
   "New Jersey" : {
     "state_name": "New Jersey",
     "state_abbreviation": "nj",
-    "registration_type": "by-mail"
+    "registration_type": "by-mail",
+    "english":{
+      "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml"
+    },
+    "spanish": { 
+      "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml"
+    }
   },
   "New Mexico" : {
     "state_name": "New Mexico",
@@ -504,7 +539,13 @@
   "Oklahoma" : {
     "state_name": "Oklahoma",
     "state_abbreviation": "ok",
-    "registration_type": "by-mail"
+    "registration_type": "by-mail",
+     "english":{
+      "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html"
+    },
+    "spanish": { 
+      "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html"
+    }
   },
   "Oregon" : {
     "state_name": "Oregon",
@@ -546,13 +587,13 @@
     "state_abbreviation": "ri",
     "registration_type": "online",
     "english":{
-      "registration_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
-      "more_info_link": "https://vote.sos.ri.gov/"
+      "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
+      "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote"
     },
     "spanish": {
-      "registration_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
+      "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
       "registration_link_english_only": "true",
-      "more_info_link": "https://vote.sos.ri.gov/",
+      "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
       "more_info_link_english_only": "true"
     }
   },
@@ -574,7 +615,13 @@
   "South Dakota" : {
     "state_name": "South Dakota",
     "state_abbreviation": "sd",
-    "registration_type": "by-mail"
+    "registration_type": "by-mail",
+     "english":{
+      "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx"
+    },
+    "spanish": { 
+      "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx"
+    }
   },
   "Tennessee" : {
     "state_name": "Tennessee",
@@ -594,7 +641,13 @@
   "Texas" : {
     "state_name": "Texas",
     "state_abbreviation": "tx",
-    "registration_type": "by-mail"
+    "registration_type": "by-mail",
+    "english":{
+      "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html"
+    },
+    "spanish": { 
+      "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html"
+    }
   },
   "Utah" : {
     "state_name": "Utah",
@@ -608,6 +661,21 @@
       "registration_link": "https://secure.utah.gov/voterreg/index.html",
       "registration_link_english_only": "true",
       "more_info_link": "https://voteinfo.utah.gov/",
+      "more_info_link_english_only": "true"
+    }
+  },
+    "Vermont" : {
+    "state_name": "Vermont",
+    "state_abbreviation": "vt",
+    "registration_type": "online",
+    "english":{
+      "registration_link": "https://olvr.vermont.gov/",
+      "more_info_link": "https://sos.vermont.gov/elections/voters/registration/"
+    },
+    "spanish": {
+      "registration_link": "https://olvr.vermont.gov/",
+      "registration_link_english_only": "true",
+      "more_info_link": "https://sos.vermont.gov/elections/voters/registration/",
       "more_info_link_english_only": "true"
     }
   },
@@ -632,21 +700,6 @@
     "registration_type": "in-person",
     "more_info_link": "https://www.vivote.gov/voters/register-vote"
   },
-  "Vermont" : {
-    "state_name": "Vermont",
-    "state_abbreviation": "vt",
-    "registration_type": "online",
-    "english":{
-      "registration_link": "https://sos.vermont.gov/elections/voters/registration/",
-      "more_info_link": "https://olvr.vermont.gov/"
-    },
-    "spanish": {
-      "registration_link": "https://sos.vermont.gov/elections/voters/registration/",
-      "registration_link_english_only": "true",
-      "more_info_link": "https://olvr.vermont.gov/",
-      "more_info_link_english_only": "true"
-    }
-  },
   "Washington" : {
     "state_name": "Washington",
     "state_abbreviation": "wa",
@@ -662,6 +715,20 @@
       "more_info_link_english_only": "true"
     }
   },
+  "West Virginia" : {
+    "state_name": "West Virginia",
+    "state_abbreviation": "wv",
+    "registration_type": "online",
+    "english":{
+      "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
+      "more_info_link": "https://ovr.sos.wv.gov/Register/Landing"
+    },
+    "spanish": {
+      "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
+      "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
+      "registration_link_english_only": "true"
+    }
+  },
   "Wisconsin" : {
     "state_name": "Wisconsin",
     "state_abbreviation": "wi",
@@ -674,18 +741,6 @@
       "registration_link": "https://myvote.wi.gov/es-es/RegisterToVote",
       "more_info_link": "https://elections.wi.gov/voters/first-time",
       "more_info_link_english_only": "true"
-    }
-  },
-  "West Virginia" : {
-    "state_name": "West Virginia",
-    "state_abbreviation": "wv",
-    "registration_type": "online",
-    "english":{
-      "registration_link": "https://ovr.sos.wv.gov/Register/Landing"
-    },
-    "spanish": {
-      "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
-      "registration_link_english_only": "true"
     }
   },
   "Wyoming" : {
