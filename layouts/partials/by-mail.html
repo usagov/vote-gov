@@ -32,10 +32,7 @@
     </label>
 
     <select class="usa-select" name="userselection" id="js-user-selection">
-      <option value="default">
-        {{ $translation.register.other_language_selection.default }} 
-      </option>
-
+     
       {{ range $key, $form := $.Site.Data.registration_forms }}
         {{ if eq $key $.Site.Params.language }}
           <option value="{{ $form.file_path }}">{{ $form.language }}</option>
