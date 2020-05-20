@@ -472,7 +472,8 @@
       "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml"
     },
     "spanish": { 
-      "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml"
+      "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml",
+      "more_info_link_english_only": "true"
     }
   },
   "New Mexico" : {
