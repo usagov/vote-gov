@@ -19,6 +19,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <header>
           <h1 class="usa-display vote-heading">{{ $translation.homepage.header }}</h1>
         </header>
+
+        <div class="usa-alert usa-alert--warning covid-alert">
+          <div class="usa-alert__body">
+            <p class="usa-alert__text">{{ $translation.homepage.alert.alert_msg }}</p>
+          </div>
+        </div>
+
         <form class="form-register" method="get" id="register">
           <p>{{ $translation.homepage.state_selection.label }}</p>
           <label class="usa-sr-only" for="js-user-selection">

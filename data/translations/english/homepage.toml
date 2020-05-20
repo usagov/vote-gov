@@ -26,3 +26,6 @@ voterid_url = "https://www.usa.gov/voter-id"
 process = "Election process"
 process_url = "https://www.usa.gov/election"
 
+[alert]
+alert_msg = "Due to COVID-19, there may be changes to when, where and how you vote in your upcoming elections. Check with your state election site for more information."
+

@@ -7,6 +7,7 @@
 $font-light: 300;
 $font-medium: 400;
 $inner-box-width: 25rem;
+$inner-box-width-state : 35rem;
 $color-blue-dark: #003366;
 $color-blue-light: #0071bc;
 $theme-color-base-family: #dcdee0;
@@ -477,6 +478,26 @@ a:hover {
 
   @include at-media('tablet') {
     clear: both;
+  }
+}
+
+.covid-alert {
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+
+@include at-media('tablet') {
+  max-width: $inner-box-width;
+  }
+}
+
+.covid-alert-state {
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+
+@include at-media('tablet') {
+  max-width: $inner-box-width-state;
   }
 }
 

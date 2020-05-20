@@ -7,7 +7,13 @@
     {{ replace $translation.register.heading "%state_name%" .Params.state_name }}
       </h1>
     </header>
-  
+
+    <div class="usa-alert usa-alert--warning covid-alert-state">
+      <div class="usa-alert__body">
+        <p class="usa-alert__text">{{ $translation.homepage.alert.alert_msg }}</p>
+      </div>
+    </div>
+
     <p class="usa-intro">
       {{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}
     </p>
