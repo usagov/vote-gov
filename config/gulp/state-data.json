@@ -37,7 +37,7 @@
     },
     "spanish": {
       "more_info_link": "https://aselectionoffice.gov/",
-      "more_info_english_only": "true"
+      "more_info_link_english_only": "true"
     }
   },
   "arizona" : {
@@ -62,7 +62,8 @@
       "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/"
     },
     "spanish": { 
-      "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/"
+      "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
+      "more_info_link_english_only": "true"
     }
   },
   "california" : {
