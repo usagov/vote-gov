@@ -622,6 +622,7 @@
     },
     "spanish": { 
       "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx"
+      "registration_link_english_only": "true"
     }
   },
   "Tennessee" : {
