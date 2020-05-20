@@ -649,6 +649,7 @@
     },
     "spanish": { 
       "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html"
+      "more_info_link_spanish_selection": "true"
     }
   },
   "Utah" : {
