@@ -693,8 +693,7 @@
     "spanish": {
       "registration_link": "https://www.elections.virginia.gov/citizen-portal/",
       "registration_link_english_only": "true",
-      "more_info_link": "https://www.elections.virginia.gov/registration/how-to-register/",
-      "more_info_link_english_only": "true"
+      "more_info_link": "https://www.https://www.elections.virginia.gov/es/registro/"
     }
   },
   "U.S. Virgin Islands" : {
@@ -702,6 +701,7 @@
     "state_abbreviation": "vi",
     "registration_type": "in-person",
     "more_info_link": "https://www.vivote.gov/voters/register-vote"
+    
   },
   "Washington" : {
     "state_name": "Washington",
