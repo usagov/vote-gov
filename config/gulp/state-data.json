@@ -593,9 +593,9 @@
     },
     "spanish": {
       "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
-      "registration_link_english_only": "true",
+      "registration_link_spanish_selection": "true",
       "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
-      "more_info_link_english_only": "true"
+      "more_info_link_spanish_selection": "true"
     }
   },
   "South Carolina" : {
