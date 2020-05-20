@@ -33,10 +33,10 @@
     "state_abbreviation": "as",
     "registration_type": "in-person",
     "english":{
-      "more_info_link": "https://americansamoaelectionoffice.org/"
+      "more_info_link": "https://aselectionoffice.gov//"
     },
     "spanish": {
-      "more_info_link": "https://americansamoaelectionoffice.org/",
+      "more_info_link": "https://aselectionoffice.gov/",
       "more_info_english_only": "true"
     }
   },
