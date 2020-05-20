@@ -544,7 +544,8 @@
       "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html"
     },
     "spanish": { 
-      "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html"
+      "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html",
+      "more_info_link_english_only": "true"
     }
   },
   "Oregon" : {
