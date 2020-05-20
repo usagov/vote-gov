@@ -33,11 +33,11 @@
     "state_abbreviation": "as",
     "registration_type": "in-person",
     "english":{
-      "more_info_link": "https://americansamoaelectionoffice.org/"
+      "more_info_link": "https://aselectionoffice.gov//"
     },
     "spanish": {
-      "more_info_link": "https://americansamoaelectionoffice.org/",
-      "more_info_english_only": "true"
+      "more_info_link": "https://aselectionoffice.gov/",
+      "more_info_link_english_only": "true"
     }
   },
   "arizona" : {
@@ -63,7 +63,7 @@
     },
     "spanish": { 
       "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
-      "more_info_english_only": "true"
+      "more_info_link_english_only": "true"
     }
   },
   "california" : {
@@ -163,7 +163,7 @@
     "spanish": {
       "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do",
       "registration_link_english_only": "true",
-      "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
+      "more_info_link": "https://sos.ga.gov/index.php/Elections/register_to_vote",
       "more_info_link_english_only": "true"
     }
   },
@@ -288,7 +288,7 @@
     "state_abbreviation": "la",
     "registration_type": "online",
     "english":{
-      "registration_link": "https://www.sos.la.gov/ElectionsAndVoting/Pages/OnlineVoterRegistration.aspx",
+      "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
       "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx"
     },
     "spanish": {
@@ -336,7 +336,8 @@
       "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html"
     },
     "spanish": { 
-      "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html"
+      "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
+      "more_info_link_english_only": "true"
     }
   },
   "Michigan" : {
