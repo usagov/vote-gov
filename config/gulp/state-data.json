@@ -366,8 +366,7 @@
     "spanish": {
       "registration_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
       "registration_link_english_only": "true",
-      "more_info_link": "https://www.sos.state.mn.us/elections-voting/register-to-vote/",
-      "more_info_link_english_only": "true"
+      "more_info_link": "https://www.sos.state.mn.us/elections-voting/spanish"
     }
   },
   "Missouri" : {
@@ -449,9 +448,8 @@
     },
     "spanish": {
       "registration_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
-      "registration_link_english_only": "true",
-      "more_info_link": "https://sos.nebraska.gov/elections/general-voter-information",
-      "more_info_link_english_only": "true"
+      "registration_link_spanish_selection": "true", 
+      "more_info_link": "https://sos.nebraska.gov/elections/voter-forms"
     }
   },
   "New Hampshire" : {
@@ -474,7 +472,8 @@
       "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml"
     },
     "spanish": { 
-      "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml"
+      "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml",
+      "more_info_link_english_only": "true"
     }
   },
   "New Mexico" : {
@@ -487,9 +486,9 @@
     },
     "spanish": {
       "registration_link": "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx",
-      "registration_link_english_only": "true",
+      "registration_link_spanish_selection": "true",
       "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information/voter-registration-information/",
-      "more_info_link_english_only": "true"
+      "more_info_link_spanish_selection": "true"    
     }
   },
   "Nevada" : {
@@ -502,7 +501,7 @@
     },
     "spanish": {
       "registration_link": "https://www.nvsos.gov/SOSVoterServices/start.aspx",
-      "registration_link_english_only": "true",
+      "registration_link_spanish_selection": "true",
       "more_info_link": "https://www.nvsos.gov/sos/elections/voters/registering-to-vote",
       "more_info_link_english_only": "true"
     }
