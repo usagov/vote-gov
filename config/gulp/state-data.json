@@ -715,7 +715,7 @@
       "registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://www.sos.wa.gov/elections/voters/",
-      "more_info_link_english_only": "true"
+      "more_info_link_spanish_selection": "true"
     }
   },
   "West Virginia" : {
@@ -728,8 +728,9 @@
     },
     "spanish": {
       "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
+      "registration_link_english_only": "true",
       "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
-      "registration_link_english_only": "true"
+      "more_info_link_english_only": "true"
     }
   },
   "Wisconsin" : {
