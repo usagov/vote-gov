@@ -581,7 +581,14 @@
   "Puerto Rico" : {
     "state_name": "Puerto Rico",
     "state_abbreviation": "pr",
-    "registration_type": "in-person"
+    "registration_type": "in-person",
+    "english":{
+      "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/default.aspx"
+    },
+    "spanish": {
+      "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/default.aspx",
+      "more_info_english_only": "true"
+     }
   },
   "Rhode Island" : {
     "state_name": "Rhode Island",
@@ -607,7 +614,7 @@
       "more_info_link": "https://www.scvotes.org/south-carolina-voter-registration-information"
     },
     "spanish": {
-      "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
+up      "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
       "registration_link_english_only": "true",
       "more_info_link": "https://www.scvotes.org/south-carolina-voter-registration-information",
       "more_info_link_english_only": "true"
