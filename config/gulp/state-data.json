@@ -753,7 +753,7 @@
     "registration_type": "in-person",
     "more_info_link": "https://soswy.state.wy.us/elections/"
   },
-    "spanish": {
-      "more_info_link": "https://sos.wyo.gov/elections/",
-      "more_info_link_english_only": "true"
+   "spanish": {
+     "more_info_link": "https://sos.wyo.gov/elections/",
+     "more_info_link_english_only": "true"
     }
