@@ -146,7 +146,7 @@
       "more_info_link": "https://registertovoteflorida.gov/home"
     },
     "spanish": {
-      "registration_link": "https://registertovoteflorida.gov/home",
+      "registration_link": "https://registertovoteflorida.gov/eligibilityreactive",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://registertovoteflorida.gov/home",
        "more_info_link_spanish_selection": "true"   
@@ -377,7 +377,8 @@
       "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
     },
     "spanish": { 
-      "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
+      "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
+      "more_info_link_english_only": "true"
     }
   },
   "Missouri" : {
@@ -403,7 +404,8 @@
       "more_info_link": "https://sosmt.gov/elections/vote/"
     },
     "spanish": { 
-      "more_info_link": "https://sosmt.gov/elections/vote/"
+      "more_info_link": "https://sosmt.gov/elections/vote/",
+      "more_info_link_english_only": "true"
     }
   },
   "Nebraska" : {
