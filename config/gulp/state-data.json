@@ -610,7 +610,7 @@
     "spanish": {
       "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
       "registration_link_spanish_selection": "true",
-      "more_info_link": "https://vote.sos.ri.gov/VoterSpanish/RegisterToVote",
+      "more_info_link": "https://vote.sos.ri.gov/VoterSpanish/RegisterToVote"
     }
   },
   "South Carolina" : {
@@ -663,7 +663,7 @@
       "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html"
     },
     "spanish": { 
-      "more_info_link": "https://www.votetexas.gov/es/registrese-para-votar/index.html",
+      "more_info_link": "https://www.votetexas.gov/es/registrese-para-votar/index.html"
     }
   },
   "Utah" : {
