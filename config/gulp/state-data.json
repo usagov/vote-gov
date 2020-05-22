@@ -108,21 +108,6 @@
       "more_info_link_english_only": "true"
     }
   },
-  "District of Columbia" : {
-    "state_name": "District of Columbia",
-    "state_abbreviation": "dc",
-    "registration_type": "online",
-    "english":{
-      "registration_link": "https://www.vote4dc.com/ApplyInstructions/Register",
-      "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register"
-    },
-    "spanish": {
-      "registration_link": "https://www.vote4dc.com/ApplyInstructions/Register",
-      "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register",
-      "registration_link_english_only": "true",
-      "more_info_link_english_only": "true"
-    }
-  },
   "Delaware" : {
     "state_name": "Delaware",
     "state_abbreviation": "de",
@@ -137,12 +122,27 @@
       "more_info_link_english_only": "true"
     }
   },
+   "District of Columbia" : {
+    "state_name": "District of Columbia",
+    "state_abbreviation": "dc",
+    "registration_type": "online",
+    "english":{
+      "registration_link": "https://www.vote4dc.com/ApplyInstructions/Register",
+      "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register"
+    },
+    "spanish": {
+      "registration_link": "https://www.vote4dc.com/ApplyInstructions/Register",
+      "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register",
+      "registration_link_english_only": "true",
+      "more_info_link_english_only": "true"
+    }
+  },
   "Florida" : {
     "state_name": "Florida",
     "state_abbreviation": "fl",
     "registration_type": "online",
     "english":{
-      "registration_link": "https://registertovoteflorida.gov/home",
+      "registration_link": "https://registertovoteflorida.gov/eligibilityreactive",
       "more_info_link": "https://registertovoteflorida.gov/home"
     },
     "spanish": {
@@ -414,7 +414,7 @@
     "registration_type": "online",
     "english":{
       "registration_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
-      "more_info_link": "https://sos.nebraska.gov/elections/general-voter-information"
+      "more_info_link": "https://sos.nebraska.gov/elections/voter-forms"
     },
     "spanish": {
       "registration_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
@@ -521,7 +521,14 @@
   "Northern Mariana Islands" : {
     "state_name": "Northern Mariana Islands",
     "state_abbreviation": "mp",
-    "registration_type": "in-person"
+    "registration_type": "in-person",
+    "english":{
+      "more_info_link": "https://www.votecnmi.gov.mp/"
+    },
+    "spanish": {
+      "more_info_link": "https://www.votecnmi.gov.mp/",
+      "more_info_link_english_only": "true"
+    }
   },
   "Ohio" : {
     "state_name": "Ohio",
@@ -603,8 +610,7 @@
     "spanish": {
       "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
       "registration_link_spanish_selection": "true",
-      "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
-      "more_info_link_spanish_selection": "true"
+      "more_info_link": "https://vote.sos.ri.gov/VoterSpanish/RegisterToVote",
     }
   },
   "South Carolina" : {
@@ -657,8 +663,7 @@
       "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html"
     },
     "spanish": { 
-      "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html",
-      "more_info_link_spanish_selection": "true"
+      "more_info_link": "https://www.votetexas.gov/es/registrese-para-votar/index.html",
     }
   },
   "Utah" : {
