@@ -759,12 +759,12 @@
   "Wyoming" : {
     "state_name": "Wyoming",
     "state_abbreviation": "wy",
-    "registration_type": "in-person",
+    "registration_type": "by-mail",
     "english":{
-      "more_info_link": "https://soswy.state.wy.us/elections/"
+      "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx"
     },
-    "spanish": {
-      "more_info_link": "https://sos.wyo.gov/elections/",
+    "spanish": { 
+      "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
       "more_info_link_english_only": "true"
     }
   }
