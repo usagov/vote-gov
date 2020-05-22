@@ -1,9 +1,9 @@
 +++
-date = "2016-05-26T17:17:05-04:00"
-external_link = "https://registertovote.ca.gov/es-mx"
+
+state_name = "California"
+state_abbreviation = "ca"
 registration_type = "online"
-state_abbreviation = "CA"
-title = "California"
+registration_link = "https://registertovote.ca.gov/es-mx"
+more_info_link = "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote/"
 
 +++
-

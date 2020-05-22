@@ -1,9 +1,9 @@
 +++
-date = "2016-05-26T21:43:04-04:00"
-external_link = "https://voter.votewa.gov/WhereToVote.aspx"
+
+state_name = "Washington"
+state_abbreviation = "wa"
 registration_type = "online"
-state_abbreviation = "WA"
-title = "Washington"
-english_only = false 
-selecciones_link = true
+registration_link = "https://voter.votewa.gov/WhereToVote.aspx"
+more_info_link = "https://www.sos.wa.gov/elections/voters/"
+
 +++

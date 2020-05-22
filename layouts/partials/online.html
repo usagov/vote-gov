@@ -1,0 +1,41 @@
+{{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+<!-- Register BEGIN -->
+<div class="grid-container page-inner main-content">
+  <header>
+    <h1>
+      {{ replace $translation.register.heading "%state_name%" .Params.state_name }}
+    </h1>
+  </header>
+
+  <div class="usa-alert usa-alert--warning covid-alert-state">
+    <div class="usa-alert__body">
+      <p class="usa-alert__text">{{ $translation.homepage.alert.alert_msg }}</p>
+    </div>
+  </div>
+  
+  <p class="usa-intro">
+    {{ replace $translation.register.online.body "%state_name%" .Params.state_name }}
+  </p>
+  <p> 
+    <a  class="reg-link" href="{{ .Params.registration_link }}{{ if in .Params.registration_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+      {{ replace $translation.register.online.link "%state_name%" .Params.state_name }} 
+         
+      {{ if .Params.registration_link_english_only }}
+        {{ $translation.register.english_only }}
+      {{ else if .Params.registration_link_spanish_selection }} 
+        {{ $translation.register.selecciones_link }}
+      {{ end }}
+    </a>
+        <br><br>
+    <a  class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.registration_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+      {{replace $translation.register.online.link2 "%state_name%" .Params.state_name }}
+        
+      {{ if .Params.more_info_link_english_only }}
+        {{ $translation.register.english_only }}
+      {{ else if .Params.more_info_link_spanish_selection }} 
+        {{ $translation.register.selecciones_link }}
+      {{ end }} 
+    </a>
+  </p>
+</div>
+<!-- Register END -->

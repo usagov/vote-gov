@@ -2,8 +2,7 @@ title = "Voter Registration"
 publishdir = "tmp/public"
 verbose = "true"
 ignoreFiles = [
-  "content/registrar/.*",
-  "layouts/registrar/.*"
+
 ]
 
 DefaultContentLanguage = "en"
@@ -31,7 +30,7 @@ publishDir = "tmp/public"
 
   [languages.es.params]
   Owner = "USA.gov"
-  Referrer_Short_Code = "voteusa_spanish"
+  Referrer_Short_Code = "voteusa_es"
   lang = "es"
   publishDir = "tmp/public/es"
   language = "spanish"

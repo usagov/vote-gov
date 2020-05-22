@@ -1,5 +1,5 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
-<div class="grid-container">
+<div class="grid-conrtainer footer-top">
   <form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
     <h3>{{ $translation.footer.subscribe_email }}</h3>
 

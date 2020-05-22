@@ -1,9 +1,9 @@
 +++
-date = "2016-05-26T17:17:05-04:00"
-external_link = "https://registertovoteflorida.gov/home"
+
+state_name = "Florida"
+state_abbreviation = "fl"
 registration_type = "online"
-state_abbreviation = "FL"
-title = "Florida"
+registration_link = "https://registertovoteflorida.gov/home"
+registration_link_english_only = "true"
 
 +++
-

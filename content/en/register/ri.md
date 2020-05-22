@@ -1,8 +1,9 @@
 +++
-date = "2016-05-26T17:17:10-04:00"
-external_link = "https://vote.sos.ri.gov/Home/RegistertoVote?ActiveFlag=1"
+
+state_name = "Rhode Island"
+state_abbreviation = "ri"
 registration_type = "online"
-state_abbreviation = "RI"
-title = "Rhode Island"
+registration_link = "https://vote.sos.ri.gov/Voter/RegisterToVote"
+more_info_link = "https://vote.sos.ri.gov/"
 
 +++

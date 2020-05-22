@@ -1,9 +1,11 @@
 +++
-date = "2016-05-26T17:17:05-04:00"
-external_link = "https://www.sos.state.co.us/voter-classic/pages/pub/home.xhtml"
+
+state_name = "Colorado"
+state_abbreviation = "co"
 registration_type = "online"
-state_abbreviation = "CO"
-title = "Colorado"
+registration_link = "https://www.sos.state.co.us/voter/pages/pub/home.xhtml"
+registration_link_spanish_selection = "true"
+more_info_link = "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html"
+more_info_link_english_only = "true"
 
 +++
-

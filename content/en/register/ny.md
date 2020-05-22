@@ -1,9 +1,9 @@
 +++
-date = "2016-05-09T17:13:13-04:00"
-external_link = "https://dmv.ny.gov/more-info/electronic-voter-registration-application"
-registration_type = "online"
+
+state_name = "New York"
 state_abbreviation = "ny"
-title = "New York"
-english_only = true
+registration_type = "online"
+registration_link = "https://dmv.ny.gov/more-info/electronic-voter-registration-application"
+more_info_link = "https://www.elections.ny.gov/votingregister.html"
 
 +++

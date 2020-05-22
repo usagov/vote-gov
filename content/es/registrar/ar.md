@@ -1,7 +1,7 @@
 +++
-date = "2016-05-09T16:17:01-04:00"
-external_link = ""
+
+state_name = "Arkansas"
+state_abbreviation = "ar"
 registration_type = "by-mail"
-state_abbreviation = "AR"
-title = "Arkansas"
+
 +++

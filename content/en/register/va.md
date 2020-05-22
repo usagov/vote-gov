@@ -1,9 +1,9 @@
 +++
-date = "2016-05-26T21:41:57-04:00"
-external_link = "https://vote.elections.virginia.gov/Registration/Eligibility"
+
+state_name = "Virginia"
+state_abbreviation = "va"
 registration_type = "online"
-state_abbreviation = "VA"
-title = "Virginia"
-english_only = true
+registration_link = "https://www.elections.virginia.gov/citizen-portal/"
+more_info_link = "https://www.elections.virginia.gov/registration/how-to-register/"
 
 +++

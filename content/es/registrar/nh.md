@@ -1,9 +1,9 @@
 +++
-date = "2016-05-26T17:17:09-04:00"
-external_link = "http://sos.nh.gov/Elections.aspx"
+
+state_name = "New Hampshire"
+state_abbreviation = "nh"
 registration_type = "in-person"
-state_abbreviation = "NH"
-title = "New Hampshire"
+more_info_link = "http://sos.nh.gov/Elections.aspx"
+more_info_link_english_only = "true"
 
 +++
-

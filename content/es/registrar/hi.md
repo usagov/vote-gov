@@ -1,9 +1,11 @@
 +++
-date = "2016-05-26T17:17:06-04:00"
-external_link = "https://olvr.hawaii.gov/"
+
+state_name = "Hawaii"
+state_abbreviation = "hi"
 registration_type = "online"
-state_abbreviation = "HI"
-title = "Hawaii"
+registration_link = "https://olvr.hawaii.gov/"
+registration_link_english_only = "true"
+more_info_link = "https://elections.hawaii.gov/voters/registration/"
+more_info_link_english_only = "true"
 
 +++
-

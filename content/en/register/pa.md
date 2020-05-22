@@ -1,9 +1,9 @@
 +++
-date = "2016-05-26T17:17:10-04:00"
-external_link = "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx"
+
+state_name = "Pennsylvania"
+state_abbreviation = "pa"
 registration_type = "online"
-state_abbreviation = "PA"
-title = "Pennsylvania"
-english_only = false 
-selecciones_link = true
+registration_link = "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx"
+more_info_link = "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote"
+
 +++

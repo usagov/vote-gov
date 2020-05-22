@@ -1,9 +1,8 @@
 +++
-date = "2016-05-26T17:17:06-04:00"
-external_link = "https://ova.elections.il.gov/"
+
+state_name = "Illinois"
+state_abbreviation = "il"
 registration_type = "online"
-state_abbreviation = "IL"
-title = "Illinois"
-english_only = true
+registration_link = "https://ova.elections.il.gov/"
 
 +++

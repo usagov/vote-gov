@@ -1,9 +1,9 @@
 +++
-date = "2016-05-26T17:17:07-04:00"
-external_link = "https://sos.iowa.gov/elections/voterinformation/voterregistration.html"
+
+state_name = "Iowa"
+state_abbreviation = "ia"
 registration_type = "online"
-state_abbreviation = "IA"
-title = "Iowa"
-english_only = true
+registration_link = "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration"
+more_info_link = "https://sos.iowa.gov/elections/voterinformation/voterregistration.html"
 
 +++

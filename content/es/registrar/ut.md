@@ -1,9 +1,11 @@
 +++
-date = "2016-05-26T21:41:20-04:00"
-external_link = "https://secure.utah.gov/voterreg/index.html"
+
+state_name = "Utah"
+state_abbreviation = "ut"
 registration_type = "online"
-state_abbreviation = "UT"
-title = "Utah"
+registration_link = "https://secure.utah.gov/voterreg/index.html"
+registration_link_english_only = "true"
+more_info_link = "https://voteinfo.utah.gov/"
+more_info_link_english_only = "true"
 
 +++
-

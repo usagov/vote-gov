@@ -1,8 +1,8 @@
 +++
-date = "2016-05-10T09:54:01-04:00"
-external_link = "https://soswy.state.wy.us/elections/"
-registration_type = "in-person"
-state_abbreviation = "WY"
-title = "Wyoming"
-+++
 
+state_name = "Wyoming"
+state_abbreviation = "wy"
+registration_type = "in-person"
+more_info_link = "https://soswy.state.wy.us/elections/"
+
++++
