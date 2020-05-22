@@ -19,6 +19,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <header>
           <h1 class="usa-display vote-heading">{{ $translation.homepage.header }}</h1>
         </header>
+
+        <div class="usa-alert usa-alert--warning covid-alert">
+          <div class="usa-alert__body">
+            <p class="usa-alert__text">{{ $translation.homepage.alert.alert_msg }}</p>
+          </div>
+        </div>
+
         <form class="form-register" method="get" id="register">
           <p>{{ $translation.homepage.state_selection.label }}</p>
           <label class="usa-sr-only" for="js-user-selection">
@@ -28,11 +35,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <option value="default">
               {{ $translation.homepage.state_selection.default }}
             </option>
-          {{ range where .Data.Pages.ByTitle "Section" .Site.Params.register_path }}
+          {{ range where (.Data.Pages.ByParam "state_name") "Section" .Site.Params.register_path }}
             {{ if eq $.Site.Params.language "spanish" }}
-              <option value="{{ .Params.state_abbreviation | lower }}">{{ .Title }}</option>
+              <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
             {{ else }}
-              <option value="{{ .Params.state_abbreviation | lower }}">{{ title .Title }}</option>
+              <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
             {{ end }}
           {{ end }}
           </select>

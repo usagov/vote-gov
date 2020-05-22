@@ -5,7 +5,9 @@
 // Variables ------------ //
 
 $font-light: 300;
+$font-medium: 400;
 $inner-box-width: 25rem;
+$inner-box-width-state : 35rem;
 $color-blue-dark: #003366;
 $color-blue-light: #0071bc;
 $theme-color-base-family: #dcdee0;
@@ -18,7 +20,8 @@ body {
 
 h1 {
   color: color('primary-darker');
-
+  margin-top: 2rem;
+  
   @include at-media('tablet') {
     margin-top: 1.5em;
   }
@@ -34,7 +37,8 @@ h1 {
 }
 
 .usa-intro {
-  font-weight: $font-light;
+  font-weight: $font-medium;
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 }
 
 .reg-link {
@@ -65,7 +69,7 @@ h1 {
 
 footer {
   padding-top: .6rem;
-  background-color: color('base-lightest');
+  background-color: $theme-color-base-family;
   height: 6.2rem;
 
   a {
@@ -251,6 +255,7 @@ footer {
   footer {
     position: relative;
     margin-top: 22.75rem;
+    background-color: $theme-color-base-family;
   }
 }
 
@@ -271,16 +276,34 @@ footer {
   }
 }
 
+.state-download {
+  margin: 0;
+
+  .usa-select {
+    margin-bottom: 1.5rem;
+    -webkit-appearance: none;
+  }
+
+  @include at-media('tablet') {
+    max-width: 30rem;
+  }
+  
+  [type="submit"] {
+    width: 100%;
+  }
+}
+
 .form-signup {
   margin: 0 auto;
 
-  @include at-media('tablet') {
-    padding-left: 2rem;
-    padding-right: 2rem;
+  @include at-media('mobile') {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   h3 {
-    margin-top: 5em;
+    margin-top: 2rem;
+    font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
   }
 
   @include at-media('tablet') {
@@ -288,7 +311,7 @@ footer {
   }
 
   [type="submit"] {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -304,7 +327,6 @@ footer {
 }
 
 .footer-bottom-sp {
-  background-color: $theme-color-base-family;
   padding: 2rem 2rem 6rem 2rem;
   margin-top: 30px;
   text-align: center;
@@ -315,8 +337,13 @@ footer {
   }
 }
 
-.footer-bottom {
+.footer-top {
+  padding: 0rem 0rem 3rem 0rem;
+  margin-top: 0;
   background-color: $theme-color-base-family;
+}
+
+.footer-bottom {
   padding: 2rem 2rem 6rem 2rem;
   margin-top: 30px;
   text-align: center;
@@ -403,7 +430,7 @@ a:hover {
 }
 
 .section-back-inner {
-  border-top: 1px solid color('base-lighter');
+  /*border-top: 1px solid color('base-lighter');*/
   padding-top: 2rem;
 }
 
@@ -451,6 +478,26 @@ a:hover {
 
   @include at-media('tablet') {
     clear: both;
+  }
+}
+
+.covid-alert {
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+
+@include at-media('tablet') {
+  max-width: $inner-box-width;
+  }
+}
+
+.covid-alert-state {
+  color: #000;
+  margin-left: auto;
+  margin-right: auto;
+
+@include at-media('tablet') {
+  max-width: $inner-box-width-state;
   }
 }
 

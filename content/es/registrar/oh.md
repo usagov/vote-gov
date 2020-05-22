@@ -1,9 +1,11 @@
 +++
-date = "2016-05-26T17:17:10-04:00"
-external_link = "https://olvr.ohiosos.gov/"
+
+state_name = "Ohio"
+state_abbreviation = "oh"
 registration_type = "online"
-state_abbreviation = "OH"
-title = "Ohio"
+registration_link = "https://olvr.ohiosos.gov/"
+registration_link_spanish_selection = "true"
+more_info_link = "https://ohio.gov/wps/portal/gov/site/government/resources/register-to-vote-or-update-your-registration"
+more_info_link_english_only = "true"
 
 +++
-

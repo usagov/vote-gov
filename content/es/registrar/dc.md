@@ -1,9 +1,9 @@
 +++
-date = "2016-05-26T21:28:39-04:00"
-external_link = "https://www.vote4dc.com/ApplyInstructions/Register?ref=voteusa"
+
+state_name = "District of Columbia"
+state_abbreviation = "dc"
 registration_type = "online"
-state_abbreviation = "DC"
-title = "District of Columbia"
+registration_link = "https://www.vote4dc.com/ApplyInstructions/Register"
+registration_link_english_only = "true"
 
 +++
-

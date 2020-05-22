@@ -1,9 +1,9 @@
 +++
-date = "2016-05-26T17:17:08-04:00"
-external_link = "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx"
+
+state_name = "Minnesota"
+state_abbreviation = "mn"
 registration_type = "online"
-state_abbreviation = "MN"
-title = "Minnesota"
-english_only = true
+registration_link = "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx"
+more_info_link = "https://www.sos.state.mn.us/elections-voting/register-to-vote/"
 
 +++

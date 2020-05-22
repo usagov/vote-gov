@@ -1,9 +1,9 @@
 +++
-date = "2016-05-26T17:17:10-04:00"
-external_link = "https://info.scvotes.sc.gov/eng/ovr/start.aspx"
+
+state_name = "South Carolina"
+state_abbreviation = "sc"
 registration_type = "online"
-state_abbreviation = "SC"
-title = "South Carolina"
-english_only = true
+registration_link = "https://info.scvotes.sc.gov/eng/ovr/start.aspx"
+more_info_link = "https://www.scvotes.org/south-carolina-voter-registration-information"
 
 +++

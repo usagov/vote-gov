@@ -30,11 +30,7 @@ function watch () {
    gulp.watch('./assets/styles/**/*.scss', gulp.task( 'styles' ));
    gulp.watch('./assets/scripts/**/*.js', gulp.task( 'scripts' ));
    gulp.watch('./assets/images/**/*', gulp.task( 'images' ));
-   gutil.log(gutil.colors.cyan('watch'), 'Watching content & layouts for changes');
-   gulp.watch([
-     './content/register/*.md',
-     './layouts/register/**/*.html'
-   ], gulp.series( 'copy-translation' ) );
+   gulp.watch('./config/gulp/state-data.json', gulp.task( 'data' ));
 
 }
 
@@ -137,7 +133,7 @@ exports.buildWebsite = buildWebsite;
 exports.watch = watch;
 exports.website= website;
 
-var build = gulp.series(cleanAll, printPackageInfo, gulp.parallel('styles', 'scripts', 'images', 'fonts'), 'copy-translation');
+var build = gulp.series(cleanAll, printPackageInfo, gulp.parallel('styles', 'scripts', 'images', 'fonts'), 'data');
 var buildWebsite = gulp.series (build, buildWebsite);
 var website = gulp.series (build, website);
 

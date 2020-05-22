@@ -1,0 +1,63 @@
+{{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+
+<div class="grid-container page-inner main-content">
+      
+    <header>
+      <h1>
+    {{ replace $translation.register.heading "%state_name%" .Params.state_name }}
+      </h1>
+    </header>
+
+    <div class="usa-alert usa-alert--warning covid-alert-state">
+      <div class="usa-alert__body">
+        <p class="usa-alert__text">{{ $translation.homepage.alert.alert_msg }}</p>
+      </div>
+    </div>
+
+    <p class="usa-intro">
+      {{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}
+    </p>
+    
+    <p class="usa-intro">
+      {{ $translation.register.by_mail.link_text }}
+    <a href="{{ .Params.more_info_link }}?ref={{ $.Site.Params.Referrer_Short_Code }}" target="_blank">
+        {{ replace $translation.register.by_mail.link_text2 "%state_name%" .Params.state_name }}
+     </a>
+    </p>
+
+    <form class="state-download" method="get" id="register">
+    <p class="usa-intro">{{ $translation.register.other_language_selection.label }}</p>
+    <label class="usa-sr-only" for="js-user-selection">
+      {{ $translation.register.other_language_selection.default }}
+    </label>
+
+    <select class="usa-select" name="userselection" id="js-user-selection">
+     
+      {{ range $key, $form := $.Site.Data.registration_forms }}
+        {{ if eq $key $.Site.Params.language }}
+          <option value="{{ $form.file_path }}">{{ $form.language }}</option>
+        {{ end }}
+      {{ end }}
+      {{ range $key, $form := $.Site.Data.registration_forms }}
+        {{ if ne $key $.Site.Params.language }}
+          <option value="{{ $form.file_path }}">{{ $form.language }}</option>
+        {{ end }}
+      {{ end }}
+    </select>
+      
+    <button class="usa-button" id="js-user-submit" type="submit">
+      {{ $translation.register.other_language_selection.submit }}
+    </button>
+
+    </form>
+    </div>
+
+<script type="text/javascript">
+document.getElementById('register').onsubmit = function(ev) {
+ev.preventDefault();
+var languageSelected = document.getElementById('js-user-selection').value;
+window.open(languageSelected, '_blank');
+};
+</script>
+
+<!-- Download form END -->

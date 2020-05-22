@@ -25,3 +25,6 @@ voterid = "Documentos de identificación personal para votar"
 voterid_url = "https://www.usa.gov/espanol/documento-para-votar"
 process = "Proceso electoral"
 process_url = "https://www.usa.gov/espanol/proceso-electoral"
+
+[alert]
+alert_msg = "Debido al COVID-19, podría haber cambios a cuándo, dónde y cómo usted podrá votar en las próximas elecciones. Verifique esta información en el sitio web electoral de su estado (en inglés)."

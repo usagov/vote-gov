@@ -1,9 +1,9 @@
 +++
-date = "2016-05-26T17:17:06-04:00"
-external_link = "https://indianavoters.in.gov/"
+
+state_name = "Indiana"
+state_abbreviation = "in"
 registration_type = "online"
-state_abbreviation = "IN"
-title = "Indiana"
-english_only = true
+registration_link = "https://indianavoters.in.gov/"
+more_info_link = "https://www.in.gov/sos/elections/2403.htm"
 
 +++

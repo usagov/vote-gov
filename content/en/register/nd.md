@@ -1,9 +1,8 @@
 +++
-date = "2016-05-10T09:55:36-04:00"
-external_link = "https://vip.sos.nd.gov/PortalList.aspx"
+
+state_name = "North Dakota"
+state_abbreviation = "nd"
 registration_type = "not-needed"
-state_abbreviation = "ND"
-title = "North Dakota"
-english_only = true
+more_info_link = "https://vip.sos.nd.gov/PortalList.aspx"
 
 +++

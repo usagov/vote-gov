@@ -1,9 +1,11 @@
 +++
-date = "2016-05-26T17:17:08-04:00"
-external_link = "https://www.sos.mo.gov/elections/goVoteMissouri/register"
+
+state_name = "Missouri"
+state_abbreviation = "mo"
 registration_type = "online"
-state_abbreviation = "MO"
-title = "Missouri"
+registration_link = "https://s1.sos.mo.gov/elections/voterregistration/"
+registration_link_english_only = "true"
+more_info_link = "https://www.sos.mo.gov/elections/goVoteMissouri/register"
+more_info_link_english_only = "true"
 
 +++
-

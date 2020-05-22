@@ -1,18 +1,21 @@
 heading = "Inscríbase para votar en %state_name%"
 english_only = "(en inglés)"
+english_only2 = "(en inglés)"
+no_english = ""
 select_spanish ="- seleccione la opción para español"
 selecciones_link = "(seleccione español)"
+no_selecciones_link = ""
 
 [by_mail]
-body = "Los residentes de %state_name% deben inscribirse para votar por correo postal."
-download = "Descargue el formulario nacional de inscripción de votantes (PDF)"
-download_others = "Descargue el formulario en otros idiomas:"
-step_one_label = "Paso 1"
-step_one = "Llene su registro de votante."
-step_two_label = "Paso 2"
-step_two = "Envíelo por correo postal a la oficina electoral de su estado."
-step_three_label = "Paso 3"
-step_three = "¡Vote en las próximas elecciones!"
+intro = "La inscripción por Internet no está disponible actualmente."
+link_text = "Vea otras maneras de inscribirse para votar en "
+link_text2= "el sitio web electoral de %state_name%."
+
+[other_language_selection]
+
+label = "También puede descargar el formulario nacional de inscripción de votantes (PDF) disponible en español y 14 idiomas más."
+default = "Seleccione su idioma"
+submit = "Descargue el formulario nacional de inscripción de votantes (PDF)"
 
 [in_person]
 body = "Inscríbase en persona en la oficina electoral local." 
@@ -24,4 +27,5 @@ link = "Para más información sobre cómo votar, visite el sitio web electoral 
 
 [online]
 link = "Empiece su inscripción por internet en el sitio web electoral de %state_name%" 
+link2 = "Vea otras formas de inscribirse para votar en %state_name%" 
 

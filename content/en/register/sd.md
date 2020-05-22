@@ -1,9 +1,7 @@
 +++
-date = "2016-05-26T17:17:10-04:00"
-external_link = ""
+
+state_name = "South Dakota"
+state_abbreviation = "sd"
 registration_type = "by-mail"
-state_abbreviation = "SD"
-title = "South Dakota"
-english_only = false 
 
 +++

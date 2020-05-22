@@ -1,9 +1,7 @@
 +++
-date = "2016-05-26T17:17:08-04:00"
-external_link = ""
+
+state_name = "Montana"
+state_abbreviation = "mt"
 registration_type = "by-mail"
-state_abbreviation = "MT"
-title = "Montana"
 
 +++
-
