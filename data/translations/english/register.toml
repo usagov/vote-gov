@@ -25,6 +25,6 @@ link2 = "Find out other ways to register to vote in %state_name%."
 
 [alert_state]
 
-alert_msg = "Due to COVID-19, there may be changes to when, where and how you vote in your upcoming elections. Check with your"
-alert_msg1 = "state election site"
+alert_msg = "Due to COVID-19, there may be changes to when, where and how you vote in your upcoming elections. Check with"
+alert_msg1 = "your state election site"
 alert_msg2 = "for more information."
