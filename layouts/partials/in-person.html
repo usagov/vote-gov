@@ -10,22 +10,28 @@
 
   <div class="usa-alert usa-alert--warning covid-alert-state">
     <div class="usa-alert__body">
-      <p class="usa-alert__text">{{ $translation.homepage.alert.alert_msg }}</p>
+      <p class="usa-alert__text">
+        {{ $translation.register.alert_state.alert_msg }}
+        <a href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+         {{ $translation.register.alert_state.alert_msg1 }}</a>
+         {{ $translation.register.alert_state.alert_msg2 }} 
+      </p>
     </div>
   </div>
   
   <p class="usa-intro">
     {{ replace $translation.register.in_person.body "%state_name%" .Params.state_name }}
   </p>
-  <p>
-    <a  class="reg-link" href="{{ .Params.more_info_link }}">
-      {{ replace $translation.register.in_person.link "%state_name%" .Params.state_name }}
-      {{ if .Params.more_info_link_english_only }}
-        {{ $translation.register.english_only }}
-      {{ else if .Params.more_info_link_spanish_selection }} 
-        {{ $translation.register.selecciones_link }}
-      {{ end }} 
-    </a>
+  
+    <p>    <a  class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+        {{ replace $translation.register.in_person.link "%state_name%" .Params.state_name }}
+        {{ if .Params.more_info_link_english_only }}
+          {{ $translation.register.english_only }}
+        {{ else if .Params.more_info_link_spanish_selection }} 
+          {{ $translation.register.selecciones_link }}
+        {{ end }} 
+      </a>
+    </p>
   </p>
 </div>
 <!-- Register END -->
