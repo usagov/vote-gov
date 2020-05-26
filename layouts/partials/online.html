@@ -17,7 +17,7 @@
     {{ replace $translation.register.online.body "%state_name%" .Params.state_name }}
   </p>
   <p> 
-    <a  class="reg-link" href="{{ .Params.registration_link }}{{ if in .Params.registration_link "?" }}{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+    <a  class="reg-link" href="{{ .Params.registration_link }}{{ if in .Params.registration_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
       {{ replace $translation.register.online.link "%state_name%" .Params.state_name }} 
          
       {{ if .Params.registration_link_english_only }}
@@ -27,7 +27,7 @@
       {{ end }}
     </a>
         <br><br>
-    <a  class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.registration_link "?" }}{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+    <a  class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
       {{replace $translation.register.online.link2 "%state_name%" .Params.state_name }}
         
       {{ if .Params.more_info_link_english_only }}
