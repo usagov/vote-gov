@@ -27,4 +27,4 @@ process = "Proceso electoral"
 process_url = "https://www.usa.gov/espanol/proceso-electoral"
 
 [alert]
-alert_msg = "Debido al COVID-19, su estado podría haber modificado cuándo, dónde y cómo usted podrá votar en las próximas elecciones. Verifique esta información en el sitio web electoral de su estado (en inglés)."
+alert_msg = "Debido al COVID-19, su estado podría haber modificado cuándo, dónde y cómo usted podrá votar en las próximas elecciones. Verifique esta información en el sitio web electoral de su estado."

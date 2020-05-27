@@ -8,8 +8,8 @@ no_selecciones_link = ""
 
 [by_mail]
 intro = "La inscripción por Internet no está disponible actualmente."
-link_text = "Vea otras maneras de inscribirse para votar en "
-link_text2= "el sitio web electoral de %state_name%."
+link_text = "Vea otras formas de inscribirse para votar en "
+link_text2= "el sitio web electoral de %state_name%"
 
 [other_language_selection]
 
@@ -29,5 +29,8 @@ link = "Para más información sobre cómo votar, visite el sitio web electoral 
 link = "Empiece su inscripción por internet en el sitio web electoral de %state_name%" 
 link2 = "Vea otras formas de inscribirse para votar en %state_name%" 
 
-[alert]
-alert_msg = "Debido al COVID-19, su estado podría haber modificado cuándo, dónde y cómo usted podrá votar en las próximas elecciones. Verifique esta información en el sitio web electoral de su estado (en inglés)."
+[alert_state]
+
+alert_msg = "Debido al COVID-19, su estado podría haber modificado cuándo, dónde y cómo usted podrá votar en las próximas elecciones. Verifique esta información en el"
+alert_msg1 = "sitio web electoral de su estado"
+alert_msg2 = "."
