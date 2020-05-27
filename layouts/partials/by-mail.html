@@ -13,7 +13,13 @@
         <p class="usa-alert__text">
           {{ $translation.register.alert_state.alert_msg }}
           <a href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
-           {{ $translation.register.alert_state.alert_msg1 }}</a>
+           {{ $translation.register.alert_state.alert_msg1 }} 
+            {{ if .Params.more_info_link_english_only }}
+           {{ $translation.register.english_only }}
+           {{ else if .Params.more_info_link_spanish_selection }} 
+            {{ $translation.register.selecciones_link }}
+           {{ end }} 
+          </a>
            {{ $translation.register.alert_state.alert_msg2 }} 
         </p>
       </div>
