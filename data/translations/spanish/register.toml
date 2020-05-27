@@ -8,8 +8,8 @@ no_selecciones_link = ""
 
 [by_mail]
 intro = "La inscripción por Internet no está disponible actualmente."
-link_text = "Vea otras maneras de inscribirse para votar en "
-link_text2= "el sitio web electoral de %state_name%."
+link_text = "Vea otras formas de inscribirse para votar en "
+link_text2= "el sitio web electoral de %state_name%"
 
 [other_language_selection]
 
