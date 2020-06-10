@@ -72,13 +72,11 @@
     "registration_type": "online",
     "english":{
       "registration_link": "https://registertovote.ca.gov/",
-      "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote/",
-      "crazyegg": "true"
+      "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote/"
     },
     "spanish": {
       "registration_link": "https://registertovote.ca.gov/es-mx",
-      "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote/",
-      "crazyegg": "true"
+      "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote/"
     }
   },
   "Colorado" : {
@@ -151,8 +149,7 @@
       "registration_link": "https://registertovoteflorida.gov/eligibilityreactive",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://registertovoteflorida.gov/home",
-       "more_info_link_spanish_selection": "true",
-       "crazyegg": "true"  
+       "more_info_link_spanish_selection": "true"   
     }
   },
   "Georgia" : {
@@ -485,8 +482,7 @@
     "registration_type": "online",
     "english":{
       "registration_link": "https://dmv.ny.gov/more-info/electronic-voter-registration-application",
-      "more_info_link": "https://www.elections.ny.gov/votingregister.html",
-      "crazyegg": "true"
+      "more_info_link": "https://www.elections.ny.gov/votingregister.html"
     },
     "spanish": {
       "registration_link": "https://dmv.ny.gov/more-info/electronic-voter-registration-application",
@@ -664,12 +660,10 @@
     "state_abbreviation": "tx",
     "registration_type": "by-mail",
     "english":{
-      "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html",
-      "crazyegg": "true"
+      "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html"
     },
     "spanish": { 
-      "more_info_link": "https://www.votetexas.gov/es/registrese-para-votar/index.html",
-      "crazyegg": "true"
+      "more_info_link": "https://www.votetexas.gov/es/registrese-para-votar/index.html"
     }
   },
   "Utah" : {
