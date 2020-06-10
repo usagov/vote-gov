@@ -72,7 +72,7 @@
     "registration_type": "online",
     "english":{
       "registration_link": "https://registertovote.ca.gov/",
-      "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote/".
+      "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote/",
       "crazyegg": "true"
     },
     "spanish": {
