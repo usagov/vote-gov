@@ -1,0 +1,70 @@
+{{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+
+<!doctype html>
+<html lang="{{ $.Site.Params.lang }}">
+  <head>
+    
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TDRBDKS');</script>
+<!-- End Google Tag Manager -->
+    
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title and meta description
+    ================================================== -->
+    <title>{{ replace $translation.register.state_heading "%state_name%" .Params.state_name }} | {{ .Site.Params.Owner }}</title>
+    <meta property="og:title" content="{{ replace $translation.register.state_heading "%state_name%" .Params.state_name }}" />
+    <meta property="og:url" content="{{ .Site.BaseURL }}" />
+    <meta name="description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
+    <meta property="og:description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
+    <meta property="og:image" content="{{ .Site.BaseURL }}/assets/img/ballot-box-OG.png" />
+    <meta name="twitter:widgets:autoload" content="off">
+    <meta name="twitter:dnt" content="on">
+    <meta name="twitter:widgets:csp" content="on">
+    <link rel="me" href="{{ $translation.footer.twitter_link }}">
+    <link rel="canonical" href="{{ .Site.BaseURL }}" />
+
+
+    <!-- Favicons
+    ================================================== -->
+      <!-- 128x128 -->
+    <link rel="shortcut icon" type="image/ico" href="{{ .Site.BaseURL }}/assets/img/favicons/favicon.ico" />
+    <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}/assets/img/favicons/favicon.png" />
+
+    <!-- 192x192, as recommended for Android
+    http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+    -->
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ .Site.BaseURL }}/assets/img/favicons/favicon-192.png" />
+
+    <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+    <link rel="apple-touch-icon-precomposed" href="{{ .Site.BaseURL }}/assets/img/favicons/favicon-57.png">
+    <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ .Site.BaseURL }}/assets/img/favicons/favicon-72.png">
+    <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ .Site.BaseURL }}/assets/img/favicons/favicon-114.png">
+    <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ .Site.BaseURL }}/assets/img/favicons/favicon-144.png">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/styles/main.css">
+
+    <!-- HTML5 Shiv
+    ================================================== -->
+    {{ `<!--[if lt IE 9]>
+      <script src="` | safeHTML }}{{ .Site.BaseURL }}{{ `assets/js/vendor/html5shiv.js"></script>
+    <![endif]-->` | safeHTML }}
+  </head>

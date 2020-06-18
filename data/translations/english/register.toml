@@ -1,4 +1,6 @@
 heading = "Register to vote in %state_name%"
+state_heading = "Voter Registration in %state_name%"
+meta_name = "Find out how to register to vote in %state_name%."
 
 [by_mail]
 intro = "Online registration is currently not available."
