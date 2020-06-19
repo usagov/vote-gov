@@ -4,7 +4,7 @@
   {{ partial "disclaimer.html" . }}
   <nav class="grid-container">
     <div class="site-logo" id="logo">
-      <h1>
+    <div class="logotext">
       {{ if eq $.Site.Params.language "english" }}
         <a href="{{ .Site.BaseURL }}/" accesskey="1" title="Home" aria-label="Home">
         {{ $translation.micro_copy.domain }}
@@ -12,7 +12,7 @@
         <a href="{{ .Site.BaseURL }}/es/" accesskey="1" title="Home" aria-label="Home"> Vote.gov en Español</a>
       {{ end }}
         </a>
-      </h1>
+      </div>  
     </div>
   </nav>
 </header>
