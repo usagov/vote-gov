@@ -52,12 +52,14 @@ h1 {
 @import './component/disclaimer';
 
 .site-logo {
-  h1 {
-    @include u-margin-top (2);
+  
+  .logotext 
+  { @include u-margin-top (2);
     @include u-margin-bottom (neg-2);
     font-family: family('sans');
     font-size: size('body', 'lg');
-  }
+    font-weight: 700;
+   }
 
   a {
     color: color('secondary-dark');
