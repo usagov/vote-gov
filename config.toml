@@ -24,7 +24,7 @@ publishDir = "tmp/public"
   register_path = "register"
 
   [languages.es]
-  title = "Registro de Votantes"
+  title = "Inscripción para votar"
   verbose = "true"
   contentDir = "content/es"
 

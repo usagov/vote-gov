@@ -1,4 +1,6 @@
 heading = "Inscríbase para votar en %state_name%"
+state_heading = "Inscríbase para votar en %state_name%"
+meta_name = "Averigüe cómo inscribirse para votar en %state_name%."
 english_only = "(en inglés)"
 english_only2 = "(en inglés)"
 no_english = ""
