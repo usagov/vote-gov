@@ -1,4 +1,5 @@
 heading = "Inscríbase para votar en %state_name%"
+heading2 = "How do I register to vote in %state_name%?"
 state_heading = "Inscríbase para votar en %state_name%"
 meta_name = "Averigüe cómo inscribirse para votar en %state_name%."
 english_only = "(en inglés)"
@@ -22,12 +23,16 @@ submit = "Descargue el formulario nacional de inscripción de votantes (PDF)"
 [in_person]
 body = "Inscríbase en persona en la oficina electoral local." 
 link = "Visite el sitio web de %state_name% para más información sobre cómo inscribirse"
+h2_p = "You can register in person."
 
 [not_needed]
 body = "%state_name% no requere inscripción para votar."
 link = "Para más información sobre cómo votar, visite el sitio web electoral de %state_name%"  
 
 [online]
+h2_text = "What are the other ways to register to vote in %state_name%?"
+h2_p = "You can also register to vote by mail or in person."
+h2_link = "Find out how on %state_name%'s election website."
 link = "Empiece su inscripción por internet en el sitio web electoral de %state_name%" 
 link2 = "Vea otras formas de inscribirse para votar en %state_name%" 
 
