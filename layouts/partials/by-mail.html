@@ -24,9 +24,12 @@
         </p>
       </div>
     </div>
-    <h2>
-      {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
-    </h2>
+
+    <header>
+      <h2>
+        {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
+      </h2>
+    </header>
 
     <p class="usa-intro">
       {{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}

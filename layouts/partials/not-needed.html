@@ -25,15 +25,18 @@
     </div>
   </div>
   
-  <h2>
-    {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
-  </h2>
+  <header>
+    <h2>
+      {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
+    </h2>
+  </header>
+  
   <p class="usa-intro">
     {{ replace $translation.register.not_needed.h2_p "%state_name%" .Params.state_name }}
 
     <a  class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
       {{ replace $translation.register.not_needed.link "%state_name%" .Params.state_name }}
-      
+    
       {{ if .Params.more_info_link_english_only }}
         {{ $translation.register.english_only }}
       {{ else if .Params.more_info_link_spanish_selection }} 
