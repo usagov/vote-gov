@@ -30,10 +30,10 @@
 
   <header>
   <h2>
-    {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
+    {{ replace $translation.register.online.heading2 "%state_name%" .Params.state_name }}
   </h2>
   </header>
-  
+
   <p> 
     <a  class="reg-link" href="{{ .Params.registration_link }}{{ if in .Params.registration_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
       {{ replace $translation.register.online.link "%state_name%" .Params.state_name }} 
