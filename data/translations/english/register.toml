@@ -6,7 +6,7 @@ meta_name = "Find out how to register to vote in %state_name%."
 [by_mail]
 intro = "Online registration is currently not available."
 link_text = "Find out ways to register to vote at"
-link_text2 = "%state_name%'s state election website."
+link_text2 = "%state_name%’s state election website."
 
 [other_language_selection]
 
@@ -30,7 +30,7 @@ link2 = "Find out other ways to register to vote in %state_name%."
 heading2 = "How do I register to vote online in %state_name%?"
 h2_text = "What are the other ways to register to vote in %state_name%?"
 h2_p = "You can also register to vote by mail or in person."
-h2_link = "Find out how on %state_name%'s election website."
+h2_link = "Find out how on %state_name%’s election website."
 
 [alert_state]
 alert_msg = "Due to COVID-19, there may be changes to when, where and how you vote in your upcoming elections. Check with"

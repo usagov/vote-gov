@@ -31,6 +31,28 @@
       </h2>
     </header>
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "{{ replace $translation.register.online.heading2 "%state_name%" .Params.state_name }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }} {{ $translation.register.by_mail.link_text }} <a  class='reg-link' href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.by_mail.link_text2 "%state_name%" .Params.state_name }}"
+        }
+      },{
+        "@type": "Question",
+        "name": "{{ replace $translation.register.online.h2_text "%state_name%" .Params.state_name }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ $translation.register.other_language_selection.label }}</a>"
+        }
+      }]
+    }
+    </script>
+
     <p class="usa-intro">
       {{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}
       {{ $translation.register.by_mail.link_text }}
