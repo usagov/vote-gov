@@ -39,5 +39,11 @@
       </a>
     </p>
   </p>
+  <p class = "usa-alert">
+    {{ replace $translation.register.dates.registration_deadline "%reg_deadline%" .Params.reg_deadline }}
+  </p>
+  <p class = "usa-alert">
+    {{ replace $translation.register.dates.primary_deadline "%prim_deadline%" .Params.prim_deadline }}
+  </p>
 </div>
 <!-- Register END -->
