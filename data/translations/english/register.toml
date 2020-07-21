@@ -33,5 +33,5 @@ alert_msg2 = "for more information."
 
 [dates]
 
-registration_date = "The registration deadline is %state_date%."
+registration_deadline = "The registration deadline is %reg_deadline%!"
 

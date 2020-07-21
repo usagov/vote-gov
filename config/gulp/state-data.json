@@ -3,12 +3,13 @@
     "state_name": "Alabama",
     "state_abbreviation": "al",
     "registration_type": "online",
-    "registration_date" : "October 19th, 2020",
+    "reg_deadline" : "October 19th, 2020",
 
 
     "english":{
       "registration_link": "https://www.alabamainteractive.org/sos/voter_registration/",
       "more_info_link": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote"
+
     },
     "spanish": {
       "registration_link": "https://www.alabamainteractive.org/sos/voter_registration/",
