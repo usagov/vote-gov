@@ -42,6 +42,41 @@
      </a>
     </p>
 
+    <div class="usa-graphic-list">
+      <div class="grid-row">
+        <div class="grid-col-4">
+          <img src="{{ .Site.BaseURL }}/assets/img/step-1.png">
+          <h4 class="usa-graphic-list__heading">
+            {{ $translation.register.by_mail.step_one_label }}
+          </h4>
+          <p>
+            {{ $translation.register.by_mail.step_one }}
+          </p>
+        </div>
+        <div class="grid-col-4">
+          <img src="{{ .Site.BaseURL }}/assets/img/step-2.png">
+          <h4 class="usa-graphic-list__heading">
+            {{ $translation.register.by_mail.step_two_label }}
+          </h4>
+          <p>
+            {{ $translation.register.by_mail.step_two }}
+          </p>
+        </div>
+        <div class="grid-col-4">
+          <img src="{{ .Site.BaseURL }}/assets/img/step-3.png">
+          <h4 class="usa-graphic-list__heading">
+            {{ $translation.register.by_mail.step_three_label }}
+          </h4>
+          <p>
+            {{ $translation.register.by_mail.step_three }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Steps END -->
+  
+
+
     <form class="state-download" method="get" id="register">
     <p class="usa-intro">{{ $translation.register.other_language_selection.label }}</p> <!--You can download form-->
     <label class="usa-sr-only" for="js-user-selection">
