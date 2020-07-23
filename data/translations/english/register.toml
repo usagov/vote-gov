@@ -1,4 +1,5 @@
 heading = "Register to vote in %state_name%"
+heading2 = "How do I register to vote in %state_name%?"
 state_heading = "Voter Registration in %state_name%"
 meta_name = "Find out how to register to vote in %state_name%."
 
@@ -26,16 +27,17 @@ submit = "Download the National Voter Registration Form"
 [in_person]
 body = "Register in person at your local election office."
 link = "Learn more about how to register on %state_name%’s election website."
+h2_p = "You can register in person."
 
 
 [not_needed]
 body = "Voter registration is not required in %state_name%."
 link = "Learn more about voting on %state_name%’s election website."
+h2_p = "Voter registration is not required in %state_name%."
 
 [online]
 link = "Start your online registration on %state_name%’s election website."
 link2 = "Find out other ways to register to vote in %state_name%."
-heading2 = "How do I register to vote online in %state_name%?"
 h2_text = "What are the other ways to register to vote in %state_name%?"
 h2_p = "You can also register to vote by mail or in person."
 h2_link = "Find out how on %state_name%’s election website."
@@ -55,4 +57,18 @@ alert_msg2 = "for more information."
 inperson_deadline = "In Person deadline: %ip_deadline%"
 byonline_deadline = "Online deadline: %online_deadline%"
 bymail_deadline = "Mail in registration deadline: Must be postmarked by %mail_deadline%"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
