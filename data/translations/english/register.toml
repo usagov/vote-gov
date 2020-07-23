@@ -35,6 +35,10 @@ link = "Learn more about voting on %state_name%’s election website."
 [online]
 link = "Start your online registration on %state_name%’s election website."
 link2 = "Find out other ways to register to vote in %state_name%."
+heading2 = "How do I register to vote online in %state_name%?"
+h2_text = "What are the other ways to register to vote in %state_name%?"
+h2_p = "You can also register to vote by mail or in person."
+h2_link = "Find out how on %state_name%’s election website."
 
 
 [alert_state]
