@@ -67,15 +67,15 @@
   {{end}}
 </p>
 </header>
-<h2 >
+<p >
   {{ if .Params.online_deadline }}
   {{ replace $translation.register.dates.byonline_deadline "%online_deadline%" .Params.online_deadline }}
   {{end}}
-</h2>
-<h2>
+</p>
+<p>
   {{ if .Params.mail_deadline }}
   {{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}
   {{end}}
-</h2>
+</p>
 </div>
 <!-- Register END -->
