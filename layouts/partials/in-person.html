@@ -39,11 +39,22 @@
       </a>
     </p>
   </p>
-  <p class = "usa-alert">
-    {{ replace $translation.register.dates.registration_deadline "%reg_deadline%" .Params.reg_deadline }}
+  <p class = "usa-intro">
+    {{ if .Params.ip_deadline }}
+    {{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
+    {{end}}
   </p>
-  <p class = "usa-alert">
-    {{ replace $translation.register.dates.primary_deadline "%prim_deadline%" .Params.prim_deadline }}
+  <p class = "usa-intro">
+    {{ if .Params.online_deadline }}
+    {{ replace $translation.register.dates.byonline_deadline "%online_deadline%" .Params.online_deadline }}
+    {{end}}
   </p>
+  <p class = "usa-intro">
+    {{ if .Params.mail_deadline }}
+    {{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}
+    {{end}}
+  </p>
+
+
 </div>
 <!-- Register END -->

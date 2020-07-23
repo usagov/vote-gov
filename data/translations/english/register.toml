@@ -27,6 +27,7 @@ submit = "Download the National Voter Registration Form"
 body = "Register in person at your local election office."
 link = "Learn more about how to register on %state_name%’s election website."
 
+
 [not_needed]
 body = "Voter registration is not required in %state_name%."
 link = "Learn more about voting on %state_name%’s election website."
@@ -34,6 +35,7 @@ link = "Learn more about voting on %state_name%’s election website."
 [online]
 link = "Start your online registration on %state_name%’s election website."
 link2 = "Find out other ways to register to vote in %state_name%."
+
 
 [alert_state]
 
@@ -43,5 +45,7 @@ alert_msg2 = "for more information."
 
 [dates]
 
-registration_deadline = "General Election Deadline: %reg_deadline%"
-primary_deadline = "Primary Election Deadline: %prim_deadline%"
+inperson_deadline = "In Person deadline: %ip_deadline%"
+byonline_deadline = "Online deadline: %online_deadline%"
+bymail_deadline = "By mail deadline: %mail_deadline%"
+

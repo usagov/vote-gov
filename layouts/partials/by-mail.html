@@ -101,6 +101,24 @@
       {{ $translation.register.other_language_selection.submit }}
     </button>
 
+    <!--Display Dates here-->
+    <p class = "usa-intro">
+      {{ if .Params.ip_deadline }}
+      {{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
+      {{end}}
+    </p>
+    <p class = "usa-intro">
+      {{ if .Params.online_deadline }}
+      {{ replace $translation.register.dates.byonline_deadline "%online_deadline%" .Params.online_deadline }}
+      {{end}}
+    </p>
+    <p class = "usa-intro">
+      {{ if .Params.mail_deadline }}
+      {{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}
+      {{end}}
+    </p>
+    <!--Dates Displayed-->
+    
     </form>
     </div>
 

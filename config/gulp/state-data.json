@@ -3,7 +3,9 @@
     "state_name": "Alabama",
     "state_abbreviation": "al",
     "registration_type": "online",
-    "reg_deadline" : "October 19th, 2020",
+    "ip_deadline" : "Monday October 19th, 2020",
+    "online_deadline":"Monday October 19th, 2020",
+    "mail_deadline":"Monday October 19th, 2020",
 
 
     "english":{
@@ -22,6 +24,10 @@
     "state_name": "Alaska",
     "state_abbreviation": "ak",
     "registration_type": "online",
+    "ip_deadline" : "Sunday October 4th, 2020",
+    "online_deadline": "Sunday October 4th, 2020",
+    "mail_deadline": "Sunday October 4th, 2020",
+
     "english":{
       "registration_link": "https://voterregistration.alaska.gov/",
       "more_info_link": "http://www.elections.alaska.gov/Core/voterregistration.php"
@@ -36,6 +42,10 @@
     "state_name": "American Samoa",
     "state_abbreviation": "as",
     "registration_type": "in-person",
+    "ip_deadline" : "TBH",
+    "online_deadline": "TBH",
+    "mail_deadline": "TBH",
+
     "english":{
       "more_info_link": "https://aselectionoffice.gov//"
     },
@@ -48,6 +58,10 @@
     "state_name": "Arizona",
     "state_abbreviation": "az",
     "registration_type": "online",
+    "ip_deadline" : "Monday October 5th, 2020",
+    "online_deadline": "Monday October 5th, 2020",
+    "mail_deadline": "Monday October 5th, 2020",
+
     "english":{
       "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage", 
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information"
@@ -62,6 +76,10 @@
     "state_name": "Arkansas",
     "state_abbreviation": "ar",
     "registration_type": "by-mail",
+    "ip_deadline" : "Sunday October 4th, 2020",
+    "online_deadline": "Sunday October 4th, 2020",
+    "mail_deadline": "Sunday October 4th, 2020",
+
     "english":{
       "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/"
     },
@@ -74,6 +92,10 @@
     "state_name": "California",
     "state_abbreviation": "ca",
     "registration_type": "online",
+    "ip_deadline" : "Tuesday November 3rd, 2020",
+    "online_deadline": "Monday October 19th, 2020",
+    "mail_deadline": "Monday October 19th, 2020",
+
     "english":{
       "registration_link": "https://registertovote.ca.gov/",
       "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote/",
@@ -89,6 +111,10 @@
     "state_name": "Colorado",
     "state_abbreviation": "co",
     "registration_type": "online",
+    "ip_deadline" : "Tuesday November 3rd, 2020",
+    "online_deadline": "Monday October 26th, 2020",
+    "mail_deadline": "Monday October 26th, 2020",
+
     "english":{
       "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
       "more_info_link": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html"
@@ -103,6 +129,10 @@
     "state_name": "Connecticut",
     "state_abbreviation": "ct",
     "registration_type": "online",
+    "ip_deadline" : "Tuesday November 3rd, 2020",
+    "online_deadline": "Tuesday October 27th, 2020",
+    "mail_deadline": "Tuesday October 27th, 2020",
+
     "english":{
       "registration_link": "https://voterregistration.ct.gov/OLVR/",
       "more_info_link": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet"
@@ -118,6 +148,10 @@
     "state_name": "Delaware",
     "state_abbreviation": "de",
     "registration_type": "online",
+    "ip_deadline" : "Saturday October 10th, 2020",
+    "online_deadline": "Saturday October 10th, 2020",
+    "mail_deadline": "Saturday October 10th, 2020",
+
     "english":{
       "registration_link": "https://ivote.de.gov/VoterView/",
       "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml"
@@ -132,6 +166,10 @@
     "state_name": "District of Columbia",
     "state_abbreviation": "dc",
     "registration_type": "online",
+    "ip_deadline" : "Tuesday November 3rd, 2020",
+    "online_deadline": "Tuesday October 13th, 2020",
+    "mail_deadline": "Tuesday October 13th, 2020",
+
     "english":{
       "registration_link": "https://www.vote4dc.com/ApplyInstructions/Register",
       "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register"
@@ -147,6 +185,10 @@
     "state_name": "Florida",
     "state_abbreviation": "fl",
     "registration_type": "online",
+    "ip_deadline" : "Monday October 5th, 2020",
+    "online_deadline": "Monday October 5th, 2020",
+    "mail_deadline": "Monday October 5th, 2020",
+
     "english":{
       "registration_link": "https://registertovoteflorida.gov/eligibilityreactive",
       "more_info_link": "https://registertovoteflorida.gov/home"
@@ -163,6 +205,10 @@
     "state_name": "Georgia",
     "state_abbreviation": "ga",
     "registration_type": "online",
+    "ip_deadline" : "Monday October 5th, 2020",
+    "online_deadline": "Monday October 5th, 2020",
+    "mail_deadline": "Monday October 5th, 2020",
+
     "english":{
       "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do",
       "more_info_link": "https://sos.ga.gov/index.php/Elections/register_to_vote"
@@ -178,8 +224,9 @@
     "state_name": "Guam",
     "state_abbreviation": "gu",
     "registration_type": "in-person",
-    "reg_deadline": "October 23, 2020",
-    "prim_deadline": "August 19, 2020",
+    "ip_deadline": "TBH",
+    "online_deadline": "TBH",
+    "mail_deadline": "TBH",
 
     "english":{
       "more_info_link": "https://gec.guam.gov/"
@@ -194,6 +241,10 @@
     "state_name": "Hawaii",
     "state_abbreviation": "hi",
     "registration_type": "online",
+    "ip_deadline" : "Tuesday November 3rd, 2020",
+    "online_deadline": "Monday October 5th, 2020",
+    "mail_deadline": "Monday October 5th, 2020",
+
     "english":{
       "registration_link": "https://olvr.hawaii.gov/",
       "more_info_link": "https://elections.hawaii.gov/voters/registration/"
@@ -209,6 +260,10 @@
     "state_name": "Idaho",
     "state_abbreviation": "id",
     "registration_type": "online",
+    "ip_deadline" : "Tuesday November 3rd, 2020",
+    "online_deadline": "Friday October 9th, 2020",
+    "mail_deadline": "Friday October 9th, 2020",
+
     "english":{
       "registration_link": "https://apps.idahovotes.gov/OnlineVoterRegistration",
       "more_info_link": "https://idahovotes.gov/voting/"
@@ -224,6 +279,10 @@
     "state_name": "Illinois",
     "state_abbreviation": "il",
     "registration_type": "online",
+    "ip_deadline" : "Tuesday November 3rd, 2020",
+    "online_deadline": "Tuesday October 6th, 2020",
+    "mail_deadline": "Tuesday October 6th, 2020",
+
     "english":{
       "registration_link": "https://ova.elections.il.gov/",
       "more_info_link": "https://www.elections.il.gov/Default.aspx"
@@ -238,6 +297,10 @@
     "state_name": "Indiana",
     "state_abbreviation": "in",
     "registration_type": "online",
+    "ip_deadline" : "Monday October 5th, 2020",
+    "online_deadline": "Monday October 5th, 2020",
+    "mail_deadline": "Monday October 5th, 2020",
+
     "english":{
       "registration_link": "https://indianavoters.in.gov/",
       "more_info_link": "https://www.in.gov/sos/elections/2403.htm"
@@ -253,6 +316,10 @@
     "state_name": "Iowa",
     "state_abbreviation": "ia",
     "registration_type": "online",
+    "ip_deadline" : "Tuesday November 3rd, 2020",
+    "online_deadline": "Saturday October 24th, 2020",
+    "mail_deadline": "Monday October 19th, 2020",
+
     "english":{
       "registration_link": "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration",
       "more_info_link": "https://sos.iowa.gov/elections/voterinformation/voterregistration.html"
@@ -268,6 +335,10 @@
     "state_name": "Kansas",
     "state_abbreviation": "ks",
     "registration_type": "online",
+    "ip_deadline" : "Tuesday October 13th, 2020",
+    "online_deadline": "Tuesday October 13th, 2020",
+    "mail_deadline": "Tuesday October 13th, 2020",
+
     "english":{
       "registration_link": "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx",
       "more_info_link": "https://sos.kansas.gov/elections/"
@@ -283,6 +354,10 @@
     "state_name": "Kentucky",
     "state_abbreviation": "ky",
     "registration_type": "online",
+    "ip_deadline" : "Monday October 5th, 2020",
+    "online_deadline": "Monday October 5th, 2020",
+    "mail_deadline": "Monday October 5th, 2020",
+
     "english":{
       "registration_link": "https://vrsws.sos.ky.gov/ovrweb/",
       "more_info_link": "https://elect.ky.gov/Resources/Pages/Registration.aspx"
@@ -298,6 +373,9 @@
     "state_name": "Louisiana",
     "state_abbreviation": "la",
     "registration_type": "online",
+    "ip_deadline" : "Sunday October 4th, 2020",
+    "online_deadline": "Wednesday October 14th, 2020",
+    "mail_deadline": "Sunday October 4th, 2020",
     "english":{
       "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
       "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx"
@@ -313,6 +391,9 @@
     "state_name": "Maine",
     "state_abbreviation": "me",
     "registration_type": "by-mail",
+    "ip_deadline" : "Tuesday November 3rd, 2020",
+    "online_deadline": "Tuesday October 13th, 2020",
+    "mail_deadline": "Tuesday October 13th, 2020",
     "english":{
       "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html"
     },
@@ -325,6 +406,9 @@
     "state_name": "Maryland",
     "state_abbreviation": "md",
     "registration_type": "online",
+    "ip_deadline" : "Tuesday November 3rd, 2020",
+    "online_deadline": "Tuesday October 13th, 2020",
+    "mail_deadline": "Tuesday October 13th, 2020",
     "english":{
       "registration_link": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1",
       "more_info_link": "https://www.elections.maryland.gov/voter_registration/application.html"
@@ -340,6 +424,9 @@
     "state_name": "Massachusetts",
     "state_abbreviation": "ma",
     "registration_type": "online",
+    "ip_deadline" : "Wednesday October 14th, 2020",
+    "online_deadline": "Wednesday October 14th, 2020",
+    "mail_deadline": "Sunday October 4th, 2020",
     "english":{
       "registration_link": "https://www.sec.state.ma.us/ovr/",
       "more_info_link": "https://www.sec.state.ma.us/ele/eleifv/howreg.htm"
@@ -355,6 +442,10 @@
     "state_name": "Michigan",
     "state_abbreviation": "mi",
     "registration_type": "online",
+    "ip_deadline" : "Tuesday November 3rd, 2020",
+    "online_deadline": "Monday October 19th, 2020",
+    "mail_deadline": "Monday October 19th, 2020",
+
     "english":{
       "registration_link": "https://mvic.sos.state.mi.us/registervoter",
       "more_info_link": "https://www.michigan.gov/sos/0,4670,7-127-1633_8716---,00.html"
@@ -370,6 +461,9 @@
     "state_name": "Minnesota",
     "state_abbreviation": "mn",
     "registration_type": "online",
+    "ip_deadline" : "Tuesday November 3rd, 2020",
+    "online_deadline": "Tuesday October 13th, 2020",
+    "mail_deadline": "Tuesday October 13th, 2020",
     "english":{
       "registration_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
       "more_info_link": "https://www.sos.state.mn.us/elections-voting/register-to-vote/"
@@ -384,6 +478,9 @@
     "state_name": "Mississippi",
     "state_abbreviation": "ms",
     "registration_type": "by-mail",
+    "ip_deadline" : "Sunday October 4th, 2020",
+    "online_deadline": "Sunday October 4th, 2020",
+    "mail_deadline": "Sunday October 4th, 2020",
      "english":{
       "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
     },
@@ -396,6 +493,9 @@
     "state_name": "Missouri",
     "state_abbreviation": "mo",
     "registration_type": "online",
+    "ip_deadline" : "Wednesday October 7th, 2020",
+    "online_deadline": "Wednesday October 7th, 2020",
+    "mail_deadline": "Wednesday October 7th, 2020",
     "english":{
       "registration_link": "https://s1.sos.mo.gov/elections/voterregistration/",
       "more_info_link": "https://www.sos.mo.gov/elections/goVoteMissouri/register"
@@ -411,6 +511,9 @@
     "state_name": "Montana",
     "state_abbreviation": "mt",
     "registration_type": "by-mail",
+    "ip_deadline" : "Tuesday November 3rd, 2020",
+    "online_deadline": "Sunday October 4th, 2020",
+    "mail_deadline": "Sunday October 4th, 2020",
     "english":{
       "more_info_link": "https://sosmt.gov/elections/vote/"
     },
@@ -423,6 +526,9 @@
     "state_name": "Nebraska",
     "state_abbreviation": "ne",
     "registration_type": "online",
+    "ip_deadline" : "Friday October 23rd, 2020",
+    "online_deadline": "Friday October 16th, 2020",
+    "mail_deadline": "Friday October 16th, 2020",
     "english":{
       "registration_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
       "more_info_link": "https://sos.nebraska.gov/elections/voter-forms"
@@ -437,6 +543,9 @@
     "state_name": "Nevada",
     "state_abbreviation": "nv",
     "registration_type": "online",
+    "ip_deadline" : "Tuesday October 6th, 2020",
+    "online_deadline": "Tuesday October 6th, 2020",
+    "mail_deadline": "Tuesday October 6th, 2020",
     "english":{
       "registration_link": "https://www.nvsos.gov/SOSVoterServices/start.aspx",
       "more_info_link": "https://www.nvsos.gov/sos/elections/voters/registering-to-vote"
@@ -452,6 +561,9 @@
     "state_name": "New Hampshire",
     "state_abbreviation": "nh",
     "registration_type": "in-person",
+    "ip_deadline" : "Tuesday November 3rd, 2020",
+    "online_deadline": "Tuesday October 20th, 2020",
+    "mail_deadline": "Tuesday October 20th, 2020",
     "english":{
       "more_info_link": "http://sos.nh.gov/Elections.aspx"
     },
@@ -464,6 +576,9 @@
     "state_name": "New Jersey",
     "state_abbreviation": "nj",
     "registration_type": "by-mail",
+    "ip_deadline" : "Tuesday October 13th, 2020",
+    "online_deadline": "Tuesday October 13th, 2020",
+    "mail_deadline": "Tuesday October 13th, 2020",
     "english":{
       "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml"
     },
@@ -476,6 +591,9 @@
     "state_name": "New Mexico",
     "state_abbreviation": "nm",
     "registration_type": "online",
+    "ip_deadline" : "Saturday October 31st, 2020",
+    "online_deadline": "Tuesday October 6th, 2020",
+    "mail_deadline": "Tuesday October 6th, 2020",
     "english":{
       "registration_link": "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx",
       "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information/voter-registration-information/"
@@ -491,6 +609,9 @@
     "state_name": "New York",
     "state_abbreviation": "ny",
     "registration_type": "online",
+    "ip_deadline" : "Saturday October 10th, 2020",
+    "online_deadline": "Friday October 9th, 2020",
+    "mail_deadline": "Friday October 9th, 2020",
     "english":{
       "registration_link": "https://dmv.ny.gov/more-info/electronic-voter-registration-application",
       "more_info_link": "https://www.elections.ny.gov/votingregister.html",
@@ -507,6 +628,9 @@
     "state_name": "North Carolina",
     "state_abbreviation": "nc",
     "registration_type": "online",
+    "ip_deadline" : "Saturday October 31st, 2020",
+    "online_deadline": "Friday October 9th, 2020",
+    "mail_deadline": "Friday October 9th, 2020",
     "english":{
       "registration_link": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
       "more_info_link": "https://www.ncsbe.gov/Voters/Registering-to-Vote"
@@ -522,6 +646,9 @@
     "state_name": "North Dakota",
     "state_abbreviation": "nd",
     "registration_type": "not-needed",
+    "ip_deadline": "TBH",
+    "online_deadline": "TBH",
+    "mail_deadline": "TBH",
     "english":{
       "more_info_link": "https://vip.sos.nd.gov/PortalList.aspx"
     },
@@ -534,6 +661,10 @@
     "state_name": "Northern Mariana Islands",
     "state_abbreviation": "mp",
     "registration_type": "in-person",
+    "ip_deadline": "TBH",
+    "online_deadline": "TBH",
+    "mail_deadline": "TBH",
+
     "english":{
       "more_info_link": "https://www.votecnmi.gov.mp/"
     },
@@ -546,6 +677,9 @@
     "state_name": "Ohio",
     "state_abbreviation": "oh",
     "registration_type": "online",
+    "ip_deadline" : "Sunday October 4th, 2020",
+    "online_deadline": "Sunday October 4th, 2020",
+    "mail_deadline": "Sunday October 4th, 2020",
     "english":{
       "registration_link": "https://olvr.ohiosos.gov/",
       "more_info_link": "https://ohio.gov/wps/portal/gov/site/government/resources/register-to-vote-or-update-your-registration"
@@ -561,6 +695,9 @@
     "state_name": "Oklahoma",
     "state_abbreviation": "ok",
     "registration_type": "by-mail",
+    "ip_deadline": "Friday October 9th",
+    "online_deadline": "Friday October 9th",
+    "mail_deadline": "Friday October 9th",
      "english":{
       "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html"
     },
@@ -573,6 +710,9 @@
     "state_name": "Oregon",
     "state_abbreviation": "or",
     "registration_type": "online",
+    "ip_deadline": "Tuesday October 13th",
+    "online_deadline": "Tuesday October 13th",
+    "mail_deadline": "Tuesday October 13th",
     "english":{
       "registration_link": "https://secure.sos.state.or.us/orestar/vr/register.do",
       "more_info_link": "https://sos.oregon.gov/voting/Pages/registration.aspx"
@@ -588,6 +728,9 @@
     "state_name": "Pennsylvania",
     "state_abbreviation": "pa",
     "registration_type": "online",
+    "ip_deadline": "Monday October 19th",
+    "online_deadline": "Monday October 19th",
+    "mail_deadline": "Monday October 19th",
     "english":{
       "registration_link": "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
       "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote"
@@ -603,6 +746,9 @@
     "state_name": "Puerto Rico",
     "state_abbreviation": "pr",
     "registration_type": "in-person",
+    "ip_deadline": "TBH",
+    "online_deadline": "TBH",
+    "mail_deadline": "TBH",
     "english":{
       "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx"
     },
@@ -615,6 +761,9 @@
     "state_name": "Rhode Island",
     "state_abbreviation": "ri",
     "registration_type": "online",
+    "ip_deadline" : "Sunday October 4th, 2020",
+    "online_deadline": "Sunday October 4th, 2020",
+    "mail_deadline": "Sunday October 4th, 2020",
     "english":{
       "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
       "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote"
@@ -629,6 +778,9 @@
     "state_name": "South Carolina",
     "state_abbreviation": "sc",
     "registration_type": "online",
+    "ip_deadline" : "Sunday October 4th, 2020",
+    "online_deadline": "Sunday October 4th, 2020",
+    "mail_deadline": "Sunday October 4th, 2020",
     "english":{
       "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
       "more_info_link": "https://www.scvotes.org/south-carolina-voter-registration-information"
@@ -644,6 +796,9 @@
     "state_name": "South Dakota",
     "state_abbreviation": "sd",
     "registration_type": "by-mail",
+    "ip_deadline": "Monday October 19th, 2020",
+    "online_deadline": "Monday October 19th, 2020",
+    "mail_deadline": "Monday October 19th, 2020",
      "english":{
       "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx"
     },
@@ -656,6 +811,9 @@
     "state_name": "Tennessee",
     "state_abbreviation": "tn",
     "registration_type": "online",
+    "ip_deadline" : "Sunday October 4th, 2020",
+    "online_deadline": "Sunday October 4th, 2020",
+    "mail_deadline": "Sunday October 4th, 2020",
     "english":{
       "registration_link": "https://ovr.govote.tn.gov/",
       "more_info_link": "https://sos.tn.gov/products/elections/register-vote"
@@ -671,6 +829,9 @@
     "state_name": "Texas",
     "state_abbreviation": "tx",
     "registration_type": "by-mail",
+    "ip_deadline" : "Sunday October 4th, 2020",
+    "online_deadline": "Sunday October 4th, 2020",
+    "mail_deadline": "Sunday October 4th, 2020",
     "english":{
       "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html",
       "crazyegg": "true"
@@ -684,6 +845,9 @@
     "state_name": "Utah",
     "state_abbreviation": "ut",
     "registration_type": "online",
+    "ip_deadline": "Friday October 23rd, 2020",
+    "online_deadline": "Friday October 23rd, 2020",
+    "mail_deadline": "Friday October 23rd, 2020",
     "english":{
       "registration_link": "https://secure.utah.gov/voterreg/index.html",
       "more_info_link": "https://voteinfo.utah.gov/"
@@ -699,6 +863,9 @@
     "state_name": "Vermont",
     "state_abbreviation": "vt",
     "registration_type": "online",
+    "ip_deadline": "Tuesday November 3rd, 2020",
+    "online_deadline": "Thursday October 30th, 2020",
+    "mail_deadline": "Tuesday November 3rd, 2020",
     "english":{
       "registration_link": "https://olvr.vermont.gov/",
       "more_info_link": "https://sos.vermont.gov/elections/voters/registration/"
@@ -714,6 +881,9 @@
     "state_name": "Virginia",
     "state_abbreviation": "va",
     "registration_type": "online",
+    "ip_deadline": "Tuesday October 13th, 2020",
+    "online_deadline": "Tuesday October 13th, 2020",
+    "mail_deadline": "Tuesday October 13th, 2020",
     "english":{
       "registration_link": "https://www.elections.virginia.gov/citizen-portal/",
       "more_info_link": "https://www.elections.virginia.gov/registration/how-to-register/"
@@ -728,13 +898,20 @@
     "state_name": "U.S. Virgin Islands",
     "state_abbreviation": "vi",
     "registration_type": "in-person",
-    "more_info_link": "https://www.vivote.gov/voters/register-vote"
+    "more_info_link": "https://www.vivote.gov/voters/register-vote",
+    "ip_deadline": "TBH",
+    "online_deadline": "TBH",
+    "mail_deadline": "TBH"
     
   },
   "Washington" : {
     "state_name": "Washington",
     "state_abbreviation": "wa",
     "registration_type": "online",
+    "ip_deadline": "Tuesday November 3rd, 2020",
+    "online_deadline": "Monday October 26th, 2020",
+    "mail_deadline": "Monday October 26th, 2020",
+
     "english":{
       "registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
       "more_info_link": "https://www.sos.wa.gov/elections/voters/"
@@ -750,6 +927,9 @@
     "state_name": "West Virginia",
     "state_abbreviation": "wv",
     "registration_type": "online",
+    "ip_deadline": "Tuesday October 13th, 2020",
+    "online_deadline": "Tuesday October 13th, 2020",
+    "mail_deadline": "Tuesday October 13th, 2020",
     "english":{
       "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
       "more_info_link": "https://ovr.sos.wv.gov/Register/Landing"
@@ -765,6 +945,9 @@
     "state_name": "Wisconsin",
     "state_abbreviation": "wi",
     "registration_type": "online",
+    "ip_deadline": "Tuesday November 3rd, 2020",
+    "online_deadline": "Wednesday October 14th, 2020",
+    "mail_deadline": "Wednesday October 14th, 2020",
     "english":{
       "registration_link": "https://myvote.wi.gov/en-us/RegisterToVote",
       "more_info_link": "https://elections.wi.gov/voters/first-time"
@@ -779,6 +962,9 @@
     "state_name": "Wyoming",
     "state_abbreviation": "wy",
     "registration_type": "by-mail",
+    "ip_deadline": "Tuesday October 13th, 2020",
+    "online_deadline": "Tuesday October 20th, 2020",
+    "mail_deadline": "Tuesday October 20th, 2020",
     "english":{
       "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx"
     },
