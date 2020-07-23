@@ -39,6 +39,9 @@ heading2 = "How do I register to vote online in %state_name%?"
 h2_text = "What are the other ways to register to vote in %state_name%?"
 h2_p = "You can also register to vote by mail or in person."
 h2_link = "Find out how on %state_name%’s election website."
+heading3 = "Voter registration deadlines in %state_name%"
+heading4 = "Election day in %state_name%"
+h4_p = "Election Day is Tuesday November 3rd, 2020."
 
 
 [alert_state]
