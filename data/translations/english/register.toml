@@ -54,5 +54,5 @@ alert_msg2 = "for more information."
 
 inperson_deadline = "In Person deadline: %ip_deadline%"
 byonline_deadline = "Online deadline: %online_deadline%"
-bymail_deadline = "By mail deadline: %mail_deadline%"
+bymail_deadline = "Mail in registration deadline: Must be postmarked by %mail_deadline%"
 
