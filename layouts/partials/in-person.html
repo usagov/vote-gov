@@ -39,22 +39,29 @@
       </a>
     </p>
   </p>
+
+  <!--Heading 3-->
+ <header>
+  <h2>
+    {{ replace $translation.register.online.heading3 "%state_name%" .Params.state_name }}
+  </h2>
+  </header>
   <p class = "usa-intro">
     {{ if .Params.ip_deadline }}
     {{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
     {{end}}
   </p>
-  <p class = "usa-intro">
-    {{ if .Params.online_deadline }}
-    {{ replace $translation.register.dates.byonline_deadline "%online_deadline%" .Params.online_deadline }}
-    {{end}}
-  </p>
-  <p class = "usa-intro">
-    {{ if .Params.mail_deadline }}
-    {{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}
-    {{end}}
-  </p>
 
+<!--Heading 4-->
+<header>
+  <h2>
+    {{ replace $translation.register.online.heading4 "%state_name%" .Params.state_name }}
+  </h2>
+  </header>
+
+  <p >
+    {{  $translation.register.online.h4_p }}
+  </p>
 
 </div>
 <!-- Register END -->
