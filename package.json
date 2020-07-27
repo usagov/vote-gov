@@ -49,7 +49,7 @@
     "gulp-util": "^3.0.7",
     "minimist": ">=1.2.3",
     "run-sequence": "^1.1.5",
-    "uswds": "^2.0.3",
+    "uswds": "^2.8.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^2.0.0"
   },
