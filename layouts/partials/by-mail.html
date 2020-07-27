@@ -108,12 +108,17 @@
   </h2>
   </header>
     <!--Display Dates here-->
-
+    <h3>
+      {{  $translation.register.dates.bymail_bold }}
+  </h3>
     <p class = "usa-intro">
       {{ if .Params.mail_deadline }}
       {{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}
       {{end}}
     </p> 
+    <h3>
+      {{  $translation.register.dates.inperson_bold }}
+  </h3>
     <p class = "usa-intro">
       {{ if .Params.ip_deadline }}
       {{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
@@ -129,7 +134,7 @@
   </h2>
   </header>
 
-  <p >
+  <p class = "usa-intro">
     {{  $translation.register.online.h4_p }}
   </p>
     

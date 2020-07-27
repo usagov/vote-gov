@@ -46,6 +46,9 @@
     {{ replace $translation.register.online.heading3 "%state_name%" .Params.state_name }}
   </h2>
   </header>
+  <h3>
+    {{  $translation.register.dates.inperson_bold }}
+</h3>
   <p class = "usa-intro">
     {{ if .Params.ip_deadline }}
     {{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
@@ -59,7 +62,7 @@
   </h2>
   </header>
 
-  <p >
+  <p class = "usa-intro">
     {{  $translation.register.online.h4_p }}
   </p>
 
