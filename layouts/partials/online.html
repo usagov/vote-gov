@@ -62,6 +62,11 @@
  <header>
   <h2>
     {{ replace $translation.register.online.heading3 "%state_name%" .Params.state_name }}
+    {{ if .Params.more_info_link_english_only }}
+    {{ $translation.register.english_only }}
+  {{ else if .Params.more_info_link_spanish_selection }} 
+    {{ $translation.register.selecciones_link }}
+  {{ end }} 
   </h2>
   </header>
 <!-- Display Dates here-->

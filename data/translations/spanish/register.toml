@@ -1,4 +1,5 @@
 heading = "Inscríbase para votar en %state_name%"
+heading2 = "How do I register to vote in %state_name%?"
 state_heading = "Inscríbase para votar en %state_name%"
 meta_name = "Averigüe cómo inscribirse para votar en %state_name%."
 english_only = "(en inglés)"
@@ -22,17 +23,33 @@ submit = "Descargue el formulario nacional de inscripción de votantes (PDF)"
 [in_person]
 body = "Inscríbase en persona en la oficina electoral local." 
 link = "Visite el sitio web de %state_name% para más información sobre cómo inscribirse"
+h2_p = "You can register in person."
+
 
 [not_needed]
 body = "%state_name% no requere inscripción para votar."
 link = "Para más información sobre cómo votar, visite el sitio web electoral de %state_name%"  
 
 [online]
+h2_text = "What are the other ways to register to vote in %state_name%?"
+h2_p = "You can also register to vote by mail or in person."
+h2_link = "Find out how on %state_name%'s election website."
 link = "Empiece su inscripción por internet en el sitio web electoral de %state_name%" 
 link2 = "Vea otras formas de inscribirse para votar en %state_name%" 
+h2_text2 = "Fechas límites de inscripción para votar en %state_name"
+online_deadline = "Inscripción por internet: %online_dl%"
 
 [alert_state]
 
 alert_msg = "Debido al COVID-19, su estado podría haber modificado cuándo, dónde y cómo usted podrá votar en las próximas elecciones. Verifique esta información en el"
 alert_msg1 = "sitio web electoral de su estado"
 alert_msg2 = "."
+
+[dates]
+
+inperson_deadline = "%ip_deadline%"
+byonline_deadline = "Online: %online_deadline%"
+bymail_deadline = "Must be postmarked by %mail_deadline%"
+inperson_bold = "In Person deadline"
+byonline_bold = "Online deadline"
+bymail_bold = "Mail-in deadline"
