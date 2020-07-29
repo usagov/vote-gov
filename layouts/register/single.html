@@ -1,1 +1,50 @@
-{{ partial "single.html" . }}
+{{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+
+
+{{ partial "state-head.html" . }}
+
+  <body class="page-register-{{ .Params.registration_type }}">
+    {{ partial "header.html" . }}
+    <div id="main-content" role="main">
+
+      <div class="region" id="region1">
+        <div class="grid-container">
+          <div class="grid-row grid-gap">
+            <div class="tablet:grid-col-4">
+              <a class="site-logo" href="{{ .Site.BaseURL }}/" accesskey="1" title="Home" aria-label="Home">
+                <h1>Vote.gov</h1>
+                <img id="SiteLogo" src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg" alt="Web design standards">
+              </a>
+            </div>
+            <div class="tablet:grid-col-8">
+              <header>
+                <h1>
+                  {{ replace $translation.register.heading "%state_name%" .Params.state_name }}
+                </h1>
+              </header>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="region" id="region2">
+        <div class="grid-container">
+          <div class="grid-row grid-gap">
+            <div class="tablet:grid-col-4"></div>
+            <div class="tablet:grid-col-8">
+
+            {{ .Render ( print "types/" .Params.registration_type ) }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        {{ partial "footer.html" . }}
+      </footer>
+
+    </div>
+    {{ partial "analytics.html" . }}
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

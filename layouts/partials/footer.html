@@ -1,29 +1,35 @@
+
+
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
-<div class="grid-conrtainer footer-top">
-  <form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
+
+<div class="region" id="region3">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-4">
+
+      </div>
+      <div class="tablet:grid-col-8">
+        <form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
     <h3>{{ $translation.footer.subscribe_email }}</h3>
 
         <label class="" for="email-2" id="emailsub">{{ $translation.footer.your_email_address }}</label>
         <input id="email-2" name="email" type="email">
 
-        <button class="usa-button usa-button--secondary" id="js-user-submit" type="submit">
+        <button class="usa-button" id="js-user-submit" type="submit">
           {{ $translation.footer.sign_up }}
         </button>
        </form>
+      </div>
+    </div>
+  </div>
 </div>
 
-{{ if eq $.Site.Params.language "spanish" }}
-  <div class="footer-bottom-sp">
-  {{ else }}
-  <div class="footer-bottom">
-  {{ end }}
-  <a class="usa-footer__primary-link" href="{{ $translation.footer.privacy_policy_link_url }}">
-    {{ $translation.footer.privacy_policy }}</a>
-    <a class="usa-media-link" href="{{ $translation.footer.twitter_link }}">
-      <img class="twitter-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.twitter_img }}" alt="twitter">
-    </a>
-  
-  <a class="usa-footer__logo usa-media-link" href="{{ $translation.footer.eac_link }}">
+
+<div class="region" id="region4">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-12">
+        <a class="usa-footer__logo usa-media-link" href="{{ $translation.footer.eac_link }}">
      
     {{ if eq $.Site.Params.language "spanish" }}
       <img class="eac-logo-sp-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.eac_img }}" alt="EAC.gov logo">
@@ -39,7 +45,24 @@
       <img class="english-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}" alt="USA.gov logo">
     {{ end }}
   </a> 
-
+      </div>
+    </div>
+  </div>
 </div>
+
+<div class="region" id="region5">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-12">
+        <a class="usa-footer__primary-link" href="{{ $translation.footer.privacy_policy_link_url }}">
+    {{ $translation.footer.privacy_policy }}</a>
+    <a class="usa-media-link" href="{{ $translation.footer.twitter_link }}">
+      <img class="twitter-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.twitter_img }}" alt="twitter">
+    </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 

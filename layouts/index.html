@@ -12,21 +12,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <a class="usa-skipnav" href="#main-content">Skip main navigation</a>
 
-      <div class="grid-container" id="main-content">
-
-      <!-- Register BEGIN -->
-      <section class="page-section register" id="register">
+<div class="region" id="region1">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-4">
+        <a class="site-logo" href="{{ .Site.BaseURL }}/" accesskey="1" title="Home" aria-label="Home">
+          <h1>Vote.gov</h1>
+          <img id="SiteLogo" src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg" alt="Web design standards">
+        </a>
+      </div>
+      <div class="tablet:grid-col-8">
+        <section class="page-section register" id="register">
         <header>
           <h1 class="usa-display vote-heading">{{ $translation.homepage.header }}</h1>
         </header>
 
-        <div class="usa-alert usa-alert--warning covid-alert">
-          <div class="usa-alert__body">
-            <p class="usa-alert__text">{{ $translation.homepage.alert.alert_msg }}</p>
-          </div>
-        </div>
-
         <form class="form-register" method="get" id="register">
+          <h2>{{ $translation.homepage.state_selection.label }}</h2>
           <p>{{ $translation.homepage.state_selection.label }}</p>
           <label class="usa-sr-only" for="js-user-selection">
             {{ $translation.homepage.state_selection.default }}
@@ -43,15 +45,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             {{ end }}
           {{ end }}
           </select>
-          <button class="usa-button usa-button--secondary" id="js-user-submit" type="submit">
+          <button class="usa-button" id="js-user-submit" type="submit">
             {{ $translation.homepage.state_selection.submit }}
           </button>
         </form>
       </section>
-      <!-- Register END -->
+      </div>
+    </div>
+  </div>
+</div>
 
-      <!-- Already Registered BEGIN -->
-      <section class="page-section registered" id="already-registered">
+<div class="region" id="region2">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-4">
+
+      </div>
+      <div class="tablet:grid-col-8">
+        <section class="page-section registered" id="already-registered">
         <header>
           <h1 class="usa-display vote-heading">{{ $translation.homepage.registered.header }}</h1>
         </header>
@@ -64,15 +75,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </ul>
         </div>
       </section>
-      <!-- Already Registered END -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+      <div class="grid-container" id="main-content">
+
 
       </div>
 
       <!-- Footer BEGIN -->
       <footer>
-        <div class="footer-graphic">
-          <img src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg" alt="Web design standards">
-        </div>
 
         {{ partial "footer.html" . }}
       </footer>
