@@ -3,12 +3,12 @@
 state_name = "Washington"
 state_abbreviation = "wa"
 registration_type = "online"
-ip_deadline = "Tuesday November 3rd, 2020"
-online_deadline = "Monday October 26th, 2020"
-mail_deadline = "Monday October 26th, 2020"
 registration_link = "https://voter.votewa.gov/WhereToVote.aspx"
 registration_link_spanish_selection = "true"
 more_info_link = "https://www.sos.wa.gov/elections/voters/"
 more_info_link_spanish_selection = "true"
+ip_deadline = "Martes 19 de noviembre 2020"
+online_deadline = "Lunes 19 de octubre 2020"
+mail_deadline = "Lunes 19 de octubre 2020"
 
 +++

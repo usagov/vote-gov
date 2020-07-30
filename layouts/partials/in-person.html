@@ -25,22 +25,7 @@
     </div>
   </div>
   
-  <p class="usa-intro">
-    {{ replace $translation.register.in_person.body "%state_name%" .Params.state_name }}
-  </p>
-  
-    <p>    <a  class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
-        {{ replace $translation.register.in_person.link "%state_name%" .Params.state_name }}
-        {{ if .Params.more_info_link_english_only }}
-          {{ $translation.register.english_only }}
-        {{ else if .Params.more_info_link_spanish_selection }} 
-          {{ $translation.register.selecciones_link }}
-        {{ end }} 
-      </a>
-    </p>
-  </p>
-
-  <!--Heading 3-->
+   <!--Heading 3-->
  <header>
   <h2>
     {{ replace $translation.register.online.heading3 "%state_name%" .Params.state_name }}
@@ -65,6 +50,23 @@
   <p class = "usa-intro">
     {{  $translation.register.online.h4_p }}
   </p>
+
+  <p class="usa-intro">
+    {{ replace $translation.register.in_person.body "%state_name%" .Params.state_name }}
+  </p>
+  
+    <p>    <a  class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+        {{ replace $translation.register.in_person.link "%state_name%" .Params.state_name }}
+        {{ if .Params.more_info_link_english_only }}
+          {{ $translation.register.english_only }}
+        {{ else if .Params.more_info_link_spanish_selection }} 
+          {{ $translation.register.selecciones_link }}
+        {{ end }} 
+      </a>
+    </p>
+  </p>
+
+ 
 
 </div>
 <!-- Register END -->

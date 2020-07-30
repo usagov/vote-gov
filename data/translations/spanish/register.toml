@@ -1,5 +1,5 @@
 heading = "Inscríbase para votar en %state_name%"
-heading2 = "How do I register to vote in %state_name%?"
+heading2 = "¿Cómo me registro para votar en %state_name%?"
 state_heading = "Inscríbase para votar en %state_name%"
 meta_name = "Averigüe cómo inscribirse para votar en %state_name%."
 english_only = "(en inglés)"
@@ -13,6 +13,7 @@ no_selecciones_link = ""
 intro = "La inscripción por Internet no está disponible actualmente."
 link_text = "Vea otras formas de inscribirse para votar en "
 link_text2= "el sitio web electoral de %state_name%"
+body = "%state_name% allows residents to register by mail, not online."
 
 [other_language_selection]
 
@@ -38,6 +39,9 @@ link = "Empiece su inscripción por internet en el sitio web electoral de %state
 link2 = "Vea otras formas de inscribirse para votar en %state_name%" 
 h2_text2 = "Fechas límites de inscripción para votar en %state_name"
 online_deadline = "Inscripción por internet: %online_dl%"
+heading3 = "Plazos de registro de votantes en %state_name%"
+heading4 = "El día de la eleccion en %state_name%"
+h4_p = "El día de las elecciones es el martes 13 de noviembre de 2020"
 
 [alert_state]
 
@@ -48,8 +52,9 @@ alert_msg2 = "."
 [dates]
 
 inperson_deadline = "%ip_deadline%"
-byonline_deadline = "Online: %online_deadline%"
-bymail_deadline = "Must be postmarked by %mail_deadline%"
-inperson_bold = "In Person deadline"
-byonline_bold = "Online deadline"
-bymail_bold = "Mail-in deadline"
+byonline_deadline = "%online_deadline%"
+bymail_deadline = "%mail_deadline%"
+bymail_deadline2 = "Debe recibirse antes de %mail_deadline%"
+inperson_bold = "Fecha límite en persona"
+byonline_bold = "Fecha límite en línea"
+bymail_bold = "Fecha límite de correo"

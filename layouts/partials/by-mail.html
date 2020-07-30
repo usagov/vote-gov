@@ -25,6 +25,43 @@
       </div>
     </div>
 
+      <!--Heading 3-->
+      <header>
+        <h2>
+          {{ replace $translation.register.online.heading3 "%state_name%" .Params.state_name }}
+        </h2>
+        </header>
+          <!--Display Dates here-->
+          <h3>
+            {{  $translation.register.dates.bymail_bold }}
+        </h3>
+          <p class = "usa-intro">
+            {{ if .Params.mail_deadline }}
+            {{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}
+            {{end}}
+          </p> 
+          <h3>
+            {{  $translation.register.dates.inperson_bold }}
+        </h3>
+          <p class = "usa-intro">
+            {{ if .Params.ip_deadline }}
+            {{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
+            {{end}}
+          </p>
+      
+
+          <!--Dates Displayed-->
+          <!--Heading 4-->
+       <header>
+        <h2>
+          {{ replace $translation.register.online.heading4 "%state_name%" .Params.state_name }}
+        </h2>
+        </header>
+
+        <p class = "usa-intro">
+          {{  $translation.register.online.h4_p }}
+        </p>
+
     <p class="usa-intro">
       {{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}
     </p>
@@ -101,45 +138,7 @@
       {{ $translation.register.other_language_selection.submit }}
     </button>
 
-      <!--Heading 3-->
- <header>
-  <h2>
-    {{ replace $translation.register.online.heading3 "%state_name%" .Params.state_name }}
-  </h2>
-  </header>
-    <!--Display Dates here-->
-    <h3>
-      {{  $translation.register.dates.bymail_bold }}
-  </h3>
-    <p class = "usa-intro">
-      {{ if .Params.mail_deadline }}
-      {{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}
-      {{end}}
-    </p> 
-    <h3>
-      {{  $translation.register.dates.inperson_bold }}
-  </h3>
-    <p class = "usa-intro">
-      {{ if .Params.ip_deadline }}
-      {{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
-      {{end}}
-    </p>
 
-
-    <!--Dates Displayed-->
-    <!--Heading 4-->
- <header>
-  <h2>
-    {{ replace $translation.register.online.heading4 "%state_name%" .Params.state_name }}
-  </h2>
-  </header>
-
-  <p class = "usa-intro">
-    {{  $translation.register.online.h4_p }}
-  </p>
-    
-    </form>
-    </div>
 
 <script type="text/javascript">
 document.getElementById('register').onsubmit = function(ev) {
