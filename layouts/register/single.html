@@ -7,7 +7,7 @@
     {{ partial "header.html" . }}
     <div id="main-content" role="main">
 
-      <div class="region" id="region1">
+      <div class="bg-blue">
         <div class="grid-container">
           <div class="grid-row grid-gap">
             <div class="tablet:grid-col-4">
@@ -17,7 +17,7 @@
               </a>
             </div>
             <div class="tablet:grid-col-8">
-              <header>
+              <header class="align-bottom">
                 <h1>
                   {{ replace $translation.register.heading "%state_name%" .Params.state_name }}
                 </h1>
@@ -27,7 +27,7 @@
         </div>
       </div>
 
-      <div class="region" id="region2">
+      <div class="bg-lightblue">
         <div class="grid-container">
           <div class="grid-row grid-gap">
             <div class="tablet:grid-col-4"></div>

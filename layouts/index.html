@@ -12,7 +12,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <a class="usa-skipnav" href="#main-content">Skip main navigation</a>
 
-<div class="region" id="region1">
+<div class="bg-blue">
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-4">
@@ -22,40 +22,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
       </div>
       <div class="tablet:grid-col-8">
-        <section class="page-section register" id="register">
-        <header>
-          <h1 class="usa-display vote-heading">{{ $translation.homepage.header }}</h1>
-        </header>
+        <section class="register align-bottom">
+          <header>
+            <h1 class="usa-display vote-heading">{{ $translation.homepage.header }}</h1>
+          </header>
 
-        <form class="form-register" method="get" id="register">
-          <h2>{{ $translation.homepage.state_selection.label }}</h2>
-          <p>{{ $translation.homepage.state_selection.label }}</p>
-          <label class="usa-sr-only" for="js-user-selection">
-            {{ $translation.homepage.state_selection.default }}
-          </label>
-          <select class="usa-select" name="userselection" id="js-user-selection">
-            <option value="default">
+          <form class="form-register" method="get" id="register">
+            <h2>{{ $translation.homepage.state_selection.heading }}</h2>
+            <p>{{ $translation.homepage.state_selection.label }}</p>
+            <label class="usa-sr-only" for="js-user-selection">
               {{ $translation.homepage.state_selection.default }}
-            </option>
-          {{ range where (.Data.Pages.ByParam "state_name") "Section" .Site.Params.register_path }}
-            {{ if eq $.Site.Params.language "spanish" }}
-              <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
-            {{ else }}
-              <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
+            </label>
+            <select class="usa-select max-width-input" name="userselection" id="js-user-selection">
+              <option value="default">
+                {{ $translation.homepage.state_selection.default }}
+              </option>
+            {{ range where (.Data.Pages.ByParam "state_name") "Section" .Site.Params.register_path }}
+              {{ if eq $.Site.Params.language "spanish" }}
+                <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
+              {{ else }}
+                <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
+              {{ end }}
             {{ end }}
-          {{ end }}
-          </select>
-          <button class="usa-button" id="js-user-submit" type="submit">
-            {{ $translation.homepage.state_selection.submit }}
-          </button>
-        </form>
-      </section>
+            </select>
+            <button class="usa-button max-width-input" id="js-user-submit" type="submit">
+              {{ $translation.homepage.state_selection.submit }}
+            </button>
+          </form>
+        </section>
       </div>
     </div>
   </div>
 </div>
 
-<div class="region" id="region2">
+<div class="bg-lightblue">
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-4">

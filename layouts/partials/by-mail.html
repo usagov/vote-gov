@@ -1,10 +1,10 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
-<p class="usa-intro">
+<p>
   {{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}
 </p>
 
-<p class="usa-intro">
+<p>
   {{ $translation.register.by_mail.link_text }}
   <a  class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
     {{ replace $translation.register.by_mail.link_text2 "%state_name%" .Params.state_name }}
@@ -18,12 +18,12 @@
 </p>
 
 <form class="state-download" method="get" id="register">
-  <p class="usa-intro">{{ $translation.register.other_language_selection.label }}</p>
+  <p>{{ $translation.register.other_language_selection.label }}</p>
   <label class="usa-sr-only" for="js-user-selection">
     {{ $translation.register.other_language_selection.default }}
   </label>
 
-  <select class="usa-select" name="userselection" id="js-user-selection">
+  <select class="usa-select max-width-input" name="userselection" id="js-user-selection">
     
     {{ range $key, $form := $.Site.Data.registration_forms }}
       {{ if eq $key $.Site.Params.language }}
@@ -37,7 +37,7 @@
     {{ end }}
   </select>
     
-  <button class="usa-button" id="js-user-submit" type="submit">
+  <button class="usa-button max-width-input" id="js-user-submit" type="submit">
     {{ $translation.register.other_language_selection.submit }}
   </button>
 

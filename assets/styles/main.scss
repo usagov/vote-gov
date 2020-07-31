@@ -8,8 +8,10 @@ $font-light: 300;
 $font-medium: 400;
 $inner-box-width: 25rem;
 $inner-box-width-state : 35rem;
-$color-blue-dark: #003366;
-$color-blue-light: #0071bc;
+$color-blue: #2c7cc7;
+$color-blue-dark: #194068;
+$color-blue-light: #ecf2f8;
+$color-grey: #e1e2e4;
 $theme-color-base-family: #dcdee0;
 
 // Styles --------------- //
@@ -49,7 +51,7 @@ $theme-color-base-family: #dcdee0;
 //   border-bottom: 1px solid color('base-lightest');
 // }
 
-// @import './component/disclaimer';
+//@import './component/disclaimer';
 
 // .site-logo {
 //   width: 200px;
@@ -554,14 +556,58 @@ $theme-color-base-family: #dcdee0;
 //   }
 // }
 
+.bg-blue{
+  background: $color-blue;
+  color: white;
+}
+.bg-lightblue{
+  background: $color-blue-light;
+  color: $color-blue-dark;
+}
+.bg-grey{
+  background: $color-grey;
+}
+.bg-darkblue{
+  background-color: $color-blue-dark;
+}
+.text-blue{
+  color: $color-blue;
+}
+.max-width-input{
+  display: inline-block;
+  max-width: 30rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.align-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
 
 
-#region1, #region5{
-  background: #0071bc ;
+.usa-button {
+  background-color: $color-blue-dark;
+  color: white;
 }
-#region2{
-  background: #ecf2f8;
+
+
+.usa-banner__header, .usa-banner__content {
+  color: white;
 }
-#region4{
-  background: #e1e2e4;
+.usa-banner__button {
+  color: $color-blue-light;
+}
+.usa-banner .usa-button {
+  background-color: $color-blue;
+  color: white;
+}
+.translations{
+  flex-grow: 1;
+  text-align: right;
+}
+
+.form-register{
+  margin-bottom: 3rem;
 }

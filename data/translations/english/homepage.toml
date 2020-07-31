@@ -2,7 +2,8 @@ header = "Register to vote"
 
 [state_selection]
 
-label = "Where do you live? (To live somewhere is to make that place your permanent home.)"
+heading = "Where do you live?"
+label = "(To live somewhere is to make that place your permanent home.)"
 default = "Select your state or territory"
 submit = "Find out how to register"
 

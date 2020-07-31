@@ -2,7 +2,7 @@
 
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
-<div class="region" id="region3">
+<div class="bg-white">
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-4">
@@ -10,12 +10,12 @@
       </div>
       <div class="tablet:grid-col-8">
         <form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
-    <h3>{{ $translation.footer.subscribe_email }}</h3>
+        <h3 class="text-blue">{{ $translation.footer.subscribe_email }}</h3>
 
-        <label class="" for="email-2" id="emailsub">{{ $translation.footer.your_email_address }}</label>
-        <input id="email-2" name="email" type="email">
+        <label class="max-width-input" for="email-2" id="emailsub">{{ $translation.footer.your_email_address }}</label>
+        <input id="email-2" name="email" type="email" class="max-width-input">
 
-        <button class="usa-button" id="js-user-submit" type="submit">
+        <button class="usa-button max-width-input" id="js-user-submit" type="submit">
           {{ $translation.footer.sign_up }}
         </button>
        </form>
@@ -25,7 +25,7 @@
 </div>
 
 
-<div class="region" id="region4">
+<div class="bg-grey">
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-12">
@@ -50,7 +50,7 @@
   </div>
 </div>
 
-<div class="region" id="region5">
+<div class="bg-blue">
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-12">
