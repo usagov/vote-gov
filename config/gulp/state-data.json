@@ -596,10 +596,10 @@
     "state_abbreviation": "pr",
     "registration_type": "in-person",
     "english":{
-      "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx"
+      "more_info_link": "http://ww2.ceepur.org/Home/"
     },
     "spanish": {
-      "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/default.aspx",
+      "more_info_link": "http://ww2.ceepur.org/Home/",
       "more_info_english_only": "true"
      }
   },
