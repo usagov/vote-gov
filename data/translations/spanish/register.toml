@@ -1,40 +1,49 @@
-heading = "Inscríbase para votar en %state_name%"
-heading2 = "How do I register to vote in %state_name%?"
-state_heading = "Inscríbase para votar en %state_name%"
-meta_name = "Averigüe cómo inscribirse para votar en %state_name%."
 english_only = "(en inglés)"
 english_only2 = "(en inglés)"
+heading = "Inscríbase para votar en %state_name%"
+heading2 = "How do I register to vote in %state_name%?"
+meta_name = "Averigüe cómo inscribirse para votar en %state_name%."
 no_english = ""
-select_spanish ="- seleccione la opción para español"
-selecciones_link = "(seleccione español)"
 no_selecciones_link = ""
+selecciones_link = "(seleccione español)"
+select_spanish = "- seleccione la opción para español"
+state_heading = "Inscríbase para votar en %state_name%"
 
 [by_mail]
 intro = "La inscripción por Internet no está disponible actualmente."
 link_text = "Vea otras formas de inscribirse para votar en "
-link_text2= "el sitio web electoral de %state_name%"
+link_text2 = "el sitio web electoral de %state_name%"
 
 [other_language_selection]
 
-label = "También puede descargar el formulario nacional de inscripción de votantes (PDF) disponible en español y 14 idiomas más."
 default = "Seleccione su idioma"
+label = "También puede descargar el formulario nacional de inscripción de votantes (PDF) disponible en español y 14 idiomas más."
 submit = "Descargue el formulario nacional de inscripción de votantes (PDF)"
 
 [in_person]
-body = "Inscríbase en persona en la oficina electoral local." 
-link = "Visite el sitio web de %state_name% para más información sobre cómo inscribirse"
+body = "Inscríbase en persona en la oficina electoral local."
 h2_p = "You can register in person."
+link = "Visite el sitio web de %state_name% para más información sobre cómo inscribirse"
 
 [not_needed]
 body = "%state_name% no requere inscripción para votar."
-link = "Para más información sobre cómo votar, visite el sitio web electoral de %state_name%"  
+link = "Para más información sobre cómo votar, visite el sitio web electoral de %state_name%"
 
 [online]
-h2_text = "What are the other ways to register to vote in %state_name%?"
-h2_p = "You can also register to vote by mail or in person."
-h2_link = "Find out how on %state_name%'s election website."
-link = "Empiece su inscripción por internet en el sitio web electoral de %state_name%" 
-link2 = "Vea otras formas de inscribirse para votar en %state_name%" 
+
+h2_link = "Averigüe cómo hacerlo en el "
+h2_link1 = "sitio web electoral de %state_name%."
+h2_p = "También puede inscribirse por correo postal o en persona."
+h2_text = "De qué otras formas me puedo inscribir para votar en %state_name%?"
+heading2 = "Cómo me puedo inscribir para votar en %state_name%?"
+link = "Empiece su inscripción por internet en el "
+link1 = "sitio web electoral de %state_name%."
+link2 = "Vea otras formas de inscribirse para votar en el sitio web electoral de %state_name%. (en inglés)"
+
+election_day = "La elección presidencial es el martes "
+in-person_dl = "Inscripción en persona: "
+mail-in_dl = "Inscripción por correo postal: "
+online_dl = "Inscripción por internet: "
 
 [alert_state]
 
