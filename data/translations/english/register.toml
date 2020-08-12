@@ -1,12 +1,12 @@
+h2-deadline = "Voter registration deadline in %state_name%"
 heading = "Register to vote in %state_name%"
 heading2 = "How do I register to vote in %state_name%?"
 meta_name = "Find out how to register to vote in %state_name%."
 state_heading = "Voter Registration in %state_name%"
 
 [by_mail]
-intro = "Online registration is currently not available."
-link_text = "Find out ways to register to vote at"
-link_text2 = "%state_name%’s state election website."
+intro = "Online registration is currently not available. Find out ways to register to vote at"
+link = "%state_name%’s state election website."
 
 [other_language_selection]
 
@@ -15,25 +15,22 @@ label = "You can also download the National Voter Registration Form (PDF) availa
 submit = "Download the National Voter Registration Form"
 
 [in_person]
-body = "Register in person at your local election office."
-h2_p = "You can register in person."
-link = "Learn more about how to register on %state_name%’s election website."
+intro = "Register in person at your local election office. You can register in person. Learn more about how to register on "
+link = "%state_name%’s election website."
 
 [not_needed]
-body = "Voter registration is not required in %state_name%."
-h2_p = "Voter registration is not required in %state_name%."
-link = "Learn more about voting on %state_name%’s election website."
+intro = "Voter registration is not required in %state_name%. Learn more about voting on"
+link = "%state_name%s election website."
 
 [online]
 
-h2_link = "Find out how on "
-h2_link1 ="%state_name%’s election website."
-h2_p = "You can also register to vote by mail or in person."
-h2_text = "What are the other ways to register to vote in %state_name%?"
-heading2 = "How do I register to vote online in %state_name%?"
-link = "Start your online registration on "
-link1 = "%state_name%’s election website."
-link2 = "Find out other ways to register to vote in %state_name%."
+answer1 = "Start your online registration on "
+answer1_link = "%state_name%’s election website."
+h2_question1 = "How do I register to vote online in %state_name%?"
+
+answer2 = "You can also register to vote by mail or in person. Find out how on"
+answer2_link = "%state_name%’s election website."
+h2_question2 = "What are the other ways to register to vote in %state_name%?"
 
 [alert_state]
 alert_msg = "Due to COVID-19, there may be changes to when, where and how you vote in your upcoming elections. Check with"
