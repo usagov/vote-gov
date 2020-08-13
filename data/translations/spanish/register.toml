@@ -1,8 +1,8 @@
 english_only = "(en inglés)"
 h2_deadline = "Voter registration deadline in %state_name%"
 heading = "Inscríbase para votar en %state_name%"
-heading2 = "Cómo me puedo inscribir para votar en %state_name%?"
-meta_name = "Averigüe cómo inscribirse para votar en %state_name%."
+heading2 = "¿Cómo me puedo inscribir para votar en %state_name%?"
+meta_name = "Averigüe cómo inscribirse para votar en %state_name%"
 no_english = ""
 no_selecciones_link = ""
 selecciones_link = "(seleccione español)"
@@ -29,12 +29,12 @@ link = "el sitio web electoral de %state_name%"
 
 [online]
 answer1 = "Empiece su inscripción por internet en el "
-answer1_link = "sitio web electoral de %state_name%."
-h2_question1 = "Cómo me puedo inscribir para votar en %state_name%?"
+answer1_link = "sitio web electoral de %state_name%"
+h2_question1 = "¿Cómo me puedo inscribir para votar en %state_name%?"
 
 answer2 = " También puede inscribirse por correo postal o en persona. Averigüe cómo hacerlo en el "
-answer2_link = "sitio web electoral de %state_name%."
-h2_question2 = "De qué otras formas me puedo inscribir para votar en %state_name%?"
+answer2_link = "sitio web electoral de %state_name%"
+h2_question2 = "¿De qué otras formas me puedo inscribir para votar en %state_name%?"
 
 election_day = "La elección presidencial es el martes "
 in-person_dl = "Inscripción en persona: "
@@ -45,4 +45,3 @@ online_dl = "Inscripción por internet: "
 
 alert_msg = "Debido al COVID-19, su estado podría haber modificado cuándo, dónde y cómo usted podrá votar en las próximas elecciones. Verifique esta información en el"
 alert_msg1 = "sitio web electoral de su estado"
-alert_msg2 = "."

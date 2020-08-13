@@ -1,12 +1,12 @@
 h2-deadline = "Voter registration deadline in %state_name%"
 heading = "Register to vote in %state_name%"
 heading2 = "How do I register to vote in %state_name%?"
-meta_name = "Find out how to register to vote in %state_name%."
+meta_name = "Find out how to register to vote in %state_name%"
 state_heading = "Voter Registration in %state_name%"
 
 [by_mail]
 intro = "Online registration is currently not available. Find out ways to register to vote at"
-link = "%state_name%’s state election website."
+link = "%state_name%’s state election website"
 
 [other_language_selection]
 
@@ -16,20 +16,20 @@ submit = "Download the National Voter Registration Form"
 
 [in_person]
 intro = "Register in person at your local election office. You can register in person. Learn more about how to register on "
-link = "%state_name%’s election website."
+link = "%state_name%’s election website"
 
 [not_needed]
 intro = "Voter registration is not required in %state_name%. Learn more about voting on"
-link = "%state_name%s election website."
+link = "%state_name%s election website"
 
 [online]
 
 answer1 = "Start your online registration on "
-answer1_link = "%state_name%’s election website."
+answer1_link = "%state_name%’s election website"
 h2_question1 = "How do I register to vote online in %state_name%?"
 
 answer2 = "You can also register to vote by mail or in person. Find out how on"
-answer2_link = "%state_name%’s election website."
+answer2_link = "%state_name%’s election website"
 h2_question2 = "What are the other ways to register to vote in %state_name%?"
 
 [alert_state]

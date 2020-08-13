@@ -10,19 +10,19 @@
   <div class="usa-alert usa-alert--warning covid-alert-state">
     <div class="usa-alert__body">
       <p class="usa-alert__text">
-        {{ $translation.register.alert_state.alert_msg }}
+      {{ $translation.register.alert_state.alert_msg }}
         <a href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
-         {{ $translation.register.alert_state.alert_msg1 }} 
-          {{ if .Params.more_info_link_english_only }}
-         {{ $translation.register.english_only }}
-         {{ else if .Params.more_info_link_spanish_selection }} 
-          {{ $translation.register.selecciones_link }}
-         {{ end }} 
+          {{ $translation.register.alert_state.alert_msg1 -}}
+        {{ if .Params.more_info_link_english_only }}
+          {{ $translation.register.english_only -}}
+        {{ else if .Params.more_info_link_spanish_selection }}
+          {{ $translation.register.selecciones_link -}}
+        {{ end }}. 
         </a>
-         {{ $translation.register.alert_state.alert_msg2 }} 
       </p>
     </div>
   </div>
+
   <p class="usa-intro">
     {{ replace $translation.register.online.body "%state_name%" .Params.state_name }}
   </p>
@@ -42,14 +42,14 @@
         "name": "{{ replace $translation.register.online.h2_question1 "%state_name%" .Params.state_name }}",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "{{ replace $translation.register.online.answer1 "%state_name%" .Params.state_name }}<a href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.online.answer1_link "%state_name%" .Params.state_name }}</a>"
+          "text": "{{ replace $translation.register.online.answer1 "%state_name%" .Params.state_name }}<a class='reg-link' href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.online.answer1_link "%state_name%" .Params.state_name }}</a>"
         }
       },{
         "@type": "Question",
         "name": "{{ replace $translation.register.online.h2_question2 "%state_name%" .Params.state_name }}",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "{{ replace $translation.register.online.answer2 "%state_name%" .Params.state_name }}{{ replace $translation.register.online.h2_link "%state_name%" .Params.state_name }}<a href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.online.answer2_link "%state_name%" .Params.state_name }}</a>"
+          "text": "{{ replace $translation.register.online.answer2 "%state_name%" .Params.state_name }}{{ replace $translation.register.online.h2_link "%state_name%" .Params.state_name }}<a class='reg-link' href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.online.answer2_link "%state_name%" .Params.state_name }}</a>"
         }
     }]
     }
@@ -59,14 +59,15 @@
     <p class="reg-link">
     {{ replace $translation.register.online.answer1 "%state_name%" .Params.state_name }}
     <a href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
-    {{ replace $translation.register.online.answer1_link "%state_name%" .Params.state_name }}
+    {{ replace $translation.register.online.answer1_link "%state_name%" .Params.state_name -}}
       {{ if .Params.registration_link_english_only }}
-        {{ $translation.register.english_only }}
+        {{ $translation.register.english_only -}}
       {{ else if .Params.registration_link_spanish_selection }} 
-        {{ $translation.register.selecciones_link }}
-      {{ end }}
-    </a>
-  </p>
+        {{ $translation.register.selecciones_link -}}
+      {{ end }}.
+
+  </a>
+  </p>  
 
   <header>
   <h2>
@@ -78,15 +79,14 @@
 
     {{ replace $translation.register.online.answer2 "%state_name%" .Params.state_name }}
     <a href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
-    {{ replace $translation.register.online.answer2_link "%state_name%" .Params.state_name }}
-
+    {{ replace $translation.register.online.answer2_link "%state_name%" .Params.state_name -}}
       {{ if .Params.more_info_link_english_only }}
-        {{ $translation.register.english_only }}
-      {{ else if .Params.more_info_link_spanish_selection }} 
-        {{ $translation.register.selecciones_link }}
-      {{ end }} 
-    </a>
-  </p>
+        {{ $translation.register.english_only -}}
+      {{ else if .Params.more_info_link_spanish_selection }}
+        {{ $translation.register.selecciones_link -}}
+      {{ end }}.
+</a>
+</p>
 
 </div>
 <!-- Register END -->
