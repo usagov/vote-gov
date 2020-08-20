@@ -54,17 +54,13 @@
 
     "english":{
       "more_info_link": "https://aselectionoffice.gov//",
-      "ip_deadline" : "TBH",
-      "online_deadline": "TBH",
-      "mail_deadline": "TBH"
+      "ip_deadline" : "Monday, October 5, 2020"
     },
     "spanish": {
       "more_info_link": "https://aselectionoffice.gov/",
       "more_info_link_english_only": "true",
       
-      "ip_deadline" : "TBH",
-      "online_deadline":"TBH",
-      "mail_deadline":"TBH"
+      "ip_deadline" : "Lunes 5 de octubre 2020"
     }
   },
   "arizona" : {
@@ -85,9 +81,9 @@
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information-sp",
       
-      "ip_deadline" : "Lunes 19 de octubre 2020",
-      "online_deadline":"Lunes 19 de octubre 2020",
-      "mail_deadline":"Lunes 19 de octubre 2020"
+      "ip_deadline" : "Lunes 5 de octubre 2020",
+      "online_deadline":"Lunes 5 de octubre 2020",
+      "mail_deadline":"Lunes 5 de octubre 2020"
     }
   },
   "Arkansas" : {
@@ -276,18 +272,13 @@
 
     "english":{
       "more_info_link": "https://gec.guam.gov/",
-      "ip_deadline": "TBH",
-      "online_deadline": "TBH",
-      "mail_deadline": "TBH"
+      "ip_deadline": "Friday, October 23, 2020"
      
     },
     "spanish": {
       "more_info_link": "https://gec.guam.gov/",
-      "more_info_english_only": "true",
-      
-      "ip_deadline" : "TBH",
-      "online_deadline":"TBH",
-      "mail_deadline":"TBH"
+      "more_info_english_only": "true",     
+      "ip_deadline" : "Viernes 23 de octubre de 2020"
     }
   },
   "Hawaii" : {
@@ -479,7 +470,6 @@
     "english":{
       "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
       "ip_deadline" : "Tuesday, November 3rd, 2020",
-      "online_deadline": "Tuesday, October 13th, 2020",
       "mail_deadline": "Tuesday, October 13th, 2020"
     },
     "spanish": { 
@@ -487,7 +477,6 @@
       "more_info_link_english_only": "true",
       
       "ip_deadline" : "Martes 3 de noviembre 2020",
-      "online_deadline":"Martes 13 de octubre 2020",
       "mail_deadline":"Martes 13 de octubre 2020"
     }
   },
@@ -688,17 +677,12 @@
     "registration_type": "in-person",
     "english":{
       "more_info_link": "http://sos.nh.gov/Elections.aspx",
-      "ip_deadline" : "Tuesday, November 3rd, 2020",
-      "online_deadline": "Tuesday, October 20th, 2020",
-      "mail_deadline": "Tuesday, October 20th, 2020"
+      "ip_deadline" : "Tuesday, November 3rd, 2020"
     },
     "spanish": {
       "more_info_link": "http://sos.nh.gov/Elections.aspx",
       "more_info_link_english_only": "true",
-      
-      "ip_deadline" : "Martes 3 de noviembre 2020",
-      "online_deadline":"Martes 20 de octubre 2020",
-      "mail_deadline":"Martes 20 de octubre 2020"
+      "ip_deadline" : "Martes 3 de noviembre 2020"
     }
   },
   "New Jersey" : {
@@ -805,17 +789,13 @@
 
     "english":{
       "more_info_link": "https://www.votecnmi.gov.mp/",
-      "ip_deadline": "TBH",
-      "online_deadline": "TBH",
-      "mail_deadline": "TBH"
+      "ip_deadline": "Friday, September 4, 2020"
     },
     "spanish": {
       "more_info_link": "https://www.votecnmi.gov.mp/",
       "more_info_link_english_only": "true",
       
-      "ip_deadline" : "Lunes 19 de octubre 2020",
-      "online_deadline":"Lunes 19 de octubre 2020",
-      "mail_deadline":"Lunes 19 de octubre 2020"
+      "ip_deadline" : "Viernes 4 de septiembre de 2020"
     }
   },
   "Ohio" : {
@@ -907,17 +887,13 @@
     "registration_type": "in-person",
     "english":{
       "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
-      "ip_deadline": "TBH",
-      "online_deadline": "TBH",
-      "mail_deadline": "TBH"
+      "ip_deadline": "Tuesday, September 15, 2020"
     },
     "spanish": {
       "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/default.aspx",
       "more_info_english_only": "true",
       
-      "ip_deadline" : "Lunes 19 de octubre 2020",
-      "online_deadline":"Lunes 19 de octubre 2020",
-      "mail_deadline":"Lunes 19 de octubre 2020"
+      "ip_deadline" : "Martes 15 de septiembre de 2020"
      }
   },
   "Rhode Island" : {
@@ -1089,12 +1065,22 @@
     "state_name": "U.S. Virgin Islands",
     "state_abbreviation": "vi",
     "registration_type": "in-person",
+    "english":{
     "more_info_link": "https://www.vivote.gov/voters/register-vote",
-    "ip_deadline": "TBH",
-    "online_deadline": "TBH",
-    "mail_deadline": "TBH"
-    
+    "ip_deadline": "Sunday, October 4, 2020"    
   },
+   "spanish": {
+      "more_info_link": "https://www.vivote.gov/voters/register-vote",
+      "more_info_english_only": "true",
+      
+      "ip_deadline" : "Domingo 4 de octubre de 2020"
+     }
+  }, 
+    
+    
+    
+    
+    
   "Washington" : {
     "state_name": "Washington",
     "state_abbreviation": "wa",
