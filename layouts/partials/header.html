@@ -58,20 +58,22 @@
 <div class="usa-alert usa-alert--warning" >
 <div class="grid-container">
   <div class="usa-alert__body">
-    <p class="usa-alert__text">
-      {{if .IsHome}}
-        {{ $translation.homepage.alert.alert_msg }}
-      {{ else }}
-        {{ $translation.register.alert_state.alert_msg }}
-        <a href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
-        {{ $translation.register.alert_state.alert_msg1 -}}
+
+    {{ if .IsHome }}
+      <p class="usa-alert__text">{{ $translation.homepage.alert.alert_msg }}</p>
+    {{ else }}
+      <p class="usa-alert__text">
+    {{ $translation.register.alert_state.alert_msg }}
+      <a href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+      {{ $translation.register.alert_state.alert_msg1 -}}
         {{ if .Params.more_info_link_english_only }}
-          {{ $translation.register.english_only }}
+          {{ $translation.register.english_only -}}
         {{ else if .Params.more_info_link_spanish_selection }}
           {{ $translation.register.selecciones_link -}}
         {{ end }}.
-      {{end}}
+      </a>
       </p>
+    {{ end }}
   </div>
 </div>
 </div>
