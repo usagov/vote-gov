@@ -113,37 +113,79 @@ $theme-color-base-family: #dcdee0;
 }
 
 .form-register{
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .site-logo{
+  $logo-width: 170px;
+
   color: white;
   text-decoration: none;
   text-align: center;
   
   img{
-    width: 200px;
+    width: $logo-width;
     max-width: unset;
     margin: auto;
     display: block;
+    margin-bottom: 60px;
+  }
+  h1{
+    font-size: 3em;
+    margin-top: 2em;
   }
   @include at-media('tablet') {
     img{
       position: absolute;
-      bottom: -63px;
-      right: calc(50% - 100px);
-    }
-  }
-  @include at-media(50em) {
-    img{
-      width: 300px;
-      bottom: -95px;
-      right: calc(50% - 150px);
+      bottom: $logo-width * -0.32 + 1;
+      right: calc(50% - #{$logo-width/2});
+      margin-bottom: 0;
     }
     h1{
-      font-size: 4em;
-      margin-bottom: 300px;
-      margin-top: 50px;
+      font-size: 2em;
+      margin-bottom: 170px;
+      margin-top: 60px;
     }
   }
+}
+.page-vote{
+  .site-logo{
+    $logo-width: 250px;
+
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+    img{
+      width: $logo-width;
+      max-width: unset;
+      margin: auto;
+      display: block;
+      margin-bottom: 60px;
+    }
+    h1{
+      font-size: 3em;
+      margin-top: 2em;
+    }
+    @include at-media('tablet') {
+      img{
+        position: absolute;
+        bottom: $logo-width * -0.32 + 1;
+        right: calc(50% - #{$logo-width/2});
+        margin-bottom: 0;
+      }
+      h1{
+        font-size: 3em;
+        margin-bottom: 240px;
+        margin-top: 140px;
+      }
+    }
+  }
+}
+.main-heading{
+    font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+}
+.content-heading{
+    font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+    font-weight: normal;
 }
