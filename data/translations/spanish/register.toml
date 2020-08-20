@@ -41,7 +41,7 @@ h2_text2 = "Fechas límites de inscripción para votar en %state_name"
 online_deadline = "Inscripción por internet: %online_dl%"
 heading3 = "Plazos de registro de votantes en %state_name%"
 heading4 = "El día de la eleccion en %state_name%"
-h4_p = "El día de las elecciones es el martes 13 de noviembre de 2020"
+h4_p = "El día de las elecciones es el martes 3 de noviembre de 2020"
 
 [alert_state]
 
