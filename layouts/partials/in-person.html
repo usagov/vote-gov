@@ -1,9 +1,9 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
 
-<p class="usa-intro">
+<h2>
   {{ replace $translation.register.in_person.body "%state_name%" .Params.state_name }}
-</p>
+</h2>
 
 <p>
   <a class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">

@@ -189,3 +189,25 @@ $theme-color-base-family: #dcdee0;
     font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
     font-weight: normal;
 }
+
+.registered{
+  color: #194068;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  a {
+    color: #194068;
+  }
+}
+.voter-resources p{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.voter-info{
+  color: #194068;
+  a {
+    color: #194068;
+  }
+  h2{
+    color: #3785ca;//#2c7cc7;
+  }
+}

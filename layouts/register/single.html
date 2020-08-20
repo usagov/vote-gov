@@ -32,8 +32,9 @@
           <div class="grid-row grid-gap">
             <div class="tablet:grid-col-4"></div>
             <div class="tablet:grid-col-8">
-
-            {{ .Render ( print "types/" .Params.registration_type ) }}
+              <section class="voter-info">
+                {{ .Render ( print "types/" .Params.registration_type ) }}
+              </section>
             </div>
           </div>
         </div>
