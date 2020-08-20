@@ -116,8 +116,8 @@
       "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote/",
       "crazyegg": "true",
       "ip_deadline" : "Tuesday, November 3rd, 2020",
-      "online_deadline": "Monday October 19th, 2020",
-      "mail_deadline": "Monday October 19th, 2020"
+      "online_deadline": "Monday, October 19th, 2020",
+      "mail_deadline": "Monday, October 19th, 2020"
     },
     "spanish": {
       "registration_link": "https://registertovote.ca.gov/es-mx",
@@ -145,7 +145,7 @@
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://www.sos.state.co.us/pubs/spanish/spanishHome.html",
       
-      "ip_deadline" : "Martes 19 de noviembre 2020",
+      "ip_deadline" : "Martes 3 de noviembre 2020",
       "online_deadline":"Lunes 26 de octubre 2020",
       "mail_deadline":"Lunes 26 de octubre 2020"
     }
