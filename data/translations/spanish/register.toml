@@ -53,6 +53,6 @@ alert_msg2 = "."
 
 inperson_deadline = "Inscripción en persona: %ip_deadline%"
 byonline_deadline = "Inscripción por internet: %online_deadline%"
-bymail_deadline = "Inscripción por correo postal: %mail_deadline%"
-bymail_deadline2 = "Debe recibirse antes de %mail_deadline%"
+bymail_deadline = "Inscripción por correo postal: debe tener el sello del correo a más tardar el %mail_deadline%"
+bymail_deadline2 = "Inscripción por correo postal: a más tardar debe ser recibida el %mail_deadline%"
 
