@@ -52,12 +52,10 @@ alert_msg1 = "your state election site"
 alert_msg2 = "for more information."
 
 [dates]
-
-inperson_deadline = "%ip_deadline%"
-byonline_deadline = "Online: %online_deadline%"
-bymail_deadline = "Must be postmarked by %mail_deadline%"
-bymail_deadline2 = "Must be received by %mail_deadline%"
-
+byonline_deadline = "Online Registration: %online_deadline%"
+bymail_deadline = "Mail-in Registration: Must be postmarked by %mail_deadline%"
+bymail_deadline2 = "Mail-in Registration: Must be received by %mail_deadline%"
+inperson_deadline = "In Person Registration: %ip_deadline%"
 
 
 
