@@ -57,9 +57,7 @@ inperson_deadline = "%ip_deadline%"
 byonline_deadline = "Online: %online_deadline%"
 bymail_deadline = "Must be postmarked by %mail_deadline%"
 bymail_deadline2 = "Must be received by %mail_deadline%"
-inperson_bold = "In Person deadline"
-byonline_bold = "Online deadline"
-bymail_bold = "Mail-in deadline"
+
 
 
 
