@@ -51,10 +51,8 @@ alert_msg2 = "."
 
 [dates]
 
-inperson_deadline = "%ip_deadline%"
-byonline_deadline = "%online_deadline%"
-bymail_deadline = "%mail_deadline%"
+inperson_deadline = "Inscripción en persona: %ip_deadline%"
+byonline_deadline = "Inscripción por internet: %online_deadline%"
+bymail_deadline = "Inscripción por correo postal: %mail_deadline%"
 bymail_deadline2 = "Debe recibirse antes de %mail_deadline%"
-inperson_bold = "Fecha límite en persona"
-byonline_bold = "Fecha límite en línea"
-bymail_bold = "Fecha límite de correo"
+
