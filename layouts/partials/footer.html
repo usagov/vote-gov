@@ -7,11 +7,10 @@
       </div>
       <div class="tablet:grid-col-8">
         <form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
-          <h3 class="text-blue">{{ $translation.footer.subscribe_email }}</h3>
+          <h3 class="text-blue font-size-medium">{{ $translation.footer.subscribe_email }}</h3>
 
-          <label class="max-width-input" for="email-2"
-            id="emailsub">{{ $translation.footer.your_email_address }}</label>
-          <input id="email-2" name="email" type="email" class="max-width-input">
+          <label class="max-width-input text-grey" for="email-2" id="emailsub">{{ $translation.footer.your_email_address }}</label>
+          <input id="email-2" name="email" type="email" class="usa-input max-width-input">
 
           <button class="usa-button max-width-input" id="js-user-submit" type="submit">
             {{ $translation.footer.sign_up }}
