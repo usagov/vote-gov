@@ -14,6 +14,7 @@ $color-blue: #2c7cc7;
 $color-blue-dark: #194068;
 $color-blue-light: #ecf2f8;
 $color-grey: #e1e2e4;
+$color-grey-dark: #9d9e9e;
 $theme-color-base-family: #dcdee0;
 
 .bg-blue {
@@ -37,12 +38,22 @@ $theme-color-base-family: #dcdee0;
 .text-blue {
   color: $color-blue;
 }
+.text-grey {
+  color: $color-grey-dark;
+}
+
+.font-size-medium{
+  font-size: 1.3em;
+}
 
 .max-width-input {
   display: inline-block;
-  max-width: 30rem;
+  max-width: 25rem;
   width: 100%;
   margin-bottom: 1rem;
+}
+label.max-width-input {
+  margin-bottom: 0;
 }
 
 .align-bottom {
