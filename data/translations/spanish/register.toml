@@ -53,4 +53,6 @@ inperson_deadline = "Inscripción en persona: %ip_deadline%"
 byonline_deadline = "Inscripción por internet: %online_deadline%"
 bymail_deadline = "Inscripción por correo postal: debe tener el sello del correo a más tardar el %mail_deadline%"
 bymail_deadline2 = "Inscripción por correo postal: a más tardar debe ser recibida el %mail_deadline%"
+electionday_heading = "El día de la eleccion en %state_name%"
+electionday = "El día de las elecciones es el martes 3 de noviembre de 2020"
 

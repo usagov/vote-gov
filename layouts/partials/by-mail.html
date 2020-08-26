@@ -73,17 +73,3 @@ var languageSelected = document.getElementById('js-user-selection').value;
 window.open(languageSelected, '_blank');
 };
 </script>
-
-{{ if .Params.mail_deadline }}
-  <p>
-    {{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}
-  </p> 
-{{end}}
-{{ if .Params.ip_deadline }}
-<h3>
-  {{ $translation.register.dates.inperson_bold }}
-</h3>
-<p>
-  {{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
-</p>
-{{end}}

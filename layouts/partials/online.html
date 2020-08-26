@@ -61,29 +61,3 @@
 </a>
 </p>
 
-<h3>
-  {{  $translation.register.dates.byonline_bold }}
-</h3>
-<p>
-  {{ if .Params.online_deadline }}
-  {{ replace $translation.register.dates.byonline_deadline "%online_deadline%" .Params.online_deadline }}
-  {{end}}
-</p>
-<h3>
-  {{  $translation.register.dates.bymail_bold }}
-</h3>
-<p>
-  {{ if .Params.mail_deadline }}
-  {{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}
-  {{end}}
-</p>
-<h3>
-  {{  $translation.register.dates.inperson_bold }}
-</h3>
-
-  <p>
-    {{ if .Params.ip_deadline }}
-  {{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
-  {{end}}
-</p>
-</div>
