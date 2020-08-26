@@ -1,28 +1,9 @@
 // 404 page ------------ //
 .page-vote-404 {
-
-  .page-inner {
-    margin-top: 8rem;
-    margin-bottom: 8rem;
-  }
-
-  // these are the language-specific columns
   [lang] {
-    padding-left: 2rem;
-    padding-right: 2rem;
-
-    @include at-media('tablet') {
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
-
-    > .usa-label {
-      text-transform: none;
-    }
-
-    h1 {
-      @include h2();
-      margin-top: 2rem;
-    }
+      margin: 2rem 0;
+      @include at-media('tablet') {
+        margin: 4rem 1rem;
+      }
   }
 }
