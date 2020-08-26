@@ -8,8 +8,5 @@ registration_link_spanish_selection = "true"
 more_info_link = "https://registertovoteflorida.gov/home"
 more_info_link_spanish_selection = "true"
 crazyegg = "true"
-ip_deadline = "Lunes 19 de octubre 2020"
-online_deadline = "Lunes 19 de octubre 2020"
-mail_deadline = "Lunes 19 de octubre 2020"
 
 +++

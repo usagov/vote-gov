@@ -7,8 +7,5 @@ registration_link = "https://www.nvsos.gov/SOSVoterServices/start.aspx"
 registration_link_spanish_selection = "true"
 more_info_link = "https://www.nvsos.gov/sos/elections/voters/registering-to-vote"
 more_info_link_english_only = "true"
-ip_deadline = "Martes 19 de octubre 2020"
-online_deadline = "Martes 19 de octubre 2020"
-mail_deadline = "Martes 19 de octubre 2020"
 
 +++
