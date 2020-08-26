@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+heading = "Inscríbase para votar en %state_name%"
+heading2 = "¿Cómo me registro para votar en %state_name%?"
+state_heading = "Inscríbase para votar en %state_name%"
+meta_name = "Averigüe cómo inscribirse para votar en %state_name%."
+>>>>>>> origin/dates
 english_only = "(en inglés)"
 h2_deadline = "Voter registration deadline in %state_name%"
 heading = "Inscríbase para votar en %state_name%"
@@ -10,8 +17,15 @@ select_spanish = "- seleccione la opción para español"
 state_heading = "Inscríbase para votar en %state_name%"
 
 [by_mail]
+<<<<<<< HEAD
 intro = "La inscripción por Internet no está disponible actualmente. Vea otras formas de inscribirse para votar en "
 link = "el sitio web electoral de %state_name%"
+=======
+intro = "La inscripción por Internet no está disponible actualmente."
+link_text = "Vea otras formas de inscribirse para votar en "
+link_text2= "el sitio web electoral de %state_name%"
+body = "%state_name% allows residents to register by mail, not online."
+>>>>>>> origin/dates
 
 [other_language_selection]
 
@@ -20,14 +34,22 @@ label = "También puede descargar el formulario nacional de inscripción de vota
 submit = "Descargue el formulario nacional de inscripción de votantes (PDF)"
 
 [in_person]
+<<<<<<< HEAD
 intro = "Puede inscribirse en persona. Vea más información en"
 link = "el sitio web electoral de %state_name%"
+=======
+body = "Inscríbase en persona en la oficina electoral local." 
+link = "Visite el sitio web de %state_name% para más información sobre cómo inscribirse"
+h2_p = "You can register in person."
+
+>>>>>>> origin/dates
 
 [not_needed]
 intro = "Este estado no requiere inscripción para votar. Vea más información en"
 link = "el sitio web electoral de %state_name%"
 
 [online]
+<<<<<<< HEAD
 answer1 = "Empiece su inscripción por internet en el "
 answer1_link = "sitio web electoral de %state_name%"
 h2_question1 = "¿Cómo me puedo inscribir para votar en %state_name%?"
@@ -40,8 +62,32 @@ election_day = "La elección presidencial es el martes "
 in-person_dl = "Inscripción en persona: "
 mail-in_dl = "Inscripción por correo postal: "
 online_dl = "Inscripción por internet: "
+=======
+h2_text = "What are the other ways to register to vote in %state_name%?"
+h2_p = "You can also register to vote by mail or in person."
+h2_link = "Find out how on %state_name%'s election website."
+link = "Empiece su inscripción por internet en el sitio web electoral de %state_name%" 
+link2 = "Vea otras formas de inscribirse para votar en %state_name%" 
+h2_text2 = "Fechas límites de inscripción para votar en %state_name"
+online_deadline = "Inscripción por internet: %online_dl%"
+heading3 = "Plazos de registro de votantes en %state_name%"
+heading4 = "El día de la eleccion en %state_name%"
+h4_p = "El día de las elecciones es el martes 3 de noviembre de 2020"
+>>>>>>> origin/dates
 
 [alert_state]
 
 alert_msg = "Debido al COVID-19, su estado podría haber modificado cuándo, dónde y cómo usted podrá votar en las próximas elecciones. Verifique esta información en el"
 alert_msg1 = "sitio web electoral de su estado"
+<<<<<<< HEAD
+=======
+alert_msg2 = "."
+
+[dates]
+
+inperson_deadline = "Inscripción en persona: %ip_deadline%"
+byonline_deadline = "Inscripción por internet: %online_deadline%"
+bymail_deadline = "Inscripción por correo postal: debe tener el sello del correo a más tardar el %mail_deadline%"
+bymail_deadline2 = "Inscripción por correo postal: a más tardar debe ser recibida el %mail_deadline%"
+
+>>>>>>> origin/dates

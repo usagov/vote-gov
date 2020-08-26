@@ -26,6 +26,9 @@ $theme-color-base-family: #dcdee0;
   background: $color-blue-light;
   color: $color-blue-dark;
 }
+h2 {
+  color: #154285;
+}
 
 .bg-grey {
   background: $color-grey;
@@ -322,4 +325,29 @@ label.max-width-input {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+<<<<<<< HEAD
 }
+=======
+
+  // these are the language-specific columns
+  [lang] {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    @include at-media('tablet') {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    > .usa-label {
+      text-transform: none;
+    }
+
+    h1 {
+      @include h2();
+      margin-top: 2rem;
+    }
+  }
+  
+}
+>>>>>>> origin/dates

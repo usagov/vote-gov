@@ -1,5 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
+<<<<<<< HEAD
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -27,6 +28,80 @@
         {{ replace $translation.register.online.h2_question1 "%state_name%" .Params.state_name }}
       </h2>
       </header>
+=======
+  <div class="usa-alert usa-alert--warning covid-alert-state">
+    <div class="usa-alert__body">
+      <p class="usa-alert__text">
+        {{ $translation.register.alert_state.alert_msg }}
+        <a href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+         {{ $translation.register.alert_state.alert_msg1 }} 
+          {{ if .Params.more_info_link_english_only }}
+         {{ $translation.register.english_only }}
+         {{ else if .Params.more_info_link_spanish_selection }} 
+          {{ $translation.register.selecciones_link }}
+         {{ end }} 
+        </a>
+         {{ $translation.register.alert_state.alert_msg2 }} 
+      </p>
+    </div>
+  </div>
+  
+<!--Heading 3-->
+<header>
+  <h2>
+    {{ replace $translation.register.online.heading3 "%state_name%" .Params.state_name }}
+  </h2>
+  </header>
+<!-- Display Dates here-->
+<h3>
+  {{  $translation.register.dates.byonline_bold }}
+</h3>
+<p class = "usa-intro">
+  {{ if .Params.online_deadline }}
+  {{ replace $translation.register.dates.byonline_deadline "%online_deadline%" .Params.online_deadline }}
+  {{end}}
+</p>
+<h3>
+  {{  $translation.register.dates.bymail_bold }}
+</h3>
+<p class = "usa-intro">
+  {{ if .Params.mail_deadline }}
+  {{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}
+  {{end}}
+</p>
+<h3>
+  {{  $translation.register.dates.inperson_bold }}
+</h3>
+<header>
+  <p class = "usa-intro">
+    {{ if .Params.ip_deadline }}
+  {{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
+  {{end}}
+</p>
+</header>
+
+
+<!--Heading 4-->
+ <header>
+  <h2>
+    {{ replace $translation.register.online.heading4 "%state_name%" .Params.state_name }}
+  </h2>
+  </header>
+
+  <p class = "usa-intro">
+    {{  $translation.register.online.h4_p }}
+  </p>
+
+  <p class="usa-intro">
+    {{ replace $translation.register.online.body "%state_name%" .Params.state_name }}
+  </p>
+    
+  <header>
+  <h2>
+    {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
+  </h2>
+  </header>
+>>>>>>> origin/dates
 
   <p> 
     <p class="reg-link">
@@ -36,6 +111,7 @@
       {{ if .Params.registration_link_english_only }}
         {{ $translation.register.english_only -}}
       {{ else if .Params.registration_link_spanish_selection }} 
+<<<<<<< HEAD
         {{ $translation.register.selecciones_link -}}
       {{ end }}.
 
@@ -61,3 +137,25 @@
 </a>
 </p>
 
+=======
+        {{ $translation.register.selecciones_link }}
+      {{ end }}
+    </a>
+        <br><br>
+    <a  class="reg-link" 
+    href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+      {{replace $translation.register.online.link2 "%state_name%" .Params.state_name }}
+        
+      {{ if .Params.more_info_link_english_only }}
+        {{ $translation.register.english_only }}
+      {{ else if .Params.more_info_link_spanish_selection }} 
+        {{ $translation.register.selecciones_link }}
+      {{ end }} 
+    </a>
+  </p>
+
+  
+ 
+</div>
+<!-- Register END -->
+>>>>>>> origin/dates

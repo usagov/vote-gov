@@ -7,5 +7,8 @@ registration_link = "https://voterregistration.ct.gov/OLVR/"
 more_info_link = "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet"
 registration_link_spanish_selection = "true"
 more_info_link_english_only = "true"
+ip_deadline = "Martes 19 de noviembre 2020"
+online_deadline = "Martes 19 de octubre 2020"
+mail_deadline = "MartesMartes 19 de octubre 2020"
 
 +++

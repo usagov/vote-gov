@@ -1,12 +1,25 @@
 h2-deadline = "Voter registration deadline in %state_name%"
 heading = "Register to vote in %state_name%"
 heading2 = "How do I register to vote in %state_name%?"
+<<<<<<< HEAD
 meta_name = "Find out how to register to vote in %state_name%"
+=======
+>>>>>>> origin/dates
 state_heading = "Voter Registration in %state_name%"
 
 [by_mail]
 intro = "Online registration is currently not available. Find out ways to register to vote at"
 link = "%state_name%’s state election website"
+
+body = "%state_name% allows residents to register by mail, not online."
+step_one_label = "Step 1"
+step_one = "Fill out your voter registration."
+step_two_label = "Step 2"
+step_two = "Mail it to your state."
+step_three_label = "Step 3"
+step_three = "Vote in the upcoming election!"
+download = "Download the form (PDF)"
+download_others = "Download the form in other languages:"
 
 [other_language_selection]
 
@@ -15,6 +28,7 @@ label = "You can also download the National Voter Registration Form (PDF) availa
 submit = "Download the National Voter Registration Form"
 
 [in_person]
+<<<<<<< HEAD
 intro = "Register in person at your local election office. You can register in person. Learn more about how to register on "
 link = "%state_name%’s election website"
 
@@ -23,6 +37,27 @@ intro = "Voter registration is not required in %state_name%. Learn more about vo
 link = "%state_name%s election website"
 
 [online]
+=======
+body = "Register in person at your local election office."
+link = "Learn more about how to register on %state_name%’s election website."
+h2_p = "You can register in person."
+
+
+[not_needed]
+body = "Voter registration is not required in %state_name%."
+link = "Learn more about voting on %state_name%’s election website."
+h2_p = "Voter registration is not required in %state_name%."
+
+[online]
+link = "Start your online registration on %state_name%’s election website."
+link2 = "Find out other ways to register to vote in %state_name%."
+h2_text = "What are the other ways to register to vote in %state_name%?"
+h2_p = "You can also register to vote by mail or in person."
+h2_link = "Find out how on %state_name%’s election website."
+heading3 = "Voter registration deadlines in %state_name%"
+heading4 = "Election day in %state_name%"
+h4_p = "Election Day is Tuesday November 3rd, 2020."
+>>>>>>> origin/dates
 
 answer1 = "Start your online registration on "
 answer1_link = "%state_name%’s election website"
@@ -36,3 +71,24 @@ h2_question2 = "What are the other ways to register to vote in %state_name%?"
 alert_msg = "Due to COVID-19, there may be changes to when, where and how you vote in your upcoming elections. Check with"
 alert_msg1 = "your state election site"
 alert_msg2 = "for more information."
+
+[dates]
+byonline_deadline = "Online registration deadline: %online_deadline%"
+bymail_deadline = "Mail-in registration deadline: Must be postmarked by %mail_deadline%"
+bymail_deadline2 = "Mail-in registration deadline: Must be received by %mail_deadline%"
+inperson_deadline = "In person registration deadline: %ip_deadline%"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

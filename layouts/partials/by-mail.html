@@ -21,7 +21,48 @@
     }
     </script>
 
+<<<<<<< HEAD
     <p>
+=======
+      <!--Heading 3-->
+      <header>
+        <h2>
+          {{ replace $translation.register.online.heading3 "%state_name%" .Params.state_name }}
+        </h2>
+        </header>
+          <!--Display Dates here-->
+          <h3>
+            {{  $translation.register.dates.bymail_bold }}
+        </h3>
+          <p class = "usa-intro">
+            {{ if .Params.mail_deadline }}
+            {{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}
+            {{end}}
+          </p> 
+          <h3>
+            {{  $translation.register.dates.inperson_bold }}
+        </h3>
+          <p class = "usa-intro">
+            {{ if .Params.ip_deadline }}
+            {{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
+            {{end}}
+          </p>
+      
+
+          <!--Dates Displayed-->
+          <!--Heading 4-->
+       <header>
+        <h2>
+          {{ replace $translation.register.online.heading4 "%state_name%" .Params.state_name }}
+        </h2>
+        </header>
+
+        <p class = "usa-intro">
+          {{  $translation.register.online.h4_p }}
+        </p>
+
+    <p class="usa-intro">
+>>>>>>> origin/dates
       {{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}
       {{ $translation.register.by_mail.label }}
       <a  class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
@@ -34,8 +75,47 @@
      </a>
     </p>
 
+    <!--<div class="usa-graphic-list">
+      <div class="grid-row">
+        <div class="grid-col-4">
+          <img src="{{ .Site.BaseURL }}/assets/img/step-1.png">
+          <h4 class="usa-graphic-list__heading">
+            {{ $translation.register.by_mail.step_one_label }}
+          </h4>
+          <p>
+            {{ $translation.register.by_mail.step_one }}
+          </p>
+        </div>
+        <div class="grid-col-4">
+          <img src="{{ .Site.BaseURL }}/assets/img/step-2.png">
+          <h4 class="usa-graphic-list__heading">
+            {{ $translation.register.by_mail.step_two_label }}
+          </h4>
+          <p>
+            {{ $translation.register.by_mail.step_two }}
+          </p>
+        </div>
+        <div class="grid-col-4">
+          <img src="{{ .Site.BaseURL }}/assets/img/step-3.png">
+          <h4 class="usa-graphic-list__heading">
+            {{ $translation.register.by_mail.step_three_label }}
+          </h4>
+          <p>
+            {{ $translation.register.by_mail.step_three }}
+          </p>
+        </div>
+      </div>
+    </div>
+    Steps END -->
+  
+
+
     <form class="state-download" method="get" id="register">
+<<<<<<< HEAD
     <p>{{ $translation.register.other_language_selection.label }}</p>
+=======
+    <p class="usa-intro">{{ $translation.register.other_language_selection.label }}</p> <!--You can download form-->
+>>>>>>> origin/dates
     <label class="usa-sr-only" for="js-user-selection">
       {{ $translation.register.other_language_selection.default }}
     </label>
@@ -52,7 +132,11 @@
     {{ $translation.register.other_language_selection.submit }}
   </button>
 
+<<<<<<< HEAD
 </form>
+=======
+
+>>>>>>> origin/dates
 
 <script type="text/javascript">
 document.getElementById('register').onsubmit = function(ev) {

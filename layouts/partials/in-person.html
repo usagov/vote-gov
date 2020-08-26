@@ -7,6 +7,7 @@
     </h2>
   </header>
 
+<<<<<<< HEAD
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -22,6 +23,54 @@
       }]
     }
     </script>
+=======
+  <div class="usa-alert usa-alert--warning covid-alert-state">
+    <div class="usa-alert__body">
+      <p class="usa-alert__text">
+        {{ $translation.register.alert_state.alert_msg }}
+        <a href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+         {{ $translation.register.alert_state.alert_msg1 }} 
+          {{ if .Params.more_info_link_english_only }}
+         {{ $translation.register.english_only }}
+         {{ else if .Params.more_info_link_spanish_selection }} 
+          {{ $translation.register.selecciones_link }}
+         {{ end }} 
+        </a>
+         {{ $translation.register.alert_state.alert_msg2 }} 
+      </p>
+    </div>
+  </div>
+  
+   <!--Heading 3-->
+ <header>
+  <h2>
+    {{ replace $translation.register.online.heading3 "%state_name%" .Params.state_name }}
+  </h2>
+  </header>
+  <h3>
+    {{  $translation.register.dates.inperson_bold }}
+</h3>
+  <p class = "usa-intro">
+    {{ if .Params.ip_deadline }}
+    {{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
+    {{end}}
+  </p>
+
+<!--Heading 4-->
+<header>
+  <h2>
+    {{ replace $translation.register.online.heading4 "%state_name%" .Params.state_name }}
+  </h2>
+  </header>
+
+  <p class = "usa-intro">
+    {{  $translation.register.online.h4_p }}
+  </p>
+
+  <p class="usa-intro">
+    {{ replace $translation.register.in_person.body "%state_name%" .Params.state_name }}
+  </p>
+>>>>>>> origin/dates
   
   <p>
       {{ replace $translation.register.in_person.intro "%state_name%" .Params.state_name }}
@@ -35,4 +84,11 @@
       {{ end }}.
     </a>
     </p>
+<<<<<<< HEAD
+=======
+  </p>
+
+ 
+
+>>>>>>> origin/dates
 </div>
