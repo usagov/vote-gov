@@ -1,23 +1,63 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
-<p> 
-  <a  class="reg-link" href="{{ .Params.registration_link }}{{ if in .Params.registration_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
-    {{ replace $translation.register.online.link "%state_name%" .Params.state_name }} 
-      
-    {{ if .Params.registration_link_english_only }}
-      {{ $translation.register.english_only }}
-    {{ else if .Params.registration_link_spanish_selection }} 
-      {{ $translation.register.selecciones_link }}
-    {{ end }}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "{{ replace $translation.register.online.h2_question1 "%state_name%" .Params.state_name }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ replace $translation.register.online.answer1 "%state_name%" .Params.state_name }}<a class='reg-link' href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.online.answer1_link "%state_name%" .Params.state_name }}</a>"
+        }
+      },{
+        "@type": "Question",
+        "name": "{{ replace $translation.register.online.h2_question2 "%state_name%" .Params.state_name }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ replace $translation.register.online.answer2 "%state_name%" .Params.state_name }}{{ replace $translation.register.online.h2_link "%state_name%" .Params.state_name }}<a class='reg-link' href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.online.answer2_link "%state_name%" .Params.state_name }}</a>"
+        }
+    }]
+    }
+    </script>
+
+    <header>
+      <h2>
+        {{ replace $translation.register.online.h2_question1 "%state_name%" .Params.state_name }}
+      </h2>
+      </header>
+
+  <p> 
+    <p class="reg-link">
+    {{ replace $translation.register.online.answer1 "%state_name%" .Params.state_name }}
+    <a href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+    {{ replace $translation.register.online.answer1_link "%state_name%" .Params.state_name -}}
+      {{ if .Params.registration_link_english_only }}
+        {{ $translation.register.english_only -}}
+      {{ else if .Params.registration_link_spanish_selection }} 
+        {{ $translation.register.selecciones_link -}}
+      {{ end }}.
+
   </a>
-      <br><br>
-  <a  class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
-    {{replace $translation.register.online.link2 "%state_name%" .Params.state_name }}
-      
-    {{ if .Params.more_info_link_english_only }}
-      {{ $translation.register.english_only }}
-    {{ else if .Params.more_info_link_spanish_selection }} 
-      {{ $translation.register.selecciones_link }}
-    {{ end }} 
-  </a>
+  </p>  
+
+  <header>
+  <h2>
+    {{ replace $translation.register.online.h2_question2 "%state_name%" .Params.state_name }}
+  </h2>
+  </header>
+  
+    <p class="reg-link">
+
+    {{ replace $translation.register.online.answer2 "%state_name%" .Params.state_name }}
+    <a href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+    {{ replace $translation.register.online.answer2_link "%state_name%" .Params.state_name -}}
+      {{ if .Params.more_info_link_english_only }}
+        {{ $translation.register.english_only -}}
+      {{ else if .Params.more_info_link_spanish_selection }}
+        {{ $translation.register.selecciones_link -}}
+      {{ end }}.
+</a>
 </p>
+
