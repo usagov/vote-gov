@@ -4,6 +4,7 @@ state_name = "Guam"
 state_abbreviation = "gu"
 registration_type = "in-person"
 more_info_link = "https://gec.guam.gov/"
-more_info_link_english_only = "true"
+more_info_english_only = "true"
+ip_deadline = "viernes 23 de octubre de 2020"
 
 +++
