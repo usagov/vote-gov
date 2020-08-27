@@ -1,73 +1,79 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 
 <header>
-  <h2>
-    {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
-  </h2>
+	<h2>
+		{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
+	</h2>
 </header>
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "{{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}{{ $translation.register.by_mail.label }}<a href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.by_mail.link "%state_name%" .Params.state_name }}</a>"
-        }
-      }]
-    }
-    </script>
+<script type="application/ld+json">
+	{
+	      "@context": "https://schema.org",
+	      "@type": "FAQPage",
+	      "mainEntity": [{
+	        "@type": "Question",
+	        "name": "{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}",
+	        "acceptedAnswer": {
+	          "@type": "Answer",
+	          "text": "{{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}{{ $translation.register.by_mail.label }}<a href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.by_mail.link "%state_name%" .Params.state_name }}</a>"
+		        }
+		      }]
+		    }
+</script>
 
 
-      
-       <header>
-        <h2>
-          {{ replace $translation.register.online.heading4 "%state_name%" .Params.state_name }}
-        </h2>
-        </header>
+<header>
+	<h2>
+		{{ replace $translation.register.online.heading4 "%state_name%" .Params.state_name }}
+	</h2>
+</header>
 
-        <p>
-          {{  $translation.register.online.h4_p }}
-        </p>
+<p>
+	{{  $translation.register.online.h4_p }}
+</p>
 
-    <p>
-      {{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}
-      {{ $translation.register.by_mail.label }}
-      <a  class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
-        {{ replace $translation.register.by_mail.link "%state_name%" .Params.state_name -}} 
-        {{ if .Params.more_info_link_english_only }}
-          {{ $translation.register.english_only -}}
-        {{ else if .Params.more_info_link_spanish_selection }} 
-          {{ $translation.register.selecciones_link -}}
-        {{ end }}. 
-     </a>
-    </p>
+<p>
+	{{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}
+	{{ $translation.register.by_mail.label }}
+	<a class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+		{{ replace $translation.register.by_mail.link "%state_name%" .Params.state_name -}}
+		{{ if .Params.more_info_link_english_only }}
+			{{ $translation.register.english_only -}}
+		{{ else if .Params.more_info_link_spanish_selection }}
+			{{ $translation.register.selecciones_link -}}
+		{{ end }}.
+	</a>
+</p>
 
-  <form class="state-download" method="get" id="register">
-    <p>{{ $translation.register.other_language_selection.label }}</p>
-    <label class="usa-sr-only" for="js-user-selection">
-      {{ $translation.register.other_language_selection.default }}
-    </label>
+<form class="state-download" method="get" id="register">
+	<p>{{ $translation.register.other_language_selection.label }}</p>
+	<label class="usa-sr-only" for="js-user-selection">
+		{{ $translation.register.other_language_selection.default }}
+	</label>
 
-    <select class="usa-select max-width-input" name="userselection" id="js-user-selection">
-    {{ range $key, $form := $.Site.Data.registration_forms }}
-      {{ if ne $key $.Site.Params.language }}
-        <option value="{{ $form.file_path }}">{{ $form.language }}</option>
-      {{ end }}
-    {{ end }}
-  </select>
-    
-  <button class="usa-button max-width-input" id="js-user-submit" type="submit">
-    {{ $translation.register.other_language_selection.submit }}
-  </button>
+
+	<select class="usa-select  max-width-input" name="userselection" id="js-user-selection">
+
+		{{ range $key, $form := $.Site.Data.registration_forms }}
+			{{ if eq $key $.Site.Params.language }}
+				<option value="{{ $form.file_path }}">{{ $form.language }}</option>
+			{{ end }}
+		{{ end }}
+		{{ range $key, $form := $.Site.Data.registration_forms }}
+			{{ if ne $key $.Site.Params.language }}
+				<option value="{{ $form.file_path }}">{{ $form.language }}</option>
+			{{ end }}
+		{{ end }}
+	</select>
+
+	<button class="usa-button max-width-input" id="js-user-submit" type="submit">
+		{{ $translation.register.other_language_selection.submit }}
+	</button>
 
 </form>
 
 <script type="text/javascript">
-document.getElementById('register').onsubmit = function(ev) {
+	document.getElementById('register').onsubmit = function (ev) {
 ev.preventDefault();
 var languageSelected = document.getElementById('js-user-selection').value;
 window.open(languageSelected, '_blank');
