@@ -16,9 +16,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-4">
-        <a class="site-logo" href="{{ .Site.BaseURL }}{{ $translation.root_path }}" accesskey="1" title="Home" aria-label="Home">
+        <a class="site-logo" href="{{ .Site.BaseURL }}/{{ $translation.root_path }}" accesskey="1" title="Home" aria-label="Home">
           <h1>{{ $translation.homepage.site_name }}</h1>
-          <img id="SiteLogo" src="{{ .Site.BaseURL }}assets/img/ballot_box-blue.svg" alt="Web design standards">
+          <img id="SiteLogo" src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg" alt="Web design standards">
         </a>
       </div>
       <div class="tablet:grid-col-8 right-shift">
@@ -70,7 +70,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p>
             {{ $translation.homepage.registered.resources_intro }}
             <a href="{{ $translation.homepage.registered.resources_link_url }}">
-              {{ $translation.homepage.registered.resources_link_text }}
+              {{ $translation.homepage.registered.resources_link_text -}}
             </a> {{ $translation.homepage.registered.resources_on }}:
           </p>
           <ul class="registered-resources">
