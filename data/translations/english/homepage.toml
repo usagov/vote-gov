@@ -3,7 +3,6 @@ header = "Register to vote"
 [state_selection]
 
 heading = "Where do you live?"
-label = "(To live somewhere is to make that place your permanent home.)"
 default = "Select your state or territory"
 submit = "Find out how to register"
 
@@ -15,8 +14,6 @@ resources_intro = "Explore our"
 resources_link_text = "voting and election resources"
 resources_link_url = "https://www.usa.gov/voting"
 resources_on = "on"
-resources_website = "USA.gov"
-resources_website_url = "https://www.usa.gov"
 
 [registered_links]
 
