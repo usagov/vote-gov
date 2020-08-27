@@ -68,7 +68,9 @@ label.max-width-input {
   move the whole content on the right about 40 pixels to the right
   (this is due to the spanish logo text being so close to the content on the right)
   */
-  padding-left: 3rem !important;
+  @include at-media('tablet') {
+    padding-left: 3rem !important;
+  }
 }
 
 
