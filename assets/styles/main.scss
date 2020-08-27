@@ -131,25 +131,28 @@ label.max-width-input {
 .usa-header .usa-alert--warning {
   margin-top: 0;
 }
-
+.usa-alert{
+  padding:0;
+}
 .usa-alert--warning {
   background-image: unset;
 
   .grid-container {
     background-image: url(../img/alerts/warning.svg), linear-gradient(transparent, transparent);
-    background-position: 1.75rem 0.25rem;
+    background-position: 1rem 0.75rem;
     background-repeat: no-repeat;
     background-size: 2rem;
   }
+}
+.usa-alert--warning .usa-alert__body{
+  padding-left: 2.5rem;
 }
 
 .form-register {
   margin-bottom: 2rem;
 }
-
+$logo-width: 150px;
 .site-logo {
-  $logo-width: 170px;
-
   color: white;
   text-decoration: none;
   text-align: center;
@@ -184,8 +187,6 @@ label.max-width-input {
 
 .page-vote {
   .site-logo {
-    $logo-width: 170px;
-
     color: white;
     text-decoration: none;
     text-align: center;
@@ -197,20 +198,18 @@ label.max-width-input {
     h1 {
       font-size: 3em;
       margin-top: 20px;
+      margin-bottom: 15px;
     }
 
     @include at-media('tablet') {
-      $logo-width: 250px;
+      $logo-width: 200px;
       img {
         width: $logo-width;
-        position: absolute;
         bottom: $logo-width * -0.32 + 1;
         right: calc(50% - #{$logo-width/2});
-        margin-bottom: 0;
       }
 
       h1 {
-        font-size: 3em;
         margin-bottom: 240px;
         margin-top: 140px;
       }
