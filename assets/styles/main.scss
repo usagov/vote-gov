@@ -72,6 +72,21 @@ label.max-width-input {
     padding-left: 3rem !important;
   }
 }
+.css-arrow::after{
+  $arrow-width: 100px;
+  $arrow-height: 30px;
+  content: "";
+  position: absolute;
+  left: calc(50% - #{$arrow-width/2});
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: $arrow-height $arrow-width/2 0 $arrow-width/2;
+  border-color: $color-blue transparent transparent transparent;
+  @include at-media('tablet') {
+    content:none;
+  }
+}
 
 
 .usa-button {
@@ -240,7 +255,7 @@ $logo-width: 130px;
 
 .registered {
   color: #194068;
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 60px;
 
   a {
@@ -325,6 +340,7 @@ $logo-width: 130px;
   font-weight: bold;
   font-size: 1.1em;
   margin-left: 0;
+  margin-right: 10px;
   
   @include at-media('tablet') {
     margin-left: 3rem;
