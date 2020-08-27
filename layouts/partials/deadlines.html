@@ -21,6 +21,12 @@
   </p>
 {{end}}
 
+{{ if .Params.mail_deadline2 }}
+  <p>
+    {{ replace $translation.register.dates.bymail_deadline2 "%mail_deadline2%" .Params.mail_deadline2 }}
+  </p>
+{{end}}
+
 {{ if .Params.ip_deadline }}
   <p>
     {{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
