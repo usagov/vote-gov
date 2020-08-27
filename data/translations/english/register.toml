@@ -5,12 +5,12 @@ meta_name = "Find out how to register to vote in %state_name%"
 state_heading = "Voter Registration in %state_name%"
 
 [by_mail]
-intro = "Online registration is currently not available. Find out ways to register to vote at"
+intro = "Online registration is currently not available. Find out ways to register to vote at "
 link = "%state_name%’s state election website"
 
 [other_language_selection]
-heading = "What are the other ways to register to vote in %state_name%?"
 default = "Select your language"
+heading = "What are the other ways to register to vote in %state_name%?"
 label = "You can also download the National Voter Registration Form (PDF) available in English and 14 additional languages from the dropdown menu below."
 submit = "Download the National Voter Registration Form"
 

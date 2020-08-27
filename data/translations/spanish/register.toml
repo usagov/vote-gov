@@ -14,8 +14,8 @@ intro = "La inscripción por Internet no está disponible actualmente. Vea otras
 link = "el sitio web electoral de %state_name%"
 
 [other_language_selection]
-heading = "¿De qué otras formas me puedo inscribir para votar en %state_name%?"
 default = "Seleccione su idioma"
+heading = "¿De qué otras formas me puedo inscribir para votar en %state_name%?"
 label = "También puede descargar el formulario nacional de inscripción de votantes (PDF) disponible en español y 14 idiomas más."
 submit = "Descargue el formulario nacional de inscripción de votantes (PDF)"
 
