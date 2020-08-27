@@ -2,6 +2,7 @@
 
 @import '../../node_modules/uswds/src/stylesheets/uswds';
 @import './component/404.scss';
+@import './component/usa-banner.scss';
 
 
 // Variables ------------ //
@@ -72,19 +73,24 @@ label.max-width-input {
     padding-left: 3rem !important;
   }
 }
-.css-arrow::after{
-  $arrow-width: 100px;
-  $arrow-height: 30px;
-  content: "";
-  position: absolute;
-  left: calc(50% - #{$arrow-width/2});
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: $arrow-height $arrow-width/2 0 $arrow-width/2;
-  border-color: $color-blue transparent transparent transparent;
-  @include at-media('tablet') {
-    content:none;
+
+.css-arrow{
+  position: relative;
+  &::after{
+    $arrow-width: 100px;
+    $arrow-height: 30px;
+    content: "";
+    position: absolute;
+    left: calc(50% - #{$arrow-width/2});
+    bottom: -$arrow-height;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: $arrow-height+1 $arrow-width/2 0 $arrow-width/2;
+    border-color: $color-blue transparent transparent transparent;
+    @include at-media('tablet') {
+      content:none;
+    }
   }
 }
 
@@ -92,51 +98,6 @@ label.max-width-input {
 .usa-button {
   background-color: $color-blue-dark;
   color: white;
-}
-
-.usa-banner {
-
-  //These .usa-banner overrides are a hack to undo the mobile behavior of the USWDS banner
-  &__header--expanded .usa-banner__button::before,
-  &__header--expanded .usa-banner__button::after {
-    content: unset !important;
-    -webkit-mask: url(../img/chevron.svg) no-repeat center / 1.31282ex 0.8ex;
-
-    @include at-media('tablet') {
-      content: "" !important;
-    }
-  }
-
-  &__header {
-    padding-right: 0.5rem;
-  }
-
-  &__header--expanded .usa-banner__header-action {
-    display: inline-block;
-
-    @include at-media('tablet') {
-      display: none;
-    }
-
-    &::after {
-      transform: rotate(180deg);
-    }
-  }
-
-  &__header--expanded .usa-banner__button-text {
-    display: none;
-
-    @include at-media('tablet') {
-      display: inline-block;
-    }
-  }
-
-  &__header-action::after,
-  &__button::after,
-  &__button:hover::after {
-    background: url("../img/chevron.svg") no-repeat center / 1.31282ex 0.8ex;
-    background-color: unset;
-  }
 }
 
 .translations {
