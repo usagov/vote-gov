@@ -22,12 +22,6 @@
 {{end}}
 
 {{ if .Params.mail_deadline2 }}
-	<p>
-		{{ replace $translation.register.dates.bymail_deadline2 "%mail_deadline2%" .Params.mail_deadline2 }}
-	</p>
-{{end}}
-
-{{ if .Params.mail_deadline2 }}
   <p>
     {{ replace $translation.register.dates.bymail_deadline2 "%mail_deadline2%" .Params.mail_deadline2 }}
   </p>

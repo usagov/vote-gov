@@ -14,7 +14,7 @@ intro = "La inscripción por Internet no está disponible actualmente. Vea otras
 link = "el sitio web electoral de %state_name%"
 
 [other_language_selection]
-
+heading = "¿De qué otras formas me puedo inscribir para votar en %state_name%?"
 default = "Seleccione su idioma"
 label = "También puede descargar el formulario nacional de inscripción de votantes (PDF) disponible en español y 14 idiomas más."
 submit = "Descargue el formulario nacional de inscripción de votantes (PDF)"
@@ -54,4 +54,5 @@ bymail_deadline2 = "Inscripción por correo postal: a más tardar debe ser recib
 byonline_deadline = "Inscripción por internet: %online_deadline%"
 electionday = "El día de las elecciones es el martes 3 de noviembre de 2020"
 electionday_heading = "El día de la elección en %state_name%"
+heading = "Plazos de registro de votantes en %state_name%"
 inperson_deadline = "Inscripción en persona: %ip_deadline%"

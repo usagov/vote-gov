@@ -21,17 +21,6 @@
 		    }
 </script>
 
-
-<header>
-	<h2>
-		{{ replace $translation.register.online.heading4 "%state_name%" .Params.state_name }}
-	</h2>
-</header>
-
-<p>
-	{{  $translation.register.online.h4_p }}
-</p>
-
 <p>
 	{{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}
 	{{ $translation.register.by_mail.label }}
@@ -45,7 +34,10 @@
 	</a>
 </p>
 
+{{ partial "deadlines.html" . }}
+
 <form class="state-download" method="get" id="register">
+	<h2>{{ replace $translation.register.other_language_selection.heading "%state_name%" .Params.state_name }}</h2>
 	<p>{{ $translation.register.other_language_selection.label }}</p>
 	<label class="usa-sr-only" for="js-user-selection">
 		{{ $translation.register.other_language_selection.default }}
