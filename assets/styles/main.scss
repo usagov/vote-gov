@@ -288,6 +288,7 @@ label.max-width-input {
   color: white;
 }
 
+.english-img,
 .sp-img {
   max-width: 220px;
 }
@@ -318,18 +319,23 @@ label.max-width-input {
   text-decoration: none;
   color: $color-blue-dark;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.1em;
+  margin-left: 0;
+  
+  @include at-media('tablet') {
+    margin-left: 3rem;
+  }
 }
 
 .sp-eac-text {
   text-decoration: none;
   color: $color-blue-dark;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.1em;
   margin-left: 0;
 
   @include at-media('tablet') {
-    margin-left: 8rem;
+    margin-left: 11rem;
   }
 }
 
@@ -359,4 +365,8 @@ label.max-width-input {
   //   }
   // }
   
+}
+
+.policy {
+  margin-top: .3rem;
 }
