@@ -14,7 +14,7 @@ $color-blue: #2c7cc7;
 $color-blue-dark: #194068;
 $color-blue-light: #ecf2f8;
 $color-grey: #e1e2e4;
-$color-grey-dark: #9d9e9e;
+$color-grey-dark: #4b4b4d;
 $theme-color-base-family: #dcdee0;
 
 .bg-blue {
@@ -219,6 +219,10 @@ label.max-width-input {
       }
     }
   }
+
+  .main-heading{
+    font-size: 2.5em;
+  }
 }
 
 .main-heading {
@@ -239,6 +243,9 @@ label.max-width-input {
     color: #194068;
   }
 }
+.registered-resources li {
+  margin-bottom: 6px;
+}
 
 .voter-resources p {
   font-size: 1.3em;
@@ -247,13 +254,22 @@ label.max-width-input {
 
 .voter-info {
   color: #194068;
+  margin-bottom: 60px;
+  margin-top: 40px;
 
   a {
     color: #194068;
   }
 
   h2 {
-    color: #3785ca; //#2c7cc7;
+    color: #3785ca;
+    margin-bottom: 0.5em;
+    margin-top: 30px;
+  }
+
+  p{
+    margin-bottom: 1em;
+    margin-top: 0;
   }
 }
 
