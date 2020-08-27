@@ -4,7 +4,7 @@
 	<div class="grid-container">
 		<div class="grid-row grid-gap">
 			<div class="tablet:grid-col-4"></div>
-			<div class="tablet:grid-col-8">
+			<div class="tablet:grid-col-8 right-shift">
 				<form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
 					<h3 class="text-blue font-size-medium">{{ $translation.footer.subscribe_email }}</h3>
 
@@ -54,7 +54,7 @@
 					<a class="usa-footer__primary-link policy" href="{{ $translation.footer.privacy_policy_link_url }}">
 						{{ $translation.footer.privacy_policy }}</a>
 				</div>
-				<div class="tablet:grid-col-8">
+				<div class="tablet:grid-col-8 right-shift">
 					<a class="usa-footer__primary-link" href="{{ $translation.footer.twitter_link }}">
 						<img class="twitter-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.twitter_img }}" alt="twitter"/>{{ $translation.footer.twitter_text}}
 					</a>
