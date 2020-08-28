@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var sass = require('gulp-sass');
-
+var sourcemaps = require('gulp-sourcemaps');
 
 
 gulp.task('scss-lint', function (done) {
@@ -35,7 +35,8 @@ gulp.task('styles', gulp.series('scss-lint', function () {
     sassStream = sass({ outputStyle: 'compressed' });
   }
 
-  stream = stream.pipe(sassStream)
+  stream = stream.pipe(sourcemaps.init())
+    .pipe(sassStream)
     .on('error', function (error) {
       gutil.log(
         gutil.colors.yellow('styles'),
@@ -50,6 +51,7 @@ gulp.task('styles', gulp.series('scss-lint', function () {
 
       this.emit('end');
     })
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest('./static/assets/styles'));
 
   return stream;
