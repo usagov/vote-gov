@@ -314,6 +314,7 @@ $logo-width: 130px;
   font-weight: bold;
   font-size: 1.1em;
   margin-left: 0;
+  margin-right: 10px;
 
   @include at-media('tablet') {
     margin-left: 11rem;
