@@ -1,6 +1,9 @@
 // Imports -------------- //
 
 @import '../../node_modules/uswds/src/stylesheets/uswds';
+@import './component/404.scss';
+@import './component/usa-banner.scss';
+
 
 // Variables ------------ //
 
@@ -8,526 +11,328 @@ $font-light: 300;
 $font-medium: 400;
 $inner-box-width: 25rem;
 $inner-box-width-state : 35rem;
-$color-blue-dark: #003366;
-$color-blue-light: #0071bc;
+$color-blue: #2c7cc7;
+$color-blue-dark: #194068;
+$color-blue-light: #ecf2f8;
+$color-grey: #e1e2e4;
+$color-grey-dark: #4b4b4d;
 $theme-color-base-family: #dcdee0;
 
-// Styles --------------- //
-
-body {
-  background-color: color('base-lightest');
+.bg-blue {
+  background: $color-blue;
+  color: white;
 }
 
-h1 {
-  color: color('primary-darker');
-  margin-top: 2rem;
-  
-  @include at-media('tablet') {
-    margin-top: 1.5em;
-  }
+.bg-lightblue {
+  background: $color-blue-light;
+  color: $color-blue-dark;
 }
 
-.usa-display {
-  padding-top: 3rem;
-
-  @include at-media('tablet') {
-    font-size: 52px;
-    margin-top: 1.5em;
-  }
+.bg-grey {
+  background: $color-grey;
 }
 
-.usa-intro {
-  font-weight: $font-medium;
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+.bg-darkblue {
+  background-color: $color-blue-dark;
 }
 
-.reg-link {
-  font-size: 1.3rem;
+.text-blue {
+  color: $color-blue;
+}
+.text-grey {
+  color: $color-grey-dark;
 }
 
-.usa-header {
-  border-bottom: 1px solid color('base-lightest');
+.font-size-medium{
+  font-size: 1.3em;
 }
 
-@import './component/disclaimer';
-
-.site-logo {
-  
-  .logotext 
-  { @include u-margin-top (2);
-    @include u-margin-bottom (neg-2);
-    font-family: family('sans');
-    font-size: size('body', 'lg');
-    font-weight: 700;
-   }
-
-  a {
-    color: color('secondary-dark');
-    text-decoration: none;
-    background: url("../img/ballot_box-blue.svg") 0px 0 no-repeat;
-    padding: .5em 0em .5em 2em;
-  }
-}
-
-footer {
-  padding-top: .6rem;
-  background-color: $theme-color-base-family;
-  height: 6.2rem;
-
-  a {
-    @include h6();
-    color: color('base');
-
-    &:hover {
-      color: color('base');
-    }
-  }
-}
-
-.usa-media-link {
+.max-width-input {
   display: inline-block;
-  line-height: 0;
+  max-width: 25rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+label.max-width-input {
+  margin-bottom: 0;
 }
 
-.usa-footer__primary-link {
-  display: inline-block;
+.align-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
 
-  &:visited {
-    color: color('base');
+.right-shift{
+  /*
+  move the whole content on the right about 40 pixels to the right
+  (this is due to the spanish logo text being so close to the content on the right)
+  */
+  @include at-media('tablet') {
+    padding-left: 3rem !important;
   }
 }
 
-.usa-footer__logo {
-  float: right;
-
-  .spanish-img {
-    margin-top: 3px;
-    max-width: 6.5rem;
+.css-arrow{
+  position: relative;
+  &::after{
+    $arrow-width: 100px;
+    $arrow-height: 30px;
+    content: "";
+    position: absolute;
+    left: calc(50% - #{$arrow-width/2});
+    bottom: -$arrow-height;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: $arrow-height+1 $arrow-width/2 0 $arrow-width/2;
+    border-color: $color-blue transparent transparent transparent;
+    @include at-media('tablet') {
+      content:none;
+    }
   }
+}
 
-  .english-img {
-    margin-top: 2px;
-    max-width: 2.5rem;
-  }
 
-  .eac-logo-img {
-    margin-top: 2px;
-    max-width: 13rem;
-    margin-right: 0px;
-  } 
-  
-  .eac-logo-sp-img {
-    margin-top: 2px;
-    max-width: 13rem;
-  }  
+.usa-button {
+  background-color: $color-blue-dark;
+  color: white;
+}
+
+.translations {
+  flex-grow: 0;
+  text-align: right;
+  z-index: 1;
 
   @include at-media('tablet') {
-    text-align: center;
-  }
-
-
-  @media all and (max-width: 374px) and (min-width: 320px) {
-    .eac-logo-sp-img {  
-    max-width: 10rem;
-    }
-
-    .spanish-img{
-      max-width: 5rem;
-    }
-  }
-  
-  @media all and (max-width: 479px) and (min-width: 375px) {
-    .eac-logo-sp-img {
-      margin-right: 15px;
-      max-width: 12rem;
-    }
-  }
-
-  @media all and (max-width: 639px) and (min-width: 480px) {
-    .eac-logo-sp-img {
-      margin-right: 50px;
-    }
-  }
-
-  @media  all and (max-width: 479px)and (min-width: 376px) {
-    .eac-logo-img {
-      margin-right: 40px;
-    }
+    flex-grow: 1;
   }
 }
 
-.twitter-img {
-  margin: 0px 0px -10px 8px;  
-  float: left;
+.translation-link {
+  width: auto;
 }
 
-.page-inner {
-  max-width: 35rem;
+.usa-header .usa-alert--warning {
+  margin-top: 0;
 }
+.usa-alert{
+  padding:0;
+}
+.usa-alert--warning {
+  background-image: unset;
 
-// Home page ------------ //
-
-.page-vote {
-  .usa-header {
-    background-color: $color-blue-light;
-    border-bottom: 0;
+  .grid-container {
+    background-image: url(../img/alerts/warning.svg), linear-gradient(transparent, transparent);
+    background-position: 1rem 0.75rem;
+    background-repeat: no-repeat;
+    background-size: 2rem;
   }
-
-  section {
-    color: color('white');
-
-    a {
-      color: color('white');
-      text-decoration: underline;
-      line-height: 1.5;
-    }
-  }
-
-  .site-logo {
-    a {
-      color: color('white');
-      background: url("../img/ballot_box-blue.svg") 0px 0 no-repeat;
-      padding: .5em 0em .5em 2em;
-    }
-  }
-
-  h1,
-  label {
-    color: color('white');
-  }
-
-  // hack to remove margin and replace with padding for background color issues
-  .usa-display {
-    margin: 0;
-
-    @include at-media('tablet') {
-      padding-top: 1.5em;
-    }
-  }
-
-  .page-vote-main {
-    background-image: linear-gradient($color-blue-light 66%, $color-blue-dark 100%);
-    margin-top: -1px; /*remove the white line*/
-    height: 57rem;
-
-    @include at-media('tablet'){
-      height: 58rem;
-    }
-  }
-
-  .page-section {
-    max-width: 63.3rem;
-    margin-left: auto;
-    margin-right: auto;
-
-    // third level nesting
-    header {
-      @include at-media('tablet') {
-        text-align: center;
-      }
-    }
-  }
-
-  .page-inner {
-  min-height: 35rem;
-
-    @include at-media('tablet') {
-      min-height: 60rem;
-    }
-
-    // third level nesting
-    header {
-      @include at-media('tablet') {
-        text-align: center;
-      }
-    }
-  }
-
-  .registered {
-
-    .vote-heading {
-      font-size: 1.25rem;
-
-      @include at-media('mobile-lg') {
-        font-size: 2.5rem;
-      }
-    }
-  }
-
-  footer {
-    position: relative;
-    margin-top: 11rem;
-    background-color: $theme-color-base-family;
-  }
+}
+.usa-alert--warning .usa-alert__body{
+  padding-left: 2.5rem;
+  line-height: initial;
 }
 
 .form-register {
-  margin: 0 auto;
-
-  .usa-select {
-    margin-bottom: 1.5rem;
-    -webkit-appearance: none;
-  }
-
-  @include at-media('tablet') {
-    max-width: $inner-box-width;
-  }
-
-  [type="submit"] {
-    width: 100%;
-  }
-}
-
-.state-download {
-  margin: 0;
-
-  .usa-select {
-    margin-bottom: 1.5rem;
-    -webkit-appearance: none;
-  }
-
-  @include at-media('tablet') {
-    max-width: 30rem;
-  }
-  
-  [type="submit"] {
-    width: 100%;
-  }
-}
-
-.form-signup {
-  margin: 0 auto;
-
-  @include at-media('mobile') {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  h3 {
-    margin-top: 2rem;
-    font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
-  }
-
-  @include at-media('tablet') {
-    max-width: $inner-box-width;
-  }
-
-  [type="submit"] {
-    width: 100%;
-  }
-}
-
-#emailsub{
-  color: color('black');
-}
-
-#email-2 {
-  margin-top: .5rem;
-  margin-bottom: 1rem;
-  display: block;
-  width: 100%;
-}
-
-.footer-bottom-sp {
-  padding: 2rem 2rem 6rem 2rem;
-  margin-top: 30px;
-  text-align: center;
-
-  @include at-media('tablet') {
-    text-align: left;
-    padding: 2rem;
-  }
-}
-
-.footer-top {
-  padding: 3rem 0rem 3rem 0rem;
-  margin-top: 0;
-  background-color: $theme-color-base-family;
-}
-
-.footer-bottom {
-  padding: 2rem 2rem 6rem 2rem;
-  margin-top: 30px;
-  text-align: center;
-
-  @include at-media('mobile-lg') {
-    text-align: left;
-    padding: 2rem;
-  }
-}
-
-.voter-resources {
-  margin: 0 auto;
-
-  @include at-media('tablet') {
-    max-width: $inner-box-width;
-  }
-}
-
-.footer-graphic {
-  text-align: center;
-
-  img {
-    bottom: 44px;
-    bottom: 70px;
-    left: 0;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    width: 10.9375rem;
-    width: 6rem;
-
-    @include at-media('tablet') {
-      bottom: 44px;
-      width: 10.9375rem;
-    }
-  }
-}
-
-
-// Inner pages ---------- //
-
-.main-content {
-
-  @include at-media('tablet') {
-    min-height: 35rem;
-  }
-}
-
-.chevron-left {
-  height: 1.4rem;
-  fill: color('primary');
-  width: 1.4rem;
-}
-
-.section-back {
-  padding-bottom: 6rem;
-
-  a {
-    display: block;
-    position: relative;
-    width: 9rem;
-
-    &:visited {
-      color: color('primary');
-    }
-  }
-
-  span {
-    position: absolute;
-    padding-left: 5px;
-    top: -1px;
-  }
-}
-
-a:hover {
-  > .chevron-left {
-    fill: color('primary-darker');
-  }
-
-  > span {
-    color: color('primary-darker');
-  }
-}
-
-.section-back-inner {
-  /*border-top: 1px solid color('base-lighter');*/
-  padding-top: 2rem;
-}
-
-// Register by mail --------- //
-
-.mail-steps {
   margin-bottom: 2rem;
-}
-
-.mail-download {
-
-  @include at-media('tablet') {
-    padding-bottom: 8.3rem;
+  h2{
+    margin: 0;
   }
 }
+$logo-width: 130px;
+.site-logo {
+  color: white;
+  text-decoration: none;
+  text-align: center;
 
-.mail-download-list {
-  a {
-    text-decoration: underline;
-  }
-}
-
-.usa-graphic-list {
   img {
-    float: left;
-    margin-right: 2rem;
-
-    @include at-media('tablet') {
-      float: none;
-      margin-right: 0;
-    }
+    width: $logo-width;
+    max-width: unset;
+    margin: auto;
+    display: block;
   }
 
-  p {
-    margin-top: 0;
-
-    @include at-media('tablet') {
-      margin-top: 1em;
-    }
+  h1 {
+    font-size: 1.6em;
+    margin-top: 20px;
   }
-}
-
-.usa-graphic-list__heading {
-  clear: none;
 
   @include at-media('tablet') {
-    clear: both;
-  }
-}
-
-.covid-alert {
-  color: #000;
-  margin-left: auto;
-  margin-right: auto;
-
-@include at-media('tablet') {
-  max-width: $inner-box-width;
-  }
-}
-
-.covid-alert-state {
-  color: #000;
-  margin-left: auto;
-  margin-right: auto;
-
-@include at-media('tablet') {
-  max-width: $inner-box-width-state;
-  }
-}
-
-// 404 page ------------ //
-.page-vote-404 {
-
-  .page-inner {
-    margin-top: 8rem;
-    margin-bottom: 8rem;
-  }
-
-  // these are the language-specific columns
-  [lang] {
-    padding-left: 2rem;
-    padding-right: 2rem;
-
-    @include at-media('tablet') {
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
-
-    > .usa-label {
-      text-transform: none;
+    img {
+      position: absolute;
+      bottom: $logo-width * -0.32 + 1;
+      right: calc(50% - #{$logo-width/2});
+      margin-bottom: 0;
     }
 
     h1 {
-      @include h2();
-      margin-top: 2rem;
+      margin-bottom: 140px;
+      margin-top: 40px;
     }
   }
+}
+
+.page-vote {
+  .site-logo {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    img {
+      width: $logo-width;
+    }
+
+    h1 {
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+
+    @include at-media('tablet') {
+      $logo-width: 200px;
+      img {
+        width: $logo-width;
+        bottom: $logo-width * -0.32 + 1;
+        right: calc(50% - #{$logo-width/2});
+      }
+
+      h1 {
+        margin-bottom: 200px;
+        margin-top: 120px;
+      }
+    }
+  }
+
+  .main-heading{
+    font-size: 2em;
+  }
+}
+
+.main-heading {
+  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+}
+
+.content-heading {
+  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+  font-weight: normal;
+}
+
+.registered {
+  color: #194068;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  a {
+    color: #194068;
+  }
+}
+.registered-resources li {
+  margin-bottom: 6px;
+}
+
+.voter-resources p {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.voter-info {
+  color: #194068;
+  margin-bottom: 60px;
+  margin-top: 40px;
+
+  a {
+    color: #194068;
+  }
+
+  h2 {
+    color: #3785ca;
+    margin-bottom: 0.5em;
+    margin-top: 30px;
+  }
+
+  p{
+    margin-bottom: 1em;
+    margin-top: 0;
+  }
+}
+
+.usa-footer__primary-link {
+  padding-left: 0;
+  padding-right: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  .twitter-img {
+    vertical-align: middle;
+    padding-right: 20px;
+    width: 50px;
+    height: 30px;
+  }
+}
+
+.usa-footer__primary-link :visited {
+  color: white;
+}
+
+.english-img,
+.sp-img {
+  max-width: 220px;
+}
+
+.english-img,
+.sp-img {
+  padding-bottom: 1rem;
+  margin-top: 0;
+
+  @include at-media('tablet') {
+    margin-top: 1rem;
+  }
+}
+
+.eac-logo-img {
+  vertical-align: middle;
+  max-width: 150px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  @include at-media('tablet') {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+.eac-text {
+  text-decoration: none;
+  color: $color-blue-dark;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-left: 0;
+  margin-right: 10px;
+  
+  @include at-media('tablet') {
+    margin-left: 3rem;
+  }
+}
+
+.sp-eac-text {
+  text-decoration: none;
+  color: $color-blue-dark;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-left: 0;
+  margin-right: 10px;
+
+  @include at-media('tablet') {
+    margin-left: 11rem;
+  }
+}
+
+.footer-logos {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.policy {
+  margin-top: .3rem;
 }

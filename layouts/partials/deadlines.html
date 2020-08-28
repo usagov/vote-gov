@@ -1,0 +1,44 @@
+{{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+
+
+{{ if ne .Params.registration_type "not-needed" }}
+	<header>
+		<h2>
+			{{ replace $translation.register.dates.heading "%state_name%" .Params.state_name }}
+		</h2>
+	</header>
+{{end}}
+
+{{ if .Params.online_deadline }}
+	<p>
+		{{ replace $translation.register.dates.byonline_deadline "%online_deadline%" .Params.online_deadline }}
+	</p>
+{{end}}
+
+{{ if .Params.mail_deadline }}
+	<p>
+		{{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}
+	</p>
+{{end}}
+
+{{ if .Params.mail_deadline2 }}
+  <p>
+    {{ replace $translation.register.dates.bymail_deadline2 "%mail_deadline2%" .Params.mail_deadline2 }}
+  </p>
+{{end}}
+
+{{ if .Params.ip_deadline }}
+	<p>
+		{{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
+	</p>
+{{end}}
+
+<header>
+	<h2>
+		{{ replace $translation.register.dates.electionday_heading "%state_name%" .Params.state_name }}
+	</h2>
+</header>
+
+<p>
+	{{ replace $translation.register.dates.electionday "%online_deadline%" .Params.state_name }}
+</p>

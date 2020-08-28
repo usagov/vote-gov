@@ -1,45 +1,64 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
-<div class="grid-conrtainer footer-top">
-  <form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
-    <h3>{{ $translation.footer.subscribe_email }}</h3>
 
-        <label class="" for="email-2" id="emailsub">{{ $translation.footer.your_email_address }}</label>
-        <input id="email-2" name="email" type="email">
+<div class="bg-white">
+	<div class="grid-container">
+		<div class="grid-row grid-gap">
+			<div class="tablet:grid-col-4"></div>
+			<div class="tablet:grid-col-8 right-shift">
+				<form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
+					<h3 class="text-blue font-size-medium">{{ $translation.footer.subscribe_email }}</h3>
 
-        <button class="usa-button usa-button--secondary" id="js-user-submit" type="submit">
-          {{ $translation.footer.sign_up }}
-        </button>
-       </form>
+					<label class="max-width-input text-grey" for="email-2" id="emailsub">{{ $translation.footer.your_email_address }}</label>
+					<input id="email-2" name="email" type="email" class="usa-input max-width-input">
+
+					<button class="usa-button max-width-input" id="js-user-submit" type="submit">
+						{{ $translation.footer.sign_up }}
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
 </div>
 
-{{ if eq $.Site.Params.language "spanish" }}
-  <div class="footer-bottom-sp">
-  {{ else }}
-  <div class="footer-bottom">
-  {{ end }}
-  <a class="usa-footer__primary-link" href="{{ $translation.footer.privacy_policy_link_url }}">
-    {{ $translation.footer.privacy_policy }}</a>
-    <a class="usa-media-link" href="{{ $translation.footer.twitter_link }}">
-      <img class="twitter-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.twitter_img }}" alt="twitter">
-    </a>
-  
-  <a class="usa-footer__logo usa-media-link" href="{{ $translation.footer.eac_link }}">
-     
-    {{ if eq $.Site.Params.language "spanish" }}
-      <img class="eac-logo-sp-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.eac_img }}" alt="EAC.gov logo">
-    {{ else }}
-    <img class="eac-logo-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.eac_img }}" alt="EAC.gov logo">
-    {{ end }}
-   </a>
+<div class="bg-grey">
+	<div class="grid-container footer-logos">
+		<div class="grid-row grid-gap">
+			<div class="tablet:grid-col-1">
+				<a href="{{ $translation.footer.usagov_link }}">
+					{{ if eq $.Site.Params.language "spanish" }}
+						<img class="sp-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}" alt="USA.gov en español logo">
+					{{ else }}
+						<img class="english-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}" alt="USA.gov logo">
+					{{ end }}
+				</a>
+			</div>
+			<div class="tablet:grid-col-11">
+				{{ if eq $.Site.Params.language "spanish" }}
+					<span class="sp-eac-text">{{ $translation.footer.eac_text }}</span>
+					<a href="{{ $translation.footer.eac_link }}">
+					{{ else }}
+						<span class="eac-text">{{ $translation.footer.eac_text }}</span>
+						<a href="{{ $translation.footer.eac_link }}">
+						{{ end }}
+						<img class="eac-logo-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.eac_img }}" alt="EAC.gov logo">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
-   <a class="usa-footer__logo usa-media-link" href="{{ $translation.footer.usagov_link }}">
-    {{ if eq $.Site.Params.language "spanish" }}
-      <img class="spanish-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}" alt="USA.gov en español logo">
-    {{ else }}
-      <img class="english-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}" alt="USA.gov logo">
-    {{ end }}
-  </a> 
-
-</div>
-
-
+	<div class="bg-blue">
+		<div class="grid-container">
+			<div class="grid-row grid-gap">
+				<div class="tablet:grid-col-4">
+					<a class="usa-footer__primary-link policy" href="{{ $translation.footer.privacy_policy_link_url }}">
+						{{ $translation.footer.privacy_policy }}</a>
+				</div>
+				<div class="tablet:grid-col-8 right-shift">
+					<a class="usa-footer__primary-link" href="{{ $translation.footer.twitter_link }}">
+						<img class="twitter-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.twitter_img }}" alt="twitter"/>{{ $translation.footer.twitter_text}}
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
