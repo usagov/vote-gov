@@ -258,10 +258,13 @@ $logo-width: 130px;
   padding-left: 0;
   padding-right: 0;
   color: white;
-
+  display: flex;
+  align-items: center;
   .twitter-img {
     vertical-align: middle;
     padding-right: 20px;
+    width: 50px;
+    height: 30px;
   }
 }
 
