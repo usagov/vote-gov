@@ -148,7 +148,7 @@
     "spanish": {
       "registration_link": "https://voterregistration.ct.gov/OLVR/",
       "more_info_link": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet",
-      "registration_link_spanish_selection": "true",
+      "registration_link_english_only": "true",
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "martes 27 de octubre 2020",
@@ -221,14 +221,14 @@
     "state_abbreviation": "ga",
     "registration_type": "online",
     "english": {
-      "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do",
+      "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
       "more_info_link": "https://sos.ga.gov/index.php/Elections/register_to_vote",
       "ip_deadline": "Monday, October 5, 2020",
       "online_deadline": "Monday, October 5, 2020",
       "mail_deadline": "Monday, October 5, 2020"
     },
     "spanish": {
-      "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do",
+      "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
       "registration_link_english_only": "true",
       "more_info_link": "https://sos.ga.gov/index.php/Elections/register_to_vote",
       "more_info_link_english_only": "true",
@@ -402,14 +402,14 @@
     "state_abbreviation": "la",
     "registration_type": "online",
     "english": {
-      "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
+      "registration_link": "https://www.sos.la.gov/ElectionsAndVoting/Pages/OnlineVoterRegistration.aspx",
       "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
       "ip_deadline": "Sunday, October 4, 2020",
       "online_deadline": "Wednesday, October 14, 2020",
       "mail_deadline": "Sunday, October 4, 2020"
     },
     "spanish": {
-      "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
+      "registration_link": "https://www.sos.la.gov/ElectionsAndVoting/Pages/OnlineVoterRegistration.aspx",
       "registration_link_english_only": "true",
       "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
       "more_info_link_english_only": "true",
