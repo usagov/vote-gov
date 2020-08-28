@@ -10,7 +10,7 @@ select_spanish = "- seleccione la opción para español"
 state_heading = "Inscríbase para votar en %state_name%"
 
 [by_mail]
-intro = "La inscripción por Internet no está disponible actualmente. Vea otras formas de inscribirse para votar en "
+intro = "La inscripción por Internet no está disponible actualmente. Vea otras formas de inscribirse para votar en"
 link = "el sitio web electoral de %state_name%"
 
 [other_language_selection]
@@ -28,11 +28,11 @@ intro = "Este estado no requiere inscripción para votar. Vea más información 
 link = "el sitio web electoral de %state_name%"
 
 [online]
-answer1 = "Empiece su inscripción por internet en el "
+answer1 = "Empiece su inscripción por internet en el"
 answer1_link = "sitio web electoral de %state_name%"
 h2_question1 = "¿Cómo me puedo inscribir para votar en %state_name%?"
 
-answer2 = " También puede inscribirse por correo postal o en persona. Averigüe cómo hacerlo en el "
+answer2 = " También puede inscribirse por correo postal o en persona. Averigüe cómo hacerlo en el"
 answer2_link = "sitio web electoral de %state_name%"
 h2_question2 = "¿De qué otras formas me puedo inscribir para votar en %state_name%?"
 

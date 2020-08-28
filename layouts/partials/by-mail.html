@@ -15,7 +15,7 @@
 				        "name": "{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}",
 				        "acceptedAnswer": {
 				          "@type": "Answer",
-				          "text": "{{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}{{ $translation.register.by_mail.label }}<a href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.by_mail.link "%state_name%" .Params.state_name }}</a>"
+				          "text": "{{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}{{ $translation.register.by_mail.label }} <a href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.by_mail.link "%state_name%" .Params.state_name }}</a>"
 								   }
 						      		},{	
 								  "@type": "Question",
