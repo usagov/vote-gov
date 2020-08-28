@@ -300,7 +300,7 @@
       "more_info_link": "https://www.elections.il.gov/Default.aspx",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Sunday, October 18, 2020",
-      "mail_deadline": "Tuesday, October 6, 2020"
+      "mail_deadline2": "Tuesday, October 6, 2020"
     },
     "spanish": {
       "registration_link": "https://spanish-ova.elections.il.gov/",
@@ -308,7 +308,7 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "domingo 18 de octubre 2020",
-      "mail_deadline": "martes 6 de octubre 2020"
+      "mail_deadline2": "martes 6 de octubre 2020"
     }
   },
   "Indiana": {
@@ -469,7 +469,7 @@
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://www.sec.state.ma.us/ele/eleifv/howreg.htm",
       "more_info_link_english_only": "true",
-      "ip_deadline": "sábado 19 de octubre 2020",
+      "ip_deadline": "sábado 24 de octubre 2020",
       "online_deadline": "sábado 24 de octubre 2020",
       "mail_deadline": "sábado 24 de octubre 2020"
     }
@@ -913,8 +913,8 @@
     "spanish": {
       "more_info_link": "https://www.votetexas.gov/es/registrese-para-votar/index.html",
       "crazyegg": "true",
-      "ip_deadline": "lunes, 5 de octubre 2020",
-      "mail_deadline": "lunes, 5 de octubre 2020"
+      "ip_deadline": "lunes 5 de octubre 2020",
+      "mail_deadline": "lunes 5 de octubre 2020"
     }
   },
   "Utah": {
