@@ -34,7 +34,7 @@ h2_question1 = "¿Cómo me puedo inscribir para votar en %state_name%?"
 
 answer2 = " También puede inscribirse por correo postal o en persona. Averigüe cómo hacerlo en el"
 answer2_link = "sitio web electoral de %state_name%"
-h2_question2 = "¿De qué otras formas me puedo inscribir para votar en %state_name%?"
+
 
 election_day = "La elección presidencial es el martes "
 in-person_dl = "Inscripción en persona: "
