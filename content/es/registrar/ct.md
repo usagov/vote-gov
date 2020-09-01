@@ -1,5 +1,6 @@
 +++
 
+crazyegg = "true"
 state_name = "Connecticut"
 state_abbreviation = "ct"
 registration_type = "online"

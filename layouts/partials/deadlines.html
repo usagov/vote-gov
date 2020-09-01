@@ -8,31 +8,31 @@
 		</h2>
 	</header>
 {{end}}
+<ul class="registered-resources">
+	{{ if .Params.online_deadline }}
+		<li>
+			{{ replace $translation.register.dates.byonline_deadline "%online_deadline%" .Params.online_deadline }}
+		</li>
+	{{end}}
 
-{{ if .Params.online_deadline }}
-	<p>
-		{{ replace $translation.register.dates.byonline_deadline "%online_deadline%" .Params.online_deadline }}
-	</p>
-{{end}}
+	{{ if .Params.mail_deadline }}
+		<li>
+			{{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}
+		</li>
+	{{end}}
 
-{{ if .Params.mail_deadline }}
-	<p>
-		{{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}
-	</p>
-{{end}}
+	{{ if .Params.mail_deadline2 }}
+		<li>
+			{{ replace $translation.register.dates.bymail_deadline2 "%mail_deadline2%" .Params.mail_deadline2 }}
+		</li>
+	{{end}}
 
-{{ if .Params.mail_deadline2 }}
-  <p>
-    {{ replace $translation.register.dates.bymail_deadline2 "%mail_deadline2%" .Params.mail_deadline2 }}
-  </p>
-{{end}}
-
-{{ if .Params.ip_deadline }}
-	<p>
-		{{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
-	</p>
-{{end}}
-
+	{{ if .Params.ip_deadline }}
+		<li>
+			{{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}
+		</li>
+	{{end}}
+</ul>
 <header>
 	<h2>
 		{{ replace $translation.register.dates.electionday_heading "%state_name%" .Params.state_name }}
@@ -41,4 +41,4 @@
 
 <p>
 	{{ replace $translation.register.dates.electionday "%online_deadline%" .Params.state_name }}
-</p>
+</p></li>
