@@ -56,3 +56,4 @@ electionday = "El día de la elección general es el martes 3 de noviembre de 20
 electionday_heading = "Día de la elección general en %state_name%"
 heading = "Plazos de registro de votantes en %state_name%"
 inperson_deadline = "Inscripción en persona: %ip_deadline%"
+last_updated = "Última actualización: "
