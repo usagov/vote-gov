@@ -2,7 +2,7 @@ ignoreFiles = []
 publishdir = "tmp/public"
 title = "Voter Registration"
 verbose = "true"
-
+enableGitInfo = "true"
 DefaultContentLanguage = "en"
 publishDir = "tmp/public"
 

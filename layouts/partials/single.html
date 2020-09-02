@@ -33,7 +33,17 @@
             <div class="tablet:grid-col-8 right-shift">
               <section class="voter-info">
                 {{ .Render ( print "types/" .Params.registration_type ) }}
-                
+                <time class="updated-date" datetime="{{ .Lastmod }}">
+                  {{ $translation.register.dates.last_updated }}
+
+                  {{/* TODO: Create a Date template if we use dates in more places */}}
+                  {{ if eq $.Site.Params.lang "en" }}
+                    {{ .Lastmod.Format "January 2, 2006" }}
+                  {{ else }}
+                    {{ .Lastmod.Day }} de {{ index $translation.months (printf "%d" .Lastmod.Month) }} de {{ .Lastmod.Year }}
+                  {{ end }}
+
+                </time>
               </section>
             </div>
           </div>
