@@ -1,4 +1,3 @@
-
 // Imports -------------- //
 
 @import '../../node_modules/uswds/src/stylesheets/uswds';
@@ -152,6 +151,7 @@ label.max-width-input {
   }
 }
 $logo-width: 130px;
+
 .site-logo {
   color: white;
   text-decoration: none;
@@ -164,6 +164,13 @@ $logo-width: 130px;
     display: block;
   }
 
+  @include at-media('mobile') {
+    img {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  } 
+
   h1 {
     font-size: 1.6em;
     margin-top: 20px;
@@ -175,6 +182,8 @@ $logo-width: 130px;
       bottom: $logo-width * -0.32 + 1;
       right: calc(50% - #{$logo-width/2});
       margin-bottom: 0;
+      padding-top: 0px;
+      padding-bottom: 0px;
     }
 
     h1 {
@@ -182,13 +191,6 @@ $logo-width: 130px;
       margin-top: 40px;
     }
   }
-
-   @include at-media('mobile') {
-    img {
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-  } 
 }
 
 .page-vote {
@@ -212,8 +214,6 @@ $logo-width: 130px;
         width: $logo-width;
         bottom: $logo-width * -0.32 + 1;
         right: calc(50% - #{$logo-width/2});
-        padding-top: 0px;
-        padding-bottom: 0px;
       }
 
       h1 {
@@ -273,11 +273,6 @@ $logo-width: 130px;
   p{
     margin-bottom: 1em;
     margin-top: 0;
-  }
-  .updated-date{
-    float: right;
-    margin-top: 40px;
-    margin-bottom: 20px;
   }
 }
 
