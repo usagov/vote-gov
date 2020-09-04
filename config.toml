@@ -1,10 +1,10 @@
+DefaultContentLanguage = "en"
+enableGitInfo = "true"
 ignoreFiles = []
+publishDir = "tmp/public"
 publishdir = "tmp/public"
 title = "Voter Registration"
 verbose = "true"
-enableGitInfo = "true"
-DefaultContentLanguage = "en"
-publishDir = "tmp/public"
 
 [languages]
 [languages.en]
@@ -27,7 +27,7 @@ title = "Inscripción para votar"
 verbose = "true"
 
 [languages.es.params]
-Owner = "Vote.gov"
+Owner = "Vote.gov en Español"
 Referrer_Short_Code = "voteusa_es"
 lang = "es"
 language = "spanish"
