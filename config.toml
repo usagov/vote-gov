@@ -1,5 +1,4 @@
 title = "Voter Registration"
-baseURL = "https://vote.gov/"
 publishdir = "tmp/public"
 verbose = "true"
 ignoreFiles = [

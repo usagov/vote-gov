@@ -55,7 +55,6 @@ function website (done){
       '--watch',
       '--buildDrafts',
       '--config=' + setConfig,
-      '--baseURL=' + setURL,
     ];
 
     var hugo = spawn('hugo', hugo_args);
@@ -104,7 +103,6 @@ function buildWebsite (done) {
       '--watch',
       '--buildDrafts',
       '--config=' + setConfig,
-      '--baseURL=' + setURL,
     ];
 
 
