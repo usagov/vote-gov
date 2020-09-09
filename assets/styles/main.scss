@@ -172,7 +172,8 @@ $logo-width: 130px;
     }
   } 
 
-  h1 {
+  .logo-text {
+    font-weight: bold;
     font-size: 1.6em;
     margin-top: 20px;
   }
@@ -187,7 +188,7 @@ $logo-width: 130px;
       padding-bottom: 0px;
     }
 
-    h1 {
+    .logo-text {
       margin-bottom: 140px;
       margin-top: 40px;
     }
@@ -204,7 +205,7 @@ $logo-width: 130px;
       width: $logo-width;
     }
 
-    h1 {
+    .logo-text {
       margin-top: 20px;
       margin-bottom: 15px;
     }
@@ -217,7 +218,7 @@ $logo-width: 130px;
         right: calc(50% - #{$logo-width/2});
       }
 
-      h1 {
+      .logo-text {
         margin-bottom: 200px;
         margin-top: 120px;
       }
