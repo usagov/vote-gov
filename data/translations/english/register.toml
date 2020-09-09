@@ -24,12 +24,12 @@ link = "%state_name%s election website"
 
 [online]
 
-answer1 = "Start your online registration on"
-answer1_link = "%state_name%’s election website"
+answer1 = "Start your"
+answer1_link = " online registration on %state_name%’s election website"
 h2_question1 = "How do I register to vote online in %state_name%?"
 
-answer2 = "You can also register to vote by mail or in person. Find out how on"
-answer2_link = "%state_name%’s election website"
+answer2 = "You can also"
+answer2_link = " register to vote by mail or in person. Find out how on%state_name%’s election website"
 h2_question2 = "What are the other ways to register to vote in %state_name%?"
 
 [alert_state]
