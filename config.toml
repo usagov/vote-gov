@@ -1,7 +1,6 @@
 title = "Voter Registration"
 publishdir = "tmp/public"
 verbose = "true"
-domain = "http://localhost:1313"
 ignoreFiles = [
 
 ]
@@ -23,7 +22,6 @@ publishDir = "tmp/public"
   language = "english"
   root_path = ""
   register_path = "register"
-  domain = "http://localhost:1313"
 
   [languages.es]
   title = "Inscripción para votar"
@@ -38,4 +36,3 @@ publishDir = "tmp/public"
   language = "spanish"
   root_path = "es/"
   register_path = "registrar"
-  domain = "http://localhost:1313"
