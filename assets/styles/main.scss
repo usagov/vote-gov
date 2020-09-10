@@ -12,7 +12,8 @@ $font-medium: 400;
 $inner-box-width: 25rem;
 $inner-box-width-state : 35rem;
 $color-blue: #2c7cc7;
-$color-blue-dark: #194068;
+$color-blue-headings: #0071BC;
+$color-blue-dark: #11385B;
 $color-blue-light: #ecf2f8;
 $color-grey: #e1e2e4;
 $color-grey-dark: #4b4b4d;
@@ -46,7 +47,7 @@ p, label#emailsub, .registered-resources li {
 }
 
 .text-blue {
-  color: $color-blue;
+  color: $color-blue-headings;
 }
 .text-grey {
   color: $color-grey-dark;
@@ -240,7 +241,7 @@ $logo-width: 130px;
 }
 
 .registered {
-  color: #194068;
+  color: $color-blue-dark;
   margin-top: 60px;
   margin-bottom: 60px;
 
@@ -248,7 +249,7 @@ $logo-width: 130px;
     font-size: 2em;
   }
   a {
-    color: #194068;
+    color: $color-blue-dark;
   }
 }
 .registered-resources li {
@@ -261,16 +262,16 @@ $logo-width: 130px;
 }
 
 .voter-info {
-  color: #194068;
+  color: $color-blue-dark;
   margin-bottom: 60px;
   margin-top: 40px;
 
   a {
-    color: #194068;
+    color: $color-blue-dark;
   }
 
   h2 {
-    color: #3785ca;
+    color: $color-blue-headings;
     margin-bottom: 0.5em;
     margin-top: 30px;
   }
@@ -285,6 +286,7 @@ $logo-width: 130px;
   padding-left: 0;
   padding-right: 0;
   color: white;
+  font-size: 14pt;
   display: flex;
   align-items: center;
   .twitter-img {
