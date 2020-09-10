@@ -1,150 +1,162 @@
 {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
 {{ partial "head.html" . }}
-  <body class="page-vote">
-    
-    
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDRBDKS"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->    
-    
-    {{ partial "header.html" . }}
-    <div class="page-vote-main" id="main" role="main">
 
-      
+<body class="page-vote">
 
-<div class="bg-blue css-arrow">
-  <div class="grid-container">
-    <div class="grid-row grid-gap">
-      <div class="tablet:grid-col-4">
-        <a class="site-logo" href="{{ .Site.BaseURL }}/{{ $translation.root_path }}" accesskey="1" title="Home" aria-label="Home">
-          <div class="logo-text">{{ $translation.homepage.site_name }}</div>
-          <img id="SiteLogo" src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg" alt="Web design standards">
-        </a>
-      </div>
-      <div id="skip-target" class="tablet:grid-col-8 right-shift">
-        <section class="register align-bottom">
-          <header>
-            <h1 class="main-heading">{{ $translation.homepage.header }}</h1>
-          </header>
 
-          <form class="form-register" method="get" id="register">
-            <h2>{{ $translation.homepage.state_selection.heading }}</h2>
-            <label class="usa-sr-only" for="js-user-selection">
-              {{ $translation.homepage.state_selection.default }}
-            </label>
-            <select class="usa-select max-width-input" name="userselection" id="js-user-selection">
-              <option value="default">
-                {{ $translation.homepage.state_selection.default }}
-              </option>
-            {{ range where (.Data.Pages.ByParam "state_name") "Section" .Site.Params.register_path }}
-              {{ if eq $.Site.Params.language "spanish" }}
-                <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
-              {{ else }}
-                <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
-              {{ end }}
-            {{ end }}
-            </select>
-            <button class="usa-button max-width-input" id="js-user-submit" type="submit">
-              {{ $translation.homepage.state_selection.submit }}
-            </button>
-          </form>
-        </section>
-      </div>
-    </div>
-  </div>
-</div>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDRBDKS" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-<div class="bg-lightblue">
-  <div class="grid-container">
-    <div class="grid-row grid-gap">
-      <div class="tablet:grid-col-4">
+  {{ partial "header.html" . }}
+  <div class="page-vote-main" id="main" role="main">
 
-      </div>
-      <div class="tablet:grid-col-8 right-shift">
-        <section class="page-section registered" id="already-registered">
-        <header>
-          <h2 class="content-heading">{{ $translation.homepage.registered.header }}</h2>
-        </header>
-        <div class="voter-resources">
-          <h3>
-            {{ $translation.homepage.registered.resources_intro }}
-            <a href="{{ $translation.homepage.registered.resources_link_url }}">
-              {{ $translation.homepage.registered.resources_link_text -}}
-            </a> {{ $translation.homepage.registered.resources_on }}:
-          </h3>
-          <ul class="registered-resources">
-            <li><a href="{{ $translation.homepage.registered_links.electionday_url }}">{{ $translation.homepage.registered_links.electionday }}</a></li>
-            <li><a href="{{ $translation.homepage.registered_links.voterid_url }}">{{ $translation.homepage.registered_links.voterid }}</a></li>
-            <li><a href="{{ $translation.homepage.registered_links.process_url }}">{{ $translation.homepage.registered_links.process }}</a></li>
-          </ul>
+
+
+    <div class="bg-blue css-arrow">
+      <div class="grid-container">
+        <div class="grid-row grid-gap">
+          <div class="tablet:grid-col-4">
+            <a class="site-logo" href="{{ .Site.BaseURL }}/{{ $translation.root_path }}" accesskey="1" title="Home"
+              aria-label="Home">
+              <div class="logo-text">{{ $translation.homepage.site_name }}</div>
+              <img id="SiteLogo" src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg" alt="">
+            </a>
+          </div>
+          <div id="skip-target" class="tablet:grid-col-8 right-shift">
+            <section class="register align-bottom">
+              <header>
+                <h1 class="main-heading">{{ $translation.homepage.header }}</h1>
+              </header>
+
+              <form class="form-register" method="get" id="register">
+                <h2>{{ $translation.homepage.state_selection.heading }}</h2>
+                <label class="usa-sr-only" for="js-user-selection">
+                  {{ $translation.homepage.state_selection.default }}
+                </label>
+                <select class="usa-select max-width-input" name="userselection" id="js-user-selection">
+                  <option value="default">
+                    {{ $translation.homepage.state_selection.default }}
+                  </option>
+                  {{ range where (.Data.Pages.ByParam "state_name") "Section" .Site.Params.register_path }}
+                  {{ if eq $.Site.Params.language "spanish" }}
+                  <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
+                  {{ else }}
+                  <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
+                  {{ end }}
+                  {{ end }}
+                </select>
+                <button class="usa-button max-width-input" id="js-user-submit" type="submit">
+                  {{ $translation.homepage.state_selection.submit }}
+                </button>
+              </form>
+            </section>
+          </div>
         </div>
-      </section>
       </div>
     </div>
+
+    <div class="bg-lightblue">
+      <div class="grid-container">
+        <div class="grid-row grid-gap">
+          <div class="tablet:grid-col-4">
+
+          </div>
+          <div class="tablet:grid-col-8 right-shift">
+            <section class="page-section registered" id="already-registered">
+              <header>
+                <h2 class="content-heading">{{ $translation.homepage.registered.header }}</h2>
+              </header>
+              <div class="voter-resources">
+                <h3>
+                  {{ $translation.homepage.registered.resources_intro }}
+                  <a href="{{ $translation.homepage.registered.resources_link_url }}">
+                    {{ $translation.homepage.registered.resources_link_text -}}
+                  </a> {{ $translation.homepage.registered.resources_on }}:
+                </h3>
+                <ul class="registered-resources">
+                  <li><a
+                      href="{{ $translation.homepage.registered_links.electionday_url }}">{{ $translation.homepage.registered_links.electionday }}</a>
+                  </li>
+                  <li><a
+                      href="{{ $translation.homepage.registered_links.voterid_url }}">{{ $translation.homepage.registered_links.voterid }}</a>
+                  </li>
+                  <li><a
+                      href="{{ $translation.homepage.registered_links.process_url }}">{{ $translation.homepage.registered_links.process }}</a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="grid-container" id="main-content">
+
+
+    </div>
+
+    <!-- Footer BEGIN -->
+    <footer>
+
+      {{ partial "footer.html" . }}
+    </footer>
+    <!-- Footer END -->
+
   </div>
-</div>
 
-
-
-      <div class="grid-container" id="main-content">
-
-
-      </div>
-
-      <!-- Footer BEGIN -->
-      <footer>
-
-        {{ partial "footer.html" . }}
-      </footer>
-      <!-- Footer END -->
-
-    </div>
-
-    <script type="text/javascript">
-   document.getElementById('register').onsubmit = function(ev) {
-     var stateSelected = document.getElementById('js-user-selection').value;
-     if (stateSelected === 'default') {
-       return false;
-     }
-     else {
-       ev.preventDefault();
-       {{ if eq $.Site.Params.language "english" }}
-         // var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}register/';
-         var redirectURL = {{$.Site.BaseURL}} + '/{{ .Site.Params.root_path }}register/'
-       {{ else }}
-         var redirectURL = {{$.Site.BaseURL}} + '/{{ .Site.Params.root_path }}registrar/';
-       {{ end }}
-       redirectURL = redirectURL + stateSelected + '/';
-       window.location.href = redirectURL;
+  <script type="text/javascript">
+    document.getElementById('register').onsubmit = function (ev) {
+      var stateSelected = document.getElementById('js-user-selection').value;
+      if (stateSelected === 'default') {
+        return false;
+      }
+      else {
+        ev.preventDefault();
+        { { if eq $.Site.Params.language "english" } }
+        // var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}register/';
+        var redirectURL = {{ $.Site.BaseURL }
+      } + '/{{ .Site.Params.root_path }}register/'
+      { { else } }
+      var redirectURL = {{ $.Site.BaseURL }
+    } + '/{{ .Site.Params.root_path }}registrar/';
+    { { end } }
+    redirectURL = redirectURL + stateSelected + '/';
+    window.location.href = redirectURL;
      }
    };
- </script>
+  </script>
 
-    <script type="text/javascript">
-		document.getElementById('register').onsubmit = function(ev) {
-			var stateSelected = document.getElementById('js-user-selection').value;
-			if (stateSelected === 'default') {
-				return false;
-			}
-			else {
-				ev.preventDefault();
-				{{ if eq $.Site.Params.language "english" }}
-					var redirectURL = {{ $.Site.BaseURL }} + '/{{ .Site.Params.root_path }}register/';
-				{{ else }}
-					var redirectURL = {{ $.Site.BaseURL }} + '/{{ .Site.Params.root_path }}registrar/';
-				{{ end }}
-				redirectURL = redirectURL + stateSelected + '/';
-				window.location.href = redirectURL;
+  <script type="text/javascript">
+    document.getElementById('register').onsubmit = function (ev) {
+      var stateSelected = document.getElementById('js-user-selection').value;
+      if (stateSelected === 'default') {
+        return false;
+      }
+      else {
+        ev.preventDefault();
+        { { if eq $.Site.Params.language "english" } }
+        var redirectURL = {{ $.Site.BaseURL }
+      } + '/{{ .Site.Params.root_path }}register/';
+      { { else } }
+      var redirectURL = {{ $.Site.BaseURL }
+    } + '/{{ .Site.Params.root_path }}registrar/';
+    { { end } }
+    redirectURL = redirectURL + stateSelected + '/';
+    window.location.href = redirectURL;
 			}
 		};
-	</script>
+  </script>
 
-    {{ partial "analytics.html" . }}
-    {{ partial "scripts.html" . }}
-    
-    <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0007/9651.js" async="async"></script>
+  {{ partial "analytics.html" . }}
+  {{ partial "scripts.html" . }}
 
-  </body>
+  <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0007/9651.js" async="async"></script>
+
+</body>
 
 </html>
