@@ -1,5 +1,6 @@
 +++
 
+crazyegg = "true"
 state_name = "District of Columbia"
 state_abbreviation = "dc"
 registration_type = "by-mail"

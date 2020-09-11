@@ -98,7 +98,7 @@
     "english": {
       "registration_link": "https://registertovote.ca.gov/",
       "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote/",
-      "crazyegg": "true",
+      "crazyegg": "false",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Monday, October 19, 2020",
       "mail_deadline": "Monday, October 19, 2020"
@@ -106,7 +106,7 @@
     "spanish": {
       "registration_link": "https://registertovote.ca.gov/es-mx",
       "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote/",
-      "crazyegg": "true",
+      "crazyegg": "false",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "lunes 19 de octubre 2020",
       "mail_deadline": "lunes 19 de octubre 2020"
@@ -133,6 +133,7 @@
     }
   },
   "Connecticut": {
+    "crazyegg": "true",
     "state_name": "Connecticut",
     "state_abbreviation": "ct",
     "registration_type": "online",
@@ -174,6 +175,7 @@
     }
   },
   "District of Columbia": {
+    "crazyegg": "true",
     "state_name": "District of Columbia",
     "state_abbreviation": "dc",
     "registration_type": "by-mail",
@@ -206,13 +208,14 @@
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://registertovoteflorida.gov/home",
       "more_info_link_spanish_selection": "true",
-      "crazyegg": "true",
+      "crazyegg": "false",
       "ip_deadline": "lunes 5 de octubre 2020",
       "online_deadline": "lunes 5 de octubre 2020",
       "mail_deadline2": "lunes 5 de octubre 2020"
     }
   },
   "Georgia": {
+    "crazyegg": "true",
     "state_name": "Georgia",
     "state_abbreviation": "ga",
     "registration_type": "online",

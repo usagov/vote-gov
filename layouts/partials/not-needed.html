@@ -10,24 +10,25 @@
 
 <script type="application/ld+json">
 	{
-		"@context": "https://schema.org",
-		"@type": "FAQPage",
-		"mainEntity": [{
-			"@type": "Question",
-			"name": "{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}",
-			"acceptedAnswer": {
-				"@type": "Answer",
-				"text": "{{ replace $translation.register.not_needed.intro "%state_name%" .Params.state_name }} <a class='reg-link' href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.not_needed.link "%state_name%" .Params.state_name }}</a>" 
+			"@context": "https://schema.org",
+			"@type": "FAQPage",
+			"mainEntity": [{
+				"@type": "Question",
+				"name": "{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "{{ replace $translation.register.not_needed.intro "%state_name%" .Params.state_name }}
+	<a class='reg-link' href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.not_needed.link "%state_name%" .Params.state_name }}.</a>" 
+					}
+				},{
+					"@type": "Question",
+					"name": "{{ replace $translation.register.dates.electionday_heading "%state_name%" .Params.state_name }}",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "{{ $translation.register.dates.electionday }}"
+					}
+				}]
 			}
-		},{
-			"@type": "Question",
-			"name": "{{ replace $translation.register.dates.electionday_heading "%state_name%" .Params.state_name }}",
-			"acceptedAnswer": {
-				"@type": "Answer",
-				"text": "{{ $translation.register.dates.electionday }}"
-			}
-		}]
-	}
 </script>
 
 
