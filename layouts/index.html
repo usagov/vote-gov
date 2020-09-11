@@ -114,30 +114,13 @@
       if (stateSelected === 'default') {
         return false;
       } else {
-        ev.preventDefault(); {
-          {
-            if eq $.Site.Params.language "english"
-          }
-        }
+        ev.preventDefault();
+        {{ if eq $.Site.Params.language "english" }}
         // var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}register/';
-        var redirectURL = {
-          {
-            $.Site.BaseURL
-          }
-        } + '/{{ .Site.Params.root_path }}register/' {
-          {
-            else
-          }
-        }
-        var redirectURL = {
-          {
-            $.Site.BaseURL
-          }
-        } + '/{{ .Site.Params.root_path }}registrar/'; {
-          {
-            end
-          }
-        }
+        var redirectURL = {{ $.Site.BaseURL }} + '/{{ .Site.Params.root_path }}register/'
+        {{ else }}
+        var redirectURL = {{ $.Site.BaseURL}} + '/{{ .Site.Params.root_path }}registrar/';
+        {{ end }}
         redirectURL = redirectURL + stateSelected + '/';
         window.location.href = redirectURL;
       }
@@ -151,29 +134,12 @@
       if (stateSelected === 'default') {
         return false;
       } else {
-        ev.preventDefault(); {
-          {
-            if eq $.Site.Params.language "english"
-          }
-        }
-        var redirectURL = {
-          {
-            $.Site.BaseURL
-          }
-        } + '/{{ .Site.Params.root_path }}register/'; {
-          {
-            else
-          }
-        }
-        var redirectURL = {
-          {
-            $.Site.BaseURL
-          }
-        } + '/{{ .Site.Params.root_path }}registrar/'; {
-          {
-            end
-          }
-        }
+        ev.preventDefault(); 
+        {{ if eq $.Site.Params.language "english" }}
+        var redirectURL = {{ $.Site.BaseURL }} + '/{{ .Site.Params.root_path }}register/';
+        {{ else }}
+        var redirectURL = {{ $.Site.BaseURL }} + '/{{ .Site.Params.root_path }}registrar/';
+        {{ end }}
         redirectURL = redirectURL + stateSelected + '/';
         window.location.href = redirectURL;
       }
