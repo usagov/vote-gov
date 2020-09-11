@@ -24,13 +24,13 @@ link = "%state_name%s election website"
 
 [online]
 
-answer1 = "Start your online registration on"
-answer1_link = "%state_name%’s election website"
-h2_question1 = "How do I register to vote online in %state_name%?"
+answer1 = "Start your"
+answer1_link = " online registration on %state_name%’s election website"
 
-answer2 = "You can also register to vote by mail or in person. Find out how on"
-answer2_link = "%state_name%’s election website"
+answer2 = "You can also"
+answer2_link = "  register to vote by mail or in person on %state_name%’s election website"
 h2_question2 = "What are the other ways to register to vote in %state_name%?"
+h2_question1 = "How do I register to vote in %state_name%?"
 
 [alert_state]
 alert_msg = "Due to COVID-19, there may be changes to when, where and how you vote in your upcoming elections. Check with"
@@ -38,10 +38,13 @@ alert_msg1 = "your state election site"
 alert_msg2 = "for more information."
 
 [dates]
-bymail_deadline = "Mail-in registration deadline: Must be postmarked by %mail_deadline%"
-bymail_deadline2 = "Mail-in registration deadline: Must be received by %mail_deadline2%"
-byonline_deadline = "Online registration deadline: %online_deadline%"
-electionday = "Election Day is Tuesday, November 3, 2020."
-electionday_heading = "General election day in %state_name%"
+bymail_deadline = "Mail-in registration deadline: "
+bymail_deadline1 = "Must be postmarked by "
+bymail_deadline2 = "Mail-in registration deadline: "
+bymail_deadline2_1 = "Must be received by "
+byonline_deadline = "Online registration deadline: "
+electionday = "General Election Day: Tuesday, November 3, 2020."
+electionday_heading = "General Election Day"
 heading = "Voter registration deadlines in %state_name%"
-inperson_deadline = "In person registration deadline: %ip_deadline%"
+inperson_deadline = "In person registration deadline: "
+last_updated = "Last Updated: "

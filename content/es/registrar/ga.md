@@ -1,5 +1,6 @@
 +++
 
+crazyegg = "true"
 state_name = "Georgia"
 state_abbreviation = "ga"
 registration_type = "online"

@@ -9,31 +9,32 @@
 
 <script type="application/ld+json">
 	{
-		"@context": "https://schema.org",
-		"@type": "FAQPage",
-		"mainEntity": [{
-			"@type": "Question",
-			"name": "{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}",
-			"acceptedAnswer": {
-				"@type": "Answer",
-				"text": "{{ replace $translation.register.in_person.intro "%state_name%" .Params.state_name }} <a href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.in_person.link "%state_name%" .Params.state_name }}</a>"
-			}          
-		},{
-			"@type": "Question",
-			"name": "{{ replace $translation.register.dates.heading "%state_name%" .Params.state_name }}",
-			"acceptedAnswer": {
-				"@type": "Answer",  
-				"text": "{{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}<br><br>{{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}"  
+			"@context": "https://schema.org",
+			"@type": "FAQPage",
+			"mainEntity": [{
+				"@type": "Question",
+				"name": "{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "{{ replace $translation.register.in_person.intro "%state_name%" .Params.state_name }}
+	<a href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.in_person.link "%state_name%" .Params.state_name }}.</a>"
+					}          
+				},{
+					"@type": "Question",
+					"name": "{{ replace $translation.register.dates.heading "%state_name%" .Params.state_name }}",
+					"acceptedAnswer": {
+						"@type": "Answer",  
+						"text": "{{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}<br><br>{{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}"  
+					}
+				},{
+					"@type": "Question",
+					"name": "{{ replace $translation.register.dates.electionday_heading "%state_name%" .Params.state_name }}",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "{{ $translation.register.dates.electionday }}"
+					}
+				}]
 			}
-		},{
-			"@type": "Question",
-			"name": "{{ replace $translation.register.dates.electionday_heading "%state_name%" .Params.state_name }}",
-			"acceptedAnswer": {
-				"@type": "Answer",
-				"text": "{{ $translation.register.dates.electionday }}"
-			}
-		}]
-	}
 </script>
 
 <p>

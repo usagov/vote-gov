@@ -1,38 +1,36 @@
-title = "Voter Registration"
-publishdir = "tmp/public"
-verbose = "true"
-ignoreFiles = [
-
-]
-
 DefaultContentLanguage = "en"
+enableGitInfo = "true"
+ignoreFiles = []
 publishDir = "tmp/public"
+publishdir = "tmp/public"
+title = "Voter Registration"
+verbose = "true"
 
 [languages]
-  [languages.en]
-  title = "Voter Registration"
-  verbose = "true"
-  contentDir = "content/en"
+[languages.en]
+contentDir = "content/en"
+title = "Voter Registration"
+verbose = "true"
 
-  [languages.en.params]
-  # [params]
-  Owner = "USA.gov"
-  Referrer_Short_Code = "voteusa"
-  lang = "en"
-  language = "english"
-  root_path = ""
-  register_path = "register"
+[languages.en.params]
+# [params]
+Owner = "Vote.gov"
+Referrer_Short_Code = "voteusa"
+lang = "en"
+language = "english"
+register_path = "register"
+root_path = ""
 
-  [languages.es]
-  title = "Inscripción para votar"
-  verbose = "true"
-  contentDir = "content/es"
+[languages.es]
+contentDir = "content/es"
+title = "Inscripción para votar"
+verbose = "true"
 
-  [languages.es.params]
-  Owner = "USA.gov"
-  Referrer_Short_Code = "voteusa_es"
-  lang = "es"
-  publishDir = "tmp/public/es"
-  language = "spanish"
-  root_path = "es/"
-  register_path = "registrar"
+[languages.es.params]
+Owner = "Vote.gov en Español"
+Referrer_Short_Code = "voteusa_es"
+lang = "es"
+language = "spanish"
+publishDir = "tmp/public/es"
+register_path = "registrar"
+root_path = "es/"
