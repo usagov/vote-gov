@@ -43,7 +43,6 @@
 		{{ replace $translation.register.online.h2_question1 "%state_name%" .Params.state_name }}
 	</h2>
 </header>
-<p></p>
 <p class="reg-link">
 	{{ replace $translation.register.online.answer1 "%state_name%" .Params.state_name }}
 	<a href="{{ .Params.registration_link }}{{ if in .Params.registration_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
@@ -56,11 +55,6 @@
 
 	</a>
 </p>
-<header>
-	<h2>
-		{{ replace $translation.register.online.h2_question2 "%state_name%" .Params.state_name }}
-	</h2>
-</header>
 <p class="reg-link">
 
 	{{ replace $translation.register.online.answer2 "%state_name%" .Params.state_name }}
