@@ -81,14 +81,14 @@
     "registration_type": "by-mail",
     "english": {
       "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
-      "ip_deadline": "Sunday, October 4, 2020",
-      "mail_deadline": "Sunday, October 4, 2020"
+      "ip_deadline": "Monday, October 5, 2020",
+      "mail_deadline": "Monday, October 5, 2020"
     },
     "spanish": {
       "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
       "more_info_link_english_only": "true",
-      "ip_deadline": "domingo 4 de octubre 2020",
-      "mail_deadline": "domingo 4 de octubre 2020"
+      "ip_deadline": "lunes 5 de octubre 2020",
+      "mail_deadline": "lunes 5 de octubre 2020"
     }
   },
   "california": {
@@ -408,18 +408,18 @@
     "english": {
       "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
       "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
-      "ip_deadline": "Sunday, October 4, 2020",
-      "online_deadline": "Wednesday, October 14, 2020",
-      "mail_deadline": "Sunday, October 4, 2020"
+      "ip_deadline": "Monday, October 5, 2020",
+      "online_deadline": "Tuesday, October 13, 2020",
+      "mail_deadline": "Monday, October 5, 2020"
     },
     "spanish": {
       "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
       "registration_link_english_only": "true",
       "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
       "more_info_link_english_only": "true",
-      "ip_deadline": "domingo 4 de octubre 2020",
-      "online_deadline": "miércoles 14 de octubre 2020",
-      "mail_deadline": "domingo 4 de octubre 2020"
+      "ip_deadline": "lunes 5 de octubre 2020",
+      "online_deadline": "martes 13 de octubre 2020",
+      "mail_deadline": "lunes 5 de octubre 2020"
     }
   },
   "Maine": {
@@ -854,18 +854,18 @@
     "english": {
       "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
       "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
-      "ip_deadline": "Sunday, October 4, 2020",
+      "ip_deadline": "Friday, October 2, 2020",
       "online_deadline": "Sunday, October 4, 2020",
-      "mail_deadline": "Sunday, October 4, 2020"
+      "mail_deadline": "Monday, October 5, 2020"
     },
     "spanish": {
       "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
       "registration_link_english_only": "true",
       "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
       "more_info_link_english_only": "true",
-      "ip_deadline": "domingo 4 de octubre 2020",
+      "ip_deadline": "viernes 2 de octubre 2020",
       "online_deadline": "domingo 4 de octubre 2020",
-      "mail_deadline": "domingo 4 de octubre 2020"
+      "mail_deadline": "lunes 5 de octubre 2020"
     }
   },
   "South Dakota": {
@@ -891,18 +891,18 @@
     "english": {
       "registration_link": "https://ovr.govote.tn.gov/",
       "more_info_link": "https://sos.tn.gov/products/elections/register-vote",
-      "ip_deadline": "Sunday, October 4, 2020",
-      "online_deadline": "Sunday, October 4, 2020",
-      "mail_deadline": "Sunday, October 4, 2020"
+      "ip_deadline": "Monday, October 5, 2020",
+      "online_deadline": "Monday, October 5, 2020",
+      "mail_deadline": "Monday, October 5, 2020"
     },
     "spanish": {
       "registration_link": "https://ovr.govote.tn.gov/",
       "registration_link_english_only": "true",
       "more_info_link": "https://sos.tn.gov/products/elections/register-vote",
       "more_info_link_english_only": "true",
-      "ip_deadline": "domingo 4 de octubre 2020",
-      "online_deadline": "domingo 4 de octubre 2020",
-      "mail_deadline": "domingo 4 de octubre 2020"
+      "ip_deadline": "lunes 5 de octubre 2020",
+      "online_deadline": "lunes 5 de octubre 2020",
+      "mail_deadline": "lunes 5 de octubre 2020"
     }
   },
   "Texas": {
