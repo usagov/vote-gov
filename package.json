@@ -56,6 +56,8 @@
   },
   "devDependencies": {
     "gulp-scss-lint": "^1.0.0",
-    "lodash": "^4.17.13"
+    "lodash": "^4.17.13",
+    "autoprefixer": "^9.8.6",
+    "gulp-postcss": "^8.0.0"
   }
 }

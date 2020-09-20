@@ -2,6 +2,8 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
+var postcss = require("gulp-postcss");
+var autoprefixer = require("autoprefixer");
 
 
 gulp.task('scss-lint', function (done) {
@@ -37,6 +39,7 @@ gulp.task('styles', gulp.series('scss-lint', function () {
 
   stream = stream.pipe(sourcemaps.init())
     .pipe(sassStream)
+    .pipe(postcss([autoprefixer()]))
     .on('error', function (error) {
       gutil.log(
         gutil.colors.yellow('styles'),
