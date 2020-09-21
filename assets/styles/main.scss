@@ -104,10 +104,16 @@ label.max-width-input {
   }
 }
 
-
 .usa-button {
   background-color: $color-blue-dark;
   color: white;
+}
+
+.usa-button:hover, .usa-button.usa-button--hover {
+  color: white;
+  background-color: $color-grey-dark;
+  border-bottom: 0;
+  text-decoration: none;
 }
 
 .translations {
