@@ -104,7 +104,7 @@ label.max-width-input {
   }
 }
 .arrow {
-  border: solid #11385B;
+  border: solid $color-blue-dark;
   border-width: 0 4px 4px 0;
   display: inline-block;
   padding: 4px;
@@ -117,12 +117,12 @@ label.max-width-input {
 }
 
 .arrow-text a{
-  color:  #11385B;
+  color:  $color-blue-dark;
   text-decoration: underline;
 }
 
 .usa-button {
-  background-color: #11385B;
+  background-color: $color-blue-dark;
   color: white;
 }
 
