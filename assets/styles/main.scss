@@ -126,6 +126,13 @@ label.max-width-input {
   color: white;
 }
 
+.usa-button:hover, .usa-button.usa-button--hover {
+  color: white;
+  background-color: $color-grey-dark;
+  border-bottom: 0;
+  text-decoration: none;
+}
+
 .translations {
   flex-grow: 0;
   text-align: right;
