@@ -103,7 +103,23 @@ label.max-width-input {
     }
   }
 }
+.arrow {
+  border: solid $color-blue-dark;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 4px;
+}
 
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin-right: 5px;
+}
+
+.arrow-text a{
+  color:  $color-blue-dark;
+  text-decoration: underline;
+}
 
 .usa-button {
   background-color: $color-blue-dark;
