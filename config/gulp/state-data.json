@@ -634,17 +634,22 @@
   "New Jersey": {
     "state_name": "New Jersey",
     "state_abbreviation": "nj",
-    "registration_type": "by-mail",
+    "registration_type": "online",
     "english": {
+      "registration_link": "https://voter.svrs.nj.gov/register",
       "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml",
-      "ip_deadline": "Tuesday, October 13, 2020",
-      "mail_deadline2": "Tuesday, October 13, 2020"
+      "online_deadline": "Tuesday, October 13, 2020",
+      "mail_deadline2": "Tuesday, October 13, 2020",
+      "ip_deadline": "Tuesday, October 13, 2020"      
     },
     "spanish": {
+      "registration_link": "https://voter.svrs.nj.gov/register",
+      "registration_link_spanish_selection": "true",
       "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml",
       "more_info_link_english_only": "true",
-      "ip_deadline": "martes 13 de octubre 2020",
-      "mail_deadline2": "martes 13 de octubre 2020"
+      "online_deadline": "martes 13 de octubre 2020",
+      "mail_deadline2": "martes 13 de octubre 2020",
+      "ip_deadline": "martes 13 de octubre 2020"
     }
   },
   "New Mexico": {
