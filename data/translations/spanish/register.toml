@@ -59,3 +59,8 @@ electionday_heading = "Día de la elección general"
 heading = "Plazos de registro de votantes en %state_name%"
 inperson_deadline = "Inscripción en persona: "
 last_updated = "Última actualización: "
+
+[confirm_registration]
+heading = "How to Check Your Voter Registration"
+intro = "You can confirm your your voter registration status on"
+link = "%state_name%’s election website"

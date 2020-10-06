@@ -36,7 +36,28 @@
 		</li>
 	{{end}}
 </ul>
+
+
+{{ if isset .Params "confirm_registration" }}
+<header>
+	<h2>{{ $translation.register.confirm_registration.heading }}</h2>
+</header>
+<p>
+	{{ $translation.register.confirm_registration.intro }}
+	<a class="reg-link" href="{{ .Params.confirm_registration }}{{ if in .Params.confirm_registration "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+		{{ replace $translation.register.confirm_registration.link "%state_name%" .Params.state_name -}}
+
+		{{ if .Params.confirm_registration_english_only }}
+			{{ $translation.register.english_only -}}
+		{{ else if .Params.confirm_registration_spanish_selection }}
+			{{ $translation.register.selecciones_link -}}
+		{{ end }}.
+	</a>
+</p>
+{{ end }}
+
 <header>
 	<h2>{{ replace $translation.register.dates.electionday_heading "%state_name%" .Params.state_name }}</h2>
 </header>
 <p>{{ replace $translation.register.dates.electionday "%online_deadline%" .Params.state_name }}</p>
+
