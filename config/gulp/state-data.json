@@ -61,18 +61,18 @@
     "english": {
       "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information",
-      "online_deadline": "Monday, October 5, 2020",
-      "mail_deadline": "Monday, October 5, 2020",
-      "ip_deadline": "Monday, October 5, 2020"
+      "online_deadline": "Friday, October 23, 2020",
+      "mail_deadline2": "Friday, October 23, 2020",
+      "ip_deadline": "Friday, October 23, 2020"
     },
     "spanish": {
       "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information-sp",
       "more_info_link_spanish_selection": "true",
-      "ip_deadline": "lunes 5 de octubre 2020",
-      "online_deadline": "lunes 5 de octubre 2020",
-      "mail_deadline": "lunes 5 de octubre 2020"
+      "ip_deadline": "viernes 23 de octubre 2020",
+      "online_deadline": "viernes 23 de octubre 2020",
+      "mail_deadline2": "viernes 23 de octubre 2020"
     }
   },
   "Arkansas": {
