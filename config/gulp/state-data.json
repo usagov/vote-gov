@@ -22,6 +22,7 @@
     }
   },
   "alaska": {
+    //CHANGE IN ALASKA
     "state_name": "Alaska",
     "state_abbreviation": "ak",
     "registration_type": "online",
