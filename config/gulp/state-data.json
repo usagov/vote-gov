@@ -1,5 +1,6 @@
 {
   "alabama": {
+    //CHANGE IN ALABAMA
     "state_name": "Alabama",
     "state_abbreviation": "al",
     "registration_type": "online",
@@ -21,7 +22,6 @@
     }
   },
   "alaska": {
-    //CHANGE IN ALASKA
     "state_name": "Alaska",
     "state_abbreviation": "ak",
     "registration_type": "online",
