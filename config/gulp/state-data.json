@@ -1044,7 +1044,8 @@
       "more_info_link": "https://www.elections.virginia.gov/registration/how-to-register/",
       "ip_deadline": "Tuesday, October 13, 2020",
       "online_deadline": "Tuesday, October 13, 2020",
-      "mail_deadline": "Tuesday, October 13, 2020"
+      "mail_deadline": "Tuesday, October 13, 2020",
+      "confirm_registration": "https://www.elections.virginia.gov/registration/view-your-info/"
     },
     "spanish": {
       "registration_link": "https://www.elections.virginia.gov/citizen-portal/",
@@ -1052,7 +1053,8 @@
       "more_info_link": "https://www.elections.virginia.gov/es/registro/",
       "ip_deadline": "martes 13 de octubre 2020",
       "online_deadline": "martes 13 de octubre 2020",
-      "mail_deadline": "martes 13 de octubre 2020"
+      "mail_deadline": "martes 13 de octubre 2020",
+      "confirm_registration": "https://www.elections.virginia.gov/es/registro/ver-su-informacion/"  
     }
   },
   "U.S. Virgin Islands": {
@@ -1061,12 +1063,15 @@
     "registration_type": "in-person",
     "english": {
       "more_info_link": "https://www.vivote.gov/voters/register-vote",
-      "ip_deadline": "Sunday, October 4, 2020"
+      "ip_deadline": "Sunday, October 4, 2020",
+      "confirm_registration": "https://www.vivote.gov/voters/lookup"
     },
     "spanish": {
       "more_info_link": "https://www.vivote.gov/voters/register-vote",
       "more_info_english_only": "true",
-      "ip_deadline": "domingo 4 de octubre de 2020"
+      "ip_deadline": "domingo 4 de octubre de 2020",
+      "confirm_registration": "https://www.vivote.gov/voters/lookup",
+      "confirm_registration_english_only": "true"
     }
   },
   "Washington": {
@@ -1078,7 +1083,8 @@
       "more_info_link": "https://www.sos.wa.gov/elections/voters/",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Monday, October 26, 2020",
-      "mail_deadline2": "Monday, October 26, 2020"
+      "mail_deadline2": "Monday, October 26, 2020",
+      "confirm_registration": "https://voter.votewa.gov/WhereToVote.aspx"
     },
     "spanish": {
       "registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
@@ -1087,7 +1093,9 @@
       "more_info_link_spanish_selection": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "lunes 26 de octubre 2020",
-      "mail_deadlin2": "lunes 26 de octubre 2020"
+      "mail_deadlin2": "lunes 26 de octubre 2020",
+      "confirm_registration": "https://voter.votewa.gov/WhereToVote.aspx",
+      "confirm_registration_spanish_selection": "true"
     }
   },
   "West Virginia": {
@@ -1099,7 +1107,8 @@
       "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
       "ip_deadline": "Tuesday, October 13, 2020",
       "online_deadline": "Tuesday, October 13, 2020",
-      "mail_deadline": "Tuesday, October 13, 2020"
+      "mail_deadline": "Tuesday, October 13, 2020",
+      "confirm_registration": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
     },
     "spanish": {
       "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
@@ -1108,7 +1117,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 13 de octubre 2020",
       "online_deadline": "martes 13 de octubre 2020",
-      "mail_deadline": "martes 13 de octubre 2020"
+      "mail_deadline": "martes 13 de octubre 2020",
+      "confirm_registration": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace",
+      "confirm_registration_english_only": "true"
     }
   },
   "Wisconsin": {
@@ -1120,7 +1131,8 @@
       "more_info_link": "https://elections.wi.gov/voters/first-time",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Wednesday, October 14, 2020",
-      "mail_deadline": "Wednesday, October 14, 2020"
+      "mail_deadline": "Wednesday, October 14, 2020",
+      "confirm_registration": "https://myvote.wi.gov/en-us/MyVoterInfo"
     },
     "spanish": {
       "registration_link": "https://myvote.wi.gov/es-es/RegisterToVote",
@@ -1128,7 +1140,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "miércoles 14 de octubre 2020",
-      "mail_deadline": "miércoles 14 de octubre 2020"
+      "mail_deadline": "miércoles 14 de octubre 2020",
+      "confirm_registration": "https://myvote.wi.gov/en-us/MyVoterInfo",
+      "confirm_registration_english_only": "true"
     }
   },
   "Wyoming": {
@@ -1138,13 +1152,15 @@
     "english": {
       "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
       "ip_deadline": "Tuesday, November 3, 2020",
-      "mail_deadline2": "Monday, October 19, 2020"
+      "mail_deadline2": "Monday, October 19, 2020",
+      "confirm_registration": "Wyoming does not offer an online registration lookup tool. To confirm your voter registration status and details, contact your local election official."
     },
     "spanish": {
       "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
-      "mail_deadline2": "lunes 19 de octubre 2020"
+      "mail_deadline2": "lunes 19 de octubre 2020",
+      "confirm_registration": "Wyoming no ofrece una herramienta para verificar su inscripción en línea.  Para confirmar el estado de su inscripción para votar, contacte a la oficina electoral oficial local." 
     }
   }
 }
