@@ -9,7 +9,7 @@
       "ip_deadline": "Monday, October 19, 2020",
       "online_deadline": "Monday, October 19, 2020",
       "mail_deadline": "Monday, October 19, 2020",
-      "confirm_registration": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote"
+      "confirm_registration": "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do"
     },
     "spanish": {
       "registration_link": "https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action",
@@ -19,7 +19,7 @@
       "ip_deadline": "lunes 19 de octubre 2020",
       "online_deadline": "lunes 19 de octubre 2020",
       "mail_deadline": "lunes 19 de octubre 2020",
-      "confirm_registration": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
+      "confirm_registration": "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do",
       "confirm_registration_english_only": "true"
     }
   },
@@ -32,7 +32,8 @@
       "more_info_link": "https://www.elections.alaska.gov/Core/voterregistration.php",
       "ip_deadline": "Sunday, October 4, 2020",
       "online_deadline": "Sunday, October 4, 2020",
-      "mail_deadline": "Sunday, October 4, 2020"
+      "mail_deadline": "Sunday, October 4, 2020",
+      "confirm_registration": "https://myvoterinformation.alaska.gov/"
     },
     "spanish": {
       "registration_link": "https://voterregistration.alaska.gov/",
@@ -40,7 +41,9 @@
       "more_info_link": "https://www.elections.alaska.gov/Core/spanishinformation.php",
       "ip_deadline": "domingo 4 de octubre 2020",
       "online_deadline": "domingo 4 de octubre 2020",
-      "mail_deadline": "domingo 4 de octubre 2020"
+      "mail_deadline": "domingo 4 de octubre 2020",
+      "confirm_registration": "https://myvoterinformation.alaska.gov/",
+      "confirm_registration_english_only": "true"
     }
   },
   "american-samoa": {
@@ -48,13 +51,16 @@
     "state_abbreviation": "as",
     "registration_type": "in-person",
     "english": {
-      "more_info_link": "https://aselectionoffice.gov//",
-      "ip_deadline": "Monday, October 5, 2020"
+      "more_info_link": "https://aselectionoffice.gov/",
+      "ip_deadline": "Monday, October 5, 2020",
+      "confirm_registration": "https://aselectionoffice.gov/status.php"
     },
     "spanish": {
       "more_info_link": "https://aselectionoffice.gov/",
       "more_info_link_english_only": "true",
-      "ip_deadline": "lunes 5 de octubre 2020"
+      "ip_deadline": "lunes 5 de octubre 2020",
+      "confirm_registration": "https://aselectionoffice.gov/status.php",
+      "confirm_registration_english_only": "true"
     }
   },
   "arizona": {
