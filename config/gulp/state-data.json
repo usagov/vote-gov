@@ -589,14 +589,16 @@
       "ip_deadline": "Friday, October 23, 2020",
       "online_deadline": "Friday, October 16, 2020",
       "mail_deadline": "Friday, October 16, 2020"
+      "confirm_registration": "https://www.votercheck.necvr.ne.gov/voterview"
     },
-    "spanish": {
+       "spanish": {
       "registration_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://sos.nebraska.gov/elections/voter-forms",
       "ip_deadline": "viernes 23 de octubre 2020",
       "online_deadline": "viernes 16 de octubre 2020",
-      "mail_deadline": "viernes 16 de octubre 2020"
+      "mail_deadline": "viernes 16 de octubre 2020",
+      "confirm_registration": "https://www.votercheck.necvr.ne.gov/voterview/?culture=es-MX"
     }
   },
   "Nevada": {
@@ -608,7 +610,8 @@
       "more_info_link": "https://www.nvsos.gov/sos/elections/voters/registering-to-vote",
       "ip_deadline": "Tuesday, October 6, 2020",
       "online_deadline": "Thursday, October 29, 2020",
-      "mail_deadline": "Tuesday, October 6, 2020"
+      "mail_deadline": "Tuesday, October 6, 2020",
+      "confirm_registration": "https://www.nvsos.gov/votersearch/"
     },
     "spanish": {
       "registration_link": "https://www.nvsos.gov/SOSVoterServices/start.aspx",
@@ -617,7 +620,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 6 de octubre 2020",
       "online_deadline": "jueves 29 de octubre 2020",
-      "mail_deadline": "martes 6 de octubre 2020"
+      "mail_deadline": "martes 6 de octubre 2020",
+      "confirm_registration": "https://www.nvsos.gov/votersearch/",
+      "confirm_registration_english_only": "true"
     }
   },
   "New Hampshire": {
