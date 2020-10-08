@@ -886,7 +886,8 @@
       "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
       "ip_deadline": "Sunday, October 4, 2020",
       "online_deadline": "Sunday, October 4, 2020",
-      "mail_deadline": "Sunday, October 4, 2020"
+      "mail_deadline": "Sunday, October 4, 2020",
+      "confirm_registration": "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0"
     },
     "spanish": {
       "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
@@ -894,7 +895,8 @@
       "more_info_link": "https://vote.sos.ri.gov/VoterSpanish/RegisterToVote",
       "ip_deadline": "domingo 4 de octubre 2020",
       "online_deadline": "domingo 4 de octubre 2020",
-      "mail_deadline": "domingo 4 de octubre 2020"
+      "mail_deadline": "domingo 4 de octubre 2020",
+      "confirm_registration": "https://vote.sos.ri.gov/HomeSpanish/UpdateVoterRecord?ActiveFlag=0"
     }
   },
   "South Carolina": {
@@ -906,7 +908,8 @@
       "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
       "ip_deadline": "Friday, October 2, 2020",
       "online_deadline": "Sunday, October 4, 2020",
-      "mail_deadline": "Monday, October 5, 2020"
+      "mail_deadline": "Monday, October 5, 2020",
+      "confirm_registration": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
     },
     "spanish": {
       "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
@@ -915,7 +918,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "viernes 2 de octubre 2020",
       "online_deadline": "domingo 4 de octubre 2020",
-      "mail_deadline": "lunes 5 de octubre 2020"
+      "mail_deadline": "lunes 5 de octubre 2020",
+      "confirm_registration": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo",
+      "confirm_registration_english_only": "true"
     }
   },
   "South Dakota": {
@@ -925,13 +930,16 @@
     "english": {
       "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
       "ip_deadline": "Monday, October 19, 2020",
-      "mail_deadline2": "Monday, October 19, 2020"
+      "mail_deadline2": "Monday, October 19, 2020",
+      "confirm_registration": "https://vip.sdsos.gov/VIPLogin.aspx"
     },
     "spanish": {
       "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
       "more_info_link_english_only": "true",
       "ip_deadline": "lunes 19 de octubre 2020",
-      "mail_deadline2": "lunes 19 de octubre 2020"
+      "mail_deadline2": "lunes 19 de octubre 2020",
+      "confirm_registration": "https://vip.sdsos.gov/VIPLogin.aspx",
+      "confirm_registration_english_only": "true"
     }
   },
   "Tennessee": {
@@ -943,7 +951,8 @@
       "more_info_link": "https://sos.tn.gov/products/elections/register-vote",
       "ip_deadline": "Monday, October 5, 2020",
       "online_deadline": "Monday, October 5, 2020",
-      "mail_deadline": "Monday, October 5, 2020"
+      "mail_deadline": "Monday, October 5, 2020",
+      "confirm_registration": "https://tnmap.tn.gov/voterlookup/"
     },
     "spanish": {
       "registration_link": "https://ovr.govote.tn.gov/",
@@ -952,7 +961,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "lunes 5 de octubre 2020",
       "online_deadline": "lunes 5 de octubre 2020",
-      "mail_deadline": "lunes 5 de octubre 2020"
+      "mail_deadline": "lunes 5 de octubre 2020",
+      "confirm_registration": "https://tnmap.tn.gov/voterlookup/",
+      "confirm_registration_english_only": "true"
     }
   },
   "Texas": {
@@ -963,13 +974,16 @@
       "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html",
       "crazyegg": "true",
       "ip_deadline": "Monday, October 5, 2020",
-      "mail_deadline": "Monday, October 5, 2020"
+      "mail_deadline": "Monday, October 5, 2020",
+      "confirm_registration": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
     },
     "spanish": {
       "more_info_link": "https://www.votetexas.gov/es/registrese-para-votar/index.html",
       "crazyegg": "true",
       "ip_deadline": "lunes 5 de octubre 2020",
-      "mail_deadline": "lunes 5 de octubre 2020"
+      "mail_deadline": "lunes 5 de octubre 2020",
+      "confirm_registration": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do",
+      "confirm_registration_spanish_selection": "true"
     }
   },
   "Utah": {
@@ -981,7 +995,8 @@
       "more_info_link": "https://voteinfo.utah.gov/",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Friday, October 23, 2020",
-      "mail_deadline2": "Friday, October 23, 2020"
+      "mail_deadline2": "Friday, October 23, 2020",
+      "confirm_registration": "https://vote.utah.gov/",
     },
     "spanish": {
       "registration_link": "https://secure.utah.gov/voterreg/index.html",
@@ -990,7 +1005,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "viernes 23 de octubre 2020",
-      "mail_deadline2": "viernes 23 de octubre 2020"
+      "mail_deadline2": "viernes 23 de octubre 2020",
+      "confirm_registration": "https://vote.utah.gov/",
+      "confirm_registration_english_only": "true"
     }
   },
   "Vermont": {
@@ -1002,7 +1019,9 @@
       "more_info_link": "https://sos.vermont.gov/elections/voters/registration/",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Friday, October 30, 2020",
-      "mail_deadline2": "Friday, October 30, 2020"
+      "mail_deadline2": "Friday, October 30, 2020",
+      "confirm_registration": "https://mvp.vermont.gov/"
+      
     },
     "spanish": {
       "registration_link": "https://olvr.vermont.gov/",
@@ -1011,7 +1030,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "viernes 30 de octubre 2020",
-      "mail_deadline2": "viernes 30 de octubre 2020"
+      "mail_deadline2": "viernes 30 de octubre 2020",
+      "confirm_registration": "https://mvp.vermont.gov/",
+      "confirm_registration_english_only": "true"
     }
   },
   "Virginia": {
