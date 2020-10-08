@@ -439,7 +439,8 @@
       "more_info_link": "https://elect.ky.gov/Resources/Pages/Registration.aspx",
       "ip_deadline": "Monday, October 5, 2020",
       "online_deadline": "Monday, October 5, 2020",
-      "mail_deadline2": "Monday, October 5, 2020"
+      "mail_deadline2": "Monday, October 5, 2020",
+      "confirm_registration": "https://vrsws.sos.ky.gov/VIC/"
     },
     "spanish": {
       "registration_link": "https://vrsws.sos.ky.gov/ovrweb/",
@@ -448,7 +449,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "lunes 5 de octubre 2020",
       "online_deadline": "lunes 5 de octubre 2020",
-      "mail_deadline2": "lunes 5 de octubre 2020"
+      "mail_deadline2": "lunes 5 de octubre 2020",
+      "confirm_registration": "https://vrsws.sos.ky.gov/VIC/",
+      "confirm_registration_english_only": "true"
     }
   },
   "Louisiana": {
@@ -460,7 +463,8 @@
       "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
       "ip_deadline": "Monday, October 5, 2020",
       "online_deadline": "Tuesday, October 13, 2020",
-      "mail_deadline": "Monday, October 5, 2020"
+      "mail_deadline": "Monday, October 5, 2020",
+      "confirm_registration": "https://voterportal.sos.la.gov/"
     },
     "spanish": {
       "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
@@ -469,7 +473,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "lunes 5 de octubre 2020",
       "online_deadline": "martes 13 de octubre 2020",
-      "mail_deadline": "lunes 5 de octubre 2020"
+      "mail_deadline": "lunes 5 de octubre 2020",
+      "confirm_registration": "https://voterportal.sos.la.gov/",
+      "confirm_registration_english_only": "true"
     }
   },
   "Maine": {
@@ -479,13 +485,16 @@
     "english": {
       "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
       "ip_deadline": "Tuesday, November 3, 2020",
-      "mail_deadline2": "Tuesday, October 13, 2020"
+      "mail_deadline2": "Tuesday, October 13, 2020",
+      "confirm_registration": "https://www.maine.gov/sos/cec/elec/data/index.html",
     },
     "spanish": {
       "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
-      "mail_deadline2": "martes 13 de octubre 2020"
+      "mail_deadline2": "martes 13 de octubre 2020",
+      "confirm_registration": "https://www.maine.gov/sos/cec/elec/data/index.html",
+      "confirm_registration_english_only": "true"
     }
   },
   "Maryland": {
