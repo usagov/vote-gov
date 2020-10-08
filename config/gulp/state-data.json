@@ -506,7 +506,8 @@
       "more_info_link": "https://www.elections.maryland.gov/voter_registration/application.html",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Tuesday, October 13, 2020",
-      "mail_deadline": "Tuesday, October 13, 2020"
+      "mail_deadline": "Tuesday, October 13, 2020",
+      "confirm_registration": "https://voterservices.elections.maryland.gov/VoterSearch"
     },
     "spanish": {
       "registration_link": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1",
@@ -515,7 +516,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "martes 13 de octubre 2020",
-      "mail_deadline": "martes 13 de octubre 2020"
+      "mail_deadline": "martes 13 de octubre 2020",
+      "confirm_registration": "https://voterservices.elections.maryland.gov/VoterSearch",
+      "confirm_registration_spanish_selection": "true"
     }
   },
   "Massachusetts": {
@@ -527,7 +530,8 @@
       "more_info_link": "https://www.sec.state.ma.us/ele/eleifv/howreg.htm",
       "ip_deadline": "Saturday, October 24, 2020",
       "online_deadline": "Saturday, October 24, 2020",
-      "mail_deadline": "Saturday, October 24, 2020"
+      "mail_deadline": "Saturday, October 24, 2020",
+      "confirm_registration": "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"
     },
     "spanish": {
       "registration_link": "https://www.sec.state.ma.us/ovr/",
@@ -536,7 +540,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "sábado 24 de octubre 2020",
       "online_deadline": "sábado 24 de octubre 2020",
-      "mail_deadline": "sábado 24 de octubre 2020"
+      "mail_deadline": "sábado 24 de octubre 2020",
+      "confirm_registration": "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx",
+      "confirm_registration_spanish_selection": "true"
     }
   },
   "Michigan": {
@@ -548,7 +554,8 @@
       "more_info_link": "https://mvic.sos.state.mi.us/",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Monday, October 19, 2020",
-      "mail_deadline": "Monday, October 19, 2020"
+      "mail_deadline": "Monday, October 19, 2020",
+      "confirm_registration": "https://mvic.sos.state.mi.us/"
     },
     "spanish": {
       "registration_link": "https://mvic.sos.state.mi.us/registervoter",
@@ -557,7 +564,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "lunes 19 de octubre 2020",
-      "mail_deadline": "lunes 19 de octubre 2020"
+      "mail_deadline": "lunes 19 de octubre 2020",
+      "confirm_registration": "https://mvic.sos.state.mi.us/",
+      "confirm_registration_english_only": "true"
     }
   },
   "Minnesota": {
