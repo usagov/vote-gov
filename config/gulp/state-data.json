@@ -298,7 +298,8 @@
       "more_info_link": "https://elections.hawaii.gov/voters/registration/",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Monday, October 5, 2020",
-      "mail_deadline2": "Monday, October 5, 2020"
+      "mail_deadline2": "Monday, October 5, 2020",
+       "confirm_registration": "https://olvr.hawaii.gov/"
     },
     "spanish": {
       "registration_link": "https://olvr.hawaii.gov/",
@@ -307,7 +308,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "lunes 5 de octubre 2020",
-      "mail_deadline2": "lunes 5 de octubre 2020"
+      "mail_deadline2": "lunes 5 de octubre 2020",
+      "confirm_registration": "https://olvr.hawaii.gov/",
+      "confirm_registration_english_only": "true"
     }
   },
   "Idaho": {
@@ -319,7 +322,8 @@
       "more_info_link": "https://idahovotes.gov/voting/",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Friday, October 9, 2020",
-      "mail_deadline2": "Friday, October 9, 2020"
+      "mail_deadline2": "Friday, October 9, 2020",
+      "confirm_registration": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx"
     },
     "spanish": {
       "registration_link": "https://apps.idahovotes.gov/OnlineVoterRegistration",
@@ -328,7 +332,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "viernes 9 de octubre 2020",
-      "mail_deadline2": "viernes 9 de octubre 2020"
+      "mail_deadline2": "viernes 9 de octubre 2020",
+      "confirm_registration": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx",
+      "confirm_registration_english_only": "true"
     }
   },
   "Illinois": {
@@ -340,7 +346,8 @@
       "more_info_link": "https://www.elections.il.gov/Default.aspx",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Sunday, October 18, 2020",
-      "mail_deadline2": "Tuesday, October 6, 2020"
+      "mail_deadline2": "Tuesday, October 6, 2020",
+      "confirm_registration": "https://ova.elections.il.gov/RegistrationLookup.aspx"
     },
     "spanish": {
       "registration_link": "https://spanish-ova.elections.il.gov/",
@@ -348,7 +355,8 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "domingo 18 de octubre 2020",
-      "mail_deadline2": "martes 6 de octubre 2020"
+      "mail_deadline2": "martes 6 de octubre 2020",
+      "confirm_registration": "https://spanish-ova.elections.il.gov/"
     }
   },
   "Indiana": {
