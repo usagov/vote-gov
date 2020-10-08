@@ -137,7 +137,8 @@
       "more_info_link": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Monday, October 26, 2020",
-      "mail_deadline": "Monday, October 26, 2020"
+      "mail_deadline": "Monday, October 26, 2020",
+      "confirm_registration": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml"
     },
     "spanish": {
       "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
@@ -145,7 +146,9 @@
       "more_info_link": "https://www.sos.state.co.us/pubs/spanish/spanishHome.html",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "lunes 26 de octubre 2020",
-      "mail_deadline": "lunes 26 de octubre 2020"
+      "mail_deadline": "lunes 26 de octubre 2020",
+      "confirm_registration": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml",
+      "confirm_registration_spanish_selection": "true"
     }
   },
   "Connecticut": {
@@ -158,7 +161,8 @@
       "more_info_link": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Tuesday, October 27, 2020",
-      "mail_deadline": "Tuesday, October 27, 2020"
+      "mail_deadline": "Tuesday, October 27, 2020",
+      "confirm_registration": "https://portaldir.ct.gov/sots/LookUp.aspx"
     },
     "spanish": {
       "registration_link": "https://voterregistration.ct.gov/OLVR/welcome.do",
@@ -167,7 +171,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "martes 27 de octubre 2020",
-      "mail_deadline": "martes 27 de octubre 2020"
+      "mail_deadline": "martes 27 de octubre 2020",
+      "confirm_registration": "https://portaldir.ct.gov/sots/LookUp.aspx",
+      "confirm_registration_english_only": "true"
     }
   },
   "Delaware": {
@@ -179,7 +185,8 @@
       "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
       "ip_deadline": "Saturday, October 10, 2020",
       "online_deadline": "Saturday, October 10, 2020",
-      "mail_deadline": "Saturday, October 10, 2020"
+      "mail_deadline": "Saturday, October 10, 2020",
+      "confirm_registration": "https://ivote.de.gov/VoterView"
     },
     "spanish": {
       "registration_link": "https://ivote.de.gov/voterview/?culture=es-MX",
@@ -187,7 +194,8 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "sábado 10 de octubre 2020",
       "online_deadline": "sábado 10 de octubre 2020",
-      "mail_deadline": "sábado 10 de octubre 2020"
+      "mail_deadline": "sábado 10 de octubre 2020",
+      "confirm_registration": "https://ivote.de.gov/VoterView/?culture=es-MX"
     }
   },
   "District of Columbia": {
