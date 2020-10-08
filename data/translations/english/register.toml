@@ -48,3 +48,8 @@ electionday_heading = "General Election Day"
 heading = "Voter registration deadlines in %state_name%"
 inperson_deadline = "In person registration deadline: "
 last_updated = "Last Updated: "
+
+[confirm_registration]
+heading = "How to Check Your Voter Registration"
+intro = "You can"
+link = "confirm your voter registration status on %state_name%’s election website"
