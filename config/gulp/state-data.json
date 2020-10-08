@@ -1152,15 +1152,13 @@
     "english": {
       "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
       "ip_deadline": "Tuesday, November 3, 2020",
-      "mail_deadline2": "Monday, October 19, 2020",
-      "confirm_registration": "Wyoming does not offer an online registration lookup tool. To confirm your voter registration status and details, contact your local election official."
+      "mail_deadline2": "Monday, October 19, 2020" 
     },
     "spanish": {
       "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
-      "mail_deadline2": "lunes 19 de octubre 2020",
-      "confirm_registration": "Wyoming no ofrece una herramienta para verificar su inscripción en línea.  Para confirmar el estado de su inscripción para votar, contacte a la oficina electoral oficial local." 
+      "mail_deadline2": "lunes 19 de octubre 2020"
     }
   }
 }
