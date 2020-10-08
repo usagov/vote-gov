@@ -631,12 +631,15 @@
     "registration_type": "in-person",
     "english": {
       "more_info_link": "https://sos.nh.gov/elections/voters/register-to-vote/",
-      "ip_deadline": "Tuesday, November 3, 2020"
+      "ip_deadline": "Tuesday, November 3, 2020",
+      "confirm_registration": "https://app.sos.nh.gov/Public/PartyInfo.aspx"
     },
     "spanish": {
       "more_info_link": "https://sos.nh.gov/elections/voters/register-to-vote/",
       "more_info_link_english_only": "true",
-      "ip_deadline": "Martes 3 de noviembre 2020"
+      "ip_deadline": "Martes 3 de noviembre 2020",
+      "confirm_registration": "https://app.sos.nh.gov/Public/PartyInfo.aspx",
+      "confirm_registration_english_only": "true"
     }
   },
   "New Jersey": {
@@ -648,7 +651,8 @@
       "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml",
       "online_deadline": "Tuesday, October 13, 2020",
       "mail_deadline2": "Tuesday, October 13, 2020",
-      "ip_deadline": "Tuesday, October 13, 2020"      
+      "ip_deadline": "Tuesday, October 13, 2020",
+      "confirm_registration": "https://voter.svrs.nj.gov/registration-check"
     },
     "spanish": {
       "registration_link": "https://voter.svrs.nj.gov/register",
@@ -657,7 +661,9 @@
       "more_info_link_english_only": "true",
       "online_deadline": "martes 13 de octubre 2020",
       "mail_deadline2": "martes 13 de octubre 2020",
-      "ip_deadline": "martes 13 de octubre 2020"
+      "ip_deadline": "martes 13 de octubre 2020",
+      "confirm_registration": "https://voter.svrs.nj.gov/registration-check",
+      "confirm_registration_english_only": "true"
     }
   },
   "New Mexico": {
@@ -669,7 +675,8 @@
       "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information/voter-registration-information/",
       "ip_deadline": "Saturday, October 31, 2020",
       "online_deadline": "Tuesday, October 6, 2020",
-      "mail_deadline": "Tuesday, October 6, 2020"
+      "mail_deadline": "Tuesday, October 6, 2020",
+      "confirm_registration": "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
     },
     "spanish": {
       "registration_link": "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx",
@@ -678,7 +685,9 @@
       "more_info_link_spanish_selection": "true",
       "ip_deadline": "sábado 31 de octubre 2020",
       "online_deadline": "martes 6 de octubre 2020",
-      "mail_deadline": "martes 6 de octubre 2020"
+      "mail_deadline": "martes 6 de octubre 2020",
+      "confirm_registration": "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx",
+      "confirm_registration_english_only": "true"
     }
   },
   "New York": {
@@ -690,7 +699,8 @@
       "more_info_link": "https://www.elections.ny.gov/votingregister.html",
       "ip_deadline": "Friday, October 9, 2020",
       "online_deadline": "Friday, October 9, 2020",
-      "mail_deadline": "Friday, October 9, 2020"
+      "mail_deadline": "Friday, October 9, 2020",
+      "confirm_registration": "https://voterlookup.elections.ny.gov/"
     },
     "spanish": {
       "registration_link": "https://dmv.ny.gov/more-info/electronic-voter-registration-application",
@@ -699,7 +709,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "viernes 9 de octubre 2020",
       "online_deadline": "viernes 9 de octubre 2020",
-      "mail_deadline": "viernes 9 de octubre 2020"
+      "mail_deadline": "viernes 9 de octubre 2020",
+      "confirm_registration": "https://voterlookup.elections.ny.gov/",
+      "confirm_registration_english_only": "true"
     }
   },
   "North Carolina": {
@@ -711,7 +723,8 @@
       "more_info_link": "https://www.ncsbe.gov/registering/how-register",
       "ip_deadline": "Saturday, October 31, 2020",
       "online_deadline": "Friday, October 9, 2020",
-      "mail_deadline": "Friday, October 9, 2020"
+      "mail_deadline": "Friday, October 9, 2020",
+      "confirm_registration": "https://vt.ncsbe.gov/RegLkup/"
     },
     "spanish": {
       "registration_link": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
@@ -720,7 +733,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "sábado 31 de octubre 2020",
       "online_deadline": "viernes 9 de octubre 2020",
-      "mail_deadline": "viernes 9 de octubre 2020"
+      "mail_deadline": "viernes 9 de octubre 2020",
+      "confirm_registration": "https://vt.ncsbe.gov/RegLkup/",
+      "confirm_registration_english_only": "true"
     }
   },
   "North Dakota": {
@@ -728,11 +743,14 @@
     "state_abbreviation": "nd",
     "registration_type": "not-needed",
     "english": {
-      "more_info_link": "https://vip.sos.nd.gov/PortalList.aspx"
+      "more_info_link": "https://vip.sos.nd.gov/PortalList.aspx",
+      "confirm_registration": "https://vip.sos.nd.gov/WhereToVote.aspx?tab=&ptlPKID=&ptlhPKID="
     },
     "spanish": {
       "more_info_link": "https://vip.sos.nd.gov/PortalList.aspx",
-      "more_info_link_english_only": "true"
+      "more_info_link_english_only": "true",
+      "confirm_registration": "https://vip.sos.nd.gov/WhereToVote.aspx?tab=&ptlPKID=&ptlhPKID=",
+      "confirm_registration_english_only": "true"
     }
   },
   "Northern Mariana Islands": {
@@ -741,12 +759,15 @@
     "registration_type": "in-person",
     "english": {
       "more_info_link": "https://www.votecnmi.gov.mp/",
-      "ip_deadline": "Friday, September 4, 2020"
+      "ip_deadline": "Friday, September 4, 2020",
+      "confirm_registration": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
     },
     "spanish": {
       "more_info_link": "https://www.votecnmi.gov.mp/",
       "more_info_link_english_only": "true",
-      "ip_deadline": "viernes 4 de septiembre de 2020"
+      "ip_deadline": "viernes 4 de septiembre de 2020",
+      "confirm_registration": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote",
+      "confirm_registration_english_only": "true"
     }
   },
   "Ohio": {
