@@ -779,7 +779,8 @@
       "more_info_link": "https://ohio.gov/wps/portal/gov/site/government/resources/register-to-vote-or-update-your-registration",
       "ip_deadline": "Monday, October 5, 2020",
       "online_deadline": "Monday, October 5, 2020",
-      "mail_deadline": "Monday, October 5, 2020"
+      "mail_deadline": "Monday, October 5, 2020",
+      "confirm_registration": "https://voterlookup.ohiosos.gov/voterlookup.aspx"
     },
     "spanish": {
       "registration_link": "https://olvr.ohiosos.gov/",
@@ -788,7 +789,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "lunes 5 de octubre 2020",
       "online_deadline": "lunes 5 de octubre 2020",
-      "mail_deadline": "lunes 5 de octubre 2020"
+      "mail_deadline": "lunes 5 de octubre 2020",
+      "confirm_registration": "https://voterlookup.ohiosos.gov/voterlookup.aspx",
+      "confirm_registration_english_only": "true"
     }
   },
   "Oklahoma": {
@@ -798,13 +801,16 @@
     "english": {
       "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html",
       "ip_deadline": "Friday, October 9, 2020",
-      "mail_deadline": "Friday, October 9, 2020"
+      "mail_deadline": "Friday, October 9, 2020",
+      "confirm_registration": "https://okvoterportal.okelections.us/" 
     },
     "spanish": {
       "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html",
       "more_info_link_english_only": "true",
       "ip_deadline": "viernes 9 de octubre 2020",
-      "mail_deadline": "viernes 9 de octubre 2020"
+      "mail_deadline": "viernes 9 de octubre 2020",
+      "confirm_registration": "https://okvoterportal.okelections.us/",
+      "confirm_registration_spanish_selection": "true"
     }
   },
   "Oregon": {
@@ -816,7 +822,8 @@
       "more_info_link": "https://sos.oregon.gov/voting/Pages/registration.aspx",
       "ip_deadline": "Tuesday, October 13, 2020",
       "online_deadline": "Tuesday, October 13, 2020",
-      "mail_deadline": "Tuesday, October 13, 2020"
+      "mail_deadline": "Tuesday, October 13, 2020",
+      "confirm_registration": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS"
     },
     "spanish": {
       "registration_link": "https://secure.sos.state.or.us/orestar/vr/register.do",
@@ -825,7 +832,9 @@
       "more_info_link_spanish_selection": "true",
       "ip_deadline": "martes 13 de octubre 2020",
       "online_deadline": "martes 13 de octubre 2020",
-      "mail_deadline": "martes 13 de octubre 2020"
+      "mail_deadline": "martes 13 de octubre 2020",
+      "confirm_registration": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS",
+      "confirm_registration_spanish_selection": "true"
     }
   },
   "Pennsylvania": {
@@ -837,7 +846,8 @@
       "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote",
       "ip_deadline": "Monday, October 19, 2020",
       "online_deadline": "Monday, October 19, 2020",
-      "mail_deadline2": "Monday, October 19, 2020"
+      "mail_deadline2": "Monday, October 19, 2020",
+      "confirm_registration": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
     },
     "spanish": {
       "registration_link": "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
@@ -846,7 +856,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "lunes 19 de octubre 2020",
       "online_deadline": "lunes 19 de octubre 2020",
-      "mail_deadline2": "lunes 19 de octubre 2020"
+      "mail_deadline2": "lunes 19 de octubre 2020",
+      "confirm_registration": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx",
+      "confirm_registration_spanish_selection": "true"
     }
   },
   "Puerto Rico": {
@@ -855,12 +867,14 @@
     "registration_type": "in-person",
     "english": {
       "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
-      "ip_deadline": "Tuesday, September 15, 2020"
+      "ip_deadline": "Tuesday, September 15, 2020",
+    "confirm_registration": "https://consulta.ceepur.org/"
     },
     "spanish": {
       "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/default.aspx",
       "more_info_english_only": "true",
-      "ip_deadline": "martes 15 de septiembre de 2020"
+      "ip_deadline": "martes 15 de septiembre de 2020",
+     "confirm_registration": "https://consulta.ceepur.org/"
     }
   },
   "Rhode Island": {
