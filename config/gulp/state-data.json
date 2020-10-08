@@ -368,7 +368,8 @@
       "more_info_link": "https://www.in.gov/sos/elections/2403.htm",
       "ip_deadline": "Monday, October 5, 2020",
       "online_deadline": "Monday, October 5, 2020",
-      "mail_deadline": "Monday, October 5, 2020"
+      "mail_deadline": "Monday, October 5, 2020",
+      "confirm_registration": "https://indianavoters.in.gov/"
     },
     "spanish": {
       "registration_link": "https://indianavoters.in.gov/",
@@ -377,7 +378,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "lunes 5 de octubre 2020",
       "online_deadline": "lunes 5 de octubre 2020",
-      "mail_deadline": "lunes 5 de octubre 2020"
+      "mail_deadline": "lunes 5 de octubre 2020",
+      "confirm_registration": "https://indianavoters.in.gov/",
+      "confirm_registration_english_only": "true"
     }
   },
   "Iowa": {
@@ -389,7 +392,8 @@
       "more_info_link": "https://sos.iowa.gov/elections/voterinformation/voterregistration.html",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Saturday, October 24, 2020",
-      "mail_deadline2": "Saturday, October 24, 2020"
+      "mail_deadline2": "Saturday, October 24, 2020",
+      "confirm_registration": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx"
     },
     "spanish": {
       "registration_link": "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration",
@@ -398,7 +402,9 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "sábado 24 de octubre 2020",
-      "mail_deadline2": "sábado 24 de octubre 2020"
+      "mail_deadline2": "sábado 24 de octubre 2020",
+      "confirm_registration": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx",
+      "confirm_registration_english_only": "true"
     }
   },
   "Kansas": {
@@ -410,7 +416,8 @@
       "more_info_link": "https://sos.ks.gov/elections/voter-information.html",
       "ip_deadline": "Tuesday, October 13, 2020",
       "online_deadline": "Tuesday, October 13, 2020",
-      "mail_deadline": "Tuesday, October 13, 2020"
+      "mail_deadline": "Tuesday, October 13, 2020",
+      "confirm_registration": "https://myvoteinfo.voteks.org/voterview/"
     },
     "spanish": {
       "registration_link": "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx",
@@ -419,7 +426,8 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 13 de octubre 2020",
       "online_deadline": "martes 13 de octubre 2020",
-      "mail_deadline": "martes 13 de octubre 2020"
+      "mail_deadline": "martes 13 de octubre 2020",
+      "confirm_registration": "https://myvoteinfo.voteks.org/voterview/?culture=es-MX"
     }
   },
   "Kentucky": {
