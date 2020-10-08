@@ -38,9 +38,9 @@ alert_msg1 = "your state election site"
 alert_msg2 = "for more information."
 
 [dates]
-bymail_deadline = "Mail-in registration deadline: "
+bymail_deadline = "Register by mail deadline: "
 bymail_deadline1 = "Must be postmarked by "
-bymail_deadline2 = "Mail-in registration deadline: "
+bymail_deadline2 = "Register by mail deadline: "
 bymail_deadline2_1 = "Must be received by "
 byonline_deadline = "Online registration deadline: "
 electionday = "General Election Day: Tuesday, November 3, 2020."
