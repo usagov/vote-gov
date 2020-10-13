@@ -46,6 +46,7 @@ online_dl = "Inscripción por internet: "
 alert_msg = "Debido al COVID-19, su estado podría haber modificado cuándo, dónde y cómo usted podrá votar en las próximas elecciones. Verifique esta información en el"
 alert_msg1 = "sitio web electoral de su estado"
 alert_msg2 = "."
+alert_after_election ="Vea los resultados oficiales de las elecciones en el "
 
 [dates]
 

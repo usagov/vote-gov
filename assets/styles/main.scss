@@ -158,7 +158,7 @@ label.max-width-input {
 
   .grid-container {
     background-image: url(../img/alerts/warning.svg), linear-gradient(transparent, transparent);
-    background-position: 1rem 0.75rem;
+    background-position: 1rem 0.3rem;
     background-repeat: no-repeat;
     background-size: 2rem;
   }
@@ -166,6 +166,12 @@ label.max-width-input {
 .usa-alert--warning .usa-alert__body{
   padding-left: 2.5rem;
   line-height: initial;
+}
+
+.usa-alert__text:only-child {
+  margin-bottom: units($theme-alert-bar-width);
+  padding-top: units(1);
+  padding-bottom: units(0.5);
 }
 
 .form-register {

@@ -93,12 +93,14 @@
     "registration_type": "by-mail",
     "english": {
       "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
+      "hp_link": "https://www.sos.arkansas.gov/elections/voter-information/",
       "ip_deadline": "Monday, October 5, 2020",
       "mail_deadline": "Monday, October 5, 2020",
       "confirm_registration": "https://www.voterview.ar-nova.org/voterview"
     },
     "spanish": {
       "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
+      "hp_link": "https://www.sos.arkansas.gov/elections/voter-information/",
       "more_info_link_english_only": "true",
       "ip_deadline": "lunes 5 de octubre 2020",
       "mail_deadline": "lunes 5 de octubre 2020",
