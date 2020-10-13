@@ -485,14 +485,14 @@
     "english": {
       "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
       "ip_deadline": "Tuesday, November 3, 2020",
-      "mail_deadline2": "Tuesday, October 13, 2020",
+      "mail_deadline2": "Monday, October 19, 2020",
       "confirm_registration": "https://www.maine.gov/sos/cec/elec/data/index.html"
     },
     "spanish": {
       "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
-      "mail_deadline2": "martes 13 de octubre 2020",
+      "mail_deadline2": "lunes 19 de octubre 2020",
       "confirm_registration": "https://www.maine.gov/sos/cec/elec/data/index.html",
       "confirm_registration_english_only": "true"
     }
