@@ -206,6 +206,7 @@
       "registration_link": "https://forms.dc.gov/f/DC_Voter_Registration_Form",
       "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register",
       "ip_deadline": "Tuesday, November 3, 2020",
+      "online_deadline": "Tuesday, October 13, 2020",
       "mail_deadline2": "Tuesday, October 13, 2020",
       "confirm_registration": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status"
     },
@@ -215,6 +216,7 @@
       "registration_link_english_only": "true",
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
+      "online_deadline": "martes 13 de octubre 2020",
       "mail_deadline2": "martes 13 de octubre 2020",
       "confirm_registration": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status",
       "confirm_registration_english_only": "true"
