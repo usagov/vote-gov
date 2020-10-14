@@ -1116,18 +1116,18 @@
     "english": {
       "registration_link": "https://www.elections.virginia.gov/citizen-portal/",
       "more_info_link": "https://www.elections.virginia.gov/registration/how-to-register/",
-      "ip_deadline": "Tuesday, October 13, 2020",
-      "online_deadline": "Tuesday, October 13, 2020",
-      "mail_deadline": "Tuesday, October 13, 2020",
+      "ip_deadline": "Tuesday, October 15, 2020",
+      "online_deadline": "Tuesday, October 15, 2020",
+      "mail_deadline": "Tuesday, October 15, 2020",
       "confirm_registration": "https://www.elections.virginia.gov/registration/view-your-info/"
     },
     "spanish": {
       "registration_link": "https://www.elections.virginia.gov/citizen-portal/",
       "registration_link_english_only": "true",
       "more_info_link": "https://www.elections.virginia.gov/es/registro/",
-      "ip_deadline": "martes 13 de octubre 2020",
-      "online_deadline": "martes 13 de octubre 2020",
-      "mail_deadline": "martes 13 de octubre 2020",
+      "ip_deadline": "martes 15 de octubre 2020",
+      "online_deadline": "martes 15 de octubre 2020",
+      "mail_deadline": "martes 15 de octubre 2020",
       "confirm_registration": "https://www.elections.virginia.gov/es/registro/ver-su-informacion/"  
     }
   },
