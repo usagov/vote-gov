@@ -70,9 +70,9 @@
     "english": {
       "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information",
-      "online_deadline": "Friday, October 23, 2020",
-      "mail_deadline2": "Friday, October 23, 2020",
-      "ip_deadline": "Friday, October 23, 2020",
+      "online_deadline": "Thursday, October 15, 2020",
+      "mail_deadline2": "Thursday, October 15, 2020",
+      "ip_deadline": "Thursday, October 15, 2020",
       "confirm_registration": "https://my.arizona.vote/WhereToVote.aspx?s=individual"
     },
     "spanish": {
@@ -80,9 +80,9 @@
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information-sp",
       "more_info_link_spanish_selection": "true",
-      "ip_deadline": "viernes 23 de octubre 2020",
-      "online_deadline": "viernes 23 de octubre 2020",
-      "mail_deadline2": "viernes 23 de octubre 2020",
+      "ip_deadline": "jueves 15 de octubre 2020",
+      "online_deadline": "jueves 15 de octubre 2020",
+      "mail_deadline2": "jueves 15 de octubre 2020",
       "confirm_registration": "https://my.arizona.vote/WhereToVote.aspx?s=individual",
       "confirm_registration_spanish_selection": "true"
     }
@@ -485,14 +485,18 @@
     "english": {
       "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
       "ip_deadline": "Tuesday, November 3, 2020",
+
       "mail_deadline2": "Tuesday, October 19, 2020",
+
       "confirm_registration": "https://www.maine.gov/sos/cec/elec/data/index.html"
     },
     "spanish": {
       "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
+
       "mail_deadline2": "martes 19 de octubre 2020",
+
       "confirm_registration": "https://www.maine.gov/sos/cec/elec/data/index.html",
       "confirm_registration_english_only": "true"
     }
