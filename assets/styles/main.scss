@@ -158,11 +158,16 @@ label.max-width-input {
 
   .grid-container {
     background-image: url(../img/alerts/warning.svg), linear-gradient(transparent, transparent);
-    background-position: 1rem 0.3rem;
+    background-position: 1rem 0.9rem;
     background-repeat: no-repeat;
     background-size: 2rem;
+  
+    @include at-media('tablet') {  
+        background-position: 1rem 0.3rem;
+      }
+    }
   }
-}
+
 .usa-alert--warning .usa-alert__body{
   padding-left: 2.5rem;
   line-height: initial;
