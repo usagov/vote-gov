@@ -77,10 +77,10 @@
           <a
             href="{{ .Params.hp_link }}{{ if in .Params.hp_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
             {{ $translation.register.alert_state.alert_msg1 -}}
-            {{ if .Params.more_info_link_english_only }}
-            {{ $translation.register.english_only -}}
-            {{ else if .Params.more_info_link_spanish_selection }}
-            {{ $translation.register.selecciones_link -}}
+            {{ if .Params.hp_link_english_only }}
+            {{ $translation.register.hp_english_only -}}
+            {{ else if .Params.hp_link_spanish_selection }}
+            {{ $translation.register.hp_selecciones_link -}}
             {{ end }}.
           </a>
         </p>

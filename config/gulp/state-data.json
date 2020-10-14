@@ -101,6 +101,7 @@
     "spanish": {
       "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
       "hp_link": "https://www.sos.arkansas.gov/elections/voter-information/",
+      "hp_link_english_only": "true",
       "more_info_link_english_only": "true",
       "ip_deadline": "lunes 5 de octubre 2020",
       "mail_deadline": "lunes 5 de octubre 2020",
@@ -143,6 +144,8 @@
       "confirm_registration": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml"
     },
     "spanish": {
+      "hp_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
+      "hp_link_spanish_selection": "true",
       "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://www.sos.state.co.us/pubs/spanish/spanishHome.html",
