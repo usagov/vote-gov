@@ -111,7 +111,7 @@
     "registration_type": "online",
     "english": {
       "registration_link": "https://registertovote.ca.gov/",
-      "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote/",
+      "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote",
       "crazyegg": "true",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Monday, October 19, 2020",
@@ -120,7 +120,7 @@
     },
     "spanish": {
       "registration_link": "https://registertovote.ca.gov/es-mx",
-      "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote/",
+      "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote",
       "crazyegg": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
       "online_deadline": "lunes 19 de octubre 2020",
@@ -342,7 +342,7 @@
     "state_abbreviation": "il",
     "registration_type": "online",
     "english": {
-      "registration_link": "https://ova.elections.il.gov/",
+      "registration_link": "https://ova.elections.il.gov/RegistrationClosed.aspx",
       "more_info_link": "https://www.elections.il.gov/Default.aspx",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Sunday, October 18, 2020",
@@ -350,7 +350,7 @@
       "confirm_registration": "https://ova.elections.il.gov/RegistrationLookup.aspx"
     },
     "spanish": {
-      "registration_link": "https://spanish-ova.elections.il.gov/",
+      "registration_link": "https://spanish-ova.elections.il.gov/RegistrationClosed.aspx",
       "more_info_link": "https://www.elections.il.gov/Default.aspx",
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
@@ -506,7 +506,7 @@
     "state_abbreviation": "md",
     "registration_type": "online",
     "english": {
-      "registration_link": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1",
+      "registration_link": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration",
       "more_info_link": "https://www.elections.maryland.gov/voter_registration/application.html",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Tuesday, October 13, 2020",
@@ -514,8 +514,8 @@
       "confirm_registration": "https://voterservices.elections.maryland.gov/VoterSearch"
     },
     "spanish": {
-      "registration_link": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1",
-      "registration_link_spanish_selection": "true",
+      "registration_link": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration",
+      "registration_link_english_only": "true",
       "more_info_link": "https://www.elections.maryland.gov/voter_registration/application.html",
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
@@ -578,7 +578,7 @@
     "state_abbreviation": "mn",
     "registration_type": "online",
     "english": {
-      "registration_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
+      "registration_link": "https://mnvotes.sos.state.mn.us/DisplayMessage.aspx?messageid=4",
       "more_info_link": "https://www.sos.state.mn.us/elections-voting/register-to-vote/",
       "ip_deadline": "Tuesday, November 3, 2020",
       "online_deadline": "Tuesday, October 13, 2020",
@@ -586,7 +586,7 @@
       "confirm_registration": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
     },
     "spanish": {
-      "registration_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
+      "registration_link": "https://mnvotes.sos.state.mn.us/DisplayMessage.aspx?messageid=4",
       "registration_link_english_only": "true",
       "more_info_link": "https://www.sos.state.mn.us/elections-voting/spanish",
       "ip_deadline": "martes 3 de noviembre 2020",
@@ -750,7 +750,7 @@
     "registration_type": "online",
     "english": {
       "registration_link": "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx",
-      "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information/voter-registration-information/",
+      "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information-portal/voter-registration-information/",
       "ip_deadline": "Saturday, October 31, 2020",
       "online_deadline": "Tuesday, October 6, 2020",
       "mail_deadline": "Tuesday, October 6, 2020",
@@ -759,7 +759,7 @@
     "spanish": {
       "registration_link": "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx",
       "registration_link_spanish_selection": "true",
-      "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information/voter-registration-information/",
+      "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information-portal/voter-registration-information/",
       "more_info_link_spanish_selection": "true",
       "ip_deadline": "sábado 31 de octubre 2020",
       "online_deadline": "martes 6 de octubre 2020",
