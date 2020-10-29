@@ -1,7 +1,7 @@
 english_only = "(en inglés)"
 hp_english_only = "(en inglés)"
 h2_deadline = "Voter registration deadline in %state_name%"
-heading = "Inscríbase para votar en %state_name%"
+heading = "Regístrese para votar en %state_name%"
 heading2 = "¿Cómo me puedo inscribir para votar en %state_name%?"
 meta_name = "Averigüe cómo inscribirse para votar en %state_name%"
 no_english = ""
