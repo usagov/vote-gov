@@ -53,9 +53,9 @@ alert_after_election ="Para ver los resultados oficiales de las elecciones visit
 [dates]
 
 bymail_deadline = "Inscripción por correo postal: "
-bymail_deadline1 = "debe tener el sello del correo a más tardar el "
+bymail_deadline1 = "debe tener el sello del correo "
 bymail_deadline2 = "Inscripción por correo postal: "
-bymail_deadline2_1 = "a más tardar debe ser recibida el "
+bymail_deadline2_1 = "a más tardar debe ser recibida "
 byonline_deadline = "Inscripción por internet: "
 electionday = "Día de la elección general: martes 3 de noviembre de 2020"
 electionday_heading = "Día de la elección general"
