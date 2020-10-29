@@ -56,14 +56,17 @@
     "state_abbreviation": "as",
     "registration_type": "in-person",
     "english": {
+      "hp_link": "https://aselectionoffice.gov/",
       "more_info_link": "https://aselectionoffice.gov/",
-      "ip_deadline": "Monday, October 5, 2020",
+      "ip_deadline": "30 days before Election Day",
       "confirm_registration": "https://aselectionoffice.gov/status.php"
     },
     "spanish": {
+      "hp_link": "https://aselectionoffice.gov/",
+      "hp_link_english_only": "true",
       "more_info_link": "https://aselectionoffice.gov/",
       "more_info_link_english_only": "true",
-      "ip_deadline": "lunes 5 de octubre 2020",
+      "ip_deadline": "hasta 30 días antes del dia de las elecciones",
       "confirm_registration": "https://aselectionoffice.gov/status.php",
       "confirm_registration_english_only": "true"
     }
@@ -97,19 +100,22 @@
     "state_abbreviation": "ar",
     "registration_type": "by-mail",
     "english": {
+      "hp_link": "https://www.sos.arkansas.gov/elections",
       "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
       "hp_link": "https://www.sos.arkansas.gov/elections/voter-information/",
-      "ip_deadline": "Monday, October 5, 2020",
-      "mail_deadline": "Monday, October 5, 2020",
+      "ip_deadline": "30 days before Election Day",
+      "mail_deadline": "30 days before Election Day",
       "confirm_registration": "https://www.voterview.ar-nova.org/voterview"
     },
     "spanish": {
+      "hp_link": "https://www.sos.arkansas.gov/elections",
+      "hp_link_english_only": "true",
       "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
       "hp_link": "https://www.sos.arkansas.gov/elections/voter-information/",
       "hp_link_english_only": "true",
       "more_info_link_english_only": "true",
-      "ip_deadline": "lunes 5 de octubre 2020",
-      "mail_deadline": "lunes 5 de octubre 2020",
+      "ip_deadline": "hasta 30 días antes del dia de las elecciones",
+      "mail_deadline": "30 días antes del día de las elecciones",
       "confirm_registration": "https://www.voterview.ar-nova.org/voterview/?culture=es-MX"
     }
   },
