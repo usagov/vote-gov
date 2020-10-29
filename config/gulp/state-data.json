@@ -21,7 +21,7 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "hasta 15 días antes del día de las elecciones",
       "online_deadline": "hasta 15 días antes del día de las elecciones",
-      "mail_deadline": "hasta 15 días antes del día de las elecciones",
+      "mail_deadline": "15 días antes del día de las elecciones",
       "confirm_registration": "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do",
       "confirm_registration_english_only": "true"
     }
@@ -31,20 +31,22 @@
     "state_abbreviation": "ak",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://www.elections.alaska.gov/",
       "registration_link": "https://voterregistration.alaska.gov/",
       "more_info_link": "https://www.elections.alaska.gov/Core/voterregistration.php",
-      "ip_deadline": "Sunday, October 4, 2020",
-      "online_deadline": "Sunday, October 4, 2020",
-      "mail_deadline": "Sunday, October 4, 2020",
+      "ip_deadline": "30 days before Election Day",
+      "online_deadline": "30 days before Election Day",
+      "mail_deadline": "30 days before Election Day",
       "confirm_registration": "https://myvoterinformation.alaska.gov/"
     },
     "spanish": {
+      "hp_link": "https://elections.alaska.gov/Core/spanishinformation.php",
       "registration_link": "https://voterregistration.alaska.gov/",
       "registration_link_english_only": "true",
       "more_info_link": "https://www.elections.alaska.gov/Core/spanishinformation.php",
-      "ip_deadline": "domingo 4 de octubre 2020",
-      "online_deadline": "domingo 4 de octubre 2020",
-      "mail_deadline": "domingo 4 de octubre 2020",
+      "ip_deadline": "hasta 30 días antes del dia de las elecciones",
+      "online_deadline": "hasta 30 días antes del dia de las elecciones",
+      "mail_deadline": "30 días antes del día de las elecciones",
       "confirm_registration": "https://myvoterinformation.alaska.gov/",
       "confirm_registration_english_only": "true"
     }
