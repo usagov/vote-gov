@@ -207,7 +207,7 @@
       "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
       "ip_deadline": "Fourth Saturday before Election Day",
       "online_deadline": "Fourth Saturday before Election Day",
-      "mail_deadline": "Fourth Saturday before Election Day",
+      "mail_deadline": "by the fourth Saturday before Election Day",
       "confirm_registration": "https://ivote.de.gov/VoterView"
     },
     "spanish": {
@@ -227,19 +227,24 @@
     "state_abbreviation": "dc",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://dcboe.org/",
       "registration_link": "https://forms.dc.gov/f/DC_Voter_Registration_Form",
       "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register",
-      "ip_deadline": "Tuesday, November 3, 2020",
-      "mail_deadline2": "Tuesday, October 13, 2020",
+      "ip_deadline": "Available up to and including on Election Day",
+      "mail_deadline2": "21 days before Election Day",
+      "online_deadline": "21 days before Election Day",
       "confirm_registration": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status"
     },
     "spanish": {
+      "hp_link": "https://dcboe.org/",
+      "hp_link_english_only": "true",
       "registration_link": "https://forms.dc.gov/f/DC_Voter_Registration_Form",
       "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register",
       "registration_link_english_only": "true",
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
-      "mail_deadline2": "martes 13 de octubre 2020",
+      "mail_deadline2": "21 días antes del día de las elecciones",
+      "online_deadline": "hasta 21 días antes del dia de las elecciones",
       "confirm_registration": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status",
       "confirm_registration_english_only": "true"
     }
@@ -297,20 +302,23 @@
     "state_abbreviation": "gu",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://gec.guam.gov/",
       "registration_link": "https://gec.guam.gov/register/",
       "more_info_link": "https://gec.guam.gov/",
-      "online_deadline": "Tuesday, October 13, 2020",
-      "mail_deadline2": "Friday, October 23, 2020",
-      "ip_deadline": "Friday, October 23, 2020"
+      "online_deadline": "10 days before Election Day",
+      "mail_deadline2": "10 days before Election Day",
+      "ip_deadline": "10 days before Election Day"
     },
     "spanish": {
+      "hp_link": "https://gec.guam.gov/",
+      "hp_link_english_only": "true",
       "registration_link": "https://gec.guam.gov/register/",
       "more_info_link": "https://gec.guam.gov/",
       "registration_link_english_only": "true",
       "more_info_link_english_only": "true",
-      "online_deadline": "martes 13 de octubre 2020",
-      "mail_deadline2": "viernes 23 de octubre de 2020",
-      "ip_deadline": "viernes 23 de octubre de 2020"
+      "online_deadline": "hasta 10 días antes del dia de las elecciones",
+      "mail_deadline2": "10 días antes del día de las elecciones",
+      "ip_deadline": "hasta 10 días antes del dia de las elecciones"
     }
   },
   "Hawaii": {
