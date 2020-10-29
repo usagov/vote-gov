@@ -216,9 +216,9 @@
       "registration_link": "https://ivote.de.gov/voterview/?culture=es-MX",
       "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
       "more_info_link_english_only": "true",
-      "ip_deadline": "hasta el cuarto sábado antes del dia de las elecciones",
-      "online_deadline": "hasta el cuarto sábado antes del dia de las elecciones",
-      "mail_deadline": "hasta el cuarto sábado antes del dia de las elecciones",
+      "ip_deadline": "hasta el cuarto sábado antes del día de las elecciones",
+      "online_deadline": "hasta el cuarto sábado antes del día de las elecciones",
+      "mail_deadline": "hasta el cuarto sábado antes del día de las elecciones",
       "confirm_registration": "https://ivote.de.gov/VoterView/?culture=es-MX"
     }
   },
@@ -624,20 +624,22 @@
     "state_abbreviation": "mn",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://www.sos.state.mn.us/elections-voting/",
       "registration_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
       "more_info_link": "https://www.sos.state.mn.us/elections-voting/register-to-vote/",
-      "ip_deadline": "Tuesday, November 3, 2020",
-      "online_deadline": "Tuesday, October 13, 2020",
-      "mail_deadline2": "Tuesday, October 13, 2020",
+      "ip_deadline": "Available up to and including on Election Day",
+      "online_deadline": "21 days before Election Day",
+      "mail_deadline2": "21 days before Election Day",
       "confirm_registration": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
     },
     "spanish": {
+      "hp_link": "https://www.sos.state.mn.us/elections-voting/spanish",
       "registration_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
       "registration_link_english_only": "true",
       "more_info_link": "https://www.sos.state.mn.us/elections-voting/spanish",
       "ip_deadline": "martes 3 de noviembre 2020",
-      "online_deadline": "martes 13 de octubre 2020",
-      "mail_deadline2": "martes 13 de octubre 2020",
+      "online_deadline": "hasta 21 días antes del día de las elecciones",
+      "mail_deadline2": "21 días antes del día de las elecciones",
       "confirm_registration": "https://www.sos.state.mn.us/elections-voting/spanish"
     }
   },
@@ -665,21 +667,24 @@
     "state_abbreviation": "mo",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://s1.sos.mo.gov/elections",
       "registration_link": "https://s1.sos.mo.gov/elections/voterregistration/",
       "more_info_link": "https://www.sos.mo.gov/elections/goVoteMissouri/register",
-      "ip_deadline": "Wednesday, October 7, 2020",
-      "online_deadline": "Wednesday, October 7, 2020",
-      "mail_deadline": "Wednesday, October 7, 2020",
+      "ip_deadline": "Fourth Wednesday before Election Day",
+      "online_deadline": "Fourth Wednesday before Election Day",
+      "mail_deadline": "by the fourth Wednesday before Election Day",
       "confirm_registration": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx"
     },
     "spanish": {
+      "hp_link": "https://s1.sos.mo.gov/elections",
+      "hp_link_english_only": "true",
       "registration_link": "https://s1.sos.mo.gov/elections/voterregistration/",
       "registration_link_english_only": "true",
       "more_info_link": "https://www.sos.mo.gov/elections/goVoteMissouri/register",
       "more_info_link_english_only": "true",
-      "ip_deadline": "miércoles 7 de octubre 2020",
-      "online_deadline": "miércoles 7 de octubre 2020",
-      "mail_deadline": "miércoles 7 de octubre 2020",
+      "ip_deadline": "hasta el cuarto miércoles antes del día de las elecciones",
+      "online_deadline": "hasta el cuarto miércoles antes del día de las elecciones",
+      "mail_deadline": "hasta el cuarto miércoles antes del día de las elecciones",
       "confirm_registration": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx",
       "confirm_registration_english_only": "true"
     }
