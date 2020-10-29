@@ -40,9 +40,9 @@ alert_after_election ="For official election results. Go to "
 
 [dates]
 bymail_deadline = "Register by mail deadline: "
-bymail_deadline1 = "Must be postmarked by "
+bymail_deadline1 = "Must be postmarked "
 bymail_deadline2 = "Register by mail deadline: "
-bymail_deadline2_1 = "Must be received by "
+bymail_deadline2_1 = "Must be received "
 byonline_deadline = "Online registration deadline: "
 electionday = "General Election Day: Tuesday, November 3, 2020."
 electionday_heading = "General Election Day"
