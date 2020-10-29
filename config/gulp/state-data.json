@@ -124,21 +124,23 @@
     "state_abbreviation": "ca",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://www.sos.ca.gov/elections",
       "registration_link": "https://registertovote.ca.gov/",
       "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote/",
       "crazyegg": "true",
-      "ip_deadline": "Tuesday, November 3, 2020",
-      "online_deadline": "Monday, October 19, 2020",
-      "mail_deadline": "Monday, October 19, 2020",
+      "ip_deadline": "Available up to and including on Election Day",
+      "online_deadline": "15 days before Election Day",
+      "mail_deadline": "15 days before Election Day",
       "confirm_registration": "https://registertovote.ca.gov/"
     },
     "spanish": {
+      "hp_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/",
       "registration_link": "https://registertovote.ca.gov/es-mx",
       "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote/",
       "crazyegg": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
-      "online_deadline": "lunes 19 de octubre 2020",
-      "mail_deadline": "lunes 19 de octubre 2020",
+      "online_deadline": "hasta 15 días antes del dia de las elecciones",
+      "mail_deadline": "15 días antes del día de las elecciones",
       "confirm_registration": "https://registertovote.ca.gov/es-mx"
     }
   },
@@ -147,22 +149,22 @@
     "state_abbreviation": "co",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://www.sos.state.co.us/pubs/elections/",
       "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
       "more_info_link": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html",
-      "ip_deadline": "Tuesday, November 3, 2020",
-      "online_deadline": "Monday, October 26, 2020",
-      "mail_deadline": "Monday, October 26, 2020",
+      "ip_deadline": "8 days before Election Day",
+      "online_deadline": "8 days before Election Day",
+      "mail_deadline": "8 days before Election Day",
       "confirm_registration": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml"
     },
     "spanish": {
-      "hp_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
-      "hp_link_spanish_selection": "true",
+      "hp_link": "https://www.sos.state.co.us/pubs/spanish/spanishHome.html",
       "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://www.sos.state.co.us/pubs/spanish/spanishHome.html",
       "ip_deadline": "martes 3 de noviembre 2020",
-      "online_deadline": "lunes 26 de octubre 2020",
-      "mail_deadline": "lunes 26 de octubre 2020",
+      "online_deadline": "hasta 8 días antes del dia de las elecciones",
+      "mail_deadline": "8 días antes del día de las elecciones",
       "confirm_registration": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml",
       "confirm_registration_spanish_selection": "true"
     }
