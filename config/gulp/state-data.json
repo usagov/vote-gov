@@ -152,7 +152,7 @@
       "hp_link": "https://www.sos.state.co.us/pubs/elections/",
       "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
       "more_info_link": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html",
-      "ip_deadline": "8 days before Election Day",
+      "ip_deadline": "Available up to and including on Election Day",
       "online_deadline": "8 days before Election Day",
       "mail_deadline": "8 days before Election Day",
       "confirm_registration": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml"
@@ -175,21 +175,24 @@
     "state_abbreviation": "ct",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://portal.ct.gov/sots",
       "registration_link": "https://voterregistration.ct.gov/OLVR/welcome.do",
       "more_info_link": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet",
-      "ip_deadline": "Tuesday, November 3, 2020",
-      "online_deadline": "Tuesday, October 27, 2020",
-      "mail_deadline": "Tuesday, October 27, 2020",
+      "ip_deadline": "Available up to and including on Election Day",
+      "online_deadline": "7 days before Election Day",
+      "mail_deadline": "7 days before Election Day",
       "confirm_registration": "https://portaldir.ct.gov/sots/LookUp.aspx"
     },
     "spanish": {
+      "hp_link": "https://portal.ct.gov/sots",
+      "hp_link_english_only": "true",
       "registration_link": "https://voterregistration.ct.gov/OLVR/welcome.do",
       "more_info_link": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet",
       "registration_link_spanish_selection": "true",
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
-      "online_deadline": "martes 27 de octubre 2020",
-      "mail_deadline": "martes 27 de octubre 2020",
+      "online_deadline": "hasta 7 días antes del dia de las elecciones",
+      "mail_deadline": "7 días antes del día de las elecciones",
       "confirm_registration": "https://portaldir.ct.gov/sots/LookUp.aspx",
       "confirm_registration_english_only": "true"
     }
@@ -199,20 +202,23 @@
     "state_abbreviation": "de",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://elections.delaware.gov/index.shtml",
       "registration_link": "https://ivote.de.gov/VoterView/",
       "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
-      "ip_deadline": "Saturday, October 10, 2020",
-      "online_deadline": "Saturday, October 10, 2020",
-      "mail_deadline": "Saturday, October 10, 2020",
+      "ip_deadline": "Fourth Saturday before Election Day",
+      "online_deadline": "Fourth Saturday before Election Day",
+      "mail_deadline": "Fourth Saturday before Election Day",
       "confirm_registration": "https://ivote.de.gov/VoterView"
     },
     "spanish": {
+      "hp_link": "https://elections.delaware.gov/index.shtml",
+      "hp_link_english_only": "true",
       "registration_link": "https://ivote.de.gov/voterview/?culture=es-MX",
       "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
       "more_info_link_english_only": "true",
-      "ip_deadline": "sábado 10 de octubre 2020",
-      "online_deadline": "sábado 10 de octubre 2020",
-      "mail_deadline": "sábado 10 de octubre 2020",
+      "ip_deadline": "hasta el cuarto sábado antes del dia de las elecciones",
+      "online_deadline": "hasta el cuarto sábado antes del dia de las elecciones",
+      "mail_deadline": "hasta el cuarto sábado antes del dia de las elecciones",
       "confirm_registration": "https://ivote.de.gov/VoterView/?culture=es-MX"
     }
   },
