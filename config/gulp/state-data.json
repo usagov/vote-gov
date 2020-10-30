@@ -1041,20 +1041,23 @@
     "state_abbreviation": "ri",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://elections.ri.gov/",
       "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
       "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
-      "ip_deadline": "Sunday, October 4, 2020",
-      "online_deadline": "Sunday, October 4, 2020",
-      "mail_deadline": "Sunday, October 4, 2020",
+      "ip_deadline": "30 days before Election Day",
+      "online_deadline": "30 days before Election Day",
+      "mail_deadline": "30 days before Election Day",
       "confirm_registration": "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0"
     },
     "spanish": {
+      "hp_link": "https://elections.ri.gov/",
+      "hp_link_english_only": "true",
       "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://vote.sos.ri.gov/VoterSpanish/RegisterToVote",
-      "ip_deadline": "domingo 4 de octubre 2020",
-      "online_deadline": "domingo 4 de octubre 2020",
-      "mail_deadline": "domingo 4 de octubre 2020",
+      "ip_deadline": "hasta 30 días antes del día de las elecciones",
+      "online_deadline": "hasta 30 días antes del día de las elecciones",
+      "mail_deadline": "30 días antes del día de las elecciones",
       "confirm_registration": "https://vote.sos.ri.gov/HomeSpanish/UpdateVoterRecord?ActiveFlag=0"
     }
   },
@@ -1063,21 +1066,24 @@
     "state_abbreviation": "sc",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://www.scvotes.gov/",
       "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
       "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
-      "ip_deadline": "Friday, October 2, 2020",
-      "online_deadline": "Sunday, October 4, 2020",
-      "mail_deadline": "Monday, October 5, 2020",
+      "ip_deadline": "30 days before Election Day",
+      "online_deadline": "30 days before Election Day",
+      "mail_deadline": "30 days before Election Day",
       "confirm_registration": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
     },
     "spanish": {
+      "hp_link": "https://www.scvotes.gov/",
+      "hp_link_english_only": "true",
       "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
       "registration_link_english_only": "true",
       "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
       "more_info_link_english_only": "true",
-      "ip_deadline": "viernes 2 de octubre 2020",
-      "online_deadline": "domingo 4 de octubre 2020",
-      "mail_deadline": "lunes 5 de octubre 2020",
+      "ip_deadline": "hasta 30 días antes del día de las elecciones",
+      "online_deadline": "hasta 30 días antes del día de las elecciones",
+      "mail_deadline": "30 días antes del día de las elecciones",
       "confirm_registration": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo",
       "confirm_registration_english_only": "true"
     }
