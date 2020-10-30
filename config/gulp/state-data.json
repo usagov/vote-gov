@@ -971,21 +971,24 @@
     "state_abbreviation": "or",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://sos.oregon.gov/voting-elections/Pages/default.aspx",
       "registration_link": "https://secure.sos.state.or.us/orestar/vr/register.do",
       "more_info_link": "https://sos.oregon.gov/voting/Pages/registration.aspx",
-      "ip_deadline": "Tuesday, October 13, 2020",
-      "online_deadline": "Tuesday, October 13, 2020",
-      "mail_deadline": "Tuesday, October 13, 2020",
+      "ip_deadline": "21 days before Election Day",
+      "online_deadline": "21 days before Election Day",
+      "mail_deadline": "21 days before Election Day",
       "confirm_registration": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS"
     },
     "spanish": {
+      "hp_link": "https://sos.oregon.gov/voting-elections/Pages/default.aspx",
+      "hp_link_english_only": "true",
       "registration_link": "https://secure.sos.state.or.us/orestar/vr/register.do",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://sos.oregon.gov/voting/Pages/registration.aspx",
       "more_info_link_spanish_selection": "true",
-      "ip_deadline": "martes 13 de octubre 2020",
-      "online_deadline": "martes 13 de octubre 2020",
-      "mail_deadline": "martes 13 de octubre 2020",
+      "ip_deadline": "hasta 21 días antes del día de las elecciones",
+      "online_deadline": "hasta 21 días antes del día de las elecciones",
+      "mail_deadline": "21 días antes del día de las elecciones",
       "confirm_registration": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS",
       "confirm_registration_spanish_selection": "true"
     }
@@ -995,21 +998,24 @@
     "state_abbreviation": "pa",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://www.pa.gov/guides/voting-and-elections/",
       "registration_link": "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
       "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote",
-      "ip_deadline": "Monday, October 19, 2020",
-      "online_deadline": "Monday, October 19, 2020",
-      "mail_deadline2": "Monday, October 19, 2020",
+      "ip_deadline": "15 days before Election Day",
+      "online_deadline": "15 days before Election Day",
+      "mail_deadline2": "15 days before Election Day",
       "confirm_registration": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
     },
     "spanish": {
+      "hp_link": "https://www.pa.gov/guides/voting-and-elections/",
+      "hp_link_english_only": "true",
       "registration_link": "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote",
       "more_info_link_english_only": "true",
-      "ip_deadline": "lunes 19 de octubre 2020",
-      "online_deadline": "lunes 19 de octubre 2020",
-      "mail_deadline2": "lunes 19 de octubre 2020",
+      "ip_deadline": "hasta 15 días antes del día de las elecciones",
+      "online_deadline": "hasta 15 días antes del día de las elecciones",
+      "mail_deadline2": "15 días antes del día de las elecciones",
       "confirm_registration": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx",
       "confirm_registration_spanish_selection": "true"
     }
