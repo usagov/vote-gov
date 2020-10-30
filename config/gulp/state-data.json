@@ -1093,16 +1093,19 @@
     "state_abbreviation": "sd",
     "registration_type": "by-mail",
     "english": {
+      "hp_link": "https://sdsos.gov/elections-voting/",
       "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
-      "ip_deadline": "Monday, October 19, 2020",
-      "mail_deadline2": "Monday, October 19, 2020",
+      "ip_deadline": "15 days before Election Day",
+      "mail_deadline2": "15 days before Election Day",
       "confirm_registration": "https://vip.sdsos.gov/VIPLogin.aspx"
     },
     "spanish": {
+      "hp_link": "https://sdsos.gov/elections-voting/",
+      "hp_link_english_only": "true",
       "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
       "more_info_link_english_only": "true",
-      "ip_deadline": "lunes 19 de octubre 2020",
-      "mail_deadline2": "lunes 19 de octubre 2020",
+      "ip_deadline": "hasta 15 días antes del día de las elecciones",
+      "mail_deadline2": "15 días antes del día de las elecciones",
       "confirm_registration": "https://vip.sdsos.gov/VIPLogin.aspx",
       "confirm_registration_english_only": "true"
     }
@@ -1227,14 +1230,17 @@
     "state_abbreviation": "vi",
     "registration_type": "in-person",
     "english": {
+      "hp_link": "https://www.vivote.gov/voters/register-vote",
       "more_info_link": "https://www.vivote.gov/voters/register-vote",
-      "ip_deadline": "Sunday, October 4, 2020",
+      "ip_deadline": "30 days before Election Day",
       "confirm_registration": "https://www.vivote.gov/voters/lookup"
     },
     "spanish": {
+      "hp_link": "https://www.vivote.gov/voters/register-vote",
+      "hp_link_english_only": "true",
       "more_info_link": "https://www.vivote.gov/voters/register-vote",
       "more_info_english_only": "true",
-      "ip_deadline": "domingo 4 de octubre de 2020",
+      "ip_deadline": "hasta 30 días antes del día de las elecciones",
       "confirm_registration": "https://www.vivote.gov/voters/lookup",
       "confirm_registration_english_only": "true"
     }
