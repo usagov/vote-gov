@@ -1250,21 +1250,23 @@
     "state_abbreviation": "wa",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://www.sos.wa.gov/elections/",
       "registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
       "more_info_link": "https://www.sos.wa.gov/elections/voters/",
-      "ip_deadline": "Tuesday, November 3, 2020",
-      "online_deadline": "Monday, October 26, 2020",
-      "mail_deadline2": "Monday, October 26, 2020",
+      "ip_deadline": "Available up to and including on Election Day",
+      "online_deadline": "8 days before Election Day",
+      "mail_deadline2": "8 days before Election Day",
       "confirm_registration": "https://voter.votewa.gov/WhereToVote.aspx"
     },
     "spanish": {
+      "hp_link": "https://www.sos.wa.gov/elections/spanish.aspx",
       "registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://www.sos.wa.gov/elections/voters/",
       "more_info_link_spanish_selection": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
-      "online_deadline": "lunes 26 de octubre 2020",
-      "mail_deadlin2": "lunes 26 de octubre 2020",
+      "online_deadline": "hasta 8 días antes del día de las elecciones",
+      "mail_deadlin2": "8 días antes del día de las elecciones",
       "confirm_registration": "https://voter.votewa.gov/WhereToVote.aspx",
       "confirm_registration_spanish_selection": "true"
     }
@@ -1274,21 +1276,24 @@
     "state_abbreviation": "wv",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://sos.wv.gov/elections/Pages/default.aspx",
       "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
       "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
-      "ip_deadline": "Tuesday, October 13, 2020",
-      "online_deadline": "Tuesday, October 13, 2020",
-      "mail_deadline": "Tuesday, October 13, 2020",
+      "ip_deadline": "21 days before Election Day",
+      "online_deadline": "21 days before Election Day",
+      "mail_deadline": "21 days before Election Day",
       "confirm_registration": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
     },
     "spanish": {
+      "hp_link": "https://sos.wv.gov/elections/Pages/default.aspx",
+      "hp_link_english_only": "true",
       "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
       "registration_link_english_only": "true",
       "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
       "more_info_link_english_only": "true",
-      "ip_deadline": "martes 13 de octubre 2020",
-      "online_deadline": "martes 13 de octubre 2020",
-      "mail_deadline": "martes 13 de octubre 2020",
+      "ip_deadline": "hasta 21 días antes del día de las elecciones",
+      "online_deadline": "hasta 21 días antes del día de las elecciones",
+      "mail_deadline": "21 días antes del día de las elecciones",
       "confirm_registration": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace",
       "confirm_registration_english_only": "true"
     }
@@ -1321,15 +1326,18 @@
     "state_abbreviation": "wy",
     "registration_type": "by-mail",
     "english": {
+      "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
       "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
-      "ip_deadline": "Tuesday, November 3, 2020",
-      "mail_deadline2": "Monday, October 19, 2020" 
+      "ip_deadline": "Available up to and including on Election Day",
+      "mail_deadline2": "15 days before Election Day" 
     },
     "spanish": {
+      "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
+      "hp_link_english_only": "true",
       "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
       "more_info_link_english_only": "true",
       "ip_deadline": "martes 3 de noviembre 2020",
-      "mail_deadline2": "lunes 19 de octubre 2020"
+      "mail_deadline2": "15 días antes del día de las elecciones"
     }
   }
 }
