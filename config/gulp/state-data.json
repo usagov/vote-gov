@@ -905,14 +905,17 @@
     "state_abbreviation": "mp",
     "registration_type": "in-person",
     "english": {
+      "hp_link": "https://www.votecnmi.gov.mp/",
       "more_info_link": "https://www.votecnmi.gov.mp/",
-      "ip_deadline": "Friday, September 4, 2020",
+      "ip_deadline": "60 days before Election Day",
       "confirm_registration": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
     },
     "spanish": {
+      "hp_link": "https://www.votecnmi.gov.mp/",
+      "hp_link_english_only": "true",
       "more_info_link": "https://www.votecnmi.gov.mp/",
       "more_info_link_english_only": "true",
-      "ip_deadline": "viernes 4 de septiembre de 2020",
+      "ip_deadline": "hasta 60 días antes del día de las elecciones",
       "confirm_registration": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote",
       "confirm_registration_english_only": "true"
     }
@@ -946,16 +949,19 @@
     "state_abbreviation": "ok",
     "registration_type": "by-mail",
     "english": {
+      "hp_link": "https://www.ok.gov/elections/",
       "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html",
-      "ip_deadline": "Friday, October 9, 2020",
-      "mail_deadline": "Friday, October 9, 2020",
+      "ip_deadline": "25 days before Election Day",
+      "mail_deadline": "25 days before Election Day",
       "confirm_registration": "https://okvoterportal.okelections.us/" 
     },
     "spanish": {
+      "hp_link": "https://www.ok.gov/elections/",
+      "hp_link_english_only": "true",
       "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html",
       "more_info_link_english_only": "true",
-      "ip_deadline": "viernes 9 de octubre 2020",
-      "mail_deadline": "viernes 9 de octubre 2020",
+      "ip_deadline": "hasta 25 días antes del día de las elecciones",
+      "mail_deadline": "25 días antes del día de las elecciones",
       "confirm_registration": "https://okvoterportal.okelections.us/",
       "confirm_registration_spanish_selection": "true"
     }
