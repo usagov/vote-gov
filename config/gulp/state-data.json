@@ -102,7 +102,6 @@
     "english": {
       "hp_link": "https://www.sos.arkansas.gov/elections/",
       "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
-      "hp_link": "https://www.sos.arkansas.gov/elections/voter-information/",
       "ip_deadline": "30 days before Election Day",
       "mail_deadline": "30 days before Election Day",
       "confirm_registration": "https://www.voterview.ar-nova.org/voterview"
@@ -111,8 +110,6 @@
       "hp_link": "https://www.sos.arkansas.gov/elections/",
       "hp_link_english_only": "true",
       "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
-      "hp_link": "https://www.sos.arkansas.gov/elections/voter-information/",
-      "hp_link_english_only": "true",
       "more_info_link_english_only": "true",
       "ip_deadline": "hasta 30 días antes del día de las elecciones",
       "mail_deadline": "30 días antes del día de las elecciones",
