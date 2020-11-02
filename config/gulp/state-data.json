@@ -667,7 +667,7 @@
     "state_abbreviation": "mo",
     "registration_type": "online",
     "english": {
-      "hp_link": "https://s1.sos.mo.gov/elections",
+      "hp_link": "https://www.sos.mo.gov/elections",
       "registration_link": "https://s1.sos.mo.gov/elections/voterregistration/",
       "more_info_link": "https://www.sos.mo.gov/elections/goVoteMissouri/register",
       "ip_deadline": "Fourth Wednesday before Election Day",
@@ -676,7 +676,7 @@
       "confirm_registration": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx"
     },
     "spanish": {
-      "hp_link": "https://s1.sos.mo.gov/elections",
+      "hp_link": "https://www.sos.mo.gov/elections",
       "hp_link_english_only": "true",
       "registration_link": "https://s1.sos.mo.gov/elections/voterregistration/",
       "registration_link_english_only": "true",
