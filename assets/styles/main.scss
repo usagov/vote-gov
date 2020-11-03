@@ -147,17 +147,23 @@ label.max-width-input {
   width: auto;
 }
 
-.usa-header .usa-alert--warning {
+.usa-header .usa-alert--info {
   margin-top: 0;
 }
 .usa-alert{
   padding:0;
 }
-.usa-alert--warning {
+
+.usa-alert--info::before {
+    background-color: #00bde3;
+} 
+
+.usa-alert--info {
   background-image: unset;
+  background-color: #e7f6f8;
 
   .grid-container {
-    background-image: url(../img/alerts/warning.svg), linear-gradient(transparent, transparent);
+    background-image: url(../img/alerts/info.svg), linear-gradient(transparent, transparent);
     background-position: 1rem 0.9rem;
     background-repeat: no-repeat;
     background-size: 2rem;

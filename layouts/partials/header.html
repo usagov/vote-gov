@@ -65,7 +65,7 @@
   </section>
 
 
-  <div class="usa-alert usa-alert--warning">
+  <div class="usa-alert usa-alert--info">
     <div class="grid-container">
       <div class="usa-alert__body">
 
@@ -74,8 +74,7 @@
         {{ else }}
         <p class="usa-alert__text">
           {{ $translation.register.alert_state.alert_after_election }}
-          <a
-            href="{{ .Params.hp_link }}{{ if in .Params.hp_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+          <a href="{{ .Params.hp_link }}{{ if in .Params.hp_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
             {{ $translation.register.alert_state.alert_msg1 -}}
             {{ if .Params.hp_link_english_only }}
             {{ $translation.register.hp_english_only -}}
