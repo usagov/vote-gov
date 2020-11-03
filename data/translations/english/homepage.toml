@@ -27,7 +27,7 @@ process_url = "https://www.usa.gov/election"
 
 [alert]
 alert_msg = "Due to COVID-19, there may be changes to when, where and how you vote in your upcoming elections. Check with your state election site for more information."
-alert_after_election = "For official election results. Go to your state election website."
+alert_after_election = "For official election results, go to your state election website."
 
 [banner]
 banner_text = "An official website of the United States government"
