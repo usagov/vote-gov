@@ -150,6 +150,12 @@ label.max-width-input {
 .usa-header .usa-alert--info {
   margin-top: 0;
 }
+
+.usa-banner__header {
+  padding-right: 0.5rem;
+  border-bottom: 1px solid black;
+}
+
 .usa-alert{
   padding:0;
 }
@@ -164,7 +170,7 @@ label.max-width-input {
 
   .grid-container {
     background-image: url(../img/alerts/info.svg), linear-gradient(transparent, transparent);
-    background-position: 1rem 0.9rem;
+    background-position: 1rem 1rem;
     background-repeat: no-repeat;
     background-size: 2rem;
   
@@ -180,9 +186,9 @@ label.max-width-input {
 }
 
 .usa-alert__text:only-child {
-  margin-bottom: units($theme-alert-bar-width);
-  padding-top: units(1);
-  padding-bottom: units(0.5);
+  margin-bottom: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.25rem;
 }
 
 .form-register {
