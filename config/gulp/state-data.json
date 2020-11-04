@@ -612,7 +612,7 @@
       "registration_link_english_only": "true",
       "more_info_link": "https://mvic.sos.state.mi.us/",
       "more_info_link_english_only": "true",
-      "ip_deadline": "martes 3 de noviembre 2020",
+      "ip_deadline": "hasta el mismo día de las elecciones",
       "online_deadline": "hasta 15 días antes del día de las elecciones",
       "mail_deadline": "15 días antes del día de las elecciones",
       "confirm_registration": "https://mvic.sos.state.mi.us/",
@@ -637,7 +637,7 @@
       "registration_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
       "registration_link_english_only": "true",
       "more_info_link": "https://www.sos.state.mn.us/elections-voting/spanish",
-      "ip_deadline": "martes 3 de noviembre 2020",
+      "ip_deadline": "hasta el mismo día de las elecciones",
       "online_deadline": "hasta 21 días antes del día de las elecciones",
       "mail_deadline2": "21 días antes del día de las elecciones",
       "confirm_registration": "https://www.sos.state.mn.us/elections-voting/spanish"
@@ -705,7 +705,7 @@
       "hp_link_english_only": "true",
       "more_info_link": "https://sosmt.gov/elections/vote/",
       "more_info_link_english_only": "true",
-      "ip_deadline": "martes 3 de noviembre 2020",
+      "ip_deadline": "hasta el mismo día de las elecciones",
       "mail_deadline": "8 días antes del día de las elecciones",
       "confirm_registration": "https://sosmt.gov/elections/vote/",
       "confirm_registration_english_only": "true"
