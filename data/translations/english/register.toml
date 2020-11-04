@@ -10,7 +10,7 @@ link = "%state_name%’s state election website"
 
 [other_language_selection]
 default = "Select your language"
-heading = "What are the other ways to register to vote in %state_name%?"
+heading = "Other ways to register to vote in %state_name%"
 label = "You can also download the National Voter Registration Form (PDF) available in English and 14 additional languages from the dropdown menu below."
 submit = "Download the National Voter Registration Form"
 
@@ -30,7 +30,7 @@ answer1_link = " online registration on %state_name%’s election website"
 answer2 = "You can also"
 answer2_link = "  register to vote by mail or in person on %state_name%’s election website"
 h2_question2 = "Other ways to register to vote in %state_name%"
-h2_question1 = "How do I register to vote in %state_name%?"
+h2_question1 = "How to register to vote in %state_name%"
 
 [alert_state]
 alert_msg = "Due to COVID-19, there may be changes to when, where and how you vote in your upcoming elections. Check with"
