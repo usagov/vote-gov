@@ -1,6 +1,6 @@
 h2-deadline = "Voter registration deadline in %state_name%"
 heading = "Register to vote in %state_name%"
-heading2 = "How do I register to vote in %state_name%?"
+heading2 = "How to register to vote in %state_name%"
 meta_name = "Find out how to register to vote in %state_name%"
 state_heading = "Voter Registration in %state_name%"
 
@@ -29,7 +29,7 @@ answer1_link = " online registration on %state_name%’s election website"
 
 answer2 = "You can also"
 answer2_link = "  register to vote by mail or in person on %state_name%’s election website"
-h2_question2 = "What are the other ways to register to vote in %state_name%?"
+h2_question2 = "Other ways to register to vote in %state_name%"
 h2_question1 = "How do I register to vote in %state_name%?"
 
 [alert_state]
