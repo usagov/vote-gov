@@ -39,6 +39,7 @@
 
 
 {{ if isset .Params "confirm_registration" }}
+	{{ if not (in .Params.registration_type "not-needed") }}
 <header>
 	<h2>{{ $translation.register.confirm_registration.heading }}</h2>
 </header>
@@ -54,4 +55,5 @@
 		{{ end }}.
 	</a>
 </p>
+{{ end }}
 {{ end }}
