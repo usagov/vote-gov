@@ -76,21 +76,24 @@
     "state_abbreviation": "az",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://azsos.gov/elections",
       "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information",
-      "online_deadline": "Friday, October 23, 2020",
-      "mail_deadline2": "Friday, October 23, 2020",
-      "ip_deadline": "Friday, October 23, 2020",
+      "online_deadline": "28 days before Election Day",
+      "mail_deadline2": "28 days before Election Day",
+      "ip_deadline": "28 days before Election Day",
       "confirm_registration": "https://my.arizona.vote/WhereToVote.aspx?s=individual"
     },
     "spanish": {
+      "hp_link": "https://azsos.gov/elections",
+      "hp_link_spanish_selection": "true",
       "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information-sp",
       "more_info_link_spanish_selection": "true",
-      "ip_deadline": "viernes 23 de octubre 2020",
-      "online_deadline": "viernes 23 de octubre 2020",
-      "mail_deadline2": "viernes 23 de octubre 2020",
+      "ip_deadline": "hasta 28 días antes del día de las elecciones",
+      "online_deadline": "hasta 28 días antes del día de las elecciones",
+      "mail_deadline2": "28 días antes del día de las elecciones",
       "confirm_registration": "https://my.arizona.vote/WhereToVote.aspx?s=individual",
       "confirm_registration_spanish_selection": "true"
     }
