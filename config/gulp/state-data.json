@@ -80,7 +80,7 @@
       "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information",
       "online_deadline": "28 days before Election Day",
-      "mail_deadline2": "28 days before Election Day",
+      "mail_deadline": "28 days before Election Day",
       "ip_deadline": "28 days before Election Day",
       "confirm_registration": "https://my.arizona.vote/WhereToVote.aspx?s=individual"
     },
@@ -93,7 +93,7 @@
       "more_info_link_spanish_selection": "true",
       "ip_deadline": "hasta 28 días antes del día de las elecciones",
       "online_deadline": "hasta 28 días antes del día de las elecciones",
-      "mail_deadline2": "28 días antes del día de las elecciones",
+      "mail_deadline": "28 días antes del día de las elecciones",
       "confirm_registration": "https://my.arizona.vote/WhereToVote.aspx?s=individual",
       "confirm_registration_spanish_selection": "true"
     }
@@ -257,21 +257,24 @@
     "state_abbreviation": "fl",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://dos.myflorida.com/elections/",
       "registration_link": "https://registertovoteflorida.gov/eligibilityreactive",
       "more_info_link": "https://registertovoteflorida.gov/home",
-      "ip_deadline": "Monday, October 5, 2020",
-      "online_deadline": "Monday, October 5, 2020",
-      "mail_deadline": "Monday, October 5, 2020",
+      "ip_deadline": "29 days before Election Day",
+      "online_deadline": "29 days before Election Day",
+      "mail_deadline": "29 days before Election Day",
       "confirm_registration": "https://registration.elections.myflorida.com/CheckVoterStatus"
     },
     "spanish": {
+      "hp_link": "https://dos.myflorida.com/elections/",
+      "hp_link_spanish_selection": "true",
       "registration_link": "https://registertovoteflorida.gov/home",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://registertovoteflorida.gov/home",
       "more_info_link_spanish_selection": "true",
-      "ip_deadline": "lunes 5 de octubre 2020",
-      "online_deadline": "lunes 5 de octubre 2020",
-      "mail_deadline": "lunes 5 de octubre 2020",
+      "ip_deadline": "hasta 29 días antes del día de las elecciones",
+      "online_deadline": "hasta 29 días antes del día de las elecciones",
+      "mail_deadline": "29 días antes del día de las elecciones",
       "confirm_registration": "https://registration.elections.myflorida.com/es/CheckVoterStatus/Index"
     }
   },
