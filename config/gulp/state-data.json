@@ -284,21 +284,24 @@
     "state_abbreviation": "ga",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://sos.ga.gov/index.php/elections",
       "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
       "more_info_link": "https://sos.ga.gov/index.php/Elections/register_to_vote",
-      "ip_deadline": "Monday, October 5, 2020",
-      "online_deadline": "Monday, October 5, 2020",
-      "mail_deadline2": "Monday, October 5, 2020",
+      "ip_deadline": "Fifth Monday before Election Day",
+      "online_deadline": "Fifth Monday before Election Day",
+      "mail_deadline": "by the fifth Monday before Election Day",
       "confirm_registration": "https://www.mvp.sos.ga.gov/MVP/mvp.do"
     },
     "spanish": {
+      "hp_link": "https://sos.ga.gov/index.php/elections",
+      "hp_link_english_only": "true",
       "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
       "registration_link_english_only": "true",
       "more_info_link": "https://sos.ga.gov/index.php/Elections/register_to_vote",
       "more_info_link_english_only": "true",
-      "ip_deadline": "lunes 5 de octubre 2020",
-      "online_deadline": "lunes 5 de octubre 2020",
-      "mail_deadline2": "lunes 5 de octubre 2020",
+      "ip_deadline": "hasta el quinto lunes antes del día de las elecciones",
+      "online_deadline": "hasta el quinto lunes antes del día de las elecciones",
+      "mail_deadline": "hasta el quinto lunes antes del día de las elecciones",
       "confirm_registration": "https://www.mvp.sos.ga.gov/MVP/mvp.do",
       "confirm_registration_english_only": "true"
     }
