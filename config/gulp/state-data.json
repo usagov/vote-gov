@@ -899,21 +899,24 @@
     "state_abbreviation": "nc",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://www.ncsbe.gov/voting",
       "registration_link": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
       "more_info_link": "https://www.ncsbe.gov/registering/how-register",
-      "ip_deadline": "Saturday, October 31, 2020",
-      "online_deadline": "Friday, October 9, 2020",
-      "mail_deadline": "Friday, October 9, 2020",
+      "ip_deadline": "Same day registration available during early voting period",
+      "online_deadline": "25 days before Election Day",
+      "mail_deadline": "25 days before Election Day",
       "confirm_registration": "https://vt.ncsbe.gov/RegLkup/"
     },
     "spanish": {
+      "hp_link": "https://www.ncsbe.gov/voting",
+      "hp_link_english_only": "true",
       "registration_link": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
       "registration_link_english_only": "true",
       "more_info_link": "https://www.ncsbe.gov/registering/how-register",
       "more_info_link_english_only": "true",
-      "ip_deadline": "sábado 31 de octubre 2020",
-      "online_deadline": "viernes 9 de octubre 2020",
-      "mail_deadline": "viernes 9 de octubre 2020",
+      "ip_deadline": "Registro el mismo día disponible durante el período de votación anticipada",
+      "online_deadline": "hasta 25 días antes del día de las elecciones",
+      "mail_deadline": "25 días antes del día de las elecciones",
       "confirm_registration": "https://vt.ncsbe.gov/RegLkup/",
       "confirm_registration_english_only": "true"
     }
