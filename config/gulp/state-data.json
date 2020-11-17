@@ -79,9 +79,9 @@
       "hp_link": "https://azsos.gov/elections",
       "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information",
-      "online_deadline": "28 days before Election Day",
-      "mail_deadline": "28 days before Election Day",
-      "ip_deadline": "28 days before Election Day",
+      "online_deadline": "29 days before Election Day",
+      "mail_deadline": "29 days before Election Day",
+      "ip_deadline": "29 days before Election Day",
       "confirm_registration": "https://my.arizona.vote/WhereToVote.aspx?s=individual"
     },
     "spanish": {
@@ -91,9 +91,9 @@
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information-sp",
       "more_info_link_spanish_selection": "true",
-      "ip_deadline": "hasta 28 días antes del día de las elecciones",
-      "online_deadline": "hasta 28 días antes del día de las elecciones",
-      "mail_deadline": "28 días antes del día de las elecciones",
+      "ip_deadline": "hasta 29 días antes del día de las elecciones",
+      "online_deadline": "hasta 29 días antes del día de las elecciones",
+      "mail_deadline": "29 días antes del día de las elecciones",
       "confirm_registration": "https://my.arizona.vote/WhereToVote.aspx?s=individual",
       "confirm_registration_spanish_selection": "true"
     }
@@ -267,7 +267,7 @@
     },
     "spanish": {
       "hp_link": "https://dos.myflorida.com/elections/",
-      "hp_link_spanish_selection": "true",
+      "hp_link_english_only": "true",
       "registration_link": "https://registertovoteflorida.gov/home",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://registertovoteflorida.gov/home",
@@ -926,10 +926,13 @@
     "state_abbreviation": "nd",
     "registration_type": "not-needed",
     "english": {
+      "hp_link": "https://vip.sos.nd.gov/PortalList.aspx",
       "more_info_link": "https://vip.sos.nd.gov/PortalList.aspx",
       "confirm_registration": "https://vip.sos.nd.gov/WhereToVote.aspx?tab=&ptlPKID=&ptlhPKID="
     },
     "spanish": {
+      "hp_link": "https://vip.sos.nd.gov/PortalList.aspx",
+      "hp_link_english_only": "true",
       "more_info_link": "https://vip.sos.nd.gov/PortalList.aspx",
       "more_info_link_english_only": "true",
       "confirm_registration": "https://vip.sos.nd.gov/WhereToVote.aspx?tab=&ptlPKID=&ptlhPKID=",
@@ -1237,7 +1240,7 @@
       "more_info_link": "https://sos.vermont.gov/elections/voters/registration/",
       "ip_deadline": "Available up to and including on Election Day",
       "online_deadline": "Friday before Election Day",
-      "mail_deadline2": "by Election Day",
+      "mail_deadline2": "by the Friday before Election Day",
       "confirm_registration": "https://mvp.vermont.gov/"
       
     },
@@ -1249,8 +1252,8 @@
       "more_info_link": "https://sos.vermont.gov/elections/voters/registration/",
       "more_info_link_english_only": "true",
       "ip_deadline": "hasta el mismo día de las elecciones",
-      "online_deadline": "Viernes antes del día de las elecciones",
-      "mail_deadline2": "hasta el mismo día de las elecciones",
+      "online_deadline": "hasta el viernes anterior al día de las elecciones",
+      "mail_deadline2": "hasta el viernes anterior al día de las elecciones",
       "confirm_registration": "https://mvp.vermont.gov/",
       "confirm_registration_english_only": "true"
     }
