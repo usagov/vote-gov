@@ -1232,22 +1232,25 @@
     "state_abbreviation": "vt",
     "registration_type": "online",
     "english": {
+      "hp_link": "https://sos.vermont.gov/elections/",
       "registration_link": "https://olvr.vermont.gov/",
       "more_info_link": "https://sos.vermont.gov/elections/voters/registration/",
-      "ip_deadline": "Tuesday, November 3, 2020",
-      "online_deadline": "Friday, October 30, 2020",
-      "mail_deadline2": "Friday, October 30, 2020",
+      "ip_deadline": "Available up to and including on Election Day",
+      "online_deadline": "Friday before Election Day",
+      "mail_deadline2": "Available up to and including on Election Day",
       "confirm_registration": "https://mvp.vermont.gov/"
       
     },
     "spanish": {
+      "hp_link": "https://sos.vermont.gov/elections/",
+      "hp_link_english_only": "true",
       "registration_link": "https://olvr.vermont.gov/",
       "registration_link_english_only": "true",
       "more_info_link": "https://sos.vermont.gov/elections/voters/registration/",
       "more_info_link_english_only": "true",
-      "ip_deadline": "martes 3 de noviembre 2020",
-      "online_deadline": "viernes 30 de octubre 2020",
-      "mail_deadline2": "viernes 30 de octubre 2020",
+      "ip_deadline": "hasta el mismo día de las elecciones",
+      "online_deadline": "Viernes antes del día de las elecciones",
+      "mail_deadline2": "hasta el mismo día de las elecciones",
       "confirm_registration": "https://mvp.vermont.gov/",
       "confirm_registration_english_only": "true"
     }
