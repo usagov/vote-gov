@@ -551,7 +551,7 @@
       "hp_link": "https://www.maine.gov/sos/cec/elec/",
       "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
       "ip_deadline": "Available up to and including on Election Day",
-      "mail_deadline2": "15 days before Election Day",
+      "mail_deadline2": "21 days before Election Day",
       "confirm_registration": "https://www.maine.gov/sos/cec/elec/data/index.html"
     },
     "spanish": {
@@ -560,7 +560,7 @@
       "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
       "more_info_link_english_only": "true",
       "ip_deadline": "hasta el mismo día de las elecciones",
-      "mail_deadline2": "15 días antes del día de las elecciones",
+      "mail_deadline2": "21 días antes del día de las elecciones",
       "confirm_registration": "https://www.maine.gov/sos/cec/elec/data/index.html",
       "confirm_registration_english_only": "true"
     }
@@ -675,16 +675,19 @@
     "state_abbreviation": "ms",
     "registration_type": "by-mail",
     "english": {
+      "hp_link": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
       "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
-      "ip_deadline": "Monday, October 5, 2020",
-      "mail_deadline": "Monday, October 5, 2020",
+      "ip_deadline": "30 days before Election Day",
+      "mail_deadline": "30 days before Election Day",
       "confirm_registration": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
     },
     "spanish": {
+      "hp_link": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
+      "hp_link_english_only": "true",
       "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
       "more_info_link_english_only": "true",
-      "ip_deadline": "lunes 5 de octubre 2020",
-      "mail_deadline": "lunes 5 de octubre 2020",
+      "ip_deadline": "hasta 30 días antes del día de las elecciones",
+      "mail_deadline": "30 días antes del día de las elecciones",
       "confirm_registration": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
       "confirm_registration_english_only": "true"
     }
