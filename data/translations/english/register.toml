@@ -20,7 +20,7 @@ link = "%state_name%’s election website"
 
 [not_needed]
 intro = "Voter registration is not required in %state_name%. Learn more about voting on"
-link = "%state_name%s election website"
+link = "%state_name%'s election website"
 
 [online]
 
