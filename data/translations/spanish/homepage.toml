@@ -27,6 +27,7 @@ process_url = "https://www.usa.gov/espanol/proceso-electoral"
 
 [alert]
 alert_msg = "Debido al COVID-19, su estado podría haber modificado cuándo, dónde y cómo usted podrá votar en las próximas elecciones. Verifique esta información en el sitio web electoral de su estado."
+alert_after_election = "Para ver los resultados oficiales de las elecciones visite el sitio web electoral de su estado."
 
 [banner]
 banner_text = "Un sitio oficial del Gobierno de Estados Unidos"
