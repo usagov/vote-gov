@@ -727,7 +727,7 @@
       "hp_link": "https://sosmt.gov/elections/",
       "more_info_link": "https://sosmt.gov/elections/vote/",
       "ip_deadline": "Available up to and including on Election Day",
-      "mail_deadline": "8 days before Election Day",
+      "mail_deadline": "30 days before Election Day",
       "confirm_registration": "https://sosmt.gov/elections/vote/"
     },
     "spanish": {
@@ -736,7 +736,7 @@
       "more_info_link": "https://sosmt.gov/elections/vote/",
       "more_info_link_english_only": "true",
       "ip_deadline": "hasta el mismo día de las elecciones",
-      "mail_deadline": "8 días antes del día de las elecciones",
+      "mail_deadline": "30 días antes del día de las elecciones",
       "confirm_registration": "https://sosmt.gov/elections/vote/",
       "confirm_registration_english_only": "true"
     }
@@ -749,7 +749,7 @@
       "hp_link": "https://sos.nebraska.gov/elections/2020-elections",
       "registration_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
       "more_info_link": "https://sos.nebraska.gov/elections/voter-forms",
-      "ip_deadline": "10 days before Election Day",
+      "ip_deadline": "Second Friday before Election Day",
       "online_deadline": "Third Friday before Election Day",
       "mail_deadline": "by the third Friday before Election Day",
       "confirm_registration": "https://www.votercheck.necvr.ne.gov/voterview"
@@ -760,7 +760,7 @@
       "registration_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
       "registration_link_spanish_selection": "true",
       "more_info_link": "https://sos.nebraska.gov/elections/voter-forms",
-      "ip_deadline": "hasta 10 días antes del día de las elecciones",
+      "ip_deadline": "hasta el segundo viernes antes del día de las elecciones",
       "online_deadline": "hasta el tercer viernes antes del día de las elecciones",
       "mail_deadline": "hasta el tercer viernes antes del día de las elecciones",
       "confirm_registration": "https://www.votercheck.necvr.ne.gov/voterview/?culture=es-MX"
