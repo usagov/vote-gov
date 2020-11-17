@@ -129,7 +129,7 @@
     "english": {
       "hp_link": "https://www.sos.ca.gov/elections",
       "registration_link": "https://registertovote.ca.gov/",
-      "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote/",
+      "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote",
       "crazyegg": "true",
       "ip_deadline": "Available up to and including on Election Day",
       "online_deadline": "15 days before Election Day",
@@ -139,7 +139,7 @@
     "spanish": {
       "hp_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/",
       "registration_link": "https://registertovote.ca.gov/es-mx",
-      "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote/",
+      "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote",
       "crazyegg": "true",
       "ip_deadline": "hasta el mismo día de las elecciones",
       "online_deadline": "hasta 15 días antes del día de las elecciones",
@@ -858,7 +858,7 @@
       "hp_link_spanish_selection": "true",
       "registration_link": "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx",
       "registration_link_spanish_selection": "true",
-      "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information/voter-registration-information/",
+      "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information-portal/voter-registration-information/",
       "more_info_link_spanish_selection": "true",
       "ip_deadline": "hasta el sábado antes del día de las elecciones",
       "online_deadline": "hasta 28 días antes del día de las elecciones",
