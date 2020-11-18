@@ -39,6 +39,7 @@
 
 
 {{ if isset .Params "confirm_registration" }}
+	{{ if not (in .Params.registration_type "not-needed") }}
 <header>
 	<h2>{{ $translation.register.confirm_registration.heading }}</h2>
 </header>
@@ -55,9 +56,4 @@
 	</a>
 </p>
 {{ end }}
-
-<header>
-	<h2>{{ replace $translation.register.dates.electionday_heading "%state_name%" .Params.state_name }}</h2>
-</header>
-<p>{{ replace $translation.register.dates.electionday "%online_deadline%" .Params.state_name }}</p>
-
+{{ end }}
