@@ -660,7 +660,8 @@
       "confirm_registration": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
     },
     "spanish": {
-      "hp_link": "https://www.sos.state.mn.us/elections-voting/spanish",
+      "hp_link": "https://www.sos.state.mn.us/elections-voting/",
+      "hp_link_english_only": "true",
       "registration_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
       "registration_link_english_only": "true",
       "more_info_link": "https://www.sos.state.mn.us/elections-voting/spanish",
