@@ -715,7 +715,7 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "hasta el cuarto miércoles antes del día de las elecciones",
       "online_deadline": "hasta el cuarto miércoles antes del día de las elecciones",
-      "mail_deadline": "hasta el cuarto miércoles antes del día de las elecciones",
+      "mail_deadline": "a más tardar el cuarto miércoles antes del día de las elecciones",
       "confirm_registration": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx",
       "confirm_registration_english_only": "true"
     }
@@ -1254,7 +1254,7 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "hasta el mismo día de las elecciones",
       "online_deadline": "hasta el viernes anterior al día de las elecciones",
-      "mail_deadline2": "hasta el viernes anterior al día de las elecciones",
+      "mail_deadline2": "a más tardar el viernes anterior al día de las elecciones",
       "confirm_registration": "https://mvp.vermont.gov/",
       "confirm_registration_english_only": "true"
     }
