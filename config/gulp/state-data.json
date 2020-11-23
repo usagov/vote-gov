@@ -221,7 +221,7 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "hasta el cuarto sábado antes del día de las elecciones",
       "online_deadline": "hasta el cuarto sábado antes del día de las elecciones",
-      "mail_deadline": "hasta el cuarto sábado antes del día de las elecciones",
+      "mail_deadline": "a más tardar el cuarto sábado antes del día de las elecciones",
       "confirm_registration": "https://ivote.de.gov/VoterView/?culture=es-MX"
     }
   },
@@ -301,7 +301,7 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "hasta el quinto lunes antes del día de las elecciones",
       "online_deadline": "hasta el quinto lunes antes del día de las elecciones",
-      "mail_deadline": "hasta el quinto lunes antes del día de las elecciones",
+      "mail_deadline": "a más tardar el quinto lunes antes del día de las elecciones",
       "confirm_registration": "https://www.mvp.sos.ga.gov/MVP/mvp.do",
       "confirm_registration_english_only": "true"
     }
@@ -379,7 +379,7 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "hasta el mismo día de las elecciones",
       "online_deadline": "hasta 25 días antes del día de las elecciones",
-      "mail_deadline": "hasta 25 días antes del día de las elecciones",
+      "mail_deadline": "a más tardar 25 días antes del día de las elecciones",
       "confirm_registration": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx",
       "confirm_registration_english_only": "true"
     }
@@ -511,7 +511,7 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "hasta el cuarto lunes antes del día de las elecciones",
       "online_deadline": "hasta el cuarto lunes antes del día de las elecciones",
-      "mail_deadline2": "hasta el cuarto lunes antes del día de las elecciones",
+      "mail_deadline2": "a más tardar el cuarto lunes antes del día de las elecciones",
       "confirm_registration": "https://vrsws.sos.ky.gov/VIC/",
       "confirm_registration_english_only": "true"
     }
@@ -715,7 +715,7 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "hasta el cuarto miércoles antes del día de las elecciones",
       "online_deadline": "hasta el cuarto miércoles antes del día de las elecciones",
-      "mail_deadline": "hasta el cuarto miércoles antes del día de las elecciones",
+      "mail_deadline": "a más tardar el cuarto miércoles antes del día de las elecciones",
       "confirm_registration": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx",
       "confirm_registration_english_only": "true"
     }
@@ -763,7 +763,7 @@
       "more_info_link": "https://sos.nebraska.gov/elections/voter-forms",
       "ip_deadline": "hasta el segundo viernes antes del día de las elecciones",
       "online_deadline": "hasta el tercer viernes antes del día de las elecciones",
-      "mail_deadline": "hasta el tercer viernes antes del día de las elecciones",
+      "mail_deadline": "a más tardar el tercer viernes antes del día de las elecciones",
       "confirm_registration": "https://www.votercheck.necvr.ne.gov/voterview/?culture=es-MX"
     }
   },
@@ -789,7 +789,7 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "hasta el cuarto martes antes del día de las elecciones",
       "online_deadline": "hasta el jueves antes de que empiece la votación anticipada",
-      "mail_deadline": "hasta el cuarto martes antes del día de las elecciones",
+      "mail_deadline": "a más tardar el cuarto martes antes del día de las elecciones",
       "confirm_registration": "https://www.nvsos.gov/votersearch/",
       "confirm_registration_english_only": "true"
     }
@@ -1254,7 +1254,7 @@
       "more_info_link_english_only": "true",
       "ip_deadline": "hasta el mismo día de las elecciones",
       "online_deadline": "hasta el viernes anterior al día de las elecciones",
-      "mail_deadline2": "hasta el viernes anterior al día de las elecciones",
+      "mail_deadline2": "a más tardar el viernes anterior al día de las elecciones",
       "confirm_registration": "https://mvp.vermont.gov/",
       "confirm_registration_english_only": "true"
     }
