@@ -5,7 +5,7 @@
 
   {{ range $key, $lang := $.Site.Data.translations }}
     {{ if ne $key $.Site.Params.language }}
-    <a {{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+    <a
 
       {{ if or ($.IsHome) ($.IsNode) }}
         href="{{$.Site.BaseURL}}/{{ $lang.root_path }}"
