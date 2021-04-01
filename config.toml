@@ -20,6 +20,7 @@ lang = "en"
 language = "english"
 register_path = "register"
 root_path = ""
+langToggle = "es"
 
 [languages.es]
 contentDir = "content/es"
@@ -34,3 +35,4 @@ language = "spanish"
 publishDir = "tmp/public/es"
 register_path = "registrar"
 root_path = "es/"
+langToggle = "en"
