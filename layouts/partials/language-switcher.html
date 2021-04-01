@@ -5,14 +5,15 @@
 
   {{ range $key, $lang := $.Site.Data.translations }}
     {{ if ne $key $.Site.Params.language }}
-    <a
+    <a 
+    lang="{{ $.Site.Params.langToggle }}"
 
       {{ if or ($.IsHome) ($.IsNode) }}
         href="{{$.Site.BaseURL}}/{{ $lang.root_path }}"
       {{ else }}
         href="{{$.Site.BaseURL}}/{{ $lang.root_path }}{{ $lang.register_path }}{{ $.Params.state_abbreviation | lower }}/"
       {{ end }}
-
+     
       class="usa-button translation-link">
       {{ $lang.title }}
     </a>
