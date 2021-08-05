@@ -445,8 +445,8 @@
       "registration_link": "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration",
       "more_info_link": "https://sos.iowa.gov/elections/voterinformation/voterregistration.html",
       "ip_deadline": "Available up to and including on Election Day",
-      "online_deadline": "11 days before Election Day",
-      "mail_deadline2": "11 days before Election Day",
+      "online_deadline": "15 days before Election Day",
+      "mail_deadline": "15 days before Election Day",
       "confirm_registration": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx"
     },
     "spanish": {
@@ -457,8 +457,8 @@
       "more_info_link": "https://sos.iowa.gov/elections/voterinformation/voterregistration.html",
       "more_info_link_english_only": "true",
       "ip_deadline": "hasta el mismo día de las elecciones",
-      "online_deadline": "hasta 11 días antes del día de las elecciones",
-      "mail_deadline2": "11 días antes del día de las elecciones",
+      "online_deadline": "hasta 15 días antes del día de las elecciones",
+      "mail_deadline": "15 días antes del día de las elecciones",
       "confirm_registration": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx",
       "confirm_registration_english_only": "true"
     }
