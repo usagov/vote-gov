@@ -51,6 +51,7 @@
 
 {{ partial "deadlines.html" . }}
 
+{{ if ne .Params.national_voter_registration_form_accepted "false" }}
 <form class="state-download" method="get" id="register">
 	<h2>{{ replace $translation.register.other_language_selection.heading "%state_name%" .Params.state_name }}</h2>
 	<p>{{ $translation.register.other_language_selection.label }}</p>
@@ -86,3 +87,4 @@ var languageSelected = document.getElementById('js-user-selection').value;
 window.open(languageSelected, '_blank');
 };
 </script>
+{{ end }}

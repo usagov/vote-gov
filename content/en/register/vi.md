@@ -3,7 +3,9 @@
 state_name = "U.S. Virgin Islands"
 state_abbreviation = "vi"
 registration_type = "in-person"
+hp_link = "https://www.vivote.gov/voters/register-vote"
 more_info_link = "https://www.vivote.gov/voters/register-vote"
-ip_deadline = "Sunday, October 4, 2020"
+ip_deadline = "30 days before Election Day"
+confirm_registration = "https://www.vivote.gov/voters/lookup"
 
 +++
