@@ -2,9 +2,13 @@
 
 state_name = "New Jersey"
 state_abbreviation = "nj"
-registration_type = "by-mail"
+registration_type = "online"
+hp_link = "https://www.state.nj.us/state/elections/index.shtml"
+registration_link = "https://voter.svrs.nj.gov/register"
 more_info_link = "https://nj.gov/state/elections/voter-registration.shtml"
-ip_deadline = "Tuesday, October 13, 2020"
-mail_deadline2 = "Tuesday, October 13, 2020"
+online_deadline = "21 days before Election Day"
+mail_deadline2 = "21 days before Election Day"
+ip_deadline = "21 days before Election Day"
+confirm_registration = "https://voter.svrs.nj.gov/registration-check"
 
 +++

@@ -3,9 +3,12 @@
 state_name = "Arkansas"
 state_abbreviation = "ar"
 registration_type = "by-mail"
+hp_link = "https://www.sos.arkansas.gov/elections"
+hp_link_english_only = "true"
 more_info_link = "https://www.sos.arkansas.gov/elections/voter-information/"
 more_info_link_english_only = "true"
-ip_deadline = "domingo 4 de octubre 2020"
-mail_deadline = "domingo 4 de octubre 2020"
+ip_deadline = "hasta 30 días antes del día de las elecciones"
+mail_deadline = "30 días antes del día de las elecciones"
+confirm_registration = "https://www.voterview.ar-nova.org/voterview/?culture=es-MX"
 
 +++
