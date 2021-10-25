@@ -31,3 +31,4 @@ layouts/registrar
 
 tmp/
 
+.vscode/settings.json

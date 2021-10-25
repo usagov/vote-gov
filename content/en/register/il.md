@@ -3,10 +3,12 @@
 state_name = "Illinois"
 state_abbreviation = "il"
 registration_type = "online"
+hp_link = "https://www.elections.il.gov/"
 registration_link = "https://ova.elections.il.gov/"
 more_info_link = "https://www.elections.il.gov/Default.aspx"
-ip_deadline = "Tuesday, November 3, 2020"
-online_deadline = "Sunday, October 18, 2020"
-mail_deadline2 = "Tuesday, October 6, 2020"
+ip_deadline = "Available up to and including on Election Day"
+online_deadline = "16 days before Election Day"
+mail_deadline2 = "28 days before Election Day"
+confirm_registration = "https://ova.elections.il.gov/RegistrationLookup.aspx"
 
 +++

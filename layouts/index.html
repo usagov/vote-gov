@@ -38,13 +38,10 @@
                   <option value="default">
                     {{ $translation.homepage.state_selection.default }}
                   </option>
-                  {{ range where (.Data.Pages.ByParam "state_name") "Section" .Site.Params.register_path }}
-                  {{ if eq $.Site.Params.language "spanish" }}
-                  <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
-                  {{ else }}
-                  <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
+                  {{ range (where .Site.RegularPages.ByTitle "Section" .Site.Params.register_path ) }}
+                    <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
                   {{ end }}
-                  {{ end }}
+                  
                 </select>
                 <button class="usa-button max-width-input" id="js-user-submit" type="submit">
                   {{ $translation.homepage.state_selection.submit }}
