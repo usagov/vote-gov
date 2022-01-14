@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var gutil = require('gulp-util');
-var sass = require('gulp-sass');
+var scss = require('gulp-dart-scss');
 var sourcemaps = require('gulp-sourcemaps');
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
@@ -29,16 +29,16 @@ gulp.task('styles', gulp.series('scss-lint', function () {
 
   gutil.log(gutil.colors.cyan('styles'), 'Compiling Sass assets');
 
-  var sassStream = sass();
+  var scssStream = scss();
   var stream = gulp.src('./assets/styles/main.scss');
 
   if (cFlags.production) {
     gutil.log(gutil.colors.cyan('styles'), 'Compressing styles');
-    sassStream = sass({ outputStyle: 'compressed' });
+    scssStream = scss({ outputStyle: 'compressed' });
   }
 
   stream = stream.pipe(sourcemaps.init())
-    .pipe(sassStream)
+    .pipe(scssStream)
     .pipe(postcss([autoprefixer()]))
     .on('error', function (error) {
       gutil.log(

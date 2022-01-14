@@ -15,6 +15,8 @@
     }
   },
   "scripts": {
+    "gulp": "gulp",
+    "dev": "gulp dev",
     "federalist": "npm run build",
     "build": "gulp buildWebsite",
     "start": "gulp website",
@@ -33,31 +35,28 @@
   "homepage": "https://github.com/18F/vote-gov#readme",
   "license": "CC0-1.0",
   "dependencies": {
-    "browserify": "^13.0.0",
-    "cross-spawn": "^4.0.0",
-    "del": "^2.2.0",
-    "eslint": "^7.4.0",
-    "eslint-config-airbnb-base": "^3.0.1",
-    "eslint-plugin-import": "^2.18.0",
+    "autoprefixer": "^10.4.2",
+    "browserify": "^17.0.0",
+    "cross-spawn": "^7.0.3",
+    "del": "^6.0.0",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
     "gulp": "^4.0.2",
+    "gulp-dart-scss": "^1.1.0",
     "gulp-eslint": "^6.0.0",
-    "gulp-filter": "^3.0.1",
-    "gulp-rename": "^1.4.0",
-    "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^1.5.2",
-    "gulp-util": "^3.0.7",
-    "gulp-postcss": "^8.0.0",
-    "autoprefixer": "^9.8.6",
-    "minimist": ">=1.2.3",
-    "run-sequence": "^1.1.5",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "sass": "^1.48.0",
     "uswds": "^2.8.0",
-    "vinyl-buffer": "^1.0.0",
+    "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },
   "devDependencies": {
     "gulp-scss-lint": "^1.0.0",
-    "lodash": "^4.17.13"
+    "hugo-bin": "^0.43.5"
   }
 }

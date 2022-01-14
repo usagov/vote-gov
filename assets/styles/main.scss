@@ -1,6 +1,7 @@
 // Imports -------------- //
 
-@import '../../node_modules/uswds/src/stylesheets/uswds';
+$theme-show-notifications: false;
+@import '../../node_modules/uswds/dist/scss/uswds';
 @import './component/404.scss';
 @import './component/usa-banner.scss';
 

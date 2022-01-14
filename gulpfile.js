@@ -11,7 +11,6 @@ require('./config/gulp/fonts');
 require('./config/gulp/data');
 require('./config/gulp/deploy');
 var build = require('./config/gulp/build');
-var runSequence = require('run-sequence');
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 

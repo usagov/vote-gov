@@ -142,3 +142,4 @@ gulp.task ('buildWebsite' , buildWebsite);
 gulp.task ('watch' , watch);
 gulp.task ('website' , website);
 gulp.task ('cleanAll' , cleanAll);
+gulp.task('dev', gulp.parallel('watch', 'website'));
