@@ -1,5 +1,6 @@
 var gulp = require('gulp');
-var gutil = require('gulp-util');
+var log = require('fancy-log');
+var colors = require('ansi-colors');
 var scss = require('gulp-dart-scss');
 var sourcemaps = require('gulp-sourcemaps');
 var postcss = require("gulp-postcss");
@@ -11,7 +12,7 @@ gulp.task('scss-lint', function (done) {
     var scsslint = require('gulp-scss-lint');
 
     if (!cFlags.test) {
-      gutil.log(gutil.colors.cyan('scss-lint'), 'Disabling linting');
+      log(colors.cyan('scss-lint'), 'Disabling linting');
       return done();
     }
 
@@ -27,13 +28,13 @@ gulp.task('scss-lint', function (done) {
 
 gulp.task('styles', gulp.series('scss-lint', function () {
 
-  gutil.log(gutil.colors.cyan('styles'), 'Compiling Sass assets');
+  log(colors.cyan('styles'), 'Compiling Sass assets');
 
   var scssStream = scss();
   var stream = gulp.src('./assets/styles/main.scss');
 
   if (cFlags.production) {
-    gutil.log(gutil.colors.cyan('styles'), 'Compressing styles');
+    log(colors.cyan('styles'), 'Compressing styles');
     scssStream = scss({ outputStyle: 'compressed' });
   }
 
@@ -41,9 +42,9 @@ gulp.task('styles', gulp.series('scss-lint', function () {
     .pipe(scssStream)
     .pipe(postcss([autoprefixer()]))
     .on('error', function (error) {
-      gutil.log(
-        gutil.colors.yellow('styles'),
-        gutil.colors.red('error'),
+      log(
+        colors.yellow('styles'),
+        colors.red('error'),
         '\n',
         error.messageFormatted
       );

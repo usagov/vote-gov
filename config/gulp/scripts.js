@@ -1,5 +1,6 @@
 var gulp = require('gulp');
-var gutil = require('gulp-util');
+var log = require('fancy-log');
+var colors = require('ansi-colors');
 var eslint = require('gulp-eslint');
 var browserify = require('browserify');
 var uglify = require('gulp-uglify');
@@ -11,7 +12,7 @@ var cFlags = global.cFlags;
 gulp.task('eslint', function (done) {
 
   if (!cFlags.test) {
-    gutil.log(gutil.colors.cyan('eslint'), 'Disabling linting');
+    log(colors.cyan('eslint'), 'Disabling linting');
     return done();
   }
 
@@ -26,7 +27,7 @@ gulp.task('eslint', function (done) {
 
 gulp.task('scripts',  gulp.series ('eslint' , function () {
 
-  gutil.log(gutil.colors.cyan('scripts'), 'Browserifying JavaScript assets');
+  log(colors.cyan('scripts'), 'Browserifying JavaScript assets');
 
   var bundle = browserify({
     entries: './assets/scripts/start.js',
@@ -37,7 +38,7 @@ gulp.task('scripts',  gulp.series ('eslint' , function () {
     .pipe(buffer());
 
   if (cFlags.production) {
-    gutil.log(gutil.colors.cyan('scripts'), 'Compressing scripts');
+    log(colors.cyan('scripts'), 'Compressing scripts');
     bundle = bundle.pipe(uglify());
   }
 

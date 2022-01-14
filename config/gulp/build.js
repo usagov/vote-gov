@@ -1,5 +1,6 @@
 var gulp = require('gulp');
-var gutil = require('gulp-util');
+var log = require('fancy-log');
+var colors = require('ansi-colors');
 var del = require('del');
 var pkg = require('../../package.json');
 var spawn = require('cross-spawn');
@@ -10,23 +11,23 @@ var spawn = require('cross-spawn');
  }
 
 function printPackageInfo (done){
-  gutil.log(
-    gutil.colors.yellow('v' + pkg.version),
-    gutil.colors.green(pkg.name)
+  log(
+    colors.yellow('v' + pkg.version),
+    colors.green(pkg.name)
   );
-  gutil.log();
-  gutil.log(gutil.colors.red(' ______  ______  _____       __   ________  ______  ______'));
-  gutil.log(gutil.colors.red('/\\  ___\\/\\  ___\\/\\  __-.    /\\ \\ / /\\  __ \\/\\__  _\\/\\  ___\\'));
-  gutil.log(gutil.colors.blue('\\ \\  __\\\\ \\  __\\\\ \\ \\/\\ \\   \\ \\ \\\'/\\ \\ \\/\\ \\/_/\\ \\/\\ \\  __\\'));
-  gutil.log(gutil.colors.blue(' \\ \\_\\   \\ \\_\\   \\ \\____-    \\ \\__| \\ \\_____\\ \\ \\_\\ \\ \\_____\\'));
-  gutil.log(gutil.colors.white('  \\/_/    \\/_/    \\/____/     \\/_/   \\/_____/  \\/_/  \\/_____/'));
-  gutil.log();
+  log();
+  log(colors.red(' ______  ______  _____       __   ________  ______  ______'));
+  log(colors.red('/\\  ___\\/\\  ___\\/\\  __-.    /\\ \\ / /\\  __ \\/\\__  _\\/\\  ___\\'));
+  log(colors.blue('\\ \\  __\\\\ \\  __\\\\ \\ \\/\\ \\   \\ \\ \\\'/\\ \\ \\/\\ \\/_/\\ \\/\\ \\  __\\'));
+  log(colors.blue(' \\ \\_\\   \\ \\_\\   \\ \\____-    \\ \\__| \\ \\_____\\ \\ \\_\\ \\ \\_____\\'));
+  log(colors.white('  \\/_/    \\/_/    \\/____/     \\/_/   \\/_____/  \\/_/  \\/_____/'));
+  log();
   done();
 
 }
 
 function watch () {
-   gutil.log(gutil.colors.cyan('watch'), 'Watching assets for changes');
+   log(colors.cyan('watch'), 'Watching assets for changes');
    gulp.watch('./assets/styles/**/*.scss', gulp.task( 'styles' ));
    gulp.watch('./assets/scripts/**/*.js', gulp.task( 'scripts' ));
    gulp.watch('./assets/images/**/*', gulp.task( 'images' ));
@@ -39,13 +40,13 @@ function website (done){
     var setConfig = "config.toml" || process.env.npm_package_config_votegov_hugo_en;
     var setURL = 'http://localhost/';
 
-    gutil.log(
-      gutil.colors.cyan('website'),
+    log(
+      colors.cyan('website'),
       'Using environment-specified --config path: ' + setConfig
     );
 
-    gutil.log(
-      gutil.colors.cyan('website'),
+    log(
+      colors.cyan('website'),
       'Using environment-specified BaseUrl: ' + setURL
     );
 
@@ -60,17 +61,17 @@ function website (done){
 
     var hugo = spawn('hugo', hugo_args);
 
-    gutil.log(
-      gutil.colors.cyan('spawn hugo'),
+    log(
+      colors.cyan('spawn hugo'),
 
     );
 
     hugo.stdout.on('data', function (data) {
-      gutil.log(gutil.colors.blue('website'), '\n' + data);
+      log(colors.blue('website'), '\n' + data);
     });
 
     hugo.stderr.on('data', function (data) {
-      gutil.log(gutil.colors.red('build:website'), '\n' + data);
+      log(colors.red('build:website'), '\n' + data);
     });
 
     hugo.on('error', done);
@@ -81,18 +82,18 @@ function website (done){
 
 function buildWebsite (done) {
 
-  gutil.log(gutil.colors.cyan('build:website'), 'Building static website via Hugo');
+  log(colors.cyan('build:website'), 'Building static website via Hugo');
   // English config is default
   var setConfig = process.env.npm_package_config_votegov_hugo_en;
   var setURL = process.env.BASEURL || '';
 
-  gutil.log(
-    gutil.colors.cyan('build:website'),
+  log(
+    colors.cyan('build:website'),
     'Using environment-specified --config path: ' + setConfig
   );
 
-  gutil.log(
-    gutil.colors.cyan('build:website'),
+  log(
+    colors.cyan('build:website'),
     'Using environment-specified BaseUrl: ' + setURL
   );
 
@@ -111,11 +112,11 @@ function buildWebsite (done) {
     var hugo = spawn('hugo', hugo_args);
 
     hugo.stdout.on('data', function (data) {
-      gutil.log(gutil.colors.blue('build:website'), '\n' + data);
+      log(colors.blue('build:website'), '\n' + data);
     });
 
     hugo.stderr.on('data', function (data) {
-      gutil.log("gutil.colors.red('build:website'), '\n' + data");
+      log(colors.red('build:website'), '\n' + data);
     });
 
 

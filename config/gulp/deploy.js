@@ -1,7 +1,7 @@
 var gulp = require('gulp');
-var gutil = require('gulp-util');
+var log = require('fancy-log');
+var colors = require('ansi-colors');
 var del = require('del');
-var pkg = require('../../package.json');
 var spawn = require('cross-spawn');
 var build = require('./build');
 
@@ -17,8 +17,8 @@ gulp.task('deploy-create-tmp', function (done) {
   var mkdir = spawn('mkdir', [ '-p', './tmp' ]);
 
   mkdir.stdout.on('data', function (data) {
-    gutil.log(
-      gutil.colors.blue('deploy-create-tmp'),
+    log(
+      colors.blue('deploy-create-tmp'),
       '\n' + data
     );
   });
@@ -70,12 +70,12 @@ gulp.task('deploy-nginx-conf', function (done) {
 });
 
 gulp.task('deploy', function (done) {
-  
+
 var url = process.env.BASEURL || '';
-  
+
   if (! url) {
-    gutil.log(
-      gutil.colors.red('deploy'),
+    log(
+      colors.red('deploy'),
       'Deploying the multilingual site should be done within npm-script'
     );
     done();
@@ -86,8 +86,8 @@ var url = process.env.BASEURL || '';
 
 
   }
-  gutil.log(
-    gutil.colors.green('deploy'),
+  log(
+    colors.green('deploy'),
     'Deploying multilingual site : ' + url
   );
   gulp.series('deploy-create-tmp',

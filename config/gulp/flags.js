@@ -1,5 +1,6 @@
 var gulp = require('gulp');
-var gutil = require('gulp-util');
+var log = require('fancy-log');
+var colors = require('ansi-colors');
 
 var cFlags = global.cFlags = {
   production: false,
@@ -7,13 +8,13 @@ var cFlags = global.cFlags = {
 };
 
 gulp.task('no-test', function (done) {
-  gutil.log(gutil.colors.cyan('no-test'), 'Disabling tests');
+  log(colors.cyan('no-test'), 'Disabling tests');
   cFlags.test = false;
   done();
 });
 
 gulp.task('production', function (done) {
-  gutil.log(gutil.colors.cyan('production'), 'Enabling production tasks');
+  log(colors.cyan('production'), 'Enabling production tasks');
   cFlags.production = true;
   done();
 });
