@@ -16,11 +16,11 @@
   },
   "scripts": {
     "gulp": "gulp",
+    "hugo": "hugo",
     "dev": "gulp dev",
     "federalist": "npm run build",
     "build": "gulp buildWebsite",
     "start": "gulp website",
-    "watch": "gulp watch",
     "test": "gulp test",
     "deploy": "gulp deploy"
   },
