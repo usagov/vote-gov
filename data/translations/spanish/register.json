@@ -1,0 +1,67 @@
+{
+  "english_only": "(en inglés)",
+  "hp_english_only": "(en inglés)",
+  "h2_deadline": "Voter registration deadline in %state_name%",
+  "heading": "Regístrese para votar en %state_name%",
+  "heading2": "¿Cómo me puedo inscribir para votar en %state_name%?",
+  "meta_name": "Averigüe cómo inscribirse para votar en %state_name%",
+  "no_english": "",
+  "no_selecciones_link": "",
+  "selecciones_link": "(seleccione español)",
+  "hp_selecciones_link": "(seleccione español)",
+  "select_spanish": "- seleccione la opción para español",
+  "state_heading": "Inscríbase para votar en %state_name%",
+  "by_mail": {
+    "intro": "La inscripción por Internet no está disponible actualmente. Vea otras formas de inscribirse para votar en",
+    "link": "el sitio web electoral de %state_name%"
+  },
+  "other_language_selection": {
+    "default": "Seleccione su idioma",
+    "heading": "¿De qué otras formas me puedo inscribir para votar en %state_name%?",
+    "label": "También puede descargar el formulario nacional de inscripción de votantes (PDF) disponible en español y 14 idiomas más.",
+    "submit": "Descargue el formulario nacional de inscripción de votantes (PDF)"
+  },
+  "in_person": {
+    "intro": "Puede inscribirse en persona. Vea más información en",
+    "link": "el sitio web electoral de %state_name%"
+  },
+  "not_needed": {
+    "intro": "Este estado no requiere inscripción para votar. Vea más información en",
+    "link": "el sitio web electoral de %state_name%"
+  },
+  "online": {
+    "answer1": "Empiece su",
+    "answer1_link": " inscripción por internet en el sitio web electoral de %state_name%",
+    "h2_question1": "¿Cómo me puedo inscribir para votar en %state_name%?",
+    "answer2": " También puede",
+    "answer2_link": " inscribirse para votar por correo o en persona en el sitio web electoral de %state_name%",
+    "h2_question2": "¿De qué otras formas me puedo inscribir para votar en %state_name%?",
+    "election_day": "La elección presidencial es el martes ",
+    "in-person_dl": "Inscripción en persona: ",
+    "mail-in_dl": "Inscripción por correo postal: ",
+    "online_dl": "Inscripción por internet: "
+  },
+  "alert_state": {
+    "alert_msg": "Debido al COVID-19, su estado podría haber modificado cuándo, dónde y cómo usted podrá votar en las próximas elecciones. Verifique esta información en el",
+    "alert_msg1": "sitio web electoral de su estado",
+    "alert_msg2": ".",
+    "alert_after_election": "Para ver los resultados oficiales de las elecciones visite el"
+  },
+  "dates": {
+    "bymail_deadline": "Inscripción por correo postal: ",
+    "bymail_deadline1": "debe tener el sello del correo ",
+    "bymail_deadline2": "Inscripción por correo postal: ",
+    "bymail_deadline2_1": "a más tardar debe ser recibida ",
+    "byonline_deadline": "Inscripción por internet: ",
+    "electionday": "Día de la elección general: martes 3 de noviembre de 2020",
+    "electionday_heading": "Día de la elección general",
+    "heading": "Plazos de registro de votantes en %state_name%",
+    "inperson_deadline": "Inscripción en persona: ",
+    "last_updated": "Última actualización: "
+  },
+  "confirm_registration": {
+    "heading": "Cómo comprobar su inscripción de votante",
+    "intro": "Usted puede",
+    "link": "verificar su inscripción de votante en el sitio web electoral de %state_name%"
+  }
+}

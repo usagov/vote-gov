@@ -1,0 +1,38 @@
+{
+  "defaultContentLanguage": "en",
+  "enableGitInfo": "true",
+  "publishdir": "tmp/public",
+  "title": "Voter Registration",
+  "verbose": "true",
+  "languages": {
+    "en": {
+      "contentDir": "content/en",
+      "title": "Voter Registration",
+      "verbose": "true",
+      "params": {
+        "Owner": "Vote.gov",
+        "Referrer_Short_Code": "voteusa",
+        "lang": "en",
+        "language": "english",
+        "register_path": "register",
+        "root_path": "",
+        "langToggle": "es"
+      }
+    },
+    "es": {
+      "contentDir": "content/es",
+      "title": "Inscripción para votar",
+      "verbose": "true",
+      "params": {
+        "Owner": "Vote.gov en Español",
+        "Referrer_Short_Code": "voteusa_es",
+        "lang": "es",
+        "language": "spanish",
+        "publishDir": "tmp/public/es",
+        "register_path": "registrar",
+        "root_path": "es/",
+        "langToggle": "en"
+      }
+    }
+  }
+}

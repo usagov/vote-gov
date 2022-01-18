@@ -36,7 +36,7 @@ function watch () {
 
 function website (done){
 
-    var setConfig = "config.toml" || process.env.npm_package_config_votegov_hugo_en;
+    var setConfig = "config.json" || process.env.npm_package_config_votegov_hugo_en;
     var setURL = 'http://localhost/';
 
     gutil.log(
