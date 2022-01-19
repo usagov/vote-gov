@@ -58,6 +58,6 @@
   },
   "devDependencies": {
     "gulp-scss-lint": "^1.0.0",
-    "hugo-bin": "^0.43.5"
+    "hugo-bin": "^0.80.0"
   }
 }
