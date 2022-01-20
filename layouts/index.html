@@ -1,4 +1,4 @@
-{{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 {{ partial "head.html" . }}
 
 <body class="page-vote">
@@ -12,15 +12,13 @@
   {{ partial "header.html" . }}
   <div class="page-vote-main" id="main" role="main">
 
-
-
     <div class="bg-blue css-arrow">
       <div class="grid-container">
         <div class="grid-row grid-gap">
           <div class="tablet:grid-col-4">
-            <a class="site-logo" href="{{ .Site.BaseURL }}/{{ $translation.root_path }}" aria-label="Vote.gov">
+            <a class="site-logo" href="{{ .Site.Home.RelPermalink }}" aria-label="Vote.gov">
               <div class="logo-text">{{ $translation.homepage.site_name }}</div>
-              <img id="SiteLogo" src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg" alt="">
+              <img id="SiteLogo" src="{{ .Site.BaseURL }}assets/img/ballot_box-blue.svg" alt="">
             </a>
           </div>
           <div id="skip-target" class="tablet:grid-col-8 right-shift">
@@ -41,7 +39,7 @@
                   {{ range (where .Site.RegularPages.ByTitle "Section" .Site.Params.register_path ) }}
                     <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
                   {{ end }}
-                  
+
                 </select>
                 <button class="usa-button max-width-input" id="js-user-submit" type="submit">
                   {{ $translation.homepage.state_selection.submit }}
@@ -112,36 +110,12 @@
         return false;
       } else {
         ev.preventDefault();
-        {{ if eq $.Site.Params.language "english" }}
         // var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}register/';
-        var redirectURL = {{ $.Site.BaseURL }} + '/{{ .Site.Params.root_path }}register/'
-        {{ else }}
-        var redirectURL = {{ $.Site.BaseURL}} + '/{{ .Site.Params.root_path }}registrar/';
-        {{ end }}
+        var redirectURL = '{{ .Site.Home.RelPermalink }}{{ .Site.Params.register_path }}/';
         redirectURL = redirectURL + stateSelected + '/';
         window.location.href = redirectURL;
       }
     };
-
-  </script>
-
-  <script type="text/javascript">
-    document.getElementById('register').onsubmit = function (ev) {
-      var stateSelected = document.getElementById('js-user-selection').value;
-      if (stateSelected === 'default') {
-        return false;
-      } else {
-        ev.preventDefault(); 
-        {{ if eq $.Site.Params.language "english" }}
-        var redirectURL = {{ $.Site.BaseURL }} + '/{{ .Site.Params.root_path }}register/';
-        {{ else }}
-        var redirectURL = {{ $.Site.BaseURL }} + '/{{ .Site.Params.root_path }}registrar/';
-        {{ end }}
-        redirectURL = redirectURL + stateSelected + '/';
-        window.location.href = redirectURL;
-      }
-    };
-
   </script>
 
   {{ partial "analytics.html" . }}

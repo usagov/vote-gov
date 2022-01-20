@@ -163,7 +163,7 @@ label.max-width-input {
 
 .usa-alert--info::before {
     background-color: #00bde3;
-} 
+}
 
 .usa-alert--info {
   background-image: unset;
@@ -174,8 +174,8 @@ label.max-width-input {
     background-position: 1rem 1rem;
     background-repeat: no-repeat;
     background-size: 2rem;
-  
-    @include at-media('tablet') {  
+
+    @include at-media('tablet') {
         background-position: 1rem 0.3rem;
       }
     }
@@ -205,7 +205,7 @@ $logo-width: 130px;
   color: white;
   text-decoration: none;
   text-align: center;
-  
+
   img {
     width: $logo-width;
     max-width: unset;
@@ -218,7 +218,7 @@ $logo-width: 130px;
       padding-top: 10px;
       padding-bottom: 10px;
     }
-  } 
+  }
 
   .logo-text {
     font-weight: bold;
@@ -348,13 +348,13 @@ $logo-width: 130px;
   color: white;
 }
 
-.english-img,
-.sp-img {
+.en-img,
+.es-img {
   max-width: 220px;
 }
 
-.english-img,
-.sp-img {
+.en-img,
+.es-img {
   padding-bottom: 1rem;
   margin-top: 0;
 
@@ -375,20 +375,20 @@ $logo-width: 130px;
   }
 }
 
-.eac-text {
+.en-eac-text {
   text-decoration: none;
   color: $color-blue-dark;
   font-weight: bold;
   font-size: 1.1em;
   margin-left: 0;
   margin-right: 10px;
-  
+
   @include at-media('tablet') {
     margin-left: 3rem;
   }
 }
 
-.sp-eac-text {
+.es-eac-text {
   text-decoration: none;
   color: $color-blue-dark;
   font-weight: bold;

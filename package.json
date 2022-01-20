@@ -5,8 +5,7 @@
   "config": {
     "votegov": {
       "hugo": {
-        "en": "config.toml",
-        "es": "config_es.toml"
+        "en": "config.json"
       },
       "urls": {
         "staging": "https://vote-gov-staging.apps.cloud.gov",
