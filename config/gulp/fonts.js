@@ -1,9 +1,10 @@
 var gulp = require('gulp');
-var gutil = require('gulp-util');
+var log = require('fancy-log');
+var colors = require('ansi-colors');
 
 gulp.task('fonts', function () {
 
-  gutil.log(gutil.colors.cyan('fonts'), 'Copying font assets');
+  log(colors.cyan('fonts'), 'Copying font assets');
   var stream = gulp.src([
     './assets/fonts/**/*',
     './node_modules/uswds/src/fonts/**/*',

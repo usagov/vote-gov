@@ -1,9 +1,10 @@
 var gulp = require('gulp');
-var gutil = require('gulp-util');
+var log = require('fancy-log');
+var colors = require('ansi-colors');
 
 gulp.task('images', function () {
 
-  gutil.log(gutil.colors.cyan('images'), 'Copying image assets');
+  log(colors.cyan('images'), 'Copying image assets');
   var stream = gulp.src([
     './assets/img/**/*',
     './node_modules/uswds/src/img/**/*',

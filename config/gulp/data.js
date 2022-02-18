@@ -1,5 +1,6 @@
 var gulp = require('gulp');
-var gutil = require('gulp-util');
+var log = require('fancy-log');
+var colors = require('ansi-colors');
 var fs = require('fs');
 var stateData = require('./state-data.json');
 
@@ -30,8 +31,8 @@ gulp.task('state-data', function(cb){
 });
 
   gulp.task('data', gulp.series( 'state-data'  , function (done) {
-    gutil.log(
-    gutil.colors.cyan('state-data'),
+    log(
+    colors.cyan('state-data'),
     'Copying data from state-data.json into .md files in /content for each state in english and spanish'
   );
   done();
