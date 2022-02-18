@@ -26,14 +26,14 @@
 		<div class="grid-row grid-gap">
 			<div class="tablet:grid-col-1">
 				<a href="{{ $translation.footer.usagov_link }}">
-          <img class="{{ .Site.Language.Lang }}-img" src="{{ .Site.BaseURL }}assets/{{ $translation.footer.usagov_img }}"
+          <img class="{{ .Site.Language.Lang }}-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}"
                alt="{{ $translation.footer.usagov_logo_alt_text}}">
 				</a>
 			</div>
 			<div class="tablet:grid-col-11">
         <span class="{{ .Site.Language.Lang }}-eac-text">{{ $translation.footer.eac_text }}</span>
         <a href="{{ $translation.footer.eac_link }}">
-          <img class="eac-logo-img" src="{{ .Site.BaseURL }}assets/{{ $translation.footer.eac_img }}"
+          <img class="eac-logo-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.eac_img }}"
                alt="{{ $translation.footer.eac_logo_alt_text }}"></a>
 			</div>
 		</div>
@@ -49,7 +49,7 @@
 			</div>
 			<div class="tablet:grid-col-8 right-shift">
 				<a class="usa-footer__primary-link" href="{{ $translation.footer.twitter_link }}">
-					<img class="twitter-img" src="{{ .Site.BaseURL }}assets/{{ $translation.footer.twitter_img }}"
+					<img class="twitter-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.twitter_img }}"
 						alt="twitter" />{{ $translation.footer.twitter_text}}
 				</a>
 			</div>
