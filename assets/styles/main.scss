@@ -166,7 +166,7 @@ label.max-width-input {
 }
 
 .usa-alert--info::before {
-  background-color: #00bde3;
+  display: none;
 }
 
 .usa-alert--info {
@@ -178,6 +178,7 @@ label.max-width-input {
     background-position: 1rem 1rem;
     background-repeat: no-repeat;
     background-size: 2rem;
+    display: flex;
 
     @include at-media('tablet') {
       background-position: 1rem 0.3rem;
