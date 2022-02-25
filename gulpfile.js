@@ -3,14 +3,14 @@
 // be used by Hugo.
 
 // Bring in individual gulp configs
-require('./config/gulp/flags');
-require('./config/gulp/styles');
-require('./config/gulp/scripts');
-require('./config/gulp/images');
-require('./config/gulp/fonts');
-require('./config/gulp/data');
-require('./config/gulp/deploy');
-var build = require('./config/gulp/build');
+require('./gulp/flags');
+require('./gulp/styles');
+require('./gulp/scripts');
+require('./gulp/images');
+require('./gulp/fonts');
+require('./gulp/data');
+require('./gulp/deploy');
+var build = require('./gulp/build');
 var gulp = require('gulp');
 var log = require('fancy-log');
 var colors = require('ansi-colors');

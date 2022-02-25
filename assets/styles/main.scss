@@ -358,13 +358,13 @@ $logo-width: 130px;
   color: white;
 }
 
-.english-img,
-.sp-img {
+.en-img,
+.es-img {
   max-width: 220px;
 }
 
-.english-img,
-.sp-img {
+.en-img,
+.es-img {
   padding-bottom: 1rem;
   margin-top: 0;
 
@@ -385,7 +385,7 @@ $logo-width: 130px;
   }
 }
 
-.eac-text {
+.en-eac-text {
   text-decoration: none;
   color: $color-blue-dark;
   font-weight: bold;
@@ -398,7 +398,7 @@ $logo-width: 130px;
   }
 }
 
-.sp-eac-text {
+.es-eac-text {
   text-decoration: none;
   color: $color-blue-dark;
   font-weight: bold;

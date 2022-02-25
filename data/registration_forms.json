@@ -1,0 +1,62 @@
+{
+  "en": {
+    "language": "English",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_ENG.pdf"
+  },
+  "ar": {
+    "language": "Arabic",
+    "file_path": "https://www.eac.gov/sites/default/files/nvra_translations/Federal_Voter_Registration_ARA.pdf"
+  },
+  "bn": {
+    "language": "Bengali",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_BEN.pdf"
+  },
+  "zh": {
+    "language": "Chinese",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_CHS.pdf"
+  },
+  "fr": {
+    "language": "French",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_FRC.pdf"
+  },
+  "ht": {
+    "language": "Haitian Creole",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_CRE.pdf"
+  },
+  "hi": {
+    "language": "Hindi",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_HIN.pdf"
+  },
+  "ja": {
+    "language": "Japanese",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_JPN.pdf"
+  },
+  "km": {
+    "language": "Khmer",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_KHM.pdf"
+  },
+  "ko": {
+    "language": "Korean",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_KOR.pdf"
+  },
+  "pt": {
+    "language": "Portuguese",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_POR.pdf"
+  },
+  "ru": {
+    "language": "Russian",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_RUS.pdf"
+  },
+  "es": {
+    "language": "Español",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_SPA.pdf"
+  },
+  "tl": {
+    "language": "Tagalog",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_TAG.pdf"
+  },
+  "vi": {
+    "language": "Vietnamese",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_VIE.pdf"
+  }
+}
