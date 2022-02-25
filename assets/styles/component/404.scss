@@ -1,9 +1,9 @@
 // 404 page ------------ //
 .page-vote-404 {
   [lang] {
-      margin: 2rem 0;
-      @include at-media('tablet') {
-        margin: 4rem 1rem;
-      }
+    margin: 2rem 0;
+    @include at-media('tablet') {
+      margin: 4rem 1rem;
+    }
   }
 }
