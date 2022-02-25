@@ -3,6 +3,6 @@
   "enableGitInfo": "true",
   "publishDir": "tmp/public",
   "title": "Voter Registration",
-  "baseURL": "/",
+  "baseURL": "",
   "disableKinds": ["taxonomy", "taxonomyTerm"]
 }
