@@ -1,0 +1,285 @@
+{
+  "al": {
+    "state_name": "Alabama",
+    "state_abbreviation": "al",
+    "registration_type": "online"
+  },
+  "ak": {
+    "state_name": "Alaska",
+    "state_abbreviation": "ak",
+    "registration_type": "online"
+  },
+  "as": {
+    "state_name": "American Samoa",
+    "state_abbreviation": "as",
+    "registration_type": "in-person"
+  },
+  "az": {
+    "state_name": "Arizona",
+    "state_abbreviation": "az",
+    "registration_type": "online"
+  },
+  "ar": {
+    "state_name": "Arkansas",
+    "state_abbreviation": "ar",
+    "registration_type": "by-mail"
+  },
+  "ca": {
+    "state_name": "California",
+    "state_abbreviation": "ca",
+    "registration_type": "online"
+  },
+  "co": {
+    "state_name": "Colorado",
+    "state_abbreviation": "co",
+    "registration_type": "online"
+  },
+  "ct": {
+    "crazyegg": "true",
+    "state_name": "Connecticut",
+    "state_abbreviation": "ct",
+    "registration_type": "online"
+  },
+  "de": {
+    "state_name": "Delaware",
+    "state_abbreviation": "de",
+    "registration_type": "online"
+  },
+  "dc": {
+    "state_name": "District of Columbia",
+    "state_abbreviation": "dc",
+    "registration_type": "online"
+  },
+  "fl": {
+    "state_name": "Florida",
+    "state_abbreviation": "fl",
+    "registration_type": "online"
+  },
+  "ga": {
+    "crazyegg": "true",
+    "state_name": "Georgia",
+    "state_abbreviation": "ga",
+    "registration_type": "online"
+  },
+  "gu": {
+    "state_name": "Guam",
+    "state_abbreviation": "gu",
+    "registration_type": "online"
+  },
+  "hi": {
+    "state_name": "Hawaii",
+    "state_abbreviation": "hi",
+    "registration_type": "online"
+  },
+  "id": {
+    "state_name": "Idaho",
+    "state_abbreviation": "id",
+    "registration_type": "online"
+  },
+  "il": {
+    "state_name": "Illinois",
+    "state_abbreviation": "il",
+    "registration_type": "online"
+  },
+  "in": {
+    "state_name": "Indiana",
+    "state_abbreviation": "in",
+    "registration_type": "online"
+  },
+  "ia": {
+    "state_name": "Iowa",
+    "state_abbreviation": "ia",
+    "registration_type": "online"
+  },
+  "ks": {
+    "state_name": "Kansas",
+    "state_abbreviation": "ks",
+    "registration_type": "online"
+  },
+  "ky": {
+    "state_name": "Kentucky",
+    "state_abbreviation": "ky",
+    "registration_type": "online"
+  },
+  "la": {
+    "state_name": "Louisiana",
+    "state_abbreviation": "la",
+    "registration_type": "online"
+  },
+  "me": {
+    "state_name": "Maine",
+    "state_abbreviation": "me",
+    "registration_type": "by-mail"
+  },
+  "md": {
+    "state_name": "Maryland",
+    "state_abbreviation": "md",
+    "registration_type": "online"
+  },
+  "ma": {
+    "state_name": "Massachusetts",
+    "state_abbreviation": "ma",
+    "registration_type": "online"
+  },
+  "mi": {
+    "state_name": "Michigan",
+    "state_abbreviation": "mi",
+    "registration_type": "online"
+  },
+  "mn": {
+    "state_name": "Minnesota",
+    "state_abbreviation": "mn",
+    "registration_type": "online"
+  },
+  "ms": {
+    "state_name": "Mississippi",
+    "state_abbreviation": "ms",
+    "registration_type": "by-mail"
+  },
+  "mo": {
+    "state_name": "Missouri",
+    "state_abbreviation": "mo",
+    "registration_type": "online"
+  },
+  "mt": {
+    "state_name": "Montana",
+    "state_abbreviation": "mt",
+    "registration_type": "by-mail"
+  },
+  "ne": {
+    "state_name": "Nebraska",
+    "state_abbreviation": "ne",
+    "registration_type": "online"
+  },
+  "nv": {
+    "state_name": "Nevada",
+    "state_abbreviation": "nv",
+    "registration_type": "online"
+  },
+  "nh": {
+    "state_name": "New Hampshire",
+    "state_abbreviation": "nh",
+    "registration_type": "in-person"
+  },
+  "nj": {
+    "state_name": "New Jersey",
+    "state_abbreviation": "nj",
+    "registration_type": "online"
+  },
+  "nm": {
+    "state_name": "New Mexico",
+    "state_abbreviation": "nm",
+    "registration_type": "online"
+  },
+  "ny": {
+    "state_name": "New York",
+    "state_abbreviation": "ny",
+    "registration_type": "online"
+  },
+  "nc": {
+    "state_name": "North Carolina",
+    "state_abbreviation": "nc",
+    "registration_type": "online"
+  },
+  "nd": {
+    "state_name": "North Dakota",
+    "state_abbreviation": "nd",
+    "registration_type": "not-needed"
+  },
+  "mp": {
+    "state_name": "Northern Mariana Islands",
+    "state_abbreviation": "mp",
+    "registration_type": "in-person"
+  },
+  "oh": {
+    "state_name": "Ohio",
+    "state_abbreviation": "oh",
+    "registration_type": "online"
+  },
+  "ok": {
+    "state_name": "Oklahoma",
+    "state_abbreviation": "ok",
+    "registration_type": "by-mail"
+  },
+  "or": {
+    "state_name": "Oregon",
+    "state_abbreviation": "or",
+    "registration_type": "online"
+  },
+  "pa": {
+    "state_name": "Pennsylvania",
+    "state_abbreviation": "pa",
+    "registration_type": "online"
+  },
+  "pr": {
+    "state_name": "Puerto Rico",
+    "state_abbreviation": "pr",
+    "registration_type": "in-person"
+  },
+  "ri": {
+    "state_name": "Rhode Island",
+    "state_abbreviation": "ri",
+    "registration_type": "online"
+  },
+  "sc": {
+    "state_name": "South Carolina",
+    "state_abbreviation": "sc",
+    "registration_type": "online"
+  },
+  "sd": {
+    "state_name": "South Dakota",
+    "state_abbreviation": "sd",
+    "registration_type": "by-mail"
+  },
+  "tn": {
+    "state_name": "Tennessee",
+    "state_abbreviation": "tn",
+    "registration_type": "online"
+  },
+  "tx": {
+    "state_name": "Texas",
+    "state_abbreviation": "tx",
+    "registration_type": "by-mail"
+  },
+  "ut": {
+    "state_name": "Utah",
+    "state_abbreviation": "ut",
+    "registration_type": "online"
+  },
+  "vt": {
+    "state_name": "Vermont",
+    "state_abbreviation": "vt",
+    "registration_type": "online"
+  },
+  "va": {
+    "state_name": "Virginia",
+    "state_abbreviation": "va",
+    "registration_type": "online"
+  },
+  "vi": {
+    "state_name": "U.S. Virgin Islands",
+    "state_abbreviation": "vi",
+    "registration_type": "in-person"
+  },
+  "wa": {
+    "state_name": "Washington",
+    "state_abbreviation": "wa",
+    "registration_type": "online"
+  },
+  "wv": {
+    "state_name": "West Virginia",
+    "state_abbreviation": "wv",
+    "registration_type": "online"
+  },
+  "wi": {
+    "state_name": "Wisconsin",
+    "state_abbreviation": "wi",
+    "registration_type": "online"
+  },
+  "wy": {
+    "state_name": "Wyoming",
+    "state_abbreviation": "wy",
+    "registration_type": "by-mail",
+    "national_voter_registration_form_accepted": "false"
+  }
+}
