@@ -1,4 +1,4 @@
-{{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 
 
 {{ if ne .Params.registration_type "not-needed" }}
@@ -45,7 +45,7 @@
 </header>
 <p>
 	{{ $translation.register.confirm_registration.intro }}
-	<a class="reg-link" href="{{ .Params.confirm_registration }}{{ if in .Params.confirm_registration "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+	<a class="reg-link" href="{{ .Params.confirm_registration }}{{ if in .Params.confirm_registration "?" }}&{{ end }}?ref={{ .Site.Params.Referrer_Short_Code }}">
 		{{ replace $translation.register.confirm_registration.link "%state_name%" .Params.state_name -}}
 
 		{{ if .Params.confirm_registration_english_only }}

@@ -1,0 +1,8 @@
+{
+  "defaultContentLanguage": "en",
+  "enableGitInfo": "true",
+  "publishDir": "tmp/public",
+  "title": "Voter Registration",
+  "baseURL": "/",
+  "disableKinds": ["taxonomy", "taxonomyTerm"]
+}

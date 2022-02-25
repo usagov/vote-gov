@@ -1,24 +1,22 @@
-{{ $translation := ( index $.Site.Data.translations $.Site.Params.language ) }}
-{{ $title := ( replace .Title "." "" | lower | urlize ) }}
-
+{{ $state := .Params.state_abbreviation | lower }}
 <div class="translations">
-
-  {{ range $key, $lang := $.Site.Data.translations }}
-    {{ if ne $key $.Site.Params.language }}
-    <a 
-    lang="{{ $.Site.Params.langToggle }}"
-
-      {{ if or ($.IsHome) ($.IsNode) }}
-        href="{{$.Site.BaseURL}}/{{ $lang.root_path }}"
-      {{ else }}
-        href="{{$.Site.BaseURL}}/{{ $lang.root_path }}{{ $lang.register_path }}{{ $.Params.state_abbreviation | lower }}/"
-      {{ end }}
-     
-      class="usa-button translation-link">
-      {{ $lang.title }}
-    </a>
-
+  {{ if gt (len $.Site.Home.AllTranslations) 2 }}
+  <label for="language-switcher">Change Language:</label>
+  <select name="language-switcher" id="language-switcher" onchange="window.location=this.value;">
+    <option value="">- Select a language -</option>
+    {{ range $.Site.Home.AllTranslations }}
+    <option value="{{ if ($.IsHome) }}{{ .RelPermalink }}
+  {{ else }}{{ .RelPermalink }}{{ .Site.Params.register_path }}/{{ $state }}{{ end }}">{{ .Language.LanguageName }}</option>
     {{ end }}
+  </select>
+  {{ else }}
+  {{ range $.Site.Home.AllTranslations }}
+  {{ if ne .Language.Lang $.Language.Lang }}
+  <a lang="{{ .Language.Lang }}" href="{{ if ($.IsHome) }}{{ .RelPermalink }}
+  {{ else }}{{ .RelPermalink }}{{ .Site.Params.register_path }}/{{ $state }}{{ end }}" class="usa-button translation-link">
+    {{ .Language.LanguageName }}
+  </a>
   {{ end }}
-
+  {{ end }}
+  {{ end }}
 </div>
