@@ -29,12 +29,8 @@
     "banner_text": "Un sitio oficial del Gobierno de Estados Unidos",
     "banner_action": "Así es como usted puede verificarlo",
     "guidance_gov_heading": "Los sitios web oficiales usan .gov",
-    "guidance_gov_part_1": "Un sitio web",
-    "guidance_gov_part_2": "pertenece a una organización oficial del Gobierno de Estados Unidos.",
+    "guidance_gov_text": "Un sitio web %.gov% pertenece a una organización oficial del Gobierno de Estados Unidos.",
     "guidance_https_heading": "Los sitios web seguros .gov usan HTTPS",
-    "guidance_https_part_1": "Un",
-    "guidance_https_part_2": "candado",
-    "guidance_https_part_3": "o",
-    "guidance_https_part_4": "significa que usted se conectó de forma segura a un sitio web .gov. Comparta información sensible sólo en sitios web oficiales y seguros."
+    "guidance_https_text": "Un candado %lock_icon% o %https% significa que usted se conectó de forma segura a un sitio web .gov. Comparta información sensible sólo en sitios web oficiales y seguros."
   }
 }
