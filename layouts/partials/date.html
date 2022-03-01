@@ -1,0 +1,12 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+
+{{/* @TODO Update this to use timeformating https://gohugo.io/functions/dateformat */}}
+{{ if eq .Site.Language.Lang "es" }}
+
+{{ .Lastmod.Day }} de {{ index $translation.months (printf "%d" .Lastmod.Month) }} de {{ .Lastmod.Year }}
+
+{{ else }}
+
+{{ .Lastmod.Format "January 2, 2006" }}
+
+{{ end }}
