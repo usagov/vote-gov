@@ -48,17 +48,21 @@
   "ar": {
     "hp_link": "https://www.sos.arkansas.gov/elections/",
     "hp_link_english_only": "true",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
     "more_info_link_english_only": "true",
     "ip_deadline": "hasta 30 días antes del día de las elecciones",
     "mail_deadline": "30 días antes del día de las elecciones",
-    "confirm_registration": "https://www.voterview.ar-nova.org/voterview/?culture=es-MX"
+    "mail_deadline2": "",
+    "confirm_registration": "https://www.voterview.ar-nova.org/voterview/?culture=es-MX",
+    "confirm_registration_english_only": "false",
+    "confirm_registration_spanish_selection": "false"
   },
   "ca": {
     "hp_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/",
     "registration_link": "https://registertovote.ca.gov/es-mx",
     "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote",
-    "crazyegg": "true",
     "ip_deadline": "hasta el mismo día de las elecciones",
     "online_deadline": "hasta 15 días antes del día de las elecciones",
     "mail_deadline": "15 días antes del día de las elecciones",
@@ -252,12 +256,16 @@
   "me": {
     "hp_link": "https://www.maine.gov/sos/cec/elec/",
     "hp_link_english_only": "true",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
     "more_info_link_english_only": "true",
     "ip_deadline": "hasta el mismo día de las elecciones",
+    "mail_deadline": "",
     "mail_deadline2": "21 días antes del día de las elecciones",
     "confirm_registration": "https://www.maine.gov/sos/cec/elec/data/index.html",
-    "confirm_registration_english_only": "true"
+    "confirm_registration_english_only": "true",
+    "confirm_registration_spanish_selection": "false"
   },
   "md": {
     "hp_link": "https://elections.maryland.gov/",
@@ -312,12 +320,16 @@
   "ms": {
     "hp_link": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
     "hp_link_english_only": "true",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
     "more_info_link_english_only": "true",
     "ip_deadline": "hasta 30 días antes del día de las elecciones",
     "mail_deadline": "30 días antes del día de las elecciones",
+    "mail_deadline2": "",
     "confirm_registration": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
-    "confirm_registration_english_only": "true"
+    "confirm_registration_english_only": "true",
+    "confirm_registration_spanish_selection": "false"
   },
   "mo": {
     "hp_link": "https://www.sos.mo.gov/elections",
@@ -335,12 +347,16 @@
   "mt": {
     "hp_link": "https://sosmt.gov/elections/",
     "hp_link_english_only": "true",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://sosmt.gov/elections/vote/",
     "more_info_link_english_only": "true",
     "ip_deadline": "hasta el mismo día de las elecciones",
     "mail_deadline": "30 días antes del día de las elecciones",
+    "mail_deadline2": "",
     "confirm_registration": "https://sosmt.gov/elections/vote/",
-    "confirm_registration_english_only": "true"
+    "confirm_registration_english_only": "true",
+    "confirm_registration_spanish_selection": "false"
   },
   "ne": {
     "hp_link": "https://sos.nebraska.gov/elections/2020-elections",
@@ -460,11 +476,15 @@
   "ok": {
     "hp_link": "https://www.ok.gov/elections/",
     "hp_link_english_only": "true",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html",
     "more_info_link_english_only": "true",
     "ip_deadline": "hasta 25 días antes del día de las elecciones",
     "mail_deadline": "25 días antes del día de las elecciones",
+    "mail_deadline2": "",
     "confirm_registration": "https://okvoterportal.okelections.us/",
+    "confirm_registration_english_only": "false"
     "confirm_registration_spanish_selection": "true"
   },
   "or": {
@@ -495,6 +515,7 @@
   },
   "pr": {
     "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
+    "hp_link_english_only": "false",
     "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/default.aspx",
     "more_info_english_only": "true",
     "ip_deadline": "hasta 50 días antes del día de las elecciones",
@@ -509,7 +530,8 @@
     "ip_deadline": "hasta 30 días antes del día de las elecciones",
     "online_deadline": "hasta 30 días antes del día de las elecciones",
     "mail_deadline": "30 días antes del día de las elecciones",
-    "confirm_registration": "https://vote.sos.ri.gov/HomeSpanish/UpdateVoterRecord?ActiveFlag=0"
+    "confirm_registration": "https://vote.sos.ri.gov/HomeSpanish/UpdateVoterRecord?ActiveFlag=0",
+    "confirm_registration_english_only": "false"
   },
   "sc": {
     "hp_link": "https://www.scvotes.gov/",
@@ -527,12 +549,16 @@
   "sd": {
     "hp_link": "https://sdsos.gov/elections-voting/",
     "hp_link_english_only": "true",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
     "more_info_link_english_only": "true",
     "ip_deadline": "hasta 15 días antes del día de las elecciones",
+    "mail_deadline": "",
     "mail_deadline2": "15 días antes del día de las elecciones",
     "confirm_registration": "https://vip.sdsos.gov/VIPLogin.aspx",
-    "confirm_registration_english_only": "true"
+    "confirm_registration_english_only": "true",
+    "confirm_registration_spanish_selection": "false"
   },
   "tn": {
     "hp_link": "https://sos.tn.gov/elections",
@@ -549,11 +575,16 @@
   },
   "tx": {
     "hp_link": "https://www.votetexas.gov/es/index.html",
+    "hp_link_english_only": "false",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://www.votetexas.gov/es/registrese-para-votar/index.html",
-    "crazyegg": "true",
+    "more_info_link_english_only": "false",
     "ip_deadline": "hasta 30 días antes del día de las elecciones",
     "mail_deadline": "30 días antes del día de las elecciones",
+    "mail_deadline2": "",
     "confirm_registration": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do",
+    "confirm_registration_english_only": "false",
     "confirm_registration_spanish_selection": "true"
   },
   "ut": {
@@ -641,9 +672,15 @@
   "wy": {
     "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
     "hp_link_english_only": "true",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
     "more_info_link_english_only": "true",
     "ip_deadline": "hasta el mismo día de las elecciones",
-    "mail_deadline2": "14 días antes del día de las elecciones"
+    "mail_deadline": "",
+    "mail_deadline2": "14 días antes del día de las elecciones",
+    "confirm_registration": "",
+    "confirm_registration_english_only": "false",
+    "confirm_registration_spanish_selection": "false"
   }
 }

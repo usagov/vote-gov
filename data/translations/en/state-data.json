@@ -6,6 +6,7 @@
     "ip_deadline": "15 days before Election Day",
     "online_deadline": "15 days before Election Day",
     "mail_deadline": "15 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do"
   },
   "ak": {
@@ -15,6 +16,7 @@
     "ip_deadline": "30 days before Election Day",
     "online_deadline": "30 days before Election Day",
     "mail_deadline": "30 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://myvoterinformation.alaska.gov/"
   },
   "as": {
@@ -27,26 +29,33 @@
     "hp_link": "https://azsos.gov/elections",
     "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
     "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information",
+    "ip_deadline": "29 days before Election Day",
     "online_deadline": "29 days before Election Day",
     "mail_deadline": "29 days before Election Day",
-    "ip_deadline": "29 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://my.arizona.vote/WhereToVote.aspx?s=individual"
   },
   "ar": {
     "hp_link": "https://www.sos.arkansas.gov/elections/",
+    "hp_link_english_only": "false",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
     "ip_deadline": "30 days before Election Day",
     "mail_deadline": "30 days before Election Day",
-    "confirm_registration": "https://www.voterview.ar-nova.org/voterview"
+    "mail_deadline2": "",
+    "confirm_registration": "https://www.voterview.ar-nova.org/voterview",
+    "confirm_registration_english_only": "false",
+    "confirm_registration_spanish_selection": "false"
   },
   "ca": {
     "hp_link": "https://www.sos.ca.gov/elections",
     "registration_link": "https://registertovote.ca.gov/",
     "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote",
-    "crazyegg": "true",
     "ip_deadline": "Available up to and including on Election Day",
     "online_deadline": "15 days before Election Day",
     "mail_deadline": "15 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://registertovote.ca.gov/"
   },
   "co": {
@@ -56,6 +65,7 @@
     "ip_deadline": "Available up to and including on Election Day",
     "online_deadline": "8 days before Election Day",
     "mail_deadline": "8 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml"
   },
   "ct": {
@@ -65,6 +75,7 @@
     "ip_deadline": "Available up to and including on Election Day",
     "online_deadline": "7 days before Election Day",
     "mail_deadline": "7 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://portaldir.ct.gov/sots/LookUp.aspx"
   },
   "de": {
@@ -74,6 +85,7 @@
     "ip_deadline": "Fourth Saturday before Election Day",
     "online_deadline": "Fourth Saturday before Election Day",
     "mail_deadline": "by the fourth Saturday before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://ivote.de.gov/VoterView"
   },
   "dc": {
@@ -81,8 +93,9 @@
     "registration_link": "https://forms.dc.gov/f/DC_Voter_Registration_Form",
     "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register",
     "ip_deadline": "Available up to and including on Election Day",
-    "mail_deadline2": "21 days before Election Day",
     "online_deadline": "21 days before Election Day",
+    "mail_deadline": "",
+    "mail_deadline2": "21 days before Election Day",
     "confirm_registration": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status"
   },
   "fl": {
@@ -92,6 +105,7 @@
     "ip_deadline": "29 days before Election Day",
     "online_deadline": "29 days before Election Day",
     "mail_deadline": "29 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://registration.elections.myflorida.com/CheckVoterStatus"
   },
   "ga": {
@@ -101,15 +115,18 @@
     "ip_deadline": "Fifth Monday before Election Day",
     "online_deadline": "Fifth Monday before Election Day",
     "mail_deadline": "by the fifth Monday before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://www.mvp.sos.ga.gov/MVP/mvp.do"
   },
   "gu": {
     "hp_link": "https://gec.guam.gov/",
     "registration_link": "https://gec.guam.gov/register/",
     "more_info_link": "https://gec.guam.gov/",
+    "ip_deadline": "10 days before Election Day",
     "online_deadline": "10 days before Election Day",
+    "mail_deadline": "",
     "mail_deadline2": "10 days before Election Day",
-    "ip_deadline": "10 days before Election Day"
+    "confirm_registration": ""
   },
   "hi": {
     "hp_link": "https://elections.hawaii.gov/",
@@ -117,6 +134,7 @@
     "more_info_link": "https://elections.hawaii.gov/voters/registration/",
     "ip_deadline": "Available up to and including on Election Day",
     "online_deadline": "30 days before Election Day",
+    "mail_deadline1": "",
     "mail_deadline2": "30 days before Election Day",
     "confirm_registration": "https://olvr.hawaii.gov/"
   },
@@ -127,6 +145,7 @@
     "ip_deadline": "Available up to and including on Election Day",
     "online_deadline": "25 days before Election Day",
     "mail_deadline": "25 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx"
   },
   "il": {
@@ -135,6 +154,7 @@
     "more_info_link": "https://www.elections.il.gov/Default.aspx",
     "ip_deadline": "Available up to and including on Election Day",
     "online_deadline": "16 days before Election Day",
+    "mail_deadline1": "",
     "mail_deadline2": "28 days before Election Day",
     "confirm_registration": "https://ova.elections.il.gov/RegistrationLookup.aspx"
   },
@@ -145,6 +165,7 @@
     "ip_deadline": "29 days before Election Day",
     "online_deadline": "29 days before Election Day",
     "mail_deadline": "29 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://indianavoters.in.gov/"
   },
   "ia": {
@@ -154,6 +175,7 @@
     "ip_deadline": "Available up to and including on Election Day",
     "online_deadline": "15 days before Election Day",
     "mail_deadline": "15 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx"
   },
   "ks": {
@@ -163,6 +185,7 @@
     "ip_deadline": "21 days before Election Day",
     "online_deadline": "21 days before Election Day",
     "mail_deadline": "21 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://myvoteinfo.voteks.org/voterview/"
   },
   "ky": {
@@ -171,6 +194,7 @@
     "more_info_link": "https://elect.ky.gov/Resources/Pages/Registration.aspx",
     "ip_deadline": "Fourth Monday before Election Day",
     "online_deadline": "Fourth Monday before Election Day",
+    "mail_deadline1": "",
     "mail_deadline2": "by the fourth Monday before Election Day",
     "confirm_registration": "https://vrsws.sos.ky.gov/VIC/"
   },
@@ -181,14 +205,22 @@
     "ip_deadline": "30 days before Election Day",
     "online_deadline": "20 days before Election Day",
     "mail_deadline": "30 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://voterportal.sos.la.gov/"
   },
   "me": {
     "hp_link": "https://www.maine.gov/sos/cec/elec/",
+    "hp_link_english_only": "false",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
+    "more_info_link_english_only": "false",
     "ip_deadline": "Available up to and including on Election Day",
+    "mail_deadline": "",
     "mail_deadline2": "21 days before Election Day",
-    "confirm_registration": "https://www.maine.gov/sos/cec/elec/data/index.html"
+    "confirm_registration": "https://www.maine.gov/sos/cec/elec/data/index.html",
+    "confirm_registration_english_only": "false",
+    "confirm_registration_spanish_selection": "false"
   },
   "md": {
     "hp_link": "https://elections.maryland.gov/",
@@ -197,6 +229,7 @@
     "ip_deadline": "Available up to and including on Election Day",
     "online_deadline": "21 days before Election Day",
     "mail_deadline": "21 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://voterservices.elections.maryland.gov/VoterSearch"
   },
   "ma": {
@@ -206,6 +239,7 @@
     "ip_deadline": "20 days before Election Day",
     "online_deadline": "20 days before Election Day",
     "mail_deadline": "20 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"
   },
   "mi": {
@@ -215,6 +249,7 @@
     "ip_deadline": "Available up to and including on Election Day",
     "online_deadline": "15 days before Election Day",
     "mail_deadline": "15 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://mvic.sos.state.mi.us/"
   },
   "mn": {
@@ -224,14 +259,22 @@
     "ip_deadline": "Available up to and including on Election Day",
     "online_deadline": "21 days before Election Day",
     "mail_deadline2": "21 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
   },
   "ms": {
     "hp_link": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
+    "hp_link_english_only": "false",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
+    "more_info_link_english_only": "false",
     "ip_deadline": "30 days before Election Day",
     "mail_deadline": "30 days before Election Day",
-    "confirm_registration": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
+    "mail_deadline2": "",
+    "confirm_registration": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
+    "confirm_registration_english_only": "false",
+    "confirm_registration_spanish_selection": "false"
   },
   "mo": {
     "hp_link": "https://www.sos.mo.gov/elections",
@@ -240,14 +283,22 @@
     "ip_deadline": "Fourth Wednesday before Election Day",
     "online_deadline": "Fourth Wednesday before Election Day",
     "mail_deadline": "by the fourth Wednesday before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx"
   },
   "mt": {
     "hp_link": "https://sosmt.gov/elections/",
+    "hp_link_english_only": "false",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://sosmt.gov/elections/vote/",
+    "more_info_link_english_only": "false",
     "ip_deadline": "Available up to and including on Election Day",
     "mail_deadline": "30 days before Election Day",
-    "confirm_registration": "https://sosmt.gov/elections/vote/"
+    "mail_deadline2": "",
+    "confirm_registration": "https://sosmt.gov/elections/vote/",
+    "confirm_registration_english_only": "false",
+    "confirm_registration_spanish_selection": "false"
   },
   "ne": {
     "hp_link": "https://sos.nebraska.gov/elections/2020-elections",
@@ -256,6 +307,7 @@
     "ip_deadline": "Second Friday before Election Day",
     "online_deadline": "Third Friday before Election Day",
     "mail_deadline": "by the third Friday before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://www.votercheck.necvr.ne.gov/voterview"
   },
   "nv": {
@@ -265,21 +317,26 @@
     "ip_deadline": "Fourth Tuesday before Election Day",
     "online_deadline": "Thursday before early voting begins",
     "mail_deadline": "by the fourth Tuesday before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://www.nvsos.gov/votersearch/"
   },
   "nh": {
     "hp_link": "https://sos.nh.gov/home",
+    "hp_link_english_only": "false",
     "more_info_link": "https://sos.nh.gov/elections/voters/register-to-vote/",
+    "more_info_link_english_only": "false",
     "ip_deadline": "Available up to and including on Election Day",
-    "confirm_registration": "https://app.sos.nh.gov/Public/PartyInfo.aspx"
+    "confirm_registration": "https://app.sos.nh.gov/Public/PartyInfo.aspx",
+    "confirm_registration_english_only": "false"
   },
   "nj": {
     "hp_link": "https://www.state.nj.us/state/elections/index.shtml",
     "registration_link": "https://voter.svrs.nj.gov/register",
     "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml",
-    "online_deadline": "21 days before Election Day",
-    "mail_deadline2": "21 days before Election Day",
     "ip_deadline": "21 days before Election Day",
+    "online_deadline": "21 days before Election Day",
+    "mail_deadline": "",
+    "mail_deadline2": "21 days before Election Day",
     "confirm_registration": "https://voter.svrs.nj.gov/registration-check"
   },
   "nm": {
@@ -289,6 +346,7 @@
     "ip_deadline": "Saturday before Election Day",
     "online_deadline": "28 days before Election Day",
     "mail_deadline": "28 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
   },
   "ny": {
@@ -298,6 +356,7 @@
     "ip_deadline": "25 days before Election Day",
     "online_deadline": "25 days before Election Day",
     "mail_deadline": "25 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://voterlookup.elections.ny.gov/"
   },
   "nc": {
@@ -307,6 +366,7 @@
     "ip_deadline": "Same day registration available during early voting period",
     "online_deadline": "25 days before Election Day",
     "mail_deadline": "25 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://vt.ncsbe.gov/RegLkup/"
   },
   "nd": {
@@ -316,9 +376,12 @@
   },
   "mp": {
     "hp_link": "https://www.votecnmi.gov.mp/",
+    "hp_link_english_only": "false",
     "more_info_link": "https://www.votecnmi.gov.mp/",
+    "more_info_link_english_only": "false",
     "ip_deadline": "60 days before Election Day",
-    "confirm_registration": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
+    "confirm_registration": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote",
+    "confirm_registration_english_only": "false"
   },
   "oh": {
     "hp_link": "https://www.sos.state.oh.us/elections/",
@@ -327,14 +390,22 @@
     "ip_deadline": "30 days before Election Day",
     "online_deadline": "30 days before Election Day",
     "mail_deadline": "30 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://voterlookup.ohiosos.gov/voterlookup.aspx"
   },
   "ok": {
     "hp_link": "https://www.ok.gov/elections/",
+    "hp_link_english_only": "false",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html",
+    "more_info_link_english_only": "false",
     "ip_deadline": "25 days before Election Day",
     "mail_deadline": "25 days before Election Day",
-    "confirm_registration": "https://okvoterportal.okelections.us/"
+    "mail_deadline2": "",
+    "confirm_registration": "https://okvoterportal.okelections.us/",
+    "confirm_registration_english_only": "false",
+    "confirm_registration_spanish_selection": "false"
   },
   "or": {
     "hp_link": "https://sos.oregon.gov/voting-elections/Pages/default.aspx",
@@ -343,6 +414,7 @@
     "ip_deadline": "21 days before Election Day",
     "online_deadline": "21 days before Election Day",
     "mail_deadline": "21 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS"
   },
   "pa": {
@@ -351,14 +423,18 @@
     "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote",
     "ip_deadline": "15 days before Election Day",
     "online_deadline": "15 days before Election Day",
+    "mail_deadline1": "",
     "mail_deadline2": "15 days before Election Day",
     "confirm_registration": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
   },
   "pr": {
     "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
+    "hp_link_english_only": "false",
     "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
+    "more_info_english_only": "false",
     "ip_deadline": "50 days before Election Day",
-    "confirm_registration": "https://consulta.ceepur.org/"
+    "confirm_registration": "https://consulta.ceepur.org/",
+    "confirm_registration_english_only": "false"
   },
   "ri": {
     "hp_link": "https://elections.ri.gov/",
@@ -367,6 +443,7 @@
     "ip_deadline": "30 days before Election Day",
     "online_deadline": "30 days before Election Day",
     "mail_deadline": "30 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0"
   },
   "sc": {
@@ -376,14 +453,22 @@
     "ip_deadline": "30 days before Election Day",
     "online_deadline": "30 days before Election Day",
     "mail_deadline": "30 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
   },
   "sd": {
     "hp_link": "https://sdsos.gov/elections-voting/",
+    "hp_link_english_only": "false",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
+    "more_info_link_english_only": "false",
     "ip_deadline": "15 days before Election Day",
+    "mail_deadline": "",
     "mail_deadline2": "15 days before Election Day",
-    "confirm_registration": "https://vip.sdsos.gov/VIPLogin.aspx"
+    "confirm_registration": "https://vip.sdsos.gov/VIPLogin.aspx",
+    "confirm_registration_english_only": "false",
+    "confirm_registration_spanish_selection": "false"
   },
   "tn": {
     "hp_link": "https://sos.tn.gov/elections",
@@ -392,15 +477,22 @@
     "ip_deadline": "30 days before Election Day",
     "online_deadline": "30 days before Election Day",
     "mail_deadline": "30 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://tnmap.tn.gov/voterlookup/"
   },
   "tx": {
     "hp_link": "https://www.votetexas.gov/index.html",
+    "hp_link_english_only": "false",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html",
-    "crazyegg": "true",
+    "more_info_link_english_only": "false",
     "ip_deadline": "30 days before Election Day",
     "mail_deadline": "30 days before Election Day",
-    "confirm_registration": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
+    "mail_deadline2": "",
+    "confirm_registration": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do",
+    "confirm_registration_english_only": "false",
+    "confirm_registration_spanish_selection": "false"
   },
   "ut": {
     "hp_link": "https://elections.utah.gov/",
@@ -408,6 +500,7 @@
     "more_info_link": "https://voteinfo.utah.gov/",
     "ip_deadline": "Available up to and including on Election Day",
     "online_deadline": "11 days before Election Day",
+    "mail_deadline": "",
     "mail_deadline2": "11 days before Election Day",
     "confirm_registration": "https://vote.utah.gov/"
   },
@@ -417,6 +510,7 @@
     "more_info_link": "https://sos.vermont.gov/elections/voters/registration/",
     "ip_deadline": "Available up to and including on Election Day",
     "online_deadline": "Friday before Election Day",
+    "mail_deadline": "",
     "mail_deadline2": "by the Friday before Election Day",
     "confirm_registration": "https://mvp.vermont.gov/"
   },
@@ -427,13 +521,17 @@
     "ip_deadline": "22 days before Election Day",
     "online_deadline": "22 days before Election Day",
     "mail_deadline": "22 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://www.elections.virginia.gov/registration/view-your-info/"
   },
   "vi": {
     "hp_link": "https://www.vivote.gov/voters/register-vote",
+    "hp_link_english_only": "false",
     "more_info_link": "https://www.vivote.gov/voters/register-vote",
+    "more_info_english_only": "false",
     "ip_deadline": "30 days before Election Day",
-    "confirm_registration": "https://www.vivote.gov/voters/lookup"
+    "confirm_registration": "https://www.vivote.gov/voters/lookup",
+    "confirm_registration_english_only": "false"
   },
   "wa": {
     "hp_link": "https://www.sos.wa.gov/elections/",
@@ -441,6 +539,7 @@
     "more_info_link": "https://www.sos.wa.gov/elections/voters/",
     "ip_deadline": "Available up to and including on Election Day",
     "online_deadline": "8 days before Election Day",
+    "mail_deadline": "",
     "mail_deadline2": "8 days before Election Day",
     "confirm_registration": "https://voter.votewa.gov/WhereToVote.aspx"
   },
@@ -451,6 +550,7 @@
     "ip_deadline": "21 days before Election Day",
     "online_deadline": "21 days before Election Day",
     "mail_deadline": "21 days before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
   },
   "wi": {
@@ -460,12 +560,20 @@
     "ip_deadline": "Available up to and including on Election Day",
     "online_deadline": "Third Wednesday before Election Day",
     "mail_deadline": "by the third Wednesday before Election Day",
+    "mail_deadline2": "",
     "confirm_registration": "https://myvote.wi.gov/en-us/MyVoterInfo"
   },
   "wy": {
     "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
+    "hp_link_english_only": "false",
+    "registration_link": "",
+    "registration_link_spanish_selection": "false",
     "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
     "ip_deadline": "Available up to and including on Election Day",
-    "mail_deadline2": "14 days before Election Day"
+    "mail_deadline": "",
+    "mail_deadline2": "14 days before Election Day",
+    "confirm_registration": "",
+    "confirm_registration_english_only": "false",
+    "confirm_registration_spanish_selection": "false"
   }
 }
