@@ -29,12 +29,8 @@
     "banner_text": "An official website of the United States government",
     "banner_action": "Here’s how you know",
     "guidance_gov_heading": "Official websites use .gov",
-    "guidance_gov_part_1": "A",
-    "guidance_gov_part_2": "website belongs to an official government organization in the United States.",
+    "guidance_gov_text": "A %.gov% website belongs to an official government organization in the United States.",
     "guidance_https_heading": "Secure .gov websites use HTTPS",
-    "guidance_https_part_1": "A",
-    "guidance_https_part_2": "lock",
-    "guidance_https_part_3": "or",
-    "guidance_https_part_4": "means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites."
+    "guidance_https_text": "A lock %lock_icon% or %https% means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites."
   }
 }
