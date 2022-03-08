@@ -15,34 +15,34 @@
       "name": "{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}{{ $translation.register.by_mail.label }}
-        <a href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ .Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.by_mail.link "%state_name%" .Params.state_name }}.</a>"
+        "text": "{{ replace $translation.register.by_mail__intro "%state_name%" .Params.state_name }}{{ $translation.register.by_mail.label }}
+        <a href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ .Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.by_mail__link "%state_name%" .Params.state_name }}.</a>"
       }
     },{
         "@type": "Question",
-        "name": "{{ replace $translation.register.dates.heading "%state_name%" .Params.state_name }}",
+        "name": "{{ replace $translation.register.dates__heading "%state_name%" .Params.state_name }}",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "{{ replace $translation.register.dates.byonline_deadline "%online_deadline%" .Params.online_deadline }}<br><br>{{ replace $translation.register.dates.bymail_deadline "%mail_deadline%" .Params.mail_deadline }}<br><br>{{ replace $translation.register.dates.inperson_deadline "%ip_deadline%" .Params.ip_deadline }}"
+          "text": "{{ replace $translation.register.dates__byonline_deadline "%online_deadline%" .Params.online_deadline }}<br><br>{{ replace $translation.register.dates__bymail_deadline "%mail_deadline%" .Params.mail_deadline }}<br><br>{{ replace $translation.register.dates__inperson_deadline "%ip_deadline%" .Params.ip_deadline }}"
         }
       },{
         "@type": "Question",
-        "name": "{{ replace $translation.register.dates.electionday_heading "%state_name%" .Params.state_name }}",
+        "name": "{{ replace $translation.register.dates__electionday_heading "%state_name%" .Params.state_name }}",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "{{ $translation.register.dates.electionday }}"
+          "text": "{{ $translation.register.dates__electionday }}"
         }
       }]
   }
 </script>
 
 <p>
-  {{ replace $translation.register.by_mail.intro "%state_name%" .Params.state_name }}
+  {{ replace $translation.register.by_mail__intro "%state_name%" .Params.state_name }}
   {{ $translation.register.by_mail.label }}
   <a class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ .Site.Params.Referrer_Short_Code }}">
-  {{ replace $translation.register.by_mail.link "%state_name%" .Params.state_name -}}
+  {{ replace $translation.register.by_mail__link "%state_name%" .Params.state_name -}}
   {{ if .Params.more_info_link_english_only }}
-  {{ $translation.register.english_only -}}
+  {{ .Site.Params.english_only -}}
   {{ else if .Params.more_info_link_spanish_selection }}
   {{ $translation.register.selecciones_link -}}
   {{ end }}.
@@ -53,10 +53,10 @@
 
 {{ if ne .Params.national_voter_registration_form_accepted "false" }}
 <form class="state-download" method="get" id="register">
-  <h2>{{ replace $translation.register.other_language_selection.heading "%state_name%" .Params.state_name }}</h2>
-  <p>{{ $translation.register.other_language_selection.label }}</p>
+  <h2>{{ replace $translation.register.other_language_selection__heading "%state_name%" .Params.state_name }}</h2>
+  <p>{{ $translation.register.other_language_selection__label }}</p>
   <label class="usa-sr-only" for="js-user-selection">
-    {{ $translation.register.other_language_selection.default }}
+    {{ $translation.register.other_language_selection__default }}
   </label>
 
 
@@ -75,7 +75,7 @@
   </select>
 
   <button class="usa-button max-width-input" id="js-user-submit" type="submit">
-    {{ $translation.register.other_language_selection.submit }}
+    {{ $translation.register.other_language_selection__submit }}
   </button>
 
 </form>
