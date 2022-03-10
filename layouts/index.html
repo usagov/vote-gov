@@ -28,13 +28,13 @@
               </header>
 
               <form class="form-register" method="get" id="register">
-                <h2>{{ $translation.homepage.state_selection.heading }}</h2>
+                <h2>{{ $translation.homepage.state_selection__heading }}</h2>
                 <label class="usa-sr-only" for="js-user-selection">
-                  {{ $translation.homepage.state_selection.default }}
+                  {{ $translation.homepage.state_selection__default }}
                 </label>
                 <select class="usa-select max-width-input" name="userselection" id="js-user-selection">
                   <option value="default">
-                    {{ $translation.homepage.state_selection.default }}
+                    {{ $translation.homepage.state_selection__default }}
                   </option>
                   {{ range (where .Site.RegularPages.ByTitle "Section" .Site.Params.register_path ) }}
                     <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
@@ -42,7 +42,7 @@
 
                 </select>
                 <button class="usa-button max-width-input" id="js-user-submit" type="submit">
-                  {{ $translation.homepage.state_selection.submit }}
+                  {{ $translation.homepage.state_selection__submit }}
                 </button>
               </form>
             </section>
@@ -60,24 +60,24 @@
           <div class="tablet:grid-col-8 right-shift">
             <section class="page-section registered" id="already-registered">
               <header>
-                <h2 class="content-heading">{{ $translation.homepage.registered.header }}</h2>
+                <h2 class="content-heading">{{ $translation.homepage.registered__header }}</h2>
               </header>
               <div class="voter-resources">
                 <h3>
-                  {{ $translation.homepage.registered.resources_intro }}
-                  <a href="{{ $translation.homepage.registered.resources_link_url }}">
-                    {{ $translation.homepage.registered.resources_link_text -}}
-                  </a> {{ $translation.homepage.registered.resources_on }}:
+                  {{ $translation.homepage.registered__resources_intro }}
+                  <a href="{{ $translation.homepage.registered__resources_link_url }}">
+                    {{ $translation.homepage.registered__resources_link_text -}}
+                  </a> {{ $translation.homepage.registered__resources_on }}:
                 </h3>
                 <ul class="registered-resources">
                   <li><a
-                      href="{{ $translation.homepage.registered_links.electionday_url }}">{{ $translation.homepage.registered_links.electionday }}</a>
+                      href="{{ $translation.homepage.registered_links__electionday_url }}">{{ $translation.homepage.registered_links__electionday }}</a>
                   </li>
                   <li><a
-                      href="{{ $translation.homepage.registered_links.voterid_url }}">{{ $translation.homepage.registered_links.voterid }}</a>
+                      href="{{ $translation.homepage.registered_links__voterid_url }}">{{ $translation.homepage.registered_links__voterid }}</a>
                   </li>
                   <li><a
-                      href="{{ $translation.homepage.registered_links.process_url }}">{{ $translation.homepage.registered_links.process }}</a>
+                      href="{{ $translation.homepage.registered_links__process_url }}">{{ $translation.homepage.registered_links__process }}</a>
                   </li>
                 </ul>
               </div>

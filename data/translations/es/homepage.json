@@ -1,36 +1,26 @@
 {
   "site_name": "Vote.gov en Español",
   "header": "Inscríbase para votar",
-  "state_selection": {
-    "heading": "¿Dónde vive? ",
-    "default": "Seleccione su estado o territorio",
-    "submit": "Averigüe cómo registrarse"
-  },
-  "registered": {
-    "header": "¿Ya se inscribió para votar?",
-    "resources_intro": "Vea nuestra",
-    "resources_link_text": "sección sobre votaciones y elecciones",
-    "resources_link_url": "https://www.usa.gov/espanol/votaciones",
-    "resources_on": "en USAGov en Español"
-  },
-  "registered_links": {
-    "electionday": "Cómo votar el día de las elecciones",
-    "electionday_url": "https://www.usa.gov/espanol/como-votar#item-212934",
-    "voterid": "Documentos de identificación personal para votar",
-    "voterid_url": "https://www.usa.gov/espanol/documento-para-votar",
-    "process": "Proceso electoral",
-    "process_url": "https://www.usa.gov/espanol/proceso-electoral"
-  },
-  "alert": {
-    "alert_msg": "Debido al COVID-19, su estado podría haber modificado cuándo, dónde y cómo usted podrá votar en las próximas elecciones. Verifique esta información en el sitio web electoral de su estado.",
-    "alert_after_election": "Para ver los resultados oficiales de las elecciones visite el sitio web electoral de su estado."
-  },
-  "banner": {
-    "banner_text": "Un sitio oficial del Gobierno de Estados Unidos",
-    "banner_action": "Así es como usted puede verificarlo",
-    "guidance_gov_heading": "Los sitios web oficiales usan .gov",
-    "guidance_gov_text": "Un sitio web %.gov% pertenece a una organización oficial del Gobierno de Estados Unidos.",
-    "guidance_https_heading": "Los sitios web seguros .gov usan HTTPS",
-    "guidance_https_text": "Un candado %lock_icon% o %https% significa que usted se conectó de forma segura a un sitio web .gov. Comparta información sensible sólo en sitios web oficiales y seguros."
-  }
+  "state_selection__heading": "¿Dónde vive? ",
+  "state_selection__default": "Seleccione su estado o territorio",
+  "state_selection__submit": "Averigüe cómo registrarse",
+  "registered__header": "¿Ya se inscribió para votar?",
+  "registered__resources_intro": "Vea nuestra",
+  "registered__resources_link_text": "sección sobre votaciones y elecciones",
+  "registered__resources_link_url": "https://www.usa.gov/espanol/votaciones",
+  "registered__resources_on": "en USAGov en Español",
+  "registered_links__electionday": "Cómo votar el día de las elecciones",
+  "registered_links__electionday_url": "https://www.usa.gov/espanol/como-votar#item-212934",
+  "registered_links__voterid": "Documentos de identificación personal para votar",
+  "registered_links__voterid_url": "https://www.usa.gov/espanol/documento-para-votar",
+  "registered_links__process": "Proceso electoral",
+  "registered_links__process_url": "https://www.usa.gov/espanol/proceso-electoral",
+  "alert__alert_msg": "Debido al COVID-19, su estado podría haber modificado cuándo, dónde y cómo usted podrá votar en las próximas elecciones. Verifique esta información en el sitio web electoral de su estado.",
+  "alert__alert_after_election": "Para ver los resultados oficiales de las elecciones visite el sitio web electoral de su estado.",
+  "banner__banner_text": "Un sitio oficial del Gobierno de Estados Unidos",
+  "banner__banner_action": "Así es como usted puede verificarlo",
+  "banner__guidance_gov_heading": "Los sitios web oficiales usan .gov",
+  "banner__guidance_gov_text": "Un sitio web %.gov% pertenece a una organización oficial del Gobierno de Estados Unidos.",
+  "banner__guidance_https_heading": "Los sitios web seguros .gov usan HTTPS",
+  "banner__guidance_https_text": "Un candado %lock_icon% o %https% significa que usted se conectó de forma segura a un sitio web .gov. Comparta información sensible sólo en sitios web oficiales y seguros."
 }

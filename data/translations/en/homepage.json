@@ -1,36 +1,26 @@
 {
   "site_name": "Vote.gov",
   "header": "Register to vote",
-  "state_selection": {
-    "heading": "Where do you live?",
-    "default": "Select your state or territory",
-    "submit": "Find out how to register"
-  },
-  "registered": {
-    "header": "Already registered?",
-    "resources_intro": "Explore our",
-    "resources_link_text": "voting and election resources",
-    "resources_link_url": "https://www.usa.gov/voting",
-    "resources_on": "on USA.gov"
-  },
-  "registered_links": {
-    "electionday": "Voting on election day",
-    "electionday_url": "https://www.usa.gov/election-day",
-    "voterid": "Voter ID requirements",
-    "voterid_url": "https://www.usa.gov/voter-id",
-    "process": "Election process",
-    "process_url": "https://www.usa.gov/election"
-  },
-  "alert": {
-    "alert_msg": "Due to COVID-19, there may be changes to when, where and how you vote in your upcoming elections. Check with your state election site for more information.",
-    "alert_after_election": "For official election results, go to your state election website."
-  },
-  "banner": {
-    "banner_text": "An official website of the United States government",
-    "banner_action": "Here’s how you know",
-    "guidance_gov_heading": "Official websites use .gov",
-    "guidance_gov_text": "A %.gov% website belongs to an official government organization in the United States.",
-    "guidance_https_heading": "Secure .gov websites use HTTPS",
-    "guidance_https_text": "A lock %lock_icon% or %https% means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites."
-  }
+  "state_selection__heading": "Where do you live?",
+  "state_selection__default": "Select your state or territory",
+  "state_selection__submit": "Find out how to register",
+  "registered__header": "Already registered?",
+  "registered__resources_intro": "Explore our",
+  "registered__resources_link_text": "voting and election resources",
+  "registered__resources_link_url": "https://www.usa.gov/voting",
+  "registered__resources_on": "on USA.gov",
+  "registered_links__electionday": "Voting on election day",
+  "registered_links__electionday_url": "https://www.usa.gov/election-day",
+  "registered_links__voterid": "Voter ID requirements",
+  "registered_links__voterid_url": "https://www.usa.gov/voter-id",
+  "registered_links__process": "Election process",
+  "registered_links__process_url": "https://www.usa.gov/election",
+  "alert__alert_msg": "Due to COVID-19, there may be changes to when, where and how you vote in your upcoming elections. Check with your state election site for more information.",
+  "alert__alert_after_election": "For official election results, go to your state election website.",
+  "banner__banner_text": "An official website of the United States government",
+  "banner__banner_action": "Here’s how you know",
+  "banner__guidance_gov_heading": "Official websites use .gov",
+  "banner__guidance_gov_text": "A %.gov% website belongs to an official government organization in the United States.",
+  "banner__guidance_https_heading": "Secure .gov websites use HTTPS",
+  "banner__guidance_https_text": "A lock %lock_icon% or %https% means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites."
 }
