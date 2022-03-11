@@ -1,0 +1,32 @@
+.translations {
+  label.usa-label.usa-label--language {
+    display: inline;
+    font-size: 14px;
+    margin-right: 0.5rem;
+
+    @media (min-width: 1024px) {
+      font-size: 16px;
+    }
+  }
+
+  select.usa-select.usa-select--language {
+    display: inline-block;
+    max-width: 200px;
+    background-color: #11385B;
+    background-image: url("../img/unfold_more-white.svg");
+    padding-left: 10px;
+    border-radius: 0.25rem;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 0;
+    text-overflow: ellipsis;
+
+    @media (min-width: 1024px) {
+      max-width: 240px;
+    }
+  }
+}
+
+.translation-link {
+  width: auto;
+}

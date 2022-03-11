@@ -1,22 +1,23 @@
 {{ $state := .Params.state_abbreviation | lower }}
-<div class="translations">
-  {{ if gt (len $.Site.Home.AllTranslations) 2 }}
-  <label for="language-switcher">Change Language:</label>
-  <select name="language-switcher" id="language-switcher" onchange="window.location=this.value;">
-    <option value="">- Select a language -</option>
+{{ $currentLang := .Site.Language.LanguageName }}
+<div class="translations grid-col-5">
+  <label for="language-switcher" class="usa-label usa-label--language">{{ .Site.Params.select_language }}</label>
+  <select class="usa-select usa-select--language" name="language-switcher" id="language-switcher" onchange="window.location=this.value;">
     {{ range $.Site.Home.AllTranslations }}
-    <option value="{{ if ($.IsHome) }}{{ .RelPermalink }}
-  {{ else }}{{ .RelPermalink }}{{ .Site.Params.register_path }}/{{ $state }}{{ end }}">{{ .Language.LanguageName }}</option>
+    <option value="{{ if ($.IsHome) }}
+        {{ .RelPermalink }}
+      {{ else }}
+        {{ .RelPermalink }}{{ .Site.Params.register_path }}/{{ $state }}
+      {{ end }}"
+      {{ if eq $currentLang .Language.LanguageName }}
+        selected="selected"
+      {{ end }}
+    >{{ if not (eq .Site.Params.english_languageName "") }}
+      {{ .Site.Params.english_languageName }} ({{ .Language.LanguageName }})
+      {{ else }}
+      {{ .Language.LanguageName }}
+      {{ end }}
+    </option>
     {{ end }}
   </select>
-  {{ else }}
-  {{ range $.Site.Home.AllTranslations }}
-  {{ if ne .Language.Lang $.Language.Lang }}
-  <a lang="{{ .Language.Lang }}" href="{{ if ($.IsHome) }}{{ .RelPermalink }}
-  {{ else }}{{ .RelPermalink }}{{ .Site.Params.register_path }}/{{ $state }}{{ end }}" class="usa-button translation-link">
-    {{ .Language.LanguageName }}
-  </a>
-  {{ end }}
-  {{ end }}
-  {{ end }}
 </div>
