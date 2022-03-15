@@ -15,18 +15,18 @@
 			{{ .Params.online_deadline }}
 		</li>
 	{{end}}
-	{{ if .Params.mail_deadline }}
+	{{ if .Params.mail_postmarked_deadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__bymail_deadline }}</span>
 			{{ $translation.register.dates__bymail_deadline1 }}
-			{{ .Params.mail_deadline }}
+			{{ .Params.mail_postmarked_deadline }}
 		</li>
 	{{end}}
-	{{ if .Params.mail_deadline2 }}
+	{{ if .Params.mail_received_deadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__bymail_deadline2 }}</span>
 			{{ $translation.register.dates__bymail_deadline2_1 }}
-			{{ .Params.mail_deadline2 }}
+			{{ .Params.mail_received_deadline }}
 		</li>
 	{{end}}
 	{{ if .Params.ip_deadline }}
