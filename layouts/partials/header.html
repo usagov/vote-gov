@@ -72,8 +72,8 @@
             {{ $translation.register.alert_state__alert_msg1 -}}
             {{ if .Params.hp_link_english_only }}
             {{ .Site.Params.english_only -}}
-            {{ else if .Params.hp_link_spanish_selection }}
-            {{ $translation.register.selecciones_link -}}
+            {{ else if .Params.hp_link_language_selection }}
+            {{ $translation.register.selections_link -}}
             {{ end }}.
           </a>
         </p>

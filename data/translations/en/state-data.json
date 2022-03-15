@@ -2,7 +2,7 @@
   "al": {
     "hp_link": "https://www.sos.alabama.gov/alabama-votes",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -20,7 +20,7 @@
   "ak": {
     "hp_link": "https://www.elections.alaska.gov/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://voterregistration.alaska.gov/",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -47,7 +47,7 @@
   "az": {
     "hp_link": "https://azsos.gov/elections",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
     "registration_link_spanish_selection": "false",
     "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information",
@@ -78,7 +78,7 @@
   "ca": {
     "hp_link": "https://www.sos.ca.gov/elections",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://registertovote.ca.gov/",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -96,7 +96,7 @@
   "co": {
     "hp_link": "https://www.sos.state.co.us/pubs/elections/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -114,7 +114,7 @@
   "ct": {
     "hp_link": "https://portal.ct.gov/sots",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://voterregistration.ct.gov/OLVR/welcome.do",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -132,7 +132,7 @@
   "de": {
     "hp_link": "https://elections.delaware.gov/index.shtml",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://ivote.de.gov/VoterView/",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -150,7 +150,7 @@
   "dc": {
     "hp_link": "https://dcboe.org/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://forms.dc.gov/f/DC_Voter_Registration_Form",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -168,7 +168,7 @@
   "fl": {
     "hp_link": "https://dos.myflorida.com/elections/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://registertovoteflorida.gov/eligibilityreactive",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -186,7 +186,7 @@
   "ga": {
     "hp_link": "https://sos.ga.gov/index.php/elections",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -204,7 +204,7 @@
   "gu": {
     "hp_link": "https://gec.guam.gov/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://gec.guam.gov/register/",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -222,7 +222,7 @@
   "hi": {
     "hp_link": "https://elections.hawaii.gov/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://olvr.hawaii.gov/",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -240,7 +240,7 @@
   "id": {
     "hp_link": "https://idahovotes.gov/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/ApplicationInstructions.aspx",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -258,7 +258,7 @@
   "il": {
     "hp_link": "https://www.elections.il.gov/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://ova.elections.il.gov/",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -276,7 +276,7 @@
   "in": {
     "hp_link": "https://www.in.gov/sos/elections/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://indianavoters.in.gov/",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -294,7 +294,7 @@
   "ia": {
     "hp_link": "https://sos.iowa.gov/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -312,7 +312,7 @@
   "ks": {
     "hp_link": "https://sos.ks.gov/elections/elections.html",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -330,7 +330,7 @@
   "ky": {
     "hp_link": "https://elect.ky.gov/Pages/default.aspx",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://vrsws.sos.ky.gov/ovrweb/",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -348,7 +348,7 @@
   "la": {
     "hp_link": "https://www.sos.la.gov/ElectionsAndVoting/Pages/default.aspx",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -380,7 +380,7 @@
   "md": {
     "hp_link": "https://elections.maryland.gov/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -398,7 +398,7 @@
   "ma": {
     "hp_link": "https://www.sec.state.ma.us/ele/eleidx.htm",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://www.sec.state.ma.us/ovr/",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -416,7 +416,7 @@
   "mi": {
     "hp_link": "https://www.michigan.gov/sos/0,4670,7-127-1633---,00.html",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://mvic.sos.state.mi.us/registervoter",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -434,7 +434,7 @@
   "mn": {
     "hp_link": "https://www.sos.state.mn.us/elections-voting/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -466,7 +466,7 @@
   "mo": {
     "hp_link": "https://www.sos.mo.gov/elections",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://s1.sos.mo.gov/elections/voterregistration/",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -498,7 +498,7 @@
   "ne": {
     "hp_link": "https://sos.nebraska.gov/elections/2020-elections",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -516,7 +516,7 @@
   "nv": {
     "hp_link": "https://www.nvsos.gov/sos/elections",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://www.nvsos.gov/SOSVoterServices/start.aspx",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -543,7 +543,7 @@
   "nj": {
     "hp_link": "https://www.state.nj.us/state/elections/index.shtml",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://voter.svrs.nj.gov/register",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -561,7 +561,7 @@
   "nm": {
     "hp_link": "https://www.sos.state.nm.us/voting-and-elections/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -579,7 +579,7 @@
   "ny": {
     "hp_link": "https://www.elections.ny.gov/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://dmv.ny.gov/more-info/electronic-voter-registration-application",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -597,7 +597,7 @@
   "nc": {
     "hp_link": "https://www.ncsbe.gov/voting",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -632,7 +632,7 @@
   "oh": {
     "hp_link": "https://www.sos.state.oh.us/elections/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://olvr.ohiosos.gov/",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -664,7 +664,7 @@
   "or": {
     "hp_link": "https://sos.oregon.gov/voting-elections/Pages/default.aspx",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://secure.sos.state.or.us/orestar/vr/register.do",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -682,7 +682,7 @@
   "pa": {
     "hp_link": "https://www.pa.gov/guides/voting-and-elections/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -709,7 +709,7 @@
   "ri": {
     "hp_link": "https://elections.ri.gov/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -727,7 +727,7 @@
   "sc": {
     "hp_link": "https://www.scvotes.gov/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -759,7 +759,7 @@
   "tn": {
     "hp_link": "https://sos.tn.gov/elections",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://ovr.govote.tn.gov/",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -777,7 +777,7 @@
   "tx": {
     "hp_link": "https://www.votetexas.gov/index.html",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -794,7 +794,7 @@
   "ut": {
     "hp_link": "https://elections.utah.gov/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://secure.utah.gov/voterreg/index.html",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -812,7 +812,7 @@
   "vt": {
     "hp_link": "https://sos.vermont.gov/elections/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://olvr.vermont.gov/",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -830,7 +830,7 @@
   "va": {
     "hp_link": "https://www.elections.virginia.gov/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://www.elections.virginia.gov/citizen-portal/",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -857,7 +857,7 @@
   "wa": {
     "hp_link": "https://www.sos.wa.gov/elections/",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -875,7 +875,7 @@
   "wv": {
     "hp_link": "https://sos.wv.gov/elections/Pages/default.aspx",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
@@ -893,7 +893,7 @@
   "wi": {
     "hp_link": "https://elections.wi.gov/elections-voting",
     "hp_link_english_only": "false",
-    "hp_link_spanish_selection": "false",
+    "hp_link_language_selection": "false",
     "registration_link": "https://myvote.wi.gov/en-us/RegisterToVote",
     "registration_link_english_only": "false",
     "registration_link_spanish_selection": "false",
