@@ -23,7 +23,7 @@
         "name": "{{ replace $translation.register.dates__heading "%state_name%" .Params.state_name }}",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "{{ replace $translation.register.dates__byonline_deadline "%online_deadline%" .Params.online_deadline }}<br><br>{{ replace $translation.register.dates__bymail_deadline "%mail_deadline%" .Params.mail_deadline }}<br><br>{{ replace $translation.register.dates__inperson_deadline "%ip_deadline%" .Params.ip_deadline }}"
+          "text": "{{ replace $translation.register.dates__byonline_deadline "%online_deadline%" .Params.online_deadline }}<br><br>{{ replace $translation.register.dates__bymail_deadline "%mail_postmarked_deadline%" .Params.mail_postmarked_deadline }}<br><br>{{ replace $translation.register.dates__inperson_deadline "%ip_deadline%" .Params.ip_deadline }}"
         }
       },{
         "@type": "Question",
