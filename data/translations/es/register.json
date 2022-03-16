@@ -3,7 +3,7 @@
   "heading": "Regístrese para votar en %state_name%",
   "heading2": "¿Cómo me puedo inscribir para votar en %state_name%?",
   "meta_name": "Averigüe cómo inscribirse para votar en %state_name%",
-  "selections_link": "(seleccione español)",
+  "select_link": "(seleccione español)",
   "state_heading": "Inscríbase para votar en %state_name%",
   "by_mail__intro": "La inscripción por Internet no está disponible actualmente. Vea otras formas de inscribirse para votar en",
   "by_mail__link": "el sitio web electoral de %state_name%",

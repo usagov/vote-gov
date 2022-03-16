@@ -39,8 +39,8 @@
 
   {{ if .Params.more_info_link_english_only }}
   {{ .Site.Params.english_only -}}
-  {{ else if .Params.more_info_link_spanish_selection }}
-  {{ $translation.register.selections_link -}}
+  {{ else if .Params.more_info_link_language_selection }}
+  {{ $translation.register.select_link -}}
   {{ end }}.
   </a>
 </p>

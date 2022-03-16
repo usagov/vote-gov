@@ -50,8 +50,8 @@
 
 		{{ if .Params.confirm_registration_english_only }}
   {{ .Site.Params.english_only -}}
-		{{ else if .Params.confirm_registration_spanish_selection }}
-			{{ $translation.register.selections_link -}}
+		{{ else if .Params.confirm_registration_language_selection }}
+			{{ $translation.register.select_link -}}
 		{{ end }}.
 	</a>
 </p>
