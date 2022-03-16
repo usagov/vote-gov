@@ -25,7 +25,7 @@
         "name": "{{ replace $translation.register.dates__heading "%state_name%" .Params.state_name }}",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "{{ replace $translation.register.dates__byonline_deadline "%online_deadline%" .Params.online_deadline }}<br><br>{{ replace $translation.register.dates__bymail_deadline "%mail_deadline%" .Params.mail_deadline }}<br><br>{{ replace $translation.register.dates__inperson_deadline "%ip_deadline%" .Params.ip_deadline }}"
+          "text": "{{ replace $translation.register.dates__byonline_deadline "%online_deadline%" .Params.online_deadline }}<br><br>{{ replace $translation.register.dates__bymail_deadline "%mail_postmarked_deadline%" .Params.mail_postmarked_deadline }}<br><br>{{ replace $translation.register.dates__inperson_deadline "%ip_deadline%" .Params.ip_deadline }}"
         }
       },{
         "@type": "Question",
@@ -49,8 +49,8 @@
   {{ replace $translation.register.online__answer1_link "%state_name%" .Params.state_name -}}
   {{ if .Params.registration_link_english_only }}
   {{ .Site.Params.english_only -}}
-  {{ else if .Params.registration_link_spanish_selection }}
-  {{ $translation.register.selecciones_link -}}
+  {{ else if .Params.registration_link_language_selection }}
+  {{ $translation.register.select_link -}}
   {{ end }}.
 
   </a>
@@ -62,8 +62,8 @@
   {{ replace $translation.register.online__answer2_link "%state_name%" .Params.state_name -}}
   {{ if .Params.more_info_link_english_only }}
   {{ .Site.Params.english_only -}}
-  {{ else if .Params.more_info_link_spanish_selection }}
-  {{ $translation.register.selecciones_link -}}
+  {{ else if .Params.more_info_link_language_selection }}
+  {{ $translation.register.select_link -}}
   {{ end }}.
   </a>
 </p>

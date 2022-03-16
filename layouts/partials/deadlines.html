@@ -15,18 +15,18 @@
 			{{ .Params.online_deadline }}
 		</li>
 	{{end}}
-	{{ if .Params.mail_deadline }}
+	{{ if .Params.mail_postmarked_deadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__bymail_deadline }}</span>
-			{{ $translation.register.dates__bymail_deadline1 }}
-			{{ .Params.mail_deadline }}
+			{{ $translation.register.dates__bymail_postmarked_deadline }}
+			{{ .Params.mail_postmarked_deadline }}
 		</li>
 	{{end}}
-	{{ if .Params.mail_deadline2 }}
+	{{ if .Params.mail_received_deadline }}
 		<li>
-			<span class="bold-text">{{ $translation.register.dates__bymail_deadline2 }}</span>
-			{{ $translation.register.dates__bymail_deadline2_1 }}
-			{{ .Params.mail_deadline2 }}
+			<span class="bold-text">{{ $translation.register.dates__bymail_deadline }}</span>
+			{{ $translation.register.dates__bymail_received_deadline }}
+			{{ .Params.mail_received_deadline }}
 		</li>
 	{{end}}
 	{{ if .Params.ip_deadline }}
@@ -50,8 +50,8 @@
 
 		{{ if .Params.confirm_registration_english_only }}
   {{ .Site.Params.english_only -}}
-		{{ else if .Params.confirm_registration_spanish_selection }}
-			{{ $translation.register.selecciones_link -}}
+		{{ else if .Params.confirm_registration_language_selection }}
+			{{ $translation.register.select_link -}}
 		{{ end }}.
 	</a>
 </p>

@@ -8,8 +8,10 @@ hp_link_english_only = "true"
 more_info_link = "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html"
 more_info_link_english_only = "true"
 ip_deadline = "hasta 25 días antes del día de las elecciones"
-mail_deadline = "25 días antes del día de las elecciones"
+mail_received_deadline = ""
+mail_postmarked_deadline = "25 días antes del día de las elecciones"
 confirm_registration = "https://okvoterportal.okelections.us/"
-confirm_registration_spanish_selection = "true"
+confirm_registration_english_only = ""
+confirm_registration_language_selection = "true"
 
 +++
