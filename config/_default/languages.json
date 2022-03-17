@@ -10,10 +10,10 @@
       "register_path": "register",
       "go_back": "Go back",
       "skip_text": "Skip to main content",
-      "meta": {
-        "title": "Register to vote",
-        "description": "Find voter registration options in your state."
-      }
+      "meta__title": "Register to vote",
+      "meta__description": "Find voter registration options in your state.",
+      "english_only": "",
+      "last_updated": "Last Updated: "
     }
   },
   "es": {
@@ -28,10 +28,10 @@
       "register_path": "registrar",
       "go_back": "Volver",
       "skip_text": "Ir al contenido principal",
-      "meta": {
-        "title": "Inscripción para votar",
-        "description": "Encuentre las opciones de inscripción para votar disponibles en su estado."
-      }
+      "meta__title": "Inscripción para votar",
+      "meta__description": "Encuentre las opciones de inscripción para votar disponibles en su estado.",
+      "english_only": "(en inglés)",
+      "last_updated": "Última actualización: "
     }
   }
 }

@@ -34,7 +34,7 @@
           <section class="voter-info">
             {{ .Render ( print "types/" .Params.registration_type ) }}
             <time class="updated-date" datetime="{{ .Lastmod }}">
-              {{ $translation.register.dates.last_updated }}
+              {{ .Site.Params.last_updated }}
 
               {{ partial "date.html" . }}
             </time>

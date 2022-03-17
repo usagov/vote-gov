@@ -4,34 +4,34 @@
 {{ if ne .Params.registration_type "not-needed" }}
 	<header>
 		<h2>
-			{{ replace $translation.register.dates.heading "%state_name%" .Params.state_name }}
+			{{ replace $translation.register.dates__heading "%state_name%" .Params.state_name }}
 		</h2>
 	</header>
 {{end}}
 <ul class="registered-resources">
 	{{ if .Params.online_deadline }}
 		<li>
-			<span class="bold-text">{{ $translation.register.dates.byonline_deadline }}</span>
+			<span class="bold-text">{{ $translation.register.dates__byonline_deadline }}</span>
 			{{ .Params.online_deadline }}
 		</li>
 	{{end}}
-	{{ if .Params.mail_deadline }}
+	{{ if .Params.mail_postmarked_deadline }}
 		<li>
-			<span class="bold-text">{{ $translation.register.dates.bymail_deadline }}</span>
-			{{ $translation.register.dates.bymail_deadline1 }}
-			{{ .Params.mail_deadline }}
+			<span class="bold-text">{{ $translation.register.dates__bymail_deadline }}</span>
+			{{ $translation.register.dates__bymail_postmarked_deadline }}
+			{{ .Params.mail_postmarked_deadline }}
 		</li>
 	{{end}}
-	{{ if .Params.mail_deadline2 }}
+	{{ if .Params.mail_received_deadline }}
 		<li>
-			<span class="bold-text">{{ $translation.register.dates.bymail_deadline2 }}</span>
-			{{ $translation.register.dates.bymail_deadline2_1 }}
-			{{ .Params.mail_deadline2 }}
+			<span class="bold-text">{{ $translation.register.dates__bymail_deadline }}</span>
+			{{ $translation.register.dates__bymail_received_deadline }}
+			{{ .Params.mail_received_deadline }}
 		</li>
 	{{end}}
 	{{ if .Params.ip_deadline }}
 		<li>
-			<span class="bold-text">{{ $translation.register.dates.inperson_deadline }}</span>
+			<span class="bold-text">{{ $translation.register.dates__inperson_deadline }}</span>
 			{{ .Params.ip_deadline }}
 		</li>
 	{{end}}
@@ -41,17 +41,17 @@
 {{ if isset .Params "confirm_registration" }}
 	{{ if not (in .Params.registration_type "not-needed") }}
 <header>
-	<h2>{{ $translation.register.confirm_registration.heading }}</h2>
+	<h2>{{ $translation.register.confirm_registration__heading }}</h2>
 </header>
 <p>
-	{{ $translation.register.confirm_registration.intro }}
+	{{ $translation.register.confirm_registration__intro }}
 	<a class="reg-link" href="{{ .Params.confirm_registration }}{{ if in .Params.confirm_registration "?" }}&{{ end }}?ref={{ .Site.Params.Referrer_Short_Code }}">
-		{{ replace $translation.register.confirm_registration.link "%state_name%" .Params.state_name -}}
+		{{ replace $translation.register.confirm_registration__link "%state_name%" .Params.state_name -}}
 
 		{{ if .Params.confirm_registration_english_only }}
-			{{ $translation.register.english_only -}}
-		{{ else if .Params.confirm_registration_spanish_selection }}
-			{{ $translation.register.selecciones_link -}}
+  {{ .Site.Params.english_only -}}
+		{{ else if .Params.confirm_registration_language_selection }}
+			{{ $translation.register.select_link -}}
 		{{ end }}.
 	</a>
 </p>
