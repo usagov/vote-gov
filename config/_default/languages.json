@@ -6,7 +6,6 @@
     "params": {
       "Owner": "Vote.gov",
       "language_direction": "ltr",
-      "Referrer_Short_Code": "voteusa",
       "register_path": "register",
       "go_back": "Go back",
       "skip_text": "Skip to main content",
@@ -23,7 +22,6 @@
     "params": {
       "Owner": "Vote.gov en Español",
       "language_direction": "ltr",
-      "Referrer_Short_Code": "voteusa_es",
       "publishDir": "tmp/public/es",
       "register_path": "registrar",
       "go_back": "Volver",
