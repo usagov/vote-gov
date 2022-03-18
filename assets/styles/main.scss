@@ -1,5 +1,6 @@
 // Imports -------------- //
 
+@use 'sass:math';
 $theme-show-notifications: false;
 @import '../../node_modules/uswds/dist/scss/uswds';
 @import './component/404.scss';
@@ -93,14 +94,15 @@ label.max-width-input {
   &::after {
     $arrow-width: 100px;
     $arrow-height: 30px;
+    $arrow-half-width: math.div($arrow-width, 2);
     content: "";
     position: absolute;
-    left: calc(50% - #{$arrow-width/2});
+    left: calc(50% - #{$arrow-half-width});
     bottom: -$arrow-height;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: $arrow-height+1 $arrow-width/2 0 $arrow-width/2;
+    border-width: $arrow-height+1 $arrow-half-width 0 $arrow-half-width;
     border-color: $color-blue transparent transparent transparent;
     @include at-media('tablet') {
       content: none;
@@ -237,7 +239,7 @@ $logo-width: 130px;
     img {
       position: absolute;
       bottom: $logo-width * -0.32 + 1;
-      right: calc(50% - #{$logo-width/2});
+      right: calc(50% - #{math.div($logo-width, 2)});
       margin-bottom: 0;
       padding-top: 0px;
       padding-bottom: 0px;
@@ -270,7 +272,7 @@ $logo-width: 130px;
       img {
         width: $logo-width;
         bottom: $logo-width * -0.32 + 1;
-        right: calc(50% - #{$logo-width/2});
+        right: calc(50% - #{math.div($logo-width, 2)});
       }
 
       .logo-text {

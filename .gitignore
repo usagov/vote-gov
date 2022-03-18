@@ -32,3 +32,5 @@ layouts/registrar
 tmp/
 
 .vscode/settings.json
+
+.hugo_build.lock
