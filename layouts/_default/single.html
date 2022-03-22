@@ -39,7 +39,15 @@
               {{ partial "date.html" . }}
             </time>
           </section>
-          <p class="arrow-text"><a href="{{ .Site.Home.RelPermalink }}" title="Vote.gov"><span class="arrow left"></span>{{ .Site.Params.go_back }}</a></p>
+
+          {{ $arrowDirection := "left" }}
+          {{ if eq .Site.Params.language_direction "rtl" }}
+            {{ $arrowDirection = "arrow-rtl" }}
+          {{ end }}
+
+
+          <p class="arrow-text"><a href="{{ .Site.Home.RelPermalink }}" title="Vote.gov"><span class="arrow {{ $arrowDirection }}"></span>{{ .Site.Params.go_back }}</a></p>
+
         </div>
       </div>
     </div>

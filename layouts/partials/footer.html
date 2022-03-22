@@ -27,11 +27,14 @@
 			<div class="tablet:grid-col-1">
 				<a href="{{ $translation.footer.usagov_link }}">
           <img class="{{ .Site.Language.Lang }}-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}"
+		  <!-- <img class="en-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}" -->
+
                alt="{{ $translation.footer.usagov_logo_alt_text}}">
 				</a>
 			</div>
 			<div class="tablet:grid-col-11">
         <span class="{{ .Site.Language.Lang }}-eac-text">{{ $translation.footer.eac_text }}</span>
+		<!-- <span class="en-eac-text">{{ $translation.footer.eac_text }}</span> -->
         <a href="{{ $translation.footer.eac_link }}">
           <img class="eac-logo-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.eac_img }}"
                alt="{{ $translation.footer.eac_logo_alt_text }}"></a>

@@ -121,6 +121,12 @@ label.max-width-input {
   margin-right: 5px;
 }
 
+.arrow-rtl {
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  margin-right: 5px;
+}
+
 .arrow-text a {
   color: $color-blue-dark;
   text-decoration: underline;
@@ -161,6 +167,10 @@ label.max-width-input {
   border-bottom: 1px solid black;
 }
 
+.usa-banner__icon {
+  margin-left: 0.3rem;
+}
+
 .usa-alert {
   padding: 0;
 }
@@ -186,6 +196,29 @@ label.max-width-input {
   }
 }
 
+.usa-alert--info-rtl {
+  background-image: unset;
+  background-color: #e7f6f8;
+
+  .grid-container {
+    background-image: url(../img/alerts/info.svg), linear-gradient(transparent, transparent);
+    background-position: 1rem 1rem;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    display: flex;
+
+    @include at-media('tablet') {
+      background-position: 1rem 0.3rem;
+      background-position-x: right;
+    }
+  }
+}
+
+.alert-icon-rtl {
+  background-position-x: right;
+}
+
 .usa-alert--warning .usa-alert__body {
   padding-left: 2.5rem;
   line-height: initial;
@@ -195,6 +228,10 @@ label.max-width-input {
   margin-bottom: 0.5rem;
   padding-top: 0.75rem;
   padding-bottom: 0.25rem;
+}
+
+.usa-banner__header-flag {
+  margin-left: 0.3rem;
 }
 
 .form-register {
@@ -349,6 +386,7 @@ $logo-width: 130px;
   .twitter-img {
     vertical-align: middle;
     padding-right: 20px;
+    margin-left: 10px;
     width: 50px;
     height: 30px;
   }
