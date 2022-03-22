@@ -18,14 +18,12 @@
 	{{ if .Params.mail_postmarked_deadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__bymail_deadline }}</span>
-			{{ $translation.register.dates__bymail_postmarked_deadline }}
 			{{ .Params.mail_postmarked_deadline }}
 		</li>
 	{{end}}
 	{{ if .Params.mail_received_deadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__bymail_deadline }}</span>
-			{{ $translation.register.dates__bymail_received_deadline }}
 			{{ .Params.mail_received_deadline }}
 		</li>
 	{{end}}

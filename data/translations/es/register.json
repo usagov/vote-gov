@@ -24,8 +24,6 @@
   "alert_state__alert_msg1": "sitio web electoral de su estado",
   "alert_state__alert_after_election":"Para ver los resultados oficiales de las elecciones visite el",
   "dates__bymail_deadline": "Inscripción por correo postal:",
-  "dates__bymail_postmarked_deadline": "debe tener el sello del correo",
-  "dates__bymail_received_deadline": "a más tardar debe ser recibida",
   "dates__byonline_deadline": "Inscripción por internet:",
   "dates__electionday": "Día de la elección general: martes 3 de noviembre de 2020",
   "dates__electionday_heading": "Día de la elección general",
