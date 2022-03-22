@@ -17,7 +17,7 @@
         <div class="grid-row grid-gap">
           <div class="tablet:grid-col-4">
             <a class="site-logo" href="{{ .Site.Home.RelPermalink }}" aria-label="Vote.gov">
-              <div class="logo-text">{{ $translation.homepage.site_name }}</div>
+              <div class="logo-text">{{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</div>
               <img id="SiteLogo" src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg" alt="">
             </a>
           </div>
@@ -67,7 +67,7 @@
                   {{ $translation.homepage.registered__resources_intro }}
                   <a href="{{ $translation.homepage.registered__resources_link_url }}">
                     {{ $translation.homepage.registered__resources_link_text -}}
-                  </a> {{ $translation.homepage.registered__resources_on }}:
+                  </a> {{ replace $translation.homepage.registered__resources_on "%USA.gov%" "USA.gov" }}:
                 </h3>
                 <ul class="registered-resources">
                   <li><a

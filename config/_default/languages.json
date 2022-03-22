@@ -4,7 +4,7 @@
     "title": "Voter Registration",
     "languageName": "English",
     "params": {
-      "Owner": "Vote.gov",
+      "Owner": "%Vote.gov%",
       "language_direction": "ltr",
       "register_path": "register",
       "go_back": "Go back",
@@ -12,7 +12,9 @@
       "meta__title": "Register to vote",
       "meta__description": "Find voter registration options in your state.",
       "english_only": "",
-      "last_updated": "Last Updated: "
+      "last_updated": "Last Updated: ",
+      "select_language": "Select Language",
+      "english_languageName": "English"
     }
   },
   "es": {
@@ -20,7 +22,7 @@
     "title": "Inscripción para votar",
     "languageName": "Español",
     "params": {
-      "Owner": "Vote.gov en Español",
+      "Owner": "%Vote.gov% en Español",
       "language_direction": "ltr",
       "publishDir": "tmp/public/es",
       "register_path": "registrar",
@@ -29,7 +31,9 @@
       "meta__title": "Inscripción para votar",
       "meta__description": "Encuentre las opciones de inscripción para votar disponibles en su estado.",
       "english_only": "(en inglés)",
-      "last_updated": "Última actualización: "
+      "last_updated": "Última actualización: ",
+      "select_language": "Seleccione Idioma",
+      "english_languageName": "Spanish"
     }
   }
 }
