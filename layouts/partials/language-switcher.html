@@ -1,5 +1,11 @@
 {{ $state := .Params.state_abbreviation | lower }}
-<div class="translations">
+
+{{ $styleClass := "translations" }}
+{{ if eq .Site.Params.language_direction "rtl" }}
+  {{ $styleClass = "translations-rtl" }}
+{{ end }}
+
+<div class="{{ $styleClass }}">
   {{ if gt (len $.Site.Home.AllTranslations) 2 }}
   <label for="language-switcher">Change Language:</label>
   <select name="language-switcher" id="language-switcher" onchange="window.location=this.value;">

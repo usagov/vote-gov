@@ -135,6 +135,7 @@ label.max-width-input {
 .usa-button {
   background-color: $color-blue-dark;
   color: white;
+  margin-right: 0;
 }
 
 .usa-button:hover, .usa-button.usa-button--hover {
@@ -147,6 +148,16 @@ label.max-width-input {
 .translations {
   flex-grow: 0;
   text-align: right;
+  z-index: 1;
+
+  @include at-media('tablet') {
+    flex-grow: 1;
+  }
+}
+
+.translations-rtl {
+  flex-grow: 0;
+  text-align: left;
   z-index: 1;
 
   @include at-media('tablet') {
@@ -171,8 +182,13 @@ label.max-width-input {
   margin-left: 0.3rem;
 }
 
+.usa-banner__button {
+  margin-right: 0.5rem;
+}
+
 .usa-alert {
   padding: 0;
+  margin-top: 0;
 }
 
 .usa-alert--info::before {
@@ -182,6 +198,7 @@ label.max-width-input {
 .usa-alert--info {
   background-image: unset;
   background-color: #e7f6f8;
+  border: 0 0 0 0;
 
   .grid-container {
     background-image: url(../img/alerts/info.svg), linear-gradient(transparent, transparent);
@@ -199,6 +216,7 @@ label.max-width-input {
 .usa-alert--info-rtl {
   background-image: unset;
   background-color: #e7f6f8;
+  border: 0 0 0 0;
 
   .grid-container {
     background-image: url(../img/alerts/info.svg), linear-gradient(transparent, transparent);
@@ -396,12 +414,12 @@ $logo-width: 130px;
   color: white;
 }
 
-.en-img,
+.all-img,
 .es-img {
   max-width: 220px;
 }
 
-.en-img,
+.all-img,
 .es-img {
   padding-bottom: 1rem;
   margin-top: 0;
@@ -423,7 +441,7 @@ $logo-width: 130px;
   }
 }
 
-.en-eac-text {
+.all-eac-text {
   text-decoration: none;
   color: $color-blue-dark;
   font-weight: bold;
@@ -433,6 +451,7 @@ $logo-width: 130px;
 
   @include at-media('tablet') {
     margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
 
