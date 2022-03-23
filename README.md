@@ -98,13 +98,11 @@ This project uses [Federalist](https://federalist.18f.gov) for continuous deploy
 current process deploys our `staging` branch and our `master` branch to their
 own [`staging`][vote-staging] and [`production`][vote-production] URLs.
 
-To view the build for another branch, see the links below and replace <BRANCH> with the name of the branch. The build for the branch must have completed successfully. 
+To preview the build for another branch, see the link below and replace `<BRANCH>` with the name of the branch. Each branch pushed into the usagov/vote-gov repo with a successful build will auto generate a Federalist environment using this preview link.
 
-For production builds: https://cg-9e8debaf-b030-4825-a43c-cb2bc850c96c.app.cloud.gov/preview/usagov/vote-gov/<BRANCH>/ 
+For preview branch builds: https://cg-9e8debaf-b030-4825-a43c-cb2bc850c96c.app.cloud.gov/preview/usagov/vote-gov/`<BRANCH>`/ 
 
-For staging builds: https://cg-82f344a8-cccc-4f34-b090-19d55b2b6585.app.cloud.gov/preview/usagov/vote-gov/<BRANCH>/ 
-
-[vote-staging]: TBD "Vote USA: Staging"
+[vote-staging]: https://staging.vote.gov "Vote USA: Staging"
 [vote-production]: https://vote.gov "Vote USA: Production"
 
 ### Manual deployment
