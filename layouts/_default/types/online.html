@@ -47,10 +47,12 @@
   {{ replace $translation.register.online__answer1 "%state_name%" .Params.state_name }}
   <a href="{{ .Params.registration_link }}{{ if in .Params.registration_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
   {{ replace $translation.register.online__answer1_link "%state_name%" .Params.state_name -}}
-  {{ if .Params.registration_link_english_only }}
-  {{ .Site.Params.english_only -}}
-  {{ else if .Params.registration_link_language_selection }}
-  {{ $translation.register.select_link -}}
+  {{ if ne .Params.registration_link_translated "true" }}
+    {{ if .Params.registration_link_language_selection }}
+      {{ $translation.register.select_link -}}
+    {{ else }}
+      {{ .Site.Params.english_only -}}
+    {{ end }}
   {{ end }}.
 
   </a>
@@ -60,10 +62,12 @@
   {{ replace $translation.register.online__answer2 "%state_name%" .Params.state_name }}
   <a href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
   {{ replace $translation.register.online__answer2_link "%state_name%" .Params.state_name -}}
-  {{ if .Params.more_info_link_english_only }}
-  {{ .Site.Params.english_only -}}
-  {{ else if .Params.more_info_link_language_selection }}
-  {{ $translation.register.select_link -}}
+  {{ if ne .Params.more_info_link_translated "true" }}
+    {{ if .Params.more_info_link_language_selection }}
+      {{ $translation.register.select_link -}}
+    {{ else }}
+      {{ .Site.Params.english_only -}}
+    {{ end }}
   {{ end }}.
   </a>
 </p>

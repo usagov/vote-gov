@@ -41,10 +41,12 @@
   {{ replace $translation.register.in_person__intro "%state_name%" .Params.state_name }}
   <a class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
   {{ replace $translation.register.in_person__link "%state_name%" .Params.state_name -}}
-  {{ if .Params.more_info_link_english_only }}
-  {{ .Site.Params.english_only -}}
-  {{ else if .Params.more_info_link_language_selection }}
-  {{ $translation.register.select_link -}}
+  {{ if ne .Params.more_info_link_translated "true" }}
+    {{ if .Params.more_info_link_language_selection }}
+      {{ $translation.register.select_link -}}
+    {{ else }}
+      {{ .Site.Params.english_only -}}
+    {{ end }}
   {{ end }}.
   </a>
 </p></p>{{ partial "deadlines.html" . }}
