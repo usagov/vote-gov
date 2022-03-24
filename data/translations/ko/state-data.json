@@ -1,0 +1,469 @@
+{
+  "al": {
+    "hp_link": "https://www.sos.alabama.gov/alabama-votes",
+    "registration_link": "https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action",
+    "more_info_link": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
+    "ip_deadline": "선거일 15일 전까지",
+    "online_deadline": "선거일 15일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 15일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do"
+  },
+  "ak": {
+    "hp_link": "https://www.elections.alaska.gov/",
+    "registration_link": "https://voterregistration.alaska.gov/",
+    "more_info_link": "https://www.elections.alaska.gov/Core/voterregistration.php",
+    "ip_deadline": "선거일 30일 전까지",
+    "online_deadline": "선거일 30일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 30일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://myvoterinformation.alaska.gov/"
+  },
+  "as": {
+    "hp_link": "https://aselectionoffice.gov/",
+    "more_info_link": "https://aselectionoffice.gov/",
+    "ip_deadline": "선거일 30일 전까지",
+    "confirm_registration": "https://aselectionoffice.gov/status.php"
+  },
+  "az": {
+    "hp_link": "https://azsos.gov/elections",
+    "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
+    "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information",
+    "online_deadline": "선거일 29일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 29일 전까지 일자로 소인이 날인되어야 합니다.",
+    "ip_deadline": "선거일 29일 전까지",
+    "confirm_registration": "https://my.arizona.vote/WhereToVote.aspx?s=individual"
+  },
+  "ar": {
+    "hp_link": "https://www.sos.arkansas.gov/elections/",
+    "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
+    "ip_deadline": "선거일 29일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 29일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://www.voterview.ar-nova.org/voterview"
+  },
+  "ca": {
+    "hp_link": "https://www.sos.ca.gov/elections",
+    "registration_link": "https://registertovote.ca.gov/",
+    "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "online_deadline": "선거일 15일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 15일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://registertovote.ca.gov/"
+  },
+  "co": {
+    "hp_link": "https://www.sos.state.co.us/pubs/elections/",
+    "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
+    "more_info_link": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "online_deadline": "선거일 8일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 8일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml"
+  },
+  "ct": {
+    "hp_link": "https://portal.ct.gov/sots",
+    "registration_link": "https://voterregistration.ct.gov/OLVR/welcome.do",
+    "more_info_link": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "online_deadline": "선거일 7일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 7일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://portaldir.ct.gov/sots/LookUp.aspx"
+  },
+  "de": {
+    "hp_link": "https://elections.delaware.gov/index.shtml",
+    "registration_link": "https://ivote.de.gov/VoterView/",
+    "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
+    "ip_deadline": "선거일 기준 4번째 토요일 전 ",
+    "online_deadline": "선거일 기준 4번째 토요일 전 ",
+    "mail_postmarked_deadline": "반드시 선거일 기준 4번째 토요일까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://ivote.de.gov/VoterView"
+  },
+  "dc": {
+    "hp_link": "https://dcboe.org/",
+    "registration_link": "https://forms.dc.gov/f/DC_Voter_Registration_Form",
+    "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "mail_received_deadline": "반드시 선거일 21일 전까지 까지 접수해야 합니다.",
+    "online_deadline": "선거일 21일 전까지",
+    "confirm_registration": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status"
+  },
+  "fl": {
+    "hp_link": "https://dos.myflorida.com/elections/",
+    "registration_link": "https://registertovoteflorida.gov/eligibilityreactive",
+    "more_info_link": "https://registertovoteflorida.gov/home",
+    "ip_deadline": "선거일 29일 전까지",
+    "online_deadline": "선거일 29일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 29일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://registration.elections.myflorida.com/CheckVoterStatus"
+  },
+  "ga": {
+    "hp_link": "https://sos.ga.gov/index.php/elections",
+    "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
+    "more_info_link": "https://sos.ga.gov/index.php/Elections/register_to_vote",
+    "ip_deadline": "선거일 기준 5번째 월요일 전 ",
+    "online_deadline": "선거일 기준 5번째 월요일 전",
+    "mail_postmarked_deadline": "반드시 선거일 기준 5번째 월요일까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://www.mvp.sos.ga.gov/MVP/mvp.do"
+  },
+  "gu": {
+    "hp_link": "https://gec.guam.gov/",
+    "registration_link": "https://gec.guam.gov/register/",
+    "more_info_link": "https://gec.guam.gov/",
+    "online_deadline": "선거일 10일 전까지",
+    "mail_received_deadline": "반드시 선거일 10일 전까지 까지 접수해야 합니다.",
+    "ip_deadline": "선거일 10일 전까지"
+  },
+  "hi": {
+    "hp_link": "https://elections.hawaii.gov/",
+    "registration_link": "https://olvr.hawaii.gov/",
+    "more_info_link": "https://elections.hawaii.gov/voters/registration/",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "online_deadline": "선거일 30일 전까지",
+    "mail_received_deadline": "반드시 선거일 30일 전까지 까지 접수해야 합니다.",
+    "confirm_registration": "https://olvr.hawaii.gov/"
+  },
+  "id": {
+    "hp_link": "https://idahovotes.gov/",
+    "registration_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/ApplicationInstructions.aspx",
+    "more_info_link": "https://idahovotes.gov/voting/",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "online_deadline": "선거일 25일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 25일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx"
+  },
+  "il": {
+    "hp_link": "https://www.elections.il.gov/",
+    "registration_link": "https://ova.elections.il.gov/",
+    "more_info_link": "https://www.elections.il.gov/Default.aspx",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "online_deadline": "선거일 16일 전까지",
+    "mail_received_deadline": "반드시 선거일 28일 전까지 까지 접수해야 합니다.",
+    "confirm_registration": "https://ova.elections.il.gov/RegistrationLookup.aspx"
+  },
+  "in": {
+    "hp_link": "https://www.in.gov/sos/elections/",
+    "registration_link": "https://indianavoters.in.gov/",
+    "more_info_link": "https://www.in.gov/sos/elections/2403.htm",
+    "ip_deadline": "선거일 29일 전까지",
+    "online_deadline": "선거일 29일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 29일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://indianavoters.in.gov/"
+  },
+  "ia": {
+    "hp_link": "https://sos.iowa.gov/",
+    "registration_link": "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration",
+    "more_info_link": "https://sos.iowa.gov/elections/voterinformation/voterregistration.html",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "online_deadline": "선거일 15일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 15일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx"
+  },
+  "ks": {
+    "hp_link": "https://sos.ks.gov/elections/elections.html",
+    "registration_link": "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx",
+    "more_info_link": "https://sos.ks.gov/elections/voter-information.html",
+    "ip_deadline": "선거일 21일 전까지",
+    "online_deadline": "선거일 21일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 21일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://myvoteinfo.voteks.org/voterview/"
+  },
+  "ky": {
+    "hp_link": "https://elect.ky.gov/Pages/default.aspx",
+    "registration_link": "https://vrsws.sos.ky.gov/ovrweb/",
+    "more_info_link": "https://elect.ky.gov/Resources/Pages/Registration.aspx",
+    "ip_deadline": "선거일 기준 4번째 월요일 전 ",
+    "online_deadline": "선거일 기준 4번째 월요일 전 ",
+    "mail_received_deadline": "반드시 선거일 기준 4번째 월요일까지 까지 접수해야 합니다.",
+    "confirm_registration": "https://vrsws.sos.ky.gov/VIC/"
+  },
+  "la": {
+    "hp_link": "https://www.sos.la.gov/ElectionsAndVoting/Pages/default.aspx",
+    "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
+    "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
+    "ip_deadline": "선거일 30일 전까지",
+    "online_deadline": "선거일 20일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 30일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://voterportal.sos.la.gov/"
+  },
+  "me": {
+    "hp_link": "https://www.maine.gov/sos/cec/elec/",
+    "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "mail_received_deadline": "반드시 선거일 21일 전까지 까지 접수해야 합니다.",
+    "confirm_registration": "https://www.maine.gov/sos/cec/elec/data/index.html"
+  },
+  "md": {
+    "hp_link": "https://elections.maryland.gov/",
+    "registration_link": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1",
+    "more_info_link": "https://www.elections.maryland.gov/voter_registration/application.html",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "online_deadline": "선거일 21일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 21일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://voterservices.elections.maryland.gov/VoterSearch"
+  },
+  "ma": {
+    "hp_link": "https://www.sec.state.ma.us/ele/eleidx.htm",
+    "registration_link": "https://www.sec.state.ma.us/ovr/",
+    "more_info_link": "https://www.sec.state.ma.us/ele/eleifv/howreg.htm",
+    "ip_deadline": "선거일 20일 전까지",
+    "online_deadline": "선거일 20일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 20일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"
+  },
+  "mi": {
+    "hp_link": "https://www.michigan.gov/sos/0,4670,7-127-1633---,00.html",
+    "registration_link": "https://mvic.sos.state.mi.us/registervoter",
+    "more_info_link": "https://mvic.sos.state.mi.us/",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "online_deadline": "선거일 15일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 15일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://mvic.sos.state.mi.us/"
+  },
+  "mn": {
+    "hp_link": "https://www.sos.state.mn.us/elections-voting/",
+    "registration_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
+    "more_info_link": "https://www.sos.state.mn.us/elections-voting/register-to-vote/",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "online_deadline": "선거일 21일 전까지",
+    "mail_received_deadline": "반드시 선거일 21일 전까지 까지 접수해야 합니다.",
+    "confirm_registration": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
+  },
+  "ms": {
+    "hp_link": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
+    "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
+    "ip_deadline": "선거일 30일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 30일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
+  },
+  "mo": {
+    "hp_link": "https://www.sos.mo.gov/elections",
+    "registration_link": "https://s1.sos.mo.gov/elections/voterregistration/",
+    "more_info_link": "https://www.sos.mo.gov/elections/goVoteMissouri/register",
+    "ip_deadline": "선거일 기준 4번째 수요일 전 ",
+    "online_deadline": "선거일 기준 4번째 수요일 전 ",
+    "mail_postmarked_deadline": "반드시 선거일 기준 4번째 수요일까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx"
+  },
+  "mt": {
+    "hp_link": "https://sosmt.gov/elections/",
+    "more_info_link": "https://sosmt.gov/elections/vote/",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "mail_postmarked_deadline": "반드시 선거일 30일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://sosmt.gov/elections/vote/"
+  },
+  "ne": {
+    "hp_link": "https://sos.nebraska.gov/elections/2020-elections",
+    "registration_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
+    "more_info_link": "https://sos.nebraska.gov/elections/voter-forms",
+    "ip_deadline": "선거일 기준 2번째 금요일 전",
+    "online_deadline": "선거일 기준 3번째 금요일 전",
+    "mail_postmarked_deadline": "반드시 선거일 기준 3번째 금요일까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://www.votercheck.necvr.ne.gov/voterview"
+  },
+  "nv": {
+    "hp_link": "https://www.nvsos.gov/sos/elections",
+    "registration_link": "https://www.nvsos.gov/SOSVoterServices/start.aspx",
+    "more_info_link": "https://www.nvsos.gov/sos/elections/voters/registering-to-vote",
+    "ip_deadline": "선거일 기준 4번째 화요일 전",
+    "online_deadline": "조기투표 개시일 전 주 목요일까지 ",
+    "mail_postmarked_deadline": "반드시 선거일 기준 4번재 화요일까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://www.nvsos.gov/votersearch/"
+  },
+  "nh": {
+    "hp_link": "https://sos.nh.gov/home",
+    "more_info_link": "https://sos.nh.gov/elections/voters/register-to-vote/",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "confirm_registration": "https://app.sos.nh.gov/Public/PartyInfo.aspx"
+  },
+  "nj": {
+    "hp_link": "https://www.state.nj.us/state/elections/index.shtml",
+    "registration_link": "https://voter.svrs.nj.gov/register",
+    "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml",
+    "online_deadline": "선거일 21일 전까지",
+    "mail_received_deadline": "반드시 선거일 21일 전까지 까지 접수해야 합니다.",
+    "ip_deadline": "선거일 21일 전까지",
+    "confirm_registration": "https://voter.svrs.nj.gov/registration-check"
+  },
+  "nm": {
+    "hp_link": "https://www.sos.state.nm.us/voting-and-elections/",
+    "registration_link": "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx",
+    "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information/voter-registration-information/",
+    "ip_deadline": "선거일 기준 전 주 토요일까지",
+    "online_deadline": "선거일 28일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 28일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
+  },
+  "ny": {
+    "hp_link": "https://www.elections.ny.gov/",
+    "registration_link": "https://dmv.ny.gov/more-info/electronic-voter-registration-application",
+    "more_info_link": "https://www.elections.ny.gov/votingregister.html",
+    "ip_deadline": "선거일 25일 전까지",
+    "online_deadline": "선거일 25일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 25일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://voterlookup.elections.ny.gov/"
+  },
+  "nc": {
+    "hp_link": "https://www.ncsbe.gov/voting",
+    "registration_link": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
+    "more_info_link": "https://www.ncsbe.gov/registering/how-register",
+    "ip_deadline": "조기 투표 기간 동안 당일 등록이 가능합니다.",
+    "online_deadline": "선거일 25일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 25일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://vt.ncsbe.gov/RegLkup/"
+  },
+  "nd": {
+    "hp_link": "https://vip.sos.nd.gov/PortalList.aspx",
+    "more_info_link": "https://vip.sos.nd.gov/PortalList.aspx",
+    "confirm_registration": "https://vip.sos.nd.gov/WhereToVote.aspx?tab=&ptlPKID=&ptlhPKID="
+  },
+  "mp": {
+    "hp_link": "https://www.votecnmi.gov.mp/",
+    "more_info_link": "https://www.votecnmi.gov.mp/",
+    "ip_deadline": "선거일 60일 전까지",
+    "confirm_registration": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
+  },
+  "oh": {
+    "hp_link": "https://www.sos.state.oh.us/elections/",
+    "registration_link": "https://olvr.ohiosos.gov/",
+    "more_info_link": "https://ohio.gov/wps/portal/gov/site/government/resources/register-to-vote-or-update-your-registration",
+    "ip_deadline": "선거일 30일 전까지",
+    "online_deadline": "선거일 30일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 30일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://voterlookup.ohiosos.gov/voterlookup.aspx"
+  },
+  "ok": {
+    "hp_link": "https://www.ok.gov/elections/",
+    "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html",
+    "ip_deadline": "선거일 25일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 25일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://okvoterportal.okelections.us/"
+  },
+  "or": {
+    "hp_link": "https://sos.oregon.gov/voting-elections/Pages/default.aspx",
+    "registration_link": "https://secure.sos.state.or.us/orestar/vr/register.do",
+    "more_info_link": "https://sos.oregon.gov/voting/Pages/registration.aspx",
+    "ip_deadline": "선거일 21일 전까지",
+    "online_deadline": "선거일 21일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 21일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS"
+  },
+  "pa": {
+    "hp_link": "https://www.pa.gov/guides/voting-and-elections/",
+    "registration_link": "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
+    "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote",
+    "ip_deadline": "선거일 15일 전까지",
+    "online_deadline": "선거일 15일 전까지",
+    "mail_received_deadline": "반드시 선거일 15일 전까지 까지 접수해야 합니다.",
+    "confirm_registration": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
+  },
+  "pr": {
+    "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
+    "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
+    "ip_deadline": "선거일 50일 전까지",
+    "confirm_registration": "https://consulta.ceepur.org/"
+  },
+  "ri": {
+    "hp_link": "https://elections.ri.gov/",
+    "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
+    "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
+    "ip_deadline": "선거일 30일 전까지",
+    "online_deadline": "선거일 30일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 30일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0"
+  },
+  "sc": {
+    "hp_link": "https://www.scvotes.gov/",
+    "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
+    "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
+    "ip_deadline": "선거일 30일 전까지",
+    "online_deadline": "선거일 30일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 30일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
+  },
+  "sd": {
+    "hp_link": "https://sdsos.gov/elections-voting/",
+    "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
+    "ip_deadline": "선거일 15일 전까지",
+    "mail_received_deadline": "반드시 선거일 15일 전까지 까지 접수해야 합니다.",
+    "confirm_registration": "https://vip.sdsos.gov/VIPLogin.aspx"
+  },
+  "tn": {
+    "hp_link": "https://sos.tn.gov/elections",
+    "registration_link": "https://ovr.govote.tn.gov/",
+    "more_info_link": "https://sos.tn.gov/products/elections/register-vote",
+    "ip_deadline": "선거일 30일 전까지",
+    "online_deadline": "선거일 30일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 30일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://tnmap.tn.gov/voterlookup/"
+  },
+  "tx": {
+    "hp_link": "https://www.votetexas.gov/index.html",
+    "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html",
+    "ip_deadline": "선거일 30일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 30일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
+  },
+  "ut": {
+    "hp_link": "https://elections.utah.gov/",
+    "registration_link": "https://secure.utah.gov/voterreg/index.html",
+    "more_info_link": "https://voteinfo.utah.gov/",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "online_deadline": "선거일 11일 전까지",
+    "mail_received_deadline": "반드시 선거일 11일 전까지 까지 접수해야 합니다.",
+    "confirm_registration": "https://vote.utah.gov/"
+  },
+  "vt": {
+    "hp_link": "https://sos.vermont.gov/elections/",
+    "registration_link": "https://olvr.vermont.gov/",
+    "more_info_link": "https://sos.vermont.gov/elections/voters/registration/",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "online_deadline": "선거일 기준 전 주 금요일 전",
+    "mail_received_deadline": "반드시 선거일 기준 전 주 금요일까지  까지 접수해야 합니다.",
+    "confirm_registration": "https://mvp.vermont.gov/"
+  },
+  "va": {
+    "hp_link": "https://www.elections.virginia.gov/",
+    "registration_link": "https://www.elections.virginia.gov/citizen-portal/",
+    "more_info_link": "https://www.elections.virginia.gov/registration/how-to-register/",
+    "ip_deadline": "선거일 22일 전까지",
+    "online_deadline": "선거일 22일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 22일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://www.elections.virginia.gov/registration/view-your-info/"
+  },
+  "vi": {
+    "hp_link": "https://www.vivote.gov/voters/register-vote",
+    "more_info_link": "https://www.vivote.gov/voters/register-vote",
+    "ip_deadline": "선거일 30일 전까지",
+    "confirm_registration": "https://www.vivote.gov/voters/lookup"
+  },
+  "wa": {
+    "hp_link": "https://www.sos.wa.gov/elections/",
+    "registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
+    "more_info_link": "https://www.sos.wa.gov/elections/voters/",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "online_deadline": "선거일 8일 전까지",
+    "mail_received_deadline": "반드시 선거일 8일 전까지 까지 접수해야 합니다.",
+    "confirm_registration": "https://voter.votewa.gov/WhereToVote.aspx"
+  },
+  "wv": {
+    "hp_link": "https://sos.wv.gov/elections/Pages/default.aspx",
+    "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
+    "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
+    "ip_deadline": "선거일 21일 전까지",
+    "online_deadline": "선거일 21일 전까지",
+    "mail_postmarked_deadline": "반드시 선거일 21일 전까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
+  },
+  "wi": {
+    "hp_link": "https://elections.wi.gov/elections-voting",
+    "registration_link": "https://myvote.wi.gov/en-us/RegisterToVote",
+    "more_info_link": "https://elections.wi.gov/voters/first-time",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "online_deadline": "선거일 기준 3번재 수요일 전",
+    "mail_postmarked_deadline": "반드시 선거일 기준 3번재 수요일까지 일자로 소인이 날인되어야 합니다.",
+    "confirm_registration": "https://myvote.wi.gov/en-us/MyVoterInfo"
+  },
+  "wy": {
+    "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
+    "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
+    "ip_deadline": "선거당일까지 등록이 가능합니다.",
+    "mail_received_deadline": "반드시 선거일 14일 전까지 까지 접수해야 합니다."
+  }
+}
