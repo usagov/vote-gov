@@ -360,15 +360,10 @@ $logo-width: 130px;
   color: white;
 }
 
-.en-img,
-.es-img {
-  max-width: 220px;
-}
-
-.en-img,
-.es-img {
+.usagov-img {
   padding-bottom: 1rem;
   margin-top: 0;
+  max-width: 220px;
 
   @include at-media('tablet') {
     margin-top: 1rem;
@@ -387,30 +382,12 @@ $logo-width: 130px;
   }
 }
 
-.en-eac-text {
+.eac-text {
   text-decoration: none;
   color: $color-blue-dark;
   font-weight: bold;
   font-size: 1.1em;
-  margin-left: 0;
   margin-right: 10px;
-
-  @include at-media('tablet') {
-    margin-left: 3rem;
-  }
-}
-
-.es-eac-text {
-  text-decoration: none;
-  color: $color-blue-dark;
-  font-weight: bold;
-  font-size: 1.1em;
-  margin-left: 0;
-  margin-right: 10px;
-
-  @include at-media('tablet') {
-    margin-left: 11rem;
-  }
 }
 
 .footer-logos {

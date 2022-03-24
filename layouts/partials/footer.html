@@ -24,14 +24,14 @@
 <div class="bg-grey">
 	<div class="grid-container footer-logos">
 		<div class="grid-row grid-gap">
-			<div class="tablet:grid-col-1">
+			<div>
 				<a href="{{ $translation.footer.usagov_link }}">
-          <img class="{{ .Site.Language.Lang }}-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}"
+          <img class="usagov-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}"
                alt="{{ replace $translation.footer.usagov_logo_alt_text "%USA.gov%" "USA.gov" }}">
 				</a>
 			</div>
-			<div class="tablet:grid-col-11">
-        <span class="{{ .Site.Language.Lang }}-eac-text">{{ $translation.footer.eac_text }}</span>
+			<div>
+        <span class="eac-text">{{ $translation.footer.eac_text }}</span>
         <a href="{{ $translation.footer.eac_link }}">
           <img class="eac-logo-img" src="{{ .Site.BaseURL }}/assets/img/EAC-logo.svg"
                alt="{{ replace $translation.footer.eac_logo_alt_text "%U.S. Election Assistance Commission%" "U.S. Election Assistance Commission" }}"></a>
