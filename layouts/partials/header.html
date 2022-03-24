@@ -70,11 +70,13 @@
           {{ $translation.register.alert_state__alert_after_election }}
           <a href="{{ .Params.hp_link }}{{ if in .Params.hp_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
             {{ $translation.register.alert_state__alert_msg1 -}}
-            {{ if .Params.hp_link_english_only }}
-            {{ .Site.Params.english_only -}}
-            {{ else if .Params.hp_link_language_selection }}
-            {{ $translation.register.select_link -}}
-            {{ end }}.
+          {{ if ne .Params.hp_link_translated "true" }}
+            {{ if .Params.hp_link_language_selection }}
+              {{ $translation.register.select_link -}}
+            {{ else }}
+              {{ .Site.Params.english_only -}}
+            {{ end }}
+          {{ end }}.
           </a>
         </p>
         {{ end }}

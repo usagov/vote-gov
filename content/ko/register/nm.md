@@ -9,6 +9,6 @@ more_info_link = "https://www.sos.state.nm.us/voting-and-elections/voter-informa
 ip_deadline = "선거일 기준 전 주 토요일까지"
 online_deadline = "선거일 28일 전까지"
 mail_postmarked_deadline = "반드시 선거일 28일 전까지 일자로 소인이 날인되어야 합니다."
-confirm_registration = "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
+confirm_registration_link = "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
 
 +++

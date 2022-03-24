@@ -6,6 +6,6 @@ registration_type = "in-person"
 hp_link = "https://www.vivote.gov/voters/register-vote"
 more_info_link = "https://www.vivote.gov/voters/register-vote"
 ip_deadline = "선거일 30일 전까지"
-confirm_registration = "https://www.vivote.gov/voters/lookup"
+confirm_registration_link = "https://www.vivote.gov/voters/lookup"
 
 +++

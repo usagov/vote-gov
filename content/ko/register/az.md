@@ -9,6 +9,6 @@ more_info_link = "https://azsos.gov/elections/voting-election/register-vote-or-u
 online_deadline = "선거일 29일 전까지"
 mail_postmarked_deadline = "반드시 선거일 29일 전까지 일자로 소인이 날인되어야 합니다."
 ip_deadline = "선거일 29일 전까지"
-confirm_registration = "https://my.arizona.vote/WhereToVote.aspx?s=individual"
+confirm_registration_link = "https://my.arizona.vote/WhereToVote.aspx?s=individual"
 
 +++

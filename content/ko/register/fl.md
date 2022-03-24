@@ -9,6 +9,6 @@ more_info_link = "https://registertovoteflorida.gov/home"
 ip_deadline = "선거일 29일 전까지"
 online_deadline = "선거일 29일 전까지"
 mail_postmarked_deadline = "반드시 선거일 29일 전까지 일자로 소인이 날인되어야 합니다."
-confirm_registration = "https://registration.elections.myflorida.com/CheckVoterStatus"
+confirm_registration_link = "https://registration.elections.myflorida.com/CheckVoterStatus"
 
 +++
