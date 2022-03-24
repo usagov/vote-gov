@@ -425,33 +425,7 @@ $logo-width: 130px;
   color: $color-blue-dark;
   font-weight: bold;
   font-size: 1.1em;
-  margin-left: 0;
   margin-right: 10px;
-
-  @include at-media('tablet') {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
-}
-
-[lang="es"] .eac-text {
-  text-decoration: none;
-  color: $color-blue-dark;
-  font-weight: bold;
-  font-size: 1.1em;
-  margin-left: 0;
-  margin-right: 10px;
-
-  @include at-media('tablet') {
-    margin-left: 10rem;
-  }
-}
-
-[dir="rtl"][lang="es"] .eac-text {
-  @include at-media('tablet') {
-    margin-left: 3rem;
-    margin-right: 10rem;
-  }
 }
 
 .footer-logos {
