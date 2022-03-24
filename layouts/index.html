@@ -64,7 +64,7 @@
               </header>
               <div class="voter-resources">
                 <h3>
-                  {{ $translation.homepage.registered__resources_intro }}
+                  {{ replace $translation.homepage.registered__resources_intro "%USA.gov%" "USA.gov" }}
                   <a href="{{ $translation.homepage.registered__resources_link_url }}">
                     {{ $translation.homepage.registered__resources_link_text -}}
                   </a> {{ replace $translation.homepage.registered__resources_on "%USA.gov%" "USA.gov" }}:
