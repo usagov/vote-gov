@@ -1,8 +1,35 @@
+.language-switcher--container {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  @media (min-width: 800px) {
+    display: none;
+  }
+}
+
 .translations {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+
+  .usa-banner & {
+    @media (max-width: 799px) {
+      display: none;
+    }
+  }
+
+  @media (max-width: 479px) {
+    margin-right: auto;
+  }
+
   label.usa-label.usa-label--language {
     display: inline;
     font-size: 14px;
+    margin-top: 0;
     margin-right: 0.5rem;
+    white-space: nowrap;
 
     @media (min-width: 1024px) {
       font-size: 16px;
