@@ -31,7 +31,7 @@ function watch () {
    gulp.watch('./assets/styles/**/*.scss', gulp.task( 'styles' ));
    gulp.watch('./assets/scripts/**/*.js', gulp.task( 'scripts' ));
    gulp.watch('./assets/images/**/*', gulp.task( 'images' ));
-   gulp.watch('./config/gulp/state-data.json', gulp.task( 'data' ));
+   gulp.watch('./data/translations/**/*.json', gulp.task( 'data' ));
 
 }
 
