@@ -36,28 +36,16 @@
 		<div class="grid-row grid-gap">
 			<div class="tablet:grid-col-1">
 				<a href="{{ $translation.footer.usagov_link }}">
-<<<<<<< HEAD
           <img class="{{ $langStyles }}-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}"
-               alt="{{ $translation.footer.usagov_logo_alt_text}}">
-=======
-          <img class="{{ .Site.Language.Lang }}-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}"
-               alt="{{ replace $translation.footer.usagov_logo_alt_text "%USA.gov%" "USA.gov" }}">
->>>>>>> a79911a (VOTE-86 update data files to reflect modifications to data template)
+		  	alt="{{ replace $translation.footer.usagov_logo_alt_text "%USA.gov%" "USA.gov" }}">
 				</a>
 
 			</div>
 			<div class="tablet:grid-col-11">
-<<<<<<< HEAD
         <span class="{{ $langStyles }}-eac-text">{{ $translation.footer.eac_text }}</span>	
         <a href="{{ $eacLink }}">
-          <img class="eac-logo-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.eac_img }}"
-               alt="{{ $translation.footer.eac_logo_alt_text }}"></a>
-=======
-        <span class="{{ .Site.Language.Lang }}-eac-text">{{ $translation.footer.eac_text }}</span>
-        <a href="{{ $translation.footer.eac_link }}">
           <img class="eac-logo-img" src="{{ .Site.BaseURL }}/assets/img/EAC-logo.svg"
                alt="{{ replace $translation.footer.eac_logo_alt_text "%U.S. Election Assistance Commission%" "U.S. Election Assistance Commission" }}"></a>
->>>>>>> a79911a (VOTE-86 update data files to reflect modifications to data template)
 			</div>
 		</div>
 	</div>
