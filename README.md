@@ -8,7 +8,7 @@ website. This site is built using [Hugo](https://gohugo.io/documentation/) and [
  [Federalist staging builds](https://federalistapp-staging.18f.gov/sites) | Federalist staging builds 
  [Federalist production builds](https://federalistapp.18f.gov/sites) | Federalist production builds
  [Installation](#installation)   | Installing the project locally.
- [Development](#development)     | Development workflow using `gulp`.
+ [Development](#development)     | Development workflow using `npm`.
  [Deployment](#deployment)       | Automated & Manual deployment information on Federalist
  [Contributing](CONTRIBUTING.md) | Contributing to the project.
  [Wiki](https://github.com/usagov/vote-gov/wiki) | `usagov/vote-gov` wiki.
@@ -34,25 +34,6 @@ and tell `npm` to bring in the asset-pipeline's dependencies.
 npm install
 ```
 
-Once that is complete, run `npm run gulp` in your Terminal to get a list of tasks.
-
-```sh
-npm run gulp
-
-  Using gulpfile ~/Developer/vote-gov/gulpfile.js
-  Starting 'default'...
-  v1.0.0 vote-gov
-   ______  ______  _____       __   ________  ______  ______
-  /\  ___\/\  ___\/\  __-.    /\ \ / /\  __ \/\__  _\/\  ___\
-  \ \  __\\ \  __\\ \ \/\ \   \ \ \'/\ \ \/\ \/_/\ \/\ \  __\
-   \ \_\   \ \_\   \ \____-    \ \__| \ \_____\ \ \_\ \ \_____\
-    \/_/    \/_/    \/____/     \/_/   \/_____/  \/_/  \/_____/
-
-  Available tasks
-
-  ...
-```
-
 To start the local webserver for the English and Spanish site and have hugo watch
 for changes:
 
@@ -60,7 +41,7 @@ for changes:
 npm start
 ```
 
-Optional: To additionally have gulp watch for changes to the assets and content folder run this command instead: 
+Optional: To additionally have gulp watch for changes to the theme assets and content folder run this command instead: 
 
 ```sh
 npm run dev
@@ -68,7 +49,7 @@ npm run dev
 
 The English website is now available at [`http://localhost:1313/`](http://localhost:1313/).
 
-The Spanish website is now available at [`http://localhost:1313/es/`](http://localhost:1313/es/).
+The translations are available at `http://localhost:1313/<LANGUAGE-CODE>/`.
 
 ### Descriptions for optional `gulp [ flags ]` task prefixes
 
@@ -100,7 +81,7 @@ own [`staging`][vote-staging] and [`production`][vote-production] URLs.
 
 To preview the build for another branch, see the link below and replace `<BRANCH>` with the name of the branch. Each branch pushed into the usagov/vote-gov repo with a successful build will auto generate a Federalist environment using this preview link.
 
-For preview branch builds: https://cg-9e8debaf-b030-4825-a43c-cb2bc850c96c.app.cloud.gov/preview/usagov/vote-gov/`<BRANCH>`/ 
+For preview branch builds: `https://cg-9e8debaf-b030-4825-a43c-cb2bc850c96c.app.cloud.gov/preview/usagov/vote-gov/<BRANCH>/` 
 
 [vote-staging]: https://staging.vote.gov "Vote USA: Staging"
 [vote-production]: https://vote.gov "Vote USA: Production"
@@ -131,7 +112,7 @@ cf target
 
 To build the `vote.gov` site locally , run  `npm start` . This command calls the `gulp website` task and starts the hugo server.  
 
-To mimic the Federalist build run `npm run federalist`. To start the server run `hugo server` .
+To mimic the Federalist build run `npm run federalist`. To start the server run `npm run hugo server` .
 
 
 #### Continuous delivery
