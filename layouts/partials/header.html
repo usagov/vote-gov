@@ -60,7 +60,7 @@
 
     {{ $styleClass := "usa-alert--info" }}
     {{ if eq .Site.Params.language_direction "rtl" }}
-      {{ $styleClass = "usa-alert--info-rtl" }}
+      {{ $styleClass = "usa-alert--info-rtl rtl-border-style" }}
     {{ end }}
 
   <div class="usa-alert {{ $styleClass }}">

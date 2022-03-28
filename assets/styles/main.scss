@@ -189,6 +189,7 @@ label.max-width-input {
 .usa-alert {
   padding: 0;
   margin-top: 0;
+  border-left: 0.5rem solid #00bde3;
 }
 
 .usa-alert--info::before {
@@ -231,6 +232,11 @@ label.max-width-input {
       background-position-x: right;
     }
   }
+}
+
+.rtl-border-style {
+  border-right: 0.5rem solid #00bde3;
+  border-left: 0;
 }
 
 .alert-icon-rtl {

@@ -22,7 +22,7 @@
     "languageName": "Español",
     "params": {
       "Owner": "Vote.gov en Español",
-      "language_direction": "ltr",
+      "language_direction": "rtl",
       "Referrer_Short_Code": "voteusa_es",
       "publishDir": "tmp/public/es",
       "register_path": "registrar",
