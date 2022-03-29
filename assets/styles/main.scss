@@ -5,6 +5,7 @@ $theme-show-notifications: false;
 @import '../../node_modules/uswds/dist/scss/uswds';
 @import './component/404.scss';
 @import './component/usa-banner.scss';
+@import 'component/language-switcher';
 
 
 // Variables ------------ //
@@ -140,27 +141,20 @@ label.max-width-input {
   text-decoration: none;
 }
 
-.translations {
-  flex-grow: 0;
-  text-align: right;
-  z-index: 1;
-
-  @include at-media('tablet') {
-    flex-grow: 1;
-  }
-}
-
-.translation-link {
-  width: auto;
-}
-
 .usa-header .usa-alert--info {
   margin-top: 0;
 }
 
+.banner__text-container {
+  flex: 1;
+}
+
+.usa-banner > .usa-accordion {
+  border-bottom: 1px solid black;
+}
+
 .usa-banner__header {
   padding-right: 0.5rem;
-  border-bottom: 1px solid black;
 }
 
 .usa-alert {
