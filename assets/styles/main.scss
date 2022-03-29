@@ -207,16 +207,21 @@ label.max-width-input {
 
 [dir="rtl"] .usa-alert--info {
   .grid-container {
-    background-position: right 1rem;
+    background-position: calc(100% - 1rem) 1rem;
 
     @include at-media('tablet') {
-      background-position: right 0.3rem;
+      background-position: calc(100% - 1rem) 0.3rem;
     }
   }
+}
+.usa-alert--info .usa-alert__body {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .usa-alert--warning .usa-alert__body {
   padding-left: 2.5rem;
+  padding-right: 2.5rem;
   line-height: initial;
 }
 
@@ -226,8 +231,9 @@ label.max-width-input {
   padding-bottom: 0.25rem;
 }
 
-.usa-banner__header-flag {
-  margin-left: 0.3rem;
+[dir="rtl"] .usa-banner__header-flag {
+  margin-left: 0.5rem;
+  margin-right: 0;
 }
 
 .form-register {
