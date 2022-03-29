@@ -21,11 +21,6 @@
 	</div>
 </div>
 
-{{ $langStyles := "all" }}
-{{ if eq .Site.Language.Lang "es" }}
-  {{ $langStyles = "es" }}
-{{ end }}
-
 {{ $eacLink := "https://www.eac.gov/" }}
 {{ if ne $translation.footer.eac_link "https://www.eac.gov/" }}
   {{ $eacLink = $translation.footer.eac_link }}
@@ -36,13 +31,13 @@
 		<div class="grid-row grid-gap">
 			<div class="tablet:grid-col-1">
 				<a href="{{ $translation.footer.usagov_link }}">
-          <img class="{{ $langStyles }}-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}"
+          <img class="usagov-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}"
                alt="{{ replace $translation.footer.usagov_logo_alt_text "%USA.gov%" "USA.gov" }}">
 				</a>
 
 			</div>
 			<div class="tablet:grid-col-11">
-		<span class="{{ $langStyles }}-eac-text">{{ $translation.footer.eac_text }}</span>	
+		<span class="eac-text">{{ $translation.footer.eac_text }}</span>	
 		<a href="{{ $eacLink }}">
           <img class="eac-logo-img" src="{{ .Site.BaseURL }}/assets/img/EAC-logo.svg"
                alt="{{ replace $translation.footer.eac_logo_alt_text "%U.S. Election Assistance Commission%" "U.S. Election Assistance Commission" }}"></a>

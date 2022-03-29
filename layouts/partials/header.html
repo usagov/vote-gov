@@ -58,12 +58,7 @@
     </div>
   </section>
 
-    {{ $styleClass := "usa-alert--info" }}
-    {{ if eq .Site.Params.language_direction "rtl" }}
-      {{ $styleClass = "usa-alert--info-rtl rtl-border-style" }}
-    {{ end }}
-
-  <div class="usa-alert {{ $styleClass }}">
+  <div class="usa-alert usa-alert--info border-style">
     <div class="grid-container">
       <div class="usa-alert__body">
 
