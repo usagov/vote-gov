@@ -21,11 +21,6 @@
 	</div>
 </div>
 
-{{ $eacLink := "https://www.eac.gov/" }}
-{{ if ne $translation.footer.eac_link "https://www.eac.gov/" }}
-  {{ $eacLink = $translation.footer.eac_link }}
-{{ end }}
-
 <div class="bg-grey">
 	<div class="grid-container footer-logos">
 		<div class="grid-row grid-gap">
@@ -37,8 +32,8 @@
 
 			</div>
 			<div class="tablet:grid-col-11">
-		<span class="eac-text">{{ $translation.footer.eac_text }}</span>	
-		<a href="{{ $eacLink }}">
+		<span class="eac-text">{{ $translation.footer.eac_text }}</span>
+		<a href="{{ $translation.footer.eac_link }}">
           <img class="eac-logo-img" src="{{ .Site.BaseURL }}/assets/img/EAC-logo.svg"
                alt="{{ replace $translation.footer.eac_logo_alt_text "%U.S. Election Assistance Commission%" "U.S. Election Assistance Commission" }}"></a>
 			</div>

@@ -178,6 +178,11 @@ label.max-width-input {
   border-left: 0.5rem solid #00bde3;
 }
 
+[dir="rtl"] .usa-alert {
+  border-right: 0.5rem solid #00bde3;
+  border-left: 0;
+}
+
 .usa-alert--info::before {
   display: none;
 }
@@ -185,7 +190,7 @@ label.max-width-input {
 .usa-alert--info {
   background-image: unset;
   background-color: #e7f6f8;
-  border: 0 0 0 0;
+  border: 0;
 
   .grid-container {
     background-image: url(../img/alerts/info.svg), linear-gradient(transparent, transparent);
@@ -201,33 +206,14 @@ label.max-width-input {
 }
 
 [dir="rtl"] .usa-alert--info {
-  background-image: unset;
-  background-color: #e7f6f8;
-  border: 0 0 0 0;
-
   .grid-container {
-    background-image: url(../img/alerts/info.svg), linear-gradient(transparent, transparent);
-    background-position: 1rem 1rem;
-    background-position-x: right;
-    background-repeat: no-repeat;
-    background-size: 2rem;
-    display: flex;
+    background-position: right 1rem;
 
     @include at-media('tablet') {
-      background-position: 1rem 0.3rem;
-      background-position-x: right;
+      background-position: right 0.3rem;
     }
   }
 }
-
-[dir="rtl"] .border-style {
-  border-right: 0.5rem solid #00bde3;
-  border-left: 0;
-}
-
-// .alert-icon-rtl {
-//   background-position-x: right;
-// }
 
 .usa-alert--warning .usa-alert__body {
   padding-left: 2.5rem;
@@ -406,11 +392,6 @@ $logo-width: 130px;
   color: white;
 }
 
-// .all-img,
-// .es-img {
-//   max-width: 220px;
-// }
-
 .usagov-img {
   padding-bottom: 1rem;
   margin-top: 0;
@@ -457,6 +438,13 @@ $logo-width: 130px;
 
   @include at-media('tablet') {
     margin-left: 10rem;
+  }
+}
+
+[dir="rtl"][lang="es"] .eac-text {
+  @include at-media('tablet') {
+    margin-left: 3rem;
+    margin-right: 10rem;
   }
 }
 
