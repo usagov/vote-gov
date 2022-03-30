@@ -18,7 +18,7 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "{{ replace $translation.register.not_needed__intro "%state_name%" .Params.state_name }}
-        <a class='reg-link' href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}'>{{ replace $translation.register.not_needed__link "%state_name%" .Params.state_name }}.</a>"
+        <a class='reg-link' href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}'>{{ replace $translation.register.not_needed__link "%state_name%" .Params.state_name }}.</a>"
       }
     },{
         "@type": "Question",
@@ -34,7 +34,7 @@
 
 <p>
   {{ replace $translation.register.not_needed__intro "%state_name%" .Params.state_name }}
-  <a class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref={{ $.Site.Params.Referrer_Short_Code }}">
+  <a class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
   {{ replace $translation.register.not_needed__link "%state_name%" .Params.state_name -}}
 
   {{ if .Params.more_info_link_english_only }}

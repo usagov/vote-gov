@@ -6,7 +6,7 @@
 			<div class="tablet:grid-col-4"></div>
 			<div class="tablet:grid-col-8 right-shift">
 				<form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
-					<h2 class="text-blue font-size-medium">{{ $translation.footer.subscribe_email }}</h2>
+					<h2 class="text-blue font-size-medium">{{ replace $translation.footer.subscribe_email "%USAGov%" "USAGov" }}</h2>
 
 					<label class="max-width-input text-grey" for="email-2"
 						id="emailsub">{{ $translation.footer.your_email_address }}</label>
@@ -26,15 +26,16 @@
 		<div class="grid-row grid-gap">
 			<div class="tablet:grid-col-1">
 				<a href="{{ $translation.footer.usagov_link }}">
-          <img class="{{ .Site.Language.Lang }}-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}"
-               alt="{{ $translation.footer.usagov_logo_alt_text}}">
+          <img class="usagov-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}"
+               alt="{{ replace $translation.footer.usagov_logo_alt_text "%USA.gov%" "USA.gov" }}">
 				</a>
+
 			</div>
 			<div class="tablet:grid-col-11">
-        <span class="{{ .Site.Language.Lang }}-eac-text">{{ $translation.footer.eac_text }}</span>
-        <a href="{{ $translation.footer.eac_link }}">
-          <img class="eac-logo-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.eac_img }}"
-               alt="{{ $translation.footer.eac_logo_alt_text }}"></a>
+		<span class="eac-text">{{ $translation.footer.eac_text }}</span>
+		<a href="{{ $translation.footer.eac_link }}">
+          <img class="eac-logo-img" src="{{ .Site.BaseURL }}/assets/img/EAC-logo.svg"
+               alt="{{ replace $translation.footer.eac_logo_alt_text "%U.S. Election Assistance Commission%" "U.S. Election Assistance Commission" }}"></a>
 			</div>
 		</div>
 	</div>
@@ -49,8 +50,8 @@
 			</div>
 			<div class="tablet:grid-col-8 right-shift">
 				<a class="usa-footer__primary-link" href="{{ $translation.footer.twitter_link }}">
-					<img class="twitter-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.twitter_img }}"
-						alt="twitter" />{{ $translation.footer.twitter_text}}
+					<img class="twitter-img" src="{{ .Site.BaseURL }}/assets/img/Icon_Connect_Twitter_round.png"
+						alt="twitter" />{{ replace $translation.footer.twitter_text "%Vote.gov%" "Vote.gov" }}
 				</a>
 			</div>
 		</div>

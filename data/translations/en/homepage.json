@@ -1,5 +1,4 @@
 {
-  "site_name": "Vote.gov",
   "header": "Register to vote",
   "state_selection__heading": "Where do you live?",
   "state_selection__default": "Select your state or territory",
@@ -8,7 +7,7 @@
   "registered__resources_intro": "Explore our",
   "registered__resources_link_text": "voting and election resources",
   "registered__resources_link_url": "https://www.usa.gov/voting",
-  "registered__resources_on": "on USA.gov",
+  "registered__resources_on": "on %USA.gov%",
   "registered_links__electionday": "Voting on election day",
   "registered_links__electionday_url": "https://www.usa.gov/election-day",
   "registered_links__voterid": "Voter ID requirements",

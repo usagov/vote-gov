@@ -16,16 +16,18 @@
     <div class="usa-accordion">
       <header class="usa-banner__header">
         <div class="usa-banner__inner">
-          <div class="grid-col-auto">
-            <img class="usa-banner__header-flag" src="{{ .Site.BaseURL }}/assets/img/us_flag_small.png" alt="U.S. flag">
+          <div class="banner__text-container grid-row">
+            <div class="grid-col-auto">
+              <img class="usa-banner__header-flag" src="{{ .Site.BaseURL }}/assets/img/us_flag_small.png" alt="U.S. flag">
+            </div>
+            <div class="grid-col-fill tablet:grid-col-auto">
+              <p class="usa-banner__header-text">{{ $translation.homepage.banner__banner_text }}</p>
+              <p class="usa-banner__header-action" aria-hidden="true">{{ $translation.homepage.banner__banner_action }}</p>
+            </div>
+            <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+              <span class="usa-banner__button-text">{{ $translation.homepage.banner__banner_action }}</span>
+            </button>
           </div>
-          <div class="grid-col-fill tablet:grid-col-auto">
-            <p class="usa-banner__header-text">{{ $translation.homepage.banner__banner_text }}</p>
-            <p class="usa-banner__header-action" aria-hidden="true">{{ $translation.homepage.banner__banner_action }}</p>
-          </div>
-          <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
-            <span class="usa-banner__button-text">{{ $translation.homepage.banner__banner_action }}</span>
-          </button>
           {{ partial "language-switcher.html" . }}
         </div>
       </header>
@@ -58,7 +60,6 @@
     </div>
   </section>
 
-
   <div class="usa-alert usa-alert--info">
     <div class="grid-container">
       <div class="usa-alert__body">
@@ -68,7 +69,7 @@
         {{ else }}
         <p class="usa-alert__text">
           {{ $translation.register.alert_state__alert_after_election }}
-          <a href="{{ .Params.hp_link }}{{ if in .Params.hp_link "?" }}&{{ end }}?ref={{ .Site.Params.Referrer_Short_Code }}">
+          <a href="{{ .Params.hp_link }}{{ if in .Params.hp_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
             {{ $translation.register.alert_state__alert_msg1 -}}
             {{ if .Params.hp_link_english_only }}
             {{ .Site.Params.english_only -}}
@@ -82,5 +83,8 @@
     </div>
   </div>
 
+  <div class="language-switcher--container grid-container">
+    {{ partial "language-switcher1.html" . }}
+  </div>
 
 </header>

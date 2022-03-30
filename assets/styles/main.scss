@@ -1,9 +1,11 @@
 // Imports -------------- //
 
+@use 'sass:math';
 $theme-show-notifications: false;
 @import '../../node_modules/uswds/dist/scss/uswds';
 @import './component/404.scss';
 @import './component/usa-banner.scss';
+@import 'component/language-switcher';
 
 
 // Variables ------------ //
@@ -93,14 +95,15 @@ label.max-width-input {
   &::after {
     $arrow-width: 100px;
     $arrow-height: 30px;
+    $arrow-half-width: math.div($arrow-width, 2);
     content: "";
     position: absolute;
-    left: calc(50% - #{$arrow-width/2});
+    left: calc(50% - #{$arrow-half-width});
     bottom: -$arrow-height;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: $arrow-height+1 $arrow-width/2 0 $arrow-width/2;
+    border-width: $arrow-height+1 $arrow-half-width 0 $arrow-half-width;
     border-color: $color-blue transparent transparent transparent;
     @include at-media('tablet') {
       content: none;
@@ -115,10 +118,16 @@ label.max-width-input {
   padding: 4px;
 }
 
-.left {
+.direction {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
   margin-right: 5px;
+}
+
+[dir="rtl"] .direction {
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  margin-left: 5px;
 }
 
 .arrow-text a {
@@ -129,6 +138,7 @@ label.max-width-input {
 .usa-button {
   background-color: $color-blue-dark;
   color: white;
+  margin-right: 0;
 }
 
 .usa-button:hover, .usa-button.usa-button--hover {
@@ -138,31 +148,39 @@ label.max-width-input {
   text-decoration: none;
 }
 
-.translations {
-  flex-grow: 0;
-  text-align: right;
-  z-index: 1;
-
-  @include at-media('tablet') {
-    flex-grow: 1;
-  }
-}
-
-.translation-link {
-  width: auto;
-}
-
 .usa-header .usa-alert--info {
   margin-top: 0;
 }
 
+.banner__text-container {
+  flex: 1;
+}
+
+.usa-banner > .usa-accordion {
+  border-bottom: 1px solid black;
+}
+
 .usa-banner__header {
   padding-right: 0.5rem;
-  border-bottom: 1px solid black;
+}
+
+.usa-banner__icon {
+  margin-left: 0.3rem;
+}
+
+.usa-banner__button {
+  margin-right: 0.5rem;
 }
 
 .usa-alert {
   padding: 0;
+  margin-top: 0;
+  border-left: 0.5rem solid #00bde3;
+}
+
+[dir="rtl"] .usa-alert {
+  border-right: 0.5rem solid #00bde3;
+  border-left: 0;
 }
 
 .usa-alert--info::before {
@@ -172,6 +190,7 @@ label.max-width-input {
 .usa-alert--info {
   background-image: unset;
   background-color: #e7f6f8;
+  border: 0;
 
   .grid-container {
     background-image: url(../img/alerts/info.svg), linear-gradient(transparent, transparent);
@@ -186,8 +205,23 @@ label.max-width-input {
   }
 }
 
+[dir="rtl"] .usa-alert--info {
+  .grid-container {
+    background-position: calc(100% - 1rem) 1rem;
+
+    @include at-media('tablet') {
+      background-position: calc(100% - 1rem) 0.3rem;
+    }
+  }
+}
+.usa-alert--info .usa-alert__body {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .usa-alert--warning .usa-alert__body {
   padding-left: 2.5rem;
+  padding-right: 2.5rem;
   line-height: initial;
 }
 
@@ -195,6 +229,11 @@ label.max-width-input {
   margin-bottom: 0.5rem;
   padding-top: 0.75rem;
   padding-bottom: 0.25rem;
+}
+
+[dir="rtl"] .usa-banner__header-flag {
+  margin-left: 0.5rem;
+  margin-right: 0;
 }
 
 .form-register {
@@ -237,7 +276,7 @@ $logo-width: 130px;
     img {
       position: absolute;
       bottom: $logo-width * -0.32 + 1;
-      right: calc(50% - #{$logo-width/2});
+      right: calc(50% - #{math.div($logo-width, 2)});
       margin-bottom: 0;
       padding-top: 0px;
       padding-bottom: 0px;
@@ -270,7 +309,7 @@ $logo-width: 130px;
       img {
         width: $logo-width;
         bottom: $logo-width * -0.32 + 1;
-        right: calc(50% - #{$logo-width/2});
+        right: calc(50% - #{math.div($logo-width, 2)});
       }
 
       .logo-text {
@@ -349,6 +388,7 @@ $logo-width: 130px;
   .twitter-img {
     vertical-align: middle;
     padding-right: 20px;
+    margin-left: 10px;
     width: 50px;
     height: 30px;
   }
@@ -358,15 +398,10 @@ $logo-width: 130px;
   color: white;
 }
 
-.en-img,
-.es-img {
-  max-width: 220px;
-}
-
-.en-img,
-.es-img {
+.usagov-img {
   padding-bottom: 1rem;
   margin-top: 0;
+  max-width: 220px;
 
   @include at-media('tablet') {
     margin-top: 1rem;
@@ -385,7 +420,7 @@ $logo-width: 130px;
   }
 }
 
-.en-eac-text {
+.eac-text {
   text-decoration: none;
   color: $color-blue-dark;
   font-weight: bold;
@@ -395,10 +430,11 @@ $logo-width: 130px;
 
   @include at-media('tablet') {
     margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
 
-.es-eac-text {
+[lang="es"] .eac-text {
   text-decoration: none;
   color: $color-blue-dark;
   font-weight: bold;
@@ -407,7 +443,14 @@ $logo-width: 130px;
   margin-right: 10px;
 
   @include at-media('tablet') {
-    margin-left: 11rem;
+    margin-left: 10rem;
+  }
+}
+
+[dir="rtl"][lang="es"] .eac-text {
+  @include at-media('tablet') {
+    margin-left: 3rem;
+    margin-right: 10rem;
   }
 }
 
