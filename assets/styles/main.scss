@@ -5,6 +5,7 @@ $theme-show-notifications: false;
 @import '../../node_modules/uswds/dist/scss/uswds';
 @import './component/404.scss';
 @import './component/usa-banner.scss';
+@import 'component/language-switcher';
 
 
 // Variables ------------ //
@@ -117,10 +118,16 @@ label.max-width-input {
   padding: 4px;
 }
 
-.left {
+.direction {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
   margin-right: 5px;
+}
+
+[dir="rtl"] .direction {
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  margin-left: 5px;
 }
 
 .arrow-text a {
@@ -131,6 +138,7 @@ label.max-width-input {
 .usa-button {
   background-color: $color-blue-dark;
   color: white;
+  margin-right: 0;
 }
 
 .usa-button:hover, .usa-button.usa-button--hover {
@@ -140,31 +148,39 @@ label.max-width-input {
   text-decoration: none;
 }
 
-.translations {
-  flex-grow: 0;
-  text-align: right;
-  z-index: 1;
-
-  @include at-media('tablet') {
-    flex-grow: 1;
-  }
-}
-
-.translation-link {
-  width: auto;
-}
-
 .usa-header .usa-alert--info {
   margin-top: 0;
 }
 
+.banner__text-container {
+  flex: 1;
+}
+
+.usa-banner > .usa-accordion {
+  border-bottom: 1px solid black;
+}
+
 .usa-banner__header {
   padding-right: 0.5rem;
-  border-bottom: 1px solid black;
+}
+
+.usa-banner__icon {
+  margin-left: 0.3rem;
+}
+
+.usa-banner__button {
+  margin-right: 0.5rem;
 }
 
 .usa-alert {
   padding: 0;
+  margin-top: 0;
+  border-left: 0.5rem solid #00bde3;
+}
+
+[dir="rtl"] .usa-alert {
+  border-right: 0.5rem solid #00bde3;
+  border-left: 0;
 }
 
 .usa-alert--info::before {
@@ -174,6 +190,7 @@ label.max-width-input {
 .usa-alert--info {
   background-image: unset;
   background-color: #e7f6f8;
+  border: 0;
 
   .grid-container {
     background-image: url(../img/alerts/info.svg), linear-gradient(transparent, transparent);
@@ -188,8 +205,23 @@ label.max-width-input {
   }
 }
 
+[dir="rtl"] .usa-alert--info {
+  .grid-container {
+    background-position: calc(100% - 1rem) 1rem;
+
+    @include at-media('tablet') {
+      background-position: calc(100% - 1rem) 0.3rem;
+    }
+  }
+}
+.usa-alert--info .usa-alert__body {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .usa-alert--warning .usa-alert__body {
   padding-left: 2.5rem;
+  padding-right: 2.5rem;
   line-height: initial;
 }
 
@@ -197,6 +229,11 @@ label.max-width-input {
   margin-bottom: 0.5rem;
   padding-top: 0.75rem;
   padding-bottom: 0.25rem;
+}
+
+[dir="rtl"] .usa-banner__header-flag {
+  margin-left: 0.5rem;
+  margin-right: 0;
 }
 
 .form-register {
@@ -351,6 +388,7 @@ $logo-width: 130px;
   .twitter-img {
     vertical-align: middle;
     padding-right: 20px;
+    margin-left: 10px;
     width: 50px;
     height: 30px;
   }
@@ -388,6 +426,11 @@ $logo-width: 130px;
   font-weight: bold;
   font-size: 1.1em;
   margin-right: 10px;
+
+  [dir="rtl"] & {
+    margin-left: 10px;
+    margin-right: 0;
+  }
 }
 
 .footer-logos {
