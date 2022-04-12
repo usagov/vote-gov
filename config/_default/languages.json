@@ -35,5 +35,24 @@
       "select_language": "Seleccione Idioma",
       "english_languageName": "Spanish"
     }
+  },
+  "ko": {
+    "contentDir": "content/ko",
+    "title": "유권자 등록 ",
+    "languageName": "한국어",
+    "params": {
+      "Owner": "%Vote.gov% 한국어 ",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/ko",
+      "register_path": "register",
+      "go_back": "이전 화면",
+      "skip_text": "메인 화면 바로 가기",
+      "meta__title": "유권자 등록 안내 ",
+      "meta__description": "귀하가 거주하는 주의 유권자 등록 방법을 확인하십시오.",
+      "english_only": "(영어로 제공)",
+      "last_updated": "마지막 업데이트일자:",
+      "select_language": "언어 선택",
+      "english_languageName": "Korean"
+    }
   }
 }
