@@ -4,5 +4,10 @@
   "publishDir": "tmp/public",
   "title": "Voter Registration",
   "baseURL": "",
-  "disableKinds": ["taxonomy", "taxonomyTerm"]
+  "disableKinds": ["taxonomy", "taxonomyTerm"],
+  "sitemap": {
+    "changefreq": "monthly",
+    "filename": "sitemap.xml",
+    "priority": 0.0
+ }
 }
