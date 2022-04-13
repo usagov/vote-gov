@@ -6,8 +6,7 @@
   "baseURL": "",
   "disableKinds": ["taxonomy", "taxonomyTerm"],
   "sitemap": {
-    "changefreq": "monthly",
     "filename": "sitemap.xml",
-    "priority": 0.0
+    "priority": 0.5
  }
 }
