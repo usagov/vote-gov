@@ -3,6 +3,7 @@
 state_name = "Kentucky"
 state_abbreviation = "ky"
 registration_type = "online"
+translationKey = "Kentucky"
 hp_link = "https://elect.ky.gov/Pages/default.aspx"
 hp_link_translated = "true"
 hp_link_language_selection = ""

@@ -3,6 +3,7 @@
 state_name = "Louisiana"
 state_abbreviation = "la"
 registration_type = "online"
+translationKey = "Louisiana"
 hp_link = "https://www.sos.la.gov/ElectionsAndVoting/Pages/default.aspx"
 registration_link = "https://voterportal.sos.la.gov/VoterRegistration"
 more_info_link = "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx"

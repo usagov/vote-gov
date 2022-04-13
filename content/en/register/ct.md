@@ -1,9 +1,9 @@
 +++
 
-crazyegg = "true"
 state_name = "Connecticut"
 state_abbreviation = "ct"
 registration_type = "online"
+translationKey = "Connecticut"
 hp_link = "https://portal.ct.gov/sots"
 hp_link_translated = "true"
 hp_link_language_selection = ""

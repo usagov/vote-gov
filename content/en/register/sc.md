@@ -3,6 +3,7 @@
 state_name = "South Carolina"
 state_abbreviation = "sc"
 registration_type = "online"
+translationKey = "South Carolina"
 hp_link = "https://www.scvotes.gov/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

@@ -3,6 +3,7 @@
 state_name = "U.S. Virgin Islands"
 state_abbreviation = "vi"
 registration_type = "in-person"
+translationKey = "U.S. Virgin Islands"
 hp_link = "https://www.vivote.gov/voters/register-vote"
 hp_link_translated = "true"
 hp_link_language_selection = ""

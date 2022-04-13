@@ -3,6 +3,7 @@
 state_name = "Wisconsin"
 state_abbreviation = "wi"
 registration_type = "online"
+translationKey = "Wisconsin"
 hp_link = "https://elections.wi.gov/elections-voting"
 hp_link_translated = "true"
 hp_link_language_selection = ""

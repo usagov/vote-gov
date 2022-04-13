@@ -3,6 +3,7 @@
 state_name = "Hawaii"
 state_abbreviation = "hi"
 registration_type = "online"
+translationKey = "Hawaii"
 hp_link = "https://elections.hawaii.gov/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

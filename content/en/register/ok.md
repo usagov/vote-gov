@@ -3,6 +3,7 @@
 state_name = "Oklahoma"
 state_abbreviation = "ok"
 registration_type = "by-mail"
+translationKey = "Oklahoma"
 hp_link = "https://www.ok.gov/elections/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

@@ -3,6 +3,7 @@
 state_name = "Texas"
 state_abbreviation = "tx"
 registration_type = "by-mail"
+translationKey = "Texas"
 hp_link = "https://www.votetexas.gov/index.html"
 hp_link_translated = "true"
 hp_link_language_selection = ""

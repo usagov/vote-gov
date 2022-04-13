@@ -3,6 +3,7 @@
 state_name = "Idaho"
 state_abbreviation = "id"
 registration_type = "online"
+translationKey = "Idaho"
 hp_link = "https://idahovotes.gov/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

@@ -3,6 +3,7 @@
 state_name = "Northern Mariana Islands"
 state_abbreviation = "mp"
 registration_type = "in-person"
+translationKey = "Northern Mariana Islands"
 hp_link = "https://www.votecnmi.gov.mp/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

@@ -3,6 +3,7 @@
 state_name = "Delaware"
 state_abbreviation = "de"
 registration_type = "online"
+translationKey = "Delaware"
 hp_link = "https://elections.delaware.gov/index.shtml"
 hp_link_translated = "true"
 hp_link_language_selection = ""

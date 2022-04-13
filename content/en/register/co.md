@@ -3,6 +3,7 @@
 state_name = "Colorado"
 state_abbreviation = "co"
 registration_type = "online"
+translationKey = "Colorado"
 hp_link = "https://www.sos.state.co.us/pubs/elections/"
 hp_link_translated = "true"
 hp_link_language_selection = ""
