@@ -3,6 +3,7 @@
 state_name = "California"
 state_abbreviation = "ca"
 registration_type = "online"
+translationKey = "California"
 hp_link = "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/"
 hp_link_translated = "true"
 registration_link = "https://registertovote.ca.gov/es-mx"

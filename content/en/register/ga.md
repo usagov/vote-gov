@@ -1,9 +1,9 @@
 +++
 
-crazyegg = "true"
 state_name = "Georgia"
 state_abbreviation = "ga"
 registration_type = "online"
+translationKey = "Georgia"
 hp_link = "https://sos.ga.gov/index.php/elections"
 hp_link_translated = "true"
 hp_link_language_selection = ""

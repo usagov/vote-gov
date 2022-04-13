@@ -3,6 +3,7 @@
 state_name = "Arizona"
 state_abbreviation = "az"
 registration_type = "online"
+translationKey = "Arizona"
 hp_link = "https://azsos.gov/elections"
 hp_link_translated = "true"
 hp_link_language_selection = ""

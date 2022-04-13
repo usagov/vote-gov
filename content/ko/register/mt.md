@@ -3,6 +3,7 @@
 state_name = "Montana"
 state_abbreviation = "mt"
 registration_type = "by-mail"
+translationKey = "Montana"
 hp_link = "https://sosmt.gov/elections/"
 more_info_link = "https://sosmt.gov/elections/vote/"
 ip_deadline = "선거당일까지 등록이 가능합니다."

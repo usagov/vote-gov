@@ -3,6 +3,7 @@
 state_name = "Maine"
 state_abbreviation = "me"
 registration_type = "by-mail"
+translationKey = "Maine"
 hp_link = "https://www.maine.gov/sos/cec/elec/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

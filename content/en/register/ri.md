@@ -3,6 +3,7 @@
 state_name = "Rhode Island"
 state_abbreviation = "ri"
 registration_type = "online"
+translationKey = "Rhode Island"
 hp_link = "https://elections.ri.gov/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

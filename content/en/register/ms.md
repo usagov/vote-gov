@@ -3,6 +3,7 @@
 state_name = "Mississippi"
 state_abbreviation = "ms"
 registration_type = "by-mail"
+translationKey = "Mississippi"
 hp_link = "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx"
 hp_link_translated = "true"
 hp_link_language_selection = ""

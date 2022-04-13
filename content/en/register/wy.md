@@ -3,6 +3,7 @@
 state_name = "Wyoming"
 state_abbreviation = "wy"
 registration_type = "by-mail"
+translationKey = "Wyoming"
 national_voter_registration_form_accepted = "false"
 hp_link = "https://sos.wyo.gov/elections/state/registeringtovote.aspx"
 hp_link_translated = "true"

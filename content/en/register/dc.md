@@ -3,6 +3,7 @@
 state_name = "District of Columbia"
 state_abbreviation = "dc"
 registration_type = "online"
+translationKey = "District of Columbia"
 hp_link = "https://dcboe.org/"
 hp_link_translated = "true"
 hp_link_language_selection = ""
