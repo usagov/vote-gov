@@ -3,6 +3,7 @@
 state_name = "Maine"
 state_abbreviation = "me"
 registration_type = "by-mail"
+translationKey = "Maine"
 hp_link = "https://www.maine.gov/sos/cec/elec/"
 more_info_link = "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html"
 ip_deadline = "hasta el mismo día de las elecciones"

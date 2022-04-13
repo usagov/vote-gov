@@ -3,6 +3,7 @@
 state_name = "Iowa"
 state_abbreviation = "ia"
 registration_type = "online"
+translationKey = "Iowa"
 hp_link = "https://sos.iowa.gov/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

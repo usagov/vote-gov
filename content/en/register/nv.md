@@ -3,6 +3,7 @@
 state_name = "Nevada"
 state_abbreviation = "nv"
 registration_type = "online"
+translationKey = "Nevada"
 hp_link = "https://www.nvsos.gov/sos/elections"
 hp_link_translated = "true"
 hp_link_language_selection = ""

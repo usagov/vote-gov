@@ -3,6 +3,7 @@
 state_name = "North Dakota"
 state_abbreviation = "nd"
 registration_type = "not-needed"
+translationKey = "North Dakota"
 hp_link = "https://vip.sos.nd.gov/PortalList.aspx"
 hp_link_translated = "true"
 hp_link_language_selection = ""

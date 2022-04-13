@@ -3,6 +3,7 @@
 state_name = "Ohio"
 state_abbreviation = "oh"
 registration_type = "online"
+translationKey = "Ohio"
 hp_link = "https://www.sos.state.oh.us/elections/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

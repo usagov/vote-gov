@@ -3,6 +3,7 @@
 state_name = "New York"
 state_abbreviation = "ny"
 registration_type = "online"
+translationKey = "New York"
 hp_link = "https://www.elections.ny.gov/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

@@ -3,6 +3,7 @@
 state_name = "Puerto Rico"
 state_abbreviation = "pr"
 registration_type = "in-person"
+translationKey = "Puerto Rico"
 hp_link = "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx"
 hp_link_translated = "true"
 hp_link_language_selection = ""

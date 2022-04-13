@@ -3,6 +3,7 @@
 state_name = "Virginia"
 state_abbreviation = "va"
 registration_type = "online"
+translationKey = "Virginia"
 hp_link = "https://www.elections.virginia.gov/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

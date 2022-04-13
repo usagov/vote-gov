@@ -3,6 +3,7 @@
 state_name = "American Samoa"
 state_abbreviation = "as"
 registration_type = "in-person"
+translationKey = "American Samoa"
 hp_link = "https://aselectionoffice.gov/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

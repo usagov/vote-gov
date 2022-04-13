@@ -3,6 +3,7 @@
 state_name = "Oregon"
 state_abbreviation = "or"
 registration_type = "online"
+translationKey = "Oregon"
 hp_link = "https://sos.oregon.gov/voting-elections/Pages/default.aspx"
 registration_link = "https://secure.sos.state.or.us/orestar/vr/register.do"
 registration_link_language_selection = "true"

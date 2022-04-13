@@ -3,6 +3,7 @@
 state_name = "Alabama"
 state_abbreviation = "al"
 registration_type = "online"
+translationKey = "Alabama"
 hp_link = "https://www.sos.alabama.gov/alabama-votes"
 hp_link_translated = "true"
 hp_link_language_selection = ""

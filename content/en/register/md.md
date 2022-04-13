@@ -3,6 +3,7 @@
 state_name = "Maryland"
 state_abbreviation = "md"
 registration_type = "online"
+translationKey = "Maryland"
 hp_link = "https://elections.maryland.gov/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

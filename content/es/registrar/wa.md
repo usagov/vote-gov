@@ -3,6 +3,7 @@
 state_name = "Washington"
 state_abbreviation = "wa"
 registration_type = "online"
+translationKey = "Washington"
 hp_link = "https://www.sos.wa.gov/elections/spanish.aspx"
 hp_link_translated = "true"
 registration_link = "https://voter.votewa.gov/WhereToVote.aspx"

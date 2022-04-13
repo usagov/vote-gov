@@ -3,6 +3,7 @@
 state_name = "Minnesota"
 state_abbreviation = "mn"
 registration_type = "online"
+translationKey = "Minnesota"
 hp_link = "https://www.sos.state.mn.us/elections-voting/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

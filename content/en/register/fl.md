@@ -3,6 +3,7 @@
 state_name = "Florida"
 state_abbreviation = "fl"
 registration_type = "online"
+translationKey = "Florida"
 hp_link = "https://dos.myflorida.com/elections/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

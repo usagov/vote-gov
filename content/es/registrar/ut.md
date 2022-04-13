@@ -3,6 +3,7 @@
 state_name = "Utah"
 state_abbreviation = "ut"
 registration_type = "online"
+translationKey = "Utah"
 hp_link = "https://elections.utah.gov/"
 registration_link = "https://secure.utah.gov/voterreg/index.html"
 more_info_link = "https://voteinfo.utah.gov/"
