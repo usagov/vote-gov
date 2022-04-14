@@ -1,9 +1,9 @@
 +++
 
-crazyegg = "true"
 state_name = "Connecticut"
 state_abbreviation = "ct"
 registration_type = "online"
+translationKey = "Connecticut"
 hp_link = "https://portal.ct.gov/sots"
 registration_link = "https://voterregistration.ct.gov/OLVR/welcome.do"
 registration_link_language_selection = "true"

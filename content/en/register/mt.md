@@ -3,6 +3,7 @@
 state_name = "Montana"
 state_abbreviation = "mt"
 registration_type = "by-mail"
+translationKey = "Montana"
 hp_link = "https://sosmt.gov/elections/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

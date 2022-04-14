@@ -3,6 +3,7 @@
 state_name = "New Jersey"
 state_abbreviation = "nj"
 registration_type = "online"
+translationKey = "New Jersey"
 hp_link = "https://www.state.nj.us/state/elections/index.shtml"
 hp_link_translated = "true"
 hp_link_language_selection = ""

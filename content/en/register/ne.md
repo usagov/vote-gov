@@ -3,6 +3,7 @@
 state_name = "Nebraska"
 state_abbreviation = "ne"
 registration_type = "online"
+translationKey = "Nebraska"
 hp_link = "https://sos.nebraska.gov/elections/2020-elections"
 hp_link_translated = "true"
 hp_link_language_selection = ""

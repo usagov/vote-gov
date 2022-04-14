@@ -3,6 +3,7 @@
 state_name = "South Dakota"
 state_abbreviation = "sd"
 registration_type = "by-mail"
+translationKey = "South Dakota"
 hp_link = "https://sdsos.gov/elections-voting/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

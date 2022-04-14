@@ -3,6 +3,7 @@
 state_name = "Massachusetts"
 state_abbreviation = "ma"
 registration_type = "online"
+translationKey = "Massachusetts"
 hp_link = "https://www.sec.state.ma.us/ele/eleidx.htm"
 registration_link = "https://www.sec.state.ma.us/ovr/"
 registration_link_language_selection = "true"

@@ -3,6 +3,7 @@
 state_name = "Indiana"
 state_abbreviation = "in"
 registration_type = "online"
+translationKey = "Indiana"
 hp_link = "https://www.in.gov/sos/elections/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

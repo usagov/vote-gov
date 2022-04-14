@@ -3,6 +3,7 @@
 state_name = "Arkansas"
 state_abbreviation = "ar"
 registration_type = "by-mail"
+translationKey = "Arkansas"
 hp_link = "https://www.sos.arkansas.gov/elections/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

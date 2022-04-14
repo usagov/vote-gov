@@ -3,6 +3,7 @@
 state_name = "Vermont"
 state_abbreviation = "vt"
 registration_type = "online"
+translationKey = "Vermont"
 hp_link = "https://sos.vermont.gov/elections/"
 registration_link = "https://olvr.vermont.gov/"
 more_info_link = "https://sos.vermont.gov/elections/voters/registration/"

@@ -3,6 +3,7 @@
 state_name = "West Virginia"
 state_abbreviation = "wv"
 registration_type = "online"
+translationKey = "West Virginia"
 hp_link = "https://sos.wv.gov/elections/Pages/default.aspx"
 registration_link = "https://ovr.sos.wv.gov/Register/Landing"
 more_info_link = "https://ovr.sos.wv.gov/Register/Landing"

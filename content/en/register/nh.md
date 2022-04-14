@@ -3,6 +3,7 @@
 state_name = "New Hampshire"
 state_abbreviation = "nh"
 registration_type = "in-person"
+translationKey = "New Hampshire"
 hp_link = "https://sos.nh.gov/home"
 hp_link_translated = "true"
 hp_link_language_selection = ""

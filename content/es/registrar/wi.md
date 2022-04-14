@@ -3,6 +3,7 @@
 state_name = "Wisconsin"
 state_abbreviation = "wi"
 registration_type = "online"
+translationKey = "Wisconsin"
 hp_link = "https://elections.wi.gov/elections-voting"
 registration_link = "https://myvote.wi.gov/es-es/RegisterToVote"
 registration_link_translated = "true"

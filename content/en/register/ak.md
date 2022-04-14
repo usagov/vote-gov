@@ -3,6 +3,7 @@
 state_name = "Alaska"
 state_abbreviation = "ak"
 registration_type = "online"
+translationKey = "Alaska"
 hp_link = "https://www.elections.alaska.gov/"
 hp_link_translated = "true"
 hp_link_language_selection = ""

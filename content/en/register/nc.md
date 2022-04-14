@@ -3,6 +3,7 @@
 state_name = "North Carolina"
 state_abbreviation = "nc"
 registration_type = "online"
+translationKey = "North Carolina"
 hp_link = "https://www.ncsbe.gov/voting"
 hp_link_translated = "true"
 hp_link_language_selection = ""

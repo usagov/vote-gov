@@ -3,6 +3,7 @@
 state_name = "New Mexico"
 state_abbreviation = "nm"
 registration_type = "online"
+translationKey = "New Mexico"
 hp_link = "https://www.sos.state.nm.us/voting-and-elections/"
 hp_link_translated = "true"
 hp_link_language_selection = ""
