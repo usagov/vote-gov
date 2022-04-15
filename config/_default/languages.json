@@ -15,7 +15,7 @@
       "english_only": "(ইংরেজীতে)",
       "last_updated": "সর্বশেষ সংষ্করণ",
       "select_language": "ভাষা নির্বাচন করুন",
-      "english_languageName": "Bengali"      
+      "english_languageName": "Bengali"
     }
   },
   "en": {
@@ -129,6 +129,25 @@
       "last_updated": "Cập nhật lần cuối:",
       "select_language": "Lựa chọn ngôn ngữ %dropdown-list%",
       "english_languageName": "Vietnamese"
+    }
+  },
+  "tl": {
+    "contentDir": "content/tl",
+    "title": "Pagpaparehistro ng Botante",
+    "languageName": "Tagalog",
+    "params": {
+      "Owner": "%Vote.gov% sa Tagalog",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/tl",
+      "register_path": "register",
+      "go_back": "Bumalik",
+      "skip_text": "Lumaktaw sa pangunahing nilalaman",
+      "meta__title": "Magparehistro para bumoto",
+      "meta__description": "Maghanap ng mga opsyon sa pagpaparehistro ng botante sa iyong estado.",
+      "english_only": "(sa Ingles)",
+      "last_updated": "Huling Na-update:",
+      "select_language": "Pumili ng wika",
+      "english_languageName": ""
     }
   }
 }
