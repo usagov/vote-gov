@@ -1,5 +1,5 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-
+{{ $by_mail_intro := replace $translation.register.by_mail__intro "%link%" (partial "links/by-mail-link.html" .) }}
 <header>
   <h2>
     {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
@@ -15,8 +15,7 @@
       "name": "{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ replace $translation.register.by_mail__intro "%state_name%" .Params.state_name }}{{ $translation.register.by_mail.label }}
-        <a href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}'>{{ replace $translation.register.by_mail__link "%state_name%" .Params.state_name }}.</a>"
+        "text": {{ replace $by_mail_intro "%state_name%" .Params.state_name | safeHTML }}
       }
     },{
         "@type": "Question",
@@ -37,33 +36,17 @@
 </script>
 
 <p>
-  {{ replace $translation.register.by_mail__intro "%state_name%" .Params.state_name }}
-  {{ $translation.register.by_mail.label }}
-  <a class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
-  {{ replace $translation.register.by_mail__link "%state_name%" .Params.state_name -}}
-  {{ if ne .Params.more_info_link_translated "true" }}
-    {{ if .Params.more_info_link_language_selection }}
-      {{ $translation.register.select_link -}}
-    {{ else }}
-      {{ .Site.Params.english_only -}}
-    {{ end }}
-  {{ end }}.
-  </a>
+  {{ replace $by_mail_intro "%state_name%" .Params.state_name | safeHTML }}
 </p>
 
 {{ partial "deadlines.html" . }}
-
 {{ if ne .Params.national_voter_registration_form_accepted "false" }}
 <form class="state-download" method="get" id="register">
   <h2>{{ replace $translation.register.other_language_selection__heading "%state_name%" .Params.state_name }}</h2>
   <p>{{ $translation.register.other_language_selection__label }}</p>
-  <label class="usa-sr-only" for="js-user-selection">
-    {{ $translation.register.other_language_selection__default }}
-  </label>
-
+  <label class="usa-sr-only" for="js-user-selection">{{ replace .Site.Params.select_language "%dropdown-list%" "" }}</label>
 
   <select class="usa-select  max-width-input" name="userselection" id="js-user-selection">
-
     {{ range $key, $form := $.Site.Data.registration_forms }}
     {{ if eq $key $.Site.Language.Lang }}
     <option value="{{ $form.file_path }}">{{ $form.language }}</option>

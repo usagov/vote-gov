@@ -64,10 +64,8 @@
               </header>
               <div class="voter-resources">
                 <h3>
-                  {{ replace $translation.homepage.registered__resources_intro "%USA.gov%" "USA.gov" }}
-                  <a href="{{ $translation.homepage.registered__resources_link_url }}">
-                    {{ $translation.homepage.registered__resources_link_text -}}
-                  </a> {{ replace $translation.homepage.registered__resources_on "%USA.gov%" "USA.gov" }}:
+                  {{ $resources_intro := replace $translation.homepage.registered__resources_intro "%USA.gov%" "USA.gov" }}
+                  {{ replace $resources_intro "%link%" (partial "links/homepage-registration-link.html" .)|safeHTML }}:
                 </h3>
                 <ul class="registered-resources">
                   <li><a

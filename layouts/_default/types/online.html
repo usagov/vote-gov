@@ -1,5 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-
+{{ $online_answer1 := replace $translation.register.online__answer1 "%link%" (partial "links/online-answer1-link.html" .) }}
+{{ $online_answer2 := replace $translation.register.online__answer2 "%link%" (partial "links/online-answer2-link.html" .) }}
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -9,16 +10,14 @@
       "name": "{{ replace $translation.register.online__h2_question1 "%state_name%" .Params.state_name }}",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ replace $translation.register.online__answer1 "%state_name%" .Params.state_name }}
-        <a class='reg-link' href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}'>{{ replace $translation.register.online__answer1_link "%state_name%" .Params.state_name }}.</a>"
+        "text": {{ replace $online_answer1 "%state_name%" .Params.state_name | safeHTML }}
       }
     },{
         "@type": "Question",
         "name": "{{ replace $translation.register.online__h2_question2 "%state_name%" .Params.state_name }}",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "{{ replace $translation.register.online__answer2 "%state_name%" .Params.state_name }}{{ replace $translation.register.online__h2_link "%state_name%" .Params.state_name }}
-          <a class='reg-link' href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}'>{{ replace $translation.register.online__answer2_link "%state_name%" .Params.state_name }}.</a>"
+          "text": {{ replace $online_answer2 "%state_name%" .Params.state_name | safeHTML }}
       }
     },{
         "@type": "Question",
@@ -44,31 +43,9 @@
   </h2>
 </header>
 <p class="reg-link">
-  {{ replace $translation.register.online__answer1 "%state_name%" .Params.state_name }}
-  <a href="{{ .Params.registration_link }}{{ if in .Params.registration_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
-  {{ replace $translation.register.online__answer1_link "%state_name%" .Params.state_name -}}
-  {{ if ne .Params.registration_link_translated "true" }}
-    {{ if .Params.registration_link_language_selection }}
-      {{ $translation.register.select_link -}}
-    {{ else }}
-      {{ .Site.Params.english_only -}}
-    {{ end }}
-  {{ end }}.
-
-  </a>
+  {{ replace $online_answer1 "%state_name%" .Params.state_name | safeHTML }}
 </p>
 <p class="reg-link">
-
-  {{ replace $translation.register.online__answer2 "%state_name%" .Params.state_name }}
-  <a href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
-  {{ replace $translation.register.online__answer2_link "%state_name%" .Params.state_name -}}
-  {{ if ne .Params.more_info_link_translated "true" }}
-    {{ if .Params.more_info_link_language_selection }}
-      {{ $translation.register.select_link -}}
-    {{ else }}
-      {{ .Site.Params.english_only -}}
-    {{ end }}
-  {{ end }}.
-  </a>
+  {{ replace $online_answer2 "%state_name%" .Params.state_name | safeHTML }}
 </p>
 {{ partial "deadlines.html" . }}

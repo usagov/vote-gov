@@ -1,0 +1,2 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+<a href="{{ $translation.homepage.registered__resources_link_url }}">{{ $translation.homepage.registered__resources_link_text }}</a>
