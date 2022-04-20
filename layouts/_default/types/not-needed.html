@@ -1,6 +1,5 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-
-
+{{ $not_needed_intro := replace $translation.register.not_needed__intro "%link%" (partial "links/not-needed-link.html" .) }}
 <header>
   <h2>
     {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
@@ -17,8 +16,7 @@
       "name": "{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ replace $translation.register.not_needed__intro "%state_name%" .Params.state_name }}
-        <a class='reg-link' href='{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}'>{{ replace $translation.register.not_needed__link "%state_name%" .Params.state_name }}.</a>"
+        "text": {{ replace $not_needed_intro "%state_name%" .Params.state_name | safeHTML }}
       }
     },{
         "@type": "Question",
@@ -33,17 +31,7 @@
 
 
 <p>
-  {{ replace $translation.register.not_needed__intro "%state_name%" .Params.state_name }}
-  <a class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
-  {{ replace $translation.register.not_needed__link "%state_name%" .Params.state_name -}}
-  {{ if ne .Params.more_info_link_translated "true" }}
-    {{ if .Params.more_info_link_language_selection }}
-      {{ $translation.register.select_link -}}
-    {{ else }}
-      {{ .Site.Params.english_only -}}
-    {{ end }}
-  {{ end }}.
-  </a>
+  {{ replace $not_needed_intro "%state_name%" .Params.state_name | safeHTML }}
 </p>
 
 {{ partial "deadlines.html" . }}

@@ -68,17 +68,7 @@
         <p class="usa-alert__text">{{ $translation.homepage.alert__alert_after_election }}</p>
         {{ else }}
         <p class="usa-alert__text">
-          {{ $translation.register.alert_state__alert_after_election }}
-          <a href="{{ .Params.hp_link }}{{ if in .Params.hp_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
-            {{ $translation.register.alert_state__alert_msg1 -}}
-          {{ if ne .Params.hp_link_translated "true" }}
-            {{ if .Params.hp_link_language_selection }}
-              {{ $translation.register.select_link -}}
-            {{ else }}
-              {{ .Site.Params.english_only -}}
-            {{ end }}
-          {{ end }}.
-          </a>
+          {{ replace $translation.register.alert_state__alert_after_election "%link%" (partial "links/state-alert-link.html" .)|safeHTML }}
         </p>
         {{ end }}
       </div>

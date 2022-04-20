@@ -1,13 +1,11 @@
 {{ $state := .Params.state_abbreviation | lower }}
 {{ $currentLang := .Site.Language.LanguageName }}
 <div class="translations">
-  <label for="language-switcher1" class="usa-label usa-label--language">{{ .Site.Params.select_language }}</label>
+  <label for="language-switcher1" class="usa-label usa-label--language">{{ replace .Site.Params.select_language "%dropdown-list%" "" }}</label>
   <select class="usa-select usa-select--language" name="language-switcher1" id="language-switcher1" onchange="window.location=this.value;">
     {{ range $.Site.Home.AllTranslations }}
-    <option value="{{ .RelPermalink }}{{ if not ($.IsHome) }}{{ .Site.Params.register_path }}/{{ $state }}{{ end }}"
-      {{ if eq $currentLang .Language.LanguageName }} selected="selected"{{ end }}>
+    <option value="{{ .RelPermalink }}{{ if not ($.IsHome) }}{{ .Site.Params.register_path }}/{{ $state }}{{ end }}"{{ if eq $currentLang .Language.LanguageName }} selected="selected"{{ end }}>
       {{ .Language.LanguageName }} {{ if not (eq .Site.Params.english_languageName "") }}({{ .Site.Params.english_languageName }}){{ end }}
-    </option>
-    {{ end }}
+    </option>{{ end }}
   </select>
 </div>
