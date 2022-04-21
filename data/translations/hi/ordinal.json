@@ -1,0 +1,27 @@
+{
+    "first": {
+        "inflection1": "पहला",
+        "inflection2": "पहले"
+    },
+    "second": {
+        "inflection1": "दूसरा",
+        "inflection2": "दूसरे"
+    },
+    "third": {
+        "inflection1": "तीसरा",
+        "inflection2": "तीसरे"
+    },
+    "fourth": {
+        "inflection1": "चौथा",
+        "inflection2": "चौथे"
+    },
+    "fifth": {
+        "inflection1": "पांचवां",
+        "inflection2": "पांचवें"
+    },
+    "last": {
+        "inflection1": "आखिरी",
+        "inflection2": ""
+    }
+  }
+  
