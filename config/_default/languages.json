@@ -1,4 +1,23 @@
 {
+  "bn": {
+    "contentDir": "content/bn",
+    "title": "ভোটার নিবন্ধন",
+    "languageName": "বাংলা",
+    "params": {
+      "Owner": "বাংলায় %Vote.gov%",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/bn",
+      "register_path": "register",
+      "go_back": "ফিরে যাও",
+      "skip_text": "স্কিপ করে মূল কন্টেন্ট এ যাও",
+      "meta__title": "ভোট দিতে নিবন্ধন করুন",
+      "meta__description": "আপনার রাজ্যে ভোটার নিবন্ধন বিকল্প খুঁজুন।",
+      "english_only": "(ইংরেজীতে)",
+      "last_updated": "সর্বশেষ সংষ্করণ",
+      "select_language": "ভাষা %ড্রপডাউন-তালিকা% নির্বাচন করুন",
+      "english_languageName": "Bengali"      
+    }
+  },
   "en": {
     "contentDir": "content/en",
     "title": "Voter Registration",
