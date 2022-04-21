@@ -63,8 +63,7 @@
   <div class="usa-alert usa-alert--info">
     <div class="grid-container">
       <div class="usa-alert__body">
-
-        {{ if .IsHome }}
+        {{ if ne .Type "register" }}
         <p class="usa-alert__text">{{ $translation.homepage.alert__alert_after_election }}</p>
         {{ else }}
         <p class="usa-alert__text">
