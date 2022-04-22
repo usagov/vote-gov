@@ -1,3 +1,17 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 
-{{ .Lastmod | time.Format ":date_long" }}
+{{ $day := index $translation.day_number (string .Lastmod.Day) }}
+{{ $month := index $translation.months (string (lower .Lastmod.Month)) }}
+{{ $year := index $translation.years (string .Lastmod.Year) }}
+
+{{ $bengali := "bn" }}
+{{ if eq .Site.Language.Lang $bengali }}
+
+  {{ $day }} {{ $month }} {{ $year }}
+
+{{ else }}
+
+  {{ .Lastmod | time.Format ":date_long" }}
+
+{{end}}
+
