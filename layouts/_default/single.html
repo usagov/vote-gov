@@ -12,7 +12,7 @@
         <div class="tablet:grid-col-4">
           <a class="site-logo" href="{{ .Site.Home.RelPermalink }}" aria-label="Vote.gov">
             <div class="logo-text">{{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</div>
-            <img id="SiteLogo" src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg" alt="">
+            <div id="SiteLogo">{{ partial "ballot_box-blue.svg" }}</div>
           </a>
         </div>
         <div id="skip-target" class="tablet:grid-col-8 right-shift">
@@ -39,7 +39,7 @@
               {{ partial "date.html" . }}
             </time>
           </section>
-          
+
           <p class="arrow-text"><a href="{{ .Site.Home.RelPermalink }}" title="Vote.gov"><span class="arrow direction"></span>{{ .Site.Params.go_back }}</a></p>
 
         </div>
