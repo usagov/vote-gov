@@ -36,9 +36,10 @@
                   <option value="default">
                     {{ $translation.homepage.state_selection__default }}
                   </option>
-                  {{ range (where .Site.RegularPages.ByTitle "Section" .Site.Params.register_path ) }}
-                    <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
-                  {{ end }}
+                  {{ $states := where .Site.RegularPages.ByTitle "Section" .Site.Params.register_path }}
+                  {{ range ($states.ByParam "state_name") }}
+                  <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
+                {{ end }}
 
                 </select>
                 <button class="usa-button max-width-input" id="js-user-submit" type="submit">
