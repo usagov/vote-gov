@@ -1,0 +1,16 @@
+{
+  "subscribe_email": "注册以接收来自 %USAGov% 的电子邮件 (英文)",
+  "subscribe_email_link_url": "https://connect.usa.gov/subscribe",
+  "your_email_address": "输入您的电子邮件地址",
+  "sign_up": "报名",
+  "usagov_img": "img/usagov-logo.png",
+  "usagov_link": "https://www.usa.gov/",
+  "usagov_logo_alt_text": "%USA.gov% 徽标",
+  "eac_link": "https://www.eac.gov/",
+  "eac_text": "与合作",
+  "eac_logo_alt_text": "与 %U.S. Election Assistance Commission%合作",
+  "privacy_policy": "隐私政策 (英文)",
+  "privacy_policy_link_url": "https://www.usa.gov/policies",
+  "twitter_link": "https://twitter.com/votegov",
+  "twitter_text": "在 Twitter 上关注 %Vote.gov% (英文)"
+}
