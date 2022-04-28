@@ -1,0 +1,13 @@
++++
+
+state_name = "Mississippi"
+state_abbreviation = "ms"
+registration_type = "by-mail"
+translationKey = "Mississippi"
+hp_link = "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx"
+more_info_link = "https://www.sos.ms.gov/Vote/Pages/default.aspx"
+ip_deadline = "30 ngày trước Ngày Bầu Cử"
+mail_postmarked_deadline = "Phải được đóng dấu bưu điện 30 ngày trước Ngày Bầu Cử"
+confirm_registration_link = "https://www.sos.ms.gov/Vote/Pages/default.aspx"
+
++++
