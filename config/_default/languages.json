@@ -54,5 +54,24 @@
       "select_language": "언어 선택",
       "english_languageName": "Korean"
     }
+  },
+  "zh": {
+    "contentDir": "content/zh",
+    "title": "选民登记",
+    "languageName": "中文",
+    "params": {
+      "Owner": "%Vote.gov% 中文",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/zh",
+      "register_path": "登记投票",
+      "go_back": "回去",
+      "skip_text": "跳到主要内容",
+      "meta__title": "登记投票",
+      "meta__description": "选择语言 %dropdown-list%",
+      "english_only": "(英语)",
+      "last_updated": "最近更新时间：",
+      "select_language": "选择语言 %dropdown-list%",
+      "english_languageName": "Chinese"      
+    }
   }
 }
