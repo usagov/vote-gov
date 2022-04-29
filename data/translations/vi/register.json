@@ -21,7 +21,7 @@
   "online__h2_question1": "Đăng ký bỏ phiếu bầu như thế nào ở %state_name%",
   "alert_state__alert_msg": "Do COVID-19, có thể có những thay đổi về thời gian, địa điểm và cách bạn đi bầu trong những cuộc bầu cử sắp tới. Vui lòng kiểm tra %link% để biết thêm thông tin",
   "alert_state__alert_msg1": "trên trang mạng bầu cử ở tiều bang của bạn",
-  "alert_state__alert_after_election": "Để biết kết quả bầu cử chính thức, xin vui lòng vào (trang web cầu cử của tiểu bang bạn)",
+  "alert_state__alert_after_election": "Để biết kết quả bầu cử chính thức, xin vui lòng vào %link%",
   "dates__bymail_deadline": "Thời hạn đăng ký qua đường bưu điện: ",
   "dates__byonline_deadline": "Thời hạn đăng ký trực tuyến: ",
   "dates__electionday": "Ngày bầu cử chung toàn quốc: Thứ Ba, ngày 3 tháng 11, 2020",
