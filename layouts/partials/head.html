@@ -1,7 +1,7 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 
 <!doctype html>
-<html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Params.language_direction }}">
+<html lang="{{ .Site.Language.Lang | replaceRE "-[a-z]+" "" }}" dir="{{ .Site.Params.language_direction }}">
 <head>
 
 <!-- Google Tag Manager -->
