@@ -21,7 +21,7 @@
   "online__h2_question1": "របៀបចុះឈ្មោះបោះឆ្នោតនៅរដ្ឋ %state_name%",
   "alert_state__alert_msg": "ជាមួយ %link% សម្រាប់ព័ត៌មានបន្ថែម។",
   "alert_state__alert_msg1": "គេហទំព័របោះឆ្នោតរដ្ឋរបស់អ្នក",
-  "alert_state__alert_after_election": "សម្រាប់លទ្ធផលបោះឆ្នោតផ្លូវការ ចូលទៅកាន់ (គេហទំព័របោះឆ្នោតរដ្ឋរបស់អ្នក)",
+  "alert_state__alert_after_election": "សម្រាប់លទ្ធផលបោះឆ្នោតផ្លូវការ ចូលទៅកាន់ %link%",
   "dates__bymail_deadline": "ថ្ងៃផុតកំណត់ចុះឈ្មោះតាមសំបុត្រ៖",
   "dates__byonline_deadline": "ថ្ងៃផុតកំណត់ការចុះឈ្មោះអនឡាញ៖",
   "dates__electionday": "ថ្ងៃបោះឆ្នោតសកល៖ ថ្ងៃទី 3 ខែវិច្ឆិកា ឆ្នាំ 2020។",
