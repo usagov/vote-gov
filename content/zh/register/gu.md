@@ -1,0 +1,14 @@
++++
+
+state_name = "Guam"
+state_abbreviation = "gu"
+registration_type = "online"
+translationKey = "Guam"
+hp_link = "https://gec.guam.gov/"
+registration_link = "https://gec.guam.gov/register/"
+more_info_link = "https://gec.guam.gov/"
+online_deadline = "選舉日前 10 天"
+mail_received_deadline = "必須在選舉日前 10 天前收到"
+ip_deadline = "選舉日前 10 天"
+
++++
