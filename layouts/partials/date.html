@@ -8,7 +8,7 @@
 {{ if eq .Site.Language.Lang "bn" }}
   {{ $day }} {{ $month }} {{ $year }}
 {{ else if eq .Site.Language.Lang "zh-hans" }}
-  {{ $year }}年{{ $month }}月{{ $day }}日
+  {{ $year }} {{ $month }} {{ $day }}
 {{ else }}
   {{ .Lastmod | time.Format ":date_long" }}
 {{end}}
