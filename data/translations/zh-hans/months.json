@@ -1,14 +1,14 @@
 {
-  "january": "一月",
-  "february": "二月",
-  "march": "行进",
-  "april": "四月",
-  "may": "可能",
-  "june": "六月",
-  "july": "七月",
-  "august": "八月",
-  "september": "九月",
-  "october": "十月",
-  "november": "十一月",
-  "december": "十二月"
+  "january": "1",
+  "february": "2",
+  "march": "3",
+  "april": "4",
+  "may": "5",
+  "june": "6",
+  "july": "7",
+  "august": "8",
+  "september": "9",
+  "october": "10",
+  "november": "11",
+  "december": "12"
 }
