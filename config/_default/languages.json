@@ -165,7 +165,7 @@
       "meta__description": "",
       "english_only": "(英语)",
       "last_updated": "最近更新时间：",
-      "select_language": "选择语言 %dropdown-list%",
+      "select_language": "选择语言",
       "english_languageName": "Simplified Chinese"
     }
   }
