@@ -30,16 +30,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <title>{{ .Site.Title }} | {{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</title>
   <meta name="description" content="{{ .Site.Params.meta__description }}"/>
   <meta property="og:title" content="{{ .Site.Params.meta__title }}"/>
+  <meta property="twitter:title" content="{{ .Site.Params.meta__title }}"/>
+
   <meta property="og:description" content="{{ .Site.Params.meta__description }}"/>
+  <meta property="twitter:description" content="{{ .Site.Params.meta__description }}"/>
+  
   {{ else }}
 <!--  NODE -->
   <title>{{ replace $translation.register.state_heading "%state_name%" .Params.state_name }} | {{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</title>
   <meta name="description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
   <meta property="og:title" content="{{ replace $translation.register.state_heading "%state_name%" .Params.state_name }}" />
+  <meta property="twitter:title" content="{{ replace $translation.register.state_heading "%state_name%" .Params.state_name }}" />
+
   <meta property="og:description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
+  <meta property="twitter:description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
   {{ end }}
+  <meta property="og:type" content="website"/>
   <meta property="og:url" content="{{ .Permalink }}"/>
   <meta property="og:image" content="{{ .Site.BaseURL }}/assets/img/ballot-box-OG.png"/>
+  <meta property="twitter:image" content="{{ .Site.BaseURL }}/assets/img/ballot-box-OG.png"/>
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@votegov">
   <meta name="twitter:widgets:autoload" content="off">
   <meta name="twitter:dnt" content="on">
   <meta name="twitter:widgets:csp" content="on">
