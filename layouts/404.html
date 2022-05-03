@@ -1,6 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-
 {{ partial "head.html" . }}
+
   <body class="page-register-single">
     {{ partial "header.html" . }}
 
@@ -9,15 +9,15 @@
         <div class="grid-container">
           <div class="grid-row grid-gap">
             <div class="tablet:grid-col-4">
-              <a class="site-logo" href="{{ .Site.BaseURL }}" accesskey="1" title="Home" aria-label="Home">
-                <div class="logo-text">Vote.gov</div>
+              <a class="site-logo" href="{{ .Site.Home.RelPermalink }}" accesskey="1" title="Home" aria-label="Home">
+                <div class="logo-text">{{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</div>
                 <img id="SiteLogo" src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg" alt="Web design standards">
               </a>
             </div>
             <div class="tablet:grid-col-8 right-shift">
               <header class="align-bottom">
                 <h1 class="main-heading">
-                  Oops! 404 error
+                  {{ $translation.error.main_heading }}
                 </h1>
               </header>
             </div>
@@ -27,39 +27,20 @@
 
     <div class="page-vote-404" id="main" role="main">
 
-      <a class="usa-skipnav" href="#main-content">Skip main navigation</a>
-
       <div class="bg-lightblue">
       <section class="grid-container page-inner" id="main-content">
-        <div class="grid-row">
-          <div class="tablet:grid-col-6">
-            <div lang="en">
-            <span class="usa-label">English</span>
+        <div class="grid-row grid-gap">
+          <div class="tablet:grid-col-4"></div>
+          <div class="tablet:grid-col-8">
 
-            <h2 class="usa-intro">Page Not Found</h2>
+            <h2 class="usa-intro">{{ $translation.error.error_intro }}</h2>
 
-            <p>We can't find the page you're looking for. It might have been removed, had its name changed, or is temporarily unavailable.</p>
-
-            <ul>
-              <li>If you typed the page URL, check the spelling.</li>
-              <li>Go to our <a href="/">main page</a> and try again.</li>
-              <li>Visit your <a href="https://www.usa.gov/election-office">state’s election office website</a> for state-wide voting guidance.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="tablet:grid-col-6">
-          <div lang="es">
-            <span class="usa-label">Español</span>
-
-            <h2 class="usa-intro">No se encontró la página</h2>
-
-            <p>Esto se puede deber a que esa página ya no exista, haya cambiado de nombre o no esté disponible en estos momentos.</p>
+            <p>{{ $translation.error.error_msg }}</p>
 
             <ul>
-              <li>Si entró el URL de la página manualmente, fíjese si es el correcto o si hubo algún error al ingresarlo.</li>
-              <li>Vaya a nuestra <a href="/es/">página de inicio</a> e intente otra vez.</li>
-              <li>Visite la <a href="https://www.usa.gov/election-office">oficina electoral de su estado o territorio (en inglés)</a> para obtener más información.</li>
+              <li>{{ $translation.error.error_msg_step1 }}</li>
+              <li>{{ $translation.error.error_msg_step2_part1 }}<a href="{{ .Site.Home.RelPermalink }}">{{ $translation.error.error_msg_step2_part2 }}</a>{{ $translation.error.error_msg_step2_part3 }}</li>
+              <li>{{ $translation.error.error_msg_step3_part1 }}<a href="https://www.usa.gov/election-office">{{ $translation.error.error_msg_step3_part2 }}</a>{{ $translation.error.error_msg_step3_part3 }}</li>
             </ul>
           </div>
         </div>
