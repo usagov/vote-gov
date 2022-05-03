@@ -9,7 +9,7 @@ registration_link = "https://mvic.sos.state.mi.us/registervoter"
 more_info_link = "https://mvic.sos.state.mi.us/"
 ip_deadline = "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ"
 online_deadline = "নির্বাচনের ১৫ দিন আগে"
-mail_postmarked_deadline = "নির্বাচনের দিন ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক"
+mail_postmarked_deadline = "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক"
 confirm_registration_link = "https://mvic.sos.state.mi.us/"
 
 +++

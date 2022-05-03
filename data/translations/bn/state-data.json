@@ -1,26 +1,26 @@
 {
-    "hp_link": "https://www.sos.alabama.gov/alabama-votes",
     "al": {
+        "hp_link": "https://www.sos.alabama.gov/alabama-votes",
         "registration_link": "https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action",
         "more_info_link": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
         "ip_deadline": "নির্বাচনের ১৫ দিন আগে",
         "online_deadline": "নির্বাচনের ১৫ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "mail_postmarked_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do"
     },
     "ak": {
         "hp_link": "https://www.elections.alaska.gov/",
         "registration_link": "https://voterregistration.alaska.gov/",
         "more_info_link": "https://www.elections.alaska.gov/Core/voterregistration.php",
-        "ip_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
-        "online_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://myvoterinformation.alaska.gov/"
     },
     "as": {
         "hp_link": "https://aselectionoffice.gov/",
         "more_info_link": "https://aselectionoffice.gov/",
-        "ip_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
+        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "confirm_registration_link": "https://aselectionoffice.gov/status.php"
     },
     "az": {
@@ -35,8 +35,8 @@
     "ar": {
         "hp_link": "https://www.sos.arkansas.gov/elections/",
         "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
-        "ip_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://www.voterview.ar-nova.org/voterview"
     },
     "ca": {
@@ -45,7 +45,7 @@
         "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote",
         "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "online_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "mail_postmarked_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://registertovote.ca.gov/"
     },
     "co": {
@@ -115,8 +115,8 @@
         "registration_link": "https://olvr.hawaii.gov/",
         "more_info_link": "https://elections.hawaii.gov/voters/registration/",
         "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "online_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
-        "mail_received_deadline": "নির্বাচনের দিন ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "mail_received_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://olvr.hawaii.gov/"
     },
     "id": {
@@ -152,7 +152,7 @@
         "more_info_link": "https://sos.iowa.gov/elections/voterinformation/voterregistration.html",
         "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "online_deadline": "নির্বাচনের ১৫ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "mail_postmarked_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx"
     },
     "ks": {
@@ -177,9 +177,9 @@
         "hp_link": "https://www.sos.la.gov/ElectionsAndVoting/Pages/default.aspx",
         "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
         "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
-        "ip_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
+        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "online_deadline": "নির্বাচনের দিন 2০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://voterportal.sos.la.gov/"
     },
     "me": {
@@ -213,7 +213,7 @@
         "more_info_link": "https://mvic.sos.state.mi.us/",
         "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "online_deadline": "নির্বাচনের ১৫ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "mail_postmarked_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://mvic.sos.state.mi.us/"
     },
     "mn": {
@@ -228,8 +228,8 @@
     "ms": {
         "hp_link": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
         "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
-        "ip_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
     },
     "mo": {
@@ -245,7 +245,7 @@
         "hp_link": "https://sosmt.gov/elections/",
         "more_info_link": "https://sosmt.gov/elections/vote/",
         "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://sosmt.gov/elections/vote/"
     },
     "ne": {
@@ -323,9 +323,9 @@
         "hp_link": "https://www.sos.state.oh.us/elections/",
         "registration_link": "https://olvr.ohiosos.gov/",
         "more_info_link": "https://ohio.gov/wps/portal/gov/site/government/resources/register-to-vote-or-update-your-registration",
-        "ip_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
-        "online_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://voterlookup.ohiosos.gov/voterlookup.aspx"
     },
     "ok": {
@@ -350,7 +350,7 @@
         "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote",
         "ip_deadline": "নির্বাচনের ১৫ দিন আগে",
         "online_deadline": "নির্বাচনের ১৫ দিন আগে",
-        "mail_received_deadline": "নির্বাচনের দিন ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "mail_received_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
     },
     "pr": {
@@ -363,41 +363,41 @@
         "hp_link": "https://elections.ri.gov/",
         "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
         "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
-        "ip_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
-        "online_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0"
     },
     "sc": {
         "hp_link": "https://www.scvotes.gov/",
         "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
         "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
-        "ip_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
-        "online_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
     },
     "sd": {
         "hp_link": "https://sdsos.gov/elections-voting/",
         "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
         "ip_deadline": "নির্বাচনের ১৫ দিন আগে",
-        "mail_received_deadline": "নির্বাচনের দিন ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "mail_received_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://vip.sdsos.gov/VIPLogin.aspx"
     },
     "tn": {
         "hp_link": "https://sos.tn.gov/elections",
         "registration_link": "https://ovr.govote.tn.gov/",
         "more_info_link": "https://sos.tn.gov/products/elections/register-vote",
-        "ip_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
-        "online_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://tnmap.tn.gov/voterlookup/"
     },
     "tx": {
         "hp_link": "https://www.votetexas.gov/index.html",
         "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html",
-        "ip_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
     },
     "ut": {
@@ -430,7 +430,7 @@
     "vi": {
         "hp_link": "https://www.vivote.gov/voters/register-vote",
         "more_info_link": "https://www.vivote.gov/voters/register-vote",
-        "ip_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
+        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "confirm_registration_link": "https://www.vivote.gov/voters/lookup"
     },
     "wa": {
@@ -439,7 +439,7 @@
         "more_info_link": "https://www.sos.wa.gov/elections/voters/",
         "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "online_deadline": "নির্বাচনের ৮ দিন আগে",
-        "mail_received_deadline": "নির্বাচনের দিন ৮ দিন আগে পেতে হবে",
+        "mail_received_deadline": "নির্বাচনের ৮ দিন আগে পেতে হবে",
         "confirm_registration_link": "https://voter.votewa.gov/WhereToVote.aspx"
     },
     "wv": {
