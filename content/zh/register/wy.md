@@ -9,5 +9,6 @@ hp_link = "https://sos.wyo.gov/elections/state/registeringtovote.aspx"
 more_info_link = "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx"
 ip_deadline = "直到選舉日（包括選舉日）都可以使用"
 mail_received_deadline = "必須在選舉日前 14天前收到"
+confirm_registration_link = "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
 
 +++
