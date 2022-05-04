@@ -10,5 +10,6 @@ more_info_link = "https://gec.guam.gov/"
 online_deadline = "10 araw bago ang Araw ng Eleksyon"
 mail_received_deadline = "Dapat matanggap 10 araw bago ang Araw ng Eleksyon"
 ip_deadline = "10 araw bago ang Araw ng Eleksyon"
+confirm_registration_link = "https://gec.guam.gov/validate/"
 
 +++

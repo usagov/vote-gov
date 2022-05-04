@@ -96,7 +96,7 @@
   "ga": {
     "hp_link": "https://sos.ga.gov/index.php/elections",
     "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
-    "more_info_link": "https://sos.ga.gov/index.php/Elections/register_to_vote",
+    "more_info_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
     "ip_deadline": "Ika-limang Lunes bago ang Araw ng Eleksyon",
     "online_deadline": "Ika-limang Lunes bago ang Araw ng Eleksyon",
     "mail_postmarked_deadline": " Dapat na naka-postmark sa ika-limang Lunes bago ang Araw ng Eleksyon",
@@ -108,7 +108,8 @@
     "more_info_link": "https://gec.guam.gov/",
     "online_deadline": "10 araw bago ang Araw ng Eleksyon",
     "mail_received_deadline": "Dapat matanggap 10 araw bago ang Araw ng Eleksyon",
-    "ip_deadline": "10 araw bago ang Araw ng Eleksyon"
+    "ip_deadline": "10 araw bago ang Araw ng Eleksyon",
+    "confirm_registration_link": "https://gec.guam.gov/validate/"
   },
   "hi": {
     "hp_link": "https://elections.hawaii.gov/",
@@ -226,11 +227,11 @@
     "confirm_registration_link": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
   },
   "ms": {
-    "hp_link": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
-    "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
+    "hp_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
+    "more_info_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
     "ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
+    "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
   },
   "mo": {
     "hp_link": "https://www.sos.mo.gov/elections",
@@ -330,7 +331,7 @@
   },
   "ok": {
     "hp_link": "https://www.ok.gov/elections/",
-    "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html",
+    "more_info_link": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
     "ip_deadline": "25 araw bago ang Araw ng Eleksyon",
     "mail_postmarked_deadline": "Dapat na naka-postmark  25 araw bago ang Araw ng Eleksyon",
     "confirm_registration_link": "https://okvoterportal.okelections.us/"
@@ -464,6 +465,7 @@
     "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
     "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
     "ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
-    "mail_received_deadline": "Dapat matanggap 14 araw bago ang Araw ng Eleksyon"
+    "mail_received_deadline": "Dapat matanggap 14 araw bago ang Araw ng Eleksyon",
+    "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
   }
 }
