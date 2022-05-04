@@ -96,7 +96,7 @@
   "ga": {
     "hp_link": "https://sos.ga.gov/index.php/elections",
     "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
-    "more_info_link": "https://sos.ga.gov/index.php/Elections/register_to_vote",
+    "more_info_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
     "ip_deadline": "ថ្ងៃច័ន្ទទីប្រាំមុនថ្ងៃបោះឆ្នោត",
     "online_deadline": "ថ្ងៃច័ន្ទទីប្រាំមុនថ្ងៃបោះឆ្នោត",
     "mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ត្រឹមថ្ងៃច័ន្ទទីប្រាំមុនថ្ងៃបោះឆ្នោត",
@@ -108,7 +108,8 @@
     "more_info_link": "https://gec.guam.gov/",
     "online_deadline": "1០ ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "mail_received_deadline": "ត្រូវតែបានទទួល 1០ ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
-    "ip_deadline": "1០ ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
+    "ip_deadline": "1០ ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "confirm_registration_link": "https://gec.guam.gov/validate/"
   },
   "hi": {
     "hp_link": "https://elections.hawaii.gov/",
@@ -226,11 +227,11 @@
     "confirm_registration_link": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
   },
   "ms": {
-    "hp_link": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
-    "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
+    "hp_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
+    "more_info_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
     "ip_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
-    "confirm_registration_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
+    "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
   },
   "mo": {
     "hp_link": "https://www.sos.mo.gov/elections",
@@ -330,7 +331,7 @@
   },
   "ok": {
     "hp_link": "https://www.ok.gov/elections/",
-    "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html",
+    "more_info_link": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
     "ip_deadline": "25 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 25 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "confirm_registration_link": "https://okvoterportal.okelections.us/"
@@ -464,6 +465,7 @@
     "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
     "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
     "ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
-    "mail_received_deadline": "ត្រូវតែបានទទួល 14 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
+    "mail_received_deadline": "ត្រូវតែបានទទួល 14 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
   }
 }
