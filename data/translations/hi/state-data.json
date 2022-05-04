@@ -48,7 +48,7 @@
     "mail_postmarked_deadline": "मतदान दिवस से 15 दिन पहले पोस्टमार्क होना चाहिए",
     "confirm_registration_link": "https://registertovote.ca.gov/"
   },
-  "co": {    
+  "co": {
     "hp_link": "https://www.sos.state.co.us/pubs/elections/",
     "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
     "more_info_link": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html",
@@ -82,7 +82,7 @@
     "ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "mail_received_deadline": "मतदान दिवस से 21 दिन पहले पहुँच जाना चाहिए",
     "online_deadline": "मतदान दिवस से 21 दिन पहले ",
-    "confirm_registration_link": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status"      
+    "confirm_registration_link": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status"
   },
   "fl": {
     "hp_link": "https://dos.myflorida.com/elections/",
@@ -96,7 +96,7 @@
   "ga": {
     "hp_link": "https://sos.ga.gov/index.php/elections",
     "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
-    "more_info_link": "https://sos.ga.gov/index.php/Elections/register_to_vote",
+    "more_info_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
     "ip_deadline": "मतदान दिवस से पूर्व पांचवां सोमवार",
     "online_deadline": "मतदान दिवस से पूर्व पांचवां सोमवार",
     "mail_postmarked_deadline": "मतदान दिवस से पूर्व पांचवे सोमवार तक पोस्टमार्क होना चाहिए",
@@ -108,7 +108,8 @@
     "more_info_link": "https://gec.guam.gov/",
     "online_deadline": "मतदान दिवस से 10 दिन पहले ",
     "mail_received_deadline": "मतदान दिवस से 10 दिन पहले पहुँच जाना चाहिए",
-    "ip_deadline": "मतदान दिवस से 10 दिन पहले "
+    "ip_deadline": "मतदान दिवस से 10 दिन पहले ",
+    "confirm_registration_link": "https://gec.guam.gov/validate/"
   },
   "hi": {
     "hp_link": "https://elections.hawaii.gov/",
@@ -180,7 +181,7 @@
     "ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "online_deadline": "मतदान दिवस से 20 दिन पहले ",
     "mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://voterportal.sos.la.gov/"      
+    "confirm_registration_link": "https://voterportal.sos.la.gov/"
   },
   "me": {
     "hp_link": "https://www.maine.gov/sos/cec/elec/",
@@ -226,11 +227,11 @@
     "confirm_registration_link": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
   },
   "ms": {
-    "hp_link": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
-    "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
+    "hp_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
+    "more_info_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
     "ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
+    "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
   },
   "mo": {
     "hp_link": "https://www.sos.mo.gov/elections",
@@ -330,7 +331,7 @@
   },
   "ok": {
     "hp_link": "https://www.ok.gov/elections/",
-    "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html",
+    "more_info_link": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
     "ip_deadline": "मतदान दिवस से 25 दिन पहले",
     "mail_postmarked_deadline": "मतदान दिवस से 25 दिन पहले पोस्टमार्क होना चाहिए",
     "confirm_registration_link": "https://okvoterportal.okelections.us/"
@@ -464,6 +465,7 @@
     "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
     "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
     "ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
-    "mail_received_deadline": "मतदान दिवस से 14 दिन पहले पहुँच जाना चाहिए"      
+    "mail_received_deadline": "मतदान दिवस से 14 दिन पहले पहुँच जाना चाहिए",
+    "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
   }
 }
