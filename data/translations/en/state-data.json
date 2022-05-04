@@ -194,7 +194,7 @@
     "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
     "registration_link_translated": "true",
     "registration_link_language_selection": "",
-    "more_info_link": "https://sos.ga.gov/index.php/Elections/register_to_vote",
+    "more_info_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
     "ip_deadline": "Fifth Monday before Election Day",
@@ -219,7 +219,7 @@
     "online_deadline": "10 days before Election Day",
     "mail_received_deadline": "Must be received 10 days before Election Day",
     "mail_postmarked_deadline": "",
-    "confirm_registration_link": "",
+    "confirm_registration_link": "https://gec.guam.gov/validate/",
     "confirm_registration_link_translated": "true",
     "confirm_registration_link_language_selection": ""
   },
@@ -454,16 +454,16 @@
     "confirm_registration_link_language_selection": ""
   },
   "ms": {
-    "hp_link": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
+    "hp_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
     "hp_link_translated": "true",
     "hp_link_language_selection": "",
-    "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
+    "more_info_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
     "ip_deadline": "30 days before Election Day",
     "mail_received_deadline": "",
     "mail_postmarked_deadline": "Must be postmarked 30 days before Election Day",
-    "confirm_registration_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
+    "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search",
     "confirm_registration_link_translated": "true",
     "confirm_registration_link_language_selection": ""
   },
@@ -662,7 +662,7 @@
     "hp_link": "https://www.ok.gov/elections/",
     "hp_link_translated": "true",
     "hp_link_language_selection": "",
-    "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html",
+    "more_info_link": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
     "ip_deadline": "25 days before Election Day",
@@ -932,7 +932,7 @@
     "ip_deadline": "Available up to and including on Election Day",
     "mail_received_deadline": "Must be received 14 days before Election Day",
     "mail_postmarked_deadline": "",
-    "confirm_registration_link": "",
+    "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf",
     "confirm_registration_link_translated": "true",
     "confirm_registration_link_language_selection": ""
   }

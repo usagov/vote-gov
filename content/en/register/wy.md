@@ -14,7 +14,7 @@ more_info_link_language_selection = ""
 ip_deadline = "Available up to and including on Election Day"
 mail_received_deadline = "Must be received 14 days before Election Day"
 mail_postmarked_deadline = ""
-confirm_registration_link = ""
+confirm_registration_link = "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
 confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""
 
