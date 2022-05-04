@@ -9,5 +9,6 @@ hp_link = "https://sos.wyo.gov/elections/state/registeringtovote.aspx"
 more_info_link = "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx"
 ip_deadline = "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử"
 mail_received_deadline = "Phải được nhận vào 14 ngày trước ngày Bầu Cử"
+confirm_registration_link = "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
 
 +++

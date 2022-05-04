@@ -10,5 +10,6 @@ more_info_link = "https://gec.guam.gov/"
 online_deadline = "10 ngày trước Ngày Bầu Cử"
 mail_received_deadline = "Phải được nhận vào trước 10 ngày trước ngày Bầu Cử"
 ip_deadline = "10 ngày trước Ngày Bầu Cử"
+confirm_registration_link = "https://gec.guam.gov/validate/"
 
 +++
