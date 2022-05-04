@@ -96,7 +96,7 @@
     "ga": {
         "hp_link": "https://sos.ga.gov/index.php/elections",
         "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
-        "more_info_link": "https://sos.ga.gov/index.php/Elections/register_to_vote",
+        "more_info_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
         "ip_deadline": "নির্বাচনের আগে পঞ্চম সোমবার",
         "online_deadline": "নির্বাচনের আগে পঞ্চম সোমবার",
         "mail_postmarked_deadline": "নির্বাচনের দিন আগে পঞ্চম সোমবারের মধ্যে পোস্টমার্ক করা আবশ্যক",
@@ -108,7 +108,8 @@
         "more_info_link": "https://gec.guam.gov/",
         "online_deadline": "নির্বাচনের ১০ দিন আগে",
         "mail_received_deadline": "নির্বাচনের দিন ১০ দিন আগে পেতে হবে",
-        "ip_deadline": "নির্বাচনের ১০ দিন আগে"
+        "ip_deadline": "নির্বাচনের ১০ দিন আগে",
+        "confirm_registration_link": "https://gec.guam.gov/validate/"
     },
     "hi": {
         "hp_link": "https://elections.hawaii.gov/",
@@ -226,11 +227,11 @@
         "confirm_registration_link": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
     },
     "ms": {
-        "hp_link": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
-        "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
+        "hp_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
+        "more_info_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
         "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
-        "confirm_registration_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
+        "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
     },
     "mo": {
         "hp_link": "https://www.sos.mo.gov/elections",
@@ -330,7 +331,7 @@
     },
     "ok": {
         "hp_link": "https://www.ok.gov/elections/",
-        "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html",
+        "more_info_link": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
         "ip_deadline": "নির্বাচনের ২৫ দিন আগে",
         "mail_postmarked_deadline": "নির্বাচনের দিন ২৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "confirm_registration_link": "https://okvoterportal.okelections.us/"
@@ -464,6 +465,7 @@
         "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
         "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
         "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "mail_received_deadline": "নির্বাচনের দিন ১৪ দিন আগে পেতে হবে"
+        "mail_received_deadline": "নির্বাচনের দিন ১৪ দিন আগে পেতে হবে",
+        "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
     }
 }
