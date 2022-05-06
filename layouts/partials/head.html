@@ -1,4 +1,7 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+{{ $langstring := print "/" .Language.Lang "/" }}
+{{ $absoluteURL := replace .Site.BaseURL $langstring "/" }}
+
 
 <!doctype html>
 <html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Params.language_direction }}">
@@ -47,8 +50,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {{ end }}
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="{{ .Permalink }}"/>
-  <meta property="og:image" content="{{ .Site.BaseURL }}/assets/img/ballot-box-OG.png"/>
-  <meta property="twitter:image" content="{{ .Site.BaseURL }}/assets/img/ballot-box-OG.png"/>
+  <meta property="og:image" content="{{ $absoluteURL }}/assets/img/ballot-box-OG.png"/>
+  <meta property="twitter:image" content="{{ $absoluteURL }}/assets/img/ballot-box-OG.png"/>
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@votegov">
