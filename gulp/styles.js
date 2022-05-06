@@ -11,7 +11,7 @@ gulp.task('scss-lint', function (done) {
   if (process.env.NODE_ENV === 'development') {
     var scsslint = require('gulp-scss-lint');
 
-    if (!cFlags.test) {
+    if (process.env.NODE_ENV === 'production') {
       log(colors.cyan('scss-lint'), 'Disabling linting');
       return done();
     }
@@ -33,7 +33,7 @@ gulp.task('styles', gulp.series('scss-lint', function () {
   var scssStream = scss();
   var stream = gulp.src('./assets/styles/main.scss');
 
-  if (cFlags.production) {
+  if (process.env.NODE_ENV === 'production') {
     log(colors.cyan('styles'), 'Compressing styles');
     scssStream = scss({ outputStyle: 'compressed' });
   }
@@ -49,7 +49,7 @@ gulp.task('styles', gulp.series('scss-lint', function () {
         error.messageFormatted
       );
 
-      if (cFlags.production) {
+      if (process.env.NODE_ENV === 'production') {
         process.exit(1);
       }
 
