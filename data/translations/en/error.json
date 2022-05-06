@@ -2,11 +2,9 @@
     "main_heading": "Oops! 404 error",
     "error_intro": "Page Not Found",
     "error_msg": "We can't find the page you're looking for. It might have been removed, had its name changed, or is temporarily unavailable.",
-    "error_msg_step1": "If you typed the page URL, check the spelling.",
-    "error_msg_step2_part1": "Go to our ",
-    "error_msg_step2_part2": "main page",
-    "error_msg_step2_part3": " and try again.",
-    "error_msg_step3_part1": "Visit your ",
-    "error_msg_step3_part2": "state’s election office website",
-    "error_msg_step3_part3": " for state-wide voting guidance."
+    "error_msg1": "If you typed the page URL, check the spelling.",
+    "error_msg2": "Go to our %link% and try again.",
+    "error_msg2_link": "main page",
+    "error_msg3": "Visit your %link% for state-wide voting guidance.",
+    "error_msg3_link": "state’s election office website"
 }

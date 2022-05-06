@@ -1,0 +1,2 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+<a href="{{ .Site.Home.RelPermalink }}">{{ $translation.error.error_msg2_link }}</a>

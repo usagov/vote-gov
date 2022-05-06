@@ -31,16 +31,18 @@
       <section class="grid-container page-inner" id="main-content">
         <div class="grid-row grid-gap">
           <div class="tablet:grid-col-4"></div>
-          <div class="tablet:grid-col-8">
+          <div class="tablet:grid-col-8 right-shift">
 
             <h2 class="usa-intro">{{ $translation.error.error_intro }}</h2>
 
             <p>{{ $translation.error.error_msg }}</p>
 
             <ul>
-              <li>{{ $translation.error.error_msg_step1 }}</li>
-              <li>{{ $translation.error.error_msg_step2_part1 }}<a href="{{ .Site.Home.RelPermalink }}">{{ $translation.error.error_msg_step2_part2 }}</a>{{ $translation.error.error_msg_step2_part3 }}</li>
-              <li>{{ $translation.error.error_msg_step3_part1 }}<a href="https://www.usa.gov/election-office">{{ $translation.error.error_msg_step3_part2 }}</a>{{ $translation.error.error_msg_step3_part3 }}</li>
+              <li>{{ $translation.error.error_msg1 }}</li>
+
+              <li>{{ replace $translation.error.error_msg2 "%link%" (partial "links/error_msg2_link.html" .) }}</li>
+
+              <li>{{ replace $translation.error.error_msg3 "%link%" (partial "links/error_msg3_link.html" .) }}</li>
             </ul>
           </div>
         </div>
@@ -54,7 +56,6 @@
         {{ partial "footer.html" . }}
       </footer>
       <!-- Footer END -->
-
     </div>
 
     {{ partial "analytics.html" . }}
