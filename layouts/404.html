@@ -40,9 +40,9 @@
             <ul>
               <li>{{ $translation.error.error_msg1 }}</li>
 
-              <li>{{ replace $translation.error.error_msg2 "%link%" (partial "links/error_msg2_link.html" .) }}</li>
+              <li>{{ replace $translation.error.error_msg2 "%link%" (partial "links/error_msg2_link.html" .)|safeHTML }}</li>
 
-              <li>{{ replace $translation.error.error_msg3 "%link%" (partial "links/error_msg3_link.html" .) }}</li>
+              <li>{{ replace $translation.error.error_msg3 "%link%" (partial "links/error_msg3_link.html" .)|safeHTML }}</li>
             </ul>
           </div>
         </div>
