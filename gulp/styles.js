@@ -35,28 +35,29 @@ gulp.task('styles', gulp.series('scss-lint', function () {
 
   if (process.env.NODE_ENV === 'production') {
     log(colors.cyan('styles'), 'Compressing styles');
-    scssStream = scss({ outputStyle: 'compressed' });
+    scssStream = scss({outputStyle: 'compressed'});
+
+    stream = stream.pipe(scssStream)
+      .pipe(postcss([autoprefixer()]))
+      .pipe(gulp.dest('./static/assets/styles'));
   }
+  else {
+    stream = stream.pipe(sourcemaps.init())
+      .pipe(scssStream)
+      .pipe(postcss([autoprefixer()]))
+      .on('error', function (error) {
+        log(
+          colors.yellow('styles'),
+          colors.red('error'),
+          '\n',
+          error.messageFormatted
+        );
 
-  stream = stream.pipe(sourcemaps.init())
-    .pipe(scssStream)
-    .pipe(postcss([autoprefixer()]))
-    .on('error', function (error) {
-      log(
-        colors.yellow('styles'),
-        colors.red('error'),
-        '\n',
-        error.messageFormatted
-      );
-
-      if (process.env.NODE_ENV === 'production') {
-        process.exit(1);
-      }
-
-      this.emit('end');
-    })
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest('./static/assets/styles'));
+        this.emit('end');
+      })
+      .pipe(sourcemaps.write())
+      .pipe(gulp.dest('./static/assets/styles'));
+  }
 
   return stream;
 
