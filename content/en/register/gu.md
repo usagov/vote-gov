@@ -17,7 +17,7 @@ ip_deadline = "10 days before Election Day"
 online_deadline = "10 days before Election Day"
 mail_received_deadline = "Must be received 10 days before Election Day"
 mail_postmarked_deadline = ""
-confirm_registration_link = ""
+confirm_registration_link = "https://gec.guam.gov/validate/"
 confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""
 
