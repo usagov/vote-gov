@@ -47,7 +47,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta property="twitter:description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
   {{ end }}
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="{{ .Permalink }}"/>
+  <meta property="og:url" content="https://vote.gov{{ .Permalink }}"/>
   <meta property="og:image" content="https://vote.gov/assets/img/ballot-box-OG.png"/>
   <meta property="twitter:image" content="https://vote.gov/assets/img/ballot-box-OG.png"/>
 
@@ -57,7 +57,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta name="twitter:dnt" content="on">
   <meta name="twitter:widgets:csp" content="on">
   <link rel="me" href="{{ $translation.footer.twitter_link }}">
-  <link rel="canonical" href="{{ .Permalink }}"/>
+  <link rel="canonical" href="https://vote.gov{{ .Permalink }}"/>
 
   <!-- Favicons
   ================================================== -->
