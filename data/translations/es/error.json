@@ -1,0 +1,10 @@
+{
+    "main_heading": "Error 404",
+    "error_intro": "No se encontró la página",
+    "error_msg": "Esto se puede deber a que esa página ya no exista, haya cambiado de nombre o no esté disponible en estos momentos.",
+    "error_msg1": "Si entró el URL de la página manualmente, fíjese si es el correcto o si hubo algún error al ingresarlo.",
+    "error_msg2": "Vaya a nuestra %link% e intente otra vez.",
+    "error_msg2_link": "página de inicio",
+    "error_msg3": "Visite la %link% para obtener más información.",
+    "error_msg3_link": "oficina electoral de su estado o territorio (en inglés)"
+}
