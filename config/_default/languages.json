@@ -73,5 +73,24 @@
       "select_language": "언어 선택",
       "english_languageName": "Korean"
     }
+  },
+  "km": {
+    "contentDir": "content/km",
+    "title": "ការចុះឈ្មោះអ្នកបោះឆ្នោត",
+    "languageName": "ភាសាខ្មែរ",
+    "params": {
+      "Owner": "%Vote.gov% ជាភាសាខ្មែរ",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/km",
+      "register_path": "register",
+      "go_back": "ត្រឡប់ក្រោយ",
+      "skip_text": "រំលងចូលទៅមាតិកាសំខាន់",
+      "meta__title": "ចុះឈ្មោះដើម្បីបោះឆ្នោត",
+      "meta__description": "ស្វែងរកជម្រើសការចុះឈ្មោះអ្នកបោះឆ្នោតនៅក្នុងរដ្ឋរបស់អ្នក។",
+      "english_only": "(ជាភាសាអង់គ្លេស)",
+      "last_updated": "បានធ្វើបច្ចុប្បន្នភាពលើកចុងក្រោយ៖",
+      "select_language": "ជ្រើសរើសភាសា %dropdown-list%",
+      "english_languageName": "Khmer"
+    }
   }
 }
