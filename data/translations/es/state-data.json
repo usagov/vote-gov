@@ -127,7 +127,7 @@
   "ga": {
     "hp_link": "https://sos.ga.gov/index.php/elections",
     "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
-    "more_info_link": "https://sos.ga.gov/index.php/Elections/register_to_vote",
+    "more_info_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
     "ip_deadline": "hasta el quinto lunes antes del día de las elecciones",
     "online_deadline": "hasta el quinto lunes antes del día de las elecciones",
     "mail_received_deadline": "",
@@ -142,8 +142,7 @@
     "online_deadline": "hasta 10 días antes del día de las elecciones",
     "mail_received_deadline": "a más tardar debe ser recibida 10 días antes del día de las elecciones",
     "mail_postmarked_deadline": "",
-    "confirm_registration_link": "",
-    "confirm_registration_link_translated": "true"
+    "confirm_registration_link": "https://gec.guam.gov/validate/"
   },
   "hi": {
     "hp_link": "https://elections.hawaii.gov/",
@@ -283,12 +282,12 @@
     "confirm_registration_link_translated": "true"
   },
   "ms": {
-    "hp_link": "https://www.sos.ms.gov/Elections-Voting/Pages/default.aspx",
-    "more_info_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx",
+    "hp_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
+    "more_info_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
     "ip_deadline": "hasta 30 días antes del día de las elecciones",
     "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
-    "confirm_registration_link": "https://www.sos.ms.gov/Vote/Pages/default.aspx"
+    "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
   },
   "mo": {
     "hp_link": "https://www.sos.mo.gov/elections",
@@ -405,7 +404,7 @@
   },
   "ok": {
     "hp_link": "https://www.ok.gov/elections/",
-    "more_info_link": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/index.html",
+    "more_info_link": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
     "ip_deadline": "hasta 25 días antes del día de las elecciones",
     "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo 25 días antes del día de las elecciones",
@@ -577,7 +576,7 @@
     "ip_deadline": "hasta el mismo día de las elecciones",
     "mail_received_deadline": "a más tardar debe ser recibida 14 días antes del día de las elecciones",
     "mail_postmarked_deadline": "",
-    "confirm_registration_link": "",
+    "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf",
     "confirm_registration_link_translated": "true"
   }
 }

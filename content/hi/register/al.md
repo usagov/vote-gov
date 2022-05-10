@@ -1,0 +1,15 @@
++++
+
+state_name = "Alabama"
+state_abbreviation = "al"
+registration_type = "online"
+translationKey = "Alabama"
+hp_link = "https://www.sos.alabama.gov/alabama-votes"
+registration_link = "https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action"
+more_info_link = "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote"
+ip_deadline = "मतदान दिवस से 15 दिन पहले "
+online_deadline = "मतदान दिवस से 15 दिन पहले "
+mail_postmarked_deadline = "मतदान दिवस से 15 दिन पहले पोस्टमार्क होना चाहिए"
+confirm_registration_link = "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do"
+
++++

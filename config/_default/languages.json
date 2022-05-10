@@ -1,7 +1,7 @@
 {
   "en": {
     "contentDir": "content/en",
-    "title": "Voter Registration",
+    "title": "Check Voter Registration Deadlines and Laws in Your State",
     "languageName": "English",
     "params": {
       "Owner": "%Vote.gov%",
@@ -9,8 +9,8 @@
       "register_path": "register",
       "go_back": "Go back",
       "skip_text": "Skip to main content",
-      "meta__title": "Register to vote",
-      "meta__description": "Find voter registration options in your state.",
+      "meta__title": "Check Voter Registration Deadlines and Laws in Your State",
+      "meta__description": "Official voter registration website of the US federal government. Register to vote. Learn the voting registration deadlines and laws in your state.",
       "english_only": "",
       "last_updated": "Last Updated: ",
       "select_language": "Select Language",
@@ -36,6 +36,25 @@
       "english_languageName": "Spanish"
     }
   },
+  "hi": {
+    "contentDir": "content/hi",
+    "title": "मतदाता पंजीकरण ",
+    "languageName": "हिन्दी ",
+    "params": {
+      "Owner": "%Vote.gov% हिन्दी में",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/hi",
+      "register_path": "register",
+      "go_back": "वापस जाएं",
+      "skip_text": "सीधे मुख्य विषयवस्तु (मेन कॉन्टेंट) पर जाएं",
+      "meta__title": "मतदान करने के लिए पंजीकरण करें",
+      "meta__description": "अपने राज्य में मतदाता पंजीकरण करने के तरीके देखें।  ",
+      "english_only": "(अंग्रेज़ी में)",
+      "last_updated": "नवीनतम अपडेट:",
+      "select_language": "भाषा चुनें",
+      "english_languageName": "Hindi"
+    }
+  },
   "ko": {
     "contentDir": "content/ko",
     "title": "유권자 등록 ",
@@ -53,6 +72,25 @@
       "last_updated": "마지막 업데이트일자:",
       "select_language": "언어 선택",
       "english_languageName": "Korean"
+    }
+  },
+  "km": {
+    "contentDir": "content/km",
+    "title": "ការចុះឈ្មោះអ្នកបោះឆ្នោត",
+    "languageName": "ភាសាខ្មែរ",
+    "params": {
+      "Owner": "%Vote.gov% ជាភាសាខ្មែរ",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/km",
+      "register_path": "register",
+      "go_back": "ត្រឡប់ក្រោយ",
+      "skip_text": "រំលងចូលទៅមាតិកាសំខាន់",
+      "meta__title": "ចុះឈ្មោះដើម្បីបោះឆ្នោត",
+      "meta__description": "ស្វែងរកជម្រើសការចុះឈ្មោះអ្នកបោះឆ្នោតនៅក្នុងរដ្ឋរបស់អ្នក។",
+      "english_only": "(ជាភាសាអង់គ្លេស)",
+      "last_updated": "បានធ្វើបច្ចុប្បន្នភាពលើកចុងក្រោយ៖",
+      "select_language": "ជ្រើសរើសភាសា %dropdown-list%",
+      "english_languageName": "Khmer"
     }
   }
 }
