@@ -36,6 +36,25 @@
       "english_languageName": "Spanish"
     }
   },
+  "hi": {
+    "contentDir": "content/hi",
+    "title": "मतदाता पंजीकरण ",
+    "languageName": "हिन्दी ",
+    "params": {
+      "Owner": "%Vote.gov% हिन्दी में",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/hi",
+      "register_path": "register",
+      "go_back": "वापस जाएं",
+      "skip_text": "सीधे मुख्य विषयवस्तु (मेन कॉन्टेंट) पर जाएं",
+      "meta__title": "मतदान करने के लिए पंजीकरण करें",
+      "meta__description": "अपने राज्य में मतदाता पंजीकरण करने के तरीके देखें।  ",
+      "english_only": "(अंग्रेज़ी में)",
+      "last_updated": "नवीनतम अपडेट:",
+      "select_language": "भाषा चुनें",
+      "english_languageName": "Hindi"
+    }
+  },
   "ko": {
     "contentDir": "content/ko",
     "title": "유권자 등록 ",
