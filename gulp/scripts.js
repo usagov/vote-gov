@@ -11,7 +11,7 @@ var cFlags = global.cFlags;
 
 gulp.task('eslint', function (done) {
 
-  if (!cFlags.test) {
+  if (process.env.NODE_ENV === 'production') {
     log(colors.cyan('eslint'), 'Disabling linting');
     return done();
   }
@@ -37,7 +37,7 @@ gulp.task('scripts',  gulp.series ('eslint' , function () {
   bundle = bundle.pipe(source('start.js'))
     .pipe(buffer());
 
-  if (cFlags.production) {
+  if (process.env.NODE_ENV === 'production') {
     log(colors.cyan('scripts'), 'Compressing scripts');
     bundle = bundle.pipe(uglify());
   }

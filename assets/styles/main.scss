@@ -2,7 +2,21 @@
 
 @use 'sass:math';
 $theme-show-notifications: false;
-@import '../../node_modules/uswds/dist/scss/uswds';
+@import "../../node_modules/uswds/dist/scss/packages/required";
+@import "../../node_modules/uswds/dist/scss/packages/global";
+
+// Components ------------ //
+
+@import '../../node_modules/uswds/dist/scss/packages/usa-header';
+@import '../../node_modules/uswds/dist/scss/packages/usa-accordion';
+@import '../../node_modules/uswds/dist/scss/packages/usa-collection';
+@import '../../node_modules/uswds/dist/scss/packages/usa-footer';
+@import '../../node_modules/uswds/dist/scss/packages/form-controls';
+@import '../../node_modules/uswds/dist/scss/packages/usa-button';
+@import '../../node_modules/uswds/dist/scss/packages/usa-alert';
+@import '../../node_modules/uswds/dist/scss/packages/usa-banner';
+@import '../../node_modules/uswds/dist/scss/packages/usa-skipnav';
+
 @import './component/404.scss';
 @import './component/usa-banner.scss';
 @import 'component/language-switcher';
@@ -215,20 +229,17 @@ label.max-width-input {
   }
 }
 .usa-alert--info .usa-alert__body {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  padding: 0 2.5rem;
 }
 
 .usa-alert--warning .usa-alert__body {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  padding: 0 2.5rem;
   line-height: initial;
 }
 
 .usa-alert__text:only-child {
   margin-bottom: 0.5rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.25rem;
+  padding: 0.75rem 0 0.25rem;
 }
 
 [dir="rtl"] .usa-banner__header-flag {
@@ -261,8 +272,7 @@ $logo-width: 130px;
 
   @include at-media('mobile') {
     img {
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding: 10px 0 10px;
     }
   }
 
@@ -283,8 +293,7 @@ $logo-width: 130px;
     }
 
     .logo-text {
-      margin-bottom: 140px;
-      margin-top: 40px;
+      margin: 40px 0 140px;
     }
   }
 }
@@ -300,8 +309,7 @@ $logo-width: 130px;
     }
 
     .logo-text {
-      margin-top: 20px;
-      margin-bottom: 15px;
+      margin: 20px 0 15px;
     }
 
     @include at-media('tablet') {
@@ -313,8 +321,7 @@ $logo-width: 130px;
       }
 
       .logo-text {
-        margin-bottom: 200px;
-        margin-top: 120px;
+        margin: 120px 0 200px;
       }
     }
   }
@@ -335,8 +342,7 @@ $logo-width: 130px;
 
 .registered {
   color: $color-blue-dark;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin: 60px 0 60px;
 
   h2 {
     font-size: 2em;
@@ -411,12 +417,10 @@ $logo-width: 130px;
 .eac-logo-img {
   vertical-align: middle;
   max-width: 150px;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0 1rem;
 
   @include at-media('tablet') {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding: 2.5rem 0 2.5rem;
   }
 }
 
@@ -434,8 +438,7 @@ $logo-width: 130px;
 }
 
 .footer-logos {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem 0 2rem;
 }
 
 .policy {

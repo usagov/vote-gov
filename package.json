@@ -17,7 +17,7 @@
     "gulp": "gulp",
     "hugo": "hugo",
     "dev": "gulp dev",
-    "federalist": "npm run build",
+    "federalist": "export NODE_ENV=production && npm run build",
     "build": "gulp buildWebsite",
     "start": "gulp website",
     "test": "gulp test",
