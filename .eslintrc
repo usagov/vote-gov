@@ -1,11 +1,22 @@
 {
     "rules": {
     "for-direction": "off",
-    "getter-return": "off"
+    "getter-return": "off",
+    "quotes": [ "error", "single" ]
   },
     "env": {
         "node": true,
         "browser": true
     },
-    "extends": "eslint:recommended"
+
+    "extends": "eslint:recommended",
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "sourceType": "module"
+    }
+
 }
+
+
+
+
