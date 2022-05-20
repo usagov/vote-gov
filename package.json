@@ -21,7 +21,9 @@
     "build": "gulp buildWebsite",
     "start": "gulp website",
     "test": "gulp test",
-    "deploy": "gulp deploy"
+    "deploy": "gulp deploy",
+    "cy:open": "cypress open",
+    "cy:test": "cypress run --spec 'cypress/integration/tests/**/*'"
   },
   "repository": {
     "type": "git",
