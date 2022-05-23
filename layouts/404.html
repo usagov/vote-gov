@@ -17,7 +17,7 @@
             <div class="tablet:grid-col-8 right-shift">
               <header class="align-bottom">
                 <h1 class="main-heading">
-                  {{ $translation.error.main_heading }}
+                  {{ i18n "error_main_heading" }}
                 </h1>
               </header>
             </div>
@@ -33,16 +33,16 @@
           <div class="tablet:grid-col-4"></div>
           <div class="tablet:grid-col-8 right-shift">
 
-            <h2 class="usa-intro">{{ $translation.error.error_intro }}</h2>
+            <h2 class="usa-intro">{{ i18n "error_intro" }}</h2>
 
-            <p>{{ $translation.error.error_msg }}</p>
+            <p>{{ i18n "error_msg" }}</p>
 
             <ul>
-              <li>{{ $translation.error.error_msg1 }}</li>
+              <li>{{ i18n "error_msg1" }}</li>
 
-              <li>{{ replace $translation.error.error_msg2 "%link%" (partial "links/error_msg2_link.html" .)|safeHTML }}</li>
+              <li>{{ replace (i18n "error_msg2") "%link%" (partial "links/error_msg2_link.html" .)|safeHTML }}</li>
 
-              <li>{{ replace $translation.error.error_msg3 "%link%" (partial "links/error_msg3_link.html" .)|safeHTML }}</li>
+              <li>{{ replace (i18n "error_msg3") "%link%" (partial "links/error_msg3_link.html" .)|safeHTML }}</li>
             </ul>
           </div>
         </div>
