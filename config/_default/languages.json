@@ -111,5 +111,24 @@
       "select_language": "ជ្រើសរើសភាសា %dropdown-list%",
       "english_languageName": "Khmer"
     }
+  },
+  "vi": {
+    "contentDir": "content/vi",
+    "title": "Đăng kí bầu cử",
+    "languageName": "Tiếng Việt",
+    "params": {
+      "Owner": "%Vote.gov% bằng Tiếng Việt",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/vi",
+      "register_path": "register",
+      "go_back": "Quay lại",
+      "skip_text": "Bỏ qua để đi thẳng vào nội dung chính",
+      "meta__title": "Đăng kí bỏ phiếu bầu",
+      "meta__description": "Tìm những lựa chọn đăng kí bầu cử trong tiểu bang của bạn",
+      "english_only": "(bằng Tiếng Anh)",
+      "last_updated": "Cập nhật lần cuối:",
+      "select_language": "Lựa chọn ngôn ngữ %dropdown-list%",
+      "english_languageName": "Vietnamese"
+    }
   }
 }
