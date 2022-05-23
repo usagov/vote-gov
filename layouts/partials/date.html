@@ -4,6 +4,7 @@
 {{ $month := index $translation.months (string (lower .Lastmod.Month)) }}
 {{ $year := index $translation.years (string .Lastmod.Year) }}
 
+<!-- If the localized version is incorrect make a language specific format -->
 {{ $bengali := "bn" }}
 {{ if eq .Site.Language.Lang $bengali }}
 
