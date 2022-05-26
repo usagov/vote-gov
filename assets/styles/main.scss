@@ -454,6 +454,40 @@ $logo-width: 130px;
   padding: 2rem 0 2rem;
 }
 
-.policy {
-  margin-top: .3rem;
+.footer-links {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  .usa-footer__primary-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: inline-flex;
+  }
+
+  .grid-row {
+    align-items: center;
+
+    @include at-media-max('desktop') {
+      text-align: center;
+      padding-bottom: 2rem;
+
+      > div + div {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+button#touchpoints-form-embed {
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+  border-radius: 0.25rem 0.25rem 0 0;
+
+  @include at-media-max('desktop') {
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 0;
+  }
 }
