@@ -9,7 +9,7 @@ registration_link = "https://voterregistration.alaska.gov/"
 more_info_link = "https://www.elections.alaska.gov/Core/voterregistration.php"
 ip_deadline = "選舉日前 30 天"
 online_deadline = "選舉日前 30 天"
-mail_postmarked_deadline = "必須在選舉日前 30 天蓋上郵戳"
+mail_postmarked_deadline = "選舉當日前 30 天郵戳為憑"
 confirm_registration_link = "https://myvoterinformation.alaska.gov/"
 
 +++

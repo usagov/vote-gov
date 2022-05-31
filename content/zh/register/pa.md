@@ -9,7 +9,7 @@ registration_link = "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationA
 more_info_link = "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote"
 ip_deadline = "選舉日前 15天"
 online_deadline = "選舉日前 15天"
-mail_received_deadline = "必須在選舉日前 15天前收到"
+mail_received_deadline = "必須在選舉日前 15天前寄達"
 confirm_registration_link = "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
 
 +++

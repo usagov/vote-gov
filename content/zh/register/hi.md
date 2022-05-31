@@ -9,7 +9,7 @@ registration_link = "https://olvr.hawaii.gov/"
 more_info_link = "https://elections.hawaii.gov/voters/registration/"
 ip_deadline = "直到選舉日（包括選舉日）都可以使用"
 online_deadline = "選舉日前 30 天"
-mail_received_deadline = "必須在選舉日前 30 天前收到"
+mail_received_deadline = "選舉當日前 30 天前寄達"
 confirm_registration_link = "https://olvr.hawaii.gov/"
 
 +++

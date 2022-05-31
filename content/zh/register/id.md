@@ -9,7 +9,7 @@ registration_link = "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/A
 more_info_link = "https://idahovotes.gov/voting/"
 ip_deadline = "直到選舉日（包括選舉日）都可以使用"
 online_deadline = "選舉日前 25 天"
-mail_postmarked_deadline = "必須在選舉日前 25 天蓋上郵戳"
+mail_postmarked_deadline = "選舉當日前 25 天郵戳為憑"
 confirm_registration_link = "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx"
 
 +++

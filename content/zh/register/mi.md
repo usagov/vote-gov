@@ -9,7 +9,7 @@ registration_link = "https://mvic.sos.state.mi.us/registervoter"
 more_info_link = "https://mvic.sos.state.mi.us/"
 ip_deadline = "直到選舉日（包括選舉日）都可以使用"
 online_deadline = "選舉日前 15天"
-mail_postmarked_deadline = "必須在選舉日前 15天蓋上郵戳"
+mail_postmarked_deadline = "選舉當日前 15天郵戳為憑"
 confirm_registration_link = "https://mvic.sos.state.mi.us/"
 
 +++

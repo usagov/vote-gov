@@ -5,7 +5,7 @@
     "more_info_link": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
     "ip_deadline": "選舉日前 15 天",
     "online_deadline": "選舉日前 15 天",
-    "mail_postmarked_deadline": "必須在選舉日前 15 天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 15 天郵戳為憑",
     "confirm_registration_link": "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do"
   },
   "ak": {
@@ -14,7 +14,7 @@
     "more_info_link": "https://www.elections.alaska.gov/Core/voterregistration.php",
     "ip_deadline": "選舉日前 30 天",
     "online_deadline": "選舉日前 30 天",
-    "mail_postmarked_deadline": "必須在選舉日前 30 天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 30 天郵戳為憑",
     "confirm_registration_link": "https://myvoterinformation.alaska.gov/"
   },
   "as": {
@@ -28,7 +28,7 @@
     "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
     "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information",
     "online_deadline": "選舉日前 29 天",
-    "mail_postmarked_deadline": "必須在選舉日前29 天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前29 天郵戳為憑",
     "ip_deadline": "選舉日前 29 天",
     "confirm_registration_link": "https://my.arizona.vote/WhereToVote.aspx?s=individual"
   },
@@ -36,7 +36,7 @@
     "hp_link": "https://www.sos.arkansas.gov/elections/",
     "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
     "ip_deadline": "選舉日前30 天",
-    "mail_postmarked_deadline": "必須在選舉日前 30 天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 30 天郵戳為憑",
     "confirm_registration_link": "https://www.voterview.ar-nova.org/voterview"
   },
   "ca": {
@@ -45,7 +45,7 @@
     "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote",
     "ip_deadline": "直到選舉日（包括選舉日）都可以使用",
     "online_deadline": "選舉日前 15 天",
-    "mail_postmarked_deadline": "必須在選舉日前 15 天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 15 天郵戳為憑",
     "confirm_registration_link": "https://registertovote.ca.gov/"
   },
   "co": {
@@ -54,7 +54,7 @@
     "more_info_link": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html",
     "ip_deadline": "直到選舉日（包括選舉日）都可以使用",
     "online_deadline": "選舉日前 8 天",
-    "mail_postmarked_deadline": "必須在選舉日前8天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前8天郵戳為憑",
     "confirm_registration_link": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml"
   },
   "ct": {
@@ -63,7 +63,7 @@
     "more_info_link": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet",
     "ip_deadline": "直到選舉日（包括選舉日）都可以使用",
     "online_deadline": "選舉日前7 天",
-    "mail_postmarked_deadline": "必須在選舉日前 7 天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 7 天郵戳為憑",
     "confirm_registration_link": "https://portaldir.ct.gov/sots/LookUp.aspx"
   },
   "de": {
@@ -107,7 +107,7 @@
     "registration_link": "https://gec.guam.gov/register/",
     "more_info_link": "https://gec.guam.gov/",
     "online_deadline": "選舉日前 10 天",
-    "mail_received_deadline": "必須在選舉日前 10 天前收到",
+    "mail_received_deadline": "選舉當日前 10 天前寄達",
     "ip_deadline": "選舉日前 10 天",
     "confirm_registration_link": "https://gec.guam.gov/validate/"
   },
@@ -117,7 +117,7 @@
     "more_info_link": "https://elections.hawaii.gov/voters/registration/",
     "ip_deadline": "直到選舉日（包括選舉日）都可以使用",
     "online_deadline": "選舉日前 30 天",
-    "mail_received_deadline": "必須在選舉日前 30 天前收到",
+    "mail_received_deadline": "選舉當日前 30 天前寄達",
     "confirm_registration_link": "https://olvr.hawaii.gov/"
   },
   "id": {
@@ -126,7 +126,7 @@
     "more_info_link": "https://idahovotes.gov/voting/",
     "ip_deadline": "直到選舉日（包括選舉日）都可以使用",
     "online_deadline": "選舉日前 25 天",
-    "mail_postmarked_deadline": "必須在選舉日前 25 天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 25 天郵戳為憑",
     "confirm_registration_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx"
   },
   "il": {
@@ -135,7 +135,7 @@
     "more_info_link": "https://www.elections.il.gov/Default.aspx",
     "ip_deadline": "直到選舉日（包括選舉日）都可以使用",
     "online_deadline": "選舉日前 16 天",
-    "mail_received_deadline": "必須在選舉日前 28 天前收到",
+    "mail_received_deadline": "必須在選舉日前 28 天前寄達",
     "confirm_registration_link": "https://ova.elections.il.gov/RegistrationLookup.aspx"
   },
   "in": {
@@ -144,7 +144,7 @@
     "more_info_link": "https://www.in.gov/sos/elections/2403.htm",
     "ip_deadline": "選舉日前 29 天",
     "online_deadline": "選舉日前 29 天",
-    "mail_postmarked_deadline": "必須在選舉日前 29 天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 29 天郵戳為憑",
     "confirm_registration_link": "https://indianavoters.in.gov/"
   },
   "ia": {
@@ -153,7 +153,7 @@
     "more_info_link": "https://sos.iowa.gov/elections/voterinformation/voterregistration.html",
     "ip_deadline": "直到選舉日（包括選舉日）都可以使用",
     "online_deadline": "選舉日前 15 天",
-    "mail_postmarked_deadline": "必須在選舉日前 15天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 15天郵戳為憑",
     "confirm_registration_link": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx"
   },
   "ks": {
@@ -162,7 +162,7 @@
     "more_info_link": "https://sos.ks.gov/elections/voter-information.html",
     "ip_deadline": "選舉日前 21 天",
     "online_deadline": "選舉日前 21 天",
-    "mail_postmarked_deadline": "必須在選舉日前 21天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 21天郵戳為憑",
     "confirm_registration_link": "https://myvoteinfo.voteks.org/voterview/"
   },
   "ky": {
@@ -180,7 +180,7 @@
     "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
     "ip_deadline": "選舉日前30 天",
     "online_deadline": "選舉日前 20 天",
-    "mail_postmarked_deadline": "必須在選舉日前 30 天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 30 天郵戳為憑",
     "confirm_registration_link": "https://voterportal.sos.la.gov/"
   },
   "me": {
@@ -196,7 +196,7 @@
     "more_info_link": "https://www.elections.maryland.gov/voter_registration/application.html",
     "ip_deadline": "直到選舉日（包括選舉日）都可以使用",
     "online_deadline": "選舉日前 21 天",
-    "mail_postmarked_deadline": "必須在選舉日前 21 天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 21 天郵戳為憑",
     "confirm_registration_link": "https://voterservices.elections.maryland.gov/VoterSearch"
   },
   "ma": {
@@ -205,7 +205,7 @@
     "more_info_link": "https://www.sec.state.ma.us/ele/eleifv/howreg.htm",
     "ip_deadline": "選舉日前 20 天",
     "online_deadline": "選舉日前 20 天",
-    "mail_postmarked_deadline": "必須在選舉日前 20 天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 20 天郵戳為憑",
     "confirm_registration_link": "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"
   },
   "mi": {
@@ -214,7 +214,7 @@
     "more_info_link": "https://mvic.sos.state.mi.us/",
     "ip_deadline": "直到選舉日（包括選舉日）都可以使用",
     "online_deadline": "選舉日前 15天",
-    "mail_postmarked_deadline": "必須在選舉日前 15天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 15天郵戳為憑",
     "confirm_registration_link": "https://mvic.sos.state.mi.us/"
   },
   "mn": {
@@ -223,14 +223,14 @@
     "more_info_link": "https://www.sos.state.mn.us/elections-voting/register-to-vote/",
     "ip_deadline": "直到選舉日（包括選舉日）都可以使用",
     "online_deadline": "選舉日前 21天",
-    "mail_received_deadline": "必須在選舉日前 21 天前收到",
+    "mail_received_deadline": "必須在選舉日前 21 天前寄達",
     "confirm_registration_link": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
   },
   "ms": {
     "hp_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
     "more_info_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
     "ip_deadline": "選舉日前 30天",
-    "mail_postmarked_deadline": "必須在選舉日前 30 天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 30 天郵戳為憑",
     "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
   },
   "mo": {
@@ -246,7 +246,7 @@
     "hp_link": "https://sosmt.gov/elections/",
     "more_info_link": "https://sosmt.gov/elections/vote/",
     "ip_deadline": "直到選舉日（包括選舉日）都可以使用",
-    "mail_postmarked_deadline": "必須在選舉日前 30 天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 30 天郵戳為憑",
     "confirm_registration_link": "https://sosmt.gov/elections/vote/"
   },
   "ne": {
@@ -288,7 +288,7 @@
     "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information/voter-registration-information/",
     "ip_deadline": "選舉日前 的星期六",
     "online_deadline": "選舉日前 28天",
-    "mail_postmarked_deadline": "必須在選舉日前 28天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 28天郵戳為憑",
     "confirm_registration_link": "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
   },
   "ny": {
@@ -297,7 +297,7 @@
     "more_info_link": "https://www.elections.ny.gov/votingregister.html",
     "ip_deadline": "選舉日前 25天",
     "online_deadline": "選舉日前 25天",
-    "mail_postmarked_deadline": "必須在選舉日前 25天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 25天郵戳為憑",
     "confirm_registration_link": "https://voterlookup.elections.ny.gov/"
   },
   "nc": {
@@ -306,7 +306,7 @@
     "more_info_link": "https://www.ncsbe.gov/registering/how-register",
     "ip_deadline": "提前投票期間可當天登記",
     "online_deadline": "選舉日前 25天",
-    "mail_postmarked_deadline": "必須在選舉日前 25天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 25天郵戳為憑",
     "confirm_registration_link": "https://vt.ncsbe.gov/RegLkup/"
   },
   "nd": {
@@ -326,14 +326,14 @@
     "more_info_link": "https://ohio.gov/wps/portal/gov/site/government/resources/register-to-vote-or-update-your-registration",
     "ip_deadline": "選舉日前 30天",
     "online_deadline": "選舉日前 30天",
-    "mail_postmarked_deadline": "必須在選舉日前 30天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 30天郵戳為憑",
     "confirm_registration_link": "https://voterlookup.ohiosos.gov/voterlookup.aspx"
   },
   "ok": {
     "hp_link": "https://www.ok.gov/elections/",
     "more_info_link": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
     "ip_deadline": "選舉日前 25天",
-    "mail_postmarked_deadline": "必須在選舉日前 25天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 25天郵戳為憑",
     "confirm_registration_link": "https://okvoterportal.okelections.us/"
   },
   "or": {
@@ -342,7 +342,7 @@
     "more_info_link": "https://sos.oregon.gov/voting/Pages/registration.aspx",
     "ip_deadline": "選舉日前 21天",
     "online_deadline": "選舉日前 21天",
-    "mail_postmarked_deadline": "必須在選舉日前 21天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 21天郵戳為憑",
     "confirm_registration_link": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS"
   },
   "pa": {
@@ -351,7 +351,7 @@
     "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote",
     "ip_deadline": "選舉日前 15天",
     "online_deadline": "選舉日前 15天",
-    "mail_received_deadline": "必須在選舉日前 15天前收到",
+    "mail_received_deadline": "必須在選舉日前 15天前寄達",
     "confirm_registration_link": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
   },
   "pr": {
@@ -366,7 +366,7 @@
     "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
     "ip_deadline": "選舉日前 30天",
     "online_deadline": "選舉日前 30天",
-    "mail_postmarked_deadline": "必須在選舉日前 30天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 30天郵戳為憑",
     "confirm_registration_link": "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0"
   },
   "sc": {
@@ -375,14 +375,14 @@
     "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
     "ip_deadline": "選舉日前 30天",
     "online_deadline": "選舉日前 30天",
-    "mail_postmarked_deadline": "必須在選舉日前 30天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 30天郵戳為憑",
     "confirm_registration_link": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
   },
   "sd": {
     "hp_link": "https://sdsos.gov/elections-voting/",
     "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
     "ip_deadline": "選舉日前 15天",
-    "mail_received_deadline": "必須在選舉日前 15天前收到",
+    "mail_received_deadline": "必須在選舉日前 15天前寄達",
     "confirm_registration_link": "https://vip.sdsos.gov/VIPLogin.aspx"
   },
   "tn": {
@@ -391,14 +391,14 @@
     "more_info_link": "https://sos.tn.gov/products/elections/register-vote",
     "ip_deadline": "選舉日前 30天",
     "online_deadline": "選舉日前 30天",
-    "mail_postmarked_deadline": "必須在選舉日前 30天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 30天郵戳為憑",
     "confirm_registration_link": "https://tnmap.tn.gov/voterlookup/"
   },
   "tx": {
     "hp_link": "https://www.votetexas.gov/index.html",
     "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html",
     "ip_deadline": "選舉日前 30天",
-    "mail_postmarked_deadline": "必須在選舉日前 30天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 30天郵戳為憑",
     "confirm_registration_link": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
   },
   "ut": {
@@ -407,7 +407,7 @@
     "more_info_link": "https://voteinfo.utah.gov/",
     "ip_deadline": "直到選舉日（包括選舉日）都可以使用",
     "online_deadline": "選舉日前 11天",
-    "mail_received_deadline": "必須在選舉日前 11天前收到",
+    "mail_received_deadline": "必須在選舉日前 11天前寄達",
     "confirm_registration_link": "https://vote.utah.gov/"
   },
   "vt": {
@@ -425,7 +425,7 @@
     "more_info_link": "https://www.elections.virginia.gov/registration/how-to-register/",
     "ip_deadline": "選舉日前 22天",
     "online_deadline": "選舉日前 22天",
-    "mail_postmarked_deadline": "必須在選舉日前 22天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 22天郵戳為憑",
     "confirm_registration_link": "https://www.elections.virginia.gov/registration/view-your-info/"
   },
   "vi": {
@@ -440,7 +440,7 @@
     "more_info_link": "https://www.sos.wa.gov/elections/voters/",
     "ip_deadline": "直到選舉日（包括選舉日）都可以使用",
     "online_deadline": "選舉日前 8天",
-    "mail_received_deadline": "必須在選舉日前 8天前收到",
+    "mail_received_deadline": "必須在選舉日前 8天前寄達",
     "confirm_registration_link": "選舉日前 21天"
   },
   "wv": {
@@ -449,7 +449,7 @@
     "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
     "ip_deadline": "選舉日前 21天",
     "online_deadline": "選舉日前 21天",
-    "mail_postmarked_deadline": "必須在選舉日前 21天蓋上郵戳",
+    "mail_postmarked_deadline": "選舉當日前 21天郵戳為憑",
     "confirm_registration_link": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
   },
   "wi": {
@@ -465,7 +465,7 @@
     "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
     "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
     "ip_deadline": "直到選舉日（包括選舉日）都可以使用",
-    "mail_received_deadline": "必須在選舉日前 14天前收到",
+    "mail_received_deadline": "必須在選舉日前 14天前寄達",
     "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
   }
 }

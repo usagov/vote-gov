@@ -159,7 +159,7 @@
       "language_direction": "ltr",
       "publishDir": "tmp/public/zh",
       "register_path": "register",
-      "go_back": "回去",
+      "go_back": "上一頁",
       "skip_text": "跳到主要內容",
       "meta__title": "登記投票",
       "meta__description": "查找您所在州的選民登記選項。",

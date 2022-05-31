@@ -9,7 +9,7 @@ registration_link = "https://dmv.ny.gov/more-info/electronic-voter-registration-
 more_info_link = "https://www.elections.ny.gov/votingregister.html"
 ip_deadline = "選舉日前 25天"
 online_deadline = "選舉日前 25天"
-mail_postmarked_deadline = "必須在選舉日前 25天蓋上郵戳"
+mail_postmarked_deadline = "選舉當日前 25天郵戳為憑"
 confirm_registration_link = "https://voterlookup.elections.ny.gov/"
 
 +++

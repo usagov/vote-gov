@@ -10,15 +10,15 @@
   "header": "登記投票",
   "state_selection__heading": "您住在哪裡？",
   "state_selection__default": "選擇您的州或領地",
-  "state_selection__submit": "了解如何註冊",
+  "state_selection__submit": "了解如何登記",
   "registered__header": "已經登記了？",
   "registered__resources_intro": "在 %USA.gov% 上探索我們的%link%",
   "registered__resources_link_text": "投票和選舉資源",
   "registered__resources_link_url": "https://www.usa.gov/voting",
   "registered_links__electionday": "選舉日投票（英文）",
   "registered_links__electionday_url": "https://www.usa.gov/election-day",
-  "registered_links__voterid": "選民身份證要求（英文）",
+  "registered_links__voterid": "選民身份證規定（英文）",
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
-  "registered_links__process": "選舉過程（英文）",
+  "registered_links__process": "選舉流程（英文）",
   "registered_links__process_url": "https://www.usa.gov/election"
 }
