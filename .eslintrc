@@ -1,11 +1,33 @@
+
 {
-    "rules": {
-    "for-direction": "off",
-    "getter-return": "off"
+  "rules": {
+  "for-direction": "off",
+  "getter-return": "off",
+  "cypress/no-assigning-return-values": "error",
+    "cypress/no-unnecessary-waiting": "error",
+    "cypress/assertion-before-screenshot": "warn",
+    "cypress/no-force": "warn",
+    "cypress/no-async-tests": "error",
+    "cypress/no-pause": "error"
+},
+  "env": {
+      "node": true,
+      "browser": true
   },
-    "env": {
-        "node": true,
-        "browser": true
-    },
-    "extends": "eslint:recommended"
+  "extends": ["plugin:cypress/recommended"],
+  "plugins": ["cypress"]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
