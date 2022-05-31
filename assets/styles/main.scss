@@ -20,7 +20,6 @@ $theme-show-notifications: false;
 @import './component/usa-banner.scss';
 @import 'component/language-switcher';
 
-
 // Variables ------------ //
 
 $font-light: 300;
@@ -484,4 +483,8 @@ $logo-width: 130px;
 
 .usa-prose .usa-collection__item {
   border-top: 0;
+}
+
+.title-text {
+  color: #c61f0c;
 }
