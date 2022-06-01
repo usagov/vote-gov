@@ -16,6 +16,7 @@ $theme-show-notifications: false;
 @import '../../node_modules/uswds/dist/scss/packages/usa-alert';
 @import '../../node_modules/uswds/dist/scss/packages/usa-banner';
 @import '../../node_modules/uswds/dist/scss/packages/usa-skipnav';
+@import '../../node_modules/uswds/dist/scss/packages/_usa-summary-box';
 
 @import './component/usa-banner.scss';
 @import 'component/language-switcher';
@@ -485,6 +486,6 @@ $logo-width: 130px;
   border-top: 0;
 }
 
-.title-text {
-  color: #c61f0c;
+.usa-summary-box {
+  border: 1px #565c65 solid;
 }
