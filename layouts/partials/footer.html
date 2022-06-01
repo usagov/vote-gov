@@ -44,7 +44,7 @@
 	<div class="grid-container">
 		<div class="grid-row grid-gap">
 			<div class="tablet:grid-col-4">
-				<a class="usa-footer__primary-link policy" href="{{ $translation.footer.privacy_policy_link_url }}">
+				<a class="usa-footer__primary-link policy" href="{{ .Site.BaseURL }}{{ $translation.footer.privacy_policy_link_url }}">
 					{{ $translation.footer.privacy_policy }}</a>
 			</div>
 			<div class="tablet:grid-col-8 right-shift">
