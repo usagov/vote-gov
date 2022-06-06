@@ -1,5 +1,17 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 
+{{ $environment := os.Getenv "BRANCH" }}
+{{ $envURL := .Site.Data.environment.URL.prod }}
+
+{{ if eq $environment "master" }}
+{{ $envURL = .Site.Data.environment.URL.prod }}
+{{ else if eq $environment "staging" }}
+{{ $envURL = .Site.Data.environment.URL.stage }}
+{{ else if eq $environment "" }}
+{{ $envURL = .Site.Data.environment.URL.dev }}
+{{ else }}
+{{ $envURL = .Site.Data.environment.URL.fed }}
+{{ end }}
 
 <!doctype html>
 <html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Params.language_direction }}">
@@ -46,10 +58,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta property="og:description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
   <meta property="twitter:description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
   {{ end }}
+
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="https://vote.gov{{ .Permalink }}"/>
-  <meta property="og:image" content="https://vote.gov/assets/img/ballot-box-OG.png"/>
-  <meta property="twitter:image" content="https://vote.gov/assets/img/ballot-box-OG.png"/>
+  <meta property="og:url" content="{{ $envURL }}{{ .Permalink }}"/>
+  <meta property="og:image" content="{{ $envURL }}assets/img/ballot-box-OG.png"/>
+  <meta property="twitter:image" content="{{ $envURL }}assets/img/ballot-box-OG.png"/>
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@votegov">
@@ -57,7 +70,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta name="twitter:dnt" content="on">
   <meta name="twitter:widgets:csp" content="on">
   <link rel="me" href="{{ $translation.footer.twitter_link }}">
-  <link rel="canonical" href="https://vote.gov{{ .Permalink }}"/>
+  <link rel="canonical" href="{{ $envURL }}{{ .Permalink }}"/>
 
   <!-- Favicons
   ================================================== -->

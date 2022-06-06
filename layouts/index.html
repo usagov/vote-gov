@@ -1,20 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 {{ partial "head.html" . }}
 
-{{ $environment := os.Getenv "BRANCH" }}
-{{ $envURL := .Site.Data.environment.URL.prod }}
-
-{{ if eq $environment "master" }}
-{{ $envURL = .Site.Data.environment.URL.prod }}
-{{ else if eq $environment "staging" }}
-{{ $envURL = .Site.Data.environment.URL.stage }}
-{{ else if eq $environment "" }}
-{{ $envURL = .Site.Data.environment.URL.dev }}
-{{ else }}
-{{ $envURL = .Site.Data.environment.URL.fed }}
-{{ end }}
-
-
 <body class="page-vote">
 
 
@@ -74,7 +60,7 @@
           </div>
           <div class="tablet:grid-col-8 right-shift">
             <section class="page-section registered" id="already-registered">
-              environment url: {{ $envURL }}
+
               <header>
                 <h2 class="content-heading">{{ $translation.homepage.registered__header }}</h2>
               </header>
