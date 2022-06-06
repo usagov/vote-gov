@@ -1,0 +1,14 @@
+{{ $environment := os.Getenv "BRANCH" }}
+{{ $envURL := "envURL" }}
+
+{{ if eq $environment "master" }}
+{{ $envURL = "https://vote.gov/" }}
+{{ else if eq $environment "staging" }}
+{{ $envURL = "http://staging.vote.gov/" }}
+{{ else if eq $environment "" }}
+{{ $envURL = "http://localhost/" }}
+{{ else }}
+{{ $envURL = "https://cg-9e8debaf-b030-4825-a43c-cb2bc850c96c.app.cloud.gov/preview/usagov/vote-gov/"}}
+{{ end }}
+
+<h1>environment: {{ $envURL }}</h1>
