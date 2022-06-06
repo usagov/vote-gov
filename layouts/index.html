@@ -60,6 +60,7 @@
           </div>
           <div class="tablet:grid-col-8 right-shift">
             <section class="page-section registered" id="already-registered">
+              environment url:     {{ partial "environment.html" . }}
               <header>
                 <h2 class="content-heading">{{ $translation.homepage.registered__header }}</h2>
               </header>
@@ -85,9 +86,6 @@
         </div>
       </div>
     </div>
-
-    {{ partial "environment.html" . }}
-
 
     <div class="grid-container" id="main-content">
 
