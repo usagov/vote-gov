@@ -5,6 +5,13 @@
   "title": "Voter Registration",
   "baseURL": "",
   "disableKinds": ["taxonomy", "taxonomyTerm", "section"],
+  "security": {
+    "funcs": {
+      "getenv": [
+        "BRANCH"
+      ]
+    }
+  },
   "sitemap": {
     "filename": "sitemap.xml",
     "priority": 0.5
