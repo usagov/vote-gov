@@ -1,5 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-{{ $envURL := ( index $.Site.Params.envURL (os.Getenv "BRANCH")) }}
+{{ $envURL := ( index $.Site.Params.envURL (os.Getenv "BRANCH") ) }}
+
 
 <!doctype html>
 <html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Params.language_direction }}">
@@ -46,7 +47,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta property="og:description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
   <meta property="twitter:description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
   {{ end }}
-
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="{{ $envURL }}{{ .Permalink }}"/>
   <meta property="og:image" content="{{ $envURL }}assets/img/ballot-box-OG.png"/>
@@ -92,8 +92,4 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <script src="` | safeHTML }}{{ .Site.BaseURL }}{{ `/assets/js/vendor/html5shiv.js"></script>
   <![endif]-->` | safeHTML }}
 
-  {{ $envURL }}
-
 </head>
-
-{{ $envURL }}
