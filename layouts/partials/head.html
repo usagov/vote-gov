@@ -1,17 +1,5 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-
-{{ $environment := os.Getenv "BRANCH" }}
-{{ $envURL := .Site.Data.environment.URL.prod }}
-
-{{ if eq $environment "master" }}
-{{ $envURL = .Site.Data.environment.URL.prod }}
-{{ else if eq $environment "staging" }}
-{{ $envURL = .Site.Data.environment.URL.stage }}
-{{ else if eq $environment "" }}
-{{ $envURL = .Site.Data.environment.URL.dev }}
-{{ else }}
-{{ $envURL = .Site.Data.environment.URL.fed }}
-{{ end }}
+{{ $envURL := ( index $.Site.Params.envURL (os.Getenv "BRANCH")) }}
 
 <!doctype html>
 <html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Params.language_direction }}">
@@ -104,4 +92,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <script src="` | safeHTML }}{{ .Site.BaseURL }}{{ `/assets/js/vendor/html5shiv.js"></script>
   <![endif]-->` | safeHTML }}
 
+  {{ $envURL }}
+
 </head>
+
+{{ $envURL }}
