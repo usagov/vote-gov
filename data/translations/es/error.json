@@ -6,5 +6,6 @@
   "error_msg2": "Vaya a nuestra %link% e intente otra vez.",
   "error_msg2_link": "página de inicio",
   "error_msg3": "Visite la %link% para obtener más información.",
-  "error_msg3_link": "oficina electoral de su estado o territorio (en inglés)"
+  "error_msg3_link": "oficina electoral de su estado o territorio (en inglés)",
+  "error_usa_link": "https://www.usa.gov/election-office"
 }

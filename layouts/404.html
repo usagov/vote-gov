@@ -45,7 +45,7 @@
                 <li>{{ $t.error.error_msg1 }}</li>
                 {{ $error_msg2_link := (print `<a href="` .Site.Home.RelPermalink `">` $t.error.error_msg2_link `</a>`) }}
                 <li>{{ replace $t.error.error_msg2 "%link%" $error_msg2_link|safeHTML }}</li>
-                {{ $error_msg3_link := (print `<a href="https://www.usa.gov/election-office">` $t.error.error_msg3_link `</a>`) }}
+                {{ $error_msg3_link := (print `<a href="` $t.error.error_usa_link `">` $t.error.error_msg3_link `</a>`) }}
                 <li>{{ replace $t.error.error_msg3 "%link%" $error_msg3_link|safeHTML }}</li>
               </ul>
             </div>

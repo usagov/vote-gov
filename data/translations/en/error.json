@@ -6,5 +6,6 @@
   "error_msg2": "Go to our %link% and try again.",
   "error_msg2_link": "main page",
   "error_msg3": "Visit your %link% for state-wide voting guidance.",
-  "error_msg3_link": "state’s election office website"
+  "error_msg3_link": "state’s election office website",
+  "error_usa_link": "https://www.usa.gov/election-office"
 }
