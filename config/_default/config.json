@@ -18,8 +18,8 @@
   },
   "Params": {
     "envURL": {
-      "prod": "https://vote.gov/",
-      "stage": "https://staging.vote.gov/",
+      "master": "https://vote.gov/",
+      "staging": "https://staging.vote.gov/",
       "": "http://localhost/",
       "fed": "https://cg-9e8debaf-b030-4825-a43c-cb2bc850c96c.app.cloud.gov"
     }
