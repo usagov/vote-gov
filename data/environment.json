@@ -1,8 +1,0 @@
-{
-  "URL": {
-    "prod": "https://vote.gov/",
-    "stage": "https://staging.vote.gov/",
-    "dev": "http://localhost/",
-    "fed": "https://cg-9e8debaf-b030-4825-a43c-cb2bc850c96c.app.cloud.gov"
-  }
-}

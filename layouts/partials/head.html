@@ -1,6 +1,10 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 {{ $envURL := ( index $.Site.Params.envURL (os.Getenv "BRANCH") ) }}
 
+{{ $envURL := ( index $.Site.Params.envURL (os.Getenv "BRANCH") ) }}
+{{ if and (ne $envURL "master") (ne $envURL "staging") (ne $envURL "") }}
+{{ $envURL = $.Site.Params.envURL.fed }}
+{{ end }}
 
 <!doctype html>
 <html lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Params.language_direction }}">
