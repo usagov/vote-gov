@@ -41,15 +41,14 @@
     <h2>{{ $translation.register.confirm_registration__heading }}</h2>
 </header>
 
+{{ $confirm_registration__intro := $translation.register.confirm_registration__intro }}
 {{ if eq .Params.state_name "Wyoming"}}
-<p>
-    {{ replace $translation.register.confirm_registration__intro_WY "%link%" (partial "links/confirm-registration-link.html" .)|safeHTML }}
-</p>
-{{ else }}
-<p>
-    {{ replace $translation.register.confirm_registration__intro "%link%" (partial "links/confirm-registration-link.html" .)|safeHTML }}
-</p>
+{{ $confirm_registration__intro = $translation.register.confirm_registration__intro_WY }}
 {{ end }}
+<p>
+    {{ replace $confirm_registration__intro "%link%" (partial "links/confirm-registration-link.html" .)|safeHTML }}
+</p>
 
 {{ end }}
 {{ end }}
+
