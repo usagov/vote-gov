@@ -2,7 +2,10 @@
 {{ partial "head.html" . }}
 {{ $envURL := ( index $.Site.Params.envURL (os.Getenv "BRANCH") ) }}
 {{ $checkBranch := os.Getenv "BRANCH" }}
-{{ $envURL := cond (eq $envURL "null") $.Site.Params.envURL.fed $envURL }}
+
+{{ if eq $envURL nil }}
+{{ $envURL := $.Site.Params.envURL.fed }}
+{{ end }}
 
 <body class="page-vote">
 
@@ -62,10 +65,9 @@
           </div>
           <div class="tablet:grid-col-8 right-shift">
             <section class="page-section registered" id="already-registered">
-              </p>
- 
+
               ENVIRONMENT: {{ $envURL }}
-              <p>CHECK BRANCH: {{ $checkBranch }}
+              CHECK BRANCH: {{ $checkBranch }}
               <header>
                 <h2 class="content-heading">{{ $translation.homepage.registered__header }}</h2>
               </header>
