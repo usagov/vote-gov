@@ -38,7 +38,7 @@ function watch () {
 function website (done){
 
     var setConfig = "config.json" || process.env.npm_package_config_votegov_hugo_en;
-    var setURL = 'http://localhost/';
+    var setURL = 'http://localhost';
 
     log(
       colors.cyan('website'),
