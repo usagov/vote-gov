@@ -4,7 +4,7 @@
 {{ $checkBranch := os.Getenv "BRANCH" }}
 
 {{ if and (ne $envURL "master") (ne $envURL "staging") (ne $envURL "") }}
-{{ $envURL := $.Site.Params.envURL.fed }}
+{{ $envURL = $.Site.Params.envURL.fed }}
 {{ end }}
 
 <body class="page-vote">
@@ -66,8 +66,8 @@
           <div class="tablet:grid-col-8 right-shift">
             <section class="page-section registered" id="already-registered">
 
-              ENVIRONMENT: {{ $envURL }}
-              CHECK BRANCH: {{ $checkBranch }}
+              <p>ENVIRONMENT: {{ $envURL }}</p>
+              <p>CHECK BRANCH: {{ $checkBranch }}</p>
               <header>
                 <h2 class="content-heading">{{ $translation.homepage.registered__header }}</h2>
               </header>
