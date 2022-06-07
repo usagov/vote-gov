@@ -3,7 +3,7 @@
 {{ $envURL := ( index $.Site.Params.envURL (os.Getenv "BRANCH") ) }}
 {{ $checkBranch := os.Getenv "BRANCH" }}
 
-{{ if and (eq $envURL "master") (eq $envURL "staging") (eq $envURL "") }}
+{{ if and (ne $envURL "master") (ne $envURL "staging") (ne $envURL "") }}
 {{ $envURL := $.Site.Params.envURL.fed }}
 {{ end }}
 
