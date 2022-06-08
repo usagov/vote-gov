@@ -7,7 +7,7 @@
   "by_mail__link": "%state_name% 的州选举网站",
   "other_language_selection__default": "选择您的语言 %dropdown-list%",
   "other_language_selection__heading_": "在 %state_name% 登记投票的其他方式",
-  "other_language_selection__label": "您还可以从下方下拉中下载以英语和其他 14 种语言提供的全国选民登记表 (PDF)。",
+  "other_language_selection__label": "您还可以从下方下拉选单中下载以英语和其他 14 种语言提供的全国选民登记表 (PDF)。",
   "other_language_selection__submit": "下载全国选民登记表",
   "in_person__intro": "亲自到您当地的选举办公室登记。详细了解如何在 %link% 上注册",
   "in_person__link": "%state_name% 的州选举网站",
