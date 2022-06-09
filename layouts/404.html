@@ -1,7 +1,7 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 {{ partial "head.html" . }}
 
-  <body class="page-register-single">
+  <body class="page-error-single">
     {{ partial "header.html" . }}
 
     <div id="main-content" role="main">
@@ -17,7 +17,7 @@
             <div class="tablet:grid-col-8 right-shift">
               <header class="align-bottom">
                 <h1 class="main-heading">
-                  {{ $translation.error.main_heading }}
+                  {{ $translation.error.error_main_heading }}
                 </h1>
               </header>
             </div>
@@ -33,17 +33,24 @@
           <div class="tablet:grid-col-4"></div>
           <div class="tablet:grid-col-8 right-shift">
 
-            <h2 class="usa-intro">{{ $translation.error.error_intro }}</h2>
+            {{ range $.Site.Home.AllTranslations }}
+            {{ $t := ( index $.Site.Data.translations .Language.Lang ) }}
+            {{ if $t.error }}
+            <div class="translation voter-info" lang="{{ .Language.Lang }}" hidden>
+              <h2 class="usa-intro">{{ $t.error.error_intro }}</h2>
 
-            <p>{{ $translation.error.error_msg }}</p>
+              <p>{{ $t.error.error_msg }}</p>
 
-            <ul>
-              <li>{{ $translation.error.error_msg1 }}</li>
-
-              <li>{{ replace $translation.error.error_msg2 "%link%" (partial "links/error_msg2_link.html" .)|safeHTML }}</li>
-
-              <li>{{ replace $translation.error.error_msg3 "%link%" (partial "links/error_msg3_link.html" .)|safeHTML }}</li>
-            </ul>
+              <ul>
+                <li>{{ $t.error.error_msg1 }}</li>
+                {{ $error_msg2_link := (print `<a href="` .Site.Home.RelPermalink `">` $t.error.error_msg2_link `</a>`) }}
+                <li>{{ replace $t.error.error_msg2 "%link%" $error_msg2_link|safeHTML }}</li>
+                {{ $error_msg3_link := (print `<a href="https://www.usa.gov/election-office">` $t.error.error_msg3_link `</a>`) }}
+                <li>{{ replace $t.error.error_msg3 "%link%" $error_msg3_link|safeHTML }}</li>
+              </ul>
+            </div>
+            {{ end }}
+            {{ end }}
           </div>
         </div>
         </div>
@@ -60,6 +67,13 @@
 
     {{ partial "analytics.html" . }}
     {{ partial "scripts.html" . }}
+
+    <!--  Use the browser path segment to unhide the correct 404 translation -->
+    <script>
+      var path = window.location.pathname.split('/').slice(1);
+      var translation = document.querySelector('.translation[lang="'+ encodeURI(path[0]) + '"]') || document.querySelector('.translation[lang="en"]');
+      translation.removeAttribute('hidden');
+    </script>
 
   </body>
 

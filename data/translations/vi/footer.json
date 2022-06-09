@@ -1,0 +1,16 @@
+{
+  "subscribe_email": "Đăng ký để nhận email từ %USAGov% (bằng tiếng Anh)",
+  "subscribe_email_link_url": "https://connect.usa.gov/subscribe",
+  "your_email_address": "Nhập địa chỉ email của bạn",
+  "sign_up": "Đăng ký",
+  "usagov_img": "img/usagov-logo.png",
+  "usagov_link": "https://www.usa.gov/",
+  "usagov_logo_alt_text": "Nhãn hiệu %USA.gov%",
+  "eac_link": "https://www.eac.gov/",
+  "eac_text": "hợp tác với",
+  "eac_logo_alt_text": "hợp tác với %U.S. Eleciton Assistance Commission%",
+  "privacy_policy": "Chính sách bảo mật (bằng tiếng Anh) ",
+  "privacy_policy_link_url": "https://www.usa.gov/policies",
+  "twitter_link": "https://twitter.com/votegov",
+  "twitter_text": "Theo dõi %Vote.gov% (bằng tiếng Anh) trên Twitter"
+}
