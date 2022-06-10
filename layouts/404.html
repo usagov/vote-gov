@@ -45,7 +45,7 @@
                 <li>{{ $t.error.error_msg1 }}</li>
                 {{ $error_msg2_link := (print `<a href="` .Site.Home.RelPermalink `">` $t.error.error_msg2_link `</a>`) }}
                 <li>{{ replace $t.error.error_msg2 "%link%" $error_msg2_link|safeHTML }}</li>
-                {{ $error_msg3_link := (print `<a href="https://www.usa.gov/election-office">` $t.error.error_msg3_link `</a>`) }}
+                {{ $error_msg3_link := (print `<a href="` $t.error.error_usa_link `">` $t.error.error_msg3_link `</a>`) }}
                 <li>{{ replace $t.error.error_msg3 "%link%" $error_msg3_link|safeHTML }}</li>
               </ul>
             </div>
@@ -71,6 +71,7 @@
     <!--  Use the browser path segment to unhide the correct 404 translation -->
     <script>
       var path = window.location.pathname.split('/').slice(1);
+      path = path[path.length - 1] === "404.html" ? [path[path.length - 2]] : path;
       var translation = document.querySelector('.translation[lang="'+ encodeURI(path[0]) + '"]') || document.querySelector('.translation[lang="en"]');
       translation.removeAttribute('hidden');
     </script>
