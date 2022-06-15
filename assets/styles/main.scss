@@ -441,7 +441,7 @@ $logo-width: 130px;
   color: $color-blue-dark;
   font-weight: bold;
   font-size: 1.1em;
-  margin-right: 10px;
+  margin: auto 1rem auto 1rem;
 
   [dir="rtl"] & {
     margin-left: 10px;
@@ -450,7 +450,24 @@ $logo-width: 130px;
 }
 
 .footer-logos {
-  padding: 2rem 0 2rem;
+  padding-top: 1rem;
+}
+
+.footer-content {
+  padding: 0 2rem 0 2rem;
+}
+
+.footer-column {
+  text-align: center;
+  width: 100%;
+
+    @include at-media('desktop') {
+      width: auto;        
+    }
+
+    @include at-media('tablet') {
+      width: auto;        
+    }
 }
 
 .footer-links {
@@ -463,12 +480,15 @@ $logo-width: 130px;
     display: inline-flex;
   }
 
+  @include at-media-max('desktop') {
+    padding-bottom: 2rem;
+  }
+
   .grid-row {
     align-items: center;
 
     @include at-media-max('desktop') {
       text-align: center;
-      padding-bottom: 2rem;
 
       > div + div {
         margin-top: 1rem;
