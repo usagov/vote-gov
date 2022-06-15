@@ -58,7 +58,9 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "devDependencies": {
+    "axe-core": "^4.4.2",
     "cypress": "^9.7.0",
+    "cypress-axe": "^0.14.0",
     "eslint-plugin-cypress": "^2.12.1",
     "gulp-scss-lint": "^1.0.0",
     "hugo-bin": "^0.80.0"
