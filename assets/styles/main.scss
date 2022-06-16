@@ -453,17 +453,9 @@ $logo-width: 130px;
   padding-top: 1rem;
 }
 
-.footer-content {
-  padding: 0 2rem 0 2rem;
-}
-
 .footer-column {
   text-align: center;
   width: 100%;
-
-    @include at-media('desktop') {
-      width: auto;        
-    }
 
     @include at-media('tablet') {
       width: auto;        
