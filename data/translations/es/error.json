@@ -1,5 +1,5 @@
 {
-  "error_main_heading": "¡Ups! Error 404",
+  "error_main_heading": "Error 404",
   "error_intro": "No se encontró la página",
   "error_msg": "Esto se puede deber a que esa página ya no exista, haya cambiado de nombre o no esté disponible en estos momentos.",
   "error_msg1": "Si entró el URL de la página manualmente, fíjese si es el correcto o si hubo algún error al ingresarlo.",
