@@ -23,7 +23,9 @@
     "test": "gulp test",
     "deploy": "gulp deploy",
     "cy:open": "cypress open",
-    "cy:test": "cypress run --spec 'cypress/integration/tests/**/*'"
+    "cy:test": "cypress run --spec 'cypress/integration/tests/**/*'",
+    "cy:axe": "cypress run --spec 'cypress/integration/accessibility/**/*'"
+
   },
   "repository": {
     "type": "git",
