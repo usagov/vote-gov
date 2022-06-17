@@ -1,4 +1,5 @@
 import './commands'
+import 'cypress-axe'
 
 Cypress.Commands.add('getUrlsArray', () => {
   cy.request({
@@ -17,4 +18,3 @@ Cypress.Commands.add('getUrlsArray', () => {
         .map(el => el.innerText)
     )
 })
-

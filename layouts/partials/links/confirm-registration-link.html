@@ -1,6 +1,12 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+
+{{ $confirm_registration__link := $translation.register.confirm_registration__link }}
+{{ if and (eq .Params.state_name "Wyoming") (ne $translation.register.confirm_registration__intro_WY nil)}}
+{{ $confirm_registration__link = $translation.register.confirm_registration__link_WY }}
+{{ end }}
+
 <a class="reg-link" href="{{ .Params.confirm_registration_link }}{{ if in .Params.confirm_registration_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
-{{ replace $translation.register.confirm_registration__link "%state_name%" .Params.state_name -}}
+{{ replace $confirm_registration__link "%state_name%" .Params.state_name -}}
 {{ if ne .Params.confirm_registration_link_translated "true" }}
 {{ if .Params.confirm_registration_link_language_selection }}
 {{ $translation.register.select_link -}}

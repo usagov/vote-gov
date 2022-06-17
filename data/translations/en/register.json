@@ -31,5 +31,7 @@
   "dates__inperson_deadline": "In person registration deadline:",
   "confirm_registration__heading": "How to Check Your Voter Registration",
   "confirm_registration__intro": "You can confirm your voter registration status on %link%.",
-  "confirm_registration__link": "%state_name%’s election website"
+  "confirm_registration__link": "%state_name%’s election website",
+  "confirm_registration__intro_WY": "You can confirm your voter registration status by contacting your local registration office. %link%",
+  "confirm_registration__link_WY": "Click here to view Wyoming's county clerk contact information (PDF)"
 }
