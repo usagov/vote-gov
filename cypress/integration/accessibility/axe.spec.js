@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-// the function below allows for axe to put the error message into a table that is locted in the terminal after the test is ran
+// the function below allows for axe to put the failer message into a table that is locted in the terminal after the test is run 
 function terminalLog(violations) {
   cy.task(
     'log',
