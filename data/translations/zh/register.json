@@ -28,7 +28,7 @@
   "dates__electionday_heading": "大選日",
   "dates__heading": "%state_name% 的選民登記截止日期",
   "dates__inperson_deadline": "親自報名截止日期：",
-  "confirm_registration__heading": "如何詢您的選民登記",
+  "confirm_registration__heading": "如何查詢您的選民登記",
   "confirm_registration__intro": "您可以在%link%上確認您的選民登記狀態",
   "confirm_registration__link": "%state_name% 的州選舉網站",
   "confirm_registration__intro_WY": "您可以聯繫當地的登記處確認您的選民登記狀態。 %link%。",
