@@ -1,7 +1,7 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 
 {{ $confirm_registration__link := $translation.register.confirm_registration__link }}
-{{ if eq .Params.state_name "Wyoming"}}
+{{ if and (eq .Params.state_name "Wyoming") (ne $translation.register.confirm_registration__intro_WY nil)}}
 {{ $confirm_registration__link = $translation.register.confirm_registration__link_WY }}
 {{ end }}
 

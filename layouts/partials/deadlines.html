@@ -42,7 +42,7 @@
 </header>
 
 {{ $confirm_registration__intro := $translation.register.confirm_registration__intro }}
-{{ if eq .Params.state_name "Wyoming"}}
+{{ if and (eq .Params.state_name "Wyoming") (ne $translation.register.confirm_registration__intro_WY nil) }}
 {{ $confirm_registration__intro = $translation.register.confirm_registration__intro_WY }}
 {{ end }}
 <p>
