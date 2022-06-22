@@ -1,0 +1,11 @@
+{
+  "error_main_heading": "Ôi! Lỗi 404",
+  "error_intro": "Không tìm thấy trang này",
+  "error_msg": "Chúng tôi không thể tìm thấy trang web bạn đang tìm kiếm. Có thể nó đã bị di dời, thay đổi tên hoặc tạm thời không có sẳn.",
+  "error_msg1": "Nếu bạn đã gõ vào URL của trang, xin kiểm tra chính tả xem có chính xác không. ",
+  "error_msg2": "Xin hãy vào %link% của chúng tôi và thử lại một lần nữa.",
+  "error_msg2_link": "trang chủ",
+  "error_msg3": "VHãy vào %link% để có những hướng dẫn bầu cử đúng của tiểu bang.",
+  "error_msg3_link": "trang web bầu cử chính thức của tiểu bang",
+  "error_usa_link": "https://www.usa.gov/election-office"
+}
