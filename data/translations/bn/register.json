@@ -31,6 +31,6 @@
   "confirm_registration__heading": "কীভাবে আপনার ভোটার নিবন্ধন পরীক্ষা করবেন",
   "confirm_registration__intro": "আপনি আপনার ভোটার রেজিস্ট্রেশন স্ট্যাটাস নিশ্চিত করতে পারেন %link%",
   "confirm_registration__link": "%state_name%-এর রাজ্য নির্বাচনী ওয়েবসাইট",
-  "confirm_registration__intro_WY": "Ban có thể xác nhận tình trạng đăng ký bầu cử của mình bằng cách liên lạc với văn phòng đăng ký địa phương. %link%.",
-  "confirm_registration__link_WY": "Nhấp vào đây để xem thông tin liên lạc của thư ký quận Wyoming (PDF)"
+  "confirm_registration__intro_WY": "আপনি আপনার স্থানীয় নিবন্ধন অফিসে যোগাযোগ করে আপনার ভোটার নিবন্ধন স্থিতি নিশ্চিত করতে পারেন। %link%।",
+  "confirm_registration__link_WY": "Wyoming এর কাউন্টি ক্লার্ক যোগাযোগের তথ্য (PDF) দেখতে এখানে ক্লিকরুন"
 }
