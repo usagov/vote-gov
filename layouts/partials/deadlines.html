@@ -36,12 +36,19 @@
 
 
 {{ if isset .Params "confirm_registration_link" }}
-	{{ if not (in .Params.registration_type "not-needed") }}
+    {{ if not (in .Params.registration_type "not-needed") }}
 <header>
-	<h2>{{ $translation.register.confirm_registration__heading }}</h2>
+    <h2>{{ $translation.register.confirm_registration__heading }}</h2>
 </header>
+
+{{ $confirm_registration__intro := $translation.register.confirm_registration__intro }}
+{{ if and (eq .Params.state_name "Wyoming") (ne $translation.register.confirm_registration__intro_WY nil) }}
+{{ $confirm_registration__intro = $translation.register.confirm_registration__intro_WY }}
+{{ end }}
 <p>
-  {{ replace $translation.register.confirm_registration__intro "%link%" (partial "links/confirm-registration-link.html" .)|safeHTML }}
+    {{ replace $confirm_registration__intro "%link%" (partial "links/confirm-registration-link.html" .)|safeHTML }}
 </p>
+
 {{ end }}
 {{ end }}
+
