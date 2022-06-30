@@ -25,7 +25,7 @@
     "cy:open": "cypress open",
     "cy:test": "cypress run --spec 'cypress/integration/tests/**/*'",
     "cy:axe": "cypress run --spec 'cypress/integration/accessibility/**/*'",
-    "htmlproofer": "htmlproofer tmp/public --allow-hash-href --check-html --empty-alt-ignore --disable-external"
+    "htmlproofer": "htmlproofer tmp/public"
 
   },
   "repository": {
