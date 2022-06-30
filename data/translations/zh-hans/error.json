@@ -1,11 +1,11 @@
 {
-  "error_main_heading": "哎呀！ 404错误",
-  "error_intro": "找不到网页",
-  "error_msg": "我们找不到您要查找的页面。 它可能已被删除、名称已更改或暂时不可用。",
-  "error_msg1": "如果您键入了页面 URL，请检查拼写。",
-  "error_msg2": "转到我们的%link%并重试。",
-  "error_msg2_link": "主页",
-  "error_msg3": "访问您的%link%以获取全州范围内的投票指导。",
-  "error_msg3_link": "州选举办公室网站",
+  "error_main_heading": "哎呀！ 404錯誤",
+  "error_intro": "找不到網頁",
+  "error_msg": "我們找不到您所尋找的頁面。它可能已被刪除、更改名稱或暫時無法使用。",
+  "error_msg1": "如果您鍵入了網頁 URL，請檢查拼音。",
+  "error_msg2": "前往我們的%link%並再試一次。",
+  "error_msg2_link": "主頁",
+  "error_msg3": "拜訪您的%link%以取得全州範圍內的投票指引。",
+  "error_msg3_link": "州選舉辦公室網站",
   "error_usa_link": "https://www.usa.gov/election-office"
 }

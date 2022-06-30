@@ -31,6 +31,6 @@
   "confirm_registration__heading": "如何检查您的选民登记",
   "confirm_registration__intro": "您可以在 %link% 上确认您的选民登记状态",
   "confirm_registration__link": "%state_name% 的州选举网站",
-  "confirm_registration__intro_WY": "您可以联系当地的登记处确认您的选民登记状态。 %link%。",
-  "confirm_registration__link_WY": "单击此处查看怀俄明州县书记联系信息 (PDF)"
+  "confirm_registration__intro_WY": "您可以聯繫當地的登記處確認您的選民登記狀態。%link%。",
+  "confirm_registration__link_WY": "點擊此處查看懷俄明州縣書記聯繫資訊 (PDF）"
 }
