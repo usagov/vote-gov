@@ -26,7 +26,6 @@
     "cy:test": "cypress run --spec 'cypress/integration/tests/**/*'",
     "cy:axe": "cypress run --spec 'cypress/integration/accessibility/**/*'",
     "htmlproofer": "htmlproofer tmp/public"
-
   },
   "repository": {
     "type": "git",
