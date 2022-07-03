@@ -1,0 +1,97 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+
+
+{{ partial "head.html" . }}
+
+<body class="page-basic">
+
+  {{ partial "header.html" . }}
+
+  <div id="main-content" role="main">
+
+    {{ partial "subpage-header.html" . }}
+
+      <div class="grid-container">
+
+        {{ partial "breadcrumb.html" . }}
+      </div>
+
+      <div class="grid-container subpage-content">
+
+        <div class="grid-row grid-gap">
+
+          <div class="tablet:grid-col-4">
+
+            {{ partial "subpage-nav.html" . }}
+
+
+          </div>
+          <div class="tablet:grid-col-8 right-shift">
+
+            <section>
+              {{ .Content }}
+            </section>
+
+            <div>
+            <img src="{{ .Site.BaseURL }}/assets/img/placeholder-image.jpeg" alt=""></img>
+            <p class="subpage-caption">This line is for image Caption and Author Name.</p>              
+            </div>
+
+
+            <div class="subpage-container">
+            <span class="divider-long"></span>
+
+            <div class="grid-container subpage-container">
+
+              <div class="grid-row grid-gap">
+                <div class="tablet:grid-col-4">
+                  <h4>Last Updated</h4>
+                  <p>May 11, 2022</p>
+                  <h4>Source</h4>
+                  <a href="https://vote.gov.com">vote.gov</a>
+                </div>
+                <div class="tablet:grid-col-8 right-shift">
+                  <h4>Reference</h4>
+                  <ol class="usa-list">
+                    <li><a href="">Dui, dui, vitae ullamcorper justo, vitae, interdum, mi mattiquam</a></li>
+                    <li><a href="">Dui, dui, vitae ullamcorper justo, vitae, interdum, mi mattiquam</a></li>
+                    <li><a href="">Dui, dui, vitae ullamcorper justo, vitae, interdum, mi mattiquam</a></li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <span class="divider-long"></span>              
+            </div>
+
+
+
+            <h2>Share Page</h2>
+            <div class="share-icons-container">
+            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+              <use xlink:href="/assets/img/sprite.svg#facebook"></use>
+            </svg>
+
+            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+              <use xlink:href="/assets/img/sprite.svg#twitter"></use>
+            </svg>
+
+            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+              <use xlink:href="/assets/img/sprite.svg#mail"></use>
+            </svg>              
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      {{ partial "footer.html" . }}
+    </footer>
+
+  </div>
+  {{ partial "analytics.html" . }}
+  {{ partial "scripts.html" . }}
+</body>
+
+</html>

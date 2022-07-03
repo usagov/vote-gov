@@ -17,6 +17,9 @@ $theme-show-notifications: false;
 @import '../../node_modules/uswds/dist/scss/packages/usa-banner';
 @import '../../node_modules/uswds/dist/scss/packages/usa-skipnav';
 @import '../../node_modules/uswds/dist/scss/packages/_usa-summary-box';
+@import '../../node_modules/uswds/dist/scss/packages/_usa-breadcrumb';
+@import '../../node_modules/uswds/dist/scss/packages/_usa-sidenav';
+
 
 @import './component/usa-banner.scss';
 @import 'component/language-switcher';
@@ -31,6 +34,7 @@ $color-blue: #2c7cc7;
 $color-blue-headings: #0071BC;
 $color-blue-dark: #11385B;
 $color-blue-light: #ecf2f8;
+$color-red: #bb0202;
 $color-grey: #e1e2e4;
 $color-grey-dark: #4b4b4d;
 $theme-color-base-family: #dcdee0;
@@ -488,4 +492,102 @@ $logo-width: 130px;
 
 .usa-summary-box {
   border: 1px #565c65 solid;
+}
+
+.usa-breadcrumb {
+  background-color: transparent;
+}
+
+.usa-breadcrumb__link span, .usa-breadcrumb__list-item {
+  text-decoration: none;
+  color: #005ea2;
+  font-weight: 700;
+
+}
+
+.usa-breadcrumb__list-item {  
+  .usa-current span{
+  color: $color-grey-dark;
+  text-decoration: none;
+  }
+}
+
+.usa-breadcrumb__list-item:not(:last-child)::after {
+  background-color: #005ea2;
+}
+
+.subpage-header{
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.divider-short{
+  border: 2px solid $color-red;
+  width: 10rem;
+}
+
+.divider-long{
+  border: .5px solid $color-grey-dark;
+  width: 100%;
+  display: block;
+}
+
+.subpage-content {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.subpage-container {
+padding-left: 0;
+padding-right: 0;
+padding-bottom: 1rem;
+padding-top: 1rem;
+
+  h4 {
+    color: $color-grey-dark;
+    margin: 0;
+  }
+
+  p {
+    margin-top: 0;
+  }
+
+  ol {
+    margin-top: 0;
+  }
+
+  li {
+    font-style: italic;
+  }
+}
+
+.bg-img {
+  height: 15rem;
+  color: white;
+  background: #2c7cc799;
+}
+
+.bg-blue-transparent {
+  height: 15rem;
+  background: #2c7cc799;
+}
+
+.subpage-caption {
+  margin-top: 0;
+  padding-top: 0.5rem;
+}
+
+.usa-sidenav__item .usa-current {
+  background-color: #e7f6f8;
+}
+
+.share-icons-container {
+  color: #005ea2 !important;
+  display: flex;
+  height: 2rem;
+  width: 10rem;
+
+  .usa-icon {
+    color: #005ea2 !important;
+  }
 }
