@@ -1,7 +1,7 @@
-- name: HTMLProofer
-  uses: chabad360/htmlproofer@v1.1
-  with:
-    directory: "tmp"
+name: HTMLProofer
+  # uses: chabad360/htmlproofer@v1.1
+  # with:
+  #   directory: "tmp"
 on: [push, pull_request]
 
 jobs:
