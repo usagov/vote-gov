@@ -1,31 +1,29 @@
-name: HTMLProofer
-  # uses: chabad360/htmlproofer@v1.1
-  # with:
-  #   directory: "tmp"
+name: Build and test VOTE.gov
+
 on: [push, pull_request]
 
 jobs:
   build:
-    name: Install, build and test site with cypress/cypress-axe and htmlproofer.
+    name: Install, build and test site with pa11y-ci and htmlproofer.
     runs-on: ubuntu-latest
     env:
       LANG: en_US.UTF-8
       LANGUAGE: en_US
       LC_ALL: en_US.UTF-8
 
-  steps:
+    steps:
       - name: Checkout source.
         uses: actions/checkout@v2
 
-      # - name: Setup ruby env.
-      #   run: |
-      #     sudo apt-get update;
-      #     sudo apt-get install --reinstall -y locales;
-      #     sudo sed -i 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen;
-      #     sudo locale-gen en_US.UTF-8;
-      # - name: Install ruby.
-      #   uses: ruby/setup-ruby@v1
-      #   with:
+      - name: Setup ruby env.
+        run: |
+          sudo apt-get update;
+          sudo apt-get install --reinstall -y locales;
+          sudo sed -i 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen;
+          sudo locale-gen en_US.UTF-8;
+      - name: Install ruby.
+        uses: ruby/setup-ruby@v1
+        with:
           bundler-cache: true
 
       - name: Install node.js.
@@ -37,7 +35,13 @@ jobs:
         run: npm install
 
       - name: Build and start up hugo server.
-        run: npm run build && npm run start
+        run: npm run build && npm run start-detached
 
-      - name: Run cypress-axe
+      - name: Run Cypress tests.
+        run: npm run cy:test
+
+      - name: Run htmlproofer.
+        run: npm run htmlproofer
+
+      - name: Run AXE test.
         run: npm run cy:axe
