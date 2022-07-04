@@ -20,6 +20,7 @@
     "federalist": "export NODE_ENV=production && npm run build",
     "build": "gulp buildWebsite",
     "start": "gulp website",
+    "start-detached": "gulp website --detach",
     "test": "gulp test",
     "deploy": "gulp deploy",
     "cy:open": "cypress open",
