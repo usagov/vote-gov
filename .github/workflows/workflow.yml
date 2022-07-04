@@ -13,7 +13,7 @@ jobs:
       LANGUAGE: en_US
       LC_ALL: en_US.UTF-8
 
-    steps:
+  steps:
       - name: Checkout source.
         uses: actions/checkout@v2
 
