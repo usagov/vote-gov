@@ -1,0 +1,59 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+
+
+{{ partial "head.html" . }}
+
+<body class="page-register-{{ .Params.registration_type }}">
+{{ partial "header.html" . }}
+<div id="main-content" role="main">
+  <div class="bg-blue css-arrow">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-4">
+          <a class="site-logo" href="{{ .Site.Home.RelPermalink }}" aria-label="Vote.gov">
+            <div class="logo-text">{{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</div>
+            <img id="SiteLogo" src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg" alt="">
+          </a>
+        </div>
+        <div id="skip-target" class="tablet:grid-col-8 right-shift">
+          <header class="align-bottom">
+            <h1 class="main-heading">
+              {{ replace $translation.register.heading "%state_name%" .Params.state_name }}
+            </h1>
+          </header>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-lightblue">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-4"></div>
+        <div class="tablet:grid-col-8 right-shift">
+          <section class="voter-info">
+            {{ .Render ( print "types/" .Params.registration_type ) }}
+            <time class="updated-date" datetime="{{ .Lastmod }}">
+              {{ .Site.Params.last_updated }}
+
+              {{ partial "date.html" . }}
+            </time>
+          </section>
+          
+          <p class="arrow-text"><a href="{{ .Site.Home.RelPermalink }}" title="Vote.gov"><span class="arrow direction"></span>{{ .Site.Params.go_back }}</a></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+
+</div>
+{{ partial "analytics.html" . }}
+{{ partial "scripts.html" . }}
+</body>
+
+</html>
