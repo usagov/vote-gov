@@ -14,13 +14,7 @@
                 <img id="SiteLogo" src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg" alt="Web design standards">
               </a>
             </div>
-            <div class="tablet:grid-col-8 right-shift">
-              <header class="align-bottom">
-                <h1 class="main-heading">
-                  {{ $translation.error.error_main_heading }}
-                </h1>
-              </header>
-            </div>
+
           </div>
         </div>
       </div>
@@ -37,6 +31,9 @@
             {{ $t := ( index $.Site.Data.translations .Language.Lang ) }}
             {{ if $t.error }}
             <div class="translation voter-info" lang="{{ .Language.Lang }}" hidden>
+              <h1 class="main-heading">
+                {{ $translation.error.error_main_heading }}
+              </h1>
               <h2 class="usa-intro">{{ $t.error.error_intro }}</h2>
 
               <p>{{ $t.error.error_msg }}</p>
@@ -60,7 +57,7 @@
 
       <!-- Footer BEGIN -->
       <footer>
-        {{ partial "footer.html" . }}
+        {{ partial "footer1.html" . }}
       </footer>
       <!-- Footer END -->
     </div>
