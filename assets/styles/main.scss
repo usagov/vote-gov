@@ -53,6 +53,10 @@ p, label#emailsub, .registered-resources li, .updated-date {
   font-weight: bold;
 }
 
+.bg-white {
+  background: #ffffff;
+}
+
 .bg-lightblue {
   background: $color-blue-light;
   color: $color-blue-dark;
@@ -83,6 +87,20 @@ p, label#emailsub, .registered-resources li, .updated-date {
   max-width: 25rem;
   width: 100%;
   margin-bottom: 1rem;
+}
+
+.signup-btn {
+  max-width: 20%;
+  margin-left: 1rem;
+}
+
+.form-signup {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#email-2 {
+  margin-top: 0;
 }
 
 label.max-width-input {
@@ -453,8 +471,93 @@ $logo-width: 130px;
   }
 }
 
+.contact-container {
+  white-space: nowrap;
+  a {
+    display: inline-block;
+  }
+  img {
+    display: inline-block;
+  }
+  h4 {
+    display: inline-block;
+  }
+  svg {
+    display: inline-block;
+  }
+  div {
+    display: inline-block;
+  }
+}
+
+.usa-icon__mail {
+  height: 2rem;
+}
+
+.footer-site-nav {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: black;
+  svg {
+    height: 10rem;
+  }
+}
+
+.footer-identifier {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  img {
+    height: 3rem;
+  }
+}
+
+.footer-gsa {
+  a {
+    display: inline-block;
+  }
+  div {
+    display: inline-block;
+  }
+}
+
+.footer-links {
+  li {
+    padding-top: .5rem;
+    a {
+      color: black;
+    }
+    }
+}
+
+.footer-lists {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.footer-site-logo {
+  text-align: center;
+}
+
+.identifier-links {
+  color: white;
+  li {
+    padding-top: .5rem;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    }
+}
+
 .footer-logos {
   padding: 2rem 0 2rem;
+}
+
+.circle {
+  background-color: pink;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
 }
 
 .policy {
@@ -521,16 +624,23 @@ $logo-width: 130px;
   padding-bottom: 1rem;
 }
 
-.divider-short{
+.divider-main-heading{
   border: 2px solid $color-red;
   width: 10rem;
 }
 
-.divider-long{
+.divider-subpage {
   border: .5px solid $color-grey-dark;
   width: 100%;
-  display: block;
+  display: block;    
 }
+
+.divider-identifier {
+  border: .5px solid white;
+  width: 100%;
+  display: block;  
+  margin-bottom: 1rem;
+  }
 
 .subpage-content {
   padding-top: 4rem;

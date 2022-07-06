@@ -1,0 +1,130 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+
+<div class="bg-lightblue">
+	<div class="grid-container footer-signup">
+		<div class="">
+			<form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
+				<h2 class="text-blue font-size-medium">{{ replace $translation.footer.subscribe_email "%USAGov%"
+					"USAGov" }}</h2>
+				<label class="max-width-input text-grey" for="email-2" id="emailsub">{{
+					$translation.footer.your_email_address }}</label>
+				<div class="grid-row">
+					<input id="email-2" name="email" type="email" class="usa-input max-width-input">
+					<button class="usa-button max-width-input signup-btn" id="user-submit" type="submit">{{
+						$translation.footer.sign_up }}</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="bg-white">
+	<div class="grid-container footer-site-nav">
+		<div class="grid-row grid-gap">
+			<div class="tablet:grid-col-4">
+				<div class="footer-site-logo">
+				<h4>Vote.gov</h4>
+				{{ partial "ballot_box-blue.svg" }}					
+				</div>
+			</div>
+			<div class="tablet:grid-col-3">
+				<h4>Voting Basics</h4>
+				<ul class="usa-list usa-list--unstyled footer-links footer-site-nav">
+				<li><a href="">What's voter registration?</a></li>
+				<li><a href="">Questions about the voting process</a></li>
+				<li><a href="">Congressional Elections and Midterm Elections</a></li>
+				<li><a href="">State and Local Elections</a></li>
+				<li><a href="">What is a primary election?</a></li>
+				<li><a href="">What is a caucus?</a></li>
+				<li><a href="">The Presidential Election Process</a></li>
+				</ul>
+			</div>
+
+			<div class="tablet:grid-col-3">
+				<h4>Voting Basics</h4>
+				<ul class="usa-list usa-list--unstyled footer-links footer-site-nav">
+				<li><a href="">What's voter registration?</a></li>
+				<li><a href="">Questions about the voting process</a></li>
+				<li><a href="">Congressional Elections and Midterm Elections</a></li>
+				<li><a href="">State and Local Elections</a></li>
+				<li><a href="">What is a primary election?</a></li>
+				<li><a href="">What is a caucus?</a></li>
+				<li><a href="">The Presidential Election Process</a></li>
+				</ul>
+			</div>
+			<div class="tablet:grid-col-2">
+				<h4>Return to top</h4>
+				<!-- <svg class="usa-icon circle" aria-hidden="true" focusable="false" role="img">
+					<use xlink:href="/assets/img/sprite.svg#expand_less"></use>
+				  </svg> -->
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- <div class="bg-lightblue footer-contact">
+	<div class="grid-container">
+		<div class="grid-row grid-gap ">
+			<div class="tablet:grid-col-4"></div>
+			<div class="tablet:grid-col-4">
+				<a class="=" href="{{ $translation.footer.twitter_link }}">
+						<h4>{{ replace $translation.footer.twitter_text "%Vote.gov%" "Vote.gov" }}</h4>
+					<img class="=twitter-img" src="{{ .Site.BaseURL }}/assets/img/Icon_Connect_Twitter_round.png"
+						alt="twitter" />						
+				</a>
+		</div>
+		<div class="tablet:grid-col-4">
+		<svg class="usa-icon usa-icon__mail" aria-hidden="true" focusable="false" role="img">
+			<use xlink:href="/assets/img/sprite.svg#mail"></use>
+		  </svg>
+		  <div>vote@gsa.gov</div>
+	</div>
+  </div>
+	</div>
+</div> -->
+
+<!-- identifier -->
+<div class="bg-blue">
+	<div class="grid-container footer-identifier">
+		<div class="grid-row">
+			<div class="footer-gsa">
+				<a href="{{ .Site.Home.RelPermalink }}">
+					<img src="{{ .Site.BaseURL }}/assets/img/gsa-logo.png" alt="">
+				</a>
+				<div>
+					Vote.gov <br>
+					An official website of the General Services Administration
+				</div>
+			</div>
+		</div>
+<div class="grid-row grid-gap footer-identifier">
+	<div class="tablet:grid-col-3">
+		<ul class="usa-list usa-list--unstyled identifier-links">
+			<li><a href="">About Vote.gov</a></li>
+			<li><a href="">Accessibility</a></li>
+		</ul>
+	</div>
+	<div class="tablet:grid-col-3">
+		<ul class="usa-list usa-list--unstyled identifier-links">
+			<li><a href="">FOIA Requests</a></li>
+			<li><a href="">No Fear Act data</a></li>
+		</ul>
+	</div>
+	<div class="tablet:grid-col-3">
+		<ul class="usa-list usa-list--unstyled identifier-links">
+			<li><a href="">Office of the Inspector General</a></li>
+			<li><a href="">Performance Reports</a></li>
+		</ul>
+	</div>
+	<div class="tablet:grid-col-3">
+		<ul class="usa-list usa-list--unstyled identifier-links">
+			<li><a href="">Privacy Policy</a></li>
+		</ul>
+	</div>
+</div>
+<span class="divider-identifier"></span>
+<div>Looking for U.S. government information and services? <a href="" class="identifier-links">Visit USA.gov</a></div>
+	</div>
+</div>
+</div>
+<!-- identifier end -->
