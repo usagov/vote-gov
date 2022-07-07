@@ -45,7 +45,7 @@
 		<div class="grid-row grid-gap">
 			<div class="desktop:grid-col-3">
 				<a class="usa-footer__primary-link policy" href="{{ $translation.footer.privacy_policy_link_url }}">
-					{{ $translation.footer.privacy_policy }}</a>
+					{{ $translation.footer.privacy_policy }}{{ if ne .Site.Language.LanguageName "Español" }}{{ .Site.Params.english_only }}{{ end }}</a>
 			</div>
 			<div class="desktop:grid-col">
 				<a class="usa-footer__primary-link" href="{{ $translation.footer.twitter_link }}">
