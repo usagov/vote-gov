@@ -22,6 +22,7 @@
       "master": "https://vote.gov",
       "staging": "https://staging.vote.gov",
       "fed": "https://cg-9e8debaf-b030-4825-a43c-cb2bc850c96c.app.cloud.gov"
-    }
+    },
+    "sitewide_alert": false
   }
 }
