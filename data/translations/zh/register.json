@@ -13,7 +13,7 @@
   "in_person__link": "%state_name% 的州選舉網站",
   "not_needed__intro": "%state_name% 不需要選民登記。了解有關在%link%上投票的更多資訊",
   "not_needed__link": "%state_name% 的州選舉網站",
-  "online__answer1": "在%link%開始您的線上登記",
+  "online__answer1": "在%link%開始您的網路登記",
   "online__answer1_link": "%state_name% 的州選舉網站",
   "online__answer2": "您也可以通過郵件或親自在%link%上登記投票",
   "online__answer2_link": "%state_name% 的州選舉網站",
@@ -28,7 +28,7 @@
   "dates__electionday_heading": "大選日",
   "dates__heading": "%state_name% 的選民登記截止日期",
   "dates__inperson_deadline": "親自報名截止日期：",
-  "confirm_registration__heading": "如何詢您的選民登記",
+  "confirm_registration__heading": "如何查詢您的選民登記",
   "confirm_registration__intro": "您可以在%link%上確認您的選民登記狀態",
   "confirm_registration__link": "%state_name% 的州選舉網站"
 }
