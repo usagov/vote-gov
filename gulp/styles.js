@@ -30,12 +30,12 @@ gulp.task('styles', gulp.series('scss-lint', function () {
 
   log(colors.cyan('styles'), 'Compiling Sass assets');
 
-  var scssStream = scss();
+  var scssStream = scss({includePaths: ["node_modules/@uswds/uswds/packages"]});
   var stream = gulp.src('./assets/styles/main.scss');
 
   if (process.env.NODE_ENV === 'production') {
     log(colors.cyan('styles'), 'Compressing styles');
-    scssStream = scss({outputStyle: 'compressed'});
+    scssStream = scss({includePaths: ["node_modules/@uswds/uswds/packages"], outputStyle: 'compressed'});
 
     stream = stream.pipe(scssStream)
       .pipe(postcss([autoprefixer()]))
