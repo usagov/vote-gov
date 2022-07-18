@@ -1,0 +1,50 @@
+{
+    "eac_link": "https://www.eac.gov/",
+    "eac_text": "in partnership with",
+    "privacy_policy": "Privacy policy",
+    "privacy_policy_link_url": "/policies",
+    "sign_up": "Sign Up",
+    "subscribe_email": "Sign up to get emails from %USAGov%",
+    "subscribe_email_link_url": "https://connect.usa.gov/subscribe",
+    "twitter_link": "https://twitter.com/votegov",
+    "twitter_text": "Follow %Vote.gov% on Twitter",
+    "usagov_img": "img/usagov-logo.png",
+    "usagov_link": "https://www.usa.gov/",
+    "your_email_address": "Enter your email address",
+    "usagov_logo_alt_text": "%USA.gov% logo",
+    "eac_logo_alt_text": "In partnership with %U.S. Election Assistance Commission%",
+
+    "subpage_1_title": "Voting Basics",
+    "subpage_1_link1": "What's voter registration?",
+    "subpage_1_link2": "Questions about the voting process",
+    "subpage_1_link3": "Congressional Elections and Midterm Elections",
+    "subpage_1_link4": "State and Local Elections",
+    "subpage_1_link5": "What is a primary election?",
+    "subpage_1_link6": "What is a caucus?",
+    "subpage_1_link7": "The Presidential Election Process",
+
+    "subpage_2_title": "Register to Vote",
+    "subpage_2_link1": "Register to Vote",
+    "subpage_2_link2": "When is the deadline to register?",
+    "subpage_2_link3": "Check your registration status",
+    "subpage_2_link4": "Do I need to register before I can vote?",
+    "subpage_2_link5": "When should I update my voter registration?",
+    "subpage_2_link6": "Is the voter registration process secure?",
+
+    "identifier_gsa_txt": "An official website of the ",
+    "identifier_gsa_txt__1": "General Services Administration",
+
+    "identifier_link1": "About Vote.gov",
+    "identifier_link2": "Accessibility",
+    "identifier_link3": "FOIA Requests",
+    "identifier_link4": "No Fear Act data",
+    "identifier_link5": "Office of the Inspector General",
+    "identifier_link6": "Performance Reports",
+    "identifier_link7": "Privacy Policy",
+
+    "identifier_more_info": "Looking for U.S. government information and services? ",
+    "identifier_more_info__1": "Visit USA.gov"
+
+    
+
+  }

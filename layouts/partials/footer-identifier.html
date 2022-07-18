@@ -1,23 +1,26 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 
+<!-- email sign up form START -->
 <div class="bg-lightblue">
 	<div class="grid-container footer-signup">
 		<div class="">
 			<form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
-				<h2 class="text-blue font-size-medium">{{ replace $translation.footer.subscribe_email "%USAGov%"
+				<h2 class="text-blue font-size-medium">{{ replace $translation.footer_identifier.subscribe_email "%USAGov%"
 					"USAGov" }}</h2>
 				<label class="max-width-input text-grey" for="email-2" id="emailsub">{{
-					$translation.footer.your_email_address }}</label>
+					$translation.footer_identifier.your_email_address }}</label>
 				<div class="grid-row">
 					<input id="email-2" name="email" type="email" class="usa-input max-width-input">
 					<button class="usa-button max-width-input signup-btn" id="user-submit" type="submit">{{
-						$translation.footer.sign_up }}</button>
+						$translation.footer_identifier.sign_up }}</button>
 				</div>
 			</form>
 		</div>
 	</div>
 </div>
+<!-- email sign up form END -->
 
+<!-- site nav START -->
 <div class="bg-white">
 	<div class="grid-container footer-site-nav">
 		<div class="grid-row grid-gap">
@@ -28,32 +31,31 @@
 				</div>
 			</div>
 			<div class="tablet:grid-col-3">
-				<h4 f>Voting Basics</h4>
+				<h4>{{ $translation.footer_identifier.subpage_1_title }}</h4>
 				<ul class="usa-list usa-list--unstyled footer-links footer-site-nav">
-				<li><a href="">What's voter registration?</a></li>
-				<li><a href="">Questions about the voting process</a></li>
-				<li><a href="">Congressional Elections and Midterm Elections</a></li>
-				<li><a href="">State and Local Elections</a></li>
-				<li><a href="">What is a primary election?</a></li>
-				<li><a href="">What is a caucus?</a></li>
-				<li><a href="">The Presidential Election Process</a></li>
+					<li><a href="">{{ $translation.footer_identifier.subpage_1_link1 }}</a></li>
+					<li><a href="">{{ $translation.footer_identifier.subpage_1_link2 }}</a></li>
+					<li><a href="">{{ $translation.footer_identifier.subpage_1_link3 }}</a></li>
+					<li><a href="">{{ $translation.footer_identifier.subpage_1_link4 }}</a></li>
+					<li><a href="">{{ $translation.footer_identifier.subpage_1_link5 }}</a></li>
+					<li><a href="">{{ $translation.footer_identifier.subpage_1_link6 }}</a></li>
+					<li><a href="">{{ $translation.footer_identifier.subpage_1_link7 }}</a></li>
 				</ul>
 			</div>
 
 			<div class="tablet:grid-col-3">
-				<h4>Voting Basics</h4>
+				<h4>{{ $translation.footer_identifier.subpage_2_title }}</h4>
 				<ul class="usa-list usa-list--unstyled footer-links footer-site-nav">
-				<li><a href="">What's voter registration?</a></li>
-				<li><a href="">Questions about the voting process</a></li>
-				<li><a href="">Congressional Elections and Midterm Elections</a></li>
-				<li><a href="">State and Local Elections</a></li>
-				<li><a href="">What is a primary election?</a></li>
-				<li><a href="">What is a caucus?</a></li>
-				<li><a href="">The Presidential Election Process</a></li>
+					<li><a href="">{{ $translation.footer_identifier.subpage_2_link1 }}</a></li>
+					<li><a href="">{{ $translation.footer_identifier.subpage_2_link2 }}</a></li>
+					<li><a href="">{{ $translation.footer_identifier.subpage_2_link3 }}</a></li>
+					<li><a href="">{{ $translation.footer_identifier.subpage_2_link4 }}</a></li>
+					<li><a href="">{{ $translation.footer_identifier.subpage_2_link5 }}</a></li>
+					<li><a href="">{{ $translation.footer_identifier.subpage_2_link6 }}</a></li>
 				</ul>
 			</div>
 			<div class="tablet:grid-col-2">
-				<h4>Return to top</h4>
+				<!-- <h4>Return to top</h4> -->
 				<!-- <svg class="usa-icon circle" aria-hidden="true" focusable="false" role="img">
 					<use xlink:href="/assets/img/sprite.svg#expand_less"></use>
 				  </svg> -->
@@ -61,7 +63,9 @@
 		</div>
 	</div>
 </div>
+<!-- site nav END -->
 
+<!-- contact START -->
 <div class="bg-lightblue">
 	<div class="grid-container">
 		<div class="grid-row grid-gap">
@@ -70,7 +74,7 @@
 				<a href="{{ $translation.footer.twitter_link }}" class="twitter-link">
 					<div class="follow-twitter">
 						<div>
-							<p>{{ replace $translation.footer.twitter_text "%Vote.gov%" "Vote.gov" }}</p>
+							<p>{{ replace $translation.footer_identifier.twitter_text "%Vote.gov%" "Vote.gov" }}</p>
 						</div>
 					</div>
 				</a>
@@ -87,8 +91,9 @@
   </div>
 	</div>
 </div>
+<!-- contact END -->
 
-<!-- identifier -->
+<!-- identifier START -->
 <div class="bg-blue">
 	<div class="grid-container footer-identifier">
 		<div class="grid-row">
@@ -96,38 +101,38 @@
 					<img src="{{ .Site.BaseURL }}/assets/img/gsa-logo.png" alt="">
 				<div>
 					Vote.gov <br>
-					An official website of the <a href="">General Services Administration</a>
+					{{ $translation.footer_identifier.identifier_gsa_txt }}<a href="">{{ $translation.footer_identifier.identifier_gsa_txt__1 }}</a>
 				</div>
 			</div>
 		</div>
 <div class="grid-row grid-gap footer-identifier">
 	<div class="tablet:grid-col-3">
 		<ul class="usa-list usa-list--unstyled identifier-links">
-			<li><a href="">About Vote.gov</a></li>
-			<li><a href="">Accessibility</a></li>
+			<li><a href="">{{ $translation.footer_identifier.identifier_link1 }}</a></li>
+			<li><a href="">{{ $translation.footer_identifier.identifier_link2 }}</a></li>
 		</ul>
 	</div>
 	<div class="tablet:grid-col-3">
 		<ul class="usa-list usa-list--unstyled identifier-links">
-			<li><a href="">FOIA Requests</a></li>
-			<li><a href="">No Fear Act data</a></li>
+			<li><a href="">{{ $translation.footer_identifier.identifier_link3 }}</a></li>
+			<li><a href="">{{ $translation.footer_identifier.identifier_link4 }}</a></li>
 		</ul>
 	</div>
 	<div class="tablet:grid-col-3">
 		<ul class="usa-list usa-list--unstyled identifier-links">
-			<li><a href="">Office of the Inspector General</a></li>
-			<li><a href="">Performance Reports</a></li>
+			<li><a href="">{{ $translation.footer_identifier.identifier_link5 }}</a></li>
+			<li><a href="">{{ $translation.footer_identifier.identifier_link6 }}</a></li>
 		</ul>
 	</div>
 	<div class="tablet:grid-col-3">
 		<ul class="usa-list usa-list--unstyled identifier-links">
-			<li><a href="">Privacy Policy</a></li>
+			<li><a href="">{{ $translation.footer_identifier.identifier_link7 }}</a></li>
 		</ul>
 	</div>
 </div>
 <span class="divider-identifier"></span>
-<div>Looking for U.S. government information and services? <a href="" class="identifier-links">Visit USA.gov</a></div>
+<div>{{ $translation.footer_identifier.identifier_more_info }}<a href="" class="identifier-links">{{ $translation.footer_identifier.identifier_more_info__1 }}</a></div>
 	</div>
 </div>
 </div>
-<!-- identifier end -->
+<!-- identifier END -->

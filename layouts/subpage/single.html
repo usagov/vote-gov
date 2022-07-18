@@ -1,5 +1,4 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-{{ $currentPage := . -}}
 
 {{ partial "head.html" . }}
 
@@ -9,12 +8,12 @@
 
   <div id="main-content" role="main">
 
-  <!-- header -->
+    <!-- header -->
     <div class="bg-img" style="background-image: url('{{ .Site.BaseURL }}/assets/img/placeholder-image.jpeg')">
       <div class="bg-blue-transparent">
-      <div class="grid-container">
+        <div class="grid-container">
           <div class="grid-row grid-gap">
-    
+
             <div class="subpage-header">
               <header class="align-bottom">
                 <h1 class="main-heading">What's voter registration?</h1>
@@ -26,66 +25,64 @@
         </div>
       </div>
     </div>
-<!-- header end -->
+    <!-- header end -->
 
-<!-- breadcrumb nav -->
-<div class="grid-container">
-  <nav class="usa-breadcrumb" aria-label="Breadcrumbs,,">
-    <ol class="usa-breadcrumb__list">
-      <li class="usa-breadcrumb__list-item">
-        <a href="{{ .Site.BaseURL }}" class="usa-breadcrumb__link first-nav-item"><span>Home</span></a>
-      </li>
-      <li class="usa-breadcrumb__list-item">
-        <a href="" class="usa-breadcrumb__link top-nav-item"
-          >{{ .Params.parent_title }}</a
-        >
-        <svg class="usa-icon breadcrumb-arrow" aria-hidden="true" focusable="false" role="img">
-            <use xlink:href="/assets/img/sprite.svg#navigate_next"></use>
-          </svg>
-        <a href="" class="usa-breadcrumb__link current-nav-item" aria-current="page"
-        >{{ .Title }}</a
-      >
-      </li>
-    </ol>
-      </div>
-  <!-- breadcrumb nav end -->
+    <!-- breadcrumb nav -->
+    <div class="grid-container">
+      <nav class="usa-breadcrumb" aria-label="Breadcrumbs,,">
+        <ol class="usa-breadcrumb__list">
+          <li class="usa-breadcrumb__list-item">
+            <a href="{{ .Site.BaseURL }}" class="usa-breadcrumb__link first-nav-item"><span>Home</span></a>
+          </li>
+          <li class="usa-breadcrumb__list-item">
+            <a href="" class="usa-breadcrumb__link top-nav-item">{{ .Params.parent_title }}</a>
+            <svg class="usa-icon breadcrumb-arrow" aria-hidden="true" focusable="false" role="img">
+              <use xlink:href="/assets/img/sprite.svg#navigate_next"></use>
+            </svg>
+            <a href="" class="usa-breadcrumb__link current-nav-item" aria-current="page">{{ .Title }}</a>
+          </li>
+        </ol>
+    </div>
+    <!-- breadcrumb nav end -->
 
 
-      <div class="grid-container subpage-content">
-        <div class="grid-row grid-gap">
-          <div class="tablet:grid-col-4">
+    <div class="grid-container subpage-content">
+      <div class="grid-row grid-gap">
+        
+        <!-- side nav -->
+        <div class="tablet:grid-col-4">
 
-<!-- side nav -->
-<nav aria-label="Side navigation,">
+          <nav aria-label="Side navigation,">
 
-  <ul class="usa-sidenav">
-    <li class="usa-sidenav__parent-title">
-      <div class="">{{ .Params.parent_title }}</div>
-    </li>
-  {{ range where .Site.Pages "Type" "subpage" }}
-  <li class="usa-sidenav__item">
-    <a href="{{ .Permalink }}" {{ if eq $currentPage . }} class="usa-current" {{ end }}>{{ .Title }}</a>
-  </li>
-  {{ end }}
-  </ul>
-  </nav>
-<!-- side nav end -->
+            <ul class="usa-sidenav">
+              <li class="usa-sidenav__parent-title">
+                <div class="">{{ .Params.parent_title }}</div>
+              </li>
+              {{ $currentPage := . -}}
+              {{ range where .Site.Pages "Type" "subpage" }}
+              <li class="usa-sidenav__item">
+                <a href="{{ .Permalink }}" {{ if eq $currentPage . }} class="usa-current" {{ end }}>{{ .Title }}</a>
+              </li>
+              {{ end }}
+            </ul>
+          </nav>
+        </div>
+        <!-- side nav end -->
 
+<!-- vvv WHERE SHOULD THIS CONTENT LIVE ?? vvv -->
+        <div class="tablet:grid-col-8 right-shift">
 
-          </div>
-          <div class="tablet:grid-col-8 right-shift">
+          <section>
+            {{ .Content }}
+          </section>
 
-            <section>
-              {{ .Content }}
-            </section>
-
-            <div>
+          <div>
             <img src="{{ .Site.BaseURL }}/assets/img/placeholder-image.jpeg" alt=""></img>
-            <p class="subpage-caption">This line is for image Caption and Author Name.</p>              
-            </div>
+            <p class="subpage-caption">This line is for image Caption and Author Name.</p>
+          </div>
 
 
-            <div class="subpage-container">
+          <div class="subpage-container">
             <span class="divider-subpage"></span>
 
             <div class="grid-container subpage-container">
@@ -95,29 +92,34 @@
                   <h4>Last Updated</h4>
                   <p>May 11, 2022</p>
                   <div class="subpage-container">
-                  <h4 >Source</h4>
-                  <a href="https://vote.gov.com">vote.gov</a>                    
+                    <h4>Source</h4>
+                    <a href="https://vote.gov.com">vote.gov</a>
                   </div>
 
                 </div>
                 <div class="tablet:grid-col-8 right-shift">
                   <h4>Reference</h4>
                   <ol class="usa-list references-list">
-                    <li>({{ index $translation.day_number "1" }}) <a href="">Dui, dui, vitae ullamcorper justo, vitae, interdum, mi mattiquam</a></li>
-                    <li>({{ index $translation.day_number "2" }}) <a href="">Dui, dui, vitae ullamcorper justo, vitae, interdum, mi mattiquam</a></li>
-                    <li>({{ index $translation.day_number "3" }}) <a href="">Dui, dui, vitae ullamcorper justo, vitae, interdum, mi mattiquam</a></li>
+                    <li>({{ index $translation.day_number "1" }}) <a href="">Dui, dui, vitae ullamcorper justo, vitae,
+                        interdum, mi mattiquam</a></li>
+                    <li>({{ index $translation.day_number "2" }}) <a href="">Dui, dui, vitae ullamcorper justo, vitae,
+                        interdum, mi mattiquam</a></li>
+                    <li>({{ index $translation.day_number "3" }}) <a href="">Dui, dui, vitae ullamcorper justo, vitae,
+                        interdum, mi mattiquam</a></li>
                   </ol>
                 </div>
               </div>
             </div>
 
-            <span class="divider-subpage"></span>              
-            </div>
+            <span class="divider-subpage"></span>
+          </div>
+
+<!-- ^^^ WHERE SHOULD THIS CONTENT LIVE ?? ^^^  -->
 
 
 
-            <h2>Share Page</h2>
-            <div class="share-icons-container">
+          <h2>Share Page</h2>
+          <div class="share-icons-container">
             <svg class="usa-icon .blue-30" aria-hidden="true" focusable="false" role="img">
               <use xlink:href="/assets/img/sprite.svg#facebook"></use>
             </svg>
@@ -128,12 +130,13 @@
 
             <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
               <use xlink:href="/assets/img/sprite.svg#mail"></use>
-            </svg>              
-            </div>
+            </svg>
+          </div>
 
         </div>
       </div>
     </div>
+    
 
     <footer>
       {{ partial "footer-identifier.html" . }}
