@@ -9,16 +9,16 @@
   <div id="main-content" role="main">
 
     <!-- header -->
-    <div class="bg-img" style="background-image: url('{{ .Site.BaseURL }}/assets/img/placeholder-image.jpeg')">
+    <div class="bg-img" style="background-image: url('{{ .Site.BaseURL }}{{ .Params.image_src }}')">
       <div class="bg-blue-transparent">
         <div class="grid-container">
           <div class="grid-row grid-gap">
 
             <div class="subpage-header">
               <header class="align-bottom">
-                <h1 class="main-heading">What's voter registration?</h1>
+                <h1 class="main-heading">{{ .Params.Title }}</h1>
                 <span class="divider-main-heading"></span>
-                <h2 class="">Description or teaser text. Lorem ipsum dolor sit amet, consectetur</h2>
+                <h2 class="">{{ .Params.teaser_text }}</h2>
               </header>
             </div>
           </div>
@@ -32,7 +32,7 @@
       <nav class="usa-breadcrumb" aria-label="Breadcrumbs,,">
         <ol class="usa-breadcrumb__list">
           <li class="usa-breadcrumb__list-item">
-            <a href="{{ .Site.BaseURL }}" class="usa-breadcrumb__link first-nav-item"><span>Home</span></a>
+            <a href="{{ .Site.BaseURL }}" class="usa-breadcrumb__link first-nav-item"><span>{{ .Params.top_nav }}</span></a>
           </li>
           <li class="usa-breadcrumb__list-item">
             <a href="" class="usa-breadcrumb__link top-nav-item">{{ .Params.parent_title }}</a>
@@ -69,7 +69,7 @@
         </div>
         <!-- side nav end -->
 
-<!-- vvv WHERE SHOULD THIS CONTENT LIVE ?? vvv -->
+        <!-- subpage metadata -->
         <div class="tablet:grid-col-8 right-shift">
 
           <section>
@@ -77,8 +77,8 @@
           </section>
 
           <div>
-            <img src="{{ .Site.BaseURL }}/assets/img/placeholder-image.jpeg" alt=""></img>
-            <p class="subpage-caption">This line is for image Caption and Author Name.</p>
+            <img src="{{ .Site.BaseURL }}{{ .Params.image_src }}" alt=""></img>
+            <p class="subpage-caption">{{ .Params.image_alt }}</p>
           </div>
 
 
@@ -90,22 +90,21 @@
               <div class="grid-row grid-gap">
                 <div class="tablet:grid-col-4">
                   <h4>Last Updated</h4>
-                  <p>May 11, 2022</p>
+                  <p>{{ .Params.last_updated }}</p>
                   <div class="subpage-container">
                     <h4>Source</h4>
-                    <a href="https://vote.gov.com">vote.gov</a>
+                    <a href="https://vote.gov.com">{{ .Params.source_link }}</a>
                   </div>
 
                 </div>
                 <div class="tablet:grid-col-8 right-shift">
                   <h4>Reference</h4>
                   <ol class="usa-list references-list">
-                    <li>({{ index $translation.day_number "1" }}) <a href="">Dui, dui, vitae ullamcorper justo, vitae,
-                        interdum, mi mattiquam</a></li>
-                    <li>({{ index $translation.day_number "2" }}) <a href="">Dui, dui, vitae ullamcorper justo, vitae,
-                        interdum, mi mattiquam</a></li>
-                    <li>({{ index $translation.day_number "3" }}) <a href="">Dui, dui, vitae ullamcorper justo, vitae,
-                        interdum, mi mattiquam</a></li>
+                      {{ range $index, $reference := .Params.references }}
+                        {{ $index = add $index 1 }}
+                        {{ $index = string $index }}
+                    <li>({{ index $translation.day_number $index }})<a href=""> {{ $reference }}</a></li>
+                      {{ end }}
                   </ol>
                 </div>
               </div>
@@ -113,12 +112,9 @@
 
             <span class="divider-subpage"></span>
           </div>
+          <!-- subpage metadata end  -->
 
-<!-- ^^^ WHERE SHOULD THIS CONTENT LIVE ?? ^^^  -->
-
-
-
-          <h2>Share Page</h2>
+          <h2>{{ .Params.share_page }}</h2>
           <div class="share-icons-container">
             <svg class="usa-icon .blue-30" aria-hidden="true" focusable="false" role="img">
               <use xlink:href="/assets/img/sprite.svg#facebook"></use>

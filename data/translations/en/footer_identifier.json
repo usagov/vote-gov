@@ -22,6 +22,15 @@
     "subpage_1_link5": "What is a primary election?",
     "subpage_1_link6": "What is a caucus?",
     "subpage_1_link7": "The Presidential Election Process",
+    
+    "subpage_1_path1": "/voter-registration",
+    "subpage_1_path2": "/voting-process",
+    "subpage_1_path3": "/congressional-and-midterm",
+    "subpage_1_path5": "/primary-election",
+    "subpage_1_path4": "/state-and-local",
+    "subpage_1_path6": "/caucus",
+    "subpage_1_path7": "/presidential-process",
+
 
     "subpage_2_title": "Register to Vote",
     "subpage_2_link1": "Register to Vote",
@@ -30,6 +39,13 @@
     "subpage_2_link4": "Do I need to register before I can vote?",
     "subpage_2_link5": "When should I update my voter registration?",
     "subpage_2_link6": "Is the voter registration process secure?",
+
+    "subpage_2_path1": "",
+    "subpage_2_path2": "",
+    "subpage_2_path3": "",
+    "subpage_2_path5": "",
+    "subpage_2_path4": "",
+    "subpage_2_path6": "",
 
     "identifier_gsa_txt": "An official website of the ",
     "identifier_gsa_txt__1": "General Services Administration",
