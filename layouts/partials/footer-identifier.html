@@ -28,7 +28,7 @@
 				</div>
 			</div>
 			<div class="tablet:grid-col-3">
-				<h4>Voting Basics</h4>
+				<h4 f>Voting Basics</h4>
 				<ul class="usa-list usa-list--unstyled footer-links footer-site-nav">
 				<li><a href="">What's voter registration?</a></li>
 				<li><a href="">Questions about the voting process</a></li>
@@ -62,38 +62,41 @@
 	</div>
 </div>
 
-<!-- <div class="bg-lightblue footer-contact">
+<div class="bg-lightblue">
 	<div class="grid-container">
-		<div class="grid-row grid-gap ">
+		<div class="grid-row grid-gap">
 			<div class="tablet:grid-col-4"></div>
-			<div class="tablet:grid-col-4">
-				<a class="=" href="{{ $translation.footer.twitter_link }}">
-						<h4>{{ replace $translation.footer.twitter_text "%Vote.gov%" "Vote.gov" }}</h4>
-					<img class="=twitter-img" src="{{ .Site.BaseURL }}/assets/img/Icon_Connect_Twitter_round.png"
-						alt="twitter" />						
+			<div class="tablet:grid-col-3">
+				<a href="{{ $translation.footer.twitter_link }}" class="twitter-link">
+					<div class="follow-twitter">
+						<div>
+							<p>{{ replace $translation.footer.twitter_text "%Vote.gov%" "Vote.gov" }}</p>
+						</div>
+					</div>
 				</a>
 		</div>
-		<div class="tablet:grid-col-4">
-		<svg class="usa-icon usa-icon__mail" aria-hidden="true" focusable="false" role="img">
-			<use xlink:href="/assets/img/sprite.svg#mail"></use>
-		  </svg>
-		  <div>vote@gsa.gov</div>
+		<div class="tablet:grid-col-2"></div>
+		<div class="tablet:grid-col-3">
+			<div class="email-vote">
+				<div>
+					<p>vote@gsa.gov</p>
+				</div>
+			</div>
+		</div>
 	</div>
   </div>
 	</div>
-</div> -->
+</div>
 
 <!-- identifier -->
 <div class="bg-blue">
 	<div class="grid-container footer-identifier">
 		<div class="grid-row">
 			<div class="footer-gsa">
-				<a href="{{ .Site.Home.RelPermalink }}">
 					<img src="{{ .Site.BaseURL }}/assets/img/gsa-logo.png" alt="">
-				</a>
 				<div>
 					Vote.gov <br>
-					An official website of the General Services Administration
+					An official website of the <a href="">General Services Administration</a>
 				</div>
 			</div>
 		</div>

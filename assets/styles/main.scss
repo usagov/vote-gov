@@ -90,8 +90,17 @@ p, label#emailsub, .registered-resources li, .updated-date {
 }
 
 .signup-btn {
-  max-width: 20%;
-  margin-left: 1rem;
+  min-width: 10%;
+  @include at-media('tablet') {
+    margin-left: 1rem;
+    max-width: 30%;
+  }
+}
+
+[dir="rtl"] .signup-btn {
+  @include at-media('tablet') {
+    margin-right: 1rem;
+  }
 }
 
 .form-signup {
@@ -471,35 +480,31 @@ $logo-width: 130px;
   }
 }
 
-.contact-container {
-  white-space: nowrap;
-  a {
-    display: inline-block;
-  }
-  img {
-    display: inline-block;
-  }
-  h4 {
-    display: inline-block;
-  }
-  svg {
-    display: inline-block;
-  }
-  div {
-    display: inline-block;
-  }
-}
-
 .usa-icon__mail {
   height: 2rem;
 }
 
 .footer-site-nav {
-  padding-top: 2rem;
   padding-bottom: 2rem;
   color: black;
   svg {
-    height: 10rem;
+    height: 6rem;
+
+    @include at-media('tablet') {
+      height: 10rem;
+    }
+  }
+
+  h4 {
+    font-size: larger;
+  }
+}
+
+[dir="rtl"] .footer-site-nav{
+  padding-right: 1rem;
+
+  h4 {
+    margin-right: 1rem;
   }
 }
 
@@ -514,10 +519,24 @@ $logo-width: 130px;
 .footer-gsa {
   a {
     display: inline-block;
+    color: white;
   }
   div {
     display: inline-block;
+    font-size: larger;
   }
+  img {
+    border-right: 1px solid white;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+[dir="rtl"] .footer-gsa img {
+  border-left: 1px solid white;
+  margin-left: 1rem;
+  border-right: 0;
+  margin-right: 0;
 }
 
 .footer-links {
@@ -535,7 +554,42 @@ $logo-width: 130px;
 }
 
 .footer-site-logo {
-  text-align: center;
+  text-align: left;
+
+  h4 {
+    color: $color-blue-headings;
+    margin-bottom: 0;
+  }
+
+  @include at-media('tablet') {
+    text-align: center;
+  }
+}
+
+[dir="rtl"] .footer-site-logo {
+  text-align: right;
+  
+  h4 {
+    margin-right: 1rem;
+
+    @include at-media('tablet') {
+      margin-right: 2rem;
+    }
+  }
+}
+
+.email-vote {
+  background-image: url(../img/usa-icons/mail.svg), linear-gradient(transparent, transparent);
+  background-position: 1rem;
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  display: inline-block;
+
+  p {
+    margin-left: 2.5rem;
+    text-decoration: underline;
+    padding: 1rem;
+  }
 }
 
 .identifier-links {
@@ -546,11 +600,32 @@ $logo-width: 130px;
       text-decoration: none;
       color: white;
     }
-    }
+  }
 }
 
 .footer-logos {
   padding: 2rem 0 2rem;
+}
+
+.follow-twitter {
+  background-image: url(../img/usa-icons/twitter.svg), linear-gradient(transparent, transparent);
+  background-position: 15.5rem;;
+  background-repeat: no-repeat;
+  background-size: 2rem;
+
+  p {
+  font-size: larger;
+  color: black;
+  font-weight: 700;
+  padding: 1rem;
+  width: 18rem;
+  }
+
+}
+
+.twitter-link {
+  text-decoration: none;
+  display: inline-block
 }
 
 .circle {
@@ -597,26 +672,52 @@ $logo-width: 130px;
   border: 1px #565c65 solid;
 }
 
-.usa-breadcrumb {
-  background-color: transparent;
-}
-
-.usa-breadcrumb__link span, .usa-breadcrumb__list-item {
-  text-decoration: none;
+.usa-breadcrumb__list-item:nth-last-child(2) .usa-breadcrumb__link:visited {
   color: #005ea2;
-  font-weight: 700;
-
 }
 
-.usa-breadcrumb__list-item {  
-  .usa-current span{
-  color: $color-grey-dark;
+.usa-breadcrumb__list-item {
   text-decoration: none;
+
+  .first-nav-item {
+    color: #005ea2;
+    text-decoration: underline;
+
+    // @media only screen and (max-width: 479px) {
+
+    // }
+  }
+
+  .top-nav-item {
+    color: black;
+    pointer-events: none;
+    cursor: default;
+  }
+  
+  .current-nav-item {
+    color: black;
+    font-weight: 700;
+    pointer-events: none;
+    cursor: default;
   }
 }
 
-.usa-breadcrumb__list-item:not(:last-child)::after {
-  background-color: #005ea2;
+.breadcrumb-arrow {
+  bottom: -0.2em;
+  height: 2ex;
+  width: 2ex;
+  position: relative;
+}
+
+.usa-sidenav__parent-title {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-top: 1px solid #dfe1e2;
+}
+
+[dir="rtl"] .usa-sidenav .usa-current::after {
+  left: auto;
+  right: 0;
 }
 
 .subpage-header{
@@ -643,8 +744,13 @@ $logo-width: 130px;
   }
 
 .subpage-content {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: none;
+  padding-bottom: 2rem;
+
+  @include at-media('tablet') {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
 }
 
 .subpage-container {
@@ -660,6 +766,7 @@ padding-top: 1rem;
 
   p {
     margin-top: 0;
+    margin-bottom: 0;
   }
 
   ol {
@@ -672,19 +779,42 @@ padding-top: 1rem;
 }
 
 .bg-img {
-  height: 15rem;
+  height: 18rem;
   color: white;
   background: #2c7cc799;
+    
+  @include at-media('tablet') {
+    height: 15rem;
+  }
 }
 
 .bg-blue-transparent {
-  height: 15rem;
+  height: 18rem;
   background: #2c7cc799;
+
+  @include at-media('tablet') {
+    height: 15rem;
+  }
 }
 
 .subpage-caption {
   margin-top: 0;
   padding-top: 0.5rem;
+}
+
+.subpage-source {
+  padding-bottom: 1rem;
+}
+
+.references-list {
+  list-style: none;
+  li {
+    margin-left: -20px;
+  }
+}
+
+[dir="rtl"] .references-list {
+  padding-right: 0;
 }
 
 .usa-sidenav__item .usa-current {

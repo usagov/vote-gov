@@ -29,24 +29,27 @@
 <!-- header end -->
 
 <!-- breadcrumb nav -->
-  <div class="grid-container">
-<nav class="usa-breadcrumb usa-breadcrumb--wrap" aria-label="Breadcrumbs,,,">
-  <ol class="usa-breadcrumb__list">
-    <li class="usa-breadcrumb__list-item">
-      <a href="{{ .Site.BaseURL }}" class="usa-breadcrumb__link"><span>Home</span></a>
-    </li>
-    <li class="usa-breadcrumb__list-item">
-      <a href="http://localhost:1313/subpage/voting-basics/" class="usa-breadcrumb__link"
-        ><span>Voting Basics</span></a
+<div class="grid-container">
+  <nav class="usa-breadcrumb" aria-label="Breadcrumbs,,">
+    <ol class="usa-breadcrumb__list">
+      <li class="usa-breadcrumb__list-item">
+        <a href="{{ .Site.BaseURL }}" class="usa-breadcrumb__link first-nav-item"><span>Home</span></a>
+      </li>
+      <li class="usa-breadcrumb__list-item">
+        <a href="" class="usa-breadcrumb__link top-nav-item"
+          >{{ .Params.parent_title }}</a
+        >
+        <svg class="usa-icon breadcrumb-arrow" aria-hidden="true" focusable="false" role="img">
+            <use xlink:href="/assets/img/sprite.svg#navigate_next"></use>
+          </svg>
+        <a href="" class="usa-breadcrumb__link current-nav-item" aria-current="page"
+        >{{ .Title }}</a
       >
-    </li>
-    <li class="usa-breadcrumb__list-item">
-      <a href="" class="usa-breadcrumb__list-item usa-current" aria-current="page"
-        ><span>{{ .Title }}</span></a
-      >
-  </ol>
-    </div>
-<!-- breadcrumb nav end -->
+      </li>
+    </ol>
+      </div>
+  <!-- breadcrumb nav end -->
+
 
       <div class="grid-container subpage-content">
         <div class="grid-row grid-gap">
@@ -54,7 +57,11 @@
 
 <!-- side nav -->
 <nav aria-label="Side navigation,">
+
   <ul class="usa-sidenav">
+    <li class="usa-sidenav__parent-title">
+      <div class="">{{ .Params.parent_title }}</div>
+    </li>
   {{ range where .Site.Pages "Type" "subpage" }}
   <li class="usa-sidenav__item">
     <a href="{{ .Permalink }}" {{ if eq $currentPage . }} class="usa-current" {{ end }}>{{ .Title }}</a>
@@ -87,15 +94,18 @@
                 <div class="tablet:grid-col-4">
                   <h4>Last Updated</h4>
                   <p>May 11, 2022</p>
-                  <h4>Source</h4>
-                  <a href="https://vote.gov.com">vote.gov</a>
+                  <div class="subpage-container">
+                  <h4 >Source</h4>
+                  <a href="https://vote.gov.com">vote.gov</a>                    
+                  </div>
+
                 </div>
                 <div class="tablet:grid-col-8 right-shift">
                   <h4>Reference</h4>
-                  <ol class="usa-list">
-                    <li><a href="">Dui, dui, vitae ullamcorper justo, vitae, interdum, mi mattiquam</a></li>
-                    <li><a href="">Dui, dui, vitae ullamcorper justo, vitae, interdum, mi mattiquam</a></li>
-                    <li><a href="">Dui, dui, vitae ullamcorper justo, vitae, interdum, mi mattiquam</a></li>
+                  <ol class="usa-list references-list">
+                    <li>({{ index $translation.day_number "1" }}) <a href="">Dui, dui, vitae ullamcorper justo, vitae, interdum, mi mattiquam</a></li>
+                    <li>({{ index $translation.day_number "2" }}) <a href="">Dui, dui, vitae ullamcorper justo, vitae, interdum, mi mattiquam</a></li>
+                    <li>({{ index $translation.day_number "3" }}) <a href="">Dui, dui, vitae ullamcorper justo, vitae, interdum, mi mattiquam</a></li>
                   </ol>
                 </div>
               </div>
@@ -108,7 +118,7 @@
 
             <h2>Share Page</h2>
             <div class="share-icons-container">
-            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+            <svg class="usa-icon .blue-30" aria-hidden="true" focusable="false" role="img">
               <use xlink:href="/assets/img/sprite.svg#facebook"></use>
             </svg>
 
