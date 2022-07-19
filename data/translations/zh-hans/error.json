@@ -1,0 +1,11 @@
+{
+  "error_main_heading": "哎呀！ 404錯誤",
+  "error_intro": "找不到網頁",
+  "error_msg": "我們找不到您所尋找的頁面。它可能已被刪除、更改名稱或暫時無法使用。",
+  "error_msg1": "如果您鍵入了網頁 URL，請檢查拼音。",
+  "error_msg2": "前往我們的%link%並再試一次。",
+  "error_msg2_link": "主頁",
+  "error_msg3": "拜訪您的%link%以取得全州範圍內的投票指引。",
+  "error_msg3_link": "州選舉辦公室網站",
+  "error_usa_link": "https://www.usa.gov/election-office"
+}
