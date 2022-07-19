@@ -24,7 +24,7 @@
 <div class="bg-white">
 	<div class="grid-container footer-site-nav">
 		<div class="grid-row grid-gap">
-			<div class="tablet:grid-col-4">
+			<div class="tablet:grid-col-3">
 				<div class="footer-site-logo">
 				<h4>Vote.gov</h4>
 				{{ partial "ballot_box-blue.svg" }}					
@@ -54,11 +54,16 @@
 					<li><a href="{{ .Site.BaseURL }}{{ $translation.footer_identifier.subpage_2_path6 }}">{{ $translation.footer_identifier.subpage_2_link6 }}</a></li>
 				</ul>
 			</div>
-			<div class="tablet:grid-col-2">
-				<!-- <h4>Return to top</h4> -->
-				<!-- <svg class="usa-icon circle" aria-hidden="true" focusable="false" role="img">
+
+			<div class="tablet:grid-col-3">
+				<a class="return-button" href="#return">
+					<div>
+					<h4>Return to top</h4>
+				<svg class="usa-icon circle return-arrow" aria-hidden="true" focusable="false" role="img">
 					<use xlink:href="/assets/img/sprite.svg#expand_less"></use>
-				  </svg> -->
+				</svg>						
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -67,26 +72,33 @@
 
 <!-- contact START -->
 <div class="bg-lightblue">
-	<div class="grid-container">
+	<div class="">
 		<div class="grid-row grid-gap">
-			<div class="tablet:grid-col-4"></div>
-			<div class="tablet:grid-col-3">
+			<div class="tablet:grid-col-3 desktop:grid-col-5"></div>
+			<div class="tablet:grid-col-4 desktop:grid-col-3">
 				<a href="{{ $translation.footer.twitter_link }}" class="twitter-link">
 					<div class="follow-twitter">
 						<div>
 							<p>{{ replace $translation.footer_identifier.twitter_text "%Vote.gov%" "Vote.gov" }}</p>
+							<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+								<use xlink:href="/assets/img/sprite.svg#twitter"></use>
+							  </svg>
 						</div>
 					</div>
 				</a>
 		</div>
-		<div class="tablet:grid-col-2"></div>
-		<div class="tablet:grid-col-3">
+		<div class="tablet:grid-col-3 desktop:grid-col-3">
 			<div class="email-vote">
 				<div>
+					<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+        				<use xlink:href="/assets/img/sprite.svg#mail_outline"></use>
+      				</svg>
 					<p>vote@gsa.gov</p>
 				</div>
 			</div>
 		</div>
+				<div class="tablet:grid-col-1 desktop:grid-col-1"></div>
+
 	</div>
   </div>
 	</div>

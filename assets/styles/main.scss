@@ -487,7 +487,7 @@ $logo-width: 130px;
 .footer-site-nav {
   padding-bottom: 2rem;
   color: black;
-  svg {
+  .footer-site-logo svg {
     height: 6rem;
 
     @include at-media('tablet') {
@@ -579,16 +579,25 @@ $logo-width: 130px;
 }
 
 .email-vote {
-  background-image: url(../img/usa-icons/mail.svg), linear-gradient(transparent, transparent);
-  background-position: 1rem;
-  background-repeat: no-repeat;
-  background-size: 2rem;
   display: inline-block;
 
+  div {
+    display: block;
+    
+    svg {
+      display: inline-block;
+      height: 2.5rem;
+      width: 2.5rem;
+      fill: $color-blue-headings;
+      margin-bottom: -1rem;
+    }
+    p {
+      display: inline-block;
+    }
+  }
+
   p {
-    margin-left: 2.5rem;
     text-decoration: underline;
-    padding: 1rem;
   }
 }
 
@@ -608,17 +617,28 @@ $logo-width: 130px;
 }
 
 .follow-twitter {
-  background-image: url(../img/usa-icons/twitter.svg), linear-gradient(transparent, transparent);
-  background-position: 15.5rem;;
-  background-repeat: no-repeat;
-  background-size: 2rem;
+
+  div {
+    display: block;
+    white-space: nowrap;
+    margin-top: 0.2rem;
+
+    svg {
+      display: inline-block;
+      width: 2.5rem;
+      height: 2.5rem;
+      fill: $color-blue-headings;
+      margin-bottom: -0.7rem;
+    }
+    p {
+      display: inline-block;
+    }
+  }
 
   p {
   font-size: larger;
   color: black;
   font-weight: 700;
-  padding: 1rem;
-  width: 18rem;
   }
 
 }
@@ -629,10 +649,30 @@ $logo-width: 130px;
 }
 
 .circle {
-  background-color: pink;
+  background-color: black;
   height: 1.5rem;
   width: 1.5rem;
   border-radius: 50%;
+}
+
+.return-arrow {
+  fill: white;
+  height: 1.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: -0.3rem;
+}
+
+.return-button {
+  text-decoration: none;
+  color: black;
+
+  div {
+    display: block;
+
+    h4, svg {
+      display: inline-block;
+    }
+  }
 }
 
 .policy {
@@ -776,6 +816,9 @@ padding-top: 1rem;
   li {
     font-style: italic;
   }
+  a {
+    color: $color-blue;
+  }
 }
 
 .bg-img {
@@ -806,10 +849,18 @@ padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
+.ref-link {
+  font-style: italic;
+  color: $color-blue;    
+}
+
 .references-list {
   list-style: none;
   li {
     margin-left: -20px;
+    a {
+    color: $color-blue;
+    }
   }
 }
 
@@ -830,4 +881,9 @@ padding-top: 1rem;
   .usa-icon {
     fill: $color-blue-headings;
   }
+}
+
+[dir="rtl"] .share-icons-container {
+  padding-right: 0;
+  padding-left: 2rem;
 }

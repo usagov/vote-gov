@@ -89,16 +89,16 @@
 
               <div class="grid-row grid-gap">
                 <div class="tablet:grid-col-4">
-                  <h4>Last Updated</h4>
+                  <h4>{{ .Params.last_updated_txt }}</h4>
                   <p>{{ .Params.last_updated }}</p>
                   <div class="subpage-container">
-                    <h4>Source</h4>
+                    <h4>{{ .Params.source_txt }}</h4>
                     <a href="https://vote.gov.com">{{ .Params.source_link }}</a>
                   </div>
 
                 </div>
                 <div class="tablet:grid-col-8 right-shift">
-                  <h4>Reference</h4>
+                  <h4 id="references">{{ .Params.reference_txt }}</h4>
                   <ol class="usa-list references-list">
                       {{ range $index, $reference := .Params.references }}
                         {{ $index = add $index 1 }}
@@ -125,14 +125,14 @@
             </svg>
 
             <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
-              <use xlink:href="/assets/img/sprite.svg#mail"></use>
+              <use xlink:href="/assets/img/sprite.svg#mail_outline"></use>
+            </svg>
             </svg>
           </div>
 
         </div>
       </div>
     </div>
-    
 
     <footer>
       {{ partial "footer-identifier.html" . }}
