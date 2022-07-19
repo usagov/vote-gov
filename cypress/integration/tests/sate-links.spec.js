@@ -27,11 +27,9 @@ describe('check links on stage pages', () => {
     cy.get('[data-test="footer-2"]').should('be.visible')
 
     // check links on page
-    cy.get('[href="https://aselectionoffice.gov/?ref=voteusa_en"]').then(links =>{cy.get(links[1])
-    .click()
+    cy.get('[href="https://aselectionoffice.gov/?ref=voteusa_en"]').click()
     cy.url().should('be.equal', 'https://aselectionoffice.gov/?ref=voteusa_en')
     cy.go('back')
-  })
     
     cy.get('[href="https://aselectionoffice.gov/status.php?ref=voteusa_en"]').click()
     cy.url().should('be.equal', 'https://aselectionoffice.gov/status.php?ref=voteusa_en')
