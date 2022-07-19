@@ -3,7 +3,7 @@
 
 {{ partial "head.html" . }}
 
-<body class="page-register-{{ .Params.registration_type }}">
+<body class="page-basic">
 {{ partial "header.html" . }}
 <div id="main-content" role="main">
   <div class="bg-blue css-arrow">
@@ -20,6 +20,7 @@
             <h1 class="main-heading" data-test="main-header">
               {{ replace $translation.register.heading "%state_name%" .Params.state_name }}
             </h1>
+            <h1 class="main-heading">{{ .Title }}</h1>
           </header>
         </div>
       </div>
@@ -32,12 +33,7 @@
         <div class="tablet:grid-col-4"></div>
         <div class="tablet:grid-col-8 right-shift">
           <section class="voter-info">
-            {{ .Render ( print "types/" .Params.registration_type ) }}
-            <time class="updated-date" datetime="{{ .Lastmod }}">
-              {{ .Site.Params.last_updated }}
-
-              {{ partial "date.html" . }}
-            </time>
+            {{ .Content }}
           </section>
 
           <p class="arrow-text"><a href="{{ .Site.Home.RelPermalink }}" title="Vote.gov" data-test="back-button"><span class="arrow direction"></span>{{ .Site.Params.go_back }}</a></p>
