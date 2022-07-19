@@ -31,5 +31,7 @@
   "dates__inperson_deadline": "직접 투표자 등록 마감일: ",
   "confirm_registration__heading": "유권자 등록 여부 확인 방법",
   "confirm_registration__intro": "%link%.",
-  "confirm_registration__link": "%state_name% 주 선거 사무국 웹사이트에서 귀하의 유권자 등록 상태를 확인할 수 있습니다"
+  "confirm_registration__link": "%state_name% 주 선거 사무국 웹사이트에서 귀하의 유권자 등록 상태를 확인할 수 있습니다",
+  "confirm_registration__intro_WY": "귀하의 유권자 등록 상태는 지역 등록 사무소에 연락하여 확인할 수 있습니다. %link%.",
+  "confirm_registration__link_WY": "와이오밍 카운티 기록 보관 사무소 연락처는 여기를 클릭하십시오 (PDF파일)"
 }

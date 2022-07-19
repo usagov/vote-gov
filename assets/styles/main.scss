@@ -454,7 +454,8 @@ $logo-width: 130px;
 }
 
 .footer-logos {
-  padding-top: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .footer-column {
@@ -462,7 +463,7 @@ $logo-width: 130px;
   width: 100%;
 
     @include at-media('tablet') {
-      width: auto;        
+      width: auto;
     }
 }
 
@@ -505,4 +506,33 @@ button#touchpoints-form-embed {
     margin: auto;
     border-radius: 0;
   }
+}
+
+.usa-accordion--bordered {
+  .usa-prose > * + & {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .usa-accordion__heading {
+    font-size: 1.2rem;
+  }
+
+  .usa-accordion__content + .usa-accordion__heading {
+    margin-top: 2rem;
+  }
+
+  .bg-lightblue & {
+    .usa-accordion__button {
+      background-color: #d9e8f6;
+    }
+
+    .usa-accordion__content {
+      border: 0;
+    }
+  }
+}
+
+.usa-prose .usa-collection__item {
+  border-top: 0;
 }
