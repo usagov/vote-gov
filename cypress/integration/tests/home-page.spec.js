@@ -37,6 +37,14 @@ describe('check homepage', () => {
      // check kkorean
      cy.get('[data-test="language-switcher"]').select("/ko/")
      cy.get('[data-test="main-header"]').should('contain','유권자 등록하기')
+
+    //  check simplified chinese
+    cy.get('[data-test="language-switcher"]').select("/zh-hans/")
+    cy.get('[data-test="main-header"]').should('contain','登记投票')
+
+    //  check traditional chinese 
+    cy.get('[data-test="language-switcher"]').select("/zh/")
+    cy.get('[data-test="main-header"]').should('contain','登記投票')
     
   })
 
