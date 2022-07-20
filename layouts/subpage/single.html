@@ -1,0 +1,146 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+
+{{ partial "head.html" . }}
+
+<body class="page-basic">
+
+  {{ partial "header.html" . }}
+
+  <div id="main-content" role="main">
+
+    <!-- header -->
+    <div class="bg-img" style="background-image: url('{{ .Site.BaseURL }}{{ .Params.image_src }}')">
+      <div class="bg-blue-transparent">
+        <div class="grid-container">
+          <div class="grid-row grid-gap">
+
+            <div class="subpage-header">
+              <header class="align-bottom">
+                <h1 class="main-heading">{{ .Params.Title }}</h1>
+                <span class="divider-main-heading"></span>
+                <h2 class="">{{ .Params.teaser_text }}</h2>
+              </header>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header end -->
+
+    <!-- breadcrumb nav -->
+    <div class="grid-container">
+      <nav class="usa-breadcrumb" aria-label="Breadcrumbs,,">
+        <ol class="usa-breadcrumb__list">
+          <li class="usa-breadcrumb__list-item">
+            <a href="{{ .Site.BaseURL }}" class="usa-breadcrumb__link first-nav-item"><span>{{ .Params.top_nav }}</span></a>
+          </li>
+          <li class="usa-breadcrumb__list-item">
+            <a href="" class="usa-breadcrumb__link top-nav-item">{{ .Params.parent_title }}</a>
+            <svg class="usa-icon breadcrumb-arrow" aria-hidden="true" focusable="false" role="img">
+              <use xlink:href="/assets/img/sprite.svg#navigate_next"></use>
+            </svg>
+            <a href="" class="usa-breadcrumb__link current-nav-item" aria-current="page">{{ .Title }}</a>
+          </li>
+        </ol>
+    </div>
+    <!-- breadcrumb nav end -->
+
+
+    <div class="grid-container subpage-content">
+      <div class="grid-row grid-gap">
+
+        <!-- side nav -->
+        <div class="tablet:grid-col-4">
+
+          <nav aria-label="Side navigation,">
+
+            <ul class="usa-sidenav">
+              <li class="usa-sidenav__parent-title">
+                <div class="">{{ .Params.parent_title }}</div>
+              </li>
+              {{ $currentPage := . -}}
+              {{ range where .Site.Pages "Type" "subpage" }}
+              <li class="usa-sidenav__item">
+                <a href="{{ .Permalink }}" {{ if eq $currentPage . }} class="usa-current" {{ end }}>{{ .Title }}</a>
+              </li>
+              {{ end }}
+            </ul>
+          </nav>
+        </div>
+        <!-- side nav end -->
+
+        <!-- subpage metadata -->
+        <div class="tablet:grid-col-8 right-shift">
+
+          <section>
+            {{ .Content }}
+          </section>
+
+          <div>
+            <img src="{{ .Site.BaseURL }}{{ .Params.image_src }}" alt=""></img>
+            <p class="subpage-caption">{{ .Params.image_alt }}</p>
+          </div>
+
+
+          <div class="subpage-container">
+            <span class="divider-subpage"></span>
+
+            <div class="grid-container subpage-container">
+
+              <div class="grid-row grid-gap">
+                <div class="tablet:grid-col-4">
+                  <h4>{{ .Params.last_updated_txt }}</h4>
+                  <p>{{ .Params.last_updated }}</p>
+                  <div class="subpage-container">
+                    <h4>{{ .Params.source_txt }}</h4>
+                    <a href="https://vote.gov.com">{{ .Params.source_link }}</a>
+                  </div>
+
+                </div>
+                <div class="tablet:grid-col-8 right-shift">
+                  <h4 id="references">{{ .Params.reference_txt }}</h4>
+                  <ol class="usa-list references-list">
+                      {{ range $index, $reference := .Params.references }}
+                        {{ $index = add $index 1 }}
+                        {{ $index = string $index }}
+                    <li>({{ index $translation.day_number $index }})<a href=""> {{ $reference }}</a></li>
+                      {{ end }}
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <span class="divider-subpage"></span>
+          </div>
+          <!-- subpage metadata end  -->
+
+          <h2>{{ .Params.share_page }}</h2>
+          <div class="share-icons-container">
+            <svg class="usa-icon .blue-30" aria-hidden="true" focusable="false" role="img">
+              <use xlink:href="/assets/img/sprite.svg#facebook"></use>
+            </svg>
+
+            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+              <use xlink:href="/assets/img/sprite.svg#twitter"></use>
+            </svg>
+
+            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+              <use xlink:href="/assets/img/sprite.svg#mail_outline"></use>
+            </svg>
+            </svg>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      {{ partial "footer.html" . }}
+    </footer>
+
+  </div>
+  {{ partial "analytics.html" . }}
+  {{ partial "scripts.html" . }}
+</body>
+
+</html>
