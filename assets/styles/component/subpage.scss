@@ -1,0 +1,92 @@
+$color-grey-dark: #4b4b4d;
+$color-blue: #2c7cc7;
+$color-blue-headings: #0071BC;
+
+
+  .divider-subpage {
+    border: .5px solid $color-grey-dark;
+    width: 100%;
+    display: block;
+  }
+
+.subpage-content {
+padding-top: none;
+padding-bottom: 2rem;
+
+@include at-media('tablet') {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+}
+
+.subpage-container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    
+      h4 {
+        color: $color-grey-dark;
+        margin: 0;
+      }
+    
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    
+      ol {
+        margin-top: 0;
+      }
+    
+      li {
+        font-style: italic;
+      }
+      a {
+        color: $color-blue;
+      }
+    }
+
+    .subpage-caption {
+        margin-top: 0;
+        padding-top: 0.5rem;
+      }
+
+      .subpage-source {
+        padding-bottom: 1rem;
+      }
+      
+      .ref-link {
+        font-style: italic;
+        color: $color-blue;
+      }
+      
+      .references-list {
+        list-style: none;
+        li {
+          margin-left: -20px;
+          a {
+          color: $color-blue;
+          }
+        }
+      }
+      
+      [dir="rtl"] .references-list {
+        padding-right: 0;
+      }
+
+      .share-icons-container {
+        padding-right: 2rem;
+        display: flex;
+        height: 2rem;
+        width: 10rem;
+      
+        .usa-icon {
+          fill: $color-blue-headings;
+        }
+      }
+
+      [dir="rtl"] .share-icons-container {
+        padding-right: 0;
+        padding-left: 2rem;
+      }

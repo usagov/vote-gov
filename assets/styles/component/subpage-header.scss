@@ -1,0 +1,30 @@
+$color-red: #bb0202;
+
+.bg-img {
+    height: 18rem;
+    color: white;
+    background: #2c7cc799;
+  
+    @include at-media('tablet') {
+      height: 15rem;
+    }
+  }
+  
+  .bg-blue-transparent {
+    height: 18rem;
+    background: #2c7cc799;
+  
+    @include at-media('tablet') {
+      height: 15rem;
+    }
+  }
+
+  .subpage-header{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .divider-main-heading{
+    border: 2px solid $color-red;
+    width: 10rem;
+  }

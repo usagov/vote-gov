@@ -12,5 +12,23 @@
   "usagov_link": "https://www.usa.gov/",
   "your_email_address": "Enter your email address",
   "usagov_logo_alt_text": "%USA.gov% logo",
-  "eac_logo_alt_text": "In partnership with %U.S. Election Assistance Commission%"
+  "eac_logo_alt_text": "In partnership with %U.S. Election Assistance Commission%",
+  "return_top": "Return to top",
+
+  "subpage_1_title": "Voting Basics",
+  "subpage_1_link1": "What's voter registration?",
+  "subpage_1_link2": "Questions about the voting process",
+  "subpage_1_link3": "Congressional Elections and Midterm Elections",
+  "subpage_1_link4": "State and Local Elections",
+  "subpage_1_link5": "What is a primary election?",
+  "subpage_1_link6": "What is a caucus?",
+  "subpage_1_link7": "The Presidential Election Process",
+
+  "subpage_2_title": "Register to Vote",
+  "subpage_2_link1": "Register to Vote",
+  "subpage_2_link2": "When is the deadline to register?",
+  "subpage_2_link3": "Check your registration status",
+  "subpage_2_link4": "Do I need to register before I can vote?",
+  "subpage_2_link5": "When should I update my voter registration?",
+  "subpage_2_link6": "Is the voter registration process secure?"
 }

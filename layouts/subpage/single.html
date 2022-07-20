@@ -28,7 +28,7 @@
     <!-- header end -->
 
     <!-- breadcrumb nav -->
-    <div class="grid-container">
+    <div class="grid-container breadcrumb">
       <nav class="usa-breadcrumb" aria-label="Breadcrumbs,,">
         <ol class="usa-breadcrumb__list">
           <li class="usa-breadcrumb__list-item">
@@ -50,7 +50,7 @@
       <div class="grid-row grid-gap">
 
         <!-- side nav -->
-        <div class="tablet:grid-col-4">
+        <div class="tablet:grid-col-4 sidenav">
 
           <nav aria-label="Side navigation,">
 
@@ -136,6 +136,7 @@
 
     <footer>
       {{ partial "footer.html" . }}
+      {{ partial "footer-subpage-nav.html" . }}
     </footer>
 
   </div>

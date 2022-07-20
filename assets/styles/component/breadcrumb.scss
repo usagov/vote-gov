@@ -1,0 +1,38 @@
+@media only screen and (max-width: 640px) {
+    .breadcrumb {
+      border-bottom: .5px solid #4b4b4d;
+    }
+  }
+  
+  .usa-breadcrumb__list-item:nth-last-child(2) .usa-breadcrumb__link:visited {
+    color: #005ea2;
+  }
+  
+  .usa-breadcrumb__list-item {
+    text-decoration: none;
+  
+    .first-nav-item {
+      color: #005ea2;
+      text-decoration: underline;
+    }
+  
+    .top-nav-item {
+      color: black;
+      pointer-events: none;
+      cursor: default;
+    }
+  
+    .current-nav-item {
+      color: black;
+      font-weight: 700;
+      pointer-events: none;
+      cursor: default;
+    }
+  }
+  
+  .breadcrumb-arrow {
+    bottom: -0.2em;
+    height: 2ex;
+    width: 2ex;
+    position: relative;
+  }

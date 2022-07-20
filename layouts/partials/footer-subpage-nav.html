@@ -1,0 +1,49 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+
+<div class="bg-white">
+	<div class="grid-container footer-site-nav">
+		<div class="grid-row grid-gap">
+			<div class="tablet:grid-col-3">
+				<div class="footer-site-logo">
+				<h4>Vote.gov</h4>
+				{{ partial "ballot_box-blue.svg" }}					
+				</div>
+			</div>
+			<div class="tablet:grid-col-3">
+				<h4>{{ $translation.footer.subpage_1_title }}</h4>
+				<ul class="usa-list usa-list--unstyled footer-links footer-site-nav">
+					<li><a href="{{ .Site.BaseURL }}/voter-registration">{{ $translation.footer.subpage_1_link1 }}</a></li>
+					<li><a href="{{ .Site.BaseURL }}/voting-process">{{ $translation.footer.subpage_1_link2 }}</a></li>
+					<li><a href="{{ .Site.BaseURL }}/congressional-and-midterm">{{ $translation.footer.subpage_1_link3 }}</a></li>
+					<li><a href="{{ .Site.BaseURL }}/primary-election">{{ $translation.footer.subpage_1_link4 }}</a></li>
+					<li><a href="{{ .Site.BaseURL }}/state-and-local">{{ $translation.footer.subpage_1_link5 }}</a></li>
+					<li><a href="{{ .Site.BaseURL }}/caucus">{{ $translation.footer.subpage_1_link6 }}</a></li>
+					<li><a href="{{ .Site.BaseURL }}presidential-process">{{ $translation.footer.subpage_1_link7 }}</a></li>
+				</ul>
+			</div>
+
+			<div class="tablet:grid-col-3">
+				<h4>{{ $translation.footer.subpage_2_title }}</h4>
+				<ul class="usa-list usa-list--unstyled footer-links footer-site-nav">
+					<li><a href="">{{ $translation.footer.subpage_2_link1 }}</a></li>
+					<li><a href="">{{ $translation.footer.subpage_2_link2 }}</a></li>
+					<li><a href="">{{ $translation.footer.subpage_2_link3 }}</a></li>
+					<li><a href="">{{ $translation.footer.subpage_2_link4 }}</a></li>
+					<li><a href="">{{ $translation.footer.subpage_2_link5 }}</a></li>
+					<li><a href="">{{ $translation.footer.subpage_2_link6 }}</a></li>
+				</ul>
+			</div>
+
+			<div class="tablet:grid-col-3">
+				<a class="return-button" href="#return">
+					<div>
+					<h4>{{ $translation.footer.return_top }}</h4>
+				<svg class="usa-icon circle return-arrow" aria-hidden="true" focusable="false" role="img">
+					<use xlink:href="/assets/img/sprite.svg#expand_less"></use>
+				</svg>						
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

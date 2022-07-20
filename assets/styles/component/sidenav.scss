@@ -1,0 +1,20 @@
+@media only screen and (max-width: 640px) {
+    .sidenav {
+      display: none;
+    }
+  }
+  
+  .usa-sidenav__parent-title {
+    display: block;
+    padding: 0.5rem 1rem;
+    border-top: 1px solid #dfe1e2;
+  }
+  
+  [dir="rtl"] .usa-sidenav .usa-current::after {
+    left: auto;
+    right: 0;
+  }
+
+  .usa-sidenav__item .usa-current {
+    background-color: #e7f6f8;
+  }
