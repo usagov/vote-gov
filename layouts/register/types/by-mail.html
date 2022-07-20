@@ -48,7 +48,7 @@
 
   <select class="usa-select  max-width-input" name="userselection" id="js-user-selection">
     {{ range $key, $form := $.Site.Data.registration_forms }}
-    {{ if eq $key $.Site.Language.Lang }}
+    {{ if eq $key ($.Site.Language.Lang | replaceRE "-[a-z]+" "") }}
     <option value="{{ $form.file_path }}">{{ $form.language }}</option>
     {{ end }}
     {{ end }}

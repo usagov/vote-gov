@@ -5,14 +5,11 @@
 {{ $year := index $translation.years (string .Lastmod.Year) }}
 
 <!-- If the localized version is incorrect make a language specific format -->
-{{ $bengali := "bn" }}
-{{ if eq .Site.Language.Lang $bengali }}
-
+{{ if eq .Site.Language.Lang "bn" }}
   {{ $day }} {{ $month }} {{ $year }}
-
+{{ else if eq .Site.Language.Lang "zh-hans" }}
+  {{ $year }} {{ $month }} {{ $day }}
 {{ else }}
-
   {{ .Lastmod | time.Format ":date_long" }}
-
 {{end}}
 
