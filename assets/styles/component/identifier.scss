@@ -1,0 +1,64 @@
+.footer-identifier {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  @include at-media-max('desktop') {
+    padding-bottom: 4rem;
+  }
+
+  > .grid-container {
+    > * + * {
+      margin-top: 40px;
+    }
+  }
+
+  a {
+    color: white;
+  }
+}
+
+.identifier-gsa {
+  align-items: center;
+}
+
+.identifier-links {
+  li {
+    @include at-media-max('tablet') {
+      padding-top: 10px;
+    }
+
+    @include at-media('tablet') {
+      + li {
+        padding-top: 20px;
+      }
+    }
+
+    a {
+      text-decoration: none;
+
+      &:focus,
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.identifier-gov-info {
+  border-top: 1px solid #ffffff;
+  padding-top: 1rem;
+}
+
+button#touchpoints-form-embed {
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+  border-radius: 0.25rem 0.25rem 0 0;
+
+  @include at-media-max('desktop') {
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 0;
+  }
+}
