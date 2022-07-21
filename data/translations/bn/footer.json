@@ -12,5 +12,20 @@
   "privacy_policy": "গোপনীয়তা নীতি (ইংরেজিতে)",
   "privacy_policy_link_url": "https://www.usa.gov/policies",
   "twitter_link": "https://twitter.com/votegov",
-  "twitter_text": "টুইটারে %Vote.gov% অনুসরণ করুন (ইংরেজিতে)"
+  "twitter_text": "টুইটারে %Vote.gov% অনুসরণ করুন (ইংরেজিতে)",
+  "identifier_aria": "Agency identifier",
+  "identifier_gsa_txt_aria": "Agency description",
+  "identifier_gsa_txt": "An official website of the ",
+  "identifier_gsa_txt__1": "General Services Administration",
+  "identifier_link_aria": "Important links",
+  "identifier_link_1": "About Vote.gov",
+  "identifier_link_2": "Accessibility",
+  "identifier_link_3": "FOIA Requests",
+  "identifier_link_4": "No Fear Act data",
+  "identifier_link_5": "Office of the Inspector General",
+  "identifier_link_6": "Performance Reports",
+  "identifier_link_7": "Privacy Policy",
+  "identifier_more_info_aria": "Government information and services",
+  "identifier_more_info": "Looking for U.S. government information and services? ",
+  "identifier_more_info__1": "Visit USA.gov"
 }
