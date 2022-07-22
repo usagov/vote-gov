@@ -17,7 +17,7 @@
         </div>
         <div id="skip-target" class="tablet:grid-col-8 right-shift">
           <header class="align-bottom">
-            <h1 class="main-heading">
+            <h1 class="main-heading" data-test="main-header">
               {{ replace $translation.register.heading "%state_name%" .Params.state_name }}
             </h1>
           </header>
@@ -40,7 +40,7 @@
             </time>
           </section>
           
-          <p class="arrow-text"><a href="{{ .Site.Home.RelPermalink }}" title="Vote.gov"><span class="arrow direction"></span>{{ .Site.Params.go_back }}</a></p>
+          <p class="arrow-text"><a href="{{ .Site.Home.RelPermalink }}" title="Vote.gov"><span class="arrow direction" data-test="back-button"></span>{{ .Site.Params.go_back }}</a></p>
 
         </div>
       </div>
