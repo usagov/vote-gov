@@ -175,7 +175,7 @@
       "english_only": "（英語）",
       "last_updated": "最近更新時間：",
       "select_language": "選擇語言 %dropdown-list%",
-      "english_languageName": "Traditional Chinese "
+      "english_languageName": "Chinese - Traditional"
     }
   },
   "zh-hans": {
@@ -195,7 +195,7 @@
       "english_only": "(英语)",
       "last_updated": "最近更新时间：",
       "select_language": "选择语言",
-      "english_languageName": "Simplified Chinese"
+      "english_languageName": "Chinese - Simplified"
     }
   }
 }
