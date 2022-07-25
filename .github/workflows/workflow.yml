@@ -40,6 +40,9 @@ jobs:
       - name: Run Cypress tests.
         run: npm run cy:test
 
+      - name: artifact
+        run: actions/upload-artifact@v3
+
       # - name: Run htmlproofer.
       #   run: npm run htmlproofer
 
