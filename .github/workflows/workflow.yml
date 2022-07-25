@@ -34,8 +34,14 @@ jobs:
       - name: Install NPM dependencies.
         run: npm install
 
-      - name: Build and start up hugo server.
-        run: npm run build && npm run start
+      # - name: Build and start up hugo server.
+      #   run: npm run build && npm run start
+
+      - name: Build hugo server.
+        run: npm run build
+
+      - name: start hugo server.
+        run: npm run start
 
       - name: Run Cypress tests.
         run: npm run cy:test
