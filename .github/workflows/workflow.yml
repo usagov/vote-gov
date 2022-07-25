@@ -35,7 +35,7 @@ jobs:
         run: npm install
 
       - name: Build and start up hugo server.
-        run: npm run build && npm run start sleep 60s &
+        run: npm run build && npm run start && wait 60s &
 
       - name: Run Cypress tests.
         run: npm run cy:test
