@@ -1,4 +1,4 @@
-Name: Build and test VOTE.gov
+name: Build and test VOTE.gov
 
 on: [push, pull_request]
 
