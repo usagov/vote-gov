@@ -22,7 +22,7 @@
 </div>
 
 <div class="bg-grey">
-	<div class="grid-container footer-logos">
+	<div class="grid-container footer-logos" data-test="footer-1">
 		<div class="footer-content grid-row">
 			<div class="footer-column">
 				<a href="{{ $translation.footer.usagov_link }}">
@@ -40,7 +40,7 @@
 	</div>
 </div>
 
-<div class="bg-blue footer-links">
+<div class="bg-blue footer-links" data-test="footer-2">
 	<div class="grid-container">
 		<div class="grid-row grid-gap">
 			<div class="desktop:grid-col-4">
@@ -54,6 +54,8 @@
 				</a>
 			</div>
 
+      <div class="desktop:grid-col">
+        <button id="touchpoints-form-embed" class="usa-button" data-test="improve-button">How can we improve Vote.gov?</button>
       <div>
         <button id="touchpoints-form-embed" class="usa-button">How can we improve Vote.gov?</button>
       </div>
