@@ -24,7 +24,7 @@
           <div id="skip-target" class="tablet:grid-col-8 right-shift">
             <section class="register align-bottom">
               <header>
-                <h1 class="main-heading">{{ $translation.homepage.header }}</h1>
+                <h1 class="main-heading" data-test="main-header">{{ $translation.homepage.header }}</h1>
               </header>
 
               <form class="form-register" method="get" id="register">
@@ -32,7 +32,7 @@
                 <label class="usa-sr-only" for="js-user-selection">
                   {{ $translation.homepage.state_selection__default }}
                 </label>
-                <select class="usa-select max-width-input" name="userselection" id="js-user-selection">
+                <select class="usa-select max-width-input" name="userselection" id="js-user-selection" data-test="state-selection">
                   <option value="default">
                     {{ $translation.homepage.state_selection__default }}
                   </option>
@@ -42,7 +42,7 @@
                 {{ end }}
 
                 </select>
-                <button class="usa-button max-width-input" id="js-user-submit" type="submit">
+                <button class="usa-button max-width-input" id="js-user-submit" type="submit" data-test="register-button">
                   {{ $translation.homepage.state_selection__submit }}
                 </button>
               </form>
