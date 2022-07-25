@@ -25,7 +25,8 @@
     "cy:open": "cypress open",
     "cy:test": "cypress run --spec 'cypress/integration/tests/**/*'",
     "cy:axe": "cypress run --spec 'cypress/integration/accessibility/**/*'",
-    "htmlproofer": "htmlproofer tmp/public"
+    "htmlproofer": "htmlproofer tmp/public",
+    "start-detached": "gulp website --detach"
   },
   "repository": {
     "type": "git",
