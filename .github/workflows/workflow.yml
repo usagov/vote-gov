@@ -41,7 +41,7 @@ jobs:
         run: npm run build
 
       - name: start hugo server.
-        run: npm run start
+        run: npm run start --if-present
 
       - name: Run Cypress tests.
         run: npm run cy:test
