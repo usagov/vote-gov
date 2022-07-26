@@ -32,6 +32,11 @@ describe('check links on stage pages', () => {
     // cy.go('back')
 
     cy.get('[class="reg-link"]').invoke('attr', 'href').should('be.equal', 'https://aselectionoffice.gov/?ref=voteusa_en')
+
+    cy.get('[class="reg-link"]').then(link => {
+      cy.get(link[0]).invoke('attr', 'href').should('be.equal', 'https://aselectionoffice.gov/?ref=voteusa_en')
+      cy.get(link[1]).invoke('attr', 'href').should('be.equal', 'https://aselectionoffice.gov/status.php?ref=voteusa_en')
+    })
     
     // cy.get('[href="https://aselectionoffice.gov/status.php?ref=voteusa_en"]').click()
     // cy.url().should('be.equal', 'https://aselectionoffice.gov/status.php?ref=voteusa_en')
