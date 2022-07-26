@@ -44,9 +44,9 @@ describe('check links on stage pages', () => {
     cy.get('[data-test="footer-2"]').should('be.visible')
 
     // check links on page
-    cy.get('[href="https://www.sos.arkansas.gov/elections/voter-information/?ref=voteusa_en"]').click()
-    cy.url().should('be.equal', 'https://www.sos.arkansas.gov/elections/voter-information/?ref=voteusa_en')
-    cy.go('back')
+    // cy.get('[href="https://www.sos.arkansas.gov/elections/voter-information/?ref=voteusa_en"]').click()
+    // cy.url().should('be.equal', 'https://www.sos.arkansas.gov/elections/voter-information/?ref=voteusa_en')
+    // cy.go('back')
 
     cy.get('[href="https://www.voterview.ar-nova.org/voterview?ref=voteusa_en"]').click()
     cy.url().should('be.equal', 'https://www.voterview.ar-nova.org/voterview?ref=voteusa_en')
