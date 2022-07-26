@@ -23,27 +23,16 @@ describe('check links on stage pages', () => {
   })
 
   it('american samoa links check', () => {
+    // this test will be similar to North Dakota, the links were not wokring in the github actions pipeline and were taking to long to load.  They have been checked manually.
     cy.visit('http://localhost:1313/register/as/')
     cy.get('[data-test="footer-2"]').should('be.visible')
 
     // check links on page
-    // cy.get('[href="https://aselectionoffice.gov/?ref=voteusa_en"]').click()
-    // cy.url().should('be.equal', 'https://aselectionoffice.gov/?ref=voteusa_en')
-    // cy.go('back')
-
-    cy.get('[class="reg-link"]').invoke('attr', 'href').should('be.equal', 'https://aselectionoffice.gov/?ref=voteusa_en')
-
     cy.get('[class="reg-link"]').then(link => {
       cy.get(link[0]).invoke('attr', 'href').should('be.equal', 'https://aselectionoffice.gov/?ref=voteusa_en')
       cy.get(link[1]).invoke('attr', 'href').should('be.equal', 'https://aselectionoffice.gov/status.php?ref=voteusa_en')
     })
     
-    // cy.get('[href="https://aselectionoffice.gov/status.php?ref=voteusa_en"]').click()
-    // cy.url().should('be.equal', 'https://aselectionoffice.gov/status.php?ref=voteusa_en')
-    // cy.go('back')
-
-    // cy.get('[class="reg-link"]').invoke('attr', 'href').should('be.equal', 'https://aselectionoffice.gov/status.php?ref=voteusa_en')
-
     cy.get('[data-test="back-button"]').click()
     cy.url().should('be.equal', 'http://localhost:1313/')
   })
@@ -56,8 +45,6 @@ describe('check links on stage pages', () => {
     cy.get('[href="https://www.sos.arkansas.gov/elections/voter-information/?ref=voteusa_en"]').click()
     cy.url().should('be.equal', 'https://www.sos.arkansas.gov/elections/voter-information/?ref=voteusa_en')
     cy.go('back')
-
-    // cy.get('[class="reg-link"]').invoke('attr', 'href').should('be.equal', 'https://www.sos.arkansas.gov/elections/voter-information/?ref=voteusa_en')
 
     cy.get('[href="https://www.voterview.ar-nova.org/voterview?ref=voteusa_en"]').click()
     cy.url().should('be.equal', 'https://www.voterview.ar-nova.org/voterview?ref=voteusa_en')
