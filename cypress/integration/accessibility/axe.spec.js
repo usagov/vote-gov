@@ -29,7 +29,14 @@ describe('check accessibility on vote.gov pages', () =>{
     it(`run axe core ${url}`, () => {
       cy.visit(url)
       cy.injectAxe()
-      cy.checkA11y(null, null, terminalLog)
+      cy.checkA11y(null, 
+        {
+          includedImpacts: ["critical", "serious", "moderate"],
+          rules: {
+             "color-contrast": { enabled: false },
+          }
+       }, 
+       null, terminalLog)
     })
   })
 })
