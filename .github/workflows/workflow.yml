@@ -14,18 +14,7 @@ jobs:
     steps:
       - name: Checkout source.
         uses: actions/checkout@v2
-
-      # - name: Setup ruby env.
-      #   run: |
-      #     sudo apt-get update;
-      #     sudo apt-get install --reinstall -y locales;
-      #     sudo sed -i 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen;
-      #     sudo locale-gen en_US.UTF-8;
-      # - name: Install ruby.
-      #   uses: ruby/setup-ruby@v1
-      #   # with:
-      #     # bundler-cache: true
-
+        
       - name: Install node.js.
         uses: actions/setup-node@v2
         with:
@@ -39,12 +28,3 @@ jobs:
 
       - name: Run Cypress tests.
         run: npm run cy:test
-
-      # - name: artifact
-      #   run: actions/upload-artifact@v3
-
-      # - name: Run htmlproofer.
-      #   run: npm run htmlproofer
-
-      # - name: Run AXE test.
-      #   run: npm run cy:axe
