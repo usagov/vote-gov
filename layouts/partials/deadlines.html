@@ -1,4 +1,5 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+{{ $fallbackData := ( index $translation.state_data_fallback .Params.state_abbreviation ) }}
 
 {{ if ne .Params.registration_type "not-needed" }}
 	<header>
@@ -13,23 +14,46 @@
 			<span class="bold-text">{{ $translation.register.dates__byonline_deadline }}</span>
 			{{ .Params.online_deadline }}
 		</li>
+	{{ else if $fallbackData.online_deadline }}
+		<li>
+			<span class="bold-text">{{ $translation.register.dates__byonline_deadline }}</span>
+			{{ $fallbackData.online_deadline }}
+		</li>
 	{{end}}
+
 	{{ if .Params.mail_postmarked_deadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__bymail_deadline }}</span>
 			{{ .Params.mail_postmarked_deadline }}
 		</li>
+	{{ else if $fallbackData.mail_postmarked_deadline }}
+		<li>
+			<span class="bold-text">{{ $translation.register.dates__bymail_deadline }}</span>
+			{{ $fallbackData.mail_postmarked_deadline }}
+		</li>
 	{{end}}
+
 	{{ if .Params.mail_received_deadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__bymail_deadline }}</span>
 			{{ .Params.mail_received_deadline }}
 		</li>
+	{{ else if $fallbackData.mail_received_deadline }}
+		<li>
+			<span class="bold-text">{{ $translation.register.dates__bymail_deadline }}</span>
+			{{ $fallbackData.mail_received_deadline }}
+		</li>
 	{{end}}
+
 	{{ if .Params.ip_deadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__inperson_deadline }}</span>
 			{{ .Params.ip_deadline }}
+		</li>
+	{{ else if $fallbackData.ip_deadline }}
+		<li>
+			<span class="bold-text">{{ $translation.register.dates__inperson_deadline }}</span>
+			{{ $fallbackData.ip_deadline }}
 		</li>
 	{{end}}
 </ul>
