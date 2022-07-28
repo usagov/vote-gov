@@ -1,5 +1,8 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-{{ $fallbackData := ( index $translation.state_data_fallback .Params.state_abbreviation ) }}
+{{ $fallbackData := .Params }}
+
+{{ if $translation.state_data_fallback }}
+{{ $fallbackData = ( index $translation.state_data_fallback .Params.state_abbreviation ) }}
 
 {{ if ne .Params.registration_type "not-needed" }}
 	<header>
@@ -8,6 +11,7 @@
 		</h2>
 	</header>
 {{end}}
+
 <ul class="registered-resources">
 	{{ if .Params.online_deadline }}
 		<li>
@@ -57,6 +61,8 @@
 		</li>
 	{{end}}
 </ul>
+
+{{ end }}
 
 
 {{ if isset .Params "confirm_registration_link" }}
