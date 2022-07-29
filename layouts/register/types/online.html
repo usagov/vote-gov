@@ -5,11 +5,8 @@
 {{ $onlineDeadline := cond (ne .Params.online_deadline nil) .Params.online_deadline .Params.default_online_deadline }}
 {{ $postmarkedDeadline := cond (ne .Params.mail_postmarked_deadline nil) .Params.mail_postmarked_deadline .Params.default_mail_postmarked_deadline }}
 {{ $ipDeadline := cond (ne .Params.ip_deadline nil) .Params.ip_deadline .Params.default_ip_deadline }}
+{{ $dates__electionday := cond (ne .Params.dates__electionday nil) .Params.dates__electionday $translation.register.dates__electionday }}
 
-{{ $dates__electionday := $translation.register.dates__electionday }}
-{{ if and (eq .Params.state_name "Louisiana") (ne $translation.register.dates__electionday_la nil) }}
-{{ $dates__electionday = $translation.register.dates__electionday_la }}
-{{ end }}
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",

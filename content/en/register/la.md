@@ -21,5 +21,6 @@ mail_postmarked_deadline = "Must be postmarked 30 days before Election Day"
 confirm_registration_link = "https://voterportal.sos.la.gov/"
 confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""
+dates__electionday = "General Election Day: Saturday, December 10, 2022."
 
 +++

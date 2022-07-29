@@ -26,7 +26,6 @@
   "dates__bymail_deadline": "Register by mail deadline:",
   "dates__byonline_deadline": "Online registration deadline:",
   "dates__electionday": "General Election Day: Tuesday, November 3, 2020.",
-  "dates__electionday_la": "General Election Day: Saturday, December 10, 2022.",
   "dates__electionday_heading": "General Election Day",
   "dates__heading": "Voter registration deadlines in %state_name%",
   "dates__inperson_deadline": "In person registration deadline:",
