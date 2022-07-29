@@ -1,5 +1,15 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 {{ $by_mail_intro := replace $translation.register.by_mail__intro "%link%" (partial "links/by-mail-link.html" .) }}
+
+{{ $onlineDeadline := cond (ne .Params.online_deadline nil) .Params.online_deadline .Params.default_online_deadline }}
+{{ $postmarkedDeadline := cond (ne .Params.mail_postmarked_deadline nil) .Params.mail_postmarked_deadline .Params.default_mail_postmarked_deadline }}
+{{ $ipDeadline := cond (ne .Params.ip_deadline nil) .Params.ip_deadline .Params.default_ip_deadline }}
+
+{{ $dates__electionday := $translation.register.dates__electionday }}
+{{ if and (eq .Params.state_name "Louisiana") (ne $translation.register.dates__electionday_la nil) }}
+{{ $dates__electionday = $translation.register.dates__electionday_la }}
+{{ end }}
+
 <header>
   <h2>
     {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
@@ -22,14 +32,14 @@
         "name": "{{ replace $translation.register.dates__heading "%state_name%" .Params.state_name }}",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "{{ replace $translation.register.dates__byonline_deadline "%online_deadline%" .Params.online_deadline }}<br><br>{{ replace $translation.register.dates__bymail_deadline "%mail_postmarked_deadline%" .Params.mail_postmarked_deadline }}<br><br>{{ replace $translation.register.dates__inperson_deadline "%ip_deadline%" .Params.ip_deadline }}"
+          "text": "{{ replace $translation.register.dates__byonline_deadline "%online_deadline%" $onlineDeadline }}<br><br>{{ replace $translation.register.dates__bymail_deadline "%mail_postmarked_deadline%" $postmarkedDeadline }}<br><br>{{ replace $translation.register.dates__inperson_deadline "%ip_deadline%" $ipDeadline }}"
         }
       },{
         "@type": "Question",
         "name": "{{ replace $translation.register.dates__electionday_heading "%state_name%" .Params.state_name }}",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "{{ $translation.register.dates__electionday }}"
+          "text": "{{ $dates__electionday }}"
         }
       }]
   }
