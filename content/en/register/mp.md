@@ -11,9 +11,10 @@ hp_link_language_selection = ""
 more_info_link = "https://www.votecnmi.gov.mp/"
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
-ip_deadline = "60 days before Election Day"
+ip_deadline = ""
 confirm_registration_link = "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
 confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""
+default_ip_deadline = "60 days before Election Day"
 
 +++
