@@ -222,16 +222,16 @@
     "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
     "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
     "ip_deadline": "hasta 30 días antes del día de las elecciones",
-    "online_deadline": "hasta 20 días antes del día de las elecciones",
+    "online_deadline": "miércoles, 19 de octubre de 2022",
     "mail_received_deadline": "",
-    "mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link": "https://voterportal.sos.la.gov/"
   },
   "me": {
     "hp_link": "https://www.maine.gov/sos/cec/elec/",
     "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
     "ip_deadline": "hasta el mismo día de las elecciones",
-    "mail_received_deadline": "a más tardar debe ser recibida 21 días antes del día de las elecciones",
+    "mail_received_deadline": "a más tardar debe ser recibida martes, 18 de octubre de 2022",
     "mail_postmarked_deadline": "",
     "confirm_registration_link": "https://www.maine.gov/sos/cec/elec/data/index.html"
   },
@@ -241,9 +241,9 @@
     "registration_link_language_selection": "true",
     "more_info_link": "https://www.elections.maryland.gov/voter_registration/application.html",
     "ip_deadline": "hasta el mismo día de las elecciones",
-    "online_deadline": "hasta 21 días antes del día de las elecciones",
+    "online_deadline": "martes, 18 de octubre de 2022",
     "mail_received_deadline": "",
-    "mail_postmarked_deadline": "debe tener el sello del correo 21 días antes del día de las elecciones",
+    "mail_postmarked_deadline": "debe tener el sello del correo martes, 18 de octubre de 2022",
     "confirm_registration_link": "https://voterservices.elections.maryland.gov/VoterSearch",
     "confirm_registration_link_language_selection": "true"
   },
@@ -253,9 +253,9 @@
     "registration_link_language_selection": "true",
     "more_info_link": "https://www.sec.state.ma.us/ele/eleifv/howreg.htm",
     "ip_deadline": "hasta 20 días antes del día de las elecciones",
-    "online_deadline": "hasta 20 días antes del día de las elecciones",
+    "online_deadline": "miércoles, 19 de octubre de 2022",
     "mail_received_deadline": "",
-    "mail_postmarked_deadline": "debe tener el sello del correo 20 días antes del día de las elecciones",
+    "mail_postmarked_deadline": "debe tener el sello del correo miércoles, 19 de octubre de 2022",
     "confirm_registration_link": "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx",
     "confirm_registration_link_language_selection": "true"
   },
@@ -264,9 +264,9 @@
     "registration_link": "https://mvic.sos.state.mi.us/registervoter",
     "more_info_link": "https://mvic.sos.state.mi.us/",
     "ip_deadline": "hasta el mismo día de las elecciones",
-    "online_deadline": "hasta 15 días antes del día de las elecciones",
+    "online_deadline": "lunes, 24 de octubre de 2022",
     "mail_received_deadline": "",
-    "mail_postmarked_deadline": "debe tener el sello del correo 15 días antes del día de las elecciones",
+    "mail_postmarked_deadline": "debe tener el sello del correo lunes, 24 de octubre de 2022",
     "confirm_registration_link": "https://mvic.sos.state.mi.us/"
   },
   "mn": {
@@ -275,8 +275,8 @@
     "more_info_link": "https://www.sos.state.mn.us/elections-voting/spanish",
     "more_info_link_translated": "true",
     "ip_deadline": "hasta el mismo día de las elecciones",
-    "online_deadline": "hasta 21 días antes del día de las elecciones",
-    "mail_received_deadline": "a más tardar debe ser recibida 21 días antes del día de las elecciones",
+    "online_deadline": "martes, 18 de octubre de 2022",
+    "mail_received_deadline": "a más tardar debe ser recibida martes, 18 de octubre de 2022",
     "mail_postmarked_deadline": "",
     "confirm_registration_link": "https://www.sos.state.mn.us/elections-voting/spanish",
     "confirm_registration_link_translated": "true"
@@ -286,7 +286,7 @@
     "more_info_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
     "ip_deadline": "hasta 30 días antes del día de las elecciones",
     "mail_received_deadline": "",
-    "mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "mail_postmarked_deadline": "debe tener el sello del correo lunes, 10 de octubre de 2022",
     "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
   },
   "mo": {
@@ -294,9 +294,9 @@
     "registration_link": "https://s1.sos.mo.gov/elections/voterregistration/",
     "more_info_link": "https://www.sos.mo.gov/elections/goVoteMissouri/register",
     "ip_deadline": "hasta el cuarto miércoles antes del día de las elecciones",
-    "online_deadline": "hasta el cuarto miércoles antes del día de las elecciones",
+    "online_deadline": "miércoles, 12 de octubre de 2022",
     "mail_received_deadline": "",
-    "mail_postmarked_deadline": "debe tener el sello del correo a más tardar el cuarto miércoles antes del día de las elecciones",
+    "mail_postmarked_deadline": "debe tener el sello del correo miércoles, 12 de octubre de 2022",
     "confirm_registration_link": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx"
   },
   "mt": {
@@ -304,7 +304,7 @@
     "more_info_link": "https://sosmt.gov/elections/vote/",
     "ip_deadline": "hasta el mismo día de las elecciones",
     "mail_received_deadline": "",
-    "mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link": "https://sosmt.gov/elections/vote/"
   },
   "ne": {
@@ -313,9 +313,9 @@
     "registration_link_language_selection": "true",
     "more_info_link": "https://sos.nebraska.gov/elections/voter-forms",
     "ip_deadline": "hasta el segundo viernes antes del día de las elecciones",
-    "online_deadline": "hasta el tercer viernes antes del día de las elecciones",
+    "online_deadline": "viernes, 21 de octubre de 2022",
     "mail_received_deadline": "",
-    "mail_postmarked_deadline": "debe tener el sello del correo a más tardar el tercer viernes antes del día de las elecciones",
+    "mail_postmarked_deadline": "debe tener el sello del correo viernes, 21 de octubre de 2022",
     "confirm_registration_link": "https://www.votercheck.necvr.ne.gov/voterview/?culture=es-MX",
     "confirm_registration_link_translated": "true"
   },

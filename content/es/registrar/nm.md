@@ -12,9 +12,9 @@ registration_link_language_selection = "true"
 more_info_link = "https://www.sos.state.nm.us/voting-and-elections/voter-information-portal/voter-registration-information/"
 more_info_link_language_selection = "true"
 ip_deadline = "hasta el sábado antes del día de las elecciones"
-online_deadline = "hasta 28 días antes del día de las elecciones"
-mail_received_deadline = ""
-mail_postmarked_deadline = "debe tener el sello del correo 28 días antes del día de las elecciones"
+default_online_deadline = "hasta 28 días antes del día de las elecciones"
+default_mail_received_deadline = ""
+default_mail_postmarked_deadline = "debe tener el sello del correo 28 días antes del día de las elecciones"
 confirm_registration_link = "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
 
 +++

@@ -9,9 +9,9 @@ hp_link = "https://www.elections.ny.gov/"
 registration_link = "https://dmv.ny.gov/more-info/electronic-voter-registration-application"
 more_info_link = "https://www.elections.ny.gov/votingregister.html"
 ip_deadline = "hasta 25 días antes del día de las elecciones"
-online_deadline = "hasta 25 días antes del día de las elecciones"
-mail_received_deadline = ""
-mail_postmarked_deadline = "debe tener el sello del correo 25 días antes del día de las elecciones"
+default_online_deadline = "hasta 25 días antes del día de las elecciones"
+default_mail_received_deadline = ""
+default_mail_postmarked_deadline = "debe tener el sello del correo 25 días antes del día de las elecciones"
 confirm_registration_link = "https://voterlookup.elections.ny.gov/"
 
 +++

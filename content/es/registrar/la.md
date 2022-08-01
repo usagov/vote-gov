@@ -9,9 +9,9 @@ hp_link = "https://www.sos.la.gov/ElectionsAndVoting/Pages/default.aspx"
 registration_link = "https://voterportal.sos.la.gov/VoterRegistration"
 more_info_link = "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx"
 ip_deadline = "hasta 30 días antes del día de las elecciones"
-online_deadline = "hasta 20 días antes del día de las elecciones"
-mail_received_deadline = ""
-mail_postmarked_deadline = "debe tener el sello del correo 30 días antes del día de las elecciones"
+default_online_deadline = "hasta 20 días antes del día de las elecciones"
+default_mail_received_deadline = ""
+default_mail_postmarked_deadline = "debe tener el sello del correo 30 días antes del día de las elecciones"
 confirm_registration_link = "https://voterportal.sos.la.gov/"
 
 +++
