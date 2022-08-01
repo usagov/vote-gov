@@ -1,4 +1,4 @@
-name: Cypress Functional Testing 
+name: Pipeline Testing 
 
 on: [push, pull_request]
 
