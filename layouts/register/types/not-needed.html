@@ -1,5 +1,7 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 {{ $not_needed_intro := replace $translation.register.not_needed__intro "%link%" (partial "links/not-needed-link.html" .) }}
+{{ $dates__electionday := cond (ne .Params.dates__electionday nil) .Params.dates__electionday $translation.register.dates__electionday }}
+
 <header>
   <h2>
     {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
@@ -23,7 +25,7 @@
         "name": "{{ replace $translation.register.dates__electionday_heading "%state_name%" .Params.state_name }}",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "{{ $translation.register.dates__electionday }}"
+          "text": "{{ $dates__electionday }}"
         }
       }]
   }

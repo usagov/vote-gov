@@ -1,0 +1,11 @@
+{
+  "error_main_heading": "Oops! 404 na error",
+  "error_intro": "Hindi Mahanap ang Pahina",
+  "error_msg": "Hindi namin makita ang pahinang inyong hinahanap. Maaaring naalis na ito, binago ang pangalan nito, o pansamantalang hindi magagamit.",
+  "error_msg1": "Kung itinayp ninyo ang URL ng pahina, i-check ang spelling.",
+  "error_msg2": "Pumunta sa aming %link% at subukang muli.",
+  "error_msg2_link": "pangunahing pahina",
+  "error_msg3": "Bisitahin ang inyong %link% para sa gabay sa pagboto sa buong estado.",
+  "error_msg3_link": "website ng opisina ng eleksyon ng estado (sa Ingles)",
+  "error_usa_link": "https://www.usa.gov/election-office"
+}
