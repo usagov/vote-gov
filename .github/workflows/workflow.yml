@@ -1,10 +1,10 @@
-name: Build and test VOTE.gov
+name: Cypress Functional Testing 
 
 on: [push, pull_request]
 
 jobs:
   build:
-    name: Install, build and test site with cypress, cypress-axe and htmlproofer.
+    name: Cypress Functional Testing
     runs-on: ubuntu-latest
     env:
       LANG: en_US.UTF-8
