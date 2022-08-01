@@ -10,9 +10,9 @@ registration_link = "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationA
 registration_link_language_selection = "true"
 more_info_link = "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote"
 ip_deadline = "hasta 15 días antes del día de las elecciones"
-default_online_deadline = "hasta 15 días antes del día de las elecciones"
-default_mail_received_deadline = "a más tardar debe ser recibida 15 días antes del día de las elecciones"
-default_mail_postmarked_deadline = ""
+online_deadline = "hasta 15 días antes del día de las elecciones"
+mail_received_deadline = "a más tardar debe ser recibida 15 días antes del día de las elecciones"
+mail_postmarked_deadline = ""
 confirm_registration_link = "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
 confirm_registration_link_language_selection = "true"
 
