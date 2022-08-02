@@ -9,7 +9,7 @@ hp_link = "https://www.ok.gov/elections/"
 more_info_link = "https://oklahoma.gov/elections/voter-registration/register-to-vote.html"
 ip_deadline = "hasta 25 días antes del día de las elecciones"
 mail_received_deadline = ""
-mail_postmarked_deadline = "debe tener el sello del correo 25 días antes del día de las elecciones"
+mail_postmarked_deadline = "debe tener el sello del correo viernes, 14 de octubre de 2022"
 confirm_registration_link = "https://okvoterportal.okelections.us/"
 confirm_registration_link_language_selection = "true"
 

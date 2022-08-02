@@ -10,9 +10,9 @@ registration_link = "https://voter.svrs.nj.gov/register"
 registration_link_language_selection = "true"
 more_info_link = "https://nj.gov/state/elections/voter-registration.shtml"
 ip_deadline = "hasta 21 días antes del día de las elecciones"
-online_deadline = "hasta 21 días antes del día de las elecciones"
-mail_received_deadline = "a más tardar debe ser recibida 21 días antes del día de las elecciones"
-mail_postmarked_deadline = ""
+online_deadline = "martes, 18 de octubre de 2022"
+mail_received_deadline = ""
+mail_postmarked_deadline = "debe tener el sello del correo martes, 18 de octubre de 2022"
 confirm_registration_link = "https://voter.svrs.nj.gov/registration-check"
 
 +++
