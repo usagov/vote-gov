@@ -1,25 +1,28 @@
 // Imports -------------- //
-
+@use 'uswds-core' as * with (
+  $theme-show-compile-warnings: false,
+  $theme-show-notifications: false,
+);
 @use 'sass:math';
-$theme-show-notifications: false;
-@import "../../node_modules/uswds/dist/scss/packages/required";
-@import "../../node_modules/uswds/dist/scss/packages/global";
+
+@forward "uswds-core";
+@forward "uswds-global";
 
 // Components ------------ //
 
-@import '../../node_modules/uswds/dist/scss/packages/usa-header';
-@import '../../node_modules/uswds/dist/scss/packages/usa-accordion';
-@import '../../node_modules/uswds/dist/scss/packages/usa-collection';
-@import '../../node_modules/uswds/dist/scss/packages/usa-footer';
-@import '../../node_modules/uswds/dist/scss/packages/form-controls';
-@import '../../node_modules/uswds/dist/scss/packages/usa-button';
-@import '../../node_modules/uswds/dist/scss/packages/usa-alert';
-@import '../../node_modules/uswds/dist/scss/packages/usa-banner';
-@import '../../node_modules/uswds/dist/scss/packages/usa-skipnav';
+@forward 'usa-header';
+@forward 'usa-accordion';
+@forward 'usa-collection';
+@forward 'usa-footer';
+@forward 'uswds-form-controls';
+@forward 'usa-button';
+@forward 'usa-alert';
+@forward 'usa-banner';
+@forward 'usa-skipnav';
 
-@import './component/usa-banner.scss';
-@import 'component/language-switcher';
-
+@forward 'component/language-switcher';
+@forward 'component/identifier';
+@forward 'component/contact';
 
 // Variables ------------ //
 
@@ -38,6 +41,11 @@ $theme-color-base-family: #dcdee0;
 p, label#emailsub, .registered-resources li, .updated-date {
   font-size: 1.06rem;
   line-height: 1.3rem;
+}
+
+svg {
+  max-width: 100%;
+  height: auto;
 }
 
 .bg-blue {
@@ -206,7 +214,7 @@ label.max-width-input {
   border: 0;
 
   .grid-container {
-    background-image: url(../img/alerts/info.svg), linear-gradient(transparent, transparent);
+    background-image: url(../img/info.svg), linear-gradient(transparent, transparent);
     background-position: 1rem 1rem;
     background-repeat: no-repeat;
     background-size: 2rem;
@@ -421,22 +429,14 @@ $logo-width: 130px;
 }
 
 .usagov-img {
-  padding-bottom: 1rem;
   margin-top: 0;
-  max-width: 220px;
-
-  @include at-media('tablet') {
-    margin-top: 1rem;
-  }
 }
 
 .eac-logo-img {
   vertical-align: middle;
-  max-width: 150px;
-  padding: 1rem 0 1rem;
 
   @include at-media('tablet') {
-    padding: 2.5rem 0 2.5rem;
+    margin-top: 20%;
   }
 }
 
@@ -446,10 +446,14 @@ $logo-width: 130px;
   font-weight: bold;
   font-size: 1.1em;
   margin: auto 1rem auto 1rem;
+  padding: 1rem;
 
   [dir="rtl"] & {
     margin-left: 10px;
     margin-right: 0;
+  }
+  @include at-media('tablet') {
+    padding: 0;
   }
 }
 
