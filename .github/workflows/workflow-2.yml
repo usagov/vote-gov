@@ -1,4 +1,3 @@
-name: Pipeline Testing 
 
 on: [push]
 
