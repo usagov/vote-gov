@@ -1,0 +1,43 @@
+$color-blue-headings: #0071BC;
+
+.footer-contact {
+  padding: 24px 0;
+}
+
+.twitter-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+
+  &:focus,
+  &:hover {
+    color: #11385B;
+  }
+
+  svg {
+    display: inline-block;
+    fill: $color-blue-headings;
+    vertical-align: middle;
+  }
+}
+
+.email-vote {
+  text-decoration: none;
+  white-space: nowrap;
+  color: black;
+
+  &:focus,
+  &:hover {
+    color: #11385B;
+  }
+
+  svg {
+    display: inline-block;
+    fill: $color-blue-headings;
+    vertical-align: middle;
+  }
+
+  span {
+    text-decoration: underline;
+  }
+}
