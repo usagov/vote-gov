@@ -3,7 +3,7 @@
 describe('check links on stage pages', () => {
   it('alaska links check', () => {
     cy.visit('http://localhost:1313/register/ak/')
-    cy.get('[data-test="footer-2"]').should('be.visible')
+    cy.get('[data-test="footer"]').should('be.visible')
 
     // check links on page
     cy.get('[href="https://voterregistration.alaska.gov/?ref=voteusa_en"]').click()
@@ -25,7 +25,7 @@ describe('check links on stage pages', () => {
   it('american samoa links check', () => {
     // this test will be similar to North Dakota, the links were not wokring in the github actions pipeline and were taking to long to load.  They have been checked manually.
     cy.visit('http://localhost:1313/register/as/')
-    cy.get('[data-test="footer-2"]').should('be.visible')
+    cy.get('[data-test="footer"]').should('be.visible')
 
     // check links on page
     cy.get('[class="reg-link"]').then(link => {
@@ -39,7 +39,7 @@ describe('check links on stage pages', () => {
 
   it('arkansas links check', () => {
     cy.visit('http://localhost:1313/register/ar/')
-    cy.get('[data-test="footer-2"]').should('be.visible')
+    cy.get('[data-test="footer"]').should('be.visible')
 
     // check links on page
     cy.get('[href="https://www.sos.arkansas.gov/elections/voter-information/?ref=voteusa_en"]').click()
@@ -57,7 +57,7 @@ describe('check links on stage pages', () => {
   it('north dakota links check', () => {
   // this test will be different than the rest, the link on the page will not allow cypress to go back and will not let it complete the test. This has been tested manually and is working as expected
   cy.visit('http://localhost:1313/register/nd/')
-  cy.get('[data-test="footer-2"]').should('be.visible')
+  cy.get('[data-test="footer"]').should('be.visible')
 
   cy.get('[class="reg-link"]').invoke('attr', 'href').should('be.equal', 'https://vip.sos.nd.gov/PortalList.aspx?ref=voteusa_en')
 
