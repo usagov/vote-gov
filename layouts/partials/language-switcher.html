@@ -12,8 +12,8 @@
   {{ end }}
   {{ else }}
   <label for="language-switcher" class="usa-label usa-label--language">{{ replace .Site.Params.select_language "%dropdown-list%" "" }}</label>
-  <select class="usa-select usa-select--language" name="language-switcher" id="language-switcher" onchange="window.location=this.value;">
-    {{ range $.Site.Home.AllTranslations }}
+  <select class="usa-select usa-select--language" data-test="language-switcher" name="language-switcher" id="language-switcher" onchange="window.location=this.value;">
+    {{ range .AllTranslations }}
     <option lang="{{ .Language.Lang | replaceRE "-[a-z]+" "" }}" value="{{ .Permalink | relURL }}"{{ if eq $currentLang .Language.LanguageName }} selected="selected"{{ end }}>
       {{ .Language.LanguageName }} {{ if not (eq .Site.Params.english_languageName "") }}({{ .Site.Params.english_languageName }}){{ end }}
     </option>

@@ -33,11 +33,11 @@ cy.visit("localhost:1313/register/ak/")
   cy.get('[data-test="main-header"]').should('contain','Alaska 주 유권자 등록 안내 ')
 
   //  check simplified chinese
-  cy.get('[data-test="language-switcher"]').select("中文 (Simplified Chinese)")
+  cy.get('[data-test="language-switcher"]').select("中文 (Chinese - Simplified)")
   cy.get('[data-test="main-header"]').should('contain','在 Alaska 注册投票')
 
   //  check traditional chinese
-  cy.get('[data-test="language-switcher"]').select("繁體中文 (Traditional Chinese )")
+  cy.get('[data-test="language-switcher"]').select("繁體中文 (Chinese - Traditional)")
   cy.get('[data-test="main-header"]').should('contain','在 Alaska 登記投票')
 })
 
@@ -72,11 +72,11 @@ cy.visit("localhost:1313/register/as/")
   cy.get('[data-test="main-header"]').should('contain','American Samoa 주 유권자 등록 안내 ')
 
   //  check simplified chinese
-  cy.get('[data-test="language-switcher"]').select("中文 (Simplified Chinese)")
+  cy.get('[data-test="language-switcher"]').select("中文 (Chinese - Simplified)")
   cy.get('[data-test="main-header"]').should('contain','在 American Samoa 注册投票')
 
   //  check traditional chinese
-  cy.get('[data-test="language-switcher"]').select("繁體中文 (Traditional Chinese )")
+  cy.get('[data-test="language-switcher"]').select("繁體中文 (Chinese - Traditional)")
   cy.get('[data-test="main-header"]').should('contain','在 American Samoa 登記投票')
   
 })
@@ -112,11 +112,11 @@ it('check arkansas', () => {
     cy.get('[data-test="main-header"]').should('contain','Arkansas 주 유권자 등록 안내 ')
 
     //  check simplified chinese
-    cy.get('[data-test="language-switcher"]').select("中文 (Simplified Chinese)")
+    cy.get('[data-test="language-switcher"]').select("中文 (Chinese - Simplified)")
     cy.get('[data-test="main-header"]').should('contain','在 Arkansas 注册投票')
 
     //  check traditional chinese
-    cy.get('[data-test="language-switcher"]').select("繁體中文 (Traditional Chinese )")
+    cy.get('[data-test="language-switcher"]').select("繁體中文 (Chinese - Traditional)")
     cy.get('[data-test="main-header"]').should('contain','在 Arkansas 登記投票')
 
   })
@@ -152,11 +152,11 @@ it('check arkansas', () => {
       cy.get('[data-test="main-header"]').should('contain','North Dakota 주 유권자 등록 안내 ')
 
       //  check simplified chinese
-      cy.get('[data-test="language-switcher"]').select("中文 (Simplified Chinese)")
+      cy.get('[data-test="language-switcher"]').select("中文 (Chinese - Simplified)")
       cy.get('[data-test="main-header"]').should('contain','在 North Dakota 注册投票')
 
       //  check traditional chinese
-      cy.get('[data-test="language-switcher"]').select("繁體中文 (Traditional Chinese )")
+      cy.get('[data-test="language-switcher"]').select("繁體中文 (Chinese - Traditional)")
       cy.get('[data-test="main-header"]').should('contain','在 North Dakota 登記投票')
       
     })

@@ -1,5 +1,6 @@
 // This component leverages the .usa-button-big class from `uswds`.
 //
+@forward "uswds-core";
 
 .usa-disclaimer {
   background-color: color('primary-darker');

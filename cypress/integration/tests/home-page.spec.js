@@ -6,7 +6,7 @@ describe('check homepage', () => {
   })
 
   it('verify homepage loads', () => {
-    cy.get('[data-test="footer-2"]').should('be.visible')
+    cy.get('[data-test="footer"]').should('be.visible')
   })
 
   it('check language switching on homepage', () => {
