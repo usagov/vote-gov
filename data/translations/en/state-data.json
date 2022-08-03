@@ -16,7 +16,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "15 days before Election Day",
     "default_online_deadline": "15 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 15 days before Election Day"
   },
   "ak": {
@@ -36,7 +35,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "30 days before Election Day",
     "default_online_deadline": "30 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "as": {
@@ -69,7 +67,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "29 days before Election Day",
     "default_online_deadline": "29 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 29 days before Election Day"
   },
   "ar": {
@@ -84,7 +81,6 @@
     "confirm_registration_link_translated": "true",
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "30 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "ca": {
@@ -104,7 +100,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
     "default_online_deadline": "15 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 15 days before Election Day"
   },
   "co": {
@@ -124,7 +119,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
     "default_online_deadline": "8 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 8 days before Election Day"
   },
   "ct": {
@@ -144,7 +138,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
     "default_online_deadline": "7 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 7 days before Election Day"
   },
   "de": {
@@ -164,7 +157,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Fourth Saturday before Election Day",
     "default_online_deadline": "Fourth Saturday before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked by the fourth Saturday before Election Day"
   },
   "dc": {
@@ -204,7 +196,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "29 days before Election Day",
     "default_online_deadline": "29 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 29 days before Election Day"
   },
   "ga": {
@@ -224,7 +215,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Fifth Monday before Election Day",
     "default_online_deadline": "Fifth Monday before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked by the fifth Monday before Election Day"
   },
   "gu": {
@@ -283,7 +273,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
     "default_online_deadline": "25 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 25 days before Election Day"
   },
   "il": {
@@ -323,7 +312,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "29 days before Election Day",
     "default_online_deadline": "29 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 29 days before Election Day"
   },
   "ia": {
@@ -343,7 +331,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
     "default_online_deadline": "15 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 15 days before Election Day"
   },
   "ks": {
@@ -363,7 +350,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "21 days before Election Day",
     "default_online_deadline": "21 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 21 days before Election Day"
   },
   "ky": {
@@ -404,7 +390,6 @@
     "dates__electionday": "General Election Day: Saturday, December 10, 2022.",
     "default_ip_deadline": "30 days before Election Day",
     "default_online_deadline": "20 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "me": {
@@ -439,7 +424,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
     "default_online_deadline": "21 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 21 days before Election Day"
   },
   "ma": {
@@ -459,7 +443,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "20 days before Election Day",
     "default_online_deadline": "20 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 20 days before Election Day"
   },
   "mi": {
@@ -479,7 +462,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
     "default_online_deadline": "15 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 15 days before Election Day"
   },
   "mn": {
@@ -514,7 +496,6 @@
     "confirm_registration_link_translated": "true",
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "30 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "mo": {
@@ -534,7 +515,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Fourth Wednesday before Election Day",
     "default_online_deadline": "Fourth Wednesday before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked by the fourth Wednesday before Election Day"
   },
   "mt": {
@@ -549,7 +529,6 @@
     "confirm_registration_link_translated": "true",
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "ne": {
@@ -567,7 +546,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Second Friday before Election Day",
     "default_online_deadline": "Third Friday before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked by the third Friday before Election Day"
   },
   "nv": {
@@ -587,7 +565,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Fourth Tuesday before Election Day",
     "default_online_deadline": "Thursday before early voting begins",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked by the fourth Tuesday before Election Day"
   },
   "nh": {
@@ -639,7 +616,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Saturday before Election Day",
     "default_online_deadline": "28 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 28 days before Election Day"
   },
   "ny": {
@@ -659,7 +635,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "25 days before Election Day",
     "default_online_deadline": "25 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 25 days before Election Day"
   },
   "nc": {
@@ -679,7 +654,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Same day registration available during early voting period",
     "default_online_deadline": "25 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 25 days before Election Day"
   },
   "nd": {
@@ -722,7 +696,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "30 days before Election Day",
     "default_online_deadline": "30 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "ok": {
@@ -737,7 +710,6 @@
     "confirm_registration_link_translated": "true",
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "25 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 25 days before Election Day"
   },
   "or": {
@@ -757,7 +729,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "21 days before Election Day",
     "default_online_deadline": "21 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 21 days before Election Day"
   },
   "pa": {
@@ -809,7 +780,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "30 days before Election Day",
     "default_online_deadline": "30 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "sc": {
@@ -830,7 +800,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "30 days before Election Day",
     "default_online_deadline": "30 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "sd": {
@@ -865,7 +834,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "30 days before Election Day",
     "default_online_deadline": "30 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "tx": {
@@ -880,7 +848,6 @@
     "confirm_registration_link_translated": "true",
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "30 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "ut": {
@@ -940,7 +907,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "22 days before Election Day",
     "default_online_deadline": "22 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 22 days before Election Day"
   },
   "vi": {
@@ -993,7 +959,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "21 days before Election Day",
     "default_online_deadline": "21 days before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked 21 days before Election Day"
   },
   "wi": {
@@ -1013,7 +978,6 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
     "default_online_deadline": "Third Wednesday before Election Day",
-    "default_mail_received_deadline": "",
     "default_mail_postmarked_deadline": "Must be postmarked by the third Wednesday before Election Day"
   },
   "wy": {
@@ -1028,7 +992,6 @@
     "confirm_registration_link_translated": "true",
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
-    "default_mail_received_deadline": "Must be received 14 days before Election Day",
-    "default_mail_postmarked_deadline": ""
+    "default_mail_received_deadline": "Must be received 14 days before Election Day"
   }
 }  

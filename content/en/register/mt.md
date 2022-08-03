@@ -16,7 +16,6 @@ confirm_registration_link = "https://sosmt.gov/elections/vote/"
 confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""
 default_ip_deadline = "Available up to and including on Election Day"
-default_mail_received_deadline = ""
 default_mail_postmarked_deadline = "Must be postmarked 30 days before Election Day"
 
 +++

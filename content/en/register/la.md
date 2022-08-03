@@ -22,7 +22,6 @@ confirm_registration_link_language_selection = ""
 dates__electionday = "General Election Day: Saturday, December 10, 2022."
 default_ip_deadline = "30 days before Election Day"
 default_online_deadline = "20 days before Election Day"
-default_mail_received_deadline = ""
 default_mail_postmarked_deadline = "Must be postmarked 30 days before Election Day"
 
 +++

@@ -19,7 +19,6 @@ confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""
 default_ip_deadline = "Second Friday before Election Day"
 default_online_deadline = "Third Friday before Election Day"
-default_mail_received_deadline = ""
 default_mail_postmarked_deadline = "Must be postmarked by the third Friday before Election Day"
 
 +++

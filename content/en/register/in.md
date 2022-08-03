@@ -21,7 +21,6 @@ confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""
 default_ip_deadline = "29 days before Election Day"
 default_online_deadline = "29 days before Election Day"
-default_mail_received_deadline = ""
 default_mail_postmarked_deadline = "Must be postmarked 29 days before Election Day"
 
 +++
