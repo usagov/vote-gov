@@ -176,8 +176,8 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
     "default_online_deadline": "21 days before Election Day",
-    "default_mail_received_deadline": "Must be received 21 days before Election Day",
-    "default_mail_postmarked_deadline": ""
+    "default_mail_received_deadline": "Must be received 21 days before Election Day"
+    
   },
   "fl": {
     "hp_link": "https://dos.myflorida.com/elections/",
@@ -233,8 +233,8 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "10 days before Election Day",
     "default_online_deadline": "10 days before Election Day",
-    "default_mail_received_deadline": "Must be received 10 days before Election Day",
-    "default_mail_postmarked_deadline": ""
+    "default_mail_received_deadline": "Must be received 10 days before Election Day"
+    
   },
   "hi": {
     "hp_link": "https://elections.hawaii.gov/",
@@ -253,8 +253,8 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
     "default_online_deadline": "30 days before Election Day",
-    "default_mail_received_deadline": "Must be received 30 days before Election Day",
-    "default_mail_postmarked_deadline": ""
+    "default_mail_received_deadline": "Must be received 30 days before Election Day"
+    
   },
   "id": {
     "hp_link": "https://idahovotes.gov/",
@@ -292,8 +292,8 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
     "default_online_deadline": "16 days before Election Day",
-    "default_mail_received_deadline": "Must be received 28 days before Election Day",
-    "default_mail_postmarked_deadline": ""
+    "default_mail_received_deadline": "Must be received 28 days before Election Day"
+    
   },
   "in": {
     "hp_link": "https://www.in.gov/sos/elections/",
@@ -369,8 +369,8 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Fourth Monday before Election Day",
     "default_online_deadline": "Fourth Monday before Election Day",
-    "default_mail_received_deadline": "Must be received by the fourth Monday before Election Day",
-    "default_mail_postmarked_deadline": ""
+    "default_mail_received_deadline": "Must be received by the fourth Monday before Election Day"
+    
   },
   "la": {
     "hp_link": "https://www.sos.la.gov/ElectionsAndVoting/Pages/default.aspx",
@@ -404,8 +404,8 @@
     "confirm_registration_link_translated": "true",
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
-    "default_mail_received_deadline": "Must be received 21 days before Election Day",
-    "default_mail_postmarked_deadline": ""
+    "default_mail_received_deadline": "Must be received 21 days before Election Day"
+    
   },
   "md": {
     "hp_link": "https://elections.maryland.gov/",
@@ -481,8 +481,8 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
     "default_online_deadline": "21 days before Election Day",
-    "default_mail_received_deadline": "Must be received 21 days before Election Day",
-    "default_mail_postmarked_deadline": ""
+    "default_mail_received_deadline": "Must be received 21 days before Election Day"
+    
   },
   "ms": {
     "hp_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
@@ -596,8 +596,8 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "21 days before Election Day",
     "default_online_deadline": "21 days before Election Day",
-    "default_mail_received_deadline": "Must be received 21 days before Election Day",
-    "default_mail_postmarked_deadline": ""
+    "default_mail_received_deadline": "Must be received 21 days before Election Day"
+    
   },
   "nm": {
     "hp_link": "https://www.sos.state.nm.us/voting-and-elections/",
@@ -748,8 +748,8 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "15 days before Election Day",
     "default_online_deadline": "15 days before Election Day",
-    "default_mail_received_deadline": "Must be received 15 days before Election Day",
-    "default_mail_postmarked_deadline": ""
+    "default_mail_received_deadline": "Must be received 15 days before Election Day"
+    
   },
   "pr": {
     "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
@@ -814,8 +814,8 @@
     "confirm_registration_link_translated": "true",
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "15 days before Election Day",
-    "default_mail_received_deadline": "Must be received 15 days before Election Day",
-    "default_mail_postmarked_deadline": ""
+    "default_mail_received_deadline": "Must be received 15 days before Election Day"
+    
   },
   "tn": {
     "hp_link": "https://sos.tn.gov/elections",
@@ -867,8 +867,8 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
     "default_online_deadline": "11 days before Election Day",
-    "default_mail_received_deadline": "Must be received 11 days before Election Day",
-    "default_mail_postmarked_deadline": ""
+    "default_mail_received_deadline": "Must be received 11 days before Election Day"
+    
   },
   "vt": {
     "hp_link": "https://sos.vermont.gov/elections/",
@@ -887,8 +887,8 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
     "default_online_deadline": "Friday before Election Day",
-    "default_mail_received_deadline": "Must be received by the Friday before Election Day",
-    "default_mail_postmarked_deadline": ""
+    "default_mail_received_deadline": "Must be received by the Friday before Election Day"
+    
   },
   "va": {
     "hp_link": "https://www.elections.virginia.gov/",
@@ -939,8 +939,8 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "Available up to and including on Election Day",
     "default_online_deadline": "8 days before Election Day",
-    "default_mail_received_deadline": "Must be received 8 days before Election Day",
-    "default_mail_postmarked_deadline": ""
+    "default_mail_received_deadline": "Must be received 8 days before Election Day"
+    
   },
   "wv": {
     "hp_link": "https://sos.wv.gov/elections/Pages/default.aspx",
