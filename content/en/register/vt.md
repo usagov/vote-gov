@@ -22,6 +22,5 @@ confirm_registration_link_language_selection = ""
 default_ip_deadline = "Available up to and including on Election Day"
 default_online_deadline = "Friday before Election Day"
 default_mail_received_deadline = "Must be received by the Friday before Election Day"
-default_mail_postmarked_deadline = ""
 
 +++
