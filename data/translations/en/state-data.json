@@ -9,13 +9,14 @@
     "more_info_link": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "15 days before Election Day",
-    "online_deadline": "15 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 15 days before Election Day",
+    "online_deadline": "Monday, October 24, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Monday, October 24, 2022",
     "confirm_registration_link": "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "15 days before Election Day",
+    "default_online_deadline": "15 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 15 days before Election Day"
   },
   "ak": {
     "hp_link": "https://www.elections.alaska.gov/",
@@ -27,13 +28,14 @@
     "more_info_link": "https://www.elections.alaska.gov/Core/voterregistration.php",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "30 days before Election Day",
-    "online_deadline": "30 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 30 days before Election Day",
+    "online_deadline": "Sunday, October 09, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Sunday, October 09, 2022",
     "confirm_registration_link": "https://myvoterinformation.alaska.gov/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "30 days before Election Day",
+    "default_online_deadline": "30 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "as": {
     "hp_link": "https://aselectionoffice.gov/",
@@ -42,10 +44,10 @@
     "more_info_link": "https://aselectionoffice.gov/",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "30 days before Election Day",
     "confirm_registration_link": "https://aselectionoffice.gov/status.php",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "30 days before Election Day"
   },
   "az": {
     "hp_link": "https://azsos.gov/elections",
@@ -58,12 +60,14 @@
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
     "ip_deadline": "29 days before Election Day",
-    "online_deadline": "29 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 29 days before Election Day",
+    "online_deadline": "Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
     "confirm_registration_link": "https://my.arizona.vote/WhereToVote.aspx?s=individual",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "29 days before Election Day",
+    "default_online_deadline": "29 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 29 days before Election Day"
   },
   "ar": {
     "hp_link": "https://www.sos.arkansas.gov/elections/",
@@ -71,13 +75,13 @@
     "hp_link_language_selection": "",
     "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
     "more_info_link_translated": "true",
-    "more_info_link_language_selection": "",
-    "ip_deadline": "30 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 30 days before Election Day",
+    "more_info_link_language_selection": "",    
+    "mail_postmarked_deadline": "Must be postmarked by Monday, October 10, 2022",
     "confirm_registration_link": "https://www.voterview.ar-nova.org/voterview",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "30 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "ca": {
     "hp_link": "https://www.sos.ca.gov/elections",
@@ -89,13 +93,14 @@
     "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "online_deadline": "15 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 15 days before Election Day",
+    "online_deadline": "Monday, October 24, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Monday, October 24, 2022",
     "confirm_registration_link": "https://registertovote.ca.gov/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_online_deadline": "15 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 15 days before Election Day"
   },
   "co": {
     "hp_link": "https://www.sos.state.co.us/pubs/elections/",
@@ -107,13 +112,14 @@
     "more_info_link": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "online_deadline": "8 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 8 days before Election Day",
+    "online_deadline": "Monday, October 31, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Monday, October 31, 2022",
     "confirm_registration_link": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_online_deadline": "8 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 8 days before Election Day"
   },
   "ct": {
     "hp_link": "https://portal.ct.gov/sots",
@@ -125,13 +131,14 @@
     "more_info_link": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "online_deadline": "7 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 7 days before Election Day",
+    "online_deadline": "Tuesday, November 01, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, November 01, 2022",
     "confirm_registration_link": "https://portaldir.ct.gov/sots/LookUp.aspx",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_online_deadline": "7 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 7 days before Election Day"
   },
   "de": {
     "hp_link": "https://elections.delaware.gov/index.shtml",
@@ -143,13 +150,14 @@
     "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Fourth Saturday before Election Day",
-    "online_deadline": "Fourth Saturday before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked by the fourth Saturday before Election Day",
+    "online_deadline": "Saturday, October 15, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Saturday, October 15, 2022",
     "confirm_registration_link": "https://ivote.de.gov/VoterView",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Fourth Saturday before Election Day",
+    "default_online_deadline": "Fourth Saturday before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked by the fourth Saturday before Election Day"
   },
   "dc": {
     "hp_link": "https://dcboe.org/",
@@ -161,13 +169,15 @@
     "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "online_deadline": "21 days before Election Day",
-    "mail_received_deadline": "Must be received 21 days before Election Day",
-    "mail_postmarked_deadline": "",
+    "online_deadline": "Tuesday, October 18, 2022",
+    "mail_received_deadline": "Must be received by Tuesday, October 18, 2022",
     "confirm_registration_link": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_online_deadline": "21 days before Election Day",
+    "default_mail_received_deadline": "Must be received 21 days before Election Day"
+    
   },
   "fl": {
     "hp_link": "https://dos.myflorida.com/elections/",
@@ -179,13 +189,14 @@
     "more_info_link": "https://registertovoteflorida.gov/home",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "29 days before Election Day",
-    "online_deadline": "29 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 29 days before Election Day",
+    "online_deadline": "Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
     "confirm_registration_link": "https://registration.elections.myflorida.com/CheckVoterStatus",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "29 days before Election Day",
+    "default_online_deadline": "29 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 29 days before Election Day"
   },
   "ga": {
     "hp_link": "https://sos.ga.gov/index.php/elections",
@@ -197,13 +208,14 @@
     "more_info_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Fifth Monday before Election Day",
-    "online_deadline": "Fifth Monday before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked by the fifth Monday before Election Day",
+    "online_deadline": "Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
     "confirm_registration_link": "https://www.mvp.sos.ga.gov/MVP/mvp.do",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Fifth Monday before Election Day",
+    "default_online_deadline": "Fifth Monday before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked by the fifth Monday before Election Day"
   },
   "gu": {
     "hp_link": "https://gec.guam.gov/",
@@ -215,13 +227,14 @@
     "more_info_link": "https://gec.guam.gov/",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "10 days before Election Day",
-    "online_deadline": "10 days before Election Day",
-    "mail_received_deadline": "Must be received 10 days before Election Day",
-    "mail_postmarked_deadline": "",
+    "mail_received_deadline": "Must be received by Friday, October 28, 2022",
     "confirm_registration_link": "https://gec.guam.gov/validate/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "10 days before Election Day",
+    "default_online_deadline": "10 days before Election Day",
+    "default_mail_received_deadline": "Must be received 10 days before Election Day"
+    
   },
   "hi": {
     "hp_link": "https://elections.hawaii.gov/",
@@ -233,13 +246,15 @@
     "more_info_link": "https://elections.hawaii.gov/voters/registration/",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "online_deadline": "30 days before Election Day",
-    "mail_received_deadline": "Must be received 30 days before Election Day",
-    "mail_postmarked_deadline": "",
+    "online_deadline": "Tuesday, November 08, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Monday, October 31, 2022",
     "confirm_registration_link": "https://olvr.hawaii.gov/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_online_deadline": "30 days before Election Day",
+    "default_mail_received_deadline": "Must be received 30 days before Election Day"
+    
   },
   "id": {
     "hp_link": "https://idahovotes.gov/",
@@ -251,13 +266,14 @@
     "more_info_link": "https://idahovotes.gov/voting/",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "online_deadline": "25 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 25 days before Election Day",
+    "online_deadline": "Friday, October 14, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Friday, October 14, 2022",
     "confirm_registration_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_online_deadline": "25 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 25 days before Election Day"
   },
   "il": {
     "hp_link": "https://www.elections.il.gov/",
@@ -269,13 +285,15 @@
     "more_info_link": "https://www.elections.il.gov/Default.aspx",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "online_deadline": "16 days before Election Day",
-    "mail_received_deadline": "Must be received 28 days before Election Day",
-    "mail_postmarked_deadline": "",
+    "online_deadline": "Tuesday, October 18, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Thursday, October 06, 2022",
     "confirm_registration_link": "https://ova.elections.il.gov/RegistrationLookup.aspx",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_online_deadline": "16 days before Election Day",
+    "default_mail_received_deadline": "Must be received 28 days before Election Day"
+    
   },
   "in": {
     "hp_link": "https://www.in.gov/sos/elections/",
@@ -287,13 +305,14 @@
     "more_info_link": "https://www.in.gov/sos/elections/2403.htm",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "29 days before Election Day",
-    "online_deadline": "29 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 29 days before Election Day",
+    "online_deadline": "Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
     "confirm_registration_link": "https://indianavoters.in.gov/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "29 days before Election Day",
+    "default_online_deadline": "29 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 29 days before Election Day"
   },
   "ia": {
     "hp_link": "https://sos.iowa.gov/",
@@ -305,13 +324,14 @@
     "more_info_link": "https://sos.iowa.gov/elections/voterinformation/voterregistration.html",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "online_deadline": "15 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 15 days before Election Day",
+    "online_deadline": "Monday, October 24, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Monday, October 24, 2022",
     "confirm_registration_link": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_online_deadline": "15 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 15 days before Election Day"
   },
   "ks": {
     "hp_link": "https://sos.ks.gov/elections/elections.html",
@@ -323,13 +343,14 @@
     "more_info_link": "https://sos.ks.gov/elections/voter-information.html",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "21 days before Election Day",
-    "online_deadline": "21 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 21 days before Election Day",
+    "online_deadline": "Tuesday, October 18, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 18, 2022",
     "confirm_registration_link": "https://myvoteinfo.voteks.org/voterview/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "21 days before Election Day",
+    "default_online_deadline": "21 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 21 days before Election Day"
   },
   "ky": {
     "hp_link": "https://elect.ky.gov/Pages/default.aspx",
@@ -341,13 +362,15 @@
     "more_info_link": "https://elect.ky.gov/Resources/Pages/Registration.aspx",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Fourth Monday before Election Day",
-    "online_deadline": "Fourth Monday before Election Day",
-    "mail_received_deadline": "Must be received by the fourth Monday before Election Day",
-    "mail_postmarked_deadline": "",
+    "online_deadline": "Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
     "confirm_registration_link": "https://vrsws.sos.ky.gov/VIC/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Fourth Monday before Election Day",
+    "default_online_deadline": "Fourth Monday before Election Day",
+    "default_mail_received_deadline": "Must be received by the fourth Monday before Election Day"
+    
   },
   "la": {
     "hp_link": "https://www.sos.la.gov/ElectionsAndVoting/Pages/default.aspx",
@@ -359,14 +382,15 @@
     "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "30 days before Election Day",
-    "online_deadline": "20 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 30 days before Election Day",
+    "online_deadline": "Wednesday, October 19, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
     "confirm_registration_link": "https://voterportal.sos.la.gov/",
     "confirm_registration_link_translated": "true",
     "confirm_registration_link_language_selection": "",
-    "dates__electionday": "General Election Day: Saturday, December 10, 2022."
+    "dates__electionday": "General Election Day: Saturday, December 10, 2022.",
+    "default_ip_deadline": "30 days before Election Day",
+    "default_online_deadline": "20 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "me": {
     "hp_link": "https://www.maine.gov/sos/cec/elec/",
@@ -375,12 +399,13 @@
     "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "mail_received_deadline": "Must be received 21 days before Election Day",
-    "mail_postmarked_deadline": "",
+    "mail_received_deadline": "Must be received by Tuesday, October 18, 2022",
     "confirm_registration_link": "https://www.maine.gov/sos/cec/elec/data/index.html",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_mail_received_deadline": "Must be received 21 days before Election Day"
+    
   },
   "md": {
     "hp_link": "https://elections.maryland.gov/",
@@ -392,13 +417,14 @@
     "more_info_link": "https://www.elections.maryland.gov/voter_registration/application.html",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "online_deadline": "21 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 21 days before Election Day",
+    "online_deadline": "Tuesday, October 18, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 18, 2022",
     "confirm_registration_link": "https://voterservices.elections.maryland.gov/VoterSearch",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_online_deadline": "21 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 21 days before Election Day"
   },
   "ma": {
     "hp_link": "https://www.sec.state.ma.us/ele/eleidx.htm",
@@ -410,13 +436,14 @@
     "more_info_link": "https://www.sec.state.ma.us/ele/eleifv/howreg.htm",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "20 days before Election Day",
-    "online_deadline": "20 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 20 days before Election Day",
+    "online_deadline": "Wednesday, October 19, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Wednesday, October 19, 2022",
     "confirm_registration_link": "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "20 days before Election Day",
+    "default_online_deadline": "20 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 20 days before Election Day"
   },
   "mi": {
     "hp_link": "https://www.michigan.gov/sos/0,4670,7-127-1633---,00.html",
@@ -428,13 +455,14 @@
     "more_info_link": "https://mvic.sos.state.mi.us/",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "online_deadline": "15 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 15 days before Election Day",
+    "online_deadline": "Monday, October 24, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Monday, October 24, 2022",
     "confirm_registration_link": "https://mvic.sos.state.mi.us/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_online_deadline": "15 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 15 days before Election Day"
   },
   "mn": {
     "hp_link": "https://www.sos.state.mn.us/elections-voting/",
@@ -446,13 +474,15 @@
     "more_info_link": "https://www.sos.state.mn.us/elections-voting/register-to-vote/",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "online_deadline": "21 days before Election Day",
-    "mail_received_deadline": "Must be received 21 days before Election Day",
-    "mail_postmarked_deadline": "",
+    "online_deadline": "Tuesday, October 18, 2022",
+    "mail_received_deadline": "Must be received by Tuesday, October 18, 2022",
     "confirm_registration_link": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_online_deadline": "21 days before Election Day",
+    "default_mail_received_deadline": "Must be received 21 days before Election Day"
+    
   },
   "ms": {
     "hp_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
@@ -461,12 +491,12 @@
     "more_info_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "30 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 30 days before Election Day",
+    "mail_postmarked_deadline": "Must be postmarked by Monday, October 10, 2022",
     "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "30 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "mo": {
     "hp_link": "https://www.sos.mo.gov/elections",
@@ -478,13 +508,14 @@
     "more_info_link": "https://www.sos.mo.gov/elections/goVoteMissouri/register",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Fourth Wednesday before Election Day",
-    "online_deadline": "Fourth Wednesday before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked by the fourth Wednesday before Election Day",
+    "online_deadline": "Wednesday, October 12, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Wednesday, October 12, 2022",
     "confirm_registration_link": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Fourth Wednesday before Election Day",
+    "default_online_deadline": "Fourth Wednesday before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked by the fourth Wednesday before Election Day"
   },
   "mt": {
     "hp_link": "https://sosmt.gov/elections/",
@@ -493,12 +524,12 @@
     "more_info_link": "https://sosmt.gov/elections/vote/",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 30 days before Election Day",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
     "confirm_registration_link": "https://sosmt.gov/elections/vote/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "ne": {
     "hp_link": "https://sos.nebraska.gov/elections/2020-elections",
@@ -508,13 +539,14 @@
     "registration_link_translated": "true",
     "registration_link_language_selection": "",
     "more_info_link": "https://sos.nebraska.gov/elections/voter-forms",
-    "ip_deadline": "Second Friday before Election Day",
-    "online_deadline": "Third Friday before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked by the third Friday before Election Day",
+    "online_deadline": "Friday, October 21, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Friday, October 21, 2022",
     "confirm_registration_link": "https://www.votercheck.necvr.ne.gov/voterview",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Second Friday before Election Day",
+    "default_online_deadline": "Third Friday before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked by the third Friday before Election Day"
   },
   "nv": {
     "hp_link": "https://www.nvsos.gov/sos/elections",
@@ -526,13 +558,14 @@
     "more_info_link": "https://www.nvsos.gov/sos/elections/voters/registering-to-vote",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Fourth Tuesday before Election Day",
-    "online_deadline": "Thursday before early voting begins",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked by the fourth Tuesday before Election Day",
+    "online_deadline": "Thursday, November 03, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
     "confirm_registration_link": "https://www.nvsos.gov/votersearch/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Fourth Tuesday before Election Day",
+    "default_online_deadline": "Thursday before early voting begins",
+    "default_mail_postmarked_deadline": "Must be postmarked by the fourth Tuesday before Election Day"
   },
   "nh": {
     "hp_link": "https://sos.nh.gov/home",
@@ -541,10 +574,10 @@
     "more_info_link": "https://sos.nh.gov/elections/voters/register-to-vote/",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
     "confirm_registration_link": "https://app.sos.nh.gov/Public/PartyInfo.aspx",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day"
   },
   "nj": {
     "hp_link": "https://www.state.nj.us/state/elections/index.shtml",
@@ -556,13 +589,15 @@
     "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "21 days before Election Day",
-    "online_deadline": "21 days before Election Day",
-    "mail_received_deadline": "Must be received 21 days before Election Day",
-    "mail_postmarked_deadline": "",
+    "online_deadline": "Tuesday, October 18, 2022",
+    "mail_received_deadline": "Must be postmarked by Tuesday, October 18, 2022",
     "confirm_registration_link": "https://voter.svrs.nj.gov/registration-check",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "21 days before Election Day",
+    "default_online_deadline": "21 days before Election Day",
+    "default_mail_received_deadline": "Must be received 21 days before Election Day"
+    
   },
   "nm": {
     "hp_link": "https://www.sos.state.nm.us/voting-and-elections/",
@@ -574,13 +609,14 @@
     "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information/voter-registration-information/",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Saturday before Election Day",
-    "online_deadline": "28 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 28 days before Election Day",
+    "online_deadline": "Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
     "confirm_registration_link": "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Saturday before Election Day",
+    "default_online_deadline": "28 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 28 days before Election Day"
   },
   "ny": {
     "hp_link": "https://www.elections.ny.gov/",
@@ -592,13 +628,14 @@
     "more_info_link": "https://www.elections.ny.gov/votingregister.html",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "25 days before Election Day",
-    "online_deadline": "25 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 25 days before Election Day",
+    "online_deadline": "Friday, October 14, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Friday, October 14, 2022",
     "confirm_registration_link": "https://voterlookup.elections.ny.gov/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "25 days before Election Day",
+    "default_online_deadline": "25 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 25 days before Election Day"
   },
   "nc": {
     "hp_link": "https://www.ncsbe.gov/voting",
@@ -610,13 +647,14 @@
     "more_info_link": "https://www.ncsbe.gov/registering/how-register",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Same day registration available during early voting period",
-    "online_deadline": "25 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 25 days before Election Day",
+    "online_deadline": "Friday, October 14, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Friday, October 14, 2022",
     "confirm_registration_link": "https://vt.ncsbe.gov/RegLkup/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Same day registration available during early voting period",
+    "default_online_deadline": "25 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 25 days before Election Day"
   },
   "nd": {
     "hp_link": "https://vip.sos.nd.gov/PortalList.aspx",
@@ -636,10 +674,10 @@
     "more_info_link": "https://www.votecnmi.gov.mp/",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "60 days before Election Day",
     "confirm_registration_link": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "60 days before Election Day"
   },
   "oh": {
     "hp_link": "https://www.sos.state.oh.us/elections/",
@@ -651,13 +689,14 @@
     "more_info_link": "https://ohio.gov/wps/portal/gov/site/government/resources/register-to-vote-or-update-your-registration",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "30 days before Election Day",
-    "online_deadline": "30 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 30 days before Election Day",
+    "online_deadline": "Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
     "confirm_registration_link": "https://voterlookup.ohiosos.gov/voterlookup.aspx",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "30 days before Election Day",
+    "default_online_deadline": "30 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "ok": {
     "hp_link": "https://www.ok.gov/elections/",
@@ -666,12 +705,12 @@
     "more_info_link": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "25 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 25 days before Election Day",
+    "mail_postmarked_deadline": "Must be postmarked by Friday, October 14, 2022",
     "confirm_registration_link": "https://okvoterportal.okelections.us/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "25 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 25 days before Election Day"
   },
   "or": {
     "hp_link": "https://sos.oregon.gov/voting-elections/Pages/default.aspx",
@@ -683,13 +722,14 @@
     "more_info_link": "https://sos.oregon.gov/voting/Pages/registration.aspx",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "21 days before Election Day",
-    "online_deadline": "21 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 21 days before Election Day",
+    "online_deadline": "Tuesday, October 18, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 18, 2022",
     "confirm_registration_link": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "21 days before Election Day",
+    "default_online_deadline": "21 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 21 days before Election Day"
   },
   "pa": {
     "hp_link": "https://www.pa.gov/guides/voting-and-elections/",
@@ -701,13 +741,15 @@
     "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "15 days before Election Day",
-    "online_deadline": "15 days before Election Day",
-    "mail_received_deadline": "Must be received 15 days before Election Day",
-    "mail_postmarked_deadline": "",
+    "online_deadline": "Monday, October 24, 2022",
+    "mail_received_deadline": "Must be received by Monday, October 24, 2022",
     "confirm_registration_link": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "15 days before Election Day",
+    "default_online_deadline": "15 days before Election Day",
+    "default_mail_received_deadline": "Must be received 15 days before Election Day"
+    
   },
   "pr": {
     "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
@@ -716,10 +758,10 @@
     "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "50 days before Election Day",
     "confirm_registration_link": "https://consulta.ceepur.org/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "50 days before Election Day"
   },
   "ri": {
     "hp_link": "https://elections.ri.gov/",
@@ -731,13 +773,14 @@
     "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "30 days before Election Day",
-    "online_deadline": "30 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 30 days before Election Day",
+    "online_deadline": "Sunday, October 09, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Sunday, October 09, 2022",
     "confirm_registration_link": "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "30 days before Election Day",
+    "default_online_deadline": "30 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "sc": {
     "hp_link": "https://www.scvotes.gov/",
@@ -749,13 +792,15 @@
     "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "30 days before Election Day",
-    "online_deadline": "30 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 30 days before Election Day",
+    "online_deadline": "Sunday, October 09, 2022",
+    "mail_received_deadline": "Must be received by Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
     "confirm_registration_link": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "30 days before Election Day",
+    "default_online_deadline": "30 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "sd": {
     "hp_link": "https://sdsos.gov/elections-voting/",
@@ -764,12 +809,13 @@
     "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "15 days before Election Day",
-    "mail_received_deadline": "Must be received 15 days before Election Day",
-    "mail_postmarked_deadline": "",
+    "mail_received_deadline": "Must be received by Monday, October 24, 2022",
     "confirm_registration_link": "https://vip.sdsos.gov/VIPLogin.aspx",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "15 days before Election Day",
+    "default_mail_received_deadline": "Must be received 15 days before Election Day"
+    
   },
   "tn": {
     "hp_link": "https://sos.tn.gov/elections",
@@ -781,13 +827,14 @@
     "more_info_link": "https://sos.tn.gov/products/elections/register-vote",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "30 days before Election Day",
-    "online_deadline": "30 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 30 days before Election Day",
+    "online_deadline": "Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
     "confirm_registration_link": "https://tnmap.tn.gov/voterlookup/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "30 days before Election Day",
+    "default_online_deadline": "30 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "tx": {
     "hp_link": "https://www.votetexas.gov/index.html",
@@ -796,12 +843,12 @@
     "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "30 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 30 days before Election Day",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
     "confirm_registration_link": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "30 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 30 days before Election Day"
   },
   "ut": {
     "hp_link": "https://elections.utah.gov/",
@@ -813,13 +860,15 @@
     "more_info_link": "https://voteinfo.utah.gov/",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "online_deadline": "11 days before Election Day",
-    "mail_received_deadline": "Must be received 11 days before Election Day",
-    "mail_postmarked_deadline": "",
+    "online_deadline": "Friday, October 28, 2022",
+    "mail_received_deadline": "Must be received by Friday, October 28, 2022",
     "confirm_registration_link": "https://vote.utah.gov/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_online_deadline": "11 days before Election Day",
+    "default_mail_received_deadline": "Must be received 11 days before Election Day"
+    
   },
   "vt": {
     "hp_link": "https://sos.vermont.gov/elections/",
@@ -831,13 +880,15 @@
     "more_info_link": "https://sos.vermont.gov/elections/voters/registration/",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "online_deadline": "Friday before Election Day",
-    "mail_received_deadline": "Must be received by the Friday before Election Day",
-    "mail_postmarked_deadline": "",
+    "online_deadline": "Tuesday, November 08, 2022",
+    "mail_received_deadline": "Must be received by Friday, November 04, 2022",
     "confirm_registration_link": "https://mvp.vermont.gov/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_online_deadline": "Friday before Election Day",
+    "default_mail_received_deadline": "Must be received by the Friday before Election Day"
+    
   },
   "va": {
     "hp_link": "https://www.elections.virginia.gov/",
@@ -849,13 +900,14 @@
     "more_info_link": "https://www.elections.virginia.gov/registration/how-to-register/",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "22 days before Election Day",
-    "online_deadline": "22 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 22 days before Election Day",
+    "online_deadline": "Monday, October 17, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Monday, October 17, 2022",
     "confirm_registration_link": "https://www.elections.virginia.gov/registration/view-your-info/",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "22 days before Election Day",
+    "default_online_deadline": "22 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 22 days before Election Day"
   },
   "vi": {
     "hp_link": "https://www.vivote.gov/voters/register-vote",
@@ -864,10 +916,11 @@
     "more_info_link": "https://www.vivote.gov/voters/register-vote",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "30 days before Election Day",
+    "mail_postmarked_deadline": "Must be postmarked by Sunday, October 09, 2022",
     "confirm_registration_link": "https://www.vivote.gov/voters/lookup",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "30 days before Election Day"
   },
   "wa": {
     "hp_link": "https://www.sos.wa.gov/elections/",
@@ -879,13 +932,15 @@
     "more_info_link": "https://www.sos.wa.gov/elections/voters/",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "online_deadline": "8 days before Election Day",
-    "mail_received_deadline": "Must be received 8 days before Election Day",
-    "mail_postmarked_deadline": "",
+    "online_deadline": "Monday, October 31, 2022",
+    "mail_received_deadline": "Must be received by Monday, October 31, 2022",
     "confirm_registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_online_deadline": "8 days before Election Day",
+    "default_mail_received_deadline": "Must be received 8 days before Election Day"
+    
   },
   "wv": {
     "hp_link": "https://sos.wv.gov/elections/Pages/default.aspx",
@@ -897,13 +952,14 @@
     "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "21 days before Election Day",
-    "online_deadline": "21 days before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked 21 days before Election Day",
+    "online_deadline": "Tuesday, October 18, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 18, 2022",
     "confirm_registration_link": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "21 days before Election Day",
+    "default_online_deadline": "21 days before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked 21 days before Election Day"
   },
   "wi": {
     "hp_link": "https://elections.wi.gov/elections-voting",
@@ -915,13 +971,14 @@
     "more_info_link": "https://elections.wi.gov/voters/first-time",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "online_deadline": "Third Wednesday before Election Day",
-    "mail_received_deadline": "",
-    "mail_postmarked_deadline": "Must be postmarked by the third Wednesday before Election Day",
+    "online_deadline": "Wednesday, October 19, 2022",
+    "mail_postmarked_deadline": "Must be postmarked by Wednesday, October 19, 2022",
     "confirm_registration_link": "https://myvote.wi.gov/en-us/MyVoterInfo",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_online_deadline": "Third Wednesday before Election Day",
+    "default_mail_postmarked_deadline": "Must be postmarked by the third Wednesday before Election Day"
   },
   "wy": {
     "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
@@ -930,11 +987,11 @@
     "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
     "more_info_link_translated": "true",
     "more_info_link_language_selection": "",
-    "ip_deadline": "Available up to and including on Election Day",
-    "mail_received_deadline": "Must be received 14 days before Election Day",
-    "mail_postmarked_deadline": "",
+    "mail_received_deadline": "Must be received by Monday, October 24, 2022",
     "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf",
     "confirm_registration_link_translated": "true",
-    "confirm_registration_link_language_selection": ""
+    "confirm_registration_link_language_selection": "",
+    "default_ip_deadline": "Available up to and including on Election Day",
+    "default_mail_received_deadline": "Must be received 14 days before Election Day"
   }
 }  
