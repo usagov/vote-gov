@@ -6,6 +6,7 @@ module.exports = defineConfig({
     baseUrl: 'http://localhost:1313/',
     viewportHeight: 800,
     viewportWidth: 1530,
+    chromeWebSecurity: false, 
 
     // We've imported your old cypress plugins here.
     // You may want to clean this up later by importing these.
