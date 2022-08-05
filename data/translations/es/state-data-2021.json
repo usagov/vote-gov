@@ -1,0 +1,582 @@
+{
+  "al": {
+    "hp_link": "https://www.sos.alabama.gov/alabama-votes",
+    "registration_link": "https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action",
+    "more_info_link": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
+    "default_ip_deadline": "hasta 15 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 15 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 15 días antes del día de las elecciones",
+    "confirm_registration_link": "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do"
+  },
+  "ak": {
+    "hp_link": "https://elections.alaska.gov/Core/spanishinformation.php",
+    "hp_link_translated": "true",
+    "registration_link": "https://voterregistration.alaska.gov/",
+    "more_info_link": "https://www.elections.alaska.gov/Core/spanishinformation.php",
+    "more_info_link_translated": "true",
+    "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 30 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "confirm_registration_link": "https://myvoterinformation.alaska.gov/"
+  },
+  "as": {
+    "hp_link": "https://aselectionoffice.gov/",
+    "more_info_link": "https://aselectionoffice.gov/",
+    "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
+    "confirm_registration_link": "https://aselectionoffice.gov/status.php"
+  },
+  "az": {
+    "hp_link": "https://azsos.gov/elections",
+    "hp_link_language_selection": "true",
+    "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
+    "registration_link_language_selection": "true",
+    "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information-sp",
+    "more_info_link_language_selection": "true",
+    "default_ip_deadline": "hasta 29 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 29 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 29 días antes del día de las elecciones",
+    "confirm_registration_link": "https://my.arizona.vote/WhereToVote.aspx?s=individual",
+    "confirm_registration_link_language_selection": "true"
+  },
+  "ar": {
+    "hp_link": "https://www.sos.arkansas.gov/elections/",
+    "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
+    "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "confirm_registration_link": "https://www.voterview.ar-nova.org/voterview/?culture=es-MX",
+    "confirm_registration_link_translated": "true"
+  },
+  "ca": {
+    "hp_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/",
+    "hp_link_translated": "true",
+    "registration_link": "https://registertovote.ca.gov/es-mx",
+    "registration_link_translated": "true",
+    "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote",
+    "more_info_link_translated": "true",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_online_deadline": "hasta 15 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 15 días antes del día de las elecciones",
+    "confirm_registration_link": "https://registertovote.ca.gov/es-mx",
+    "confirm_registration_link_translated": "true"
+  },
+  "co": {
+    "hp_link": "https://www.sos.state.co.us/pubs/spanish/spanishHome.html",
+    "hp_link_translated": "true",
+    "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
+    "registration_link_language_selection": "true",
+    "more_info_link": "https://www.sos.state.co.us/pubs/spanish/spanishHome.html",
+    "more_info_link_translated": "true",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_online_deadline": "hasta 8 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 8 días antes del día de las elecciones",
+    "confirm_registration_link": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml",
+    "confirm_registration_link_language_selection": "true"
+  },
+  "ct": {
+    "hp_link": "https://portal.ct.gov/sots",
+    "registration_link": "https://voterregistration.ct.gov/OLVR/welcome.do",
+    "registration_link_language_selection": "true",
+    "more_info_link": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_online_deadline": "hasta 7 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 7 días antes del día de las elecciones",
+    "confirm_registration_link": "https://portaldir.ct.gov/sots/LookUp.aspx"
+  },
+  "de": {
+    "hp_link": "https://elections.delaware.gov/index.shtml",
+    "registration_link": "https://ivote.de.gov/voterview/?culture=es-MX",
+    "registration_link_translated": "true",
+    "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
+    "default_ip_deadline": "hasta el cuarto sábado antes del día de las elecciones",
+    "default_online_deadline": "hasta el cuarto sábado antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar el cuarto sábado antes del día de las elecciones",
+    "confirm_registration_link": "https://ivote.de.gov/VoterView/?culture=es-MX",
+    "confirm_registration_link_translated": "true"
+  },
+  "dc": {
+    "hp_link": "https://dcboe.org/",
+    "registration_link": "https://www.dcboe.org/Voters/Register-To-Vote/Register-to-Vote",
+    "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_online_deadline": "hasta 21 días antes del día de las elecciones",
+    "default_mail_received_deadline": "a más tardar debe ser recibida 21 días antes del día de las elecciones",
+    "default_mail_postmarked_deadline": "",
+    "confirm_registration_link": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status"
+  },
+  "fl": {
+    "hp_link": "https://dos.myflorida.com/elections/",
+    "registration_link": "https://registertovoteflorida.gov/home",
+    "registration_link_language_selection": "true",
+    "more_info_link": "https://registertovoteflorida.gov/home",
+    "more_info_link_language_selection": "true",
+    "default_ip_deadline": "hasta 29 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 29 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 29 días antes del día de las elecciones",
+    "confirm_registration_link": "https://registration.elections.myflorida.com/es/CheckVoterStatus/Index",
+    "confirm_registration_link_translated": "true"
+  },
+  "ga": {
+    "hp_link": "https://sos.ga.gov/index.php/elections",
+    "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
+    "more_info_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
+    "default_ip_deadline": "hasta el quinto lunes antes del día de las elecciones",
+    "default_online_deadline": "hasta el quinto lunes antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar el quinto lunes antes del día de las elecciones",
+    "confirm_registration_link": "https://www.mvp.sos.ga.gov/MVP/mvp.do"
+  },
+  "gu": {
+    "hp_link": "https://gec.guam.gov/",
+    "registration_link": "https://gec.guam.gov/register/",
+    "more_info_link": "https://gec.guam.gov/",
+    "default_ip_deadline": "hasta 10 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 10 días antes del día de las elecciones",
+    "default_mail_received_deadline": "a más tardar debe ser recibida 10 días antes del día de las elecciones",
+    "default_mail_postmarked_deadline": "",
+    "confirm_registration_link": "https://gec.guam.gov/validate/"
+  },
+  "hi": {
+    "hp_link": "https://elections.hawaii.gov/",
+    "registration_link": "https://olvr.hawaii.gov/",
+    "more_info_link": "https://elections.hawaii.gov/voters/registration/",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_online_deadline": "hasta 30 días antes del día de las elecciones",
+    "default_mail_received_deadline": "a más tardar debe ser recibida 30 días antes del día de las elecciones",
+    "default_mail_postmarked_deadline": "",
+    "confirm_registration_link": "https://olvr.hawaii.gov/"
+  },
+  "id": {
+    "hp_link": "https://idahovotes.gov/",
+    "registration_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/ApplicationInstructions.aspx",
+    "more_info_link": "https://idahovotes.gov/voting/",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_online_deadline": "hasta 25 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar 25 días antes del día de las elecciones",
+    "confirm_registration_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx"
+  },
+  "il": {
+    "hp_link": "https://www.elections.il.gov/",
+    "registration_link": "https://spanish-ova.elections.il.gov/",
+    "registration_link_translated": "true",
+    "more_info_link": "https://www.elections.il.gov/Default.aspx",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_online_deadline": "hasta 16 días antes del día de las elecciones",
+    "default_mail_received_deadline": "a más tardar debe ser recibida 28 días antes del día de las elecciones",
+    "default_mail_postmarked_deadline": "",
+    "confirm_registration_link": "https://spanish-ova.elections.il.gov/",
+    "confirm_registration_link_translated": "true"
+  },
+  "in": {
+    "hp_link": "https://www.in.gov/sos/elections/",
+    "registration_link": "https://indianavoters.in.gov/",
+    "more_info_link": "https://www.in.gov/sos/elections/2403.htm",
+    "default_ip_deadline": "hasta 29 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 29 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 29 días antes del día de las elecciones",
+    "confirm_registration_link": "https://indianavoters.in.gov/"
+  },
+  "ia": {
+    "hp_link": "https://sos.iowa.gov/",
+    "registration_link": "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration",
+    "more_info_link": "https://sos.iowa.gov/elections/voterinformation/voterregistration.html",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_online_deadline": "hasta 15 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 15 días antes del día de las elecciones",
+    "confirm_registration_link": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx"
+  },
+  "ks": {
+    "hp_link": "https://sos.ks.gov/elections/elections.html",
+    "registration_link": "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx",
+    "more_info_link": "https://sos.ks.gov/elections/voter-information.html",
+    "default_ip_deadline": "hasta 21 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 21 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 21 días antes del día de las elecciones",
+    "confirm_registration_link": "https://myvoteinfo.voteks.org/voterview/?culture=es-MX",
+    "confirm_registration_link_translated": "true"
+  },
+  "ky": {
+    "hp_link": "https://elect.ky.gov/Pages/default.aspx",
+    "registration_link": "https://vrsws.sos.ky.gov/ovrweb/",
+    "more_info_link": "https://elect.ky.gov/Resources/Pages/Registration.aspx",
+    "default_ip_deadline": "hasta el cuarto lunes antes del día de las elecciones",
+    "default_online_deadline": "hasta el cuarto lunes antes del día de las elecciones",
+    "default_mail_received_deadline": "a más tardar debe ser recibida a más tardar el cuarto lunes antes del día de las elecciones",
+    "default_mail_postmarked_deadline": "",
+    "confirm_registration_link": "https://vrsws.sos.ky.gov/VIC/"
+  },
+  "la": {
+    "hp_link": "https://www.sos.la.gov/ElectionsAndVoting/Pages/default.aspx",
+    "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
+    "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
+    "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 20 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "confirm_registration_link": "https://voterportal.sos.la.gov/"
+  },
+  "me": {
+    "hp_link": "https://www.maine.gov/sos/cec/elec/",
+    "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_mail_received_deadline": "a más tardar debe ser recibida 21 días antes del día de las elecciones",
+    "default_mail_postmarked_deadline": "",
+    "confirm_registration_link": "https://www.maine.gov/sos/cec/elec/data/index.html"
+  },
+  "md": {
+    "hp_link": "https://elections.maryland.gov/",
+    "registration_link": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1",
+    "registration_link_language_selection": "true",
+    "more_info_link": "https://www.elections.maryland.gov/voter_registration/application.html",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_online_deadline": "hasta 21 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 21 días antes del día de las elecciones",
+    "confirm_registration_link": "https://voterservices.elections.maryland.gov/VoterSearch",
+    "confirm_registration_link_language_selection": "true"
+  },
+  "ma": {
+    "hp_link": "https://www.sec.state.ma.us/ele/eleidx.htm",
+    "registration_link": "https://www.sec.state.ma.us/ovr/",
+    "registration_link_language_selection": "true",
+    "more_info_link": "https://www.sec.state.ma.us/ele/eleifv/howreg.htm",
+    "default_ip_deadline": "hasta 20 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 20 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 20 días antes del día de las elecciones",
+    "confirm_registration_link": "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx",
+    "confirm_registration_link_language_selection": "true"
+  },
+  "mi": {
+    "hp_link": "https://www.michigan.gov/sos/0,4670,7-127-1633---,00.html",
+    "registration_link": "https://mvic.sos.state.mi.us/registervoter",
+    "more_info_link": "https://mvic.sos.state.mi.us/",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_online_deadline": "hasta 15 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 15 días antes del día de las elecciones",
+    "confirm_registration_link": "https://mvic.sos.state.mi.us/"
+  },
+  "mn": {
+    "hp_link": "https://www.sos.state.mn.us/elections-voting/",
+    "registration_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
+    "more_info_link": "https://www.sos.state.mn.us/elections-voting/spanish",
+    "more_info_link_translated": "true",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_online_deadline": "hasta 21 días antes del día de las elecciones",
+    "default_mail_received_deadline": "a más tardar debe ser recibida 21 días antes del día de las elecciones",
+    "default_mail_postmarked_deadline": "",
+    "confirm_registration_link": "https://www.sos.state.mn.us/elections-voting/spanish",
+    "confirm_registration_link_translated": "true"
+  },
+  "ms": {
+    "hp_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
+    "more_info_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
+    "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
+  },
+  "mo": {
+    "hp_link": "https://www.sos.mo.gov/elections",
+    "registration_link": "https://s1.sos.mo.gov/elections/voterregistration/",
+    "more_info_link": "https://www.sos.mo.gov/elections/goVoteMissouri/register",
+    "default_ip_deadline": "hasta el cuarto miércoles antes del día de las elecciones",
+    "default_online_deadline": "hasta el cuarto miércoles antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar el cuarto miércoles antes del día de las elecciones",
+    "confirm_registration_link": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx"
+  },
+  "mt": {
+    "hp_link": "https://sosmt.gov/elections/",
+    "more_info_link": "https://sosmt.gov/elections/vote/",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "confirm_registration_link": "https://sosmt.gov/elections/vote/"
+  },
+  "ne": {
+    "hp_link": "https://sos.nebraska.gov/elections/2020-elections",
+    "registration_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
+    "registration_link_language_selection": "true",
+    "more_info_link": "https://sos.nebraska.gov/elections/voter-forms",
+    "default_ip_deadline": "hasta el segundo viernes antes del día de las elecciones",
+    "default_online_deadline": "hasta el tercer viernes antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar el tercer viernes antes del día de las elecciones",
+    "confirm_registration_link": "https://www.votercheck.necvr.ne.gov/voterview/?culture=es-MX",
+    "confirm_registration_link_translated": "true"
+  },
+  "nv": {
+    "hp_link": "https://www.nvsos.gov/sos/elections",
+    "registration_link": "https://www.nvsos.gov/SOSVoterServices/start.aspx",
+    "registration_link_language_selection": "true",
+    "more_info_link": "https://www.nvsos.gov/sos/elections/voters/registering-to-vote",
+    "default_ip_deadline": "hasta el cuarto martes antes del día de las elecciones",
+    "default_online_deadline": "hasta el jueves antes de que empiece la votación anticipada",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar el cuarto martes antes del día de las elecciones",
+    "confirm_registration_link": "https://www.nvsos.gov/votersearch/"
+  },
+  "nh": {
+    "hp_link": "https://sos.nh.gov/home",
+    "more_info_link": "https://sos.nh.gov/elections/voters/register-to-vote/",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "confirm_registration_link": "https://app.sos.nh.gov/Public/PartyInfo.aspx"
+  },
+  "nj": {
+    "hp_link": "https://www.state.nj.us/state/elections/index.shtml",
+    "registration_link": "https://voter.svrs.nj.gov/register",
+    "registration_link_language_selection": "true",
+    "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml",
+    "default_ip_deadline": "hasta 21 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 21 días antes del día de las elecciones",
+    "default_mail_received_deadline": "a más tardar debe ser recibida 21 días antes del día de las elecciones",
+    "default_mail_postmarked_deadline": "",
+    "confirm_registration_link": "https://voter.svrs.nj.gov/registration-check"
+  },
+  "nm": {
+    "hp_link": "https://www.sos.state.nm.us/voting-and-elections/",
+    "hp_link_language_selection": "true",
+    "registration_link": "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx",
+    "registration_link_language_selection": "true",
+    "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information-portal/voter-registration-information/",
+    "more_info_link_language_selection": "true",
+    "default_ip_deadline": "hasta el sábado antes del día de las elecciones",
+    "default_online_deadline": "hasta 28 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 28 días antes del día de las elecciones",
+    "confirm_registration_link": "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
+  },
+  "ny": {
+    "hp_link": "https://www.elections.ny.gov/",
+    "registration_link": "https://dmv.ny.gov/more-info/electronic-voter-registration-application",
+    "more_info_link": "https://www.elections.ny.gov/votingregister.html",
+    "default_ip_deadline": "hasta 25 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 25 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 25 días antes del día de las elecciones",
+    "confirm_registration_link": "https://voterlookup.elections.ny.gov/"
+  },
+  "nc": {
+    "hp_link": "https://www.ncsbe.gov/voting",
+    "registration_link": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
+    "more_info_link": "https://www.ncsbe.gov/registering/how-register",
+    "default_ip_deadline": "disponible durante los días de votación anticipada",
+    "default_online_deadline": "hasta 25 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 25 días antes del día de las elecciones",
+    "confirm_registration_link": "https://vt.ncsbe.gov/RegLkup/"
+  },
+  "nd": {
+    "hp_link": "https://vip.sos.nd.gov/PortalList.aspx",
+    "more_info_link": "https://vip.sos.nd.gov/PortalList.aspx",
+    "confirm_registration_link": "https://vip.sos.nd.gov/WhereToVote.aspx?tab=&ptlPKID=&ptlhPKID="
+  },
+  "mp": {
+    "hp_link": "https://www.votecnmi.gov.mp/",
+    "more_info_link": "https://www.votecnmi.gov.mp/",
+    "default_ip_deadline": "hasta 60 días antes del día de las elecciones",
+    "confirm_registration_link": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
+  },
+  "oh": {
+    "hp_link": "https://www.sos.state.oh.us/elections/",
+    "registration_link": "https://olvr.ohiosos.gov/",
+    "registration_link_language_selection": "true",
+    "more_info_link": "https://ohio.gov/wps/portal/gov/site/government/resources/register-to-vote-or-update-your-registration",
+    "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 30 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "confirm_registration_link": "https://voterlookup.ohiosos.gov/voterlookup.aspx"
+  },
+  "ok": {
+    "hp_link": "https://www.ok.gov/elections/",
+    "more_info_link": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
+    "default_ip_deadline": "hasta 25 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 25 días antes del día de las elecciones",
+    "confirm_registration_link": "https://okvoterportal.okelections.us/",
+    "confirm_registration_link_language_selection": "true"
+  },
+  "or": {
+    "hp_link": "https://sos.oregon.gov/voting-elections/Pages/default.aspx",
+    "registration_link": "https://secure.sos.state.or.us/orestar/vr/register.do",
+    "registration_link_language_selection": "true",
+    "more_info_link": "https://sos.oregon.gov/voting/Pages/registration.aspx",
+    "more_info_link_language_selection": "true",
+    "default_ip_deadline": "hasta 21 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 21 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 21 días antes del día de las elecciones",
+    "confirm_registration_link": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS",
+    "confirm_registration_link_language_selection": "true"
+  },
+  "pa": {
+    "hp_link": "https://www.pa.gov/guides/voting-and-elections/",
+    "registration_link": "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
+    "registration_link_language_selection": "true",
+    "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote",
+    "default_ip_deadline": "hasta 15 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 15 días antes del día de las elecciones",
+    "default_mail_received_deadline": "a más tardar debe ser recibida 15 días antes del día de las elecciones",
+    "default_mail_postmarked_deadline": "",
+    "confirm_registration_link": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx",
+    "confirm_registration_link_language_selection": "true"
+  },
+  "pr": {
+    "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
+    "hp_link_translated": "true",
+    "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/default.aspx",
+    "default_ip_deadline": "hasta 50 días antes del día de las elecciones",
+    "confirm_registration_link": "https://consulta.ceepur.org/",
+    "confirm_registration_link_translated": "true"
+  },
+  "ri": {
+    "hp_link": "https://elections.ri.gov/",
+    "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
+    "registration_link_language_selection": "true",
+    "more_info_link": "https://vote.sos.ri.gov/VoterSpanish/RegisterToVote",
+    "more_info_link_translated": "true",
+    "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 30 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "confirm_registration_link": "https://vote.sos.ri.gov/HomeSpanish/UpdateVoterRecord?ActiveFlag=0",
+    "confirm_registration_link_translated": "true"
+  },
+  "sc": {
+    "hp_link": "https://www.scvotes.gov/",
+    "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
+    "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
+    "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 30 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "confirm_registration_link": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
+  },
+  "sd": {
+    "hp_link": "https://sdsos.gov/elections-voting/",
+    "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
+    "default_ip_deadline": "hasta 15 días antes del día de las elecciones",
+    "default_mail_received_deadline": "a más tardar debe ser recibida 15 días antes del día de las elecciones",
+    "default_mail_postmarked_deadline": "",
+    "confirm_registration_link": "https://vip.sdsos.gov/VIPLogin.aspx"
+  },
+  "tn": {
+    "hp_link": "https://sos.tn.gov/elections",
+    "registration_link": "https://ovr.govote.tn.gov/",
+    "more_info_link": "https://sos.tn.gov/products/elections/register-vote",
+    "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 30 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "confirm_registration_link": "https://tnmap.tn.gov/voterlookup/"
+  },
+  "tx": {
+    "hp_link": "https://www.votetexas.gov/es/index.html",
+    "hp_link_translated": "true",
+    "more_info_link": "https://www.votetexas.gov/es/registrese-para-votar/index.html",
+    "more_info_link_translated": "true",
+    "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "confirm_registration_link": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do",
+    "confirm_registration_link_language_selection": "true"
+  },
+  "ut": {
+    "hp_link": "https://elections.utah.gov/",
+    "registration_link": "https://secure.utah.gov/voterreg/index.html",
+    "more_info_link": "https://voteinfo.utah.gov/",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_online_deadline": "hasta 11 días antes del día de las elecciones",
+    "default_mail_received_deadline": "a más tardar debe ser recibida 11 días antes del día de las elecciones",
+    "default_mail_postmarked_deadline": "",
+    "confirm_registration_link": "https://vote.utah.gov/"
+  },
+  "vt": {
+    "hp_link": "https://sos.vermont.gov/elections/",
+    "registration_link": "https://olvr.vermont.gov/",
+    "more_info_link": "https://sos.vermont.gov/elections/voters/registration/",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_online_deadline": "hasta el viernes anterior al día de las elecciones",
+    "default_mail_received_deadline": "a más tardar debe ser recibida a más tardar el viernes anterior al día de las elecciones",
+    "default_mail_postmarked_deadline": "",
+    "confirm_registration_link": "https://mvp.vermont.gov/"
+  },
+  "va": {
+    "hp_link": "https://www.elections.virginia.gov/es/votar/",
+    "hp_link_translated": "true",
+    "registration_link": "https://www.elections.virginia.gov/citizen-portal/",
+    "more_info_link": "https://www.elections.virginia.gov/es/registro/",
+    "more_info_link_translated": "true",
+    "default_ip_deadline": "hasta 22 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 22 días antes del día de las elecciones",
+    "default_mail_received_deadline": "a más tardar debe ser recibida 22 días antes del día de las elecciones",
+    "default_mail_postmarked_deadline": "",
+    "confirm_registration_link": "https://www.elections.virginia.gov/es/registro/ver-su-informacion/",
+    "confirm_registration_link_translated": "true"
+  },
+  "vi": {
+    "hp_link": "https://www.vivote.gov/voters/register-vote",
+    "more_info_link": "https://www.vivote.gov/voters/register-vote",
+    "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
+    "confirm_registration_link": "https://www.vivote.gov/voters/lookup"
+  },
+  "wa": {
+    "hp_link": "https://www.sos.wa.gov/elections/spanish.aspx",
+    "hp_link_translated": "true",
+    "registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
+    "registration_link_language_selection": "true",
+    "more_info_link": "https://www.sos.wa.gov/elections/voters/",
+    "more_info_link_language_selection": "true",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_online_deadline": "hasta 8 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 8 días antes del día de las elecciones",
+    "confirm_registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
+    "confirm_registration_link_language_selection": "true"
+  },
+  "wv": {
+    "hp_link": "https://sos.wv.gov/elections/Pages/default.aspx",
+    "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
+    "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
+    "default_ip_deadline": "hasta 21 días antes del día de las elecciones",
+    "default_online_deadline": "hasta 21 días antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 21 días antes del día de las elecciones",
+    "confirm_registration_link": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
+  },
+  "wi": {
+    "hp_link": "https://elections.wi.gov/elections-voting",
+    "registration_link": "https://myvote.wi.gov/es-es/RegisterToVote",
+    "registration_link_translated": "true",
+    "more_info_link": "https://elections.wi.gov/voters/first-time",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_online_deadline": "hasta el tercer miércoles antes del día de las elecciones",
+    "default_mail_received_deadline": "",
+    "default_mail_postmarked_deadline": "debe tener el sello del correo hasta el tercer miércoles antes del día de las elecciones",
+    "confirm_registration_link": "https://myvote.wi.gov/en-us/MyVoterInfo"
+  },
+  "wy": {
+    "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
+    "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
+    "default_ip_deadline": "hasta el mismo día de las elecciones",
+    "default_mail_received_deadline": "a más tardar debe ser recibida 14 días antes del día de las elecciones",
+    "default_mail_postmarked_deadline": "",
+    "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf",
+    "confirm_registration_link_translated": "true"
+  }
+}
