@@ -12,6 +12,7 @@ ip_deadline = "martes, 11 de octubre de 2022"
 online_deadline = "miércoles, 19 de octubre de 2022"
 mail_received_deadline = ""
 mail_postmarked_deadline = "debe tener el sello del correo martes, 11 de octubre de 2022"
+dates_electionday = "sábado, 10 de diciembre de 2022"
 confirm_registration_link = "https://voterportal.sos.la.gov/"
 
 +++
