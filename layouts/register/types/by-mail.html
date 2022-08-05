@@ -1,0 +1,81 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+{{ $by_mail_intro := replace $translation.register.by_mail__intro "%link%" (partial "links/by-mail-link.html" .) }}
+
+{{ $onlineDeadline := cond (ne .Params.online_deadline nil) .Params.online_deadline .Params.default_online_deadline }}
+{{ $postmarkedDeadline := cond (ne .Params.mail_postmarked_deadline nil) .Params.mail_postmarked_deadline .Params.default_mail_postmarked_deadline }}
+{{ $ipDeadline := cond (ne .Params.ip_deadline nil) .Params.ip_deadline .Params.default_ip_deadline }}
+{{ $dates__electionday := cond (ne .Params.dates__electionday nil) .Params.dates__electionday $translation.register.dates__electionday }}
+
+<header>
+  <h2>
+    {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
+  </h2>
+</header>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ replace $by_mail_intro "%state_name%" .Params.state_name | safeHTML }}
+      }
+    },{
+        "@type": "Question",
+        "name": "{{ replace $translation.register.dates__heading "%state_name%" .Params.state_name }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ replace $translation.register.dates__byonline_deadline "%online_deadline%" $onlineDeadline }}<br><br>{{ replace $translation.register.dates__bymail_deadline "%mail_postmarked_deadline%" $postmarkedDeadline }}<br><br>{{ replace $translation.register.dates__inperson_deadline "%ip_deadline%" $ipDeadline }}"
+        }
+      },{
+        "@type": "Question",
+        "name": "{{ replace $translation.register.dates__electionday_heading "%state_name%" .Params.state_name }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ $dates__electionday }}"
+        }
+      }]
+  }
+</script>
+
+<p>
+  {{ replace $by_mail_intro "%state_name%" .Params.state_name | safeHTML }}
+</p>
+
+{{ partial "deadlines.html" . }}
+{{ if ne .Params.national_voter_registration_form_accepted "false" }}
+<form class="state-download" method="get" id="register">
+  <h2>{{ replace $translation.register.other_language_selection__heading "%state_name%" .Params.state_name }}</h2>
+  <p>{{ $translation.register.other_language_selection__label }}</p>
+  <label class="usa-sr-only" for="js-user-selection">{{ replace .Site.Params.select_language "%dropdown-list%" "" }}</label>
+
+  <select class="usa-select  max-width-input" name="userselection" id="js-user-selection">
+    {{ range $key, $form := $.Site.Data.registration_forms }}
+    {{ if eq $key ($.Site.Language.Lang | replaceRE "-[a-z]+" "") }}
+    <option value="{{ $form.file_path }}">{{ $form.language }}</option>
+    {{ end }}
+    {{ end }}
+    {{ range $key, $form := $.Site.Data.registration_forms }}
+    {{ if ne $key $.Site.Language.Lang }}
+    <option value="{{ $form.file_path }}">{{ $form.language }}</option>
+    {{ end }}
+    {{ end }}
+  </select>
+
+  <button class="usa-button max-width-input" id="js-user-submit" type="submit">
+    {{ $translation.register.other_language_selection__submit }}
+  </button>
+
+</form>
+
+<script type="text/javascript">
+  document.getElementById('register').onsubmit = function (ev) {
+    ev.preventDefault();
+    var languageSelected = document.getElementById('js-user-selection').value;
+    window.open(languageSelected, '_blank');
+  };
+</script>
+{{ end }}

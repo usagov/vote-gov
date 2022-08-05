@@ -1,0 +1,11 @@
+{
+  "error_main_heading": "어이쿠! 404 페이지 에러입니다",
+  "error_intro": "페이지를 찾을 수 없습니다",
+  "error_msg": "검색하신 페이지를 찾을 수 없습니다. 페이지가 삭제되었거나 파일이름이 변경되었거나 일시적으로 접근이 불가합니다.",
+  "error_msg1": "인터넷 주소를 검색창에 직접 입력하셨다면, 철자를 확인해 보시기 바랍니다.",
+  "error_msg2": "저희 메인 화면 %link% 으로 이동하여 다시 한 번 시도해 보시기 바랍니다. ",
+  "error_msg2_link": "메인 페이지",
+  "error_msg3": "귀하가 거주하는 지역의 %link% 사이트에서 미주 전역 투표 안내 설명서를 확인하십시오. ",
+  "error_msg3_link": "주 선거 사무소 웹 사이트",
+  "error_usa_link": "https://www.usa.gov/election-office"
+}

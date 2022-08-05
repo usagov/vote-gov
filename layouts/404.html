@@ -11,16 +11,10 @@
             <div class="tablet:grid-col-4">
               <a class="site-logo" href="{{ .Site.Home.RelPermalink }}" accesskey="1" title="Home" aria-label="Home">
                 <div class="logo-text">{{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</div>
-                <img id="SiteLogo" src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg" alt="Web design standards">
+                <img id="SiteLogo" loading="lazy" width="130" height="160" src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg" alt="Web design standards">
               </a>
             </div>
-            <div class="tablet:grid-col-8 right-shift">
-              <header class="align-bottom">
-                <h1 class="main-heading">
-                  {{ $translation.error.error_main_heading }}
-                </h1>
-              </header>
-            </div>
+
           </div>
         </div>
       </div>
@@ -37,6 +31,9 @@
             {{ $t := ( index $.Site.Data.translations .Language.Lang ) }}
             {{ if $t.error }}
             <div class="translation voter-info" lang="{{ .Language.Lang }}" hidden>
+              <h1 class="main-heading">
+                {{ $translation.error.error_main_heading }}
+              </h1>
               <h2 class="usa-intro">{{ $t.error.error_intro }}</h2>
 
               <p>{{ $t.error.error_msg }}</p>
@@ -45,7 +42,7 @@
                 <li>{{ $t.error.error_msg1 }}</li>
                 {{ $error_msg2_link := (print `<a href="` .Site.Home.RelPermalink `">` $t.error.error_msg2_link `</a>`) }}
                 <li>{{ replace $t.error.error_msg2 "%link%" $error_msg2_link|safeHTML }}</li>
-                {{ $error_msg3_link := (print `<a href="https://www.usa.gov/election-office">` $t.error.error_msg3_link `</a>`) }}
+                {{ $error_msg3_link := (print `<a href="` $t.error.error_usa_link `">` $t.error.error_msg3_link `</a>`) }}
                 <li>{{ replace $t.error.error_msg3 "%link%" $error_msg3_link|safeHTML }}</li>
               </ul>
             </div>
@@ -60,7 +57,7 @@
 
       <!-- Footer BEGIN -->
       <footer>
-        {{ partial "footer.html" . }}
+        {{ partial "partials/contact-identifier.html" . }}
       </footer>
       <!-- Footer END -->
     </div>
@@ -71,6 +68,7 @@
     <!--  Use the browser path segment to unhide the correct 404 translation -->
     <script>
       var path = window.location.pathname.split('/').slice(1);
+      path = path[path.length - 1] === "404.html" ? [path[path.length - 2]] : path;
       var translation = document.querySelector('.translation[lang="'+ encodeURI(path[0]) + '"]') || document.querySelector('.translation[lang="en"]');
       translation.removeAttribute('hidden');
     </script>

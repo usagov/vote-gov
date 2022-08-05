@@ -21,45 +21,8 @@
 	</div>
 </div>
 
-<div class="bg-grey">
-	<div class="grid-container footer-logos">
-		<div class="grid-row grid-gap">
-			<div>
-				<a href="{{ $translation.footer.usagov_link }}">
-          <img class="usagov-img" src="{{ .Site.BaseURL }}/assets/{{ $translation.footer.usagov_img }}"
-               alt="{{ replace $translation.footer.usagov_logo_alt_text "%USA.gov%" "USA.gov" }}">
-				</a>
-			</div>
-			<div>
-        <span class="eac-text">{{ $translation.footer.eac_text }}</span>
-        <a href="{{ $translation.footer.eac_link }}">
-          <img class="eac-logo-img" src="{{ .Site.BaseURL }}/assets/img/EAC-logo.svg"
-               alt="{{ replace $translation.footer.eac_logo_alt_text "%U.S. Election Assistance Commission%" "U.S. Election Assistance Commission" }}"></a>
-			</div>
-		</div>
-	</div>
-</div>
+{{ partial "partials/contact-identifier.html" . }}
 
-<div class="bg-blue footer-links">
-	<div class="grid-container">
-		<div class="grid-row grid-gap">
-			<div class="desktop:grid-col-3">
-				<a class="usa-footer__primary-link policy" href="{{ $translation.footer.privacy_policy_link_url }}">
-					{{ $translation.footer.privacy_policy }}</a>
-			</div>
-			<div class="desktop:grid-col">
-				<a class="usa-footer__primary-link" href="{{ $translation.footer.twitter_link }}">
-					<img class="twitter-img" src="{{ .Site.BaseURL }}/assets/img/Icon_Connect_Twitter_round.png"
-						alt="twitter" />{{ replace $translation.footer.twitter_text "%Vote.gov%" "Vote.gov" }}
-				</a>
-			</div>
-
-      <div class="desktop:grid-col">
-        <button id="touchpoints-form-embed" class="usa-button">How can we improve Vote.gov?</button>
-      </div>
-		</div>
-	</div>
-</div>
-
+<button id="touchpoints-form-embed" class="usa-button" data-test="improve-button">How can we improve Vote.gov?</button>
 
 <script src="https://touchpoints.app.cloud.gov/touchpoints/9c4b7fd7.js" async></script>

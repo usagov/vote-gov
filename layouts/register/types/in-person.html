@@ -1,0 +1,47 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+{{ $in_person_intro := replace $translation.register.in_person__intro "%link%" (partial "links/in-person-link.html" .) }}
+
+{{ $postmarkedDeadline := cond (ne .Params.mail_postmarked_deadline nil) .Params.mail_postmarked_deadline .Params.default_mail_postmarked_deadline }}
+{{ $ipDeadline := cond (ne .Params.ip_deadline nil) .Params.ip_deadline .Params.default_ip_deadline }}
+{{ $dates__electionday := cond (ne .Params.dates__electionday nil) .Params.dates__electionday $translation.register.dates__electionday }}
+
+<header>
+  <h2>
+    {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
+  </h2>
+</header>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ replace $in_person_intro "%state_name%" .Params.state_name | safeHTML }}
+      }
+    },{
+        "@type": "Question",
+        "name": "{{ replace $translation.register.dates__heading "%state_name%" .Params.state_name }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ replace $translation.register.dates__bymail_deadline "%mail_postmarked_deadline%" $postmarkedDeadline }}<br><br>{{ replace $translation.register.dates__inperson_deadline "%ip_deadline%" $ipDeadline }}"
+        }
+      },{
+        "@type": "Question",
+        "name": "{{ replace $translation.register.dates__electionday_heading "%state_name%" .Params.state_name }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ $dates__electionday }}"
+        }
+      }]
+  }
+</script>
+
+<p>
+  {{ replace $in_person_intro "%state_name%" .Params.state_name | safeHTML }}
+</p>
+
+{{ partial "deadlines.html" . }}

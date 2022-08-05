@@ -1,4 +1,8 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+{{ $onlineDeadline := cond (ne .Params.online_deadline nil) .Params.online_deadline .Params.default_online_deadline }}
+{{ $postmarkedDeadline := cond (ne .Params.mail_postmarked_deadline nil) .Params.mail_postmarked_deadline .Params.default_mail_postmarked_deadline }}
+{{ $receivedDeadline := cond (ne .Params.mail_received_deadline nil) .Params.mail_received_deadline .Params.default_mail_received_deadline }}
+{{ $ipDeadline := cond (ne .Params.ip_deadline nil) .Params.ip_deadline .Params.default_ip_deadline }}
 
 {{ if ne .Params.registration_type "not-needed" }}
 	<header>
@@ -7,41 +11,51 @@
 		</h2>
 	</header>
 {{end}}
+
 <ul class="registered-resources">
-	{{ if .Params.online_deadline }}
+  {{ if $onlineDeadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__byonline_deadline }}</span>
-			{{ .Params.online_deadline }}
+			{{ $onlineDeadline }}
 		</li>
 	{{end}}
-	{{ if .Params.mail_postmarked_deadline }}
+
+	{{ if $postmarkedDeadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__bymail_deadline }}</span>
-			{{ .Params.mail_postmarked_deadline }}
+			{{ $postmarkedDeadline }}
 		</li>
 	{{end}}
-	{{ if .Params.mail_received_deadline }}
+
+	{{ if $receivedDeadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__bymail_deadline }}</span>
-			{{ .Params.mail_received_deadline }}
+			{{ $receivedDeadline }}
 		</li>
 	{{end}}
-	{{ if .Params.ip_deadline }}
+
+	{{ if $ipDeadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__inperson_deadline }}</span>
-			{{ .Params.ip_deadline }}
+			{{ $ipDeadline }}
 		</li>
 	{{end}}
 </ul>
 
 
 {{ if isset .Params "confirm_registration_link" }}
-	{{ if not (in .Params.registration_type "not-needed") }}
+{{ if not (in .Params.registration_type "not-needed") }}
 <header>
-	<h2>{{ $translation.register.confirm_registration__heading }}</h2>
+  <h2>{{ $translation.register.confirm_registration__heading }}</h2>
 </header>
+
+{{ $confirm_registration__intro := $translation.register.confirm_registration__intro }}
+{{ if and (eq .Params.state_name "Wyoming") (ne $translation.register.confirm_registration__intro_WY nil) }}
+{{ $confirm_registration__intro = $translation.register.confirm_registration__intro_WY }}
+{{ end }}
 <p>
-  {{ replace $translation.register.confirm_registration__intro "%link%" (partial "links/confirm-registration-link.html" .)|safeHTML }}
+  {{ replace $confirm_registration__intro "%link%" (partial "links/confirm-registration-link.html" .)|safeHTML }}
 </p>
+
 {{ end }}
 {{ end }}

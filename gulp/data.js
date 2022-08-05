@@ -12,10 +12,11 @@ gulp.task('state-data', function (cb) {
   for (var lang in languages) {
     // Load state specific translated data.
     tData[lang] = require('../data/translations/' + lang +  '/state-data.json');
+    var registerPath = languages[lang].params.register_path;
 
     // Remove dynamic state language directories.
     // We will regenerate them later.
-    fs.rmSync('./content/' + lang, {
+    fs.rmSync('./content/' + lang + '/' + registerPath, {
       force: true,
       recursive: true
     });

@@ -30,5 +30,7 @@
     "dates__inperson_deadline": "व्यक्तिगत रूप से पंजीकरण की अंतिम तिथि:",
     "confirm_registration__heading": "अपने मतदाता पंजीकरण की जांच कैसे करें",
     "confirm_registration__intro": "आप %link% पर अपने मतदाता पंजीकरण की स्थिति की पुष्टि कर सकते हैं।",
-    "confirm_registration__link": "%state_name% की चुनाव वेबसाइट"
+    "confirm_registration__link": "%state_name% की चुनाव वेबसाइट",
+    "confirm_registration__intro_WY": "आप अपने स्थानीय पंजीकरण कार्यालय से संपर्क करके अपने मतदाता पंजीकरण की स्थिति की पुष्टि कर सकते हैं। %link%",
+    "confirm_registration__link_WY": "(व्योमिंग के काउंटी क्लर्क की संपर्क जानकारी (पीडीएफ) देखने के लिए यहां क्लिक करें)।"
 }

@@ -1,0 +1,67 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+
+<!-- contact START -->
+<div class="bg-lightblue footer-contact">
+  <div class="grid-container">
+    <div class="grid-row desktop:grid-gap-6">
+      <div class="desktop:grid-col"></div>
+      <div class="grid-col desktop:grid-col-auto">
+        <a href="{{ $translation.footer.twitter_link }}" class="twitter-link">
+          <span>{{ replace $translation.footer.twitter_text "%Vote.gov%" "Vote.gov" }}</span>
+          <svg class="usa-icon" aria-hidden="true" focusable="false" role="img" height="28" width="28">
+            <use xlink:href="{{ .Site.BaseURL }}/assets/img/sprite.svg#twitter"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="grid-col-auto">
+        <a href="mailto:vote@gsa.gov" class="email-vote">
+          <svg class="usa-icon" aria-hidden="true" focusable="false" role="img" height="28" width="28">
+            <use xlink:href="{{ .Site.BaseURL }}/assets/img/sprite.svg#mail_outline"></use>
+          </svg>
+          <span>vote@gsa.gov</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- contact END -->
+
+<!-- identifier START -->
+<div class="bg-blue footer-identifier" data-test="footer">
+  <div class="grid-container">
+    <section class="identifier-gsa grid-row grid-gap-2" aria-label="{{ $translation.footer.identifier_aria }}">
+      <div><img src="{{ .Site.BaseURL }}/assets/img/gsa-logo.svg" alt="GSA logo" width="40" height="40"></div>
+      <div aria-label="{{ $translation.footer.identifier_gsa_txt_aria }}" class="grid-col-auto">
+        Vote.gov <br>
+        <strong>{{ $translation.footer.identifier_gsa_txt }}<a href="https://www.gsa.gov/">{{ $translation.footer.identifier_gsa_txt__1 }}</a></strong>
+      </div>
+    </section>
+    <nav class="grid-row grid-gap identifier" aria-label="{{ $translation.footer.identifier_link_aria }}">
+      <div class="tablet:grid-col-3">
+        <ul class="usa-list usa-list--unstyled identifier-links">
+          <li><a href="https://www.gsa.gov/about-us">{{ $translation.footer.identifier_link_1 }}</a></li>
+          <li><a href="https://www.gsa.gov/website-information/accessibility-aids">{{ $translation.footer.identifier_link_2 }}</a></li>
+        </ul>
+      </div>
+      <div class="tablet:grid-col-3">
+        <ul class="usa-list usa-list--unstyled identifier-links">
+          <li><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia">{{ $translation.footer.identifier_link_3 }}</a></li>
+          <li><a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002">{{ $translation.footer.identifier_link_4 }}</a></li>
+        </ul>
+      </div>
+      <div class="tablet:grid-col-3">
+        <ul class="usa-list usa-list--unstyled identifier-links">
+          <li><a href="https://www.gsaig.gov/">{{ $translation.footer.identifier_link_5 }}</a></li>
+          <li><a href="https://www.gsa.gov/reference/reports/budget-performance">{{ $translation.footer.identifier_link_6 }}</a></li>
+        </ul>
+      </div>
+      <div class="tablet:grid-col-3">
+        <ul class="usa-list usa-list--unstyled identifier-links">
+          <li><a href="https://www.usa.gov/policies">{{ $translation.footer.identifier_link_7 }}</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section aria-label="{{ $translation.footer.identifier_more_info_aria }}" class="identifier-gov-info">{{ $translation.footer.identifier_more_info }}<a href="https://usa.gov">{{ $translation.footer.identifier_more_info__1 }}</a></section>
+  </div>
+</div>
+<!-- identifier END -->

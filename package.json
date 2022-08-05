@@ -18,12 +18,14 @@
     "hugo": "hugo",
     "dev": "gulp dev",
     "federalist": "export NODE_ENV=production && npm run build",
-    "build": "gulp buildWebsite",
-    "start": "gulp website",
+    "build": "export NODE_ENV=production && gulp buildWebsite",
+    "start": "export NODE_ENV=production && gulp website",
     "test": "gulp test",
     "deploy": "gulp deploy",
     "cy:open": "cypress open",
-    "cy:test": "cypress run --spec 'cypress/integration/tests/**/*'"
+    "cy:test": "cypress run --spec 'cypress/integration/tests/**/*'",
+    "cy:axe": "cypress run --spec 'cypress/integration/accessibility/**/*'",
+    "htmlproofer": "htmlproofer tmp/public"
   },
   "repository": {
     "type": "git",
@@ -36,6 +38,7 @@
   "homepage": "https://github.com/18F/vote-gov#readme",
   "license": "CC0-1.0",
   "dependencies": {
+    "@uswds/uswds": "3.0.2",
     "ansi-colors": "^4.1.1",
     "autoprefixer": "^10.4.2",
     "browserify": "^17.0.0",
@@ -53,14 +56,16 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "sass": "^1.48.0",
-    "uswds": "^2.13.0",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },
   "devDependencies": {
     "cypress": "^10.0.3",
+    "axe-core": "^4.4.2",
+    "cypress-axe": "^0.14.0",
     "eslint-plugin-cypress": "^2.12.1",
     "gulp-scss-lint": "^1.0.0",
+    "gulp-webp": "^4.0.1",
     "hugo-bin": "^0.80.0"
   }
 }
