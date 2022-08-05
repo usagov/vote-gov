@@ -23,8 +23,8 @@
     "test": "gulp test",
     "deploy": "gulp deploy",
     "cy:open": "cypress open",
-    "cy:test": "cypress run --spec 'cypress/integration/tests/**/*'",
-    "cy:axe": "cypress run --spec 'cypress/integration/accessibility/**/*'",
+    "cy:test": "cypress run --spec 'cypress/e2e/tests/**/*'",
+    "cy:axe": "cypress run --spec 'cypress/e2e/accessibility/**/*'",
     "htmlproofer": "htmlproofer tmp/public"
   },
   "repository": {
@@ -62,7 +62,7 @@
   "devDependencies": {
     "axe-core": "^4.4.3",
     "cypress": "^10.4.0",
-    "cypress-axe": "^0.14.0",
+    "cypress-axe": "^1.0.0",
     "eslint-plugin-cypress": "^2.12.1",
     "gulp-scss-lint": "^1.0.0",
     "gulp-webp": "^4.0.1",
