@@ -60,7 +60,7 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "devDependencies": {
-    "cypress": "^10.0.3",
+    "cypress": "^10.4.0",
     "axe-core": "^4.4.2",
     "cypress-axe": "^0.14.0",
     "eslint-plugin-cypress": "^2.12.1",
