@@ -185,85 +185,85 @@
     "me": {
         "hp_link": "https://www.maine.gov/sos/cec/elec/",
         "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
-        "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "mail_received_deadline": "নির্বাচনের দিন ২১ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
+        "mail_received_deadline": "(মঙ্গলবার, ১৮ অক্টোবর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
         "confirm_registration_link": "https://www.maine.gov/sos/cec/elec/data/index.html"
     },
     "md": {
         "hp_link": "https://elections.maryland.gov/",
         "registration_link": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1",
         "more_info_link": "https://www.elections.maryland.gov/voter_registration/application.html",
-        "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "online_deadline": "নির্বাচনের ২১ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ২১ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
+        "online_deadline": "মঙ্গলবার, ১৮ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১৮ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://voterservices.elections.maryland.gov/VoterSearch"
     },
     "ma": {
         "hp_link": "https://www.sec.state.ma.us/ele/eleidx.htm",
         "registration_link": "https://www.sec.state.ma.us/ovr/",
         "more_info_link": "https://www.sec.state.ma.us/ele/eleifv/howreg.htm",
-        "ip_deadline": "নির্বাচনের দিন 2০ দিন আগে",
-        "online_deadline": "নির্বাচনের দিন 2০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ২০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "শনিবার, ২৯ অক্টোবর, ২০২২",
+        "online_deadline": "শনিবার, ২৯ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (শনিবার, ২৯ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"
     },
     "mi": {
         "hp_link": "https://www.michigan.gov/sos/0,4670,7-127-1633---,00.html",
         "registration_link": "https://mvic.sos.state.mi.us/registervoter",
         "more_info_link": "https://mvic.sos.state.mi.us/",
-        "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "online_deadline": "নির্বাচনের ১৫ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
+        "online_deadline": "সোমবার, ২৮ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ২৮ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://mvic.sos.state.mi.us/"
     },
     "mn": {
         "hp_link": "https://www.sos.state.mn.us/elections-voting/",
         "registration_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
         "more_info_link": "https://www.sos.state.mn.us/elections-voting/register-to-vote/",
-        "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "online_deadline": "নির্বাচনের ২১ দিন আগে",
-        "mail_received_deadline": "নির্বাচনের দিন ২১ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
+        "online_deadline": "মঙ্গলবার, ১৮ অক্টোবর, ২০২২",
+        "mail_received_deadline": "(মঙ্গলবার, ১৮ অক্টোবর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
         "confirm_registration_link": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
     },
     "ms": {
         "hp_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
         "more_info_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
-        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "সোমবার, ১০ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ১০ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
     },
     "mo": {
         "hp_link": "https://www.sos.mo.gov/elections",
         "registration_link": "https://s1.sos.mo.gov/elections/voterregistration/",
         "more_info_link": "https://www.sos.mo.gov/elections/goVoteMissouri/register",
-        "ip_deadline": "নির্বাচনের আগে চতুর্থ বুধবার",
-        "online_deadline": "নির্বাচনের আগে চতুর্থ বুধবার",
-        "mail_postmarked_deadline": "নির্বাচনের আগে চতুর্থ বুধবারের মধ্যে পোস্টমার্ক করতে হবে",
+        "ip_deadline": "বুধবার, ১২ অক্টোবর, ২০২২",
+        "online_deadline": "বুধবার, ১২ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (বুধবার, ১২ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx"
     },
     "mt": {
         "hp_link": "https://sosmt.gov/elections/",
         "more_info_link": "https://sosmt.gov/elections/vote/",
-        "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "সোমবার, ৭ নভেম্বর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://sosmt.gov/elections/vote/"
     },
     "ne": {
         "hp_link": "https://sos.nebraska.gov/elections/2020-elections",
         "registration_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
         "more_info_link": "https://sos.nebraska.gov/elections/voter-forms",
-        "ip_deadline": "নির্বাচনের আগের দ্বিতীয় শুক্রবার",
-        "online_deadline": "নির্বাচনের আগের তৃতীয় শুক্রবার",
-        "mail_postmarked_deadline": "নির্বাচনের দিন আগে তৃতীয় শুক্রবারের মধ্যে পোস্টমার্ক করতে হবে",
+        "ip_deadline": "শুক্রবার, ২৮ অক্টোবর, ২০২২",
+        "online_deadline": "শুক্রবার, ২১ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (শুক্রবার, ২১ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://www.votercheck.necvr.ne.gov/voterview"
     },
     "nv": {
         "hp_link": "https://www.nvsos.gov/sos/elections",
         "registration_link": "https://www.nvsos.gov/SOSVoterServices/start.aspx",
         "more_info_link": "https://www.nvsos.gov/sos/elections/voters/registering-to-vote",
-        "ip_deadline": "নির্বাচনের আগে চতুর্থ মঙ্গলবার",
-        "online_deadline": "বৃহস্পতিবার ভোট শুরু হওয়ার আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন আগে চতুর্থ মঙ্গলবারের মধ্যে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
+        "online_deadline": "বৃহস্পতিবার, ৩ নভেম্বর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://www.nvsos.gov/votersearch/"
     },
     "nh": {
