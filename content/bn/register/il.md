@@ -8,9 +8,9 @@ type = "register"
 hp_link = "https://www.elections.il.gov/"
 registration_link = "https://ova.elections.il.gov/"
 more_info_link = "https://www.elections.il.gov/Default.aspx"
-ip_deadline = "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ"
-online_deadline = "নির্বাচনের ১৬ দিন আগে"
-mail_received_deadline = "নির্বাচনের দিন ২৮ দিন আগে পেতে হবে"
+ip_deadline = "মঙ্গলবার, ৮ নভেম্বর, ২০২২"
+online_deadline = "মঙ্গলবার, ১৮ অক্টোবর, ২০২২"
+mail_postmarked_deadline = "পোস্ট চিহ্ন করা আবশ্যক (বৃহস্পতিবার, ৬ অক্টোবর, ২০২২)"
 confirm_registration_link = "https://ova.elections.il.gov/RegistrationLookup.aspx"
 
 +++

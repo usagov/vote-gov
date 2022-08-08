@@ -8,9 +8,8 @@ type = "register"
 hp_link = "https://gec.guam.gov/"
 registration_link = "https://gec.guam.gov/register/"
 more_info_link = "https://gec.guam.gov/"
-online_deadline = "নির্বাচনের ১০ দিন আগে"
-mail_received_deadline = "নির্বাচনের দিন ১০ দিন আগে পেতে হবে"
-ip_deadline = "নির্বাচনের ১০ দিন আগে"
+mail_received_deadline = "(শুক্রবার, ২৮ অক্টোবর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে"
+ip_deadline = "শুক্রবার, ২৮ অক্টোবর, ২০২২"
 confirm_registration_link = "https://gec.guam.gov/validate/"
 
 +++
