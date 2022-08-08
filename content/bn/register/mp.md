@@ -7,7 +7,7 @@ translationKey = "Northern Mariana Islands"
 type = "register"
 hp_link = "https://www.votecnmi.gov.mp/"
 more_info_link = "https://www.votecnmi.gov.mp/"
-ip_deadline = "নির্বাচনের ৬০ দিন আগে"
+ip_deadline = "শুক্রবার, ৯ সেপ্টেম্বর, ২০২২"
 confirm_registration_link = "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
 
 +++
