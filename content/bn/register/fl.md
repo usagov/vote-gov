@@ -8,9 +8,9 @@ type = "register"
 hp_link = "https://dos.myflorida.com/elections/"
 registration_link = "https://registertovoteflorida.gov/eligibilityreactive"
 more_info_link = "https://registertovoteflorida.gov/home"
-ip_deadline = "নির্বাচনের দিন ২৯ দিন আগে"
-online_deadline = "নির্বাচনের দিন ২৯ দিন আগে"
-mail_postmarked_deadline = "নির্বাচনের দিন ২৯ দিন আগে পোস্টমার্ক করা আবশ্যক"
+ip_deadline = "মঙ্গলবার, ১১ অক্টোবর, ২০২২"
+online_deadline = "মঙ্গলবার, ১১ অক্টোবর, ২০২২"
+mail_postmarked_deadline = "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)"
 confirm_registration_link = "https://registration.elections.myflorida.com/CheckVoterStatus"
 
 +++

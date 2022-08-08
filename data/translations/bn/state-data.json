@@ -3,76 +3,76 @@
         "hp_link": "https://www.sos.alabama.gov/alabama-votes",
         "registration_link": "https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action",
         "more_info_link": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
-        "ip_deadline": "নির্বাচনের ১৫ দিন আগে",
-        "online_deadline": "নির্বাচনের ১৫ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "সোমবার, ২৮ অক্টোবর, ২০২২",
+        "online_deadline": "রবিবার, ৯ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (রবিবার, ৯ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do"
     },
     "ak": {
         "hp_link": "https://www.elections.alaska.gov/",
         "registration_link": "https://voterregistration.alaska.gov/",
         "more_info_link": "https://www.elections.alaska.gov/Core/voterregistration.php",
-        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
-        "online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "রবিবার, ৯ অক্টোবর, ২০২২",
+        "online_deadline": "রবিবার, ৯ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (রবিবার, ৯ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://myvoterinformation.alaska.gov/"
     },
     "as": {
         "hp_link": "https://aselectionoffice.gov/",
         "more_info_link": "https://aselectionoffice.gov/",
-        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "confirm_registration_link": "https://aselectionoffice.gov/status.php"
     },
     "az": {
         "hp_link": "https://azsos.gov/elections",
         "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
         "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information",
-        "online_deadline": "নির্বাচনের দিন ২৯ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ২৯ দিন আগে পোস্টমার্ক করা আবশ্যক",
-        "ip_deadline": "নির্বাচনের দিন ২৯ দিন আগে",
+        "online_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
+        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "confirm_registration_link": "https://my.arizona.vote/WhereToVote.aspx?s=individual"
     },
     "ar": {
         "hp_link": "https://www.sos.arkansas.gov/elections/",
         "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
-        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "সোমবার, ১০ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ১০ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://www.voterview.ar-nova.org/voterview"
     },
     "ca": {
         "hp_link": "https://www.sos.ca.gov/elections",
         "registration_link": "https://registertovote.ca.gov/",
         "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote",
-        "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "online_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "mail_postmarked_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
+        "online_deadline": "সোমবার, ২৮ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ২৮ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://registertovote.ca.gov/"
     },
     "co": {
         "hp_link": "https://www.sos.state.co.us/pubs/elections/",
         "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
         "more_info_link": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html",
-        "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "online_deadline": "নির্বাচনের ৮ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ৮ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ৩১ অক্টোবর, ২০২২)",
+        "online_deadline": "সোমবার, ৩১ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ৩১ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml"
     },
     "ct": {
         "hp_link": "https://portal.ct.gov/sots",
         "registration_link": "https://voterregistration.ct.gov/OLVR/welcome.do",
         "more_info_link": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet",
-        "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "online_deadline": "নির্বাচনের ৭ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ৭ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
+        "online_deadline": "মঙ্গলবার, ১ নভেম্বর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১ নভেম্বর, ২০২২)",
         "confirm_registration_link": "https://portaldir.ct.gov/sots/LookUp.aspx"
     },
     "de": {
         "hp_link": "https://elections.delaware.gov/index.shtml",
         "registration_link": "https://ivote.de.gov/VoterView/",
         "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
-        "ip_deadline": "নির্বাচনের আগে চতুর্থ শনিবার",
-        "online_deadline": "নির্বাচনের আগে চতুর্থ শনিবার",
-        "mail_postmarked_deadline": "নির্বাচনের দিন আগে চতুর্থ শনিবারের মধ্যে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "শনিবার, ১৫ অক্টোবর, ২০২২",
+        "online_deadline": "শনিবার, ১৫ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (শনিবার, ১৫ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://ivote.de.gov/VoterView"
     },
     "dc": {
@@ -88,9 +88,9 @@
         "hp_link": "https://dos.myflorida.com/elections/",
         "registration_link": "https://registertovoteflorida.gov/eligibilityreactive",
         "more_info_link": "https://registertovoteflorida.gov/home",
-        "ip_deadline": "নির্বাচনের দিন ২৯ দিন আগে",
-        "online_deadline": "নির্বাচনের দিন ২৯ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনের দিন ২৯ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
+        "online_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://registration.elections.myflorida.com/CheckVoterStatus"
     },
     "ga": {
