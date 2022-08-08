@@ -348,56 +348,56 @@
         "hp_link": "https://www.pa.gov/guides/voting-and-elections/",
         "registration_link": "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
         "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote",
-        "ip_deadline": "নির্বাচনের ১৫ দিন আগে",
-        "online_deadline": "নির্বাচনের ১৫ দিন আগে",
-        "mail_received_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "সোমবার, ২৮ অক্টোবর, ২০২২",
+        "online_deadline": "সোমবার, ২৮ অক্টোবর, ২০২২",
+        "mail_received_deadline": "(সোমবার, ২৮ অক্টোবর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
         "confirm_registration_link": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
     },
     "pr": {
         "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
         "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
-        "ip_deadline": "নির্বাচনের ৫০ দিন আগে",
+        "ip_deadline": "সোমবার, ১৯ সেপ্টেম্বর, ২০২২",
         "confirm_registration_link": "https://consulta.ceepur.org/"
     },
     "ri": {
         "hp_link": "https://elections.ri.gov/",
         "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
         "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
-        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
-        "online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "রবিবার, ৯ অক্টোবর, ২০২২",
+        "online_deadline": "রবিবার, ৯ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (রবিবার, ৯ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0"
     },
     "sc": {
         "hp_link": "https://www.scvotes.gov/",
         "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
         "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
-        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
-        "online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "রবিবার, ৯ অক্টোবর, ২০২২",
+        "online_deadline": "রবিবার, ৯ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
     },
     "sd": {
         "hp_link": "https://sdsos.gov/elections-voting/",
         "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
-        "ip_deadline": "নির্বাচনের ১৫ দিন আগে",
-        "mail_received_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
+        "mail_received_deadline": "(সোমবার, ২৮ অক্টোবর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
         "confirm_registration_link": "https://vip.sdsos.gov/VIPLogin.aspx"
     },
     "tn": {
         "hp_link": "https://sos.tn.gov/elections",
         "registration_link": "https://ovr.govote.tn.gov/",
         "more_info_link": "https://sos.tn.gov/products/elections/register-vote",
-        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
-        "online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
+        "online_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://tnmap.tn.gov/voterlookup/"
     },
     "tx": {
         "hp_link": "https://www.votetexas.gov/index.html",
         "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html",
-        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
-        "mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
     },
     "ut": {
@@ -430,7 +430,7 @@
     "vi": {
         "hp_link": "https://www.vivote.gov/voters/register-vote",
         "more_info_link": "https://www.vivote.gov/voters/register-vote",
-        "ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
+        "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (রবিবার, ৯ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://www.vivote.gov/voters/lookup"
     },
     "wa": {
