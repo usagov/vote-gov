@@ -8,9 +8,9 @@ type = "register"
 hp_link = "https://sos.tn.gov/elections"
 registration_link = "https://ovr.govote.tn.gov/"
 more_info_link = "https://sos.tn.gov/products/elections/register-vote"
-ip_deadline = "选举日前 30天"
-online_deadline = "选举日前 30天"
-mail_postmarked_deadline = "必须在选举日前 30天盖上邮戳"
+ip_deadline = "2022年10月11日星期二"
+online_deadline = "2022年10月11日星期二"
+mail_postmarked_deadline = "必须在（2022年10月11日星期二）之前加盖邮戳"
 confirm_registration_link = "https://tnmap.tn.gov/voterlookup/"
 
 +++
