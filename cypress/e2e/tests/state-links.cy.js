@@ -1,11 +1,11 @@
 /// <reference types="Cypress" />
 
-describe('check links on stage pages', () => {
-  it('alaska links check', () => {
+describe('Validate links on stage pages', () => {
+  it('Test Alaska links', () => {
     cy.visit('http://localhost:1313/register/ak/')
     cy.get('[data-test="footer"]').should('be.visible')
 
-    // check links on page
+    // Test links on page.
     cy.get('[href="https://voterregistration.alaska.gov/?ref=voteusa_en"]').click()
     cy.url().should('be.equal', 'https://voterregistration.alaska.gov/?ref=voteusa_en')
     cy.go('back')
@@ -22,22 +22,22 @@ describe('check links on stage pages', () => {
     cy.url().should('be.equal', 'http://localhost:1313/')
   })
 
-  it('american samoa links check', () => {
-    // this test will be similar to North Dakota, the links were not wokring in the github actions pipeline and were taking to long to load.  They have been checked manually.
+  it('Test American Samoa links', () => {
+    // This test is similar to North Dakota, the links are not working in the GitHub actions pipeline and were taking too long to load. They have been checked manually.
     cy.visit('http://localhost:1313/register/as/')
     cy.get('[data-test="footer"]').should('be.visible')
 
-    // check links on page
+    // Test links on page.
     cy.get('[class="reg-link"]').then(link => {
       cy.get(link[0]).invoke('attr', 'href').should('be.equal', 'https://aselectionoffice.gov/?ref=voteusa_en')
       cy.get(link[1]).invoke('attr', 'href').should('be.equal', 'https://aselectionoffice.gov/status.php?ref=voteusa_en')
     })
-    
+
     cy.get('[data-test="back-button"]').click()
     cy.url().should('be.equal', 'http://localhost:1313/')
   })
 
-  it('arkansas links check', () => {
+  it('Test Arkansas links', () => {
     cy.visit('http://localhost:1313/register/ar/')
     cy.get('[data-test="footer"]').should('be.visible')
 
@@ -54,8 +54,8 @@ describe('check links on stage pages', () => {
     cy.url().should('be.equal', 'http://localhost:1313/')
   })
 
-  it('north dakota links check', () => {
-  // this test will be different than the rest, the link on the page will not allow cypress to go back and will not let it complete the test. This has been tested manually and is working as expected
+  it('Test North Dakota links', () => {
+  // This test is different from the rest, the link on the page does not allow cypress to go back and complete the test. This has been tested manually and is working as expected.
   cy.visit('http://localhost:1313/register/nd/')
   cy.get('[data-test="footer"]').should('be.visible')
 
