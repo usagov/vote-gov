@@ -58,6 +58,8 @@
     </div>
   </section>
 
+  {{ partial "partials/search.html" . }}
+
   {{ if .Site.Params.sitewide_alert }}
   <div class="usa-alert usa-alert--info">
     <div class="grid-container">
