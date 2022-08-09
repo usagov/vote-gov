@@ -8,9 +8,9 @@ type = "register"
 hp_link = "https://elections.wi.gov/elections-voting"
 registration_link = "https://myvote.wi.gov/en-us/RegisterToVote"
 more_info_link = "https://elections.wi.gov/voters/first-time"
-ip_deadline = "直到选举日 (包括选举日) 都可以使用"
-online_deadline = "选举日前的第三个星期三"
-mail_postmarked_deadline = "必须在选举日前的第三个星期三前盖上邮戳"
+ip_deadline = "2022年11月8日星期二"
+online_deadline = "2022年10月19日星期三"
+mail_postmarked_deadline = "必须在（2022年10月19日星期三）之前加盖邮戳"
 confirm_registration_link = "https://myvote.wi.gov/en-us/MyVoterInfo"
 
 +++
