@@ -12,5 +12,6 @@ ip_deadline = "选举日前30 天"
 online_deadline = "选举日前 20 天"
 mail_postmarked_deadline = "必须在选举日前 30 天盖上邮戳"
 confirm_registration_link = "https://voterportal.sos.la.gov/"
+dates_electionday = "2022年12月10日星期六"
 
 +++
