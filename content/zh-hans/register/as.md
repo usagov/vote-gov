@@ -7,7 +7,7 @@ translationKey = "American Samoa"
 type = "register"
 hp_link = "https://aselectionoffice.gov/"
 more_info_link = "https://aselectionoffice.gov/"
-ip_deadline = "选举日前30 天"
+ip_deadline = "2022年10月11日星期二"
 confirm_registration_link = "https://aselectionoffice.gov/status.php"
 
 +++
