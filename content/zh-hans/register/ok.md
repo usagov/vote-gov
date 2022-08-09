@@ -7,8 +7,8 @@ translationKey = "Oklahoma"
 type = "register"
 hp_link = "https://www.ok.gov/elections/"
 more_info_link = "https://oklahoma.gov/elections/voter-registration/register-to-vote.html"
-ip_deadline = "选举日前 25天"
-mail_postmarked_deadline = "必须在选举日前 25天盖上邮戳"
+ip_deadline = "2022年10月14日星期五"
+mail_postmarked_deadline = "必须在（2022年10月14日星期五）之前加盖邮戳"
 confirm_registration_link = "https://okvoterportal.okelections.us/"
 
 +++
