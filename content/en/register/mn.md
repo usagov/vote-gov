@@ -15,6 +15,7 @@ more_info_link = "https://www.sos.state.mn.us/elections-voting/register-to-vote/
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
 online_deadline = "Tuesday, October 18, 2022"
+ip_deadline = "Tuesday, November 8, 2022"
 mail_received_deadline = "Must be received by Tuesday, October 18, 2022"
 confirm_registration_link = "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
 confirm_registration_link_translated = "true"

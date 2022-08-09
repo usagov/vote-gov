@@ -15,6 +15,7 @@ more_info_link = "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-bu
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
 online_deadline = "Tuesday, October 11, 2022"
+ip_deadline = "Tuesday, October 11, 2022"
 mail_postmarked_deadline = "Must be postmarked by Tuesday, October 11, 2022"
 confirm_registration_link = "https://www.mvp.sos.ga.gov/MVP/mvp.do"
 confirm_registration_link_translated = "true"

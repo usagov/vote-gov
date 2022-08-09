@@ -15,6 +15,7 @@ more_info_link = "https://www.elections.maryland.gov/voter_registration/applicat
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
 online_deadline = "Tuesday, October 18, 2022"
+ip_deadline = "Tuesday, November 8, 2022"
 mail_postmarked_deadline = "Must be postmarked by Tuesday, October 18, 2022"
 confirm_registration_link = "https://voterservices.elections.maryland.gov/VoterSearch"
 confirm_registration_link_translated = "true"

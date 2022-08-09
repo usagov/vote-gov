@@ -15,6 +15,7 @@ more_info_link = "https://www.sos.state.nm.us/voting-and-elections/voter-informa
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
 online_deadline = "Tuesday, October 11, 2022"
+ip_deadline = "Tuesday, November 8, 2022"
 mail_postmarked_deadline = "Must be postmarked by Tuesday, October 11, 2022"
 confirm_registration_link = "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
 confirm_registration_link_translated = "true"

@@ -15,6 +15,7 @@ more_info_link = "https://portal.ct.gov/SOTS/Election-Services/Voter-Information
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
 online_deadline = "Tuesday, November 01, 2022"
+ip_deadline = "Tuesday, November 8, 2022"
 mail_postmarked_deadline = "Must be postmarked by Tuesday, November 01, 2022"
 confirm_registration_link = "https://portaldir.ct.gov/sots/LookUp.aspx"
 confirm_registration_link_translated = "true"

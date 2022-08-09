@@ -15,6 +15,7 @@ more_info_link = "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoV
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
 online_deadline = "Monday, October 24, 2022"
+ip_deadline = "Monday, October 24, 2022"
 mail_received_deadline = "Must be received by Monday, October 24, 2022"
 confirm_registration_link = "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
 confirm_registration_link_translated = "true"

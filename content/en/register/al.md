@@ -15,6 +15,7 @@ more_info_link = "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vo
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
 online_deadline = "Monday, October 24, 2022"
+ip_deadline = "Monday, October 24, 2022"
 mail_postmarked_deadline = "Must be postmarked by Monday, October 24, 2022"
 confirm_registration_link = "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do"
 confirm_registration_link_translated = "true"

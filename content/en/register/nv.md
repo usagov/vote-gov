@@ -15,6 +15,7 @@ more_info_link = "https://www.nvsos.gov/sos/elections/voters/registering-to-vote
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
 online_deadline = "Thursday, November 03, 2022"
+ip_deadline = "Tuesday, November 8, 2022"
 mail_postmarked_deadline = "Must be postmarked by Tuesday, October 11, 2022"
 confirm_registration_link = "https://www.nvsos.gov/votersearch/"
 confirm_registration_link_translated = "true"

@@ -15,6 +15,7 @@ more_info_link = "https://www.elections.virginia.gov/registration/how-to-registe
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
 online_deadline = "Monday, October 17, 2022"
+ip_deadline = "Monday, October 17, 2022"
 mail_postmarked_deadline = "Must be postmarked by Monday, October 17, 2022"
 confirm_registration_link = "https://www.elections.virginia.gov/registration/view-your-info/"
 confirm_registration_link_translated = "true"

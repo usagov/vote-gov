@@ -12,6 +12,7 @@ more_info_link = "https://www.sos.ms.gov/elections-voting/voter-registration-inf
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
 mail_postmarked_deadline = "Must be postmarked by Monday, October 10, 2022"
+ip_deadline = "Monday, October 10, 2022"
 confirm_registration_link = "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
 confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""

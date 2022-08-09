@@ -15,6 +15,7 @@ more_info_link = "https://sos.iowa.gov/elections/voterinformation/voterregistrat
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
 online_deadline = "Monday, October 24, 2022"
+ip_deadline = "Tuesday, November 8, 2022"
 mail_postmarked_deadline = "Must be postmarked by Monday, October 24, 2022"
 confirm_registration_link = "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx"
 confirm_registration_link_translated = "true"

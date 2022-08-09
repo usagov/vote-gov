@@ -15,6 +15,7 @@ more_info_link = "https://www.scvotes.gov/south-carolina-voter-registration-info
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
 online_deadline = "Sunday, October 09, 2022"
+ip_deadline = "Sunday, October 09, 2022"
 mail_received_deadline = "Must be received by Tuesday, October 11, 2022"
 mail_postmarked_deadline = "Must be postmarked by Tuesday, October 11, 2022"
 confirm_registration_link = "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"

@@ -15,6 +15,7 @@ more_info_link = "https://www.sos.ca.gov/elections/voting-resources/voting-calif
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
 online_deadline = "Monday, October 24, 2022"
+ip_deadline = "Tuesday, November 8, 2022"
 mail_postmarked_deadline = "Must be postmarked by Monday, October 24, 2022"
 confirm_registration_link = "https://registertovote.ca.gov/"
 confirm_registration_link_translated = "true"

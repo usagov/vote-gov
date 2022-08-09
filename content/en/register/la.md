@@ -15,6 +15,7 @@ more_info_link = "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
 online_deadline = "Wednesday, October 19, 2022"
+ip_deadline = "Tuesday, October 11, 2022"
 mail_postmarked_deadline = "Must be postmarked by Tuesday, October 11, 2022"
 confirm_registration_link = "https://voterportal.sos.la.gov/"
 confirm_registration_link_translated = "true"
