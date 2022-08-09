@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Alabama",
+    "route": "/register/al/"
+  },
+
+  {
+    "name": "Alaska",
+    "route": "/register/ak/"
+  },
+
+  {
+    "name": "American Samoa",
+    "route": "/register/as/"
+  },
+
+  {
+    "name": "Arizona",
+    "route": "/register/az/"
+  },
+
+  {
+    "name": "Arkansas",
+    "route": "/register/ar/"
+  },
+
+  {
+    "name": "California",
+    "route": "/register/ca/"
+  },
+
+  {
+    "name": "Colorado",
+    "route": "/register/co/"
+  }
+  
+]
