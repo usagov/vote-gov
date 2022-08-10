@@ -1,10 +1,10 @@
-name: Cypress Functional Testing
+name: Pipeline testing - Cypress Functional Testing
 
 on: [push]
 
 jobs:
   build:
-    name: Cypress Functional Testing
+    name: 
     runs-on: ubuntu-latest
     env:
       LANG: en_US.UTF-8

@@ -1,10 +1,10 @@
-name: Cypress Axe Testing
+name: Pipeline testing - Cypress Axe Testing
 
 on: [push]
 
 jobs:
   build:
-    name: Cypress Axe Testing
+    name: 
     runs-on: ubuntu-latest
     env:
       LANG: en_US.UTF-8
