@@ -32,6 +32,16 @@
   {
     "name": "Colorado",
     "route": "/register/co/"
+  },
+
+  {
+    "name": "Minnesota",
+    "route": "/register/mn/"
+  },
+
+  {
+    "name": "Maine",
+    "route": "/register/me/"
   }
   
 ]
