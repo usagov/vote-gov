@@ -117,7 +117,7 @@
     "more_info_link": "https://elections.hawaii.gov/voters/registration/",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_online_deadline": "选举日前 30 天",
-    "default_mail_received_deadline": "必须在选举日前 30 天前收到",
+    "default_mail_postmarked_deadline": "必须在选举日之前的30天之前盖上邮戳",
     "confirm_registration_link": "https://olvr.hawaii.gov/"
   },
   "id": {
@@ -135,7 +135,7 @@
     "more_info_link": "https://www.elections.il.gov/Default.aspx",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_online_deadline": "选举日前 16 天",
-    "default_mail_received_deadline": "必须在选举日前 28 天前收到",
+    "default_mail_postmarked_deadline": "必须在选举日之前的28天之前盖上邮戳",
     "confirm_registration_link": "https://ova.elections.il.gov/RegistrationLookup.aspx"
   },
   "in": {
@@ -171,7 +171,7 @@
     "more_info_link": "https://elect.ky.gov/Resources/Pages/Registration.aspx",
     "default_ip_deadline": "选举日前的第四个星期一",
     "default_online_deadline": "选举日前的第四个星期一",
-    "default_mail_received_deadline": "必须在选举日前的第四个星期一之前收到",
+    "default_mail_postmarked_deadline": "必须在选举日之前的第四个星期一之前盖上邮戳",
     "confirm_registration_link": "https://vrsws.sos.ky.gov/VIC/"
   },
   "la": {
@@ -278,7 +278,7 @@
     "registration_link": "https://voter.svrs.nj.gov/register",
     "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml",
     "default_online_deadline": "选举日前 21天",
-    "default_mail_received_deadline": "必须在选举日前 21天盖上邮戳",
+    "default_mail_postmarked_deadline": "必须在选举日前 21 天盖上邮戳",
     "default_ip_deadline": "选举日前 21天",
     "confirm_registration_link": "https://voter.svrs.nj.gov/registration-check"
   },
