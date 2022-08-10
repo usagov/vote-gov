@@ -1,0 +1,44 @@
+.homepage-accordion {
+    color: #212721;
+    padding-top: 50px;
+
+    h2 {
+        font-size: 2em;
+        color: #11385b;
+    }
+
+    .usa-accordion__button {
+        font-size: 24px;
+        font-weight: 600;
+        background-color: #CDDBEE;
+    }
+
+    .usa-accordion__button:hover {
+        background-color: white;
+        color: #002F6C;
+    }
+
+    .usa-accordion__button[aria-expanded=true] {
+        background-color: white;
+        color: #002F6C;
+    }
+
+    .usa-accordion__content {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+        a {
+        color: #417CC1;
+        }
+    }
+
+    .usa-accordion__heading {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+}
+
+

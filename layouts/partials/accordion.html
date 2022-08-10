@@ -1,0 +1,122 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+
+<header>
+  <h2 class="content-heading">{{ $translation.accordion.header }}</h2>
+</header>
+
+<div class="usa-accordion">
+    <h4 class="usa-accordion__heading">
+      <button
+        type="button"
+        class="usa-accordion__button"
+        aria-expanded="false"
+        aria-controls="a1"
+      >
+        {{ $translation.accordion.title_1 }}
+      </button>
+    </h4>
+    <div id="a1" class="usa-accordion__content usa-prose">
+      <p>
+
+        <p>
+          {{ $translation.accordion.content_1_part_1 }}
+        </p>
+        <p>
+          {{ replace $translation.accordion.content_1_part_2 "%link%" (partial "links/accordion/content-1-part-2.html" .)|safeHTML }}
+        </p>
+
+      </p>
+    </div>
+    <h4 class="usa-accordion__heading">
+      <button
+        type="button"
+        class="usa-accordion__button"
+        aria-expanded="false"
+        aria-controls="a2"
+      >
+      {{ $translation.accordion.title_2 }}
+      </button>
+    </h4>
+    <div id="a2" class="usa-accordion__content usa-prose">
+
+      <p>
+        {{ $translation.accordion.content_2_part_1 }}
+      </p>
+      <p>
+        {{ $translation.accordion.content_2_part_2 }}
+      </p>
+
+    </div>
+    <h4 class="usa-accordion__heading">
+      <button
+        type="button"
+        class="usa-accordion__button"
+        aria-expanded="false"
+        aria-controls="a3"
+      >
+      {{ $translation.accordion.title_3 }}
+      </button>
+    </h4>
+    <div id="a3" class="usa-accordion__content usa-prose">
+
+      <p>
+        {{ $translation.accordion.content_3_part_1 }}
+      </p>
+      <p>
+        {{ $translation.accordion.content_3_part_2 }}
+      </p>
+      <p>
+        {{ $translation.accordion.content_3_part_3 }}
+      </p>
+      <p>
+        {{ $translation.accordion.content_3_part_4 }}
+      </p>
+
+    </div>
+    <h4 class="usa-accordion__heading">
+      <button
+        type="button"
+        class="usa-accordion__button"
+        aria-expanded="false"
+        aria-controls="a4"
+      >
+      {{ $translation.accordion.title_4 }}
+      </button>
+    </h4>
+    <div id="a4" class="usa-accordion__content usa-prose">
+
+      <p>
+        {{ $translation.accordion.content_4_part_1 }}
+      </p>
+      <p>
+        {{ $translation.accordion.content_4_part_2 }}
+      </p>
+      <p>
+        {{ replace $translation.accordion.content_4_part_3 "%link%" (partial "links/accordion/content-4-part-3.html" .)|safeHTML }}
+      </p>
+
+    </div>
+    <h4 class="usa-accordion__heading">
+      <button
+        type="button"
+        class="usa-accordion__button"
+        aria-expanded="false"
+        aria-controls="a5"
+      >
+      {{ $translation.accordion.title_5 }}
+      </button>
+    </h4>
+    <div id="a5" class="usa-accordion__content usa-prose">
+
+      <p>
+        {{ $translation.accordion.content_5_part_1 }}
+      </p>
+      <p>
+        {{ $translation.accordion.content_5_part_2 }}
+      </p>
+      <p>
+        {{ replace $translation.accordion.content_5_part_3 "%link%" (partial "links/accordion/content-5-part-3.html" .)|safeHTML }}         {{ replace $translation.accordion.content_5_part_4 "%link%" (partial "links/accordion/content-5-part-4.html" .)|safeHTML }}
+      </p>
+
+    </div>
+  </div>
