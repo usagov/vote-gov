@@ -35,13 +35,52 @@
   },
 
   {
-    "name": "Minnesota",
-    "route": "/register/mn/"
+    "name": "Connecticut",
+    "route": "/register/ct/"
   },
 
   {
-    "name": "Maine",
-    "route": "/register/me/"
+    "name": "Delaware",
+    "route": "/register/de/"
+  },
+
+  {
+    "name": "District of Columbia",
+    "route": "/register/dc/"
+  },
+
+  {
+    "name": "Flordia",
+    "route": "/register/fl/"
+  },
+
+  {
+    "name": "Georiga",
+    "route": "/register/ga/"
+  },
+
+  {
+    "name": "Guam",
+    "route": "/register/gu/"
+  },
+
+  {
+    "name": "Hawaii",
+    "route": "/register/hi/"
+  },
+
+  {
+    "name": "Idaho",
+    "route": "/register/id/"
+  },
+
+  {
+    "name": "Illinois",
+    "route": "/register/il/"
+  },
+
+  {
+    "name": "Indiana",
+    "route": "/register/in/"
   }
-  
 ]
