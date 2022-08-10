@@ -64,11 +64,9 @@ describe("HTMLproofer check", () => {
                   expect(link.status).to.eq(200)
                 })
               })
-
         cy.get('img').each(image => {
           cy.wrap(image).should('have.attr', 'alt')
         })
-        
       }
     );
   });
