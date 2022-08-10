@@ -317,6 +317,7 @@
         "hp_link": "https://www.votecnmi.gov.mp/",
         "more_info_link": "https://www.votecnmi.gov.mp/",
         "ip_deadline": "শুক্রবার, ৯ সেপ্টেম্বর, ২০২২",
+        "mail_received_deadline": "(শুক্রবার, ৯ সেপ্টেম্বর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
         "confirm_registration_link": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
     },
     "oh": {
@@ -430,6 +431,7 @@
     "vi": {
         "hp_link": "https://www.vivote.gov/voters/register-vote",
         "more_info_link": "https://www.vivote.gov/voters/register-vote",
+        "ip_deadline": "রবিবার, ৯ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (রবিবার, ৯ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://www.vivote.gov/voters/lookup"
     },
