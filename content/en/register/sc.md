@@ -17,12 +17,10 @@ more_info_link_language_selection = ""
 online_deadline = "Sunday, October 09, 2022"
 ip_deadline = "Sunday, October 09, 2022"
 mail_received_deadline = "Must be received by Tuesday, October 11, 2022"
-mail_postmarked_deadline = "Must be postmarked by Tuesday, October 11, 2022"
 confirm_registration_link = "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
 confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""
 default_ip_deadline = "30 days before Election Day"
 default_online_deadline = "30 days before Election Day"
-default_mail_postmarked_deadline = "Must be postmarked 30 days before Election Day"
 
 +++
