@@ -1,9 +1,28 @@
-.search-button {
-    fill: #d0d0d0;
+@use 'uswds-core' as *;
+
+.search-bar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: auto;
+
+    .usa-button {
+        background-color: grey !important;
+    }
+
+    .usa-input {
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+        border-color: grey !important;
+    }
 }
 
 .usa-search {
-    .usa-input {
-        border-radius: 8px;
+    max-width: 200px !important;
+    margin-left: auto;
+    margin-right: 1.2rem;
+
+    @include at-media('tablet') {
+        max-width: 240px !important;
+        margin-right: 0;
     }
 }

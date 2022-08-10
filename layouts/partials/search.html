@@ -1,9 +1,26 @@
-<form class="usa-search usa-search--small" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
-    <input type="hidden" name="affiliate" id="affiliate" value="vote_en" autocomplete="off" />
-    <input class="usa-input" id="search-field-en-small" type="text" name="query" placeholder="Search Vote.gov" id="query" autocomplete="off" class="usagov-search-autocomplete" />
-    <button class="usa-button" type="submit">
-        <svg class="usa-icon search-button" aria-hidden="true" focusable="false" role="img">
-            <use xlink:href="/assets/img/sprite.svg#search"></use>
-          </svg>
-      </button>
+ <form class="usa-search usa-search--small search-bar" role="search" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
+    <input 
+        type="hidden" 
+        name="affiliate" 
+        id="affiliate" 
+        value="vote_en" 
+        autocomplete="off" 
+    />
+
+    <input
+      class="usa-input"
+      id="search-field-en-small"
+      type="search"
+      name="query"
+      autocomplete="off"
+      placeholder="Search Vote.gov"
+    />
+
+    <button class="usa-button" type="submit" name="commit" data-disable-with="Search">
+      <img
+        src="/assets/img/usa-icons-bg/search--white.svg"
+        class="usa-search__submit-icon"
+        alt="Search"
+      />
+    </button>
 </form>
