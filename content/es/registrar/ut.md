@@ -11,7 +11,6 @@ more_info_link = "https://voteinfo.utah.gov/"
 ip_deadline = "martes, 08 de noviembre de 2022"
 online_deadline = "viernes, 28 de octubre de 2022"
 mail_received_deadline = "a más tardar debe ser recibida viernes, 28 de octubre de 2022"
-mail_postmarked_deadline = ""
 confirm_registration_link = "https://vote.utah.gov/"
 
 +++

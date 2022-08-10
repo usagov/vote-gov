@@ -10,7 +10,6 @@ registration_link = "https://vrsws.sos.ky.gov/ovrweb/"
 more_info_link = "https://elect.ky.gov/Resources/Pages/Registration.aspx"
 ip_deadline = "martes, 11 de octubre de 2022"
 online_deadline = "martes, 11 de octubre de 2022"
-mail_received_deadline = ""
 mail_postmarked_deadline = "debe tener el sello del correo martes, 11 de octubre de 2022"
 confirm_registration_link = "https://vrsws.sos.ky.gov/VIC/"
 

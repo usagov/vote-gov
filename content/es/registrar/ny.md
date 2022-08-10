@@ -10,7 +10,6 @@ registration_link = "https://dmv.ny.gov/more-info/electronic-voter-registration-
 more_info_link = "https://www.elections.ny.gov/votingregister.html"
 ip_deadline = "viernes, 14 de octubre de 2022"
 online_deadline = "viernes, 14 de octubre de 2022"
-mail_received_deadline = ""
 mail_postmarked_deadline = "debe tener el sello del correo viernes, 14 de octubre de 2022"
 confirm_registration_link = "https://voterlookup.elections.ny.gov/"
 

@@ -8,6 +8,7 @@ type = "register"
 hp_link = "https://www.votecnmi.gov.mp/"
 more_info_link = "https://www.votecnmi.gov.mp/"
 ip_deadline = "viernes, 09 de septiembre de 2022"
+mail_received_deadline = "a más tardar debe ser recibida viernes, 09 de septiembre de "
 confirm_registration_link = "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
 
 +++

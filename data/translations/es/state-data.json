@@ -5,7 +5,6 @@
     "more_info_link": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
     "ip_deadline": "lunes, 24 de octubre de 2022",
     "online_deadline": "lunes, 24 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo lunes, 24 de octubre de 2022",
     "confirm_registration_link": "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do"
   },
@@ -17,7 +16,6 @@
     "more_info_link_translated": "true",
     "ip_deadline": "domingo, 09 de octubre de 2022",
     "online_deadline": "domingo, 09 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo domingo, 09 de octubre de 2022",
     "confirm_registration_link": "https://myvoterinformation.alaska.gov/"
   },
@@ -36,7 +34,6 @@
     "more_info_link_language_selection": "true",
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link": "https://my.arizona.vote/WhereToVote.aspx?s=individual",
     "confirm_registration_link_language_selection": "true"
@@ -45,7 +42,6 @@
     "hp_link": "https://www.sos.arkansas.gov/elections/",
     "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
     "ip_deadline": "lunes, 10 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo lunes, 10 de octubre de 2022",
     "confirm_registration_link": "https://www.voterview.ar-nova.org/voterview/?culture=es-MX",
     "confirm_registration_link_translated": "true"
@@ -59,7 +55,6 @@
     "more_info_link_translated": "true",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "lunes, 24 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo lunes, 24 de octubre de 2022",
     "confirm_registration_link": "https://registertovote.ca.gov/es-mx",
     "confirm_registration_link_translated": "true"
@@ -73,7 +68,6 @@
     "more_info_link_translated": "true",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "lunes, 31 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo lunes, 31 de octubre de 2022",
     "confirm_registration_link": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml",
     "confirm_registration_link_language_selection": "true"
@@ -85,7 +79,6 @@
     "more_info_link": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "martes, 01 de noviembre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 01 de noviembre de 2022",
     "confirm_registration_link": "https://portaldir.ct.gov/sots/LookUp.aspx"
   },
@@ -96,7 +89,6 @@
     "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
     "ip_deadline": "sábado, 15 de octubre de 2022",
     "online_deadline": "sábado, 15 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo sábado, 15 de octubre de 2022",
     "confirm_registration_link": "https://ivote.de.gov/VoterView/?culture=es-MX",
     "confirm_registration_link_translated": "true"
@@ -108,7 +100,6 @@
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "martes, 18 de octubre de 2022",
     "mail_received_deadline": "a más tardar debe ser recibida martes, 18 de octubre de 2022",
-    "mail_postmarked_deadline": "",
     "confirm_registration_link": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status"
   },
   "fl": {
@@ -119,7 +110,6 @@
     "more_info_link_language_selection": "true",
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link": "https://registration.elections.myflorida.com/es/CheckVoterStatus/Index",
     "confirm_registration_link_translated": "true"
@@ -130,7 +120,6 @@
     "more_info_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link": "https://www.mvp.sos.ga.gov/MVP/mvp.do"
   },
@@ -139,9 +128,7 @@
     "registration_link": "https://gec.guam.gov/register/",
     "more_info_link": "https://gec.guam.gov/",
     "ip_deadline": "sábado, 15 de octubre de 2022",
-    "online_deadline": "",
     "mail_received_deadline": "a más tardar debe ser recibida viernes, 28 de octubre de 2022",
-    "mail_postmarked_deadline": "",
     "confirm_registration_link": "https://gec.guam.gov/validate/"
   },
   "hi": {
@@ -150,7 +137,6 @@
     "more_info_link": "https://elections.hawaii.gov/voters/registration/",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "martes, 08 de noviembre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo lunes, 31 de octubre de 2022",
     "confirm_registration_link": "https://olvr.hawaii.gov/"
   },
@@ -160,7 +146,6 @@
     "more_info_link": "https://idahovotes.gov/voting/",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "viernes, 14 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo viernes, 14 de octubre de 2022",
     "confirm_registration_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx"
   },
@@ -171,7 +156,6 @@
     "more_info_link": "https://www.elections.il.gov/Default.aspx",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "martes, 18 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 06 de octubre de 2022",
     "confirm_registration_link": "https://spanish-ova.elections.il.gov/",
     "confirm_registration_link_translated": "true"
@@ -182,7 +166,6 @@
     "more_info_link": "https://www.in.gov/sos/elections/2403.htm",
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link": "https://indianavoters.in.gov/"
   },
@@ -192,7 +175,6 @@
     "more_info_link": "https://sos.iowa.gov/elections/voterinformation/voterregistration.html",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "lunes, 24 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo lunes, 24 de octubre de 2022",
     "confirm_registration_link": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx"
   },
@@ -202,7 +184,6 @@
     "more_info_link": "https://sos.ks.gov/elections/voter-information.html",
     "ip_deadline": "martes, 18 de octubre de 2022",
     "online_deadline": "martes, 18 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 18 de octubre de 2022",
     "confirm_registration_link": "https://myvoteinfo.voteks.org/voterview/?culture=es-MX",
     "confirm_registration_link_translated": "true"
@@ -213,7 +194,6 @@
     "more_info_link": "https://elect.ky.gov/Resources/Pages/Registration.aspx",
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link": "https://vrsws.sos.ky.gov/VIC/"
   },
@@ -223,7 +203,6 @@
     "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "miércoles, 19 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "dates_electionday": "sábado, 10 de diciembre de 2022",
     "confirm_registration_link": "https://voterportal.sos.la.gov/"
@@ -233,7 +212,6 @@
     "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "mail_received_deadline": "a más tardar debe ser recibida martes, 18 de octubre de 2022",
-    "mail_postmarked_deadline": "",
     "confirm_registration_link": "https://www.maine.gov/sos/cec/elec/data/index.html"
   },
   "md": {
@@ -243,7 +221,6 @@
     "more_info_link": "https://www.elections.maryland.gov/voter_registration/application.html",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "martes, 18 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 18 de octubre de 2022",
     "confirm_registration_link": "https://voterservices.elections.maryland.gov/VoterSearch",
     "confirm_registration_link_language_selection": "true"
@@ -255,7 +232,6 @@
     "more_info_link": "https://www.sec.state.ma.us/ele/eleifv/howreg.htm",
     "ip_deadline": "sábado, 29 de octubre de 2022",
     "online_deadline": "sábado, 29 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo sábado, 29 de octubre de 2022",
     "confirm_registration_link": "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx",
     "confirm_registration_link_language_selection": "true"
@@ -266,7 +242,6 @@
     "more_info_link": "https://mvic.sos.state.mi.us/",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "lunes, 24 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo lunes, 24 de octubre de 2022",
     "confirm_registration_link": "https://mvic.sos.state.mi.us/"
   },
@@ -278,7 +253,6 @@
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "martes, 18 de octubre de 2022",
     "mail_received_deadline": "a más tardar debe ser recibida martes, 18 de octubre de 2022",
-    "mail_postmarked_deadline": "",
     "confirm_registration_link": "https://www.sos.state.mn.us/elections-voting/spanish",
     "confirm_registration_link_translated": "true"
   },
@@ -286,7 +260,6 @@
     "hp_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
     "more_info_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
     "ip_deadline": "lunes, 10 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo lunes, 10 de octubre de 2022",
     "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
   },
@@ -296,7 +269,6 @@
     "more_info_link": "https://www.sos.mo.gov/elections/goVoteMissouri/register",
     "ip_deadline": "miércoles, 12 de octubre de 2022",
     "online_deadline": "miércoles, 12 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo miércoles, 12 de octubre de 2022",
     "confirm_registration_link": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx"
   },
@@ -304,7 +276,6 @@
     "hp_link": "https://sosmt.gov/elections/",
     "more_info_link": "https://sosmt.gov/elections/vote/",
     "ip_deadline": "lunes, 07 de noviembre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link": "https://sosmt.gov/elections/vote/"
   },
@@ -315,7 +286,6 @@
     "more_info_link": "https://sos.nebraska.gov/elections/voter-forms",
     "ip_deadline": "viernes, 28 de octubre de 2022",
     "online_deadline": "viernes, 21 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo viernes, 21 de octubre de 2022",
     "confirm_registration_link": "https://www.votercheck.necvr.ne.gov/voterview/?culture=es-MX",
     "confirm_registration_link_translated": "true"
@@ -327,7 +297,6 @@
     "more_info_link": "https://www.nvsos.gov/sos/elections/voters/registering-to-vote",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "martes, 03 noviembre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link": "https://www.nvsos.gov/votersearch/"
   },
@@ -344,7 +313,6 @@
     "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml",
     "ip_deadline": "martes, 18 de octubre de 2022",
     "online_deadline": "martes, 18 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 18 de octubre de 2022",
     "confirm_registration_link": "https://voter.svrs.nj.gov/registration-check"
   },
@@ -357,7 +325,6 @@
     "more_info_link_language_selection": "true",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link": "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
   },
@@ -367,7 +334,6 @@
     "more_info_link": "https://www.elections.ny.gov/votingregister.html",
     "ip_deadline": "viernes, 14 de octubre de 2022",
     "online_deadline": "viernes, 14 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo viernes, 14 de octubre de 2022",
     "confirm_registration_link": "https://voterlookup.elections.ny.gov/"
   },
@@ -377,7 +343,6 @@
     "more_info_link": "https://www.ncsbe.gov/registering/how-register",
     "ip_deadline": "sábado, 05 de noviembre de 2022",
     "online_deadline": "viernes, 14 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo viernes, 14 de octubre de 2022",
     "confirm_registration_link": "https://vt.ncsbe.gov/RegLkup/"
   },
@@ -390,6 +355,7 @@
     "hp_link": "https://www.votecnmi.gov.mp/",
     "more_info_link": "https://www.votecnmi.gov.mp/",
     "ip_deadline": "viernes, 09 de septiembre de 2022",
+    "mail_received_deadline": "a más tardar debe ser recibida viernes, 09 de septiembre de ",
     "confirm_registration_link": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
   },
   "oh": {
@@ -399,7 +365,6 @@
     "more_info_link": "https://ohio.gov/wps/portal/gov/site/government/resources/register-to-vote-or-update-your-registration",
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link": "https://voterlookup.ohiosos.gov/voterlookup.aspx"
   },
@@ -407,7 +372,6 @@
     "hp_link": "https://www.ok.gov/elections/",
     "more_info_link": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
     "ip_deadline": "viernes, 14 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo viernes, 14 de octubre de 2022",
     "confirm_registration_link": "https://okvoterportal.okelections.us/",
     "confirm_registration_link_language_selection": "true"
@@ -420,7 +384,6 @@
     "more_info_link_language_selection": "true",
     "ip_deadline": "martes, 18 de octubre de 2022",
     "online_deadline": "martes, 18 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 18 de octubre de 2022",
     "confirm_registration_link": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS",
     "confirm_registration_link_language_selection": "true"
@@ -433,7 +396,6 @@
     "ip_deadline": "lunes, 24 de octubre de 2022",
     "online_deadline": "lunes, 24 de octubre de 2022",
     "mail_received_deadline": "a más tardar debe ser recibida lunes, 24 de octubre de 2022",
-    "mail_postmarked_deadline": "",
     "confirm_registration_link": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx",
     "confirm_registration_link_language_selection": "true"
   },
@@ -453,7 +415,6 @@
     "more_info_link_translated": "true",
     "ip_deadline": "domingo, 09 de octubre de 2022",
     "online_deadline": "domingo, 09 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo domingo, 09 de octubre de 2022",
     "confirm_registration_link": "https://vote.sos.ri.gov/HomeSpanish/UpdateVoterRecord?ActiveFlag=0",
     "confirm_registration_link_translated": "true"
@@ -464,7 +425,6 @@
     "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
     "ip_deadline": "domingo, 09 de octubre de 2022",
     "online_deadline": "domingo, 09 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
   },
@@ -473,7 +433,6 @@
     "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
     "ip_deadline": "lunes, 24 de octubre de 2022",
     "mail_received_deadline": "a más tardar debe ser recibida lunes, 24 de octubre de 2022",
-    "mail_postmarked_deadline": "",
     "confirm_registration_link": "https://vip.sdsos.gov/VIPLogin.aspx"
   },
   "tn": {
@@ -482,7 +441,6 @@
     "more_info_link": "https://sos.tn.gov/products/elections/register-vote",
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link": "https://tnmap.tn.gov/voterlookup/"
   },
@@ -492,7 +450,6 @@
     "more_info_link": "https://www.votetexas.gov/es/registrese-para-votar/index.html",
     "more_info_link_translated": "true",
     "ip_deadline": "martes, 11 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do",
     "confirm_registration_link_language_selection": "true"
@@ -504,7 +461,6 @@
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "viernes, 28 de octubre de 2022",
     "mail_received_deadline": "a más tardar debe ser recibida viernes, 28 de octubre de 2022",
-    "mail_postmarked_deadline": "",
     "confirm_registration_link": "https://vote.utah.gov/"
   },
   "vt": {
@@ -514,7 +470,6 @@
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "martes, 08 de noviembre de 2022",
     "mail_received_deadline": "a más tardar debe ser recibida viernes, 04 de noviembre de 2022",
-    "mail_postmarked_deadline": "",
     "confirm_registration_link": "https://mvp.vermont.gov/"
   },
   "va": {
@@ -525,7 +480,6 @@
     "more_info_link_translated": "true",
     "ip_deadline": "lunes, 17 de octubre de 2022",
     "online_deadline": "lunes, 17 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo lunes, 17 de octubre de 2022",
     "confirm_registration_link": "https://www.elections.virginia.gov/es/registro/ver-su-informacion/",
     "confirm_registration_link_translated": "true"
@@ -533,8 +487,7 @@
   "vi": {
     "hp_link": "https://www.vivote.gov/voters/register-vote",
     "more_info_link": "https://www.vivote.gov/voters/register-vote",
-    "ip_deadline": "hasta 30 días antes del día de las elecciones",
-    "mail_received_deadline": "",
+    "ip_deadline": "domingo, 09 de octubre de 2022",
     "mail_postmarked_deadline": "debe tener el sello del correo domingo, 09 de octubre de 2022",
     "confirm_registration_link": "https://www.vivote.gov/voters/lookup"
   },
@@ -548,7 +501,6 @@
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "lunes, 31 de octubre de 2022",
     "mail_received_deadline": "a más tardar debe ser recibida lunes, 31 de octubre de 2022",
-    "mail_postmarked_deadline": "",
     "confirm_registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
     "confirm_registration_link_language_selection": "true"
   },
@@ -558,7 +510,6 @@
     "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
     "ip_deadline": "martes, 18 de octubre de 2022",
     "online_deadline": "martes, 18 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 18 de octubre de 2022",
     "confirm_registration_link": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
   },
@@ -569,7 +520,6 @@
     "more_info_link": "https://elections.wi.gov/voters/first-time",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "miércoles, 19 de octubre de 2022",
-    "mail_received_deadline": "",
     "mail_postmarked_deadline": "debe tener el sello del correo miércoles, 19 de octubre de 2022",
     "confirm_registration_link": "https://myvote.wi.gov/en-us/MyVoterInfo"
   },
@@ -578,7 +528,6 @@
     "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "mail_received_deadline": "a más tardar debe ser recibida lunes, 24 de octubre de 2022",
-    "mail_postmarked_deadline": "",
     "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf",
     "confirm_registration_link_translated": "true"
   }

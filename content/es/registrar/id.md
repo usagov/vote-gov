@@ -10,7 +10,6 @@ registration_link = "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/A
 more_info_link = "https://idahovotes.gov/voting/"
 ip_deadline = "martes, 08 de noviembre de 2022"
 online_deadline = "viernes, 14 de octubre de 2022"
-mail_received_deadline = ""
 mail_postmarked_deadline = "debe tener el sello del correo viernes, 14 de octubre de 2022"
 confirm_registration_link = "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx"
 

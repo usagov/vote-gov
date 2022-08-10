@@ -14,7 +14,6 @@ more_info_link_language_selection = "true"
 ip_deadline = "martes, 08 de noviembre de 2022"
 online_deadline = "lunes, 31 de octubre de 2022"
 mail_received_deadline = "a más tardar debe ser recibida lunes, 31 de octubre de 2022"
-mail_postmarked_deadline = ""
 confirm_registration_link = "https://voter.votewa.gov/WhereToVote.aspx"
 confirm_registration_link_language_selection = "true"
 

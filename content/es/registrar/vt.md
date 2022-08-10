@@ -11,7 +11,6 @@ more_info_link = "https://sos.vermont.gov/elections/voters/registration/"
 ip_deadline = "martes, 08 de noviembre de 2022"
 online_deadline = "martes, 08 de noviembre de 2022"
 mail_received_deadline = "a más tardar debe ser recibida viernes, 04 de noviembre de 2022"
-mail_postmarked_deadline = ""
 confirm_registration_link = "https://mvp.vermont.gov/"
 
 +++
