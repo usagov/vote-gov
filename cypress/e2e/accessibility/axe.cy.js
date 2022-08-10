@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-// the function below allows for axe to put the failer message into a table that is locted in the terminal after the test is run 
+// The function below allows Cypress axe to add the fail message into a table that is located in the terminal after the test is run.
 function terminalLog(violations) {
   cy.task(
     'log',
@@ -8,7 +8,7 @@ function terminalLog(violations) {
       violations.length === 1 ? '' : 's'
     } ${violations.length === 1 ? 'was' : 'were'} detected`
   )
-  // pluck specific keys to keep the table readable
+  // Track specific keys to keep the table readable.
   const violationData = violations.map(
     ({ id, impact, description, nodes }) => ({
       id,
@@ -24,19 +24,19 @@ function terminalLog(violations) {
 
 const urls = ['http://localhost:1313', 'http://localhost:1313/register/ak/', 'http://localhost:1313/register/as/', 'http://localhost:1313/register/nd/', ]
 
-describe('check accessibility on vote.gov pages', () =>{
+describe('Validate 508 accessibility compliance', () =>{
   urls.forEach((url) => {
     it(`run axe core ${url}`, () => {
       cy.visit(url)
       cy.injectAxe()
-      cy.checkA11y(null, 
+      cy.checkA11y(null,
         {
-          includedImpacts: ["critical", "serious", "moderate"],
-          rules: {
-             "color-contrast": { enabled: false },
-          }
-       }, 
-       null, terminalLog)
+        includedImpacts: ["critical", "serious", "moderate"],
+        rules: {
+           "color-contrast": { enabled: false },
+        }
+     },
+     null, terminalLog)
     })
   })
 })
