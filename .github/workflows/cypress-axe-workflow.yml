@@ -1,4 +1,4 @@
-name: Pipeline testing - Cypress Axe Testing
+name: Cypress: Axe accessibility testing
 
 on: [push]
 

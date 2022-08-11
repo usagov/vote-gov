@@ -1,4 +1,4 @@
-name: Pipeline testing - Cypress Functional Testing
+name: Cypress: functional testing
 
 on: [push]
 
