@@ -12,5 +12,8 @@ ip_deadline = "martes, 18 de octubre de 2022"
 online_deadline = "martes, 18 de octubre de 2022"
 mail_postmarked_deadline = "debe tener el sello del correo martes, 18 de octubre de 2022"
 confirm_registration_link = "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
+default_ip_deadline = "hasta 21 días antes del día de las elecciones"
+default_online_deadline = "hasta 21 días antes del día de las elecciones"
+default_mail_postmarked_deadline = "debe tener el sello del correo 21 días antes del día de las elecciones"
 
 +++

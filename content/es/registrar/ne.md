@@ -14,5 +14,8 @@ online_deadline = "viernes, 21 de octubre de 2022"
 mail_postmarked_deadline = "debe tener el sello del correo viernes, 21 de octubre de 2022"
 confirm_registration_link = "https://www.votercheck.necvr.ne.gov/voterview/?culture=es-MX"
 confirm_registration_link_translated = "true"
+default_ip_deadline = "hasta el segundo viernes antes del día de las elecciones"
+default_online_deadline = "hasta el tercer viernes antes del día de las elecciones"
+default_mail_postmarked_deadline = "debe tener el sello del correo a más tardar el tercer viernes antes del día de las elecciones"
 
 +++

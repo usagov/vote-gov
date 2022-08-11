@@ -13,5 +13,8 @@ ip_deadline = "martes, 08 de noviembre de 2022"
 online_deadline = "martes, 03 noviembre de 2022"
 mail_postmarked_deadline = "debe tener el sello del correo martes, 11 de octubre de 2022"
 confirm_registration_link = "https://www.nvsos.gov/votersearch/"
+default_ip_deadline = "hasta el cuarto martes antes del día de las elecciones"
+default_online_deadline = "hasta el jueves antes de que empiece la votación anticipada"
+default_mail_postmarked_deadline = "debe tener el sello del correo a más tardar el cuarto martes antes del día de las elecciones"
 
 +++

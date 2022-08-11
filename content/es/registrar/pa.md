@@ -14,5 +14,8 @@ online_deadline = "lunes, 24 de octubre de 2022"
 mail_received_deadline = "a más tardar debe ser recibida lunes, 24 de octubre de 2022"
 confirm_registration_link = "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
 confirm_registration_link_language_selection = "true"
+default_ip_deadline = "hasta 15 días antes del día de las elecciones"
+default_online_deadline = "hasta 15 días antes del día de las elecciones"
+default_mail_received_deadline = "a más tardar debe ser recibida 15 días antes del día de las elecciones"
 
 +++

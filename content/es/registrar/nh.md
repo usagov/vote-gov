@@ -9,5 +9,6 @@ hp_link = "https://sos.nh.gov/home"
 more_info_link = "https://sos.nh.gov/elections/voters/register-to-vote/"
 ip_deadline = "martes, 08 de noviembre de 2022"
 confirm_registration_link = "https://app.sos.nh.gov/Public/PartyInfo.aspx"
+default_ip_deadline = "hasta el mismo día de las elecciones"
 
 +++

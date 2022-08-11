@@ -13,5 +13,8 @@ ip_deadline = "martes, 08 de noviembre de 2022"
 online_deadline = "martes, 01 de noviembre de 2022"
 mail_postmarked_deadline = "debe tener el sello del correo martes, 01 de noviembre de 2022"
 confirm_registration_link = "https://portaldir.ct.gov/sots/LookUp.aspx"
+default_ip_deadline = "hasta el mismo día de las elecciones"
+default_online_deadline = "hasta 7 días antes del día de las elecciones"
+default_mail_postmarked_deadline = "debe tener el sello del correo 7 días antes del día de las elecciones"
 
 +++
