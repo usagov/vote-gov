@@ -8,9 +8,9 @@ type = "register"
 hp_link = "https://sos.ks.gov/elections/elections.html"
 registration_link = "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx"
 more_info_link = "https://sos.ks.gov/elections/voter-information.html"
-ip_deadline = "選舉日前 21 天"
-online_deadline = "選舉日前 21 天"
-mail_postmarked_deadline = "選舉當日前 21天郵戳為憑"
+ip_deadline = "2022年10月18日星期二"
+online_deadline = "2022年10月18日星期二"
+mail_postmarked_deadline = "郵戳為憑（2022年10月18日星期二）"
 confirm_registration_link = "https://myvoteinfo.voteks.org/voterview/"
 
 +++

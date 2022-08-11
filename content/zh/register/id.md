@@ -8,9 +8,9 @@ type = "register"
 hp_link = "https://idahovotes.gov/"
 registration_link = "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/ApplicationInstructions.aspx"
 more_info_link = "https://idahovotes.gov/voting/"
-ip_deadline = "選舉日之前（包括選舉日）都可以使用"
-online_deadline = "選舉日前 25 天"
-mail_postmarked_deadline = "選舉當日前 25 天郵戳為憑"
+ip_deadline = "2022年11月8日星期二"
+online_deadline = "2022年10月14日星期五"
+mail_postmarked_deadline = "郵戳為憑（2022年10月14日星期五）"
 confirm_registration_link = "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx"
 
 +++
