@@ -1,4 +1,4 @@
-name: Cypress: Axe accessibility testing
+name: Cypress - Axe accessibility testing
 
 on: [push]
 

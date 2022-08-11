@@ -1,4 +1,4 @@
-name: Cypress: functional testing
+name: Cypress - functional testing
 
 on: [push]
 
