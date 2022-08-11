@@ -79,9 +79,9 @@
     "hp_link": "https://dcboe.org/",
     "registration_link": "https://www.dcboe.org/Voters/Register-To-Vote/Register-to-Vote",
     "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register",
-    "ip_deadline": "選舉日之前（包括選舉日）都可以使用",
-    "mail_received_deadline": "必須在選舉日之前的21天收到",
-    "online_deadline": "選舉日前21 天",
+    "ip_deadline": "2022年11月8日星期二",
+    "mail_received_deadline": "必須在（2022年10月18日星期二）之前寄達",
+    "online_deadline": "2022年10月18日星期二",
     "confirm_registration_link": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status"
   },
   "fl": {
@@ -406,27 +406,27 @@
     "hp_link": "https://elections.utah.gov/",
     "registration_link": "https://secure.utah.gov/voterreg/index.html",
     "more_info_link": "https://voteinfo.utah.gov/",
-    "ip_deadline": "選舉日之前（包括選舉日）都可以使用",
-    "online_deadline": "選舉日前 11天",
-    "mail_received_deadline": "必須在選舉日前 11天前寄達",
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年10月17日星期五",
+    "mail_received_deadline": "必須在（2022年10月28日星期五）之前寄達",
     "confirm_registration_link": "https://vote.utah.gov/"
   },
   "vt": {
     "hp_link": "https://sos.vermont.gov/elections/",
     "registration_link": "https://olvr.vermont.gov/",
     "more_info_link": "https://sos.vermont.gov/elections/voters/registration/",
-    "ip_deadline": "選舉日之前（包括選舉日）都可以使用",
-    "online_deadline": "選舉日前的星期五",
-    "mail_received_deadline": "必須在選舉日之前的星期五收到",
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年11月8日星期二",
+    "mail_received_deadline": "必須在（2022年11月4日星期五）之前寄達",
     "confirm_registration_link": "https://mvp.vermont.gov/"
   },
   "va": {
     "hp_link": "https://www.elections.virginia.gov/",
     "registration_link": "https://www.elections.virginia.gov/citizen-portal/",
     "more_info_link": "https://www.elections.virginia.gov/registration/how-to-register/",
-    "ip_deadline": "選舉日前 22天",
-    "online_deadline": "選舉日前 22天",
-    "mail_postmarked_deadline": "選舉當日前 22天郵戳為憑",
+    "ip_deadline": "2022年10月17日星期一",
+    "online_deadline": "2022年10月17日星期一",
+    "mail_postmarked_deadline": "郵戳為憑（2022年10月17日星期一）",
     "confirm_registration_link": "https://www.elections.virginia.gov/registration/view-your-info/"
   },
   "vi": {
@@ -440,34 +440,34 @@
     "hp_link": "https://www.sos.wa.gov/elections/",
     "registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
     "more_info_link": "https://www.sos.wa.gov/elections/voters/",
-    "ip_deadline": "選舉日之前（包括選舉日）都可以使用",
-    "online_deadline": "選舉日前 8天",
-    "mail_received_deadline": "必須在選舉日前 8天前寄達",
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年10月31日星期一",
+    "mail_received_deadline": "必須在（2022年10月31日星期一）之前寄達",
     "confirm_registration_link": "選舉日前 21天"
   },
   "wv": {
     "hp_link": "https://sos.wv.gov/elections/Pages/default.aspx",
     "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
     "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
-    "ip_deadline": "選舉日前 21天",
-    "online_deadline": "選舉日前 21天",
-    "mail_postmarked_deadline": "選舉當日前 21天郵戳為憑",
+    "ip_deadline": "2022年10月18日星期二",
+    "online_deadline": "2022年10月18日星期二",
+    "mail_postmarked_deadline": "郵戳為憑（2022年10月18日星期二）",
     "confirm_registration_link": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
   },
   "wi": {
     "hp_link": "https://elections.wi.gov/elections-voting",
     "registration_link": "https://myvote.wi.gov/en-us/RegisterToVote",
     "more_info_link": "https://elections.wi.gov/voters/first-time",
-    "ip_deadline": "選舉日之前（包括選舉日）都可以使用",
-    "online_deadline": "選舉日前的第三個星期三",
-    "mail_postmarked_deadline": "必須在選舉日前的第三個星期三前蓋上郵戳",
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年10月19日星期三",
+    "mail_postmarked_deadline": "郵戳為憑（2022年10月19日星期三）",
     "confirm_registration_link": "https://myvote.wi.gov/en-us/MyVoterInfo"
   },
   "wy": {
     "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
     "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
-    "ip_deadline": "選舉日之前（包括選舉日）都可以使用",
-    "mail_received_deadline": "必須在選舉日前 14天前寄達",
+    "ip_deadline": "2022年11月8日星期二",
+    "mail_received_deadline": "必須在（2022年10月24日星期六）之前寄達",
     "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
   }
 }

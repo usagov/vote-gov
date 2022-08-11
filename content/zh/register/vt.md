@@ -8,9 +8,9 @@ type = "register"
 hp_link = "https://sos.vermont.gov/elections/"
 registration_link = "https://olvr.vermont.gov/"
 more_info_link = "https://sos.vermont.gov/elections/voters/registration/"
-ip_deadline = "選舉日之前（包括選舉日）都可以使用"
-online_deadline = "選舉日前的星期五"
-mail_received_deadline = "必須在選舉日之前的星期五收到"
+ip_deadline = "2022年11月8日星期二"
+online_deadline = "2022年11月8日星期二"
+mail_received_deadline = "必須在（2022年11月4日星期五）之前寄達"
 confirm_registration_link = "https://mvp.vermont.gov/"
 
 +++
