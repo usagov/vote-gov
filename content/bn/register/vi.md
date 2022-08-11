@@ -10,5 +10,6 @@ more_info_link = "https://www.vivote.gov/voters/register-vote"
 ip_deadline = "রবিবার, ৯ অক্টোবর, ২০২২"
 mail_postmarked_deadline = "পোস্ট চিহ্ন করা আবশ্যক (রবিবার, ৯ অক্টোবর, ২০২২)"
 confirm_registration_link = "https://www.vivote.gov/voters/lookup"
+default_ip_deadline = "নির্বাচনী দিনের ৩০ দিন আগে"
 
 +++

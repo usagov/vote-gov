@@ -12,5 +12,8 @@ ip_deadline = "মঙ্গলবার, ১১ অক্টোবর, ২০২
 online_deadline = "বুধবার, ১৯ অক্টোবর, ২০২২"
 mail_postmarked_deadline = "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)"
 confirm_registration_link = "https://voterportal.sos.la.gov/"
+default_ip_deadline = "নির্বাচনী দিনের ৩০ দিন আগে"
+default_online_deadline = "নির্বাচনের দিন 2০ দিন আগে"
+default_mail_postmarked_deadline = "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
 
 +++

@@ -12,5 +12,7 @@ ip_deadline = "শুক্রবার, ২৮ অক্টোবর, ২০২
 online_deadline = "শুক্রবার, ২১ অক্টোবর, ২০২২"
 mail_postmarked_deadline = "পোস্ট চিহ্ন করা আবশ্যক (শুক্রবার, ২১ অক্টোবর, ২০২২)"
 confirm_registration_link = "https://www.votercheck.necvr.ne.gov/voterview"
+default_online_deadline = "নির্বাচনের আগের তৃতীয় শুক্রবার"
+default_mail_postmarked_deadline = "নির্বাচনের দিন আগে তৃতীয় শুক্রবারের মধ্যে পোস্টমার্ক করতে হবে"
 
 +++

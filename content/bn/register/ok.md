@@ -10,5 +10,7 @@ more_info_link = "https://oklahoma.gov/elections/voter-registration/register-to-
 ip_deadline = "শুক্রবার, ১৪ অক্টোবর, ২০২২"
 mail_postmarked_deadline = "পোস্ট চিহ্ন করা আবশ্যক (শুক্রবার, ১৪ অক্টোবর, ২০২২)"
 confirm_registration_link = "https://okvoterportal.okelections.us/"
+default_ip_deadline = "নির্বাচনের ২৫ দিন আগে"
+default_mail_postmarked_deadline = "নির্বাচনের দিন ২৫ দিন আগে পোস্টমার্ক করা আবশ্যক"
 
 +++

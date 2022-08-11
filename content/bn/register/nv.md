@@ -12,5 +12,7 @@ ip_deadline = "মঙ্গলবার, ৮ নভেম্বর, ২০২২
 online_deadline = "বৃহস্পতিবার, ৩ নভেম্বর, ২০২২"
 mail_postmarked_deadline = "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)"
 confirm_registration_link = "https://www.nvsos.gov/votersearch/"
+default_online_deadline = "বৃহস্পতিবার ভোট শুরু হওয়ার আগে"
+default_mail_postmarked_deadline = "নির্বাচনের দিন আগে চতুর্থ মঙ্গলবারের মধ্যে পোস্টমার্ক করা আবশ্যক"
 
 +++

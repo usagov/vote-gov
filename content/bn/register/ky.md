@@ -12,5 +12,8 @@ ip_deadline = "মঙ্গলবার, ১১ অক্টোবর, ২০২
 online_deadline = "মঙ্গলবার, ১১ অক্টোবর, ২০২২"
 mail_postmarked_deadline = "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)"
 confirm_registration_link = "https://vrsws.sos.ky.gov/VIC/"
+default_ip_deadline = "নির্বাচনের আগের চতুর্থ সোমবার"
+default_online_deadline = "নির্বাচনের আগের চতুর্থ সোমবার"
+default_mail_postmarked_deadline = "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
 
 +++

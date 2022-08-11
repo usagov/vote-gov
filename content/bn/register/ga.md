@@ -12,5 +12,8 @@ ip_deadline = "মঙ্গলবার, ১১ অক্টোবর, ২০২
 online_deadline = "মঙ্গলবার, ১১ অক্টোবর, ২০২২"
 mail_postmarked_deadline = "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)"
 confirm_registration_link = "https://www.mvp.sos.ga.gov/MVP/mvp.do"
+default_ip_deadline = "নির্বাচনের আগে পঞ্চম সোমবার"
+default_online_deadline = "নির্বাচনের আগে পঞ্চম সোমবার"
+default_mail_postmarked_deadline = "নির্বাচনের দিন আগে পঞ্চম সোমবারের মধ্যে পোস্টমার্ক করা আবশ্যক"
 
 +++

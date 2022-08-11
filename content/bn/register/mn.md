@@ -12,5 +12,8 @@ ip_deadline = "মঙ্গলবার, ৮ নভেম্বর, ২০২২
 online_deadline = "মঙ্গলবার, ১৮ অক্টোবর, ২০২২"
 mail_received_deadline = "(মঙ্গলবার, ১৮ অক্টোবর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে"
 confirm_registration_link = "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
+default_ip_deadline = "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ"
+default_online_deadline = "নির্বাচনের ২১ দিন আগে"
+default_mail_received_deadline = "নির্বাচনের দিন ২১ দিন আগে পোস্টমার্ক করা আবশ্যক"
 
 +++
