@@ -191,7 +191,8 @@
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://indianavoters.in.gov/",
         "default_online_deadline": "নির্বাচনের দিন ২৯ দিন আগে",
-        "default_mail_postmarked_deadline": "নির্বাচনের দিন 29 দিন আগে পোস্টমার্ক করা আবশ্যক"
+        "default_mail_postmarked_deadline": "নির্বাচনের দিন 29 দিন আগে পোস্টমার্ক করা আবশ্যক",
+        "default_ip_deadline": "নির্বাচনের দিন ২৯ দিন আগে"
     },
     "ia": {
         "hp_link": "https://sos.iowa.gov/",
@@ -236,6 +237,7 @@
         "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "online_deadline": "বুধবার, ১৯ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
+        "dates_electionday": "শনিবার, ১০ ডিসেম্বর, ২০২২",
         "confirm_registration_link": "https://voterportal.sos.la.gov/",
         "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "default_online_deadline": "নির্বাচনের দিন 2০ দিন আগে",
@@ -337,7 +339,8 @@
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (শুক্রবার, ২১ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://www.votercheck.necvr.ne.gov/voterview",
         "default_online_deadline": "নির্বাচনের আগের তৃতীয় শুক্রবার",
-        "default_mail_postmarked_deadline": "নির্বাচনের দিন আগে তৃতীয় শুক্রবারের মধ্যে পোস্টমার্ক করতে হবে"
+        "default_mail_postmarked_deadline": "নির্বাচনের দিন আগে তৃতীয় শুক্রবারের মধ্যে পোস্টমার্ক করতে হবে",
+        "default_ip_deadline": "নির্বাচনের আগের দ্বিতীয় শুক্রবার"
     },
     "nv": {
         "hp_link": "https://www.nvsos.gov/sos/elections",
@@ -348,7 +351,8 @@
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "confirm_registration_link": "https://www.nvsos.gov/votersearch/",
         "default_online_deadline": "বৃহস্পতিবার ভোট শুরু হওয়ার আগে",
-        "default_mail_postmarked_deadline": "নির্বাচনের দিন আগে চতুর্থ মঙ্গলবারের মধ্যে পোস্টমার্ক করা আবশ্যক"
+        "default_mail_postmarked_deadline": "নির্বাচনের দিন আগে চতুর্থ মঙ্গলবারের মধ্যে পোস্টমার্ক করা আবশ্যক",
+        "default_ip_deadline": "নির্বাচনের আগে চতুর্থ মঙ্গলবার"
     },
     "nh": {
         "hp_link": "https://sos.nh.gov/home",
