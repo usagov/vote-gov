@@ -1,10 +1,11 @@
- <form class="usa-search usa-search--small search-bar" role="search" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
-    <input 
-        type="hidden" 
-        name="affiliate" 
-        id="affiliate" 
-        value="vote_en" 
-        autocomplete="off" 
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+<form class="usa-search usa-search--small search-bar" role="search" id="search_form" action="https://search.vote.gov/search" accept-charset="UTF-8" method="get">
+    <input
+        type="hidden"
+        name="affiliate"
+        id="affiliate"
+        value="vote_en"
+        autocomplete="off"
     />
 
     <input
@@ -13,14 +14,14 @@
       type="search"
       name="query"
       autocomplete="off"
-      placeholder="Search Vote.gov"
+      placeholder="{{ $translation.homepage.search_placeholder }}"
     />
 
     <button class="usa-button" type="submit" name="commit" data-disable-with="Search">
       <img
         src="{{ .Site.BaseURL }}/assets/img/usa-icons-bg/search--white.svg"
         class="usa-search__submit-icon"
-        alt="Search"
+        alt="{{ $translation.homepage.search_placeholder }}"
       />
     </button>
 </form>
