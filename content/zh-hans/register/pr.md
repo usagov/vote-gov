@@ -9,5 +9,6 @@ hp_link = "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/defaul
 more_info_link = "http://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx"
 ip_deadline = "2022年9月19日星期一"
 confirm_registration_link = "https://consulta.ceepur.org/"
+default_ip_deadline = "选举日前 50天"
 
 +++

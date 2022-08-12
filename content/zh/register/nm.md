@@ -12,5 +12,8 @@ ip_deadline = "2022年11月8日星期二"
 online_deadline = "2022年10月11日星期二"
 mail_postmarked_deadline = "郵戳為憑（2022年10月11日星期二）"
 confirm_registration_link = "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
+default_ip_deadline = "選舉日前 的星期六"
+default_online_deadline = "選舉日前 28天"
+default_mail_postmarked_deadline = "選舉當日前 28天郵戳為憑"
 
 +++

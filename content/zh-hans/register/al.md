@@ -12,5 +12,8 @@ ip_deadline = "2022年10月24日星期六"
 online_deadline = "2022年10月24日星期六"
 mail_postmarked_deadline = "必须在（2022年10月24日星期六）之前加盖邮戳"
 confirm_registration_link = "选举日前 30 天"
+default_ip_deadline = "选举日前 15 天"
+default_online_deadline = "选举日前 15 天"
+default_mail_postmarked_deadline = "必须在选举日前 15 天盖上邮戳"
 
 +++

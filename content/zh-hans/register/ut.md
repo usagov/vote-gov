@@ -12,5 +12,8 @@ ip_deadline = "2022年11月8日星期二"
 online_deadline = "2022年10月28日星期五"
 mail_received_deadline = "必须在（2022年10月28日星期五）之前收到"
 confirm_registration_link = "https://vote.utah.gov/"
+default_ip_deadline = "直到选举日 (包括选举日) 都可以使用"
+default_online_deadline = "选举日前 11天"
+default_mail_received_deadline = "必须在选举日前 11天前收到"
 
 +++

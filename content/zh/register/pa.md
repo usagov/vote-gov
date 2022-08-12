@@ -12,5 +12,8 @@ ip_deadline = "2022年10月24日星期六"
 online_deadline = "2022年10月24日星期六"
 mail_received_deadline = "必須在（2022年10月24日星期六）之前寄達"
 confirm_registration_link = "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
+default_ip_deadline = "選舉日前 15天"
+default_online_deadline = "選舉日前 15天"
+default_mail_received_deadline = "必須在選舉日前 15天前寄達"
 
 +++

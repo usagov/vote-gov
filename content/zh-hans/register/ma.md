@@ -12,5 +12,8 @@ ip_deadline = "2022年10月29日星期六"
 online_deadline = "2022年10月29日星期六"
 mail_postmarked_deadline = "必须在（2022年10月29日星期六）之前加盖邮戳"
 confirm_registration_link = "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"
+default_ip_deadline = "选举日前 20 天"
+default_online_deadline = "选举日前 20 天"
+default_mail_postmarked_deadline = "必须在选举日前 20 天盖上邮戳"
 
 +++

@@ -12,5 +12,8 @@ online_deadline = ""
 mail_received_deadline = "必须在（2022年10月28日星期五）之前收到"
 ip_deadline = "2022年10月28日星期五"
 confirm_registration_link = "https://gec.guam.gov/validate/"
+default_online_deadline = "选举日前 10 天"
+default_mail_received_deadline = "必须在选举日前 10 天前收到"
+default_ip_deadline = "选举日前 10 天"
 
 +++

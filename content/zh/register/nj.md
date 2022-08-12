@@ -12,5 +12,8 @@ online_deadline = "2022年10月18日星期二"
 mail_postmarked_deadline = "郵戳為憑（2022年10月18日星期二）"
 ip_deadline = "2022年10月18日星期二"
 confirm_registration_link = "https://voter.svrs.nj.gov/registration-check"
+default_online_deadline = "選舉日前 21天"
+default_mail_postmarked_deadline = "選舉當日前 21 天郵戳為憑"
+default_ip_deadline = "選舉日前 21天"
 
 +++

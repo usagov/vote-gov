@@ -12,5 +12,8 @@ ip_deadline = "2022年10月28日星期五"
 online_deadline = "2022年10月21日星期五"
 mail_postmarked_deadline = "必须在（2022年10月21日星期五）之前加盖邮戳"
 confirm_registration_link = "https://www.votercheck.necvr.ne.gov/voterview"
+default_ip_deadline = "选举日前的第二个星期五"
+default_online_deadline = "选举日前的第三个星期五"
+default_mail_postmarked_deadline = "必须在选举日之前的第三个星期五盖上邮戳"
 
 +++

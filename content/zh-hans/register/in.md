@@ -12,5 +12,8 @@ ip_deadline = "2022年10月11日星期二"
 online_deadline = "2022年10月11日星期二"
 mail_postmarked_deadline = "必须在（2022年10月11日星期二）之前加盖邮戳"
 confirm_registration_link = "https://indianavoters.in.gov/"
+default_ip_deadline = "选举日前 29 天"
+default_online_deadline = "选举日前 29 天"
+default_mail_postmarked_deadline = "必须在选举日前 29 天盖上邮戳"
 
 +++
