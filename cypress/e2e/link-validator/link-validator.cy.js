@@ -32,6 +32,7 @@ describe("Link Validator Test", () => {
         cy.visit({
           url: baseURL + page.route,
         });
+
         cy.get("a:not([href*='mailto:'])").each(link => {
                 cy.request(link.prop('href')).then(link => {
                   expect(link.status).to.eq(200)
