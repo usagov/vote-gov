@@ -10,7 +10,7 @@ registration_link = "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterR
 more_info_link = "https://sos.iowa.gov/elections/voterinformation/voterregistration.html"
 ip_deadline = "2022年11月8日星期二"
 online_deadline = "2022年10月24日星期六"
-mail_postmarked_deadline = "郵戳為憑（2022年10月24日星期六）"
+mail_postmarked_deadline = "郵戳為憑2022年10月24日星期六"
 confirm_registration_link = "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx"
 default_ip_deadline = "選舉日之前（包括選舉日）都可以使用"
 default_online_deadline = "選舉日前 15 天"
