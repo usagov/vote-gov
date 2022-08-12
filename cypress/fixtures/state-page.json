@@ -82,5 +82,200 @@
   {
     "name": "Indiana",
     "route": "/register/in/"
+  },
+
+  {
+    "name": "Iowa",
+    "route": "/register/ia/"
+  },
+
+  {
+    "name": "Kansas",
+    "route": "/register/ks/"
+  },
+
+  {
+    "name": "Kentucky",
+    "route": "/register/ky/"
+  },
+
+  {
+    "name": "louisiana",
+    "route": "/register/la/"
+  },
+
+  {
+    "name": "Maine",
+    "route": "/register/me/"
+  },
+
+  {
+    "name": "Maryland",
+    "route": "/register/md/"
+  },
+
+  {
+    "name": "Massachusetts",
+    "route": "/register/ma/"
+  },
+
+  {
+    "name": "Michigan",
+    "route": "/register/mi/"
+  },
+
+  {
+    "name": "Minnesota",
+    "route": "/register/mn/"
+  },
+
+  {
+    "name": "Mississippi",
+    "route": "/register/ms/"
+  },
+
+  {
+    "name": "Missouri",
+    "route": "/register/mo/"
+  },
+
+  {
+    "name": "Montana",
+    "route": "/register/mt/"
+  },
+
+  {
+    "name": "Nebraska",
+    "route": "/register/ne/"
+  },
+
+  {
+    "name": "Nevada",
+    "route": "/register/nv/"
+  },
+
+  {
+    "name": "New Hampshire",
+    "route": "/register/nh/"
+  },
+
+  {
+    "name": "New Jersey",
+    "route": "/register/nj/"
+  },
+
+  {
+    "name": "New Mexico",
+    "route": "/register/nm/"
+  },
+
+  {
+    "name": "New York",
+    "route": "/register/ny/"
+  },
+
+  {
+    "name": "North Carolina",
+    "route": "/register/nc/"
+  },
+
+  {
+    "name": "North Dakota",
+    "route": "/register/nd/"
+  },
+
+  {
+    "name": "Northern Mariana Islands",
+    "route": "/register/mp/"
+  },
+
+  {
+    "name": "Ohio",
+    "route": "/register/oh/"
+  },
+
+  {
+    "name": "Oklahoma",
+    "route": "/register/ok/"
+  },
+
+  {
+    "name": "Oregon",
+    "route": "/register/or/"
+  },
+
+  {
+    "name": "Pennsylvania",
+    "route": "/register/pa/"
+  },
+
+  {
+    "name": "Puerto Rico",
+    "route": "/register/pr/"
+  },
+
+  {
+    "name": "Rhode Island",
+    "route": "/register/ri/"
+  },
+
+  {
+    "name": "South Carolina",
+    "route": "/register/sc/"
+  },
+
+  {
+    "name": "South Dakota",
+    "route": "/register/sd/"
+  },
+
+  {
+    "name": "Tennessee",
+    "route": "/register/tn/"
+  },
+
+  {
+    "name": "Texas",
+    "route": "/register/tx/"
+  },
+
+  {
+    "name": "Utah",
+    "route": "/register/ut/"
+  },
+
+  {
+    "name": "Vermont",
+    "route": "/register/vt/"
+  },
+
+  {
+    "name": "Virginia",
+    "route": "/register/va/"
+  },
+
+  {
+    "name": "U.S. Virgin Islands",
+    "route": "/register/vi/"
+  },
+
+  {
+    "name": "Washington",
+    "route": "/register/wa/"
+  },
+
+  {
+    "name": "West Virginia",
+    "route": "/register/wv/"
+  },
+
+  {
+    "name": "Wisconsin",
+    "route": "/register/wi/"
+  },
+
+  {
+    "name": "Wyoming",
+    "route": "/register/wy/"
   }
 ]
