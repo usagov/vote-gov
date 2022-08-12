@@ -1,27 +1,34 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-<form class="usa-search usa-search--small search-bar" role="search" id="search_form" action="https://search.vote.gov/search" accept-charset="UTF-8" method="get">
-    <input
+{{ if $translation.homepage.search_placeholder }}
+<div class="bg-lightblue search-container">
+  <div class="grid-container">
+    <form class="usa-search usa-search--small search-bar" role="search" id="search_form"
+          action="https://search.vote.gov/search" accept-charset="UTF-8" method="get">
+      <input
         type="hidden"
         name="affiliate"
         id="affiliate"
         value="vote_en"
         autocomplete="off"
-    />
-
-    <input
-      class="usa-input"
-      id="search-field-en-small"
-      type="search"
-      name="query"
-      autocomplete="off"
-      placeholder="{{ $translation.homepage.search_placeholder }}"
-    />
-
-    <button class="usa-button" type="submit" name="commit" data-disable-with="Search">
-      <img
-        src="{{ .Site.BaseURL }}/assets/img/usa-icons-bg/search--white.svg"
-        class="usa-search__submit-icon"
-        alt="{{ $translation.homepage.search_placeholder }}"
       />
-    </button>
-</form>
+
+      <input
+        class="usa-input"
+        id="search-field-en-small"
+        type="search"
+        name="query"
+        autocomplete="off"
+        placeholder="{{ $translation.homepage.search_placeholder }}"
+      />
+
+      <button class="usa-button" type="submit" name="commit" data-disable-with="Search">
+        <img
+          src="{{ .Site.BaseURL }}/assets/img/usa-icons-bg/search--white.svg"
+          class="usa-search__submit-icon"
+          alt="{{ $translation.homepage.search_placeholder }}"
+        />
+      </button>
+    </form>
+  </div>
+</div>
+{{ end }}
