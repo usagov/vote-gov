@@ -11,6 +11,7 @@ more_info_link = "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages
 default_ip_deadline = "मतदान दिवस से 30 दिन पहले"
 default_online_deadline = "मतदान दिवस से 20 दिन पहले "
 default_mail_postmarked_deadline = "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
+dates__electionday = "शनिवार, 10 दिसंबर 2022"
 confirm_registration_link = "https://voterportal.sos.la.gov/"
 
 +++
