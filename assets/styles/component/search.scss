@@ -1,5 +1,9 @@
 @use 'uswds-core' as *;
 
+.search-container {
+    border-top: 1px solid #565C65;
+}
+
 .search-bar {
     padding-top: .5rem;
     padding-bottom: .5rem;
