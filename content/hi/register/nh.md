@@ -7,6 +7,7 @@ translationKey = "New Hampshire"
 type = "register"
 hp_link = "https://sos.nh.gov/home"
 more_info_link = "https://sos.nh.gov/elections/voters/register-to-vote/"
+ip_deadline = "मंगलवार, 08 नवंबर 2022"
 default_ip_deadline = "मतदान दिवस तक और मतदान के दिन भी "
 confirm_registration_link = "https://app.sos.nh.gov/Public/PartyInfo.aspx"
 
