@@ -35,4 +35,11 @@
 
 }
 
-
+[dir="rtl"] .homepage-accordion {
+    .usa-accordion__button {
+        background-position: 1rem;
+        text-align: right;
+        padding-right: 1.25rem;
+        padding-left: 3.5rem;
+    }
+}
