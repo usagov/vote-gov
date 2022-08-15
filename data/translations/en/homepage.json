@@ -21,5 +21,6 @@
   "banner__guidance_gov_text": "A %.gov% website belongs to an official government organization in the United States.",
   "banner__guidance_https_heading": "Secure .gov websites use HTTPS",
   "banner__guidance_https_text": "A lock %lock_icon% or %https% means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.",
-  "search_placeholder": "Search Vote.gov"
+  "search_placeholder": "Search Vote.gov",
+  "search_affiliate_translated": true
 }
