@@ -22,6 +22,7 @@
 @forward 'component/language-switcher';
 @forward 'component/identifier';
 @forward 'component/contact';
+@forward 'component/search';
 
 // Variables ------------ //
 
@@ -174,10 +175,6 @@ label.max-width-input {
 
 .banner__text-container {
   flex: 1;
-}
-
-.usa-banner > .usa-accordion {
-  border-bottom: 1px solid black;
 }
 
 .usa-banner__header {
