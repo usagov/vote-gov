@@ -13,7 +13,6 @@
 @forward 'usa-header';
 @forward 'usa-accordion';
 @forward 'usa-collection';
-@forward 'usa-footer';
 @forward 'uswds-form-controls';
 @forward 'usa-button';
 @forward 'usa-alert';
@@ -23,6 +22,7 @@
 @forward 'component/language-switcher';
 @forward 'component/identifier';
 @forward 'component/contact';
+@forward 'component/search';
 
 // Variables ------------ //
 
@@ -175,10 +175,6 @@ label.max-width-input {
 
 .banner__text-container {
   flex: 1;
-}
-
-.usa-banner > .usa-accordion {
-  border-bottom: 1px solid black;
 }
 
 .usa-banner__header {
@@ -404,111 +400,6 @@ $logo-width: 130px;
   p {
     margin-bottom: 1em;
     margin-top: 0;
-  }
-}
-
-.usa-footer__primary-link {
-  padding-left: 0;
-  padding-right: 0;
-  color: white;
-  font-size: 14pt;
-  display: flex;
-  align-items: center;
-
-  .twitter-img {
-    vertical-align: middle;
-    padding-right: 20px;
-    margin-left: 10px;
-    width: 50px;
-    height: 30px;
-  }
-}
-
-.usa-footer__primary-link :visited {
-  color: white;
-}
-
-.usagov-img {
-  margin-top: 0;
-}
-
-.eac-logo-img {
-  vertical-align: middle;
-
-  @include at-media('tablet') {
-    margin-top: 20%;
-  }
-}
-
-.eac-text {
-  text-decoration: none;
-  color: $color-blue-dark;
-  font-weight: bold;
-  font-size: 1.1em;
-  margin: auto 1rem auto 1rem;
-  padding: 1rem;
-
-  [dir="rtl"] & {
-    margin-left: 10px;
-    margin-right: 0;
-  }
-  @include at-media('tablet') {
-    padding: 0;
-  }
-}
-
-.footer-logos {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.footer-column {
-  text-align: center;
-  width: 100%;
-
-    @include at-media('tablet') {
-      width: auto;
-    }
-}
-
-.footer-links {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-
-  .usa-footer__primary-link {
-    padding-top: 0;
-    padding-bottom: 0;
-    display: inline-flex;
-  }
-
-  @include at-media-max('desktop') {
-    padding-bottom: 2rem;
-  }
-
-  .grid-row {
-    align-items: center;
-
-    @include at-media-max('desktop') {
-      text-align: center;
-
-      > div + div {
-        margin-top: 1rem;
-      }
-    }
-  }
-}
-
-button#touchpoints-form-embed {
-  position: fixed;
-  bottom: 0;
-  right: 30px;
-  border-radius: 0.25rem 0.25rem 0 0;
-
-  @include at-media-max('desktop') {
-    right: 0;
-    left: 0;
-    margin: auto;
-    border-radius: 0;
   }
 }
 

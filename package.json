@@ -25,7 +25,7 @@
     "cy:open": "cypress open",
     "cy:test": "cypress run --spec 'cypress/e2e/tests/**/*'",
     "cy:axe": "cypress run --spec 'cypress/e2e/accessibility/**/*'",
-    "htmlproofer": "htmlproofer tmp/public"
+    "cy:links": "cypress run --spec 'cypress/e2e/link-validator/**/*'"  
   },
   "repository": {
     "type": "git",
