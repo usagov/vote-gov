@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    name: 
+    name:
     runs-on: ubuntu-latest
     env:
       LANG: en_US.UTF-8
@@ -27,4 +27,4 @@ jobs:
         run: npm run build && npm run start & sleep 30s
 
       - name: Run Cypress Link Validator test.
-        run: npm run cy:link
+        run: npm run cy:links
