@@ -1,5 +1,7 @@
 @use 'uswds-core' as *;
 
+@forward 'usa-footer';
+
 .footer-identifier {
   padding-top: 2rem;
   padding-bottom: 2rem;

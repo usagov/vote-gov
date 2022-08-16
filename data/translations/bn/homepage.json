@@ -20,5 +20,6 @@
   "registered_links__voterid": "ভোটার আইডির প্রয়োজনীয়তা (ইংরেজিতে)",
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
   "registered_links__process": "নির্বাচন প্রক্রিয়া (ইংরেজিতে)",
-  "registered_links__process_url": "https://www.usa.gov/election"
+  "registered_links__process_url": "https://www.usa.gov/election",
+  "search_placeholder": "Vote.gov অনুসন্ধান করুন"
 }
