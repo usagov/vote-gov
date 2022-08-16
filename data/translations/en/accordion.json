@@ -2,22 +2,22 @@
     "header": "Vote.gov Helps You:",
 
     "title_1": "Register to Vote",
-    "content_1_part_1": "All states except North Dakota require that you register before voting in an election. Select your state or territory on Vote.gov to find the rules that apply to you. ",
+    "content_1_part_1": "All states except North Dakota require that you register before voting in an election. Select your state or territory from the dropdown menu to find the rules that apply to you. ",
     "content_1_part_2": "U.S. citizens living outside the U.S., including U.S. service members and their families, can register to vote and request an absentee ballot by completing the Federal Post Card Application (FPCA). U.S. military family members, like everyone else, must meet U.S. voter eligibility requirements to register and request a ballot. For more information, visit the %link%. ",
     "content_1_part_2_link": "Federal Voter Assistance Program",
 
     "title_2": "Find Voter Registration Deadlines",
-    "content_2_part_1": "There is no national voter registration deadline. Voters in each state and territory must follow their voter registration laws. Select your state or territory on Vote.gov to find your voter registration deadline. ",
+    "content_2_part_1": "There is no national voter registration deadline. Voters in each state and territory must follow their voter registration laws. Select your state or territory from the dropdown menu to find your voter registration deadline. ",
     "content_2_part_2": "Every state except North Dakota requires citizens to register if they want to vote. Some states require voters to register up to 30 days before an election, while others allow registration up to and on Election Day. It’s important you know the rules in your state. ",
     
     "title_3": "Check Your Registration",
-    "content_3_part_1": "Select your state or territory on Vote.gov to check your registration before your state’s deadline. That could be up to 30 days before the election. ",
+    "content_3_part_1": "Select your state or territory from the dropdown menu to check your registration before your state’s deadline. That could be up to 30 days before the election. ",
     "content_3_part_2": "Also check to see if your registration is marked “inactive.” You may become “inactive” if you do not vote in at least two federal elections and did not respond when election officials tried to reach you. ",
     "content_3_part_3": "An inactive status does not necessarily mean that you need to re-register.  It means that you may have to take extra steps before you can vote. Your state’s election website can help you move your registration status back to active. ",
     "content_3_part_4": "Make sure you are registered with the correct name, address, and political party affiliation. Visit your state’s registration page to re-register or make corrections. ",
     
     "title_4": "Change Your Political Party Affiliation",
-    "content_4_part_1": "Select your state or territory on Vote.gov to check your voter registration, including your political party if you have one. Visit your state’s election registration website to make changes. ",
+    "content_4_part_1": "Select your state or territory from the dropdown menu to check your voter registration, including your political party if you have one. Visit your state’s election registration website to make changes. ",
     "content_4_part_2": "Depending on your state, you may be asked for your party affiliation when you register to vote. ",
     "content_4_part_3": "The voting process is the same no matter which party you choose. You may always vote for a candidate from any party in a general election, which is when candidates are elected to offices. Your party affiliation only impacts who you can vote for in %link%. ",
     "content_4_part_3_link": "primary elections and caucuses",

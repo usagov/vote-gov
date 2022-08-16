@@ -16,16 +16,12 @@
       </button>
     </h4>
     <div id="a1" class="usa-accordion__content usa-prose">
-      <p>
-
         <p>
           {{ $translation.accordion.content_1_part_1 }}
         </p>
         <p>
           {{ replace $translation.accordion.content_1_part_2 "%link%" (partial "links/accordion/content-1-part-2.html" .)|safeHTML }}
         </p>
-
-      </p>
     </div>
     <h4 class="usa-accordion__heading">
       <button
