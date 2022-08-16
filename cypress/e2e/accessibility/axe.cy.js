@@ -30,6 +30,7 @@ describe('Validate 508 accessibility compliance', () =>{
     it(`run axe core ${url}`, () => {
       cy.visit(url)
       cy.injectAxe()
+      cy.get('[class="usa-banner__button-text"]').click()
       cy.configureAxe({
           runOnly: {
             values: ['wcag2aa']
