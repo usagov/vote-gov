@@ -11,8 +11,9 @@
         font-size: 24px;
         font-weight: 500;
         background-color: #CDDBEE;
-        padding-top: 1.3rem;
-        padding-bottom: 1.3rem;
+        padding-top: 1.8rem;
+        padding-bottom: 1.8rem;
+        border-radius: .25rem;
     }
 
     .usa-accordion__button:hover {
@@ -30,6 +31,7 @@
         font-size: 16px;
         line-height: 24px;
         margin-top: -0.5rem;
+        border-radius: .25rem;
 
         a {
         color: #417CC1;
