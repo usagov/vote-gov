@@ -8,21 +8,20 @@ var autoprefixer = require("autoprefixer");
 
 
 gulp.task('scss-lint', function (done) {
-  if (process.env.NODE_ENV === 'development') {
-    var scsslint = require('gulp-scss-lint');
-
-    if (process.env.NODE_ENV === 'production') {
-      log(colors.cyan('scss-lint'), 'Disabling linting');
-      return done();
-    }
+  if (process.env.NODE_ENV === 'production') {
+    log(colors.cyan('scss-lint'), 'Disabling linting');
+    return done();
+  }
+  else {
+    var gulpStylelint = require('gulp-stylelint');
 
     return gulp.src('./assets/styles/**/*.scss')
-      .pipe(scsslint({
-        config: './.scss-lint.yml',
-      }))
-      .pipe(scsslint.failReporter());
+      .pipe(gulpStylelint({
+        configFile: './.stylelintrc.json',
+        failAfterError: false,
+        reporters: [{formatter: "string", console: true}]
+      }));
   }
-  return done();
 
 });
 
