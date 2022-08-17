@@ -2,7 +2,6 @@ var gulp = require('gulp');
 var log = require('fancy-log');
 var colors = require('ansi-colors');
 var scss = require('gulp-dart-scss');
-var sourcemaps = require('gulp-sourcemaps');
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
 
@@ -41,6 +40,8 @@ gulp.task('styles', gulp.series('scss-lint', function () {
       .pipe(gulp.dest('./static/assets/styles'));
   }
   else {
+    var sourcemaps = require('gulp-sourcemaps');
+    
     stream = stream.pipe(sourcemaps.init())
       .pipe(scssStream)
       .pipe(postcss([autoprefixer()]))
