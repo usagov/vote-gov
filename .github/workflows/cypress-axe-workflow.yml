@@ -1,10 +1,10 @@
-name: Pipeline Testing 
+name: Cypress - AXE accessibility testing
 
 on: [push]
 
 jobs:
   build:
-    name: Cypress Functional Testing
+    name: 
     runs-on: ubuntu-latest
     env:
       LANG: en_US.UTF-8
@@ -26,5 +26,5 @@ jobs:
       - name: Build and start up hugo server.
         run: npm run build && npm run start & sleep 30s
 
-      - name: Run Cypress tests.
-        run: npm run cy:test
+      - name: Run Cypress Axe tests.
+        run: npm run cy:axe
