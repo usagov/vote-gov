@@ -1,7 +1,6 @@
 var gulp = require('gulp');
 var log = require('fancy-log');
 var colors = require('ansi-colors');
-var eslint = require('gulp-eslint');
 var browserify = require('browserify');
 var uglify = require('gulp-uglify');
 var source = require('vinyl-source-stream');
@@ -15,13 +14,16 @@ gulp.task('eslint', function (done) {
     log(colors.cyan('eslint'), 'Disabling linting');
     return done();
   }
-
-  return gulp.src('./assets/scripts/**/*.js')
-    .pipe(eslint({
-      configFile: './.eslintrc',
-    }))
-    .pipe(eslint.format())
-    .pipe(eslint.failAfterError());
+  else {
+    var eslint = require('gulp-eslint');
+    
+    return gulp.src('./assets/scripts/**/*.js')
+      .pipe(eslint({
+        configFile: './.eslintrc',
+      }))
+      .pipe(eslint.format())
+      .pipe(eslint.failAfterError());
+  }
 
 });
 
