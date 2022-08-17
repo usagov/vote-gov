@@ -22,21 +22,21 @@ function terminalLog(violations) {
 }
 
 
-const urls = ['http://localhost:1313', 'http://localhost:1313/register/ak/', 'http://localhost:1313/register/as/', 'http://localhost:1313/register/nd/', ]
+const urls = ['http://localhost:1313', 'http://localhost:1313/register/ak/', 'http://localhost:1313/register/ar/', 'http://localhost:1313/register/as/', 'http://localhost:1313/register/nd/', ]
+
 
 describe('Validate 508 accessibility compliance', () =>{
   urls.forEach((url) => {
     it(`run axe core ${url}`, () => {
       cy.visit(url)
       cy.injectAxe()
-      cy.checkA11y(null,
-        {
-        includedImpacts: ["critical", "serious", "moderate"],
-        rules: {
-           "color-contrast": { enabled: false },
-        }
-     },
-     null, terminalLog)
+      cy.get('[class="usa-banner__button-text"]').click()
+      cy.configureAxe({
+          runOnly: {
+            values: ['wcag2aa']
+          }
+      })
+      cy.checkA11y(null, null, terminalLog)
     })
   })
 })
