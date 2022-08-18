@@ -4,8 +4,8 @@
   <h2 class="content-heading">{{ $translation.accordion.header }}</h2>
 </header>
 
-<div class="usa-accordion">
-    <h4 class="usa-accordion__heading">
+<div class="usa-accordion" data-test="homepage-accordion">
+    <h4 class="usa-accordion__heading" data-test="accordion-header">
       <button
         type="button"
         class="usa-accordion__button"
@@ -15,7 +15,7 @@
         {{ $translation.accordion.title_1 }}
       </button>
     </h4>
-    <div id="a1" class="usa-accordion__content usa-prose">
+    <div id="a1" class="usa-accordion__content usa-prose" data-test="accordion-content">
         <p>
           {{ $translation.accordion.content_1_part_1 }}
         </p>
