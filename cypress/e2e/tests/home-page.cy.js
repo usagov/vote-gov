@@ -49,20 +49,17 @@ describe('Test vote.gov homepage', () => {
   })
 
   it('Validate links on homepage', () => {
-    cy.get('[href="https://www.usa.gov/voting"]').click()
-    cy.url().should('be.equal', 'https://www.usa.gov/voting')
-    cy.go('back')
+    cy.get("a:not([href*='mailto:'])").each(link => {
+      cy.request(link.prop('href')).then(link => {
+        expect(link.status).to.eq(200)
+      })
+    })
+  })
 
-    cy.get('[href="https://www.usa.gov/election-day"]').click()
-    cy.url().should('be.equal', 'https://www.usa.gov/election-day')
-    cy.go('back')
-
-    cy.get('[href="https://www.usa.gov/voter-id"]').click()
-    cy.url().should('be.equal', 'https://www.usa.gov/voter-id')
-    cy.go('back')
-
-    cy.get('[href="https://www.usa.gov/election"]').click()
-    cy.url().should('be.equal', 'https://www.usa.gov/election')
-    cy.go('back')
+  it('Check accordion function on homepage', () => {
+    cy.get('[data-test="homepage-accordion"]').find('[class="usa-accordion__heading"]').each(accordionButton => {
+      cy.get(accordionButton).click()
+      cy.get('[data-test="accordion-content"]').should('not.be.empty')
+    })
   })
 })
