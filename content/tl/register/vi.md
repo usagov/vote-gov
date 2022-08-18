@@ -7,7 +7,7 @@ translationKey = "U.S. Virgin Islands"
 type = "register"
 hp_link = "https://www.vivote.gov/voters/register-vote"
 more_info_link = "https://www.vivote.gov/voters/register-vote"
-ip_deadline = "30 araw bago ang Araw ng Eleksyon"
+default_ip_deadline = "30 araw bago ang Araw ng Eleksyon"
 confirm_registration_link = "https://www.vivote.gov/voters/lookup"
 
 +++

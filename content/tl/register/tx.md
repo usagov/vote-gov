@@ -7,8 +7,8 @@ translationKey = "Texas"
 type = "register"
 hp_link = "https://www.votetexas.gov/index.html"
 more_info_link = "https://www.votetexas.gov/register-to-vote/index.html"
-ip_deadline = "30 araw bago ang Araw ng Eleksyon"
-mail_postmarked_deadline = "Dapat na naka-postmark 30 araw bago ang Araw ng Eleksyon"
+default_ip_deadline = "30 araw bago ang Araw ng Eleksyon"
+default_mail_postmarked_deadline = "Dapat na naka-postmark 30 araw bago ang Araw ng Eleksyon"
 confirm_registration_link = "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
 
 +++

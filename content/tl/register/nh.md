@@ -7,7 +7,7 @@ translationKey = "New Hampshire"
 type = "register"
 hp_link = "https://sos.nh.gov/home"
 more_info_link = "https://sos.nh.gov/elections/voters/register-to-vote/"
-ip_deadline = "Maari hanggang at kasama sa  Araw ng Eleksyon"
+default_ip_deadline = "Maari hanggang at kasama sa  Araw ng Eleksyon"
 confirm_registration_link = "https://app.sos.nh.gov/Public/PartyInfo.aspx"
 
 +++
