@@ -1,54 +1,54 @@
 /// <reference types="Cypress" />
 
-describe('check homepage', () => {
+describe('Test vote.gov homepage', () => {
   beforeEach('visit page', () => {
     cy.visit('localhost:1313')
   })
 
-  it('verify homepage loads', () => {
+  it('Confirm homepage load', () => {
     cy.get('[data-test="footer"]').should('be.visible')
   })
 
-  it('check language switching on homepage', () => {
-    // check spanish 
+  it('Validate language switching on homepage', () => {
+    // Test Spanish.
     cy.get('[data-test="language-switcher"]').select("/es/")
     cy.get('[data-test="main-header"]').should('contain', 'Inscríbase para votar')
 
-    // check tagalog
+    // Test Tagalog.
     cy.get('[data-test="language-switcher"]').select("/tl/")
     cy.get('[data-test="main-header"]').should('contain', 'Magrehistro para bumoto')
 
-    // check vietnamese
+    // Test Vietnamese.
     cy.get('[data-test="language-switcher"]').select("/vi/")
     cy.get('[data-test="main-header"]').should('contain', 'Đăng kí bỏ phiếu bầu')
 
-    // check hindi
+    // Test Hindi.
     cy.get('[data-test="language-switcher"]').select("/hi/")
     cy.get('[data-test="main-header"]').should('contain', 'मतदान करने के लिए पंजीकरण करें')
 
-    // check bengali
+    // Test Bengali.
     cy.get('[data-test="language-switcher"]').select("/bn/")
     cy.get('[data-test="main-header"]').should('contain', 'ভোট দিতে নিবন্ধন করুন')
 
-    // check khmer
+    // Test Khmer.
     cy.get('[data-test="language-switcher"]').select("/km/")
     cy.get('[data-test="main-header"]').should('contain','ចុះឈ្មោះដើម្បីបោះឆ្នោត')
 
-     // check kkorean
+     // Test Korean.
      cy.get('[data-test="language-switcher"]').select("/ko/")
      cy.get('[data-test="main-header"]').should('contain','유권자 등록하기')
 
-    //  check simplified chinese
+    // Test simplified Chinese.
     cy.get('[data-test="language-switcher"]').select("/zh-hans/")
     cy.get('[data-test="main-header"]').should('contain','登记投票')
 
-    //  check traditional chinese 
+    // Test traditional Chinese.
     cy.get('[data-test="language-switcher"]').select("/zh/")
     cy.get('[data-test="main-header"]').should('contain','登記投票')
-    
+
   })
 
-  it('check links on homepage', () => {
+  it('Validate links on homepage', () => {
     cy.get('[href="https://www.usa.gov/voting"]').click()
     cy.url().should('be.equal', 'https://www.usa.gov/voting')
     cy.go('back')
