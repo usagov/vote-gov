@@ -1,0 +1,16 @@
++++
+
+state_name = "Vermont"
+state_abbreviation = "vt"
+registration_type = "online"
+translationKey = "Vermont"
+type = "register"
+hp_link = "https://sos.vermont.gov/elections/"
+registration_link = "https://olvr.vermont.gov/"
+more_info_link = "https://sos.vermont.gov/elections/voters/registration/"
+ip_deadline = "Piivngallequq Nakmikivigem kenlenganun aghneghanillu."
+online_deadline = "Friday-nga Nakmikim sivungani"
+mail_received_deadline = "Kaasimayaghqaguq Friday-ngan Nakmikivigem sivunganeng"
+confirm_registration_link = "https://mvp.vermont.gov/"
+
++++
