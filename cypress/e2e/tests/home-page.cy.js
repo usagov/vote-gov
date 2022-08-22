@@ -1,5 +1,6 @@
 /// <reference types="Cypress" />
 
+
 describe('Test vote.gov homepage', () => {
   beforeEach('visit page', () => {
     cy.visit('localhost:1313')
@@ -57,33 +58,16 @@ describe('Test vote.gov homepage', () => {
   })
 
   it('Check accordion function on homepage', () => {
-    cy.get('[data-test="homepage-accordion"]').find('[class="usa-accordion__heading"]').then(accordionButton => {
-      cy.get(accordionButton[0]).click()
-      cy.get('[data-test="accordion-content"]').should('not.be.empty').find('a').then(link => {
-        cy.request(link.prop('href')).then(link => {
-          expect(link.status).to.eq(200)
-      })      
-    
-      cy.get(accordionButton[1]).click()
+    cy.get('[data-test="homepage-accordion"]').find('[class="usa-accordion__heading"]').each(accordionButton => {
+      cy.get(accordionButton).click()
       cy.get('[data-test="accordion-content"]').should('not.be.empty')
-
-      cy.get(accordionButton[2]).click()
-      cy.get('[data-test="accordion-content"]').should('not.be.empty')
-
-      cy.get(accordionButton[3]).click()
-      cy.get('[data-test="accordion-content"]').should('not.be.empty').find('a').then(link => {
-        cy.request(link.prop('href')).then(link => {
-          expect(link.status).to.eq(200)
-      })    
-
-      cy.get(accordionButton[4]).click()
-      cy.get('[data-test="accordion-content"]').should('not.be.empty').find('a').then(link => {
-        cy.request(link.prop('href')).then(link => {
-          expect(link.status).to.eq(200)
-      })      
     })
-  })
+    cy.get('[data-test="homepage-accordion"]').find('a').each(link => {
+      console.log(link)
+      cy.request(link.prop('href')).then(link => {
+                    expect(link.status).to.eq(200)
+                })      
+              })
+    })
 })
-})
-})
-})
+
