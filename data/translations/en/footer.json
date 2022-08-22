@@ -15,7 +15,7 @@
   "eac_logo_alt_text": "In partnership with %U.S. Election Assistance Commission%",
   "identifier_aria": "Agency identifier",
   "identifier_gsa_txt_aria": "Agency description",
-  "identifier_gsa_txt": "An official website of the ",
+  "identifier_gsa_txt": "An official website of the %link%",
   "identifier_gsa_txt__1": "General Services Administration",
   "identifier_link_aria": "Important links",
   "identifier_link_1": "About Vote.gov",
@@ -26,6 +26,6 @@
   "identifier_link_6": "Performance Reports",
   "identifier_link_7": "Privacy Policy",
   "identifier_more_info_aria": "Government information and services",
-  "identifier_more_info": "Looking for U.S. government information and services? ",
+  "identifier_more_info": "Looking for U.S. government information and services? %link%",
   "identifier_more_info__1": "Visit USA.gov"
 }
