@@ -33,7 +33,7 @@
       <div><img src="{{ .Site.BaseURL }}/assets/img/gsa-logo.svg" alt="GSA logo" width="40" height="40"></div>
       <div aria-label="{{ $translation.footer.identifier_gsa_txt_aria }}" class="grid-col-auto">
         Vote.gov <br>
-        <strong>{{ $translation.footer.identifier_gsa_txt }}<a href="https://www.gsa.gov/">{{ $translation.footer.identifier_gsa_txt__1 }}</a></strong>
+        <strong>{{ replace $translation.footer.identifier_gsa_txt "%link%" (partial "links/footer/identifier-gsa.html" .)|safeHTML }}</strong>
       </div>
     </section>
     <nav class="grid-row grid-gap identifier" aria-label="{{ $translation.footer.identifier_link_aria }}">
@@ -61,7 +61,7 @@
         </ul>
       </div>
     </nav>
-    <section aria-label="{{ $translation.footer.identifier_more_info_aria }}" class="identifier-gov-info">{{ $translation.footer.identifier_more_info }}<a href="https://usa.gov">{{ $translation.footer.identifier_more_info__1 }}</a></section>
+    <section aria-label="{{ $translation.footer.identifier_more_info_aria }}" class="identifier-gov-info">{{ replace $translation.footer.identifier_more_info "%link%" (partial "links/footer/identifier-more-info.html" .)|safeHTML }}</section>
   </div>
 </div>
 <!-- identifier END -->
