@@ -1,15 +1,15 @@
 /// <reference types="Cypress" />
 
-describe('Check footer on site',() => {
+describe('Test the site contact/identifier footer on site',() => {
   before('visit page', () => {
     cy.visit('localhost:1313')
   })
 
-  it("validate that contact footer is present", () =>{
+  it("Validate that contact component is present", () =>{
     cy.get('[data-test="footer-contact"]').should('be.visible')
   })
 
-  it("validate that each link is working as expected", () =>{
+  it("Validate that the identifier links are working as expected", () =>{
     cy.get('[data-test="footer"]').should('be.visible').find('a').then(link => {
       cy.get(link[0]).contains('General Services Administration').should('have.attr', 'href').and('include', 'https://www.gsa.gov/')
       cy.get(link[1]).contains('About Vote.gov').should('have.attr', 'href').and('include', 'https://www.gsa.gov/about-us')
