@@ -3,8 +3,10 @@
 @forward 'usa-footer';
 
 .footer-identifier {
+  background-color: #4b4b4d;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  color: #fff;
 
   @include at-media-max('desktop') {
     padding-bottom: 4rem;
