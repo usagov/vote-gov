@@ -31,7 +31,7 @@
   <div class="grid-container">
     <section class="identifier-gsa grid-row grid-gap-2" aria-label="{{ $translation.footer.identifier_aria }}">
       <div><img src="{{ .Site.BaseURL }}/assets/img/gsa-logo.svg" alt="GSA logo" width="40" height="40"></div>
-      <div aria-label="{{ $translation.footer.identifier_gsa_txt_aria }}" class="grid-col-auto">
+      <div role="region" aria-label="{{ $translation.footer.identifier_gsa_txt_aria }}" class="grid-col-auto">
         Vote.gov <br>
         <strong>{{ replace $translation.footer.identifier_gsa_txt "%link%" (partial "links/footer/identifier-gsa.html" .)|safeHTML }}</strong>
       </div>
