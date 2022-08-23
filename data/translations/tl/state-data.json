@@ -456,6 +456,9 @@
     "hp_link": "https://www.pa.gov/guides/voting-and-elections/",
     "registration_link": "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
     "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote",
+    "ip_deadline": "Lunes, ika-24 ng Oktubre 2022",
+    "online_deadline": "Lunes, ika-24 ng Oktubre 2022",
+    "mail_received_deadline": "Dapat matanggap ng Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "15 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "15 araw bago ang Araw ng Eleksyon",
     "default_mail_received_deadline": "Dapat matanggap 15 araw bago ang Araw ng Eleksyon",
@@ -464,6 +467,7 @@
   "pr": {
     "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
     "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
+    "ip_deadline": "Lunes, ika-19 ng Oktubre 2022",
     "default_ip_deadline": "50 araw bago ang Araw ng Eleksyon",
     "confirm_registration_link": "https://consulta.ceepur.org/"
   },
@@ -471,6 +475,9 @@
     "hp_link": "https://elections.ri.gov/",
     "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
     "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
+    "ip_deadline": "Linggo, ika-9 ng Oktubre 2022",
+    "online_deadline": "Linggo, ika-9 ng Oktubre 2022",
+    "mail_postmarked_deadline": "Dapat na naka-postmark ng Linggo, ika-9 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon",
@@ -480,6 +487,9 @@
     "hp_link": "https://www.scvotes.gov/",
     "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
     "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
+    "ip_deadline": "Linggo, ika-9 ng Oktubre 2022",
+    "online_deadline": "Linggo, ika-9 ng Oktubre 2022",
+    "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark 30 araw bago ang Araw ng Eleksyon",
@@ -488,6 +498,8 @@
   "sd": {
     "hp_link": "https://sdsos.gov/elections-voting/",
     "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
+    "mail_received_deadline": "Dapat matanggap ng Lunes, ika-24 ng Oktubre 2022",
+    "ip_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "15 araw bago ang Araw ng Eleksyon",
     "default_mail_received_deadline": "Dapat matanggap 15 araw bago ang Araw ng Eleksyon",
     "confirm_registration_link": "https://vip.sdsos.gov/VIPLogin.aspx"
@@ -496,6 +508,9 @@
     "hp_link": "https://sos.tn.gov/elections",
     "registration_link": "https://ovr.govote.tn.gov/",
     "more_info_link": "https://sos.tn.gov/products/elections/register-vote",
+    "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
+    "online_deadline": "Martes, ika-11 ng Oktubre 2022",
+    "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon",
@@ -504,6 +519,8 @@
   "tx": {
     "hp_link": "https://www.votetexas.gov/index.html",
     "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html",
+    "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
+    "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark 30 araw bago ang Araw ng Eleksyon",
     "confirm_registration_link": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
@@ -538,7 +555,10 @@
   "vi": {
     "hp_link": "https://www.vivote.gov/voters/register-vote",
     "more_info_link": "https://www.vivote.gov/voters/register-vote",
+    "ip_deadline": "Linggo, ika-9 ng Oktubre 2022",
+    "mail_postmarked_deadline": "Dapat na naka-postmark ng Linggo, ika-9 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark 30 araw bago ang Araw ng Eleksyon",
     "confirm_registration_link": "https://www.vivote.gov/voters/lookup"
   },
   "wa": {
