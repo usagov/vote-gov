@@ -25,6 +25,8 @@
 @forward 'component/contact';
 @forward 'component/search';
 
+@forward 'page/basic';
+
 // Variables ------------ //
 
 $font-light: 300;
@@ -102,6 +104,13 @@ label.max-width-input {
   flex-direction: column;
   justify-content: flex-end;
   height: 100%;
+}
+
+.align-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 70%;
 }
 
 .right-shift {

@@ -1,0 +1,22 @@
+@use 'uswds-core' as *;
+
+.basic-page {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+
+  h2 {
+    color: #0071bc;
+  }
+
+  p a {
+    color: #11385b;
+    font-weight: bold;
+  }
+
+    .usa-button {
+        width: auto;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+}
