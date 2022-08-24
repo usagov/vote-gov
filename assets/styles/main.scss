@@ -31,14 +31,17 @@ $font-medium: 400;
 $inner-box-width: 25rem;
 $inner-box-width-state: 35rem;
 $color-blue: #2c7cc7;
-$color-blue-headings: #0071BC;
-$color-blue-dark: #11385B;
+$color-blue-dark: #11385b;
+$color-blue-headings: $color-blue-dark;
 $color-blue-light: #ecf2f8;
 $color-grey: #e1e2e4;
 $color-grey-dark: #4b4b4d;
 $theme-color-base-family: #dcdee0;
 
-p, label#emailsub, .registered-resources li, .updated-date {
+p,
+label#emailsub,
+.registered-resources li,
+.updated-date {
   font-size: 1.06rem;
   line-height: 1.3rem;
 }
@@ -113,7 +116,7 @@ label.max-width-input {
 .css-arrow {
   position: relative;
 
-  &::after {
+  &:after {
     $arrow-width: 100px;
     $arrow-height: 30px;
     $arrow-half-width: math.div($arrow-width, 2);
@@ -162,7 +165,8 @@ label.max-width-input {
   margin-right: 0;
 }
 
-.usa-button:hover, .usa-button.usa-button--hover {
+.usa-button:hover,
+.usa-button.usa-button--hover {
   color: white;
   background-color: $color-grey-dark;
   border-bottom: 0;
@@ -200,7 +204,7 @@ label.max-width-input {
   border-left: 0;
 }
 
-.usa-alert--info::before {
+.usa-alert--info:before {
   display: none;
 }
 
@@ -231,6 +235,7 @@ label.max-width-input {
     }
   }
 }
+
 .usa-alert--info .usa-alert__body {
   padding: 0 2.5rem;
 }
@@ -303,8 +308,8 @@ $logo-width: 130px;
       bottom: $logo-width * -0.32 + 1;
       right: calc(50% - #{math.div($logo-width, 2)});
       margin-bottom: 0;
-      padding-top: 0px;
-      padding-bottom: 0px;
+      padding-top: 0;
+      padding-bottom: 0;
     }
 
     .logo-text {

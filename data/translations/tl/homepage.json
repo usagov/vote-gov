@@ -20,5 +20,6 @@
   "registered_links__voterid": "Mga kinakailangan sa ID ng botante (sa Ingles)",
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
   "registered_links__process": "Proseso ng eleksyon (sa Ingles)",
-  "registered_links__process_url": "https://www.usa.gov/election"
+  "registered_links__process_url": "https://www.usa.gov/election",
+  "search_placeholder": "I-search ang Vote.gov"
 }
