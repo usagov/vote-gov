@@ -8,9 +8,9 @@ type = "register"
 hp_link = "https://elections.maryland.gov/"
 registration_link = "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1"
 more_info_link = "https://www.elections.maryland.gov/voter_registration/application.html"
-ip_deadline = "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត"
-online_deadline = "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
-mail_postmarked_deadline = "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
+default_ip_deadline = "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត"
+default_online_deadline = "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
+default_mail_postmarked_deadline = "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
 confirm_registration_link = "https://voterservices.elections.maryland.gov/VoterSearch"
 
 +++
