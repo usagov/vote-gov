@@ -41,11 +41,11 @@
 }
 
 .usa-search {
-  max-width: 200px !important;
+  max-width: none !important;
   margin-left: auto;
 
   @include at-media('tablet') {
-    max-width: 240px !important;
+    max-width: 340px !important;
     margin-right: 0;
   }
 }
