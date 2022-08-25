@@ -13,7 +13,7 @@ online_deadline = "ថ្ងៃអង្គារ 18 ខែតុលា 2022"
 mail_postmarked_deadline = "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃព្រហស្បតិ៍ 6 ខែតុលា 2022"
 default_ip_deadline = "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត"
 default_online_deadline = "16 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
-default_mail_postmarked_deadline = "ត្រូវតែបានទទួល 28 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
+default_mail_postmarked_deadline = "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 28 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
 confirm_registration_link = "https://ova.elections.il.gov/RegistrationLookup.aspx"
 
 +++
