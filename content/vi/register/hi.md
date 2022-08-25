@@ -8,9 +8,9 @@ type = "register"
 hp_link = "https://elections.hawaii.gov/"
 registration_link = "https://olvr.hawaii.gov/"
 more_info_link = "https://elections.hawaii.gov/voters/registration/"
-ip_deadline = "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử"
-online_deadline = "30 ngày trước Ngày Bầu Cử"
-mail_received_deadline = "Phải được nhận vào trước 30 ngày trước ngày Bầu Cử"
+default_ip_deadline = "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử"
+default_online_deadline = "30 ngày trước Ngày Bầu Cử"
+default_mail_received_deadline = "Phải được nhận vào trước 30 ngày trước ngày Bầu Cử"
 confirm_registration_link = "https://olvr.hawaii.gov/"
 
 +++
