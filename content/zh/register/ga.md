@@ -11,6 +11,6 @@ more_info_link = "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-bu
 ip_deadline = "選舉日前的第五個星期一"
 online_deadline = "選舉日前的第五個星期一"
 mail_postmarked_deadline = "必須在選舉日之前的第五個星期一之前蓋上郵戳"
-confirm_registration_link = "https://www.mvp.sos.ga.gov/MVP/mvp.do"
+confirm_registration_link = "https://mvp.sos.ga.gov/s/"
 
 +++

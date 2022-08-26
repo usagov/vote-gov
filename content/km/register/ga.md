@@ -11,6 +11,6 @@ more_info_link = "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-bu
 ip_deadline = "ថ្ងៃច័ន្ទទីប្រាំមុនថ្ងៃបោះឆ្នោត"
 online_deadline = "ថ្ងៃច័ន្ទទីប្រាំមុនថ្ងៃបោះឆ្នោត"
 mail_postmarked_deadline = "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ត្រឹមថ្ងៃច័ន្ទទីប្រាំមុនថ្ងៃបោះឆ្នោត"
-confirm_registration_link = "https://www.mvp.sos.ga.gov/MVP/mvp.do"
+confirm_registration_link = "https://mvp.sos.ga.gov/s/"
 
 +++

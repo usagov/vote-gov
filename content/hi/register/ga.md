@@ -11,6 +11,6 @@ more_info_link = "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-bu
 ip_deadline = "मतदान दिवस से पूर्व पांचवां सोमवार"
 online_deadline = "मतदान दिवस से पूर्व पांचवां सोमवार"
 mail_postmarked_deadline = "मतदान दिवस से पूर्व पांचवे सोमवार तक पोस्टमार्क होना चाहिए"
-confirm_registration_link = "https://www.mvp.sos.ga.gov/MVP/mvp.do"
+confirm_registration_link = "https://mvp.sos.ga.gov/s/"
 
 +++

@@ -51,7 +51,7 @@
   "co": {
     "hp_link": "https://www.sos.state.co.us/pubs/elections/",
     "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
-    "more_info_link": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html",
+    "more_info_link": "https://www.coloradosos.gov/voter/pages/pub/home.xhtml",
     "ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "online_deadline": "選舉日前 8 天",
     "mail_postmarked_deadline": "選舉當日前8天郵戳為憑",
@@ -77,8 +77,8 @@
   },
   "dc": {
     "hp_link": "https://dcboe.org/",
-    "registration_link": "https://www.dcboe.org/Voters/Register-To-Vote/Register-to-Vote",
-    "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register",
+    "registration_link": "https://vr.dcboe.org/213324797239968?agency_code=12",
+    "more_info_link": "https://www.dcboe.org/Voters/Register-To-Vote/Register-to-Vote",
     "ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "mail_received_deadline": "必須在選舉日之前的21天收到",
     "online_deadline": "選舉日前21 天",
@@ -100,11 +100,10 @@
     "ip_deadline": "選舉日前的第五個星期一",
     "online_deadline": "選舉日前的第五個星期一",
     "mail_postmarked_deadline": "必須在選舉日之前的第五個星期一之前蓋上郵戳",
-    "confirm_registration_link": "https://www.mvp.sos.ga.gov/MVP/mvp.do"
+    "confirm_registration_link": "https://mvp.sos.ga.gov/s/"
   },
   "gu": {
     "hp_link": "https://gec.guam.gov/",
-    "registration_link": "https://gec.guam.gov/register/",
     "more_info_link": "https://gec.guam.gov/",
     "online_deadline": "選舉日前 10 天",
     "mail_received_deadline": "選舉當日前 10 天前寄達",
@@ -269,9 +268,9 @@
   },
   "nh": {
     "hp_link": "https://sos.nh.gov/home",
-    "more_info_link": "https://sos.nh.gov/elections/voters/register-to-vote/",
+    "more_info_link": "https://www.sos.nh.gov/elections/voters/register-vote",
     "ip_deadline": "選舉日之前（包括選舉日）都可以使用",
-    "confirm_registration_link": "https://app.sos.nh.gov/Public/PartyInfo.aspx"
+    "confirm_registration_link": "https://app.sos.nh.gov/voterinformation"
   },
   "nj": {
     "hp_link": "https://www.state.nj.us/state/elections/index.shtml",
@@ -318,7 +317,7 @@
     "hp_link": "https://www.votecnmi.gov.mp/",
     "more_info_link": "https://www.votecnmi.gov.mp/",
     "ip_deadline": "選舉日前 60天",
-    "confirm_registration_link": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
+    "confirm_registration_link": "https://www.votecnmi.gov.mp/"
   },
   "oh": {
     "hp_link": "https://www.sos.state.oh.us/elections/",
@@ -372,7 +371,7 @@
   "sc": {
     "hp_link": "https://www.scvotes.gov/",
     "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
-    "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
+    "more_info_link": "https://scvotes.gov/voters/register-to-vote/",
     "ip_deadline": "選舉日前 30天",
     "online_deadline": "選舉日前 30天",
     "mail_postmarked_deadline": "選舉當日前 30天郵戳為憑",
@@ -450,7 +449,7 @@
     "ip_deadline": "選舉日前 21天",
     "online_deadline": "選舉日前 21天",
     "mail_postmarked_deadline": "選舉當日前 21天郵戳為憑",
-    "confirm_registration_link": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
+    "confirm_registration_link": "https://apps.sos.wv.gov/Elections/voter/amiregisteredtovote"
   },
   "wi": {
     "hp_link": "https://elections.wi.gov/elections-voting",
