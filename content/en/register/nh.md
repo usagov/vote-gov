@@ -11,9 +11,10 @@ hp_link_language_selection = ""
 more_info_link = "https://www.sos.nh.gov/elections/voters/register-vote"
 more_info_link_translated = "true"
 more_info_link_language_selection = ""
-ip_deadline = "Available up to and including on Election Day"
+ip_deadline = "Tuesday, November 8, 2022"
 confirm_registration_link = "https://app.sos.nh.gov/voterinformation"
 confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""
+default_ip_deadline = "Available up to and including on Election Day"
 
 +++
