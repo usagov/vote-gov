@@ -7,8 +7,10 @@ translationKey = "Mississippi"
 type = "register"
 hp_link = "https://www.sos.ms.gov/elections-voting/voter-registration-information"
 more_info_link = "https://www.sos.ms.gov/elections-voting/voter-registration-information"
-ip_deadline = "নির্বাচনী দিনের ৩০ দিন আগে"
-mail_postmarked_deadline = "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
+ip_deadline = "সোমবার, ১০ অক্টোবর, ২০২২"
+mail_postmarked_deadline = "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ১০ অক্টোবর, ২০২২)"
 confirm_registration_link = "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
+default_ip_deadline = "নির্বাচনী দিনের ৩০ দিন আগে"
+default_mail_postmarked_deadline = "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
 
 +++
