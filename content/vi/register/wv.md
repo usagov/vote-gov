@@ -11,6 +11,6 @@ more_info_link = "https://ovr.sos.wv.gov/Register/Landing"
 ip_deadline = "21 ngày trước Ngày Bầu Cử"
 online_deadline = "21 ngày trước Ngày Bầu Cử"
 mail_postmarked_deadline = "Phải được đóng dấu bưu điện 21 ngày trước Ngày Bầu Cử"
-confirm_registration_link = "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
+confirm_registration_link = "https://apps.sos.wv.gov/Elections/voter/amiregisteredtovote"
 
 +++

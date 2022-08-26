@@ -11,6 +11,6 @@ more_info_link = "https://ovr.sos.wv.gov/Register/Landing"
 ip_deadline = "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
 online_deadline = "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
 mail_postmarked_deadline = "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
-confirm_registration_link = "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
+confirm_registration_link = "https://apps.sos.wv.gov/Elections/voter/amiregisteredtovote"
 
 +++

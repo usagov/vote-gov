@@ -8,6 +8,6 @@ type = "register"
 hp_link = "https://www.votecnmi.gov.mp/"
 more_info_link = "https://www.votecnmi.gov.mp/"
 ip_deadline = "मतदान दिवस से 60 दिन पहले"
-confirm_registration_link = "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
+confirm_registration_link = "https://www.votecnmi.gov.mp/"
 
 +++

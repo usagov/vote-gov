@@ -11,6 +11,6 @@ more_info_link = "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-bu
 ip_deadline = "Ika-limang Lunes bago ang Araw ng Eleksyon"
 online_deadline = "Ika-limang Lunes bago ang Araw ng Eleksyon"
 mail_postmarked_deadline = " Dapat na naka-postmark sa ika-limang Lunes bago ang Araw ng Eleksyon"
-confirm_registration_link = "https://www.mvp.sos.ga.gov/MVP/mvp.do"
+confirm_registration_link = "https://mvp.sos.ga.gov/s/"
 
 +++

@@ -11,6 +11,6 @@ more_info_link = "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-bu
 ip_deadline = "선거일 기준 5번째 월요일 전 "
 online_deadline = "선거일 기준 5번째 월요일 전"
 mail_postmarked_deadline = "반드시 선거일 기준 5번째 월요일까지 일자로 소인이 날인되어야 합니다."
-confirm_registration_link = "https://www.mvp.sos.ga.gov/MVP/mvp.do"
+confirm_registration_link = "https://mvp.sos.ga.gov/s/"
 
 +++
