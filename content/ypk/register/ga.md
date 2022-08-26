@@ -11,6 +11,6 @@ more_info_link = "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-bu
 ip_deadline = "Tallimaatanga Mantim Nakmikivigem sivunganeng."
 online_deadline = "Tallimaatanga Mantim Nakmikivigem sivunganeng."
 mail_postmarked_deadline = "Tuyumayaghqagu tallimaatanganeng Mantim Nakmikivigem sivunganeng."
-confirm_registration_link = "https://www.mvp.sos.ga.gov/MVP/mvp.do"
+confirm_registration_link = "https://mvp.sos.ga.gov/s/"
 
 +++
