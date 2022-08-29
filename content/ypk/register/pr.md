@@ -8,6 +8,7 @@ type = "register"
 hp_link = "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx"
 more_info_link = "http://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx"
 ip_deadline = "50 aghneq Nakmikivigem sivunganeng "
+default_ip_deadline = "50 aghneq Nakmikivigem sivunganeng "
 confirm_registration_link = "https://consulta.ceepur.org/"
 
 +++

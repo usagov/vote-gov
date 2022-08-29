@@ -8,6 +8,7 @@ type = "register"
 hp_link = "https://aselectionoffice.gov/"
 more_info_link = "https://aselectionoffice.gov/"
 ip_deadline = "30 aghneq sivungani Nakmikivigem"
+default_ip_deadline = "Tuwesti, Naayvaghvik 11, 2022"
 confirm_registration_link = "https://aselectionoffice.gov/status.php"
 
 +++
