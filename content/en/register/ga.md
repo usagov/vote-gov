@@ -18,7 +18,7 @@ ip_deadline = "Fifth Monday before Election Day"
 online_deadline = "Fifth Monday before Election Day"
 mail_received_deadline = ""
 mail_postmarked_deadline = "Must be postmarked by the fifth Monday before Election Day"
-confirm_registration_link = "https://www.mvp.sos.ga.gov/MVP/mvp.do"
+confirm_registration_link = "https://mvp.sos.ga.gov/s/"
 confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""
 

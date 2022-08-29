@@ -18,7 +18,7 @@ ip_deadline = "21 days before Election Day"
 online_deadline = "21 days before Election Day"
 mail_received_deadline = ""
 mail_postmarked_deadline = "Must be postmarked 21 days before Election Day"
-confirm_registration_link = "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
+confirm_registration_link = "https://apps.sos.wv.gov/Elections/voter/amiregisteredtovote"
 confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""
 
