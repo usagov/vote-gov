@@ -1,22 +1,24 @@
 {{ $state := .Params.state_abbreviation | lower }}
 {{ $currentLang := .Site.Language.LanguageName }}
 {{ if .IsTranslated }}
-<div class="translations">
-  {{ if lt (len .Translations) 2 }}
-  {{ range .Translations }}
-  <a lang="{{ .Language.Lang | replaceRE "-[a-z]+" "" }}" href="{{ .Permalink | relURL }}" class="usa-button translation-link">
-    {{ .Language.LanguageName }}
-  </a>
-  {{ end }}
-  {{ else }}
-  <label for="language-switcher1" class="usa-label usa-label--language">{{ replace .Site.Params.select_language "%dropdown-list%" "" }}</label>
-  <select class="usa-select usa-select--language" name="language-switcher1" id="language-switcher1" onchange="window.location=this.value;">
-    {{ range .AllTranslations  }}
-    <option lang="{{ .Language.Lang | replaceRE "-[a-z]+" "" }}" value="{{ .Permalink | relURL }}"{{ if eq $currentLang .Language.LanguageName }} selected="selected"{{ end }}>
-      {{ .Language.LanguageName }} {{ if not (eq .Site.Params.english_languageName "") }}({{ .Site.Params.english_languageName }}){{ end }}
-    </option>
+<div class="language-switcher--container grid-container">
+  <div class="translations">
+    {{ if lt (len .Translations) 2 }}
+    {{ range .Translations }}
+    <a lang="{{ .Language.Lang | replaceRE "-[a-z]+" "" }}" href="{{ .Permalink | relURL }}" class="usa-button translation-link">
+      {{ .Language.LanguageName }}
+    </a>
     {{ end }}
-  </select>
-  {{ end }}
+    {{ else }}
+    <label for="language-switcher1" class="usa-label usa-label--language">{{ replace .Site.Params.select_language "%dropdown-list%" "" }}</label>
+    <select class="usa-select usa-select--language" name="language-switcher1" id="language-switcher1" onchange="window.location=this.value;">
+      {{ range .AllTranslations  }}
+      <option lang="{{ .Language.Lang | replaceRE "-[a-z]+" "" }}" value="{{ .Permalink | relURL }}"{{ if eq $currentLang .Language.LanguageName }} selected="selected"{{ end }}>
+        {{ .Language.LanguageName }} {{ if not (eq .Site.Params.english_languageName "") }}({{ .Site.Params.english_languageName }}){{ end }}
+      </option>
+      {{ end }}
+    </select>
+    {{ end }}
+  </div>
 </div>
 {{ end }}
