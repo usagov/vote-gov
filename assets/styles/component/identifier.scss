@@ -26,6 +26,7 @@
 }
 
 .identifier-links {
+
   li {
     @include at-media-max('tablet') {
       padding-top: 10px;
@@ -39,6 +40,8 @@
 
     a {
       text-decoration: none;
+      word-break: keep-all;
+      line-break: strict;
 
       &:focus,
       &:hover {
