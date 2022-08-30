@@ -20,5 +20,6 @@
   "registered_links__voterid": "Những yêu cầu về ID của người đi bầu (bằng tiếng Anh)",
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
   "registered_links__process": "Tiến trình bầu cử (bằng tiếng Anh)",
-  "registered_links__process_url": "https://www.usa.gov/election"
+  "registered_links__process_url": "https://www.usa.gov/election",
+  "search_placeholder": "Tìm kiếm Vote.gov"
 }

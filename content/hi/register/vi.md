@@ -7,7 +7,10 @@ translationKey = "U.S. Virgin Islands"
 type = "register"
 hp_link = "https://www.vivote.gov/voters/register-vote"
 more_info_link = "https://www.vivote.gov/voters/register-vote"
-ip_deadline = "मतदान दिवस से 30 दिन पहले"
+ip_deadline = "रविवार, 09 अक्तूबर/अक्टूबर 2022"
+mail_postmarked_deadline = "रविवार, 09 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए"
+default_ip_deadline = "मतदान दिवस से 30 दिन पहले"
+default_mail_postmarked_deadline = "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
 confirm_registration_link = "https://www.vivote.gov/voters/lookup"
 
 +++
