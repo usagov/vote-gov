@@ -26,8 +26,8 @@
   "as": {
     "hp_link": "https://aselectionoffice.gov/",
     "more_info_link": "https://aselectionoffice.gov/",
-    "ip_deadline": "30 aghneq sivungani Nakmikivigem",
-    "default_ip_deadline": "Tuwesti, Naayvaghvik 11, 2022",
+    "ip_deadline": "Tuwesti, Naayvaghvik 11, 2022",
+    "default_ip_deadline": "30 aghneq sivungani Nakmikivigem",
     "confirm_registration_link": "https://aselectionoffice.gov/status.php"
   },
   "az": {
@@ -174,10 +174,10 @@
     "more_info_link": "https://www.elections.il.gov/Default.aspx",
     "ip_deadline": "Tuwesti, Aqumuq 8, 2022",
     "online_deadline": "Tuwesti, Naayvaghvik 18, 2022",
-    "mail_received_deadline": "Tuyumayaghqaguq Thursday-a, Naayvaghvik 06, 2022",
+    "mail_postmarked_deadline": "Tuyumayaghqaguq Thursday-a, Naayvaghvik 06, 2022",
     "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
     "default_online_deadline": "16 aghneq Nakmikivigem sivunganeng.",
-    "default_mail_received_deadline": "Kaasimayaghqaguq 28 aghneq Nakmikivigem sivunganeng",
+    "default_mail_postmarked_deadline": "Kaasimayaghqaguq 28 aghneq Nakmikivigem sivunganeng",
     "confirm_registration_link": "https://ova.elections.il.gov/RegistrationLookup.aspx"
   },
   "in": {
@@ -278,8 +278,8 @@
     "hp_link": "https://www.michigan.gov/sos/0,4670,7-127-1633---,00.html",
     "registration_link": "https://mvic.sos.state.mi.us/registervoter",
     "more_info_link": "https://mvic.sos.state.mi.us/",
-    "ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
-    "online_deadline": "Tuwesti, Aqumuq 8, 2022",
+    "ip_deadline": "Tuwesti, Aqumuq 8, 2022",
+    "online_deadline": "Manti, Naayvaghvik 24, 2022",
     "mail_postmarked_deadline": "Tuyumayaghqaguq Manti, Naayvaghvik 24, 2022",
     "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
     "default_online_deadline": "15 aghneq Nakmikivigem sivunganeng ",
@@ -332,7 +332,7 @@
     "hp_link": "https://sos.nebraska.gov/elections/2020-elections",
     "registration_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
     "more_info_link": "https://sos.nebraska.gov/elections/voter-forms",
-    "ip_deadline": "Tuunglii Efraaytim Nakmikivigem sivunganeng",
+    "ip_deadline": "Friday-a, Naayvaghvik 28, 2022",
     "online_deadline": "Friday-a, Naayvaghvik 28, 2022",
     "mail_postmarked_deadline": "Tuyumayaghqaguq Friday-a, Naayvaghvik 21, 2022",
     "default_ip_deadline": "Tuunglii Efraaytim Nakmikivigem sivunganeng",
@@ -418,7 +418,7 @@
     "ip_deadline": "Friday-a, September 09, 2022",
     "mail_received_deadline": "Kaasimayaghqaguq Friday-a, September 09, 2022",
     "default_ip_deadline": "60 aghneq Nakmikivigem sivunganeng ",
-    "default_mail_received_deadline": "Kaasimayaghqaguq Friday-a, September 09, 2022",
+    "default_mail_received_deadline": "60 aghneq Nakmikivigem sivunganeng ",
     "confirm_registration_link": "https://www.votecnmi.gov.mp/"
   },
   "oh": {
@@ -437,9 +437,9 @@
     "hp_link": "https://www.ok.gov/elections/",
     "more_info_link": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
     "ip_deadline": "Friday-a, Naayvaghvik 14, 2022",
-    "mail_postmarked_deadline": "Tuyumayaghqaguq 25 aghneq Nakmikivigem sivunganeng.",
+    "mail_postmarked_deadline": "Tuyumayaghqaguq Friday-a, Naayvaghvik 14, 2022",
     "default_ip_deadline": "25 aghneq Nakmikivigem sivunganeng ",
-    "default_mail_postmarked_deadline": "Tuyumayaghqaguq Friday-a, Naayvaghvik 14, 2022",
+    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 25 aghneq Nakmikivigem sivunganeng.",
     "confirm_registration_link": "https://okvoterportal.okelections.us/"
   },
   "or": {
@@ -469,7 +469,7 @@
   "pr": {
     "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
     "more_info_link": "https://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
-    "ip_deadline": "50 aghneq Nakmikivigem sivunganeng ",
+    "ip_deadline": "Manti, September 19, 2022",
     "default_ip_deadline": "50 aghneq Nakmikivigem sivunganeng ",
     "confirm_registration_link": "https://consulta.ceepur.org/"
   },
@@ -568,8 +568,8 @@
     "more_info_link": "https://www.vivote.gov/voters/register-vote",
     "ip_deadline": "Santi, Naayvaghvik 9, 2022",
     "mail_postmarked_deadline": "Tuyumayaghqaguq Santi, Naayvaghvik 09, 2022",
-    "default_ip_deadline": "Tuyumayaghqaguq Santi, Naayvaghvik 09, 2022",
-    "default_mail_postmarked_deadline": "Tuyumayaghqaguq Santi, Naayvaghvik 09, 2022",
+    "default_ip_deadline": "30 aghneq Nakmikivigem sivunganeng.",
+    "default_mail_postmarked_deadline": "30 aghneq Nakmikivigem sivunganeng.",
     "confirm_registration_link": "https://www.vivote.gov/voters/lookup"
   },
   "wa": {
@@ -600,9 +600,9 @@
     "hp_link": "https://elections.wi.gov/elections-voting",
     "registration_link": "https://myvote.wi.gov/en-us/RegisterToVote",
     "more_info_link": "https://elections.wi.gov/voters/first-time",
-    "ip_deadline": "Tuwesti, Naayvaghvik 18, 2022",
-    "online_deadline": "Tuwesti, Naayvaghvik 18, 2022",
-    "mail_postmarked_deadline": "Tuyumayaghqaguq Tuwesti, Naayvaghvik 18, 2022",
+    "ip_deadline": "Tuwesti, Aqumuq 8, 2022",
+    "online_deadline": "Winesti, Naayvaghvik 19, 2022",
+    "mail_postmarked_deadline": "Tuyumayaghqaguq Winesti, Naayvaghvik 19, 2022",
     "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
     "default_online_deadline": "Pingaayaa Winestim Nakmikivigem sivunganeng",
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq pingayaaneng Winestinganeng Nakmikivigem sivungani.",
