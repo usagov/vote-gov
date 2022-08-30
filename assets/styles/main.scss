@@ -19,6 +19,8 @@
 @forward 'usa-banner';
 @forward 'usa-skipnav';
 @forward "usa-link";
+@forward "usa-prose";
+@forward "usa-intro";
 
 @forward 'component/language-switcher';
 @forward 'component/identifier';
@@ -26,6 +28,7 @@
 @forward 'component/search';
 
 @forward 'page/about';
+@forward 'page/slick-sheet';
 
 // Variables ------------ //
 
