@@ -14,6 +14,6 @@ mail_postmarked_deadline = "Tuyumayaghqaguq Tuwesti, Naayvaghvik 11, 2022"
 default_ip_deadline = "Tallimaatanga Mantim Nakmikivigem sivunganeng."
 default_online_deadline = "Tallimaatanga Mantim Nakmikivigem sivunganeng."
 default_mail_postmarked_deadline = "Tuyumayaghqagu tallimaatanganeng Mantim Nakmikivigem sivunganeng."
-confirm_registration_link = "https://www.mvp.sos.ga.gov/MVP/mvp.do"
+confirm_registration_link = "https://mvp.sos.ga.gov/s/"
 
 +++

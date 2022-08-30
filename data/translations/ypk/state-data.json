@@ -66,7 +66,7 @@
   "co": {
     "hp_link": "https://www.sos.state.co.us/pubs/elections/",
     "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
-    "more_info_link": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html",
+    "more_info_link": "https://www.coloradosos.gov/voter/pages/pub/home.xhtml",
     "ip_deadline": "Tuwesti, Aqumuq 8, 2022",
     "online_deadline": "Manti, Naayvaghvik 31, 2022",
     "mail_postmarked_deadline": "Tuyumayaghqaguq Manti, Naayvaghvik 31, 2022",
@@ -101,8 +101,8 @@
   },
   "dc": {
     "hp_link": "https://dcboe.org/",
-    "registration_link": "https://www.dcboe.org/Voters/Register-To-Vote/Register-to-Vote",
-    "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register",
+    "registration_link": "https://vr.dcboe.org/213324797239968?agency_code=12",
+    "more_info_link": "https://www.dcboe.org/Voters/Register-To-Vote/Register-to-Vote",
     "ip_deadline": "Tuwesti, Aqumuq 8, 2022",
     "mail_received_deadline": "Kaasimayaghqaguq Tuwesti, Naayvaghvik 18, 2022",
     "online_deadline": "Tuwesti, Naayvaghvik 18, 2022",
@@ -133,11 +133,10 @@
     "default_ip_deadline": "Tallimaatanga Mantim Nakmikivigem sivunganeng.",
     "default_online_deadline": "Tallimaatanga Mantim Nakmikivigem sivunganeng.",
     "default_mail_postmarked_deadline": "Tuyumayaghqagu tallimaatanganeng Mantim Nakmikivigem sivunganeng.",
-    "confirm_registration_link": "https://www.mvp.sos.ga.gov/MVP/mvp.do"
+    "confirm_registration_link": "https://mvp.sos.ga.gov/s/"
   },
   "gu": {
     "hp_link": "https://gec.guam.gov/",
-    "registration_link": "https://gec.guam.gov/register/",
     "more_info_link": "https://gec.guam.gov/",
     "mail_received_deadline": "Kaasimayaghqaguq 10 aghneq Nakmikivigem sivunganeng",
     "ip_deadline": "Friday-a, Naayvaghvik 28, 2022",
@@ -355,10 +354,10 @@
   },
   "nh": {
     "hp_link": "https://sos.nh.gov/home",
-    "more_info_link": "https://sos.nh.gov/elections/voters/register-to-vote/",
+    "more_info_link": "https://www.sos.nh.gov/elections/voters/register-vote",
     "ip_deadline": "Tuwesti, Aqumuq 8, 2022",
     "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
-    "confirm_registration_link": "https://app.sos.nh.gov/Public/PartyInfo.aspx"
+    "confirm_registration_link": "https://app.sos.nh.gov/voterinformation"
   },
   "nj": {
     "hp_link": "https://www.state.nj.us/state/elections/index.shtml",
@@ -420,7 +419,7 @@
     "mail_received_deadline": "Kaasimayaghqaguq Friday-a, September 09, 2022",
     "default_ip_deadline": "60 aghneq Nakmikivigem sivunganeng ",
     "default_mail_received_deadline": "Kaasimayaghqaguq Friday-a, September 09, 2022",
-    "confirm_registration_link": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
+    "confirm_registration_link": "https://www.votecnmi.gov.mp/"
   },
   "oh": {
     "hp_link": "https://www.sos.state.oh.us/elections/",
@@ -469,7 +468,7 @@
   },
   "pr": {
     "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
-    "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
+    "more_info_link": "https://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
     "ip_deadline": "50 aghneq Nakmikivigem sivunganeng ",
     "default_ip_deadline": "50 aghneq Nakmikivigem sivunganeng ",
     "confirm_registration_link": "https://consulta.ceepur.org/"
@@ -489,7 +488,7 @@
   "sc": {
     "hp_link": "https://www.scvotes.gov/",
     "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
-    "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
+    "more_info_link": "https://scvotes.gov/voters/register-to-vote/",
     "ip_deadline": "Santi, Naayvaghvik 09, 2022",
     "online_deadline": "Santi, Naayvaghvik 09, 2022",
     "mail_postmarked_deadline": "Tuyumayaghqaguq Tuwesti, Naayvaghvik 11, 2022",
@@ -595,7 +594,7 @@
     "default_ip_deadline": "21 aghneq Nakmikivigem sivunganeng.",
     "default_online_deadline": "21 aghneq Nakmikivigem sivunganeng.",
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq 21 aghneq Nakmikivigem sivunganeng.",
-    "confirm_registration_link": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
+    "confirm_registration_link": "https://apps.sos.wv.gov/Elections/voter/amiregisteredtovote"
   },
   "wi": {
     "hp_link": "https://elections.wi.gov/elections-voting",

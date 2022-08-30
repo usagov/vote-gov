@@ -14,6 +14,6 @@ mail_postmarked_deadline = "Tuyumayaghqaguq Tuwesti, Naayvaghvik 18, 2022"
 default_ip_deadline = "21 aghneq Nakmikivigem sivunganeng."
 default_online_deadline = "21 aghneq Nakmikivigem sivunganeng."
 default_mail_postmarked_deadline = "Tuyumayaghqaguq 21 aghneq Nakmikivigem sivunganeng."
-confirm_registration_link = "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
+confirm_registration_link = "https://apps.sos.wv.gov/Elections/voter/amiregisteredtovote"
 
 +++

@@ -11,6 +11,6 @@ ip_deadline = "Friday-a, September 09, 2022"
 mail_received_deadline = "Kaasimayaghqaguq Friday-a, September 09, 2022"
 default_ip_deadline = "60 aghneq Nakmikivigem sivunganeng "
 default_mail_received_deadline = "Kaasimayaghqaguq Friday-a, September 09, 2022"
-confirm_registration_link = "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
+confirm_registration_link = "https://www.votecnmi.gov.mp/"
 
 +++
