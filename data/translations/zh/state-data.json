@@ -66,7 +66,7 @@
   "co": {
     "hp_link": "https://www.sos.state.co.us/pubs/elections/",
     "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
-    "more_info_link": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html",
+    "more_info_link": "https://www.coloradosos.gov/voter/pages/pub/home.xhtml",
     "ip_deadline": "2022年11月8日星期二",
     "online_deadline": "2022年10月31日星期一",
     "mail_postmarked_deadline": "郵戳為憑2022年10月31日星期一",
@@ -101,8 +101,8 @@
   },
   "dc": {
     "hp_link": "https://dcboe.org/",
-    "registration_link": "https://www.dcboe.org/Voters/Register-To-Vote/Register-to-Vote",
-    "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register",
+    "registration_link": "https://vr.dcboe.org/213324797239968?agency_code=12",
+    "more_info_link": "https://www.dcboe.org/Voters/Register-To-Vote/Register-to-Vote",
     "ip_deadline": "2022年11月8日星期二",
     "mail_received_deadline": "必須在2022年10月18日星期二之前寄達",
     "online_deadline": "2022年10月18日星期二",
@@ -130,14 +130,13 @@
     "ip_deadline": "2022年10月11日星期二",
     "online_deadline": "2022年10月11日星期二",
     "mail_postmarked_deadline": "郵戳為憑2022年10月11日星期二",
-    "confirm_registration_link": "https://www.mvp.sos.ga.gov/MVP/mvp.do",
+    "confirm_registration_link": "https://mvp.sos.ga.gov/s/",
     "default_ip_deadline": "選舉日前的第五個星期一",
     "default_online_deadline": "選舉日前的第五個星期一",
     "default_mail_postmarked_deadline": "必須在選舉日之前的第五個星期一之前蓋上郵戳"
   },
   "gu": {
     "hp_link": "https://gec.guam.gov/",
-    "registration_link": "https://gec.guam.gov/register/",
     "more_info_link": "https://gec.guam.gov/",
     "mail_received_deadline": "必須在2022年10月28日星期五之前寄達",
     "ip_deadline": "2022年10月28日星期五",
@@ -355,9 +354,9 @@
   },
   "nh": {
     "hp_link": "https://sos.nh.gov/home",
-    "more_info_link": "https://sos.nh.gov/elections/voters/register-to-vote/",
+    "more_info_link": "https://www.sos.nh.gov/elections/voters/register-vote",
     "ip_deadline": "2022年11月8日星期二",
-    "confirm_registration_link": "https://app.sos.nh.gov/Public/PartyInfo.aspx",
+    "confirm_registration_link": "https://app.sos.nh.gov/voterinformation",
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用"
   },
   "nj": {
@@ -418,7 +417,7 @@
     "more_info_link": "https://www.votecnmi.gov.mp/",
     "ip_deadline": "2022年9月9日星期五",
     "mail_received_deadline": "必須在2022年9月9日星期五之前寄達",
-    "confirm_registration_link": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote",
+    "confirm_registration_link": "https://www.votecnmi.gov.mp/",
     "default_ip_deadline": "選舉日前 60天"
   },
   "oh": {
@@ -468,7 +467,7 @@
   },
   "pr": {
     "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
-    "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
+    "more_info_link": "https://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
     "ip_deadline": "2022年9月19日星期一",
     "confirm_registration_link": "https://consulta.ceepur.org/",
     "default_ip_deadline": "選舉日前 50天"
@@ -488,7 +487,7 @@
   "sc": {
     "hp_link": "https://www.scvotes.gov/",
     "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
-    "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
+    "more_info_link": "https://scvotes.gov/voters/register-to-vote/",
     "ip_deadline": "2022年10月9日星期日",
     "online_deadline": "2022年10月9日星期日",
     "mail_postmarked_deadline": "郵戳為憑2022年10月11日星期二",
@@ -590,7 +589,7 @@
     "ip_deadline": "2022年10月18日星期二",
     "online_deadline": "2022年10月18日星期二",
     "mail_postmarked_deadline": "郵戳為憑2022年10月18日星期二",
-    "confirm_registration_link": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace",
+    "confirm_registration_link": "https://apps.sos.wv.gov/Elections/voter/amiregisteredtovote",
     "default_ip_deadline": "選舉日前 21天",
     "default_online_deadline": "選舉日前 21天",
     "default_mail_postmarked_deadline": "選舉當日前 21天郵戳為憑"

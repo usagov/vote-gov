@@ -19,11 +19,16 @@
 @forward 'usa-banner';
 @forward 'usa-skipnav';
 @forward "usa-link";
+@forward "usa-prose";
+@forward "usa-intro";
 
 @forward 'component/language-switcher';
 @forward 'component/identifier';
 @forward 'component/contact';
 @forward 'component/search';
+
+@forward 'page/about';
+@forward 'page/slick-sheet';
 
 // Variables ------------ //
 
@@ -102,6 +107,13 @@ label.max-width-input {
   flex-direction: column;
   justify-content: flex-end;
   height: 100%;
+}
+
+.align-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 70%;
 }
 
 .right-shift {
