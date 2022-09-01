@@ -1,0 +1,32 @@
+{
+    "header": "Vote.gov le ayuda:",
+
+    "title_1": "Regístrese para votar",
+    "content_1_part_1": "Todos los estados, excepto Dakota del Norte, requieren que usted se registre antes de votar en las elecciones. Seleccione su estado o territorio en el menú desplegable y encontrará las normas  a seguir.",
+    "content_1_part_2": "Los ciudadanos estadounidenses que viven fuera de Estados Unidos, así como los miembros de las fuerzas armadas  de EE.UU. y sus familias, pueden registrarse para votar y pueden solicitar la modalidad de voto por correo completando la Tarjeta Federal Postal de Solicitud (FPCA, sigla en inglés). Al igual que todos los ciudadanos, los familiares de los militares estadounidenses deben cumplir con los requisitos de elegibilidad para votar y así registrarse y solicitar la boleta de voto. Para más información, visite el %link%. ",
+    "content_1_part_2_link": "Programa Federal de Asistencia para Votar",
+
+    "title_2": "Encuentre las fechas límites para registrarse como votante",
+    "content_2_part_1": "A nivel nacional no hay una fecha límite para registrarse como votante. Los votantes de cada uno de los estados y territorios deben seguir sus leyes para registrarse. Seleccione su estado o territorio en el menú desplegable para encontrar la fecha límite para registrarse como votante. ",
+    "content_2_part_2": "Todos los estados, excepto Dakota del Norte, exigen que los ciudadanos se registren si quieren votar. Algunos estados exigen que los votantes se registren hasta 30 días antes de las elecciones, mientras que otros permiten el registro hasta el mismo día de las elecciones. Es importante que conozca las normas de su estado. ",
+    
+    "title_3": "Verifique su registro",
+    "content_3_part_1": "Seleccione su estado o territorio en el menú desplegable para revisar si ya está registrado antes de la fecha límite en su estado, que puede ser de hasta 30 días antes de las elecciones. ",
+    "content_3_part_2": "Revise también si su registro está marcado como “inactivo”. Puede pasar a ser “inactivo” si no ha votado en dos elecciones federales o si no respondió cuando los funcionarios electorales trataron de comunicarse con usted. ",
+    "content_3_part_3": "Un estado inactivo no significa necesariamente que usted tenga que volver a registrarse, significa que tal vez tenga que tomar medidas adicionales antes de poder votar. El sitio web electoral de su estado puede ayudarle a cambiar su estado de registro de nuevo a activo. ",
+    "content_3_part_4": "Asegúrese de que está registrado con el nombre, la dirección y la afiliación política correctos. Visite la página de registro de su estado para volver a registrarse o hacer correcciones. ",
+    
+    "title_4": "Cambie su afiliación de partido polític",
+    "content_4_part_1": "Seleccione su estado o territorio en el menú desplegable para revisar su registro de votante –incluso de partido político, si lo tiene. Visite la página de registro electoral de su estado para realizar cambios. ",
+    "content_4_part_2": "Dependiendo de su estado, tal vez le pidan su afiliación de partido cuando se registre para votar.",
+    "content_4_part_3": "El proceso de votación es el mismo independientemente del partido que elija. Usted tiene la libertad de votar por los candidatos de cualquier partido en las elecciones generales, que es el día en que son elegidos para los cargos. Su afiliación de partido sólo sirve para votar por uno de los candidatos de %link%. ",
+    "content_4_part_3_link": "las elecciones primarias y las asambleas electorales",
+
+    "title_5": "Sepa cómo obtener la tarjeta de registro electoral",
+    "content_5_part_1": "Al registrarse para votar, se le enviará su tarjeta de registro electoral. Esta tarjeta confirma que está registrado y listo para votar. Su tarjeta de registro electoral debe tener su nombre, su dirección y la dirección de su centro de votación. ",
+    "content_5_part_2": "Si su nombre o dirección han cambiado, pero no los ha puesto al día, tal vez no pueda votar. Una vez que haya actualizado su información o se haya visto en la necesidad de volverse a registrar podrá recibir una nueva tarjeta de registro electoral, dependiendo de su estado. ",
+    "content_5_part_3": "Por lo general, no es necesario que lleve consigo la tarjeta de registro electoral para poder votar, pero es posible que tenga que presentar otra %link%. ",
+    "content_5_part_3_link": "forma de identificación para votar",
+    "content_5_part_4": "Obtenga más información sobre el %link%. ",
+    "content_5_part_4_link": "registro de votantes"
+}
