@@ -2,27 +2,25 @@ var gulp = require('gulp');
 var log = require('fancy-log');
 var colors = require('ansi-colors');
 var scss = require('gulp-dart-scss');
-var sourcemaps = require('gulp-sourcemaps');
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
 
 
 gulp.task('scss-lint', function (done) {
-  if (process.env.NODE_ENV === 'development') {
-    var scsslint = require('gulp-scss-lint');
-
-    if (process.env.NODE_ENV === 'production') {
-      log(colors.cyan('scss-lint'), 'Disabling linting');
-      return done();
-    }
+  if (process.env.NODE_ENV === 'production') {
+    log(colors.cyan('scss-lint'), 'Disabling linting');
+    return done();
+  }
+  else {
+    var gulpStylelint = require('gulp-stylelint');
 
     return gulp.src('./assets/styles/**/*.scss')
-      .pipe(scsslint({
-        config: './.scss-lint.yml',
-      }))
-      .pipe(scsslint.failReporter());
+      .pipe(gulpStylelint({
+        configFile: './.stylelintrc.json',
+        failAfterError: false,
+        reporters: [{formatter: "string", console: true}]
+      }));
   }
-  return done();
 
 });
 
@@ -42,6 +40,8 @@ gulp.task('styles', gulp.series('scss-lint', function () {
       .pipe(gulp.dest('./static/assets/styles'));
   }
   else {
+    var sourcemaps = require('gulp-sourcemaps');
+    
     stream = stream.pipe(sourcemaps.init())
       .pipe(scssStream)
       .pipe(postcss([autoprefixer()]))

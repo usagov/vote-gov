@@ -3,311 +3,410 @@
     "hp_link": "https://www.sos.alabama.gov/alabama-votes",
     "registration_link": "https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action",
     "more_info_link": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
-    "ip_deadline": "选举日前 15 天",
-    "online_deadline": "选举日前 15 天",
-    "mail_postmarked_deadline": "必须在选举日前 15 天盖上邮戳",
-    "confirm_registration_link": "选举日前 30 天"
+    "ip_deadline": "2022年10月24日星期六",
+    "online_deadline": "2022年10月24日星期六",
+    "mail_postmarked_deadline": "必须在2022年10月24日星期六之前加盖邮戳",
+    "confirm_registration_link": "选举日前 30 天",
+    "default_ip_deadline": "选举日前 15 天",
+    "default_online_deadline": "选举日前 15 天",
+    "default_mail_postmarked_deadline": "必须在选举日前 15 天盖上邮戳"
   },
   "ak": {
     "hp_link": "https://www.elections.alaska.gov/",
     "registration_link": "https://voterregistration.alaska.gov/",
     "more_info_link": "https://www.elections.alaska.gov/Core/voterregistration.php",
-    "ip_deadline": "选举日前 30 天",
-    "online_deadline": "选举日前 30 天",
-    "mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳",
-    "confirm_registration_link": "https://myvoterinformation.alaska.gov/"
+    "ip_deadline": "2022年10月9日星期日",
+    "online_deadline": "2022年10月9日星期日",
+    "mail_postmarked_deadline": "必须在2022年10月9日星期日之前加盖邮戳",
+    "confirm_registration_link": "https://myvoterinformation.alaska.gov/",
+    "default_ip_deadline": "选举日前 30 天",
+    "default_online_deadline": "选举日前 30 天",
+    "default_mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳"
   },
   "as": {
     "hp_link": "https://aselectionoffice.gov/",
     "more_info_link": "https://aselectionoffice.gov/",
-    "ip_deadline": "选举日前30 天",
-    "confirm_registration_link": "https://aselectionoffice.gov/status.php"
+    "ip_deadline": "2022年10月11日星期二",
+    "confirm_registration_link": "https://aselectionoffice.gov/status.php",
+    "default_ip_deadline": "选举日前30 天"
   },
   "az": {
     "hp_link": "https://azsos.gov/elections",
     "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
     "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information",
-    "online_deadline": "选举日前 29 天",
-    "mail_postmarked_deadline": "必须在选举日前29 天盖上邮戳",
-    "ip_deadline": "选举日前 29 天",
-    "confirm_registration_link": "https://my.arizona.vote/WhereToVote.aspx?s=individual"
+    "online_deadline": "2022年10月11日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
+    "ip_deadline": "2022年10月11日星期二",
+    "confirm_registration_link": "https://my.arizona.vote/WhereToVote.aspx?s=individual",
+    "default_online_deadline": "选举日前 29 天",
+    "default_mail_postmarked_deadline": "必须在选举日前29 天盖上邮戳",
+    "default_ip_deadline": "选举日前 29 天"
   },
   "ar": {
     "hp_link": "https://www.sos.arkansas.gov/elections/",
     "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
-    "ip_deadline": "选举日前 30 天",
-    "mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳",
-    "confirm_registration_link": "https://www.voterview.ar-nova.org/voterview"
+    "ip_deadline": "2022年10月10日2022年",
+    "mail_postmarked_deadline": "必须在2022年10月10日星期一之前加盖邮戳",
+    "confirm_registration_link": "https://www.voterview.ar-nova.org/voterview",
+    "default_ip_deadline": "选举日前 30 天",
+    "default_mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳"
   },
   "ca": {
     "hp_link": "https://www.sos.ca.gov/elections",
     "registration_link": "https://registertovote.ca.gov/",
     "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "online_deadline": "选举日前 15 天",
-    "mail_postmarked_deadline": "必须在选举日前 15 天盖上邮戳",
-    "confirm_registration_link": "https://registertovote.ca.gov/"
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年10月24日星期六",
+    "mail_postmarked_deadline": "必须在2022年10月24日星期六之前加盖邮戳",
+    "confirm_registration_link": "https://registertovote.ca.gov/",
+    "default_ip_deadline": "直到选举日 包括选举日) 都可以使用",
+    "default_online_deadline": "选举日前 15 天",
+    "default_mail_postmarked_deadline": "必须在选举日前 15 天盖上邮戳"
   },
   "co": {
     "hp_link": "https://www.sos.state.co.us/pubs/elections/",
     "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
     "more_info_link": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "online_deadline": "选举日前 8 天",
-    "mail_postmarked_deadline": "必须在选举日前8天盖上邮戳",
-    "confirm_registration_link": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml"
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年10月31日星期一",
+    "mail_postmarked_deadline": "必须在2022年10月31日星期一之前加盖邮戳",
+    "confirm_registration_link": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_online_deadline": "选举日前 8 天",
+    "default_mail_postmarked_deadline": "必须在选举日前8天盖上邮戳"
   },
   "ct": {
     "hp_link": "https://portal.ct.gov/sots",
     "registration_link": "https://voterregistration.ct.gov/OLVR/welcome.do",
-    "more_info_link": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "online_deadline": "选举日前7 天",
-    "mail_postmarked_deadline": "必须在选举日前 7 天盖上邮戳",
-    "confirm_registration_link": "https://portaldir.ct.gov/sots/LookUp.aspx"
+    "more_info_link": "https://www.coloradosos.gov/voter/pages/pub/home.xhtml",
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年11月1日星期二",
+    "mail_postmarked_deadline": "必须在2022年11月1日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://portaldir.ct.gov/sots/LookUp.aspx",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_online_deadline": "选举日前7 天",
+    "default_mail_postmarked_deadline": "必须在选举日前 7 天盖上邮戳"
   },
   "de": {
     "hp_link": "https://elections.delaware.gov/index.shtml",
     "registration_link": "https://ivote.de.gov/VoterView/",
     "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
-    "ip_deadline": "选举日前 第四个星期六",
-    "online_deadline": "选举日前 第四个星期六",
-    "mail_postmarked_deadline": "必须在选举日前第四个星期六盖上邮戳",
-    "confirm_registration_link": "https://ivote.de.gov/VoterView"
+    "ip_deadline": "2022年10月15日星期六",
+    "online_deadline": "2022年10月15日星期六",
+    "mail_postmarked_deadline": "必须在2022年10月15日星期六之前加盖邮戳",
+    "confirm_registration_link": "https://ivote.de.gov/VoterView",
+    "default_ip_deadline": "选举日前 第四个星期六",
+    "default_online_deadline": "选举日前 第四个星期六",
+    "default_mail_postmarked_deadline": "必须在选举日前第四个星期六盖上邮戳"
   },
   "dc": {
     "hp_link": "https://dcboe.org/",
-    "registration_link": "https://www.dcboe.org/Voters/Register-To-Vote/Register-to-Vote",
-    "more_info_link": "https://www.vote4dc.com/ApplyInstructions/Register",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "mail_received_deadline": "必须在选举日之前的21天收到",
-    "online_deadline": "选举日前21 天",
-    "confirm_registration_link": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status"
+    "registration_link": "https://vr.dcboe.org/213324797239968?agency_code=12",
+    "more_info_link": "https://www.dcboe.org/Voters/Register-To-Vote/Register-to-Vote",
+    "ip_deadline": "2022年11月8日星期二",
+    "mail_received_deadline": "必须在2022年10月18日星期二之前收到",
+    "online_deadline": "2022年10月18日星期二",
+    "confirm_registration_link": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_mail_received_deadline": "必须在选举日之前的21天收到",
+    "default_online_deadline": "选举日前21 天"
   },
   "fl": {
     "hp_link": "https://dos.myflorida.com/elections/",
     "registration_link": "https://registertovoteflorida.gov/eligibilityreactive",
     "more_info_link": "https://registertovoteflorida.gov/home",
-    "ip_deadline": "选举日前29 天",
-    "online_deadline": "选举日前29天",
-    "mail_postmarked_deadline": "必须在选举日之前的29天之前盖上邮戳",
-    "confirm_registration_link": "https://registration.elections.myflorida.com/CheckVoterStatus"
+    "ip_deadline": "2022年10月11日星期二",
+    "online_deadline": "2022年10月11日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://registration.elections.myflorida.com/CheckVoterStatus",
+    "default_ip_deadline": "选举日前29 天",
+    "default_online_deadline": "选举日前29天",
+    "default_mail_postmarked_deadline": "必须在选举日之前的29天之前盖上邮戳"
   },
   "ga": {
     "hp_link": "https://sos.ga.gov/index.php/elections",
     "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
     "more_info_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
-    "ip_deadline": "选举日前的第五个星期一",
-    "online_deadline": "选举日前的第五个星期一",
-    "mail_postmarked_deadline": "必须在选举日之前的第五个星期一之前盖上邮戳",
-    "confirm_registration_link": "https://www.mvp.sos.ga.gov/MVP/mvp.do"
+    "ip_deadline": "2022年10月11日星期二",
+    "online_deadline": "2022年10月11日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://mvp.sos.ga.gov/s/",
+    "default_ip_deadline": "选举日前的第五个星期一",
+    "default_online_deadline": "选举日前的第五个星期一",
+    "default_mail_postmarked_deadline": "必须在选举日之前的第五个星期一之前盖上邮戳"
   },
   "gu": {
     "hp_link": "https://gec.guam.gov/",
-    "registration_link": "https://gec.guam.gov/register/",
     "more_info_link": "https://gec.guam.gov/",
-    "online_deadline": "选举日前 10 天",
-    "mail_received_deadline": "必须在选举日前 10 天前收到",
-    "ip_deadline": "选举日前 10 天",
-    "confirm_registration_link": "https://gec.guam.gov/validate/"
+    "online_deadline": "",
+    "mail_received_deadline": "必须在2022年10月28日星期五之前收到",
+    "ip_deadline": "2022年10月28日星期五",
+    "confirm_registration_link": "https://gec.guam.gov/validate/",
+    "default_mail_received_deadline": "必须在选举日前 10 天前收到",
+    "default_ip_deadline": "选举日前 10 天"
   },
   "hi": {
     "hp_link": "https://elections.hawaii.gov/",
     "registration_link": "https://olvr.hawaii.gov/",
     "more_info_link": "https://elections.hawaii.gov/voters/registration/",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "online_deadline": "选举日前 30 天",
-    "mail_received_deadline": "必须在选举日前 30 天前收到",
-    "confirm_registration_link": "https://olvr.hawaii.gov/"
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年11月8日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月31日星期一之前加盖邮戳",
+    "confirm_registration_link": "https://olvr.hawaii.gov/",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_online_deadline": "选举日前 30 天",
+    "default_mail_postmarked_deadline": "必须在选举日之前的30天之前盖上邮戳"
   },
   "id": {
     "hp_link": "https://idahovotes.gov/",
     "registration_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/ApplicationInstructions.aspx",
     "more_info_link": "https://idahovotes.gov/voting/",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "online_deadline": "选举日前 25 天",
-    "mail_postmarked_deadline": "必须在选举日前 25 天盖上邮戳",
-    "confirm_registration_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx"
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年10月14日星期五",
+    "mail_postmarked_deadline": "必须在2022年10月14日星期五之前加盖邮戳",
+    "confirm_registration_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_online_deadline": "选举日前 25 天",
+    "default_mail_postmarked_deadline": "必须在选举日前 25 天盖上邮戳"
   },
   "il": {
     "hp_link": "https://www.elections.il.gov/",
     "registration_link": "https://ova.elections.il.gov/",
     "more_info_link": "https://www.elections.il.gov/Default.aspx",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "online_deadline": "选举日前 16 天",
-    "mail_received_deadline": "必须在选举日前 28 天前收到",
-    "confirm_registration_link": "https://ova.elections.il.gov/RegistrationLookup.aspx"
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年10月18日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月6日星期四之前加盖邮戳",
+    "confirm_registration_link": "https://ova.elections.il.gov/RegistrationLookup.aspx",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_online_deadline": "选举日前 16 天",
+    "default_mail_postmarked_deadline": "必须在选举日之前的28天之前盖上邮戳"
   },
   "in": {
     "hp_link": "https://www.in.gov/sos/elections/",
     "registration_link": "https://indianavoters.in.gov/",
     "more_info_link": "https://www.in.gov/sos/elections/2403.htm",
-    "ip_deadline": "选举日前 29 天",
-    "online_deadline": "选举日前 29 天",
-    "mail_postmarked_deadline": "必须在选举日前 29 天盖上邮戳",
-    "confirm_registration_link": "https://indianavoters.in.gov/"
+    "ip_deadline": "2022年10月11日星期二",
+    "online_deadline": "2022年10月11日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://indianavoters.in.gov/",
+    "default_ip_deadline": "选举日前 29 天",
+    "default_online_deadline": "选举日前 29 天",
+    "default_mail_postmarked_deadline": "必须在选举日前 29 天盖上邮戳"
   },
   "ia": {
     "hp_link": "https://sos.iowa.gov/",
     "registration_link": "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration",
     "more_info_link": "https://sos.iowa.gov/elections/voterinformation/voterregistration.html",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "online_deadline": "选举日前 15 天",
-    "mail_postmarked_deadline": "必须在选举日前 15天盖上邮戳",
-    "confirm_registration_link": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx"
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年10月24日星期六",
+    "mail_postmarked_deadline": "必须在2022年10月24日星期六之前加盖邮戳",
+    "confirm_registration_link": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_online_deadline": "选举日前 15 天",
+    "default_mail_postmarked_deadline": "必须在选举日前 15天盖上邮戳"
   },
   "ks": {
     "hp_link": "https://sos.ks.gov/elections/elections.html",
     "registration_link": "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx",
     "more_info_link": "https://sos.ks.gov/elections/voter-information.html",
-    "ip_deadline": "选举日前 21 天",
-    "online_deadline": "选举日前 21 天",
-    "mail_postmarked_deadline": "必须在选举日前 21天盖上邮戳",
-    "confirm_registration_link": "https://myvoteinfo.voteks.org/voterview/"
+    "ip_deadline": "2022年10月18日星期二",
+    "online_deadline": "2022年10月18日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月18日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://myvoteinfo.voteks.org/voterview/",
+    "default_ip_deadline": "选举日前 21 天",
+    "default_online_deadline": "选举日前 21 天",
+    "default_mail_postmarked_deadline": "必须在选举日前 21天盖上邮戳"
   },
   "ky": {
     "hp_link": "https://elect.ky.gov/Pages/default.aspx",
     "registration_link": "https://vrsws.sos.ky.gov/ovrweb/",
     "more_info_link": "https://elect.ky.gov/Resources/Pages/Registration.aspx",
-    "ip_deadline": "选举日前的第四个星期一",
-    "online_deadline": "选举日前的第四个星期一",
-    "mail_received_deadline": "必须在选举日前的第四个星期一之前收到",
-    "confirm_registration_link": "https://vrsws.sos.ky.gov/VIC/"
+    "ip_deadline": "2022年10月11日星期二",
+    "online_deadline": "2022年10月11日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://vrsws.sos.ky.gov/VIC/",
+    "default_ip_deadline": "选举日前的第四个星期一",
+    "default_online_deadline": "选举日前的第四个星期一",
+    "default_mail_postmarked_deadline": "必须在选举日之前的第四个星期一之前盖上邮戳"
   },
   "la": {
     "hp_link": "https://www.sos.la.gov/ElectionsAndVoting/Pages/default.aspx",
     "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
     "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
-    "ip_deadline": "选举日前30 天",
-    "online_deadline": "选举日前 20 天",
-    "mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳",
-    "confirm_registration_link": "https://voterportal.sos.la.gov/"
+    "ip_deadline": "2022年10月11日星期二",
+    "online_deadline": "2022年10月19日星期三",
+    "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://voterportal.sos.la.gov/",
+    "dates_electionday": "2022年12月10日星期六",
+    "default_ip_deadline": "选举日前30 天",
+    "default_online_deadline": "选举日前 20 天",
+    "default_mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳"
   },
   "me": {
     "hp_link": "https://www.maine.gov/sos/cec/elec/",
     "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "mail_received_deadline": "必须在选举日前 21 天收到",
-    "confirm_registration_link": "https://www.maine.gov/sos/cec/elec/data/index.html"
+    "ip_deadline": "2022年11月8日星期二",
+    "mail_received_deadline": "必须在2022年10月18日星期二之前收到",
+    "confirm_registration_link": "https://www.maine.gov/sos/cec/elec/data/index.html",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_mail_received_deadline": "必须在选举日前 21 天收到"
   },
   "md": {
     "hp_link": "https://elections.maryland.gov/",
     "registration_link": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1",
     "more_info_link": "https://www.elections.maryland.gov/voter_registration/application.html",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "online_deadline": "选举日前 21 天",
-    "mail_postmarked_deadline": "必须在选举日前 21 天盖上邮戳",
-    "confirm_registration_link": "https://voterservices.elections.maryland.gov/VoterSearch"
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年10月18日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月18日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://voterservices.elections.maryland.gov/VoterSearch",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_online_deadline": "选举日前 21 天",
+    "default_mail_postmarked_deadline": "必须在选举日前 21 天盖上邮戳"
   },
   "ma": {
     "hp_link": "https://www.sec.state.ma.us/ele/eleidx.htm",
     "registration_link": "https://www.sec.state.ma.us/ovr/",
     "more_info_link": "https://www.sec.state.ma.us/ele/eleifv/howreg.htm",
-    "ip_deadline": "选举日前 20 天",
-    "online_deadline": "选举日前 20 天",
-    "mail_postmarked_deadline": "必须在选举日前 20 天盖上邮戳",
-    "confirm_registration_link": "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"
+    "ip_deadline": "2022年10月29日星期六",
+    "online_deadline": "2022年10月29日星期六",
+    "mail_postmarked_deadline": "必须在2022年10月29日星期六之前加盖邮戳",
+    "confirm_registration_link": "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx",
+    "default_ip_deadline": "选举日前 20 天",
+    "default_online_deadline": "选举日前 20 天",
+    "default_mail_postmarked_deadline": "必须在选举日前 20 天盖上邮戳"
   },
   "mi": {
     "hp_link": "https://www.michigan.gov/sos/0,4670,7-127-1633---,00.html",
     "registration_link": "https://mvic.sos.state.mi.us/registervoter",
     "more_info_link": "https://mvic.sos.state.mi.us/",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "online_deadline": "选举日前 15天",
-    "mail_postmarked_deadline": "必须在选举日前 15天盖上邮戳",
-    "confirm_registration_link": "https://mvic.sos.state.mi.us/"
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年10月24日星期六",
+    "mail_postmarked_deadline": "必须在2022年10月24日星期六之前加盖邮戳",
+    "confirm_registration_link": "https://mvic.sos.state.mi.us/",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_online_deadline": "选举日前 15天",
+    "default_mail_postmarked_deadline": "必须在选举日前 15天盖上邮戳"
   },
   "mn": {
     "hp_link": "https://www.sos.state.mn.us/elections-voting/",
     "registration_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
     "more_info_link": "https://www.sos.state.mn.us/elections-voting/register-to-vote/",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "online_deadline": "选举日前 21天",
-    "mail_received_deadline": "必须在选举日前 21 天前收到",
-    "confirm_registration_link": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年10月18日星期二",
+    "mail_received_deadline": "必须在2022年10月18日星期二之前收到",
+    "confirm_registration_link": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_online_deadline": "选举日前 21天",
+    "default_mail_received_deadline": "必须在选举日前 21 天前收到"
   },
   "ms": {
     "hp_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
     "more_info_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
-    "ip_deadline": "选举日前 30天",
-    "mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳",
-    "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
+    "ip_deadline": "2022年10月10日2022年",
+    "mail_postmarked_deadline": "必须在2022年10月10日星期一之前加盖邮戳",
+    "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search",
+    "default_ip_deadline": "选举日前 30天",
+    "default_mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳"
   },
   "mo": {
     "hp_link": "https://www.sos.mo.gov/elections",
     "registration_link": "https://s1.sos.mo.gov/elections/voterregistration/",
     "more_info_link": "https://www.sos.mo.gov/elections/goVoteMissouri/register",
-    "ip_deadline": "选举日前的第四个星期三",
-    "online_deadline": "选举日前的第四个星期三",
-    "mail_postmarked_deadline": "必须在选举日前第四个星期三盖上邮戳",
-    "confirm_registration_link": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx"
+    "ip_deadline": "2022年10月12日星期三",
+    "online_deadline": "2022年10月12日星期三",
+    "mail_postmarked_deadline": "必须在2022年10月12日星期三之前加盖邮戳",
+    "confirm_registration_link": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx",
+    "default_ip_deadline": "选举日前的第四个星期三",
+    "default_online_deadline": "选举日前的第四个星期三",
+    "default_mail_postmarked_deadline": "必须在选举日前第四个星期三盖上邮戳"
   },
   "mt": {
     "hp_link": "https://sosmt.gov/elections/",
     "more_info_link": "https://sosmt.gov/elections/vote/",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳",
-    "confirm_registration_link": "https://sosmt.gov/elections/vote/"
+    "ip_deadline": "2022年11月7日星期一",
+    "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://sosmt.gov/elections/vote/",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳"
   },
   "ne": {
     "hp_link": "https://sos.nebraska.gov/elections/2020-elections",
     "registration_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
     "more_info_link": "https://sos.nebraska.gov/elections/voter-forms",
-    "ip_deadline": "选举日前的第二个星期五",
-    "online_deadline": "选举日前的第三个星期五",
-    "mail_postmarked_deadline": "必须在选举日之前的第三个星期五盖上邮戳",
-    "confirm_registration_link": "https://www.votercheck.necvr.ne.gov/voterview"
+    "ip_deadline": "2022年10月28日星期五",
+    "online_deadline": "2022年10月21日星期五",
+    "mail_postmarked_deadline": "必须在2022年10月21日星期五之前加盖邮戳",
+    "confirm_registration_link": "https://www.votercheck.necvr.ne.gov/voterview",
+    "default_ip_deadline": "选举日前的第二个星期五",
+    "default_online_deadline": "选举日前的第三个星期五",
+    "default_mail_postmarked_deadline": "必须在选举日之前的第三个星期五盖上邮戳"
   },
   "nv": {
     "hp_link": "https://www.nvsos.gov/sos/elections",
     "registration_link": "https://www.nvsos.gov/SOSVoterServices/start.aspx",
     "more_info_link": "https://www.nvsos.gov/sos/elections/voters/registering-to-vote",
-    "ip_deadline": "选举日前的第四个星期二",
-    "online_deadline": "提前投票开始前的星期四",
-    "mail_postmarked_deadline": "必须在选举日之前的第四个星期二盖上邮戳",
-    "confirm_registration_link": "https://www.nvsos.gov/votersearch/"
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年11月3日星期四",
+    "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://www.nvsos.gov/votersearch/",
+    "default_ip_deadline": "选举日前的第四个星期二",
+    "default_online_deadline": "提前投票开始前的星期四",
+    "default_mail_postmarked_deadline": "必须在选举日之前的第四个星期二盖上邮戳"
   },
   "nh": {
     "hp_link": "https://sos.nh.gov/home",
-    "more_info_link": "https://sos.nh.gov/elections/voters/register-to-vote/",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "confirm_registration_link": "https://app.sos.nh.gov/Public/PartyInfo.aspx"
+    "more_info_link": "https://www.sos.nh.gov/elections/voters/register-vote",
+    "ip_deadline": "2022年11月8日星期二",
+    "confirm_registration_link": "https://app.sos.nh.gov/voterinformation",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用"
   },
   "nj": {
     "hp_link": "https://www.state.nj.us/state/elections/index.shtml",
     "registration_link": "https://voter.svrs.nj.gov/register",
     "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml",
-    "online_deadline": "选举日前 21天",
-    "mail_received_deadline": "必须在选举日前 21天盖上邮戳",
-    "ip_deadline": "选举日前 21天",
-    "confirm_registration_link": "https://voter.svrs.nj.gov/registration-check"
+    "online_deadline": "2022年10月18日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月18日星期二之前加盖邮戳",
+    "ip_deadline": "2022年10月18日星期二",
+    "confirm_registration_link": "https://voter.svrs.nj.gov/registration-check",
+    "default_online_deadline": "选举日前 21天",
+    "default_mail_postmarked_deadline": "必须在选举日前 21 天盖上邮戳",
+    "default_ip_deadline": "选举日前 21天"
   },
   "nm": {
     "hp_link": "https://www.sos.state.nm.us/voting-and-elections/",
     "registration_link": "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx",
     "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information/voter-registration-information/",
-    "ip_deadline": "选举日前 的星期六",
-    "online_deadline": "选举日前 28天",
-    "mail_postmarked_deadline": "必须在选举日前 28天盖上邮戳",
-    "confirm_registration_link": "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年10月11日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx",
+    "default_ip_deadline": "选举日前 的星期六",
+    "default_online_deadline": "选举日前 28天",
+    "default_mail_postmarked_deadline": "必须在选举日前 28天盖上邮戳"
   },
   "ny": {
     "hp_link": "https://www.elections.ny.gov/",
     "registration_link": "https://dmv.ny.gov/more-info/electronic-voter-registration-application",
     "more_info_link": "https://www.elections.ny.gov/votingregister.html",
-    "ip_deadline": "选举日前 25天",
-    "online_deadline": "选举日前 25天",
-    "mail_postmarked_deadline": "必须在选举日前 25天盖上邮戳",
-    "confirm_registration_link": "https://voterlookup.elections.ny.gov/"
+    "ip_deadline": "2022年10月14日星期五",
+    "online_deadline": "2022年10月14日星期五",
+    "mail_postmarked_deadline": "必须在2022年10月14日星期五之前加盖邮戳",
+    "confirm_registration_link": "https://voterlookup.elections.ny.gov/",
+    "default_ip_deadline": "选举日前 25天",
+    "default_online_deadline": "选举日前 25天",
+    "default_mail_postmarked_deadline": "必须在选举日前 25天盖上邮戳"
   },
   "nc": {
     "hp_link": "https://www.ncsbe.gov/voting",
     "registration_link": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
     "more_info_link": "https://www.ncsbe.gov/registering/how-register",
-    "ip_deadline": "提前投票期间可当天登记",
-    "online_deadline": "选举日前 25天",
-    "mail_postmarked_deadline": "必须在选举日前 25天盖上邮戳",
-    "confirm_registration_link": "https://vt.ncsbe.gov/RegLkup/"
+    "ip_deadline": "2022年11月5日星期六",
+    "online_deadline": "2022年10月14日星期五",
+    "mail_postmarked_deadline": "必须在2022年10月14日星期五之前加盖邮戳",
+    "confirm_registration_link": "https://vt.ncsbe.gov/RegLkup/",
+    "default_ip_deadline": "提前投票期间可当天登记",
+    "default_online_deadline": "选举日前 25天",
+    "default_mail_postmarked_deadline": "必须在选举日前 25天盖上邮戳"
   },
   "nd": {
     "hp_link": "https://vip.sos.nd.gov/PortalList.aspx",
@@ -317,155 +416,204 @@
   "mp": {
     "hp_link": "https://www.votecnmi.gov.mp/",
     "more_info_link": "https://www.votecnmi.gov.mp/",
-    "ip_deadline": "选举日前 60天",
-    "confirm_registration_link": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
+    "ip_deadline": "2022年9月9日星期五",
+    "mail_received_deadline": "必须在2022年9月9日星期五之前收到",
+    "confirm_registration_link": "https://www.votecnmi.gov.mp/",
+    "default_ip_deadline": "选举日前 60天"
   },
   "oh": {
     "hp_link": "https://www.sos.state.oh.us/elections/",
     "registration_link": "https://olvr.ohiosos.gov/",
     "more_info_link": "https://ohio.gov/wps/portal/gov/site/government/resources/register-to-vote-or-update-your-registration",
-    "ip_deadline": "选举日前 30天",
-    "online_deadline": "选举日前 30天",
-    "mail_postmarked_deadline": "必须在选举日前 30天盖上邮戳",
-    "confirm_registration_link": "https://voterlookup.ohiosos.gov/voterlookup.aspx"
+    "ip_deadline": "2022年10月11日星期二",
+    "online_deadline": "2022年10月11日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://voterlookup.ohiosos.gov/voterlookup.aspx",
+    "default_ip_deadline": "选举日前 30天",
+    "default_online_deadline": "选举日前 30天",
+    "default_mail_postmarked_deadline": "必须在选举日前 30天盖上邮戳"
   },
   "ok": {
     "hp_link": "https://www.ok.gov/elections/",
     "more_info_link": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
-    "ip_deadline": "选举日前 25天",
-    "mail_postmarked_deadline": "必须在选举日前 25天盖上邮戳",
-    "confirm_registration_link": "https://okvoterportal.okelections.us/"
+    "ip_deadline": "2022年10月14日星期五",
+    "mail_postmarked_deadline": "必须在2022年10月14日星期五之前加盖邮戳",
+    "confirm_registration_link": "https://okvoterportal.okelections.us/",
+    "default_ip_deadline": "选举日前 25天",
+    "default_mail_postmarked_deadline": "必须在选举日前 25天盖上邮戳"
   },
   "or": {
     "hp_link": "https://sos.oregon.gov/voting-elections/Pages/default.aspx",
     "registration_link": "https://secure.sos.state.or.us/orestar/vr/register.do",
     "more_info_link": "https://sos.oregon.gov/voting/Pages/registration.aspx",
-    "ip_deadline": "选举日前 21天",
-    "online_deadline": "选举日前 21天",
-    "mail_postmarked_deadline": "必须在选举日前 21天盖上邮戳",
-    "confirm_registration_link": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS"
+    "ip_deadline": "2022年10月18日星期二",
+    "online_deadline": "2022年10月18日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月18日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS",
+    "default_ip_deadline": "选举日前 21天",
+    "default_online_deadline": "选举日前 21天",
+    "default_mail_postmarked_deadline": "必须在选举日前 21天盖上邮戳"
   },
   "pa": {
     "hp_link": "https://www.pa.gov/guides/voting-and-elections/",
     "registration_link": "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
     "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote",
-    "ip_deadline": "选举日前 15天",
-    "online_deadline": "选举日前 15天",
-    "mail_received_deadline": "必须在选举日前 15天前收到",
-    "confirm_registration_link": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
+    "ip_deadline": "2022年10月24日星期六",
+    "online_deadline": "2022年10月24日星期六",
+    "mail_received_deadline": "必须在2022年10月24日星期六之前收到",
+    "confirm_registration_link": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx",
+    "default_ip_deadline": "选举日前 15天",
+    "default_online_deadline": "选举日前 15天",
+    "default_mail_received_deadline": "必须在选举日前 15天前收到"
   },
   "pr": {
     "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
-    "more_info_link": "http://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
-    "ip_deadline": "选举日前 50天",
-    "confirm_registration_link": "https://consulta.ceepur.org/"
+    "more_info_link": "https://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
+    "ip_deadline": "2022年9月19日星期一",
+    "confirm_registration_link": "https://consulta.ceepur.org/",
+    "default_ip_deadline": "选举日前 50天"
   },
   "ri": {
     "hp_link": "https://elections.ri.gov/",
     "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
     "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
-    "ip_deadline": "选举日前 30天",
-    "online_deadline": "选举日前 30天",
-    "mail_postmarked_deadline": "必须在选举日前 30天盖上邮戳",
-    "confirm_registration_link": "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0"
+    "ip_deadline": "2022年10月9日星期日",
+    "online_deadline": "2022年10月9日星期日",
+    "mail_postmarked_deadline": "必须在2022年10月9日星期日之前加盖邮戳",
+    "confirm_registration_link": "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0",
+    "default_ip_deadline": "选举日前 30天",
+    "default_online_deadline": "选举日前 30天",
+    "default_mail_postmarked_deadline": "必须在选举日前 30天盖上邮戳"
   },
   "sc": {
     "hp_link": "https://www.scvotes.gov/",
     "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
-    "more_info_link": "https://www.scvotes.gov/south-carolina-voter-registration-information",
-    "ip_deadline": "选举日前 30天",
-    "online_deadline": "选举日前 30天",
-    "mail_postmarked_deadline": "必须在选举日前 30天盖上邮戳",
-    "confirm_registration_link": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
+    "more_info_link": "https://scvotes.gov/voters/register-to-vote/",
+    "ip_deadline": "2022年10月9日星期日",
+    "online_deadline": "2022年10月9日星期日",
+    "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo",
+    "default_ip_deadline": "选举日前 30天",
+    "default_online_deadline": "选举日前 30天",
+    "default_mail_postmarked_deadline": "必须在选举日前 30天盖上邮戳"
   },
   "sd": {
     "hp_link": "https://sdsos.gov/elections-voting/",
     "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
-    "ip_deadline": "选举日前 15天",
-    "mail_received_deadline": "必须在选举日前 15天前收到",
-    "confirm_registration_link": "https://vip.sdsos.gov/VIPLogin.aspx"
+    "ip_deadline": "2022年10月24日星期六",
+    "mail_received_deadline": "必须在2022年10月24日星期六之前收到",
+    "confirm_registration_link": "https://vip.sdsos.gov/VIPLogin.aspx",
+    "default_ip_deadline": "选举日前 15天",
+    "default_mail_received_deadline": "必须在选举日前 15天前收到"
   },
   "tn": {
     "hp_link": "https://sos.tn.gov/elections",
     "registration_link": "https://ovr.govote.tn.gov/",
     "more_info_link": "https://sos.tn.gov/products/elections/register-vote",
-    "ip_deadline": "选举日前 30天",
-    "online_deadline": "选举日前 30天",
-    "mail_postmarked_deadline": "必须在选举日前 30天盖上邮戳",
-    "confirm_registration_link": "https://tnmap.tn.gov/voterlookup/"
+    "ip_deadline": "2022年10月11日星期二",
+    "online_deadline": "2022年10月11日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://tnmap.tn.gov/voterlookup/",
+    "default_ip_deadline": "选举日前 30天",
+    "default_online_deadline": "选举日前 30天",
+    "default_mail_postmarked_deadline": "必须在选举日前 30天盖上邮戳"
   },
   "tx": {
     "hp_link": "https://www.votetexas.gov/index.html",
     "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html",
-    "ip_deadline": "选举日前 30天",
-    "mail_postmarked_deadline": "必须在选举日前 30天盖上邮戳",
-    "confirm_registration_link": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
+    "ip_deadline": "2022年10月11日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do",
+    "default_ip_deadline": "选举日前 30天",
+    "default_mail_postmarked_deadline": "必须在选举日前 30天盖上邮戳"
   },
   "ut": {
     "hp_link": "https://elections.utah.gov/",
     "registration_link": "https://secure.utah.gov/voterreg/index.html",
     "more_info_link": "https://voteinfo.utah.gov/",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "online_deadline": "选举日前 11天",
-    "mail_received_deadline": "必须在选举日前 11天前收到",
-    "confirm_registration_link": "https://vote.utah.gov/"
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年10月28日星期五",
+    "mail_received_deadline": "必须在2022年10月28日星期五之前收到",
+    "confirm_registration_link": "https://vote.utah.gov/",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_online_deadline": "选举日前 11天",
+    "default_mail_received_deadline": "必须在选举日前 11天前收到"
   },
   "vt": {
     "hp_link": "https://sos.vermont.gov/elections/",
     "registration_link": "https://olvr.vermont.gov/",
     "more_info_link": "https://sos.vermont.gov/elections/voters/registration/",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "online_deadline": "选举日前的星期五",
-    "mail_received_deadline": "必须在选举日之前的星期五收到",
-    "confirm_registration_link": "https://mvp.vermont.gov/"
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年11月8日星期二",
+    "mail_received_deadline": "必须在2022年11月4日星期五之前收到",
+    "confirm_registration_link": "https://mvp.vermont.gov/",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_online_deadline": "选举日前的星期五",
+    "default_mail_received_deadline": "必须在选举日之前的星期五收到"
   },
   "va": {
     "hp_link": "https://www.elections.virginia.gov/",
     "registration_link": "https://www.elections.virginia.gov/citizen-portal/",
     "more_info_link": "https://www.elections.virginia.gov/registration/how-to-register/",
-    "ip_deadline": "选举日前 22天",
-    "online_deadline": "选举日前 22天",
-    "mail_postmarked_deadline": "必须在选举日前 22天盖上邮戳",
-    "confirm_registration_link": "https://www.elections.virginia.gov/registration/view-your-info/"
+    "ip_deadline": "2022年10月17日星期一",
+    "online_deadline": "2022年10月17日星期一",
+    "mail_postmarked_deadline": "必须在2022年10月17日星期一之前加盖邮戳",
+    "confirm_registration_link": "https://www.elections.virginia.gov/registration/view-your-info/",
+    "default_ip_deadline": "选举日前 22天",
+    "default_online_deadline": "选举日前 22天",
+    "default_mail_postmarked_deadline": "必须在选举日前 22天盖上邮戳"
   },
   "vi": {
     "hp_link": "https://www.vivote.gov/voters/register-vote",
     "more_info_link": "https://www.vivote.gov/voters/register-vote",
-    "ip_deadline": "选举日前 30天",
-    "confirm_registration_link": "https://www.vivote.gov/voters/lookup"
+    "ip_deadline": "2022年10月9日星期日",
+    "mail_postmarked_deadline": "必须在2022年10月9日星期日之前加盖邮戳",
+    "confirm_registration_link": "https://www.vivote.gov/voters/lookup",
+    "default_ip_deadline": "选举日前 30天"
   },
   "wa": {
     "hp_link": "https://www.sos.wa.gov/elections/",
     "registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
     "more_info_link": "https://www.sos.wa.gov/elections/voters/",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "online_deadline": "选举日前 8天",
-    "mail_received_deadline": "必须在选举日前 8天前收到",
-    "confirm_registration_link": "https://voter.votewa.gov/WhereToVote.aspx"
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年10月31日星期一",
+    "mail_received_deadline": "必须在2022年10月31日星期一之前收到",
+    "confirm_registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_online_deadline": "选举日前 8天",
+    "default_mail_received_deadline": "必须在选举日前 8天前收到"
   },
   "wv": {
     "hp_link": "https://sos.wv.gov/elections/Pages/default.aspx",
     "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
     "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
-    "ip_deadline": "选举日前 21天",
-    "online_deadline": "选举日前 21天",
-    "mail_postmarked_deadline": "必须在选举日前 21天盖上邮戳",
-    "confirm_registration_link": "https://services.sos.wv.gov/Elections/Voter/FindMyPollingPlace"
+    "ip_deadline": "2022年10月18日星期二",
+    "online_deadline": "2022年10月18日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月18日星期二之前加盖邮戳",
+    "confirm_registration_link": "https://apps.sos.wv.gov/Elections/voter/amiregisteredtovote",
+    "default_ip_deadline": "选举日前 21天",
+    "default_online_deadline": "选举日前 21天",
+    "default_mail_postmarked_deadline": "必须在选举日前 21天盖上邮戳"
   },
   "wi": {
     "hp_link": "https://elections.wi.gov/elections-voting",
     "registration_link": "https://myvote.wi.gov/en-us/RegisterToVote",
     "more_info_link": "https://elections.wi.gov/voters/first-time",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "online_deadline": "选举日前的第三个星期三",
-    "mail_postmarked_deadline": "必须在选举日前的第三个星期三前盖上邮戳",
-    "confirm_registration_link": "https://myvote.wi.gov/en-us/MyVoterInfo"
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年10月19日星期三",
+    "mail_postmarked_deadline": "必须在2022年10月19日星期三之前加盖邮戳",
+    "confirm_registration_link": "https://myvote.wi.gov/en-us/MyVoterInfo",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_online_deadline": "选举日前的第三个星期三",
+    "default_mail_postmarked_deadline": "必须在选举日前的第三个星期三前盖上邮戳"
   },
   "wy": {
     "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
     "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
-    "ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "mail_received_deadline": "必须在选举日前 14天前收到",
-    "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
+    "ip_deadline": "2022年11月8日星期二",
+    "mail_received_deadline": "必须在2022年10月24日星期六之前收到",
+    "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf",
+    "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
+    "default_mail_received_deadline": "必须在选举日前 14天前收到"
   }
 }
