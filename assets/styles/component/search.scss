@@ -1,7 +1,9 @@
 @use 'uswds-core' as *;
+@use '../variables' as *;
+@use '../mixins' as *;
 
 .search-container {
-  border-top: 1px solid #565c65;
+  border-top: 1px solid $dark-cool-gray;
 }
 
 .search-bar {
@@ -9,48 +11,35 @@
   padding-bottom: 0.5rem;
   margin-left: auto;
 
-  .usa-button {
-    background-color: grey !important;
+  [dir="rtl"] & {
+    margin-left: unset;
+    margin-right: auto;
   }
-
-  .usa-input {
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
-    border-color: grey !important;
-  }
-}
-
-[dir="rtl"] .search-bar {
-  margin-left: unset;
-  margin-right: auto;
-
-  .usa-input {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
-    border: 1px solid grey;
-  }
-
-  .usa-button {
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 7px;
-    border-top-left-radius: 7px;
-  }
-}
-
-.usa-search {
-  max-width: none !important;
-  margin-left: auto;
 
   @include at-media('tablet') {
-    max-width: 340px !important;
-    margin-right: 0;
+    max-width: 340px;
   }
-}
 
-[dir="rtl"] .usa-search {
-  margin-left: unset;
-  margin-right: auto;
+  .usa-button {
+    background-color: $gray;
+    border-radius: 0 7px 7px 0;
+
+    @include hover {
+      background-color: $gray;
+    }
+
+    [dir="rtl"] & {
+      border-radius: 7px 0 0 7px;
+    }
+  }
+
+  .usa-input {
+    border: 1px solid $gray;
+    border-radius: 7px 0 0 7px;
+    max-width: none;
+
+    [dir="rtl"] & {
+      border-radius: 0 7px 7px 0;
+    }
+  }
 }
