@@ -13,11 +13,11 @@
   "privacy_policy_link_url": "https://www.usa.gov/policies",
   "twitter_link": "https://twitter.com/votegov",
   "twitter_text": "%Vote.gov% 사이트 트위터 팔로우하기",
-  "identifier_aria": "Agency identifier",
-  "identifier_gsa_txt_aria": "Agency description",
+  "identifier_aria": "기관 식별자",
+  "identifier_gsa_txt_aria": "기관 설명",
   "identifier_gsa_txt": "%link%의 공식 웹사이트",
   "identifier_gsa_txt__1": "미국 연방 조달청",
-  "identifier_link_aria": "Important links",
+  "identifier_link_aria": "주요 사이트 링크",
   "identifier_link_1": "Vote.gov 소개 (영어로)",
   "identifier_link_2": "접근성 (영어로)",
   "identifier_link_3": "정보 공개법(FOIA) 요청 (영어로)",
@@ -25,7 +25,7 @@
   "identifier_link_5": "감사관실 (영어로)",
   "identifier_link_6": "성과 보고서 (영어로)",
   "identifier_link_7": "개인정보 보호정책 (영어로)",
-  "identifier_more_info_aria": "Government information and services",
+  "identifier_more_info_aria": "정부 관련 정보 및 제공 서비스",
   "identifier_more_info": "미국 정부 정보 및 서비스를 검색하고 싶으신가요? %link%",
   "identifier_more_info__1": "USA.gov 사이트로 가기"
 }
