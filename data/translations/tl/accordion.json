@@ -1,0 +1,32 @@
+{
+    "header": "Ang Vote.gov ay Tumutulong sa Inyo:",
+
+    "title_1": "Magparehistro para Bumoto",
+    "content_1_part_1": "Ang lahat ng mga estado maliban sa North Dakota ay kinakailangan na kayo ay magparehistro bago bumoto sa isang eleksyon. Piliin ang inyong estado o teritoryo mula sa dropdown na menu para mahanap ang mga panuntunang nararapat sa inyo.",
+    "content_1_part_2": "Ang mga mamamayan ng U.S. na naninirahan sa labas ng U.S., kabilang ang mga sundalo ng U.S. at kanilang mga pamilya, ay maaaring magparehistro para bumoto at humiling ng absentee ballot sa pamamagitan ng pagkumpleto ng Federal Post Card Application %link%. Ang mga miyembro ng pamilyang militar ng U.S., tulad ng iba, ay dapat matugunan ang mga kinakailangan sa pagiging karapat-dapat na botante ng U.S. para magparehistro at humiling ng isang balota. Para sa karagdagang impormasyon, bisitahin ang Programa ng Tulong sa Pederal na Botante.",
+    "content_1_part_2_link": "(FPCA Aplikasyon ng Pederal Post Kard)",
+
+    "title_2": "Hanapin ang mga Huling Araw ng Pagpaparehistro ng Botante",
+    "content_2_part_1": "Walang pambansang huling araw ng pagpaparehistro ng botante. Dapat sundin ng mga botante sa bawat estado at teritoryo ang kanilang mga batas sa pagpaparehistro ng botante. Piliin ang inyong estado o teritoryo mula sa dropdown na menu para mahanap ang inyong huling araw ng pagpaparehistro ng botante.",
+    "content_2_part_2": "Kinakailangan ng mga mamamayan ng bawat estado maliban sa North Dakota  na magparehistro kung gusto nilang bumoto. Kinakailangan ng mga botante ng ilang mga estado  na magparehistro hanggang 30 araw bago ang isang eleksyon, habang ang iba ay nagpapahintulot sa pagpaparehistro hanggang sa at sa Araw ng Eleksyon. Mahalagang alam ninyo ang mga patakaran sa inyong estado.",
+    
+    "title_3": "I-tsek ang Inyong Rehistrasyon",
+    "content_3_part_1": "Piliin ang inyong estado o teritoryo mula sa dropdown na menu para ma-tsek ang inyong rehistrayon bago ang huling araw ng inyong estado. Maaaring hanggang 30 araw iyon bago ang eleksyon.",
+    "content_3_part_2": "I-tsek din upang makita kung ang inyong rehistrasyon ay minarkahan na \"di-aktibo.\" Maaari kayong maging \"di-aktibo\" kung hindi kayo bumoto sa hindi bababa sa dalawang pederal na eleksyon at hindi tumugon  sa pagsisikap ng mga  opisyal ng halalan na makipag-ugnayan sa inyo.",
+    "content_3_part_3": "Ang isang di-aktibong estado ay hindi nangangahulugang kailangan ninyo  muling magparehistro.  Ang ibig sabihin nito  ay maaaring kailangan kayong  gumawa ng mga karagdagang hakbang bago kayo makaboto. Ang website ng eleksyon ng inyong estado ay maaaring makatulong sa inyo na ilipat ang estado ng  inyong rehistrasyon pabalik sa aktibo.",
+    "content_3_part_4": "Tiyaking kayo ay nakarehistro gamit ang tamang pangalan, tirahan, at kaakibat ang partidong pampulitika. Bisitahin ang pahina ng rehistrasyon ng inyong estado upang muling magparehistro o gumawa ng mga pagwawasto.",
+    
+    "title_4": "Baguhin ang Inyong Kaakibat na Partidong Pampulitika",
+    "content_4_part_1": "Piliin ang inyong estado o teritoryo mula sa dropdown na menu para i-tsek ang inyong rehistrasyon ng botante, kasama ang inyong partidong pampulitika kung mayroon kayo nito. Bisitahin ang website ng rehistrasyon ng eleksyon ng inyong estado upang gumawa ng mga pagbabago.",
+    "content_4_part_2": "Depende sa inyong estado, maaari kayong tanungin kung ano ang inyong kaakibat na partido kapag kayo ay nagparehistro para bumoto.",
+    "content_4_part_3": "Ang proseso ng pagboto ay pareho kahit anong partido ang pipiliin ninyo. Maaari kayong palaging bumoto para sa isang kandidato mula sa alinmang partido sa isang pangkalahatang eleksyon na kung kailan ang mga kandidato ay inihahalal sa mga katungkulan. Maaapektuhan lamang ng inyong kaakibat na partido kung sino ang maaari ninyong iboto sa %link%. ",
+    "content_4_part_3_link": "mga pangunahing eleksyon at mga caucus",
+
+    "title_5": "Alamin Kung Paano Kumuha ng Kard ng Rehistrasyon ng Botante",
+    "content_5_part_1": "Kapag kayo ay nagparehistro para bumoto, kayo ay padadalhan ng kard ng rehistrasyon ng botante. Kinukumpirma ng kard na ito na kayo ay nakarehistro at handang bumoto. Karaniwang kasama sa inyong kard ng rehistrasyon ng botante ang inyong pangalan, tirahan, at address ng istasyon ng botohan kung saan kayo boboto.",
+    "content_5_part_2": "Kung nagbago ang inyong pangalan o tirahan, maaaring hindi na kayo handang bumoto. Kapag na-update na ninyo ang inyong impormasyon at muling nakapagparehistro, kung kinakailangan, maaari kayong makatanggap ng bagong kard ng rehistrasyon ng botante, depende sa inyong estado.",
+    "content_5_part_3": "Karaniwang hindi ninyo kailangang dalhin ang inyong kard ng rehistrasyon ng botante para makaboto, ngunit maaaring kailanganin ninyong  magpakita ng iba pang %link%. ",
+    "content_5_part_3_link": "anyo ng ID para bumoto",
+    "content_5_part_4": "Matuto nang higit pa tungkol sa %link%.",
+    "content_5_part_4_link": "rehistrasyon ng botante"
+}
