@@ -1,5 +1,5 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-{{ $aboutSlug := "about-us" }}
+{{ $aboutSlug := "/about-us" }}
 {{ $aboutSlug := cond (eq .Site.Language.Lang "es") "/es/acerca-de-votegov" $aboutSlug }}
 
 <!-- contact START -->
