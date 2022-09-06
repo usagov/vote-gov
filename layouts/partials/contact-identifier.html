@@ -2,7 +2,6 @@
 {{ $aboutSlug := "about-us" }}
 {{ $aboutSlug := cond (eq .Site.Language.Lang "es") "/es/acerca-de-votegov" $aboutSlug }}
 
-{{ .Site.BaseURL }}{{ $aboutSlug }}
 <!-- contact START -->
 <div class="bg-lightblue footer-contact" data-test="footer-contact">
   <div class="grid-container">
