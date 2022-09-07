@@ -13,6 +13,7 @@
   "privacy_policy_link_url": "https://www.usa.gov/policies",
   "twitter_link": "https://twitter.com/votegov",
   "twitter_text": "Theo dõi %Vote.gov% trên Twitter",
+  "about_link": "/about-us",
   "identifier_aria": "Mã xác định cơ quan",
   "identifier_gsa_txt_aria": "Các điểm nhận diên của cơ quan",
   "identifier_gsa_txt": "Một trang web chính thức của %link%",

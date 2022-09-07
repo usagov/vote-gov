@@ -13,6 +13,7 @@
   "your_email_address": "Ingrese su email",
   "usagov_logo_alt_text": "%USA.gov% en español logo",
   "eac_logo_alt_text": "En colaboración con la %U.S. Election Assistance Commission%",
+  "about_link": "/acerca-de-votegov",
   "identifier_aria": "Identificador de la agencia",
   "identifier_gsa_txt_aria": "Descripción de la agencia",
   "identifier_gsa_txt": "Un sitio web oficial de la %link%",

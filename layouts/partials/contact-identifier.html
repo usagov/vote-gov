@@ -1,6 +1,4 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-{{ $aboutSlug := "about-us" }}
-{{ $aboutSlug := cond (eq .Site.Language.Lang "es") "acerca-de-votegov" $aboutSlug }}
 {{ $currentLang := cond (eq .Site.Language.Lang "en") "" .Site.Language.Lang }}
 
 <!-- contact START -->
@@ -42,7 +40,7 @@
     <nav class="grid-row grid-gap identifier" aria-label="{{ $translation.footer.identifier_link_aria }}">
       <div class="tablet:grid-col-3">
         <ul class="usa-list usa-list--unstyled identifier-links">
-          <li><a lang="{{ .Language.Lang | replaceRE "-[a-z]+" "" }}" href="{{ .Site.BaseURL }}/{{ $currentLang }}/{{ $aboutSlug }}">{{ $translation.footer.identifier_link_1 }}</a></li>
+          <li><a lang="{{ .Language.Lang | replaceRE "-[a-z]+" "" }}" href="{{ .Site.BaseURL }}{{ $currentLang }}{{ $translation.footer.about_link }}">{{ $translation.footer.identifier_link_1 }}</a></li>
           <li><a href="https://www.gsa.gov/website-information/accessibility-aids">{{ $translation.footer.identifier_link_2 }}</a></li>
         </ul>
       </div>
