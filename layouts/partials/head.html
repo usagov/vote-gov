@@ -8,7 +8,7 @@
 
 <!-- check if override meta data is available in front matter, if not use page title and description -->
 {{ $meta_title := cond (ne .Params.meta_title nil) .Params.meta_title .Params.Title }}
-{{ $meta_description := cond (ne .Params.meta_description nil) .Params.meta_description .Params.description }}
+{{ $meta_description := cond (ne .Params.meta_description nil) .Params.meta_description .Site.Params.meta__description }}
 
 <!-- check if page type is "register" and use STATE meta data else use DEFAULT meta data -->
 {{ $meta_title := cond (eq .Type "register") $meta_title__register $meta_title }}
