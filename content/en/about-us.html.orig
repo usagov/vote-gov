@@ -1,6 +1,10 @@
 +++
 title = "About Vote.gov"
+<<<<<<< HEAD
 translationKey = "about"
+=======
+description = "Learn more about Vote.gov"
+>>>>>>> origin/staging
 aliases = [
   "/about"
 ]

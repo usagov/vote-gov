@@ -1,6 +1,5 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-{{ $currentLang := cond (eq .Site.Language.Lang "en") "" .Site.Language.Lang }}
-{{ $aboutLink := cond (ne $translation.footer.about_link nil) (print $currentLang $translation.footer.about_link) .Site.Params.globalURL.about_link }}
+{{ $aboutLink := cond (ne $translation.footer.about_link nil) $translation.footer.about_link .Site.Params.globalURL.about_link }}
 
 <!-- contact START -->
 <div class="bg-lightblue footer-contact" data-test="footer-contact">
