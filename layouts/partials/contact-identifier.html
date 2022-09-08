@@ -1,5 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 {{ $aboutLink := cond (ne $translation.footer.about_link nil) $translation.footer.about_link .Site.Params.globalURL.about_link }}
+{{ $currentLang := cond (eq .Site.Language.Lang "en") "" .Site.Language.Lang }}
 
 <!-- contact START -->
 <div class="bg-lightblue footer-contact" data-test="footer-contact">
@@ -40,7 +41,7 @@
     <nav class="grid-row grid-gap identifier" aria-label="{{ $translation.footer.identifier_link_aria }}">
       <div class="tablet:grid-col-3">
         <ul class="usa-list usa-list--unstyled identifier-links">
-          <li><a href="{{ .Site.BaseURL }}{{ $aboutLink }}">{{ $translation.footer.identifier_link_1 }}</a></li>
+          <li><a href="{{ .Site.BaseURL }}{{ $currentLang }}{{ $aboutLink }}">{{ $translation.footer.identifier_link_1 }}</a></li>
           <li><a href="https://www.gsa.gov/website-information/accessibility-aids">{{ $translation.footer.identifier_link_2 }}</a></li>
         </ul>
       </div>
