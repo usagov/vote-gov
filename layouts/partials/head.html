@@ -31,25 +31,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!--  HOME -->
   <title>{{ .Site.Title }} | {{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</title>
   <meta name="description" content="{{ .Site.Params.meta__description }}"/>
-  <meta property="og:title" content="{{ .Site.Params.meta__title }}"/>
+  <meta name="title" property="og:title" content="{{ .Site.Params.meta__title }}"/>
   <meta property="twitter:title" content="{{ .Site.Params.meta__title }}"/>
 
-  <meta property="og:description" content="{{ .Site.Params.meta__description }}"/>
+  <meta name="description" property="og:description" content="{{ .Site.Params.meta__description }}"/>
   <meta property="twitter:description" content="{{ .Site.Params.meta__description }}"/>
 
   {{ else }}
 <!--  NODE -->
   <title>{{ replace $translation.register.state_heading "%state_name%" .Params.state_name }} | {{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</title>
   <meta name="description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
-  <meta property="og:title" content="{{ replace $translation.register.state_heading "%state_name%" .Params.state_name }}" />
+  <meta name="title" property="og:title" content="{{ replace $translation.register.state_heading "%state_name%" .Params.state_name }}" />
   <meta property="twitter:title" content="{{ replace $translation.register.state_heading "%state_name%" .Params.state_name }}" />
 
-  <meta property="og:description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
+  <meta name="description" property="og:description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
   <meta property="twitter:description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
   {{ end }}
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="{{ $envURL }}{{ .Permalink }}"/>
-  <meta property="og:image" content="{{ $envURL }}{{ .Site.BaseURL }}/assets/img/ballot-box-OG.webp"/>
+  <meta name="image" property="og:image" content="{{ $envURL }}{{ .Site.BaseURL }}/assets/img/ballot-box-OG.webp"/>
   <meta property="twitter:image" content="{{ $envURL }}{{ .Site.BaseURL }}/assets/img/ballot-box-OG.webp"/>
 
   <meta name="twitter:card" content="summary_large_image">
