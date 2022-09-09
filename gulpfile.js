@@ -7,7 +7,6 @@ require('./gulp/flags');
 require('./gulp/styles');
 require('./gulp/scripts');
 require('./gulp/images');
-require('./gulp/imagesPNG');
 require('./gulp/fonts');
 require('./gulp/data');
 require('./gulp/deploy');
