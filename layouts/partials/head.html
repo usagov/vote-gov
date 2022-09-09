@@ -2,6 +2,19 @@
 {{ $envURL := ( index $.Site.Params.envURL (os.Getenv "BRANCH") ) }}
 {{ $envURL := cond (eq $envURL nil) $.Site.Params.envURL.fed $envURL }}
 
+<!-- unique state meta data variables -->
+{{ $meta_title__register := replace $translation.register.state_heading "%state_name%" .Params.state_name }}
+{{ $meta_description__register := replace $translation.register.meta_name "%state_name%" .Params.state_name }}
+
+<!-- check if override meta data is available in front matter, if not use page title and description -->
+{{ $meta_title := cond (ne .Params.meta_title nil) .Params.meta_title .Params.Title }}
+{{ $meta_description := cond (ne .Params.meta_description nil) .Params.meta_description .Site.Params.meta__description }}
+
+<!-- check if page type is "register" and use STATE meta data else use DEFAULT meta data -->
+{{ $meta_title := cond (eq .Type "register") $meta_title__register $meta_title }}
+{{ $meta_description := cond (eq .Type "register") $meta_description__register $meta_description }}
+
+
 <!doctype html>
 <html lang="{{ .Site.Language.Lang | replaceRE "-[a-z]+" "" }}" dir="{{ .Site.Params.language_direction }}">
 <head>
@@ -39,13 +52,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   {{ else }}
 <!--  NODE -->
-  <title>{{ replace $translation.register.state_heading "%state_name%" .Params.state_name }} | {{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</title>
-  <meta name="description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
-  <meta name="title" property="og:title" content="{{ replace $translation.register.state_heading "%state_name%" .Params.state_name }}" />
-  <meta property="twitter:title" content="{{ replace $translation.register.state_heading "%state_name%" .Params.state_name }}" />
+  <title>{{ $meta_title }} | {{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</title>
+  <meta name="description" content="{{ $meta_description }}" />
+  <meta property="og:title" content="{{ $meta_title }}" />
+  <meta property="twitter:title" content="{{ $meta_title }}" />
 
-  <meta name="description" property="og:description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
-  <meta property="twitter:description" content="{{ replace $translation.register.meta_name "%state_name%" .Params.state_name }}" />
+  <meta property="og:description" content="{{ $meta_description }}" />
+  <meta property="twitter:description" content="{{ $meta_description }}" />
   {{ end }}
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="{{ $envURL }}{{ .Permalink }}"/>
