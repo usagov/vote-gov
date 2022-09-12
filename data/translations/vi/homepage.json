@@ -21,5 +21,6 @@
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
   "registered_links__process": "Tiến trình bầu cử (bằng tiếng Anh)",
   "registered_links__process_url": "https://www.usa.gov/election",
-  "search_placeholder": "Tìm kiếm Vote.gov"
+  "search_placeholder": "Tìm kiếm Vote.gov",
+  "search_affiliate_translated": true
 }
