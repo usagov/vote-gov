@@ -2,49 +2,47 @@
 @use '../mixins' as *;
 
 .homepage-accordion {
-    color: $darkest-gray;
-    padding-top: 50px;
+  color: $darkest-gray;
+  padding-top: 50px;
 
-    h2 {
-        font-size: 2em;
-        color: $color-blue-dark;
+  h2 {
+    font-size: 2em;
+    color: $color-blue-dark;
+  }
+
+  .usa-accordion__button {
+    font-size: 24px;
+    font-weight: 500;
+    background-color: $light-gray;
+    padding: 1.8rem 0 1.8rem 1.3rem;
+    border-radius: 0.25rem;
+
+    @include hover {
+      background-color: #fff;
+      color: $deep-blue;
     }
 
-    .usa-accordion__button {
-        font-size: 24px;
-        font-weight: 500;
-        background-color: $light-gray;
-        padding: 1.8rem 0 1.8rem 1.3rem;
-        border-radius: .25rem;
-
-        @include hover {
-            background-color: #FFFFFF;
-            color: $deep-blue;   
-        }
-
-        [dir="rtl"] & {
-            background-position: 1rem;
-            text-align: right;
-            padding: 1.8rem 1.25rem 1.8rem 3.5rem;
-        }
-
+    [dir="rtl"] & {
+      background-position: 1rem;
+      text-align: right;
+      padding: 1.8rem 1.25rem 1.8rem 3.5rem;
     }
+  }
 
-    .usa-accordion__button[aria-expanded=true] {
-        background-color: #FFFFFF;
-        color: $deep-blue;
+  .usa-accordion__button[aria-expanded=true] {
+    background-color: #fff;
+    color: $deep-blue;
+  }
+
+  .usa-accordion__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -0.5rem;
+    border-radius: 0.25rem;
+
+    a {
+      color: $blue;
     }
-
-    .usa-accordion__content {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        margin-top: -0.5rem;
-        border-radius: .25rem;
-
-        a {
-        color: $blue;
-        }
-    }
-
+  }
 }
