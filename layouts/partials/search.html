@@ -1,6 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 {{ if $translation.homepage.search_placeholder }}
-{{ $search_affiliate := cond (eq $translation.homepage.search_affiliate_translated true) .Site.Language.Lang "en"}}
+{{ $search_affiliate := cond (eq $translation.homepage.search_affiliate_translated true) (.Site.Language.Lang | replaceRE "-[a-z]+" "") "en"}}
 {{ $search_disclaimer := cond (ne $translation.homepage.search_affiliate_translated true) .Site.Params.english_only ""}}
 <div class="bg-lightblue search-container">
   <div class="grid-container">
