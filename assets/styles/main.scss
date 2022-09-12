@@ -12,19 +12,19 @@
 
 @forward 'usa-header';
 @forward 'usa-accordion';
-@forward 'usa-collection';
-@forward 'usa-footer';
 @forward 'uswds-form-controls';
-@forward 'usa-button';
 @forward 'usa-alert';
 @forward 'usa-banner';
 @forward 'usa-skipnav';
+@forward "usa-link";
 @forward "usa-prose";
 @forward "usa-intro";
 
 @forward 'component/language-switcher';
 @forward 'component/identifier';
 @forward 'component/contact';
+@forward 'component/search';
+@forward 'component/button';
 
 // Variables ------------ //
 
@@ -33,14 +33,17 @@ $font-medium: 400;
 $inner-box-width: 25rem;
 $inner-box-width-state: 35rem;
 $color-blue: #2c7cc7;
-$color-blue-headings: #0071BC;
-$color-blue-dark: #11385B;
+$color-blue-dark: #11385b;
+$color-blue-headings: $color-blue-dark;
 $color-blue-light: #ecf2f8;
 $color-grey: #e1e2e4;
 $color-grey-dark: #4b4b4d;
 $theme-color-base-family: #dcdee0;
 
-p, label#emailsub, .registered-resources li, .updated-date {
+p,
+label#emailsub,
+.registered-resources li,
+.updated-date {
   font-size: 1.06rem;
   line-height: 1.3rem;
 }
@@ -102,6 +105,13 @@ label.max-width-input {
   height: 100%;
 }
 
+.align-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 70%;
+}
+
 .right-shift {
   /*
   move the whole content on the right about 40 pixels to the right
@@ -115,7 +125,7 @@ label.max-width-input {
 .css-arrow {
   position: relative;
 
-  &::after {
+  &:after {
     $arrow-width: 100px;
     $arrow-height: 30px;
     $arrow-half-width: math.div($arrow-width, 2);
@@ -164,7 +174,8 @@ label.max-width-input {
   margin-right: 0;
 }
 
-.usa-button:hover, .usa-button.usa-button--hover {
+.usa-button:hover,
+.usa-button.usa-button--hover {
   color: white;
   background-color: $color-grey-dark;
   border-bottom: 0;
@@ -177,10 +188,6 @@ label.max-width-input {
 
 .banner__text-container {
   flex: 1;
-}
-
-.usa-banner > .usa-accordion {
-  border-bottom: 1px solid black;
 }
 
 .usa-banner__header {
@@ -206,7 +213,7 @@ label.max-width-input {
   border-left: 0;
 }
 
-.usa-alert--info::before {
+.usa-alert--info:before {
   display: none;
 }
 
@@ -237,6 +244,7 @@ label.max-width-input {
     }
   }
 }
+
 .usa-alert--info .usa-alert__body {
   padding: 0 2.5rem;
 }
@@ -309,8 +317,8 @@ $logo-width: 130px;
       bottom: $logo-width * -0.32 + 1;
       right: calc(50% - #{math.div($logo-width, 2)});
       margin-bottom: 0;
-      padding-top: 0px;
-      padding-bottom: 0px;
+      padding-top: 0;
+      padding-bottom: 0;
     }
 
     .logo-text {
@@ -406,111 +414,6 @@ $logo-width: 130px;
   p {
     margin-bottom: 1em;
     margin-top: 0;
-  }
-}
-
-.usa-footer__primary-link {
-  padding-left: 0;
-  padding-right: 0;
-  color: white;
-  font-size: 14pt;
-  display: flex;
-  align-items: center;
-
-  .twitter-img {
-    vertical-align: middle;
-    padding-right: 20px;
-    margin-left: 10px;
-    width: 50px;
-    height: 30px;
-  }
-}
-
-.usa-footer__primary-link :visited {
-  color: white;
-}
-
-.usagov-img {
-  margin-top: 0;
-}
-
-.eac-logo-img {
-  vertical-align: middle;
-
-  @include at-media('tablet') {
-    margin-top: 20%;
-  }
-}
-
-.eac-text {
-  text-decoration: none;
-  color: $color-blue-dark;
-  font-weight: bold;
-  font-size: 1.1em;
-  margin: auto 1rem auto 1rem;
-  padding: 1rem;
-
-  [dir="rtl"] & {
-    margin-left: 10px;
-    margin-right: 0;
-  }
-  @include at-media('tablet') {
-    padding: 0;
-  }
-}
-
-.footer-logos {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.footer-column {
-  text-align: center;
-  width: 100%;
-
-    @include at-media('tablet') {
-      width: auto;
-    }
-}
-
-.footer-links {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-
-  .usa-footer__primary-link {
-    padding-top: 0;
-    padding-bottom: 0;
-    display: inline-flex;
-  }
-
-  @include at-media-max('desktop') {
-    padding-bottom: 2rem;
-  }
-
-  .grid-row {
-    align-items: center;
-
-    @include at-media-max('desktop') {
-      text-align: center;
-
-      > div + div {
-        margin-top: 1rem;
-      }
-    }
-  }
-}
-
-button#touchpoints-form-embed {
-  position: fixed;
-  bottom: 0;
-  right: 30px;
-  border-radius: 0.25rem 0.25rem 0 0;
-
-  @include at-media-max('desktop') {
-    right: 0;
-    left: 0;
-    margin: auto;
-    border-radius: 0;
   }
 }
 

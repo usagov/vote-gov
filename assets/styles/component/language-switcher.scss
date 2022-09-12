@@ -1,0 +1,65 @@
+.language-switcher--container {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  @media (min-width: 800px) {
+    display: none;
+  }
+}
+
+.translations {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+
+  [dir="rtl"] & {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .usa-banner & {
+    @media (max-width: 799px) {
+      display: none;
+    }
+  }
+
+  label.usa-label.usa-label--language {
+    display: inline;
+    font-size: 14px;
+    margin-top: 0;
+    margin-right: 0.5rem;
+    white-space: nowrap;
+
+    [dir="rtl"] & {
+      margin-left: 0.5rem;
+      margin-right: 0;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 16px;
+    }
+  }
+
+  select.usa-select.usa-select--language {
+    display: inline-block;
+    max-width: 200px;
+    background-color: #11385b;
+    background-image: url("../img/unfold_more-white.svg");
+    padding-left: 10px;
+    border-radius: 0.25rem;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 0;
+    text-overflow: ellipsis;
+
+    @media (min-width: 1024px) {
+      max-width: 240px;
+    }
+  }
+}
+
+.translation-link {
+  width: auto;
+}

@@ -16,11 +16,11 @@
           </a>
         </div>
         <div id="skip-target" class="tablet:grid-col-8 right-shift">
-          <header class="align-bottom">
+          <div class="align-bottom">
             <h1 class="main-heading" data-test="main-header">
               {{ replace $translation.register.heading "%state_name%" .Params.state_name }}
             </h1>
-          </header>
+          </div>
         </div>
       </div>
     </div>
@@ -39,19 +39,15 @@
               {{ partial "date.html" . }}
             </time>
           </section>
-          
+
           <p class="arrow-text"><a href="{{ .Site.Home.RelPermalink }}" title="Vote.gov"><span class="arrow direction" data-test="back-button"></span>{{ .Site.Params.go_back }}</a></p>
 
         </div>
       </div>
     </div>
   </div>
-
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
-
 </div>
+{{ partial "footer.html" . }}
 {{ partial "analytics.html" . }}
 {{ partial "scripts.html" . }}
 </body>

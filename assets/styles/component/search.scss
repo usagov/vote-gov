@@ -1,0 +1,45 @@
+@use 'uswds-core' as *;
+@use '../variables' as *;
+@use '../mixins' as *;
+
+.search-container {
+  border-top: 1px solid $dark-cool-gray;
+}
+
+.search-bar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: auto;
+
+  [dir="rtl"] & {
+    margin-left: unset;
+    margin-right: auto;
+  }
+
+  @include at-media('tablet') {
+    max-width: 340px;
+  }
+
+  .usa-button {
+    background-color: $gray;
+    border-radius: 0 7px 7px 0;
+
+    @include hover {
+      background-color: $gray;
+    }
+
+    [dir="rtl"] & {
+      border-radius: 7px 0 0 7px;
+    }
+  }
+
+  .usa-input {
+    border: 1px solid $gray;
+    border-radius: 7px 0 0 7px;
+    max-width: none;
+
+    [dir="rtl"] & {
+      border-radius: 0 7px 7px 0;
+    }
+  }
+}

@@ -20,5 +20,6 @@
   "registered_links__voterid": "ល័ក្ខខ័ណ្ឌតម្រូវ ID អ្នកបោះឆ្នោត (ជាភាសាអង់គ្លេស)",
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
   "registered_links__process": "ដំណើការបោះឆ្នោត (ជាភាសាអង់គ្លេស)",
-  "registered_links__process_url": "https://www.usa.gov/election"
+  "registered_links__process_url": "https://www.usa.gov/election",
+  "search_placeholder": "ស្រាវជ្រាវរក Vote.gov"
 }

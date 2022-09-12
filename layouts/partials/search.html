@@ -1,0 +1,38 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+{{ if $translation.homepage.search_placeholder }}
+{{ $search_affiliate := cond (eq $translation.homepage.search_affiliate_translated true) .Site.Language.Lang "en"}}
+{{ $search_disclaimer := cond (ne $translation.homepage.search_affiliate_translated true) .Site.Params.english_only ""}}
+<div class="bg-lightblue search-container">
+  <div class="grid-container">
+    <form class="usa-search usa-search--small search-bar" role="search" id="search_form"
+          action="https://search.vote.gov/search" accept-charset="UTF-8" method="get">
+      <input
+        type="hidden"
+        name="affiliate"
+        id="affiliate"
+        value="vote_{{ $search_affiliate }}"
+        autocomplete="off"
+      />
+
+      <label class="usa-sr-only" for="search-field-en-small">{{ $translation.homepage.search_placeholder }} {{ $search_disclaimer }}</label>
+
+      <input
+        class="usa-input"
+        id="search-field-en-small"
+        type="search"
+        name="query"
+        autocomplete="off"
+        placeholder="{{ $translation.homepage.search_placeholder }} {{ $search_disclaimer }}"
+      />
+
+      <button class="usa-button" type="submit" name="commit" data-disable-with="Search">
+        <img
+          src="{{ .Site.BaseURL }}/assets/img/usa-icons-bg/search--white.svg"
+          class="usa-search__submit-icon"
+          alt="{{ $translation.homepage.search_placeholder }} {{ $search_disclaimer }}"
+        />
+      </button>
+    </form>
+  </div>
+</div>
+{{ end }}

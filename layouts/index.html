@@ -10,6 +10,7 @@
   <!-- End Google Tag Manager (noscript) -->
 
   {{ partial "header.html" . }}
+
   <div class="page-vote-main" id="main" role="main">
 
     <div class="bg-blue css-arrow">
@@ -85,22 +86,11 @@
         </div>
       </div>
     </div>
-
-
-
-    <div class="grid-container" id="main-content">
-
-
-    </div>
-
-    <!-- Footer BEGIN -->
-    <footer>
-
-      {{ partial "footer.html" . }}
-    </footer>
-    <!-- Footer END -->
-
   </div>
+
+  <!-- Footer BEGIN -->
+  {{ partial "footer.html" . }}
+  <!-- Footer END -->
 
   <script type="text/javascript">
     document.getElementById('register').onsubmit = function (ev) {

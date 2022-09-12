@@ -1,8 +1,12 @@
 @use 'uswds-core' as *;
 
+@forward 'usa-footer';
+
 .footer-identifier {
+  background-color: #4b4b4d;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  color: #fff;
 
   @include at-media-max('desktop') {
     padding-bottom: 4rem;
@@ -37,6 +41,8 @@
 
     a {
       text-decoration: none;
+      word-break: keep-all;
+      line-break: strict;
 
       &:focus,
       &:hover {
@@ -47,7 +53,7 @@
 }
 
 .identifier-gov-info {
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid #fff;
   padding-top: 1rem;
 }
 

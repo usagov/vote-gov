@@ -172,7 +172,7 @@
       "skip_text": "跳到主要內容",
       "meta__title": "登記投票",
       "meta__description": "查找您所在州的選民登記選項。",
-      "english_only": "（英語）",
+      "english_only": "(英語)",
       "last_updated": "最近更新時間：",
       "select_language": "選擇語言 %dropdown-list%",
       "english_languageName": "Chinese - Traditional"
@@ -196,6 +196,26 @@
       "last_updated": "最近更新时间：",
       "select_language": "选择语言",
       "english_languageName": "Chinese - Simplified"
+    }
+  },
+  "ypk": {
+    "contentDir": "content/ypk",
+    "title": "Nakmikimun Ilatelleq",
+    "languageName": "Yup'ik",
+    "weight": 12,
+    "params": {
+      "Owner": "%Vote.gov% Akuzipigestun",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/ypk",
+      "register_path": "register",
+      "go_back": "Uteghten",
+      "skip_text": "Naghughaghten pighpigaghmun",
+      "meta__title": "Ilaten Nakmikiyaghqaaghhnaluten",
+      "meta__description": "Ivaghqi nakmikilleghqamun ilatusit state-egpeni",
+      "english_only": "(Laluramkestun)",
+      "last_updated": "Kingulighmi Nutaghtekat:",
+      "select_language": "Ulu nakmiighhu %dropdown-list%",
+      "english_languageName": ""
     }
   }
 }

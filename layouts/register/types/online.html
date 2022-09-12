@@ -3,9 +3,13 @@
 {{ $online_answer2 := replace $translation.register.online__answer2 "%link%" (partial "links/online-answer2-link.html" .) }}
 
 {{ $onlineDeadline := cond (ne .Params.online_deadline nil) .Params.online_deadline .Params.default_online_deadline }}
-{{ $postmarkedDeadline := cond (ne .Params.mail_postmarked_deadline nil) .Params.mail_postmarked_deadline .Params.default_mail_postmarked_deadline }}
-{{ $ipDeadline := cond (ne .Params.ip_deadline nil) .Params.ip_deadline .Params.default_ip_deadline }}
 {{ $dates__electionday := cond (ne .Params.dates__electionday nil) .Params.dates__electionday $translation.register.dates__electionday }}
+
+<h2>{{ replace $translation.register.online__h2_question1 "%state_name%" .Params.state_name }}</h2>
+
+<p class="reg-link">{{ replace $online_answer1 "%state_name%" .Params.state_name | safeHTML }}</p>
+<p class="reg-link">{{ replace $online_answer2 "%state_name%" .Params.state_name | safeHTML }}</p>
+{{ partial "deadlines.html" . }}
 
 <script type="application/ld+json">
   {
@@ -17,41 +21,28 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": {{ replace $online_answer1 "%state_name%" .Params.state_name | safeHTML }}
-      }
+    }
     },{
         "@type": "Question",
         "name": "{{ replace $translation.register.online__h2_question2 "%state_name%" .Params.state_name }}",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": {{ replace $online_answer2 "%state_name%" .Params.state_name | safeHTML }}
-      }
+    }
     },{
         "@type": "Question",
         "name": "{{ replace $translation.register.dates__heading "%state_name%" .Params.state_name }}",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "{{ replace $translation.register.dates__byonline_deadline "%online_deadline%" $onlineDeadline }}<br><br>{{ replace $translation.register.dates__bymail_deadline "%mail_postmarked_deadline%" $postmarkedDeadline }}<br><br>{{ replace $translation.register.dates__inperson_deadline "%ip_deadline%" $ipDeadline }}"
+          "text": "{{ $translation.register.dates__byonline_deadline }} {{ $onlineDeadline }}"
         }
-      },{
+      }{{ if $dates__electionday }},{
         "@type": "Question",
         "name": "{{ replace $translation.register.dates__electionday_heading "%state_name%" .Params.state_name }}",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "{{ $dates__electionday }}"
         }
-      }]
+      }{{ end }}]
   }
 </script>
-
-<header>
-  <h2>
-    {{ replace $translation.register.online__h2_question1 "%state_name%" .Params.state_name }}
-  </h2>
-</header>
-<p class="reg-link">
-  {{ replace $online_answer1 "%state_name%" .Params.state_name | safeHTML }}
-</p>
-<p class="reg-link">
-  {{ replace $online_answer2 "%state_name%" .Params.state_name | safeHTML }}
-</p>
-{{ partial "deadlines.html" . }}
