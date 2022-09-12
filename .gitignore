@@ -9,6 +9,7 @@ Thumbs.db
 *.sublime-workspace
 .svn
 .idea
+*.orig
 
 # Node modules
 node_modules/
