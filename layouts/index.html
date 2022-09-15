@@ -54,12 +54,19 @@
     </div>
 
     <div class="bg-lightblue">
-      <div class="grid-container">
+      <div class="grid-container homepage-accordion">
         <div class="grid-row grid-gap">
           <div class="tablet:grid-col-4">
 
           </div>
           <div class="tablet:grid-col-8 right-shift">
+
+            {{ if $translation.accordion }}
+            <section>
+              {{ partial "accordion.html" . }}
+            </section>
+            {{end}}
+
             <section class="page-section registered" id="already-registered">
               <header>
                 <h2 class="content-heading">{{ $translation.homepage.registered__header }}</h2>
