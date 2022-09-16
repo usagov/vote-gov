@@ -3,6 +3,14 @@
     "language": "English",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_ENG.pdf"
   },
+  "amh": {
+    "language": "Amharic",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_AMH.pdf"
+  },
+  "apa": {
+    "language": "Apache",
+    "file_path": "https://www.eac.gov/national-mail-voter-registration-form-and-state-instructions-audio-files-apache"
+  },
   "ar": {
     "language": "Arabic",
     "file_path": "https://www.eac.gov/sites/default/files/nvra_translations/Federal_Voter_Registration_ARA.pdf"
@@ -39,6 +47,14 @@
     "language": "Korean",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_KOR.pdf"
   },
+  "nv": {
+    "language": "Navajo",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_NAV.pdf"
+  },
+  "pl": {
+    "language": "Polish",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_POL.pdf"
+  },
   "pt": {
     "language": "Portuguese",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_POR.pdf"
@@ -46,6 +62,10 @@
   "ru": {
     "language": "Russian",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_RUS.pdf"
+  },
+  "so": {
+    "language": "Somali",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_SOM.pdf"
   },
   "es": {
     "language": "Español",
@@ -58,5 +78,9 @@
   "vi": {
     "language": "Vietnamese",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_VIE.pdf"
+  },
+  "ypk": {
+    "language": "Yup'ik",
+    "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_YPK.pdf"
   }
 }
