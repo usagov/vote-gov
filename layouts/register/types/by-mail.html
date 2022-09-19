@@ -5,7 +5,13 @@
 {{ $receivedDeadline := cond (ne .Params.mail_received_deadline nil) .Params.mail_received_deadline .Params.default_mail_received_deadline }}
 {{ $dates__electionday := cond (ne .Params.dates__electionday nil) .Params.dates__electionday $translation.register.dates__electionday }}
 
-<h2>{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}</h2>
+<h2>
+  {{ if and (eq .Site.Language.Lang "ko") (eq .Params.is_state "false") }}
+    {{ replace $translation.register.heading2_territory "%state_name%" .Params.state_name }}
+  {{ else }}
+    {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
+  {{ end }}  
+</h2>
 
 <p>{{ replace $by_mail_intro "%state_name%" .Params.state_name | safeHTML }}</p>
 
