@@ -1,9 +1,8 @@
 @use '../variables' as *;
 @use '../mixins' as *;
 
-.homepage-accordion {
+.accordion {
   color: $darkest-gray;
-  padding-top: 50px;
 
   h2 {
     font-size: 2em;
@@ -15,7 +14,6 @@
     font-weight: 500;
     background-color: $light-gray;
     padding: 1.8rem 3.5rem 1.8rem 1.3rem;
-    border-radius: 0.25rem;
 
     @include hover {
       background-color: #fff;
@@ -39,10 +37,19 @@
     font-size: 16px;
     line-height: 24px;
     margin-top: -0.5rem;
-    border-radius: 0.25rem;
 
     a {
       color: $blue;
     }
   }
+}
+
+.slick-acc {
+  .usa-accordion__button{
+  font-size: 18px;
+  }
+}
+
+.homepage-acc {
+  padding-top: 50px;
 }

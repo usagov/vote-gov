@@ -418,31 +418,6 @@ $logo-width: 130px;
   }
 }
 
-.usa-accordion--bordered {
-  .usa-prose > * + & {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .usa-accordion__heading {
-    font-size: 1.2rem;
-  }
-
-  .usa-accordion__content + .usa-accordion__heading {
-    margin-top: 2rem;
-  }
-
-  .bg-lightblue & {
-    .usa-accordion__button {
-      background-color: #d9e8f6;
-    }
-
-    .usa-accordion__content {
-      border: 0;
-    }
-  }
-}
-
 .usa-prose .usa-collection__item {
   border-top: 0;
 }
