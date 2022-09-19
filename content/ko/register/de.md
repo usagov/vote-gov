@@ -2,6 +2,7 @@
 
 state_name = "Delaware"
 state_abbreviation = "de"
+is_state = "true"
 registration_type = "online"
 translationKey = "Delaware"
 type = "register"

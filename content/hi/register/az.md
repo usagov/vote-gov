@@ -2,6 +2,7 @@
 
 state_name = "Arizona"
 state_abbreviation = "az"
+is_state = "true"
 registration_type = "online"
 translationKey = "Arizona"
 type = "register"

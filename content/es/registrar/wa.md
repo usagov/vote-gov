@@ -2,6 +2,7 @@
 
 state_name = "Washington"
 state_abbreviation = "wa"
+is_state = "true"
 registration_type = "online"
 translationKey = "Washington"
 type = "register"

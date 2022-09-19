@@ -2,6 +2,7 @@
 
 state_name = "Illinois"
 state_abbreviation = "il"
+is_state = "true"
 registration_type = "online"
 translationKey = "Illinois"
 type = "register"

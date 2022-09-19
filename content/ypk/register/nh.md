@@ -2,6 +2,7 @@
 
 state_name = "New Hampshire"
 state_abbreviation = "nh"
+is_state = "true"
 registration_type = "in-person"
 translationKey = "New Hampshire"
 type = "register"
