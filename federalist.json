@@ -1,0 +1,24 @@
+{
+    "headers": [
+      {
+        "/*.html": {
+          "cache-control": "max-age=1209600"
+        }
+      },
+      {
+        "/*.js": {
+          "cache-control": "max-age=1209600"
+        }
+      },
+      {
+        "/*.scss": {
+          "cache-control": "max-age=1209600"
+        }
+      },
+      {
+        "/static/*": {
+          "cache-control": "max-age=1209600"
+        }
+      }
+    ]
+  }
