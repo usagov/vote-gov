@@ -1,0 +1,9 @@
+{
+  "headers": [
+    {
+      "/*": {
+        "cache-control": "max-age=1209600"
+      }
+    }
+  ]
+}
