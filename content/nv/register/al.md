@@ -1,0 +1,27 @@
++++
+
+state_name = "Alabama"
+state_abbreviation = "al"
+registration_type = "online"
+translationKey = "Alabama"
+type = "register"
+hp_link = "https://www.sos.alabama.gov/alabama-votes"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link = "https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action"
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link = "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote"
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+online_deadline = "Monday, October 24, 2022"
+ip_deadline = "Monday, October 24, 2022"
+mail_postmarked_deadline = "Must be postmarked by Monday, October 24, 2022"
+confirm_registration_link = "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do"
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "15 days before Election Day"
+default_online_deadline = "15 days before Election Day"
+default_mail_postmarked_deadline = "Must be postmarked 15 days before Election Day"
+
++++

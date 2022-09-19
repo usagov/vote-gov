@@ -217,5 +217,24 @@
       "select_language": "Ulu nakmiighhu %dropdown-list%",
       "english_languageName": ""
     }
+  },
+  "nv": {
+    "contentDir": "content/nv",
+    "title": "Check Voter Registration Deadlines and Laws in Your State",
+    "languageName": "Diné",
+    "weight": 1,
+    "params": {
+      "Owner": "%Vote.gov%",
+      "language_direction": "ltr",
+      "register_path": "register",
+      "go_back": "Go back",
+      "skip_text": "Skip to main content",
+      "meta__title": "Check Voter Registration Deadlines and Laws in Your State",
+      "meta__description": "Official voter registration website of the US federal government. Register to vote. Learn the voting registration deadlines and laws in your state.",
+      "english_only": "",
+      "last_updated": "Last Updated: ",
+      "select_language": "Select Language",
+      "english_languageName": "Navajo"
+    }
   }
 }

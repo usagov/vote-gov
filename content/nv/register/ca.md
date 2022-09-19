@@ -1,0 +1,27 @@
++++
+
+state_name = "California"
+state_abbreviation = "ca"
+registration_type = "online"
+translationKey = "California"
+type = "register"
+hp_link = "https://www.sos.ca.gov/elections"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link = "https://registertovote.ca.gov/"
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link = "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote"
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+online_deadline = "Monday, October 24, 2022"
+ip_deadline = "Tuesday, November 8, 2022"
+mail_postmarked_deadline = "Must be postmarked by Monday, October 24, 2022"
+confirm_registration_link = "https://registertovote.ca.gov/"
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "Available up to and including on Election Day"
+default_online_deadline = "15 days before Election Day"
+default_mail_postmarked_deadline = "Must be postmarked 15 days before Election Day"
+
++++

@@ -1,0 +1,27 @@
++++
+
+state_name = "Pennsylvania"
+state_abbreviation = "pa"
+registration_type = "online"
+translationKey = "Pennsylvania"
+type = "register"
+hp_link = "https://www.pa.gov/guides/voting-and-elections/"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link = "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx"
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link = "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote"
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+online_deadline = "Monday, October 24, 2022"
+ip_deadline = "Monday, October 24, 2022"
+mail_received_deadline = "Must be received by Monday, October 24, 2022"
+confirm_registration_link = "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "15 days before Election Day"
+default_online_deadline = "15 days before Election Day"
+default_mail_received_deadline = "Must be received 15 days before Election Day"
+
++++

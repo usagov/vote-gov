@@ -1,0 +1,27 @@
++++
+
+state_name = "Massachusetts"
+state_abbreviation = "ma"
+registration_type = "online"
+translationKey = "Massachusetts"
+type = "register"
+hp_link = "https://www.sec.state.ma.us/ele/eleidx.htm"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link = "https://www.sec.state.ma.us/ovr/"
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link = "https://www.sec.state.ma.us/ele/eleifv/howreg.htm"
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+online_deadline = "Saturday, October 29, 2022"
+ip_deadline = "Saturday, October 29, 2022"
+mail_postmarked_deadline = "Must be postmarked by Saturday, October 29, 2022"
+confirm_registration_link = "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "20 days before Election Day"
+default_online_deadline = "20 days before Election Day"
+default_mail_postmarked_deadline = "Must be postmarked 20 days before Election Day"
+
++++

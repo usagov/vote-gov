@@ -1,0 +1,26 @@
++++
+
+state_name = "Hawaii"
+state_abbreviation = "hi"
+registration_type = "online"
+translationKey = "Hawaii"
+type = "register"
+hp_link = "https://elections.hawaii.gov/"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link = "https://olvr.hawaii.gov/"
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link = "https://elections.hawaii.gov/voters/registration/"
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+ip_deadline = "Tuesday, November 8, 2022"
+online_deadline = "Tuesday, November 08, 2022"
+mail_postmarked_deadline = "Must be postmarked by Monday, October 31, 2022"
+confirm_registration_link = "https://olvr.hawaii.gov/"
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "Available up to and including on Election Day"
+default_online_deadline = "30 days before Election Day"
+
++++

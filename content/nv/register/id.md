@@ -1,0 +1,27 @@
++++
+
+state_name = "Idaho"
+state_abbreviation = "id"
+registration_type = "online"
+translationKey = "Idaho"
+type = "register"
+hp_link = "https://idahovotes.gov/"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link = "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/ApplicationInstructions.aspx"
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link = "https://idahovotes.gov/voting/"
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+ip_deadline = "Tuesday, November 8, 2022"
+online_deadline = "Friday, October 14, 2022"
+mail_postmarked_deadline = "Must be postmarked by Friday, October 14, 2022"
+confirm_registration_link = "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx"
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "Available up to and including on Election Day"
+default_online_deadline = "25 days before Election Day"
+default_mail_postmarked_deadline = "Must be postmarked 25 days before Election Day"
+
++++
