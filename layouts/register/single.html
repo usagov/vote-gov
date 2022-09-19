@@ -19,7 +19,7 @@
           <div class="align-bottom">
             <h1 class="main-heading" data-test="main-header">
              <!--if the page is in Korean, and the state is a territory, do not show the Korean "state" character-->
-              {{ if and (eq .Site.Language.Lang "ko") (ne .Params.is_state true) }}
+              {{ if and (eq .Site.Language.Lang "ko") (eq .Params.is_state "false") }}
                 {{ replace $translation.register.heading_territory "%state_name%" .Params.state_name }}
               {{ else }}
                 {{ replace $translation.register.heading "%state_name%" .Params.state_name }}
