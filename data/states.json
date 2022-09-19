@@ -4,7 +4,19 @@
     "state_abbreviation": "al",
     "registration_type": "online",
     "translationKey": "Alabama",
-    "type": "register"
+    "type": "register",
+    "online_deadline": {
+      "weekday": "Monday",
+      "month": "October",
+      "day_num": "24",
+      "year": "2022"
+    },
+    "id_deadline": {
+      "weekday": "Monday",
+      "month": "October",
+      "day_num": "24",
+      "year": "2022"
+    }
   },
   "ak": {
     "state_name": "Alaska",
