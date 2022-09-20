@@ -4,7 +4,14 @@
 
 <!-- unique state meta data variables -->
 {{ $meta_title__register := replace $translation.register.state_heading "%state_name%" .Params.state_name }}
+{{ if and (isset $translation.register "state_heading_territory") (eq .Params.is_state "false") }}
+  {{ $meta_title__register := replace $translation.register.state_heading_territory "%state_name%" .Params.state_name }}
+{{ end }}
+
 {{ $meta_description__register := replace $translation.register.meta_name "%state_name%" .Params.state_name }}
+{{ if and (isset $translation.register "meta_name_territory") (eq .Params.is_state "false") }}
+  {{ $meta_title__register := replace $translation.register.meta_name_territory "%state_name%" .Params.state_name }}
+{{ end }}
 
 <!-- check if override meta data is available in front matter, if not use page title and description -->
 {{ $meta_title := cond (ne .Params.meta_title nil) .Params.meta_title .Params.Title }}
