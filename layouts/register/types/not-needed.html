@@ -3,8 +3,13 @@
 
 {{ $dates__electionday := cond (ne .Params.dates__electionday nil) .Params.dates__electionday $translation.register.dates__electionday }}
 
-<h2>{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}</h2>
-
+<h2>
+  {{ if and (isset $translation.register "online__h2_question1_territory") (eq .Params.is_state "false") }}
+    {{ replace $translation.register.heading2_territory "%state_name%" .Params.state_name }}
+  {{ else }}
+    {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
+  {{ end }}  
+</h2>
 <p>{{ replace $not_needed_intro "%state_name%" .Params.state_name | safeHTML }}</p>
 
 {{ partial "deadlines.html" . }}
