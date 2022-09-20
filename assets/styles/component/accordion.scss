@@ -9,6 +9,10 @@
     color: $color-blue-dark;
   }
 
+  .usa-accordion__heading:not(:first-child) {
+    margin-top: 1rem;
+  }
+
   .usa-accordion__button {
     font-size: 24px;
     font-weight: 500;
@@ -37,6 +41,7 @@
     font-size: 16px;
     line-height: 24px;
     margin-top: -0.5rem;
+    padding-bottom: 1.25rem;
 
     a {
       color: $blue;
@@ -45,8 +50,8 @@
 }
 
 .slick-acc {
-  .usa-accordion__button{
-  font-size: 18px;
+  .usa-accordion__button {
+    font-size: 18px;
   }
 }
 
