@@ -9,6 +9,21 @@
       "/*.js": {
         "cache-control": "max-age=1209600"
       }
+    },
+    {
+      "/*.woff2": {
+        "cache-control": "max-age=1209600"
+      }
+    },
+    {
+      "/*.svg": {
+        "cache-control": "max-age=1209600"
+      }
+    },
+    {
+      "/*.webp": {
+        "cache-control": "max-age=1209600"
+      }
     }
   ]
 }
