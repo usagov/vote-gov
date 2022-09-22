@@ -1,0 +1,19 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+
+{{ $time := (time .date) }}
+
+{{ $day := index $translation.day_number (string $time.Day) }}
+{{ $month := index $translation.months (string (lower $time.Month)) }}
+{{ $year := index $translation.years (string $time.Year) }}
+{{ $weekday := index $translation.years (string $time.Weekday) }}
+
+<!-- If the localized version is incorrect make a language specific format -->
+{{ if eq .Site.Language.Lang "bn" }}
+  {{ $day }} {{ $month }} {{ $year }}
+{{ else if eq .Site.Language.Lang "ypk" }}
+  {{ $month }} {{ .Lastmod.Day }} {{ $year }}
+{{ else if eq .Site.Language.Lang "zh-hans" }}
+  {{ $year }} {{ $month }} {{ $day }}
+{{ else }}
+  {{ $time | time.Format ":date_full" }}
+{{end}}
