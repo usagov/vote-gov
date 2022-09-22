@@ -18,7 +18,12 @@
         <div id="skip-target" class="tablet:grid-col-8 right-shift">
           <div class="align-bottom">
             <h1 class="main-heading" data-test="main-header">
-              {{ replace $translation.register.heading "%state_name%" .Params.state_name }}
+             <!--if the page is in Korean, and the state is a territory, do not show the Korean "state" character-->
+              {{ if and (isset $translation.register "heading_territory") (eq .Params.is_state "false") }}
+                {{ replace $translation.register.heading_territory "%state_name%" .Params.state_name }}
+              {{ else }}
+                {{ replace $translation.register.heading "%state_name%" .Params.state_name }}
+              {{ end }}
             </h1>
           </div>
         </div>

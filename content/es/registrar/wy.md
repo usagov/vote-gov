@@ -2,6 +2,7 @@
 
 state_name = "Wyoming"
 state_abbreviation = "wy"
+is_state = "true"
 registration_type = "by-mail"
 translationKey = "Wyoming"
 national_voter_registration_form_accepted = "false"

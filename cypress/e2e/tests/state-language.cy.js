@@ -73,7 +73,7 @@ cy.visit("localhost:1313/register/as/")
 
   // Test Korean.
   cy.get('[data-test="language-switcher"]').select("한국어 (Korean)")
-  cy.get('[data-test="main-header"]').should('contain','American Samoa 주 유권자 등록 안내 ')
+  cy.get('[data-test="main-header"]').should('contain','American Samoa 유권자 등록 안내 ')
 
   // Test Tagalog.
   cy.get('[data-test="language-switcher"]').select("Tagalog")

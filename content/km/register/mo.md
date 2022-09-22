@@ -2,6 +2,7 @@
 
 state_name = "Missouri"
 state_abbreviation = "mo"
+is_state = "true"
 registration_type = "online"
 translationKey = "Missouri"
 type = "register"

@@ -2,6 +2,7 @@
 
 state_name = "Northern Mariana Islands"
 state_abbreviation = "mp"
+is_state = "false"
 registration_type = "in-person"
 translationKey = "Northern Mariana Islands"
 type = "register"

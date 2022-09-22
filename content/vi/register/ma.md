@@ -2,6 +2,7 @@
 
 state_name = "Massachusetts"
 state_abbreviation = "ma"
+is_state = "true"
 registration_type = "online"
 translationKey = "Massachusetts"
 type = "register"
