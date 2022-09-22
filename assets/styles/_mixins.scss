@@ -1,0 +1,7 @@
+// Define a mixin for declaring hover and focus state together.
+@mixin hover {
+  &:hover,
+  &:focus {
+    @content;
+  }
+}

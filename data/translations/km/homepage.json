@@ -21,5 +21,6 @@
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
   "registered_links__process": "ដំណើការបោះឆ្នោត (ជាភាសាអង់គ្លេស)",
   "registered_links__process_url": "https://www.usa.gov/election",
-  "search_placeholder": "ស្រាវជ្រាវរក Vote.gov"
+  "search_placeholder": "ស្រាវជ្រាវរក Vote.gov",
+  "search_affiliate_translated": true
 }

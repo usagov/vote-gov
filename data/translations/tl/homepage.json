@@ -21,5 +21,6 @@
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
   "registered_links__process": "Proseso ng eleksyon (sa Ingles)",
   "registered_links__process_url": "https://www.usa.gov/election",
-  "search_placeholder": "I-search ang Vote.gov"
+  "search_placeholder": "I-search ang Vote.gov",
+  "search_affiliate_translated": true
 }
