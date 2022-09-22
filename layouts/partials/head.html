@@ -1,6 +1,7 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 {{ $envURL := ( index $.Site.Params.envURL (os.Getenv "BRANCH") ) }}
 {{ $envURL := cond (eq $envURL nil) $.Site.Params.envURL.fed $envURL }}
+{{ $queryNum := substr (md5 now.Unix) 0 9 }}
 
 <!-- unique state meta data variables -->
 {{ $meta_title__register := replace $translation.register.state_heading "%state_name%" .Params.state_name }}
@@ -104,7 +105,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <!-- CSS
   ================================================== -->
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/styles/main.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/styles/main.css?v={{ $queryNum }}">
 
   <!-- Crazy Egg  -->
   <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0007/9651.js" async="async" ></script>
