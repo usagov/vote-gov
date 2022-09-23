@@ -5,15 +5,17 @@
 {{ $day := index $translation.day_number (string $time.Day) }}
 {{ $month := index $translation.months (string (lower $time.Month)) }}
 {{ $year := index $translation.years (string $time.Year) }}
-{{ $weekday := index $translation.years (string $time.Weekday) }}
+{{ $weekday := index $translation.days (string (lower $time.Weekday)) }}
 
 <!-- If the localized version is incorrect make a language specific format -->
 {{ if eq .Site.Language.Lang "bn" }}
-  {{ $day }} {{ $month }} {{ $year }}
+  {{ $weekday }} {{ $day }} {{ $month }} {{ $year }}
 {{ else if eq .Site.Language.Lang "ypk" }}
-  {{ $month }} {{ .Lastmod.Day }} {{ $year }}
+  {{ $weekday }} {{ $month }} {{ $day }} {{ $year }}
 {{ else if eq .Site.Language.Lang "zh-hans" }}
-  {{ $year }} {{ $month }} {{ $day }}
+  {{ $year }}{{ $month }}{{ $day }}{{ $weekday }}
+{{ else if eq .Site.Language.Lang "tl" }}
+  {{ $weekday }}, ika-{{ $day }} ng {{ $month }} {{ $year }}
 {{ else }}
   {{ $time | time.Format ":date_full" }}
 {{end}}
