@@ -1,6 +1,8 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 {{ $postmarkedDeadline := cond (ne .Params.mail_postmarked_deadline nil) .Params.mail_postmarked_deadline .Params.default_mail_postmarked_deadline }}
 {{ $receivedDeadline := cond (ne .Params.mail_received_deadline nil) .Params.mail_received_deadline .Params.default_mail_received_deadline }}
+{{ $onlineDeadline := cond (ne .Params.online_date nil) (partial "date-format-online.html" .) .Params.default_online_deadline }}
+{{ $ipDeadline := cond (ne .Params.ip_deadline nil) (partial "date-format-ip.html" .) .Params.default_ip_deadline }}
 
 {{ if ne .Params.registration_type "not-needed" }}
 	<header>
@@ -11,9 +13,7 @@
 {{end}}
 
 <ul class="registered-resources">
-{{ if ne .Params.online_deadline nil }}
-	{{ $dateFormatted := partial "date-format-online.html" . }}
-	{{ $onlineDeadline := cond (ne .Params.online_deadline nil) $dateFormatted .Params.default_online_deadline }}
+{{ if $onlineDeadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__byonline_deadline }}</span>
 			{{ $onlineDeadline }}
@@ -34,9 +34,7 @@
 		</li>
 	{{end}}
 
-{{ if ne .Params.ip_deadline nil }}
-	{{ $dateFormatted := partial "date-format-ip.html" . }}
-	{{ $ipDeadline := cond (ne .Params.ip_deadline nil) $dateFormatted .Params.default_ip_deadline }}
+{{ if $ipDeadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__inperson_deadline }}</span>
 			{{ $ipDeadline }}
