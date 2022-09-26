@@ -45,8 +45,8 @@
   "ar": {
     "hp_link": "https://www.sos.arkansas.gov/elections/",
     "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
-    "ip_deadline": "ថ្ងៃច័ន្ទ 10 ខែតុលា 2022",
-    "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃច័ន្ទ 10 ខែតុលា 2022",
+    "ip_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
+    "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "confirm_registration_link": "https://www.voterview.ar-nova.org/voterview"
@@ -233,7 +233,7 @@
     "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
     "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
     "ip_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃពុធ 19 ខែតុលា 2022",
+    "online_deadline": "ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "20 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
