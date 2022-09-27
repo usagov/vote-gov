@@ -322,7 +322,7 @@
   "mt": {
     "hp_link": "https://sosmt.gov/elections/",
     "more_info_link": "https://sosmt.gov/elections/vote/",
-    "ip_deadline": "2022年11月7日星期一",
+    "ip_deadline": "2022年11月7日星期一 12:00 PM",
     "mail_postmarked_deadline": "郵戳為憑2022年10月11日星期二",
     "confirm_registration_link": "https://sosmt.gov/elections/vote/",
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
@@ -399,7 +399,7 @@
     "hp_link": "https://www.ncsbe.gov/voting",
     "registration_link": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
     "more_info_link": "https://www.ncsbe.gov/registering/how-register",
-    "ip_deadline": "2022年11月5日星期六",
+    "ip_deadline": "2022年11月5日星期六 3:00 PM",
     "online_deadline": "2022年10月14日星期五",
     "mail_postmarked_deadline": "郵戳為憑2022年10月14日星期五",
     "confirm_registration_link": "https://vt.ncsbe.gov/RegLkup/",
