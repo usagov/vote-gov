@@ -8,7 +8,7 @@
   text-decoration: none;
   color: black;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 1.5rem;
 
   &:focus,
@@ -59,7 +59,7 @@
   }
 
   .vote-txt {
-    color: $bright-blue;
+    color: $color-blue-headings;
     font-weight: 700;
     font-size: 15px;
     text-align: center;
@@ -68,7 +68,7 @@
   .partnership-txt {
     color: $blue-black;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 18px;
     padding: 1rem;
 
     @media (min-width: 639px) {
