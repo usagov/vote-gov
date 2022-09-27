@@ -2,6 +2,7 @@
 
 state_name = "Iowa"
 state_abbreviation = "ia"
+is_state = "true"
 registration_type = "online"
 translationKey = "Iowa"
 type = "register"

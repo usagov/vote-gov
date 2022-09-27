@@ -2,6 +2,7 @@
 
 state_name = "North Carolina"
 state_abbreviation = "nc"
+is_state = "true"
 registration_type = "online"
 translationKey = "North Carolina"
 type = "register"

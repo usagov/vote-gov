@@ -2,6 +2,7 @@
 
 state_name = "Alabama"
 state_abbreviation = "al"
+is_state = "true"
 registration_type = "online"
 translationKey = "Alabama"
 type = "register"

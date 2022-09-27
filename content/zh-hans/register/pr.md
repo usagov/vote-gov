@@ -2,6 +2,7 @@
 
 state_name = "Puerto Rico"
 state_abbreviation = "pr"
+is_state = "false"
 registration_type = "in-person"
 translationKey = "Puerto Rico"
 type = "register"

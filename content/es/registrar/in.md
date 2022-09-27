@@ -2,6 +2,7 @@
 
 state_name = "Indiana"
 state_abbreviation = "in"
+is_state = "true"
 registration_type = "online"
 translationKey = "Indiana"
 type = "register"

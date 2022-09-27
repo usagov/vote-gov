@@ -2,6 +2,7 @@
 
 state_name = "California"
 state_abbreviation = "ca"
+is_state = "true"
 registration_type = "online"
 translationKey = "California"
 type = "register"

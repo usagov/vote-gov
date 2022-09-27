@@ -2,6 +2,7 @@
 
 state_name = "Vermont"
 state_abbreviation = "vt"
+is_state = "true"
 registration_type = "online"
 translationKey = "Vermont"
 type = "register"
