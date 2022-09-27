@@ -1,5 +1,8 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-<a href="{{ .Params.hp_link }}{{ if in .Params.hp_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
+<!-- To use a different link than the default one for any language use the variable name 'hp_link_overide' in states-data.json for that language -->
+{{ $hp_link := cond (ne .Params.hp_link_overide nil) .Params.hp_link_overide .Params.hp_link }}
+<a href="{{ $hp_link }}{{ if in $hp_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
+
 {{ $translation.register.alert_state__alert_msg1 -}}
 {{ if ne .Params.hp_link_translated "true" }}
 {{ if .Params.hp_link_language_selection }}

@@ -1,620 +1,410 @@
 {
   "al": {
-    "hp_link": "https://www.sos.alabama.gov/alabama-votes",
-    "registration_link": "https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action",
-    "more_info_link": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
     "ip_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 15 दिन पहले ",
     "default_online_deadline": "मतदान दिवस से 15 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 15 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do"
-    },
+    "default_mail_postmarked_deadline": "मतदान दिवस से 15 दिन पहले पोस्टमार्क होना चाहिए"
+  },
   "ak": {
-    "hp_link": "https://www.elections.alaska.gov/",
-    "registration_link": "https://voterregistration.alaska.gov/",
-    "more_info_link": "https://www.elections.alaska.gov/Core/voterregistration.php",
     "ip_deadline": "रविवार, 09 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "रविवार, 09 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "रविवार, 09 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 30 दिन पहले",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://myvoterinformation.alaska.gov/"
-    },
+    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
+  },
   "as": {
-    "hp_link": "https://aselectionoffice.gov/",
-    "more_info_link": "https://aselectionoffice.gov/",
     "ip_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
-    "default_ip_deadline": "मतदान दिवस से 30 दिन पहले ",
-    "confirm_registration_link": "https://aselectionoffice.gov/status.php"
-    },
+    "default_ip_deadline": "मतदान दिवस से 30 दिन पहले "
+  },
   "az": {
-    "hp_link": "https://azsos.gov/elections",
-    "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
-    "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information",
     "ip_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_online_deadline": "मतदान दिवस से 29 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 29 दिन पहले पोस्टमार्क होना चाहिए",
-    "default_ip_deadline": "मतदान दिवस से 29 दिन पहले ",
-    "confirm_registration_link": "https://my.arizona.vote/WhereToVote.aspx?s=individual"
-    },
+    "default_ip_deadline": "मतदान दिवस से 29 दिन पहले "
+  },
   "ar": {
-    "hp_link": "https://www.sos.arkansas.gov/elections/",
-    "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
     "ip_deadline": "सोमवार, 10 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "सोमवार, 10 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://www.voterview.ar-nova.org/voterview"
-    },
+    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
+  },
   "ca": {
-    "hp_link": "https://www.sos.ca.gov/elections",
-    "registration_link": "https://registertovote.ca.gov/",
-    "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 15 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 15 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://registertovote.ca.gov/"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 15 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "co": {
-    "hp_link": "https://www.sos.state.co.us/pubs/elections/",
-    "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
-    "more_info_link": "https://www.coloradosos.gov/voter/pages/pub/home.xhtml",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "सोमवार, 31 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "सोमवार, 31 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 8 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 8 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 8 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ct": {
-    "hp_link": "https://portal.ct.gov/sots",
-    "registration_link": "https://voterregistration.ct.gov/OLVR/welcome.do",
-    "more_info_link": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "मंगलवार, 01 नवंबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 01 नवंबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 7 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 7 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://portaldir.ct.gov/sots/LookUp.aspx"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 7 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "de": {
-    "hp_link": "https://elections.delaware.gov/index.shtml",
-    "registration_link": "https://ivote.de.gov/VoterView/",
-    "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
     "online_deadline": "शनिवार, 15 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "शनिवार, 15 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "ip_deadline": "शनिवार, 15 अक्तूबर/अक्टूबर 2022",
     "default_ip_deadline": "मतदान दिवस से पूर्व चौथा शनिवार",
     "default_online_deadline": "मतदान दिवस से पूर्व चौथा शनिवार",
-    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे शनिवार तक पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://ivote.de.gov/VoterView"
+    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे शनिवार तक पोस्टमार्क होना चाहिए"
   },
   "dc": {
-    "hp_link": "https://dcboe.org/",
-    "registration_link": "https://vr.dcboe.org/213324797239968?agency_code=12",
-    "more_info_link": "https://www.dcboe.org/Voters/Register-To-Vote/Register-to-Vote",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022",
     "mail_received_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_mail_received_deadline": "मतदान दिवस से 21 दिन पहले पहुँच जाना चाहिए",
-    "default_online_deadline": "मतदान दिवस से 21 दिन पहले ",
-    "confirm_registration_link": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status"
+    "default_online_deadline": "मतदान दिवस से 21 दिन पहले "
   },
   "fl": {
-    "hp_link": "https://dos.myflorida.com/elections/",
-    "registration_link": "https://registertovoteflorida.gov/eligibilityreactive",
-    "more_info_link": "https://registertovoteflorida.gov/home",
     "ip_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 29 दिन पहले ",
     "default_online_deadline": "मतदान दिवस से 29 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 29 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://registration.elections.myflorida.com/CheckVoterStatus"
-    },
+    "default_mail_postmarked_deadline": "मतदान दिवस से 29 दिन पहले पोस्टमार्क होना चाहिए"
+  },
   "ga": {
-    "hp_link": "https://sos.ga.gov/index.php/elections",
-    "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
-    "more_info_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
     "ip_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से पूर्व पांचवां सोमवार",
     "default_online_deadline": "मतदान दिवस से पूर्व पांचवां सोमवार",
-    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व पांचवे सोमवार तक पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://mvp.sos.ga.gov/s/"
-    },
+    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व पांचवे सोमवार तक पोस्टमार्क होना चाहिए"
+  },
   "gu": {
-    "hp_link": "https://gec.guam.gov/",
-    "more_info_link": "https://gec.guam.gov/",
     "ip_deadline": "शुक्रवार, 28 अक्तूबर/अक्टूबर 2022",
     "mail_received_deadline": "शुक्रवार, 28 अक्तूबर/अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_mail_received_deadline": "मतदान दिवस से 10 दिन पहले पहुँच जाना चाहिए",
-    "default_ip_deadline": "मतदान दिवस से 10 दिन पहले ",
-    "confirm_registration_link": "https://gec.guam.gov/validate/"
+    "default_ip_deadline": "मतदान दिवस से 10 दिन पहले "
   },
   "hi": {
-    "hp_link": "https://elections.hawaii.gov/",
-    "registration_link": "https://olvr.hawaii.gov/",
-    "more_info_link": "https://elections.hawaii.gov/voters/registration/",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "मंगलवार, 08 नवंबर 2022",
     "mail_postmarked_deadline": "सोमवार, 31 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 30 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पहुँच जाना चाहिए",
-    "confirm_registration_link": "https://olvr.hawaii.gov/"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पहुँच जाना चाहिए"
   },
   "id": {
-    "hp_link": "https://idahovotes.gov/",
-    "registration_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/ApplicationInstructions.aspx",
-    "more_info_link": "https://idahovotes.gov/voting/",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "शुक्रवार, 14 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "शुक्रवार, 14 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 25 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 25 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 25 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "il": {
-    "hp_link": "https://www.elections.il.gov/",
-    "registration_link": "https://ova.elections.il.gov/",
-    "more_info_link": "https://www.elections.il.gov/Default.aspx",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "रविवार, 23 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 16 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 28 दिन पहले पहुँच जाना चाहिए",
-    "confirm_registration_link": "https://ova.elections.il.gov/RegistrationLookup.aspx"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 28 दिन पहले पहुँच जाना चाहिए"
   },
   "in": {
-    "hp_link": "https://www.in.gov/sos/elections/",
-    "registration_link": "https://indianavoters.in.gov/",
-    "more_info_link": "https://www.in.gov/sos/elections/2403.htm",
     "ip_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 29 दिन पहले ",
     "default_online_deadline": "मतदान दिवस से 29 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 29 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://indianavoters.in.gov/"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 29 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ia": {
-    "hp_link": "https://sos.iowa.gov/",
-    "registration_link": "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration",
-    "more_info_link": "https://sos.iowa.gov/elections/voterinformation/voterregistration.html",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 15 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 15 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 15 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ks": {
-    "hp_link": "https://sos.ks.gov/elections/elections.html",
-    "registration_link": "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx",
-    "more_info_link": "https://sos.ks.gov/elections/voter-information.html",
     "ip_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 21 दिन पहले ",
     "default_online_deadline": "मतदान दिवस से 21 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://myvoteinfo.voteks.org/voterview/"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ky": {
-    "hp_link": "https://elect.ky.gov/Pages/default.aspx",
-    "registration_link": "https://vrsws.sos.ky.gov/ovrweb/",
-    "more_info_link": "https://elect.ky.gov/Resources/Pages/Registration.aspx",
     "ip_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से पूर्व चौथा सोमवार",
     "default_online_deadline": "मतदान दिवस से पूर्व चौथा सोमवार",
-    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे सोमवार तक पहुँच जाना चाहिए ",
-    "confirm_registration_link": "https://vrsws.sos.ky.gov/VIC/"
+    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे सोमवार तक पहुँच जाना चाहिए "
   },
   "la": {
-    "hp_link": "https://www.sos.la.gov/ElectionsAndVoting/Pages/default.aspx",
-    "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
-    "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
     "ip_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "बुधवार, 19 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 20 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए",
-    "dates__electionday": "शनिवार, 10 दिसंबर 2022",
-    "confirm_registration_link": "https://voterportal.sos.la.gov/"
+    "dates__electionday": "शनिवार, 10 दिसंबर 2022"
   },
   "me": {
-    "hp_link": "https://www.maine.gov/sos/cec/elec/",
-    "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "mail_received_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
-    "default_mail_received_deadline": "मतदान दिवस से 21 दिन पहले पहुँच जाना चाहिए",
-    "confirm_registration_link": "https://www.maine.gov/sos/cec/elec/data/index.html"
+    "default_mail_received_deadline": "मतदान दिवस से 21 दिन पहले पहुँच जाना चाहिए"
   },
   "md": {
-    "hp_link": "https://elections.maryland.gov/",
-    "registration_link": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1",
-    "more_info_link": "https://www.elections.maryland.gov/voter_registration/application.html",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 21 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://voterservices.elections.maryland.gov/VoterSearch"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ma": {
-    "hp_link": "https://www.sec.state.ma.us/ele/eleidx.htm",
-    "registration_link": "https://www.sec.state.ma.us/ovr/",
-    "more_info_link": "https://www.sec.state.ma.us/ele/eleifv/howreg.htm",
     "ip_deadline": "शनिवार, 29 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "शनिवार, 29 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "शनिवार, 29 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 20 दिन पहले ",
     "default_online_deadline": "मतदान दिवस से 20 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 20 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"
-    },
+    "default_mail_postmarked_deadline": "मतदान दिवस से 20 दिन पहले पोस्टमार्क होना चाहिए"
+  },
   "mi": {
-    "hp_link": "https://www.michigan.gov/sos/0,4670,7-127-1633---,00.html",
-    "registration_link": "https://mvic.sos.state.mi.us/registervoter",
-    "more_info_link": "https://mvic.sos.state.mi.us/",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 15 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 15 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://mvic.sos.state.mi.us/"
-    },
+    "default_mail_postmarked_deadline": "मतदान दिवस से 15 दिन पहले पोस्टमार्क होना चाहिए"
+  },
   "mn": {
-    "hp_link": "https://www.sos.state.mn.us/elections-voting/",
-    "registration_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
-    "more_info_link": "https://www.sos.state.mn.us/elections-voting/register-to-vote/",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022",
     "mail_received_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 21 दिन पहले ",
-    "default_mail_received_deadline": "मतदान दिवस से 21 दिन पहले पहुँच जाना चाहिए",
-    "confirm_registration_link": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
+    "default_mail_received_deadline": "मतदान दिवस से 21 दिन पहले पहुँच जाना चाहिए"
   },
   "ms": {
-    "hp_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
-    "more_info_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
     "ip_deadline": "सोमवार, 10 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "सोमवार, 10 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "mo": {
-    "hp_link": "https://www.sos.mo.gov/elections",
-    "registration_link": "https://s1.sos.mo.gov/elections/voterregistration/",
-    "more_info_link": "https://www.sos.mo.gov/elections/goVoteMissouri/register",
     "ip_deadline": "बुधवार, 12 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "बुधवार, 12 अक्तूबर/अक्टूबर 2022",
-    "mail_postmarked_deadline":"बुधवार, 12 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
+    "mail_postmarked_deadline": "बुधवार, 12 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से पूर्व चौथा बुधवार",
     "default_online_deadline": "मतदान दिवस से पूर्व चौथा बुधवार",
-    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे बुधवार तक पोस्टमार्क होना चाहिए ",
-    "confirm_registration_link": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx"
-},
+    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे बुधवार तक पोस्टमार्क होना चाहिए "
+  },
   "mt": {
-    "hp_link": "https://sosmt.gov/elections/",
-    "more_info_link": "https://sosmt.gov/elections/vote/",
     "ip_deadline": "सोमवार, 07 नवंबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://sosmt.gov/elections/vote/"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ne": {
-    "hp_link": "https://sos.nebraska.gov/elections/2020-elections",
-    "registration_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
-    "more_info_link": "https://sos.nebraska.gov/elections/voter-forms",
     "ip_deadline": "शुक्रवार, 28 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "शुक्रवार, 21 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "शुक्रवार, 21 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से पूर्व दूसरा शुक्रवार",
     "default_online_deadline": "मतदान दिवस से पूर्व तीसरा शुक्रवार",
-    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व तीसरे शुक्रवार तक पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://www.votercheck.necvr.ne.gov/voterview"
+    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व तीसरे शुक्रवार तक पोस्टमार्क होना चाहिए"
   },
   "nv": {
-    "hp_link": "https://www.nvsos.gov/sos/elections",
-    "registration_link": "https://www.nvsos.gov/SOSVoterServices/start.aspx",
-    "more_info_link": "https://www.nvsos.gov/sos/elections/voters/registering-to-vote",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "मंगलवार, 08 नवंबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से पूर्व चौथा मंगलवार",
     "default_online_deadline": "'अर्ली वोटिंग' शुरू होने से पूर्व वाला गुरूवार",
-    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे मंगलवार तक पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://www.nvsos.gov/votersearch/"
+    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे मंगलवार तक पोस्टमार्क होना चाहिए"
   },
   "nh": {
-    "hp_link": "https://sos.nh.gov/home",
-    "more_info_link": "https://www.sos.nh.gov/elections/voters/register-vote",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
-    "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
-    "confirm_registration_link": "https://app.sos.nh.gov/voterinformation"
+    "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी "
   },
   "nj": {
-    "hp_link": "https://www.state.nj.us/state/elections/index.shtml",
-    "registration_link": "https://voter.svrs.nj.gov/register",
-    "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml",
     "ip_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_online_deadline": "मतदान दिवस से 21 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पहुँच जाना चाहिए",
-    "default_ip_deadline": "मतदान दिवस से 21 दिन पहले ",
-    "confirm_registration_link": "https://voter.svrs.nj.gov/registration-check"
+    "default_ip_deadline": "मतदान दिवस से 21 दिन पहले "
   },
   "nm": {
-    "hp_link": "https://www.sos.state.nm.us/voting-and-elections/",
-    "registration_link": "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx",
-    "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information/voter-registration-information/",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से पूर्व शनिवार",
     "default_online_deadline": "मतदान दिवस से 28 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 28 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 28 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ny": {
-    "hp_link": "https://www.elections.ny.gov/",
-    "registration_link": "https://dmv.ny.gov/more-info/electronic-voter-registration-application",
-    "more_info_link": "https://www.elections.ny.gov/votingregister.html",
     "ip_deadline": "शुक्रवार, 14 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "शुक्रवार, 14 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "शुक्रवार, 14 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 25 दिन पहले ",
     "default_online_deadline": "मतदान दिवस से 25 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 25 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://voterlookup.elections.ny.gov/"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 25 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "nc": {
-    "hp_link": "https://www.ncsbe.gov/voting",
-    "registration_link": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
-    "more_info_link": "https://www.ncsbe.gov/registering/how-register",
     "ip_deadline": "शनिवार, 05 नवंबर 2022",
     "online_deadline": "शुक्रवार, 14 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "शुक्रवार, 14 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "अर्ली वोटिंग’अवधि के दौरान उसी दिन (‘सेम-डे') पंजीकरण सुविधा उपलब्ध",
     "default_online_deadline": "मतदान दिवस से 25 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 25 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://vt.ncsbe.gov/RegLkup/"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 25 दिन पहले पोस्टमार्क होना चाहिए"
   },
-  "nd": {
-    "hp_link": "https://vip.sos.nd.gov/PortalList.aspx",
-    "more_info_link": "https://vip.sos.nd.gov/PortalList.aspx",
-    "confirm_registration_link": "https://vip.sos.nd.gov/WhereToVote.aspx?tab=&ptlPKID=&ptlhPKID="
-  },
+  "nd": {},
   "mp": {
-    "hp_link": "https://www.votecnmi.gov.mp/",
-    "more_info_link": "https://www.votecnmi.gov.mp/",
     "ip_deadline": "शुक्रवार, 09 सितंबर 2022",
     "mail_received_deadline": "शुक्रवार, 09 सितंबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 60 दिन पहले",
-    "default_mail_received_deadline": "मतदान दिवस से 60 दिन पहले पहुँच जाना चाहिए",
-    "confirm_registration_link": "https://www.votecnmi.gov.mp/"
+    "default_mail_received_deadline": "मतदान दिवस से 60 दिन पहले पहुँच जाना चाहिए"
   },
   "oh": {
-    "hp_link": "https://www.sos.state.oh.us/elections/",
-    "registration_link": "https://olvr.ohiosos.gov/",
-    "more_info_link": "https://ohio.gov/wps/portal/gov/site/government/resources/register-to-vote-or-update-your-registration",
     "ip_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 30 दिन पहले",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://voterlookup.ohiosos.gov/voterlookup.aspx"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ok": {
-    "hp_link": "https://www.ok.gov/elections/",
-    "more_info_link": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
     "ip_deadline": "शुक्रवार, 14 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "शुक्रवार, 14 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 25 दिन पहले",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 25 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://okvoterportal.okelections.us/"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 25 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "or": {
-    "hp_link": "https://sos.oregon.gov/voting-elections/Pages/default.aspx",
-    "registration_link": "https://secure.sos.state.or.us/orestar/vr/register.do",
-    "more_info_link": "https://sos.oregon.gov/voting/Pages/registration.aspx",
     "ip_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 21 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 21 दिन पहले",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "pa": {
-    "hp_link": "https://www.pa.gov/guides/voting-and-elections/",
-    "registration_link": "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
-    "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote",
     "ip_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022",
     "mail_received_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 15 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 15 दिन पहले",
-    "default_mail_received_deadline": "मतदान दिवस से 15 दिन पहले पहुँच जाना चाहिए",
-    "confirm_registration_link": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
+    "default_mail_received_deadline": "मतदान दिवस से 15 दिन पहले पहुँच जाना चाहिए"
   },
   "pr": {
-    "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
-    "more_info_link": "https://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
     "ip_deadline": "सोमवार, 19 सितंबर 2022",
-    "default_ip_deadline": "मतदान दिवस से 50 दिन पहले",
-    "confirm_registration_link": "https://consulta.ceepur.org/"
+    "default_ip_deadline": "मतदान दिवस से 50 दिन पहले"
   },
   "ri": {
-    "hp_link": "https://elections.ri.gov/",
-    "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
-    "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
     "ip_deadline": "रविवार, 09 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "रविवार, 09 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "रविवार, 09 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 30 दिन पहले",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "sc": {
-    "hp_link": "https://www.scvotes.gov/",
-    "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
-    "more_info_link": "https://scvotes.gov/voters/register-to-vote/",
     "ip_deadline": "रविवार, 09 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "रविवार, 09 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 30 दिन पहले",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "sd": {
-    "hp_link": "https://sdsos.gov/elections-voting/",
-    "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
     "ip_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022",
     "mail_received_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 15 दिन पहले",
-    "default_mail_received_deadline": "मतदान दिवस से 15 दिन पहले पहुँच जाना चाहिए",
-    "confirm_registration_link": "https://vip.sdsos.gov/VIPLogin.aspx"
+    "default_mail_received_deadline": "मतदान दिवस से 15 दिन पहले पहुँच जाना चाहिए"
   },
   "tn": {
-    "hp_link": "https://sos.tn.gov/elections",
-    "registration_link": "https://ovr.govote.tn.gov/",
-    "more_info_link": "https://sos.tn.gov/products/elections/register-vote",
     "ip_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 30 दिन पहले",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://tnmap.tn.gov/voterlookup/"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "tx": {
-    "hp_link": "https://www.votetexas.gov/index.html",
-    "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html",
     "mail_postmarked_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "ip_deadline": "मंगलवार, 11 अक्तूबर/अक्टूबर 2022",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ut": {
-    "hp_link": "https://elections.utah.gov/",
-    "registration_link": "https://secure.utah.gov/voterreg/index.html",
-    "more_info_link": "https://voteinfo.utah.gov/",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "शुक्रवार, 28 अक्तूबर/अक्टूबर 2022",
     "mail_received_deadline": "शुक्रवार, 28 अक्तूबर/अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 11 दिन पहले",
-    "default_mail_received_deadline": "मतदान दिवस से 11 दिन पहले पहुँच जाना चाहिए",
-    "confirm_registration_link": "https://vote.utah.gov/"
+    "default_mail_received_deadline": "मतदान दिवस से 11 दिन पहले पहुँच जाना चाहिए"
   },
   "vt": {
-    "hp_link": "https://sos.vermont.gov/elections/",
-    "registration_link": "https://olvr.vermont.gov/",
-    "more_info_link": "https://sos.vermont.gov/elections/voters/registration/",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "मंगलवार, 08 नवंबर 2022",
     "mail_received_deadline": "शुक्रवार, 04 नवंबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से पूर्व शुक्रवार",
-    "default_mail_received_deadline": "मतदान दिवस से पूर्व वाले शुक्रवार तक पहुँच जाना चाहिए",
-    "confirm_registration_link": "https://mvp.vermont.gov/"
+    "default_mail_received_deadline": "मतदान दिवस से पूर्व वाले शुक्रवार तक पहुँच जाना चाहिए"
   },
   "va": {
-    "hp_link": "https://www.elections.virginia.gov/",
-    "registration_link": "https://www.elections.virginia.gov/citizen-portal/",
-    "more_info_link": "https://www.elections.virginia.gov/registration/how-to-register/",
     "ip_deadline": "सोमवार, 17 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "सोमवार, 17 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "सोमवार, 17 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 22 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 22 दिन पहले",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 22 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://www.elections.virginia.gov/registration/view-your-info/"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 22 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "vi": {
-    "hp_link": "https://www.vivote.gov/voters/register-vote",
-    "more_info_link": "https://www.vivote.gov/voters/register-vote",
     "ip_deadline": "रविवार, 09 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "रविवार, 09 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://www.vivote.gov/voters/lookup"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "wa": {
-    "hp_link": "https://www.sos.wa.gov/elections/",
-    "registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
-    "more_info_link": "https://www.sos.wa.gov/elections/voters/",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "सोमवार, 31 अक्तूबर/अक्टूबर 2022",
     "mail_received_deadline": "सोमवार, 31 अक्तूबर/अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 8 दिन पहले",
-    "default_mail_received_deadline": "मतदान दिवस से 8 दिन पहले पहुँच जाना चाहिए",
-    "confirm_registration_link": "https://voter.votewa.gov/WhereToVote.aspx"
+    "default_mail_received_deadline": "मतदान दिवस से 8 दिन पहले पहुँच जाना चाहिए"
   },
   "wv": {
-    "hp_link": "https://sos.wv.gov/elections/Pages/default.aspx",
-    "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
-    "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
     "ip_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022",
     "online_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "मंगलवार, 18 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 21 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 21 दिन पहले",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://apps.sos.wv.gov/Elections/voter/amiregisteredtovote"
+    "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "wi": {
-    "hp_link": "https://elections.wi.gov/elections-voting",
-    "registration_link": "https://myvote.wi.gov/en-us/RegisterToVote",
-    "more_info_link": "https://elections.wi.gov/voters/first-time",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "online_deadline": "बुधवार, 19 अक्तूबर/अक्टूबर 2022",
     "mail_postmarked_deadline": "बुधवार, 19 अक्तूबर/अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से पूर्व तीसरा बुधवार",
-    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व तीसरे बुधवार तक पोस्टमार्क होना चाहिए",
-    "confirm_registration_link": "https://myvote.wi.gov/en-us/MyVoterInfo"
+    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व तीसरे बुधवार तक पोस्टमार्क होना चाहिए"
   },
   "wy": {
-    "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
-    "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
     "ip_deadline": "मंगलवार, 08 नवंबर 2022",
     "mail_received_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
-    "default_mail_received_deadline": "मतदान दिवस से 14 दिन पहले पहुँच जाना चाहिए",
-    "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
+    "default_mail_received_deadline": "मतदान दिवस से 14 दिन पहले पहुँच जाना चाहिए"
   }
 }
