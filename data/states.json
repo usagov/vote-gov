@@ -406,7 +406,11 @@
     "is_state": "true",
     "registration_type": "online",
     "translationKey": "New York",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://www.elections.ny.gov/",
+    "registration_link": "https://dmv.ny.gov/more-info/electronic-voter-registration-application",
+    "more_info_link": "https://www.elections.ny.gov/votingregister.html",
+    "confirm_registration_link": "https://voterlookup.elections.ny.gov/"
   },
   "nc": {
     "state_name": "North Carolina",
@@ -414,7 +418,11 @@
     "is_state": "true",
     "registration_type": "online",
     "translationKey": "North Carolina",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://www.ncsbe.gov/voting",
+    "registration_link": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
+    "more_info_link": "https://www.ncsbe.gov/registering/how-register",
+    "confirm_registration_link": "https://vt.ncsbe.gov/RegLkup/"
   },
   "nd": {
     "state_name": "North Dakota",
@@ -422,7 +430,10 @@
     "is_state": "true",
     "registration_type": "not-needed",
     "translationKey": "North Dakota",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://vip.sos.nd.gov/PortalList.aspx",
+    "more_info_link": "https://vip.sos.nd.gov/PortalList.aspx",
+    "confirm_registration_link": "https://vip.sos.nd.gov/WhereToVote.aspx?tab=&ptlPKID=&ptlhPKID="
   },
   "mp": {
     "state_name": "Northern Mariana Islands",
@@ -430,7 +441,10 @@
     "is_state": "false",
     "registration_type": "in-person",
     "translationKey": "Northern Mariana Islands",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://www.votecnmi.gov.mp/",
+    "more_info_link": "https://www.votecnmi.gov.mp/",
+    "confirm_registration_link": "https://www.votecnmi.gov.mp/"
   },
   "oh": {
     "state_name": "Ohio",
@@ -438,7 +452,11 @@
     "is_state": "true",
     "registration_type": "online",
     "translationKey": "Ohio",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://www.sos.state.oh.us/elections/",
+    "registration_link": "https://olvr.ohiosos.gov/",
+    "more_info_link": "https://ohio.gov/wps/portal/gov/site/government/resources/register-to-vote-or-update-your-registration",
+    "confirm_registration_link": "https://voterlookup.ohiosos.gov/voterlookup.aspx"
   },
   "ok": {
     "state_name": "Oklahoma",
@@ -446,7 +464,10 @@
     "is_state": "true",
     "registration_type": "by-mail",
     "translationKey": "Oklahoma",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://www.ok.gov/elections/",
+    "more_info_link": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
+    "confirm_registration_link": "https://okvoterportal.okelections.us/"
   },
   "or": {
     "state_name": "Oregon",
@@ -454,7 +475,11 @@
     "is_state": "true",
     "registration_type": "online",
     "translationKey": "Oregon",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://sos.oregon.gov/voting-elections/Pages/default.aspx",
+    "registration_link": "https://secure.sos.state.or.us/orestar/vr/register.do",
+    "more_info_link": "https://sos.oregon.gov/voting/Pages/registration.aspx",
+    "confirm_registration_link": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS"
   },
   "pa": {
     "state_name": "Pennsylvania",
@@ -462,7 +487,11 @@
     "is_state": "true",
     "registration_type": "online",
     "translationKey": "Pennsylvania",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://www.pa.gov/guides/voting-and-elections/",
+    "registration_link": "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
+    "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote",
+    "confirm_registration_link": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
   },
   "pr": {
     "state_name": "Puerto Rico",
@@ -470,7 +499,10 @@
     "is_state": "false",
     "registration_type": "in-person",
     "translationKey": "Puerto Rico",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
+    "more_info_link": "https://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
+    "confirm_registration_link": "https://consulta.ceepur.org/"
   },
   "ri": {
     "state_name": "Rhode Island",
@@ -478,7 +510,11 @@
     "is_state": "true",
     "registration_type": "online",
     "translationKey": "Rhode Island",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://elections.ri.gov/",
+    "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
+    "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
+    "confirm_registration_link": "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0"
   },
   "sc": {
     "state_name": "South Carolina",
@@ -486,7 +522,11 @@
     "is_state": "true",
     "registration_type": "online",
     "translationKey": "South Carolina",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://www.scvotes.gov/",
+    "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
+    "more_info_link": "https://scvotes.gov/voters/register-to-vote/",
+    "confirm_registration_link": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
   },
   "sd": {
     "state_name": "South Dakota",
@@ -494,7 +534,10 @@
     "is_state": "true",
     "registration_type": "by-mail",
     "translationKey": "South Dakota",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://sdsos.gov/elections-voting/",
+    "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
+    "confirm_registration_link": "https://vip.sdsos.gov/VIPLogin.aspx"
   },
   "tn": {
     "state_name": "Tennessee",
@@ -502,7 +545,11 @@
     "is_state": "true",
     "registration_type": "online",
     "translationKey": "Tennessee",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://sos.tn.gov/elections",
+    "registration_link": "https://ovr.govote.tn.gov/",
+    "more_info_link": "https://sos.tn.gov/products/elections/register-vote",
+    "confirm_registration_link": "https://tnmap.tn.gov/voterlookup/"
   },
   "tx": {
     "state_name": "Texas",
@@ -510,7 +557,10 @@
     "is_state": "true",
     "registration_type": "by-mail",
     "translationKey": "Texas",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://www.votetexas.gov/index.html",
+    "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html",
+    "confirm_registration_link": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
   },
   "ut": {
     "state_name": "Utah",
@@ -518,7 +568,11 @@
     "is_state": "true",
     "registration_type": "online",
     "translationKey": "Utah",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://elections.utah.gov/",
+    "registration_link": "https://secure.utah.gov/voterreg/index.html",
+    "more_info_link": "https://voteinfo.utah.gov/",
+    "confirm_registration_link": "https://vote.utah.gov/"
   },
   "vt": {
     "state_name": "Vermont",
@@ -526,7 +580,11 @@
     "is_state": "true",
     "registration_type": "online",
     "translationKey": "Vermont",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://sos.vermont.gov/elections/",
+    "registration_link": "https://olvr.vermont.gov/",
+    "more_info_link": "https://sos.vermont.gov/elections/voters/registration/",
+    "confirm_registration_link": "https://mvp.vermont.gov/"
   },
   "va": {
     "state_name": "Virginia",
@@ -534,7 +592,11 @@
     "is_state": "true",
     "registration_type": "online",
     "translationKey": "Virginia",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://www.elections.virginia.gov/",
+    "registration_link": "https://www.elections.virginia.gov/citizen-portal/",
+    "more_info_link": "https://www.elections.virginia.gov/registration/how-to-register/",
+    "confirm_registration_link": "https://www.elections.virginia.gov/registration/view-your-info/"
   },
   "vi": {
     "state_name": "U.S. Virgin Islands",
@@ -542,7 +604,10 @@
     "is_state": "false",
     "registration_type": "in-person",
     "translationKey": "U.S. Virgin Islands",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://www.vivote.gov/voters/register-vote",
+    "more_info_link": "https://www.vivote.gov/voters/register-vote",
+    "confirm_registration_link": "https://www.vivote.gov/voters/lookup"
   },
   "wa": {
     "state_name": "Washington",
@@ -550,7 +615,11 @@
     "is_state": "true",
     "registration_type": "online",
     "translationKey": "Washington",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://www.sos.wa.gov/elections/",
+    "registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
+    "more_info_link": "https://www.sos.wa.gov/elections/voters/",
+    "confirm_registration_link": "https://voter.votewa.gov/WhereToVote.aspx"
   },
   "wv": {
     "state_name": "West Virginia",
@@ -558,7 +627,11 @@
     "is_state": "true",
     "registration_type": "online",
     "translationKey": "West Virginia",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://sos.wv.gov/elections/Pages/default.aspx",
+    "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
+    "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
+    "confirm_registration_link": "https://apps.sos.wv.gov/Elections/voter/amiregisteredtovote"
   },
   "wi": {
     "state_name": "Wisconsin",
@@ -566,7 +639,11 @@
     "is_state": "true",
     "registration_type": "online",
     "translationKey": "Wisconsin",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://elections.wi.gov/elections-voting",
+    "registration_link": "https://myvote.wi.gov/en-us/RegisterToVote",
+    "more_info_link": "https://elections.wi.gov/voters/first-time",
+    "confirm_registration_link": "https://myvote.wi.gov/en-us/MyVoterInfo"
   },
   "wy": {
     "state_name": "Wyoming",
@@ -575,6 +652,9 @@
     "registration_type": "by-mail",
     "translationKey": "Wyoming",
     "national_voter_registration_form_accepted": "false",
-    "type": "register"
+    "type": "register",
+    "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
+    "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
+    "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
   }
 }
