@@ -1,27 +1,44 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-{{ $aboutLink := cond (ne $translation.footer.about_link nil) $translation.footer.about_link .Site.Params.globalURL.about_link }}
+{{ $aboutLink := cond (ne $translation.footer.about_link nil) $translation.footer.about_link.Site.Params.globalURL.about_link }}
 
 <!-- contact START -->
 <div class="bg-lightblue footer-contact" data-test="footer-contact">
   <div class="grid-container">
-    <div class="grid-row desktop:grid-gap-6">
-      <div class="desktop:grid-col"></div>
-      <div class="grid-col desktop:grid-col-auto">
-        <a href="{{ $translation.footer.twitter_link }}" class="twitter-link">
-          <span>{{ replace $translation.footer.twitter_text "%Vote.gov%" "Vote.gov" }}</span>
-          <svg class="usa-icon" aria-hidden="true" focusable="false" role="img" height="28" width="28">
-            <use xlink:href="{{ .Site.BaseURL }}/assets/img/sprite.svg#twitter"></use>
-          </svg>
-        </a>
+
+    <div class="grid-container eac-vote-partnership">
+      <div class="grid-row">
+        <div class="tablet:grid-col-auto">
+          <div class="vote-txt">Vote.gov</div>
+          <img class="vote-logo" loading="lazy" width="130" height="160" src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg"
+            alt="Web design standards">
+        </div>
+        <div class="tablet:grid-col-auto partnership-txt">{{ $translation.footer.eac_text }}</div>
+        <div class="tablet:grid-col">
+          <a href="{{ $translation.footer.eac_link }}">
+            <img class="eac-logo" src="{{ .Site.BaseURL }}/assets/img/eac-logo.svg" alt="eac_logo_alt_tex">
+          </a>
+        </div>
+        <div class="tablet:grid-col-auto">
+          <a href="{{ $translation.footer.twitter_link }}" class="twitter-link">
+            <span>{{ replace $translation.footer.twitter_text "%Vote.gov%" "Vote.gov" }}</span>
+            <svg class="usa-icon" aria-hidden="true" focusable="false" role="img" height="28" width="28">
+              <use xlink:href="{{ .Site.BaseURL }}/assets/img/sprite.svg#twitter"></use>
+            </svg>
+          </a>
+        </div>
       </div>
-<!--      <div class="grid-col-auto">-->
-<!--        <a href="mailto:" class="email-vote">-->
-<!--          <svg class="usa-icon" aria-hidden="true" focusable="false" role="img" height="28" width="28">-->
-<!--            <use xlink:href="{{ .Site.BaseURL }}/assets/img/sprite.svg#mail_outline"></use>-->
-<!--          </svg>-->
-<!--          <span></span>-->
-<!--        </a>-->
-<!--      </div>-->
+    </div>
+</div>
+
+
+      <!--      <div class="grid-col-auto">-->
+      <!--        <a href="mailto:" class="email-vote">-->
+      <!--          <svg class="usa-icon" aria-hidden="true" focusable="false" role="img" height="28" width="28">-->
+      <!--            <use xlink:href="{{ .Site.BaseURL }}/assets/img/sprite.svg#mail_outline"></use>-->
+      <!--          </svg>-->
+      <!--          <span></span>-->
+      <!--        </a>-->
+      <!--      </div>-->
     </div>
   </div>
 </div>
@@ -34,26 +51,32 @@
       <div><img src="{{ .Site.BaseURL }}/assets/img/gsa-logo.svg" alt="GSA logo" width="40" height="40"></div>
       <div aria-label="{{ $translation.footer.identifier_gsa_txt_aria }}" class="grid-col-auto">
         Vote.gov <br>
-        <strong>{{ replace $translation.footer.identifier_gsa_txt "%link%" (partial "links/footer/identifier-gsa.html" .)|safeHTML }}</strong>
+        <strong>{{ replace $translation.footer.identifier_gsa_txt "%link%" (partial "links/footer/identifier-gsa.html"
+          .)|safeHTML }}</strong>
       </div>
     </section>
     <nav class="grid-row grid-gap identifier" aria-label="{{ $translation.footer.identifier_link_aria }}">
       <div class="tablet:grid-col-3">
         <ul class="usa-list usa-list--unstyled identifier-links">
           <li><a href="{{ .Site.BaseURL }}{{ $aboutLink }}">{{ $translation.footer.identifier_link_1 }}</a></li>
-          <li><a href="https://www.gsa.gov/website-information/accessibility-aids">{{ $translation.footer.identifier_link_2 }}</a></li>
+          <li><a href="https://www.gsa.gov/website-information/accessibility-aids">{{
+              $translation.footer.identifier_link_2 }}</a></li>
         </ul>
       </div>
       <div class="tablet:grid-col-3">
         <ul class="usa-list usa-list--unstyled identifier-links">
-          <li><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia">{{ $translation.footer.identifier_link_3 }}</a></li>
-          <li><a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002">{{ $translation.footer.identifier_link_4 }}</a></li>
+          <li><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia">{{
+              $translation.footer.identifier_link_3 }}</a></li>
+          <li><a
+              href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002">{{
+              $translation.footer.identifier_link_4 }}</a></li>
         </ul>
       </div>
       <div class="tablet:grid-col-3">
         <ul class="usa-list usa-list--unstyled identifier-links">
           <li><a href="https://www.gsaig.gov/">{{ $translation.footer.identifier_link_5 }}</a></li>
-          <li><a href="https://www.gsa.gov/reference/reports/budget-performance">{{ $translation.footer.identifier_link_6 }}</a></li>
+          <li><a href="https://www.gsa.gov/reference/reports/budget-performance">{{
+              $translation.footer.identifier_link_6 }}</a></li>
         </ul>
       </div>
       <div class="tablet:grid-col-3">
@@ -62,7 +85,9 @@
         </ul>
       </div>
     </nav>
-    <section aria-label="{{ $translation.footer.identifier_more_info_aria }}" class="identifier-gov-info">{{ replace $translation.footer.identifier_more_info "%link%" (partial "links/footer/identifier-more-info.html" .)|safeHTML }}</section>
+    <section aria-label="{{ $translation.footer.identifier_more_info_aria }}" class="identifier-gov-info">{{ replace
+      $translation.footer.identifier_more_info "%link%" (partial "links/footer/identifier-more-info.html" .)|safeHTML }}
+    </section>
   </div>
 </div>
 <!-- identifier END -->
