@@ -28,8 +28,8 @@
     "default_ip_deadline": "选举日前 29 天"
   },
   "ar": {
-    "ip_deadline": "2022年10月10日2022年",
-    "mail_postmarked_deadline": "必须在2022年10月10日星期一之前加盖邮戳",
+    "ip_deadline": "2022年10月11日星期二",
+    "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前 30 天",
     "default_mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳"
   },
@@ -154,7 +154,7 @@
   },
   "la": {
     "ip_deadline": "2022年10月11日星期二",
-    "online_deadline": "2022年10月19日星期三",
+    "online_deadline": "2022年10月18日星期二",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "dates_electionday": "2022年12月10日星期六",
     "default_ip_deadline": "选举日前30 天",
