@@ -2,6 +2,7 @@
 
 state_name = "Nevada"
 state_abbreviation = "nv"
+is_state = "true"
 registration_type = "online"
 translationKey = "Nevada"
 type = "register"

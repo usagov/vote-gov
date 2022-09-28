@@ -2,6 +2,7 @@
 
 state_name = "Maine"
 state_abbreviation = "me"
+is_state = "true"
 registration_type = "by-mail"
 translationKey = "Maine"
 type = "register"

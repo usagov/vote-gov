@@ -2,6 +2,7 @@
 
 state_name = "Colorado"
 state_abbreviation = "co"
+is_state = "true"
 registration_type = "online"
 translationKey = "Colorado"
 type = "register"

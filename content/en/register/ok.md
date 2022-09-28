@@ -2,6 +2,7 @@
 
 state_name = "Oklahoma"
 state_abbreviation = "ok"
+is_state = "true"
 registration_type = "by-mail"
 translationKey = "Oklahoma"
 type = "register"
