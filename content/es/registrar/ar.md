@@ -14,5 +14,6 @@ mail_postmarked_deadline = "debe tener el sello del correo martes, 11 de octubre
 confirm_registration_link_translated = "true"
 default_ip_deadline = "hasta 30 días antes del día de las elecciones"
 default_mail_postmarked_deadline = "debe tener el sello del correo 30 días antes del día de las elecciones"
+confirm_registration_link_overide = "https://www.voterview.ar-nova.org/voterview/?culture=es-MX"
 
 +++

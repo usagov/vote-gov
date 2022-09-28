@@ -20,5 +20,6 @@ confirm_registration_link_language_selection = "true"
 default_ip_deadline = "hasta el mismo día de las elecciones"
 default_online_deadline = "hasta 8 días antes del día de las elecciones"
 default_mail_postmarked_deadline = "debe tener el sello del correo 8 días antes del día de las elecciones"
+hp_link_overide = "https://www.sos.state.co.us/pubs/spanish/spanishHome.html"
 
 +++
