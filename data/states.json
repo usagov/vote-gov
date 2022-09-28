@@ -5,8 +5,8 @@
     "registration_type": "online",
     "translationKey": "Alabama",
     "type": "register",
-    "ip_date": "2022-10-24",
-    "online_date": "2022-10-24"
+    "ip_deadline": "2022-10-24",
+    "online_deadline": "2022-10-24"
   },
   "ak": {
     "state_name": "Alaska",
@@ -14,8 +14,8 @@
     "registration_type": "online",
     "translationKey": "Alaska",
     "type": "register",
-    "ip_date": "2022-10-09",
-    "online_date": "2022-10-09"
+    "ip_deadline": "2022-10-09",
+    "online_deadline": "2022-10-09"
   },
   "as": {
     "state_name": "American Samoa",
@@ -23,7 +23,7 @@
     "registration_type": "in-person",
     "translationKey": "American Samoa",
     "type": "register",
-    "ip_date": "2022-10-11"
+    "ip_deadline": "2022-10-11"
   },
   "az": {
     "state_name": "Arizona",
@@ -31,8 +31,8 @@
     "registration_type": "online",
     "translationKey": "Arizona",
     "type": "register",
-    "ip_date": "2022-10-11",
-    "online_date": "2022-10-11"
+    "ip_deadline": "2022-10-11",
+    "online_deadline": "2022-10-11"
   },
   "ar": {
     "state_name": "Arkansas",
@@ -40,7 +40,7 @@
     "registration_type": "by-mail",
     "translationKey": "Arkansas",
     "type": "register",
-    "ip_date": "2022-10-10"
+    "ip_deadline": "2022-10-10"
   },
   "ca": {
     "state_name": "California",
@@ -48,8 +48,8 @@
     "registration_type": "online",
     "translationKey": "California",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-10-24"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-10-24"
   },
   "co": {
     "state_name": "Colorado",
@@ -57,8 +57,8 @@
     "registration_type": "online",
     "translationKey": "Colorado",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-10-31"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-10-31"
   },
   "ct": {
     "state_name": "Connecticut",
@@ -66,8 +66,8 @@
     "registration_type": "online",
     "translationKey": "Connecticut",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-11-01"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-11-01"
   },
   "de": {
     "state_name": "Delaware",
@@ -75,8 +75,8 @@
     "registration_type": "online",
     "translationKey": "Delaware",
     "type": "register",
-    "ip_date": "2022-10-15",
-    "online_date": "2022-10-15"
+    "ip_deadline": "2022-10-15",
+    "online_deadline": "2022-10-15"
   },
   "dc": {
     "state_name": "District of Columbia",
@@ -84,8 +84,8 @@
     "registration_type": "online",
     "translationKey": "District of Columbia",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-10-08"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-10-08"
   },
   "fl": {
     "state_name": "Florida",
@@ -93,8 +93,8 @@
     "registration_type": "online",
     "translationKey": "Florida",
     "type": "register",
-    "ip_date": "2022-10-11",
-    "online_date": "2022-10-11"
+    "ip_deadline": "2022-10-11",
+    "online_deadline": "2022-10-11"
   },
   "ga": {
     "state_name": "Georgia",
@@ -102,16 +102,16 @@
     "registration_type": "online",
     "translationKey": "Georgia",
     "type": "register",
-    "ip_date": "2022-10-11",
-    "online_date": "2022-10-11"
+    "ip_deadline": "2022-10-11",
+    "online_deadline": "2022-10-11"
   },
   "gu": {
     "state_name": "Guam",
     "state_abbreviation": "gu",
-    "registration_type": "online",
+    "registration_type": "in-person",
     "translationKey": "Guam",
     "type": "register",
-    "ip_date": "2022-10-28"
+    "ip_deadline": "2022-10-28"
   },
   "hi": {
     "state_name": "Hawaii",
@@ -119,8 +119,8 @@
     "registration_type": "online",
     "translationKey": "Hawaii",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-11-08"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-11-08"
   },
   "id": {
     "state_name": "Idaho",
@@ -128,8 +128,8 @@
     "registration_type": "online",
     "translationKey": "Idaho",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-10-14"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-10-14"
   },
   "il": {
     "state_name": "Illinois",
@@ -137,8 +137,8 @@
     "registration_type": "online",
     "translationKey": "Illinois",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-10-23"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-10-23"
   },
   "in": {
     "state_name": "Indiana",
@@ -146,8 +146,8 @@
     "registration_type": "online",
     "translationKey": "Indiana",
     "type": "register",
-    "ip_date": "2022-10-11",
-    "online_date": "2022-10-11"
+    "ip_deadline": "2022-10-11",
+    "online_deadline": "2022-10-11"
   },
   "ia": {
     "state_name": "Iowa",
@@ -155,8 +155,8 @@
     "registration_type": "online",
     "translationKey": "Iowa",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-10-24"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-10-24"
   },
   "ks": {
     "state_name": "Kansas",
@@ -164,8 +164,8 @@
     "registration_type": "online",
     "translationKey": "Kansas",
     "type": "register",
-    "ip_date": "2022-10-18",
-    "online_date": "2022-10-18"
+    "ip_deadline": "2022-10-18",
+    "online_deadline": "2022-10-18"
   },
   "ky": {
     "state_name": "Kentucky",
@@ -173,8 +173,8 @@
     "registration_type": "online",
     "translationKey": "Kentucky",
     "type": "register",
-    "ip_date": "2022-10-11",
-    "online_date": "2022-10-11"
+    "ip_deadline": "2022-10-11",
+    "online_deadline": "2022-10-11"
   },
   "la": {
     "state_name": "Louisiana",
@@ -182,8 +182,8 @@
     "registration_type": "online",
     "translationKey": "Louisiana",
     "type": "register",
-    "ip_date": "2022-10-11",
-    "online_date": "2022-10-19"
+    "ip_deadline": "2022-10-11",
+    "online_deadline": "2022-10-19"
   },
   "me": {
     "state_name": "Maine",
@@ -191,7 +191,7 @@
     "registration_type": "by-mail",
     "translationKey": "Maine",
     "type": "register",
-    "ip_date": "2022-11-08"
+    "ip_deadline": "2022-11-08"
   },
   "md": {
     "state_name": "Maryland",
@@ -199,8 +199,8 @@
     "registration_type": "online",
     "translationKey": "Maryland",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-10-18"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-10-18"
   },
   "ma": {
     "state_name": "Massachusetts",
@@ -208,8 +208,8 @@
     "registration_type": "online",
     "translationKey": "Massachusetts",
     "type": "register",
-    "ip_date": "2022-10-29",
-    "online_date": "2022-10-29"
+    "ip_deadline": "2022-10-29",
+    "online_deadline": "2022-10-29"
   },
   "mi": {
     "state_name": "Michigan",
@@ -217,8 +217,8 @@
     "registration_type": "online",
     "translationKey": "Michigan",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-10-24"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-10-24"
   },
   "mn": {
     "state_name": "Minnesota",
@@ -226,8 +226,8 @@
     "registration_type": "online",
     "translationKey": "Minnesota",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-10-18"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-10-18"
   },
   "ms": {
     "state_name": "Mississippi",
@@ -235,7 +235,7 @@
     "registration_type": "by-mail",
     "translationKey": "Mississippi",
     "type": "register",
-    "ip_date": "2022-10-10"
+    "ip_deadline": "2022-10-10"
   },
   "mo": {
     "state_name": "Missouri",
@@ -243,8 +243,8 @@
     "registration_type": "online",
     "translationKey": "Missouri",
     "type": "register",
-    "ip_date": "2022-10-12",
-    "online_date": "2022-10-12"
+    "ip_deadline": "2022-10-12",
+    "online_deadline": "2022-10-12"
   },
   "mt": {
     "state_name": "Montana",
@@ -252,7 +252,7 @@
     "registration_type": "by-mail",
     "translationKey": "Montana",
     "type": "register",
-    "ip_date": "2022-11-07"
+    "ip_deadline": "2022-11-07"
   },
   "ne": {
     "state_name": "Nebraska",
@@ -260,8 +260,8 @@
     "registration_type": "online",
     "translationKey": "Nebraska",
     "type": "register",
-    "ip_date": "2022-10-28",
-    "online_date": "2022-10-21"
+    "ip_deadline": "2022-10-28",
+    "online_deadline": "2022-10-21"
   },
   "nv": {
     "state_name": "Nevada",
@@ -269,8 +269,8 @@
     "registration_type": "online",
     "translationKey": "Nevada",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-11-08"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-11-08"
   },
   "nh": {
     "state_name": "New Hampshire",
@@ -278,7 +278,7 @@
     "registration_type": "in-person",
     "translationKey": "New Hampshire",
     "type": "register",
-    "ip_date": "2022-11-08"
+    "ip_deadline": "2022-11-08"
   },
   "nj": {
     "state_name": "New Jersey",
@@ -286,8 +286,8 @@
     "registration_type": "online",
     "translationKey": "New Jersey",
     "type": "register",
-    "ip_date": "2022-10-18",
-    "online_date": "2022-10-18"
+    "ip_deadline": "2022-10-18",
+    "online_deadline": "2022-10-18"
   },
   "nm": {
     "state_name": "New Mexico",
@@ -295,8 +295,8 @@
     "registration_type": "online",
     "translationKey": "New Mexico",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-10-11"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-10-11"
   },
   "ny": {
     "state_name": "New York",
@@ -304,8 +304,8 @@
     "registration_type": "online",
     "translationKey": "New York",
     "type": "register",
-    "ip_date": "2022-10-14",
-    "online_date": "2022-10-14"
+    "ip_deadline": "2022-10-14",
+    "online_deadline": "2022-10-14"
   },
   "nc": {
     "state_name": "North Carolina",
@@ -313,8 +313,8 @@
     "registration_type": "online",
     "translationKey": "North Carolina",
     "type": "register",
-    "ip_date": "2022-11-05",
-    "online_date": "2022-10-14"
+    "ip_deadline": "2022-11-05",
+    "online_deadline": "2022-10-14"
   },
   "nd": {
     "state_name": "North Dakota",
@@ -329,7 +329,7 @@
     "registration_type": "in-person",
     "translationKey": "Northern Mariana Islands",
     "type": "register",
-    "ip_date": "2022-09-09"
+    "ip_deadline": "2022-09-09"
   },
   "oh": {
     "state_name": "Ohio",
@@ -337,8 +337,8 @@
     "registration_type": "online",
     "translationKey": "Ohio",
     "type": "register",
-    "ip_date": "2022-10-11",
-    "online_date": "2022-10-11"
+    "ip_deadline": "2022-10-11",
+    "online_deadline": "2022-10-11"
   },
   "ok": {
     "state_name": "Oklahoma",
@@ -346,7 +346,7 @@
     "registration_type": "by-mail",
     "translationKey": "Oklahoma",
     "type": "register",
-    "ip_date": "2022-10-14"
+    "ip_deadline": "2022-10-14"
   },
   "or": {
     "state_name": "Oregon",
@@ -354,8 +354,8 @@
     "registration_type": "online",
     "translationKey": "Oregon",
     "type": "register",
-    "ip_date": "2022-10-18",
-    "online_date": "2022-10-18"
+    "ip_deadline": "2022-10-18",
+    "online_deadline": "2022-10-18"
   },
   "pa": {
     "state_name": "Pennsylvania",
@@ -363,8 +363,8 @@
     "registration_type": "online",
     "translationKey": "Pennsylvania",
     "type": "register",
-    "ip_date": "2022-10-24",
-    "online_date": "2022-10-24"
+    "ip_deadline": "2022-10-24",
+    "online_deadline": "2022-10-24"
   },
   "pr": {
     "state_name": "Puerto Rico",
@@ -372,7 +372,7 @@
     "registration_type": "in-person",
     "translationKey": "Puerto Rico",
     "type": "register",
-    "ip_date": "2022-09-19"
+    "ip_deadline": "2022-09-19"
   },
   "ri": {
     "state_name": "Rhode Island",
@@ -380,8 +380,8 @@
     "registration_type": "online",
     "translationKey": "Rhode Island",
     "type": "register",
-    "ip_date": "2022-10-09",
-    "online_date": "2022-10-09"
+    "ip_deadline": "2022-10-09",
+    "online_deadline": "2022-10-09"
   },
   "sc": {
     "state_name": "South Carolina",
@@ -389,8 +389,8 @@
     "registration_type": "online",
     "translationKey": "South Carolina",
     "type": "register",
-    "ip_date": "2022-10-09",
-    "online_date": "2022-10-09"
+    "ip_deadline": "2022-10-09",
+    "online_deadline": "2022-10-09"
   },
   "sd": {
     "state_name": "South Dakota",
@@ -398,7 +398,7 @@
     "registration_type": "by-mail",
     "translationKey": "South Dakota",
     "type": "register",
-    "ip_date": "2022-10-24"
+    "ip_deadline": "2022-10-24"
   },
   "tn": {
     "state_name": "Tennessee",
@@ -406,8 +406,8 @@
     "registration_type": "online",
     "translationKey": "Tennessee",
     "type": "register",
-    "ip_date": "2022-10-11",
-    "online_date": "2022-10-11"
+    "ip_deadline": "2022-10-11",
+    "online_deadline": "2022-10-11"
   },
   "tx": {
     "state_name": "Texas",
@@ -415,7 +415,7 @@
     "registration_type": "by-mail",
     "translationKey": "Texas",
     "type": "register",
-    "ip_date": "2022-10-11"
+    "ip_deadline": "2022-10-11"
   },
   "ut": {
     "state_name": "Utah",
@@ -423,8 +423,8 @@
     "registration_type": "online",
     "translationKey": "Utah",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-10-28"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-10-28"
   },
   "vt": {
     "state_name": "Vermont",
@@ -432,8 +432,8 @@
     "registration_type": "online",
     "translationKey": "Vermont",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-11-08"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-11-08"
   },
   "va": {
     "state_name": "Virginia",
@@ -441,8 +441,8 @@
     "registration_type": "online",
     "translationKey": "Virginia",
     "type": "register",
-    "ip_date": "2022-10-17",
-    "online_date": "2022-10-17"
+    "ip_deadline": "2022-10-17",
+    "online_deadline": "2022-10-17"
   },
   "vi": {
     "state_name": "U.S. Virgin Islands",
@@ -450,7 +450,7 @@
     "registration_type": "in-person",
     "translationKey": "U.S. Virgin Islands",
     "type": "register",
-    "ip_date": "2022-10-09"
+    "ip_deadline": "2022-10-09"
   },
   "wa": {
     "state_name": "Washington",
@@ -458,8 +458,8 @@
     "registration_type": "online",
     "translationKey": "Washington",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-10-31"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-10-31"
   },
   "wv": {
     "state_name": "West Virginia",
@@ -467,8 +467,8 @@
     "registration_type": "online",
     "translationKey": "West Virginia",
     "type": "register",
-    "ip_date": "2022-10-18",
-    "online_date": "2022-10-18"
+    "ip_deadline": "2022-10-18",
+    "online_deadline": "2022-10-18"
   },
   "wi": {
     "state_name": "Wisconsin",
@@ -476,8 +476,8 @@
     "registration_type": "online",
     "translationKey": "Wisconsin",
     "type": "register",
-    "ip_date": "2022-11-08",
-    "online_date": "2022-10-19"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-10-19"
   },
   "wy": {
     "state_name": "Wyoming",
@@ -486,6 +486,6 @@
     "translationKey": "Wyoming",
     "national_voter_registration_form_accepted": "false",
     "type": "register",
-    "ip_date": "2022-11-08"
+    "ip_deadline": "2022-11-08"
   }
 }

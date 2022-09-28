@@ -1,6 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 
-{{ $time := (time .Params.ip_date) }}
+{{ $time := (time .Params.ip_deadline) }}
 
 {{ $day := index $translation.day_number (string $time.Day) }}
 {{ $month := index $translation.months (string (lower $time.Month)) }}

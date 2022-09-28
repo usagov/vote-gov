@@ -2,7 +2,7 @@
 {{ $online_answer1 := replace $translation.register.online__answer1 "%link%" (partial "links/online-answer1-link.html" .) }}
 {{ $online_answer2 := replace $translation.register.online__answer2 "%link%" (partial "links/online-answer2-link.html" .) }}
 
-{{ $onlineDeadline := cond (ne .Params.online_date nil) (partial "date-format-online.html" .) .Params.default_online_deadline }}
+{{ $onlineDeadline := cond (ne .Params.online_deadline nil) (partial "date-format-online.html" .) .Params.default_online_deadline }}
 {{ $dates__electionday := cond (ne .Params.dates__electionday nil) .Params.dates__electionday $translation.register.dates__electionday }}
 
 <h2>{{ replace $translation.register.online__h2_question1 "%state_name%" .Params.state_name }}</h2>

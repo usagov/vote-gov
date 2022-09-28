@@ -11,8 +11,8 @@
 {{end}}
 
 <ul class="registered-resources">
-	{{ if or (ne .Params.online_date nil) (ne .Params.default_online_deadline nil) }}
-		{{ $onlineDeadline := cond (ne .Params.online_date nil) (partial "date-format-online.html" .) .Params.default_online_deadline }}
+	{{ if or (ne .Params.online_deadline nil) (ne .Params.default_online_deadline nil) }}
+		{{ $onlineDeadline := cond (ne .Params.online_deadline nil) (partial "date-format-online.html" .) .Params.default_online_deadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__byonline_deadline }}</span>
 			{{ $onlineDeadline }}
@@ -33,8 +33,8 @@
 		</li>
 	{{end}}
 
-	{{ if or (ne .Params.ip_date nil) (ne .Params.default_ip_deadline nil) }}
-		{{ $ipDeadline := cond (ne .Params.ip_date nil) (partial "date-format-ip.html" .) .Params.default_ip_deadline }}
+	{{ if or (ne .Params.ip_deadline nil) (ne .Params.default_ip_deadline nil) }}
+		{{ $ipDeadline := cond (ne .Params.ip_deadline nil) (partial "date-format-ip.html" .) .Params.default_ip_deadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__inperson_deadline }}</span>
 			{{ $ipDeadline }}
