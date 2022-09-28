@@ -24,6 +24,5 @@ confirm_registration_link_language_selection = ""
 default_ip_deadline = "15 days before Election Day"
 default_online_deadline = "15 days before Election Day"
 default_mail_postmarked_deadline = "Must be postmarked 15 days before Election Day"
-registration_link_overide = "https://www.google.com/search?q=google+puppies&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiP5fGeibb6AhVJEVkFHQVNAyoQ_AUoAXoECAEQAw&biw=1792&bih=952&dpr=2"
 
 +++
