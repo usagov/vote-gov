@@ -2,6 +2,7 @@
 
 state_name = "Rhode Island"
 state_abbreviation = "ri"
+is_state = "true"
 registration_type = "online"
 translationKey = "Rhode Island"
 type = "register"

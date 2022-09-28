@@ -2,6 +2,7 @@
 
 state_name = "Oregon"
 state_abbreviation = "or"
+is_state = "true"
 registration_type = "online"
 translationKey = "Oregon"
 type = "register"

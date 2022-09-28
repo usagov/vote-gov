@@ -2,6 +2,7 @@
 
 state_name = "Hawaii"
 state_abbreviation = "hi"
+is_state = "true"
 registration_type = "online"
 translationKey = "Hawaii"
 type = "register"

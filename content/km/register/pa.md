@@ -2,6 +2,7 @@
 
 state_name = "Pennsylvania"
 state_abbreviation = "pa"
+is_state = "true"
 registration_type = "online"
 translationKey = "Pennsylvania"
 type = "register"

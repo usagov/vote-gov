@@ -2,6 +2,7 @@
 
 state_name = "Maryland"
 state_abbreviation = "md"
+is_state = "true"
 registration_type = "online"
 translationKey = "Maryland"
 type = "register"

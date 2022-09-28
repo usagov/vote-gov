@@ -2,6 +2,7 @@
 
 state_name = "New York"
 state_abbreviation = "ny"
+is_state = "true"
 registration_type = "online"
 translationKey = "New York"
 type = "register"

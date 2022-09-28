@@ -2,6 +2,7 @@
 
 state_name = "Idaho"
 state_abbreviation = "id"
+is_state = "true"
 registration_type = "online"
 translationKey = "Idaho"
 type = "register"

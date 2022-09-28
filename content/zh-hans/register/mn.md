@@ -2,6 +2,7 @@
 
 state_name = "Minnesota"
 state_abbreviation = "mn"
+is_state = "true"
 registration_type = "online"
 translationKey = "Minnesota"
 type = "register"

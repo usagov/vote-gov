@@ -2,6 +2,7 @@
 
 state_name = "Tennessee"
 state_abbreviation = "tn"
+is_state = "true"
 registration_type = "online"
 translationKey = "Tennessee"
 type = "register"

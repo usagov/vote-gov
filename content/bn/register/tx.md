@@ -2,6 +2,7 @@
 
 state_name = "Texas"
 state_abbreviation = "tx"
+is_state = "true"
 registration_type = "by-mail"
 translationKey = "Texas"
 type = "register"

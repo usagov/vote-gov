@@ -2,6 +2,7 @@
   "al": {
     "state_name": "Alabama",
     "state_abbreviation": "al",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Alabama",
     "type": "register",
@@ -11,6 +12,7 @@
   "ak": {
     "state_name": "Alaska",
     "state_abbreviation": "ak",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Alaska",
     "type": "register",
@@ -20,6 +22,7 @@
   "as": {
     "state_name": "American Samoa",
     "state_abbreviation": "as",
+    "is_state": "false",
     "registration_type": "in-person",
     "translationKey": "American Samoa",
     "type": "register",
@@ -28,6 +31,7 @@
   "az": {
     "state_name": "Arizona",
     "state_abbreviation": "az",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Arizona",
     "type": "register",
@@ -37,6 +41,7 @@
   "ar": {
     "state_name": "Arkansas",
     "state_abbreviation": "ar",
+    "is_state": "true",
     "registration_type": "by-mail",
     "translationKey": "Arkansas",
     "type": "register",
@@ -45,6 +50,7 @@
   "ca": {
     "state_name": "California",
     "state_abbreviation": "ca",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "California",
     "type": "register",
@@ -54,6 +60,7 @@
   "co": {
     "state_name": "Colorado",
     "state_abbreviation": "co",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Colorado",
     "type": "register",
@@ -63,6 +70,7 @@
   "ct": {
     "state_name": "Connecticut",
     "state_abbreviation": "ct",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Connecticut",
     "type": "register",
@@ -72,6 +80,7 @@
   "de": {
     "state_name": "Delaware",
     "state_abbreviation": "de",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Delaware",
     "type": "register",
@@ -81,6 +90,7 @@
   "dc": {
     "state_name": "District of Columbia",
     "state_abbreviation": "dc",
+    "is_state": "false",
     "registration_type": "online",
     "translationKey": "District of Columbia",
     "type": "register",
@@ -90,6 +100,7 @@
   "fl": {
     "state_name": "Florida",
     "state_abbreviation": "fl",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Florida",
     "type": "register",
@@ -99,6 +110,7 @@
   "ga": {
     "state_name": "Georgia",
     "state_abbreviation": "ga",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Georgia",
     "type": "register",
@@ -109,6 +121,7 @@
     "state_name": "Guam",
     "state_abbreviation": "gu",
     "registration_type": "in-person",
+    "is_state": "false",
     "translationKey": "Guam",
     "type": "register",
     "ip_deadline": "2022-10-28"
@@ -116,6 +129,7 @@
   "hi": {
     "state_name": "Hawaii",
     "state_abbreviation": "hi",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Hawaii",
     "type": "register",
@@ -125,6 +139,7 @@
   "id": {
     "state_name": "Idaho",
     "state_abbreviation": "id",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Idaho",
     "type": "register",
@@ -134,6 +149,7 @@
   "il": {
     "state_name": "Illinois",
     "state_abbreviation": "il",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Illinois",
     "type": "register",
@@ -143,6 +159,7 @@
   "in": {
     "state_name": "Indiana",
     "state_abbreviation": "in",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Indiana",
     "type": "register",
@@ -152,6 +169,7 @@
   "ia": {
     "state_name": "Iowa",
     "state_abbreviation": "ia",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Iowa",
     "type": "register",
@@ -161,6 +179,7 @@
   "ks": {
     "state_name": "Kansas",
     "state_abbreviation": "ks",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Kansas",
     "type": "register",
@@ -170,6 +189,7 @@
   "ky": {
     "state_name": "Kentucky",
     "state_abbreviation": "ky",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Kentucky",
     "type": "register",
@@ -179,6 +199,7 @@
   "la": {
     "state_name": "Louisiana",
     "state_abbreviation": "la",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Louisiana",
     "type": "register",
@@ -188,6 +209,7 @@
   "me": {
     "state_name": "Maine",
     "state_abbreviation": "me",
+    "is_state": "true",
     "registration_type": "by-mail",
     "translationKey": "Maine",
     "type": "register",
@@ -196,6 +218,7 @@
   "md": {
     "state_name": "Maryland",
     "state_abbreviation": "md",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Maryland",
     "type": "register",
@@ -205,6 +228,7 @@
   "ma": {
     "state_name": "Massachusetts",
     "state_abbreviation": "ma",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Massachusetts",
     "type": "register",
@@ -214,6 +238,7 @@
   "mi": {
     "state_name": "Michigan",
     "state_abbreviation": "mi",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Michigan",
     "type": "register",
@@ -223,6 +248,7 @@
   "mn": {
     "state_name": "Minnesota",
     "state_abbreviation": "mn",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Minnesota",
     "type": "register",
@@ -232,6 +258,7 @@
   "ms": {
     "state_name": "Mississippi",
     "state_abbreviation": "ms",
+    "is_state": "true",
     "registration_type": "by-mail",
     "translationKey": "Mississippi",
     "type": "register",
@@ -240,6 +267,7 @@
   "mo": {
     "state_name": "Missouri",
     "state_abbreviation": "mo",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Missouri",
     "type": "register",
@@ -249,6 +277,7 @@
   "mt": {
     "state_name": "Montana",
     "state_abbreviation": "mt",
+    "is_state": "true",
     "registration_type": "by-mail",
     "translationKey": "Montana",
     "type": "register",
@@ -257,6 +286,7 @@
   "ne": {
     "state_name": "Nebraska",
     "state_abbreviation": "ne",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Nebraska",
     "type": "register",
@@ -266,6 +296,7 @@
   "nv": {
     "state_name": "Nevada",
     "state_abbreviation": "nv",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Nevada",
     "type": "register",
@@ -275,6 +306,7 @@
   "nh": {
     "state_name": "New Hampshire",
     "state_abbreviation": "nh",
+    "is_state": "true",
     "registration_type": "in-person",
     "translationKey": "New Hampshire",
     "type": "register",
@@ -283,6 +315,7 @@
   "nj": {
     "state_name": "New Jersey",
     "state_abbreviation": "nj",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "New Jersey",
     "type": "register",
@@ -292,6 +325,7 @@
   "nm": {
     "state_name": "New Mexico",
     "state_abbreviation": "nm",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "New Mexico",
     "type": "register",
@@ -301,6 +335,7 @@
   "ny": {
     "state_name": "New York",
     "state_abbreviation": "ny",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "New York",
     "type": "register",
@@ -310,6 +345,7 @@
   "nc": {
     "state_name": "North Carolina",
     "state_abbreviation": "nc",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "North Carolina",
     "type": "register",
@@ -319,6 +355,7 @@
   "nd": {
     "state_name": "North Dakota",
     "state_abbreviation": "nd",
+    "is_state": "true",
     "registration_type": "not-needed",
     "translationKey": "North Dakota",
     "type": "register"
@@ -326,6 +363,7 @@
   "mp": {
     "state_name": "Northern Mariana Islands",
     "state_abbreviation": "mp",
+    "is_state": "false",
     "registration_type": "in-person",
     "translationKey": "Northern Mariana Islands",
     "type": "register",
@@ -334,6 +372,7 @@
   "oh": {
     "state_name": "Ohio",
     "state_abbreviation": "oh",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Ohio",
     "type": "register",
@@ -343,6 +382,7 @@
   "ok": {
     "state_name": "Oklahoma",
     "state_abbreviation": "ok",
+    "is_state": "true",
     "registration_type": "by-mail",
     "translationKey": "Oklahoma",
     "type": "register",
@@ -351,6 +391,7 @@
   "or": {
     "state_name": "Oregon",
     "state_abbreviation": "or",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Oregon",
     "type": "register",
@@ -360,6 +401,7 @@
   "pa": {
     "state_name": "Pennsylvania",
     "state_abbreviation": "pa",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Pennsylvania",
     "type": "register",
@@ -369,6 +411,7 @@
   "pr": {
     "state_name": "Puerto Rico",
     "state_abbreviation": "pr",
+    "is_state": "false",
     "registration_type": "in-person",
     "translationKey": "Puerto Rico",
     "type": "register",
@@ -377,6 +420,7 @@
   "ri": {
     "state_name": "Rhode Island",
     "state_abbreviation": "ri",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Rhode Island",
     "type": "register",
@@ -386,6 +430,7 @@
   "sc": {
     "state_name": "South Carolina",
     "state_abbreviation": "sc",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "South Carolina",
     "type": "register",
@@ -395,6 +440,7 @@
   "sd": {
     "state_name": "South Dakota",
     "state_abbreviation": "sd",
+    "is_state": "true",
     "registration_type": "by-mail",
     "translationKey": "South Dakota",
     "type": "register",
@@ -403,6 +449,7 @@
   "tn": {
     "state_name": "Tennessee",
     "state_abbreviation": "tn",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Tennessee",
     "type": "register",
@@ -412,6 +459,7 @@
   "tx": {
     "state_name": "Texas",
     "state_abbreviation": "tx",
+    "is_state": "true",
     "registration_type": "by-mail",
     "translationKey": "Texas",
     "type": "register",
@@ -420,6 +468,7 @@
   "ut": {
     "state_name": "Utah",
     "state_abbreviation": "ut",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Utah",
     "type": "register",
@@ -429,6 +478,7 @@
   "vt": {
     "state_name": "Vermont",
     "state_abbreviation": "vt",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Vermont",
     "type": "register",
@@ -438,6 +488,7 @@
   "va": {
     "state_name": "Virginia",
     "state_abbreviation": "va",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Virginia",
     "type": "register",
@@ -447,6 +498,7 @@
   "vi": {
     "state_name": "U.S. Virgin Islands",
     "state_abbreviation": "vi",
+    "is_state": "false",
     "registration_type": "in-person",
     "translationKey": "U.S. Virgin Islands",
     "type": "register",
@@ -455,6 +507,7 @@
   "wa": {
     "state_name": "Washington",
     "state_abbreviation": "wa",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Washington",
     "type": "register",
@@ -464,6 +517,7 @@
   "wv": {
     "state_name": "West Virginia",
     "state_abbreviation": "wv",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "West Virginia",
     "type": "register",
@@ -473,6 +527,7 @@
   "wi": {
     "state_name": "Wisconsin",
     "state_abbreviation": "wi",
+    "is_state": "true",
     "registration_type": "online",
     "translationKey": "Wisconsin",
     "type": "register",
@@ -482,6 +537,7 @@
   "wy": {
     "state_name": "Wyoming",
     "state_abbreviation": "wy",
+    "is_state": "true",
     "registration_type": "by-mail",
     "translationKey": "Wyoming",
     "national_voter_registration_form_accepted": "false",

@@ -2,6 +2,7 @@
 
 state_name = "Kansas"
 state_abbreviation = "ks"
+is_state = "true"
 registration_type = "online"
 translationKey = "Kansas"
 type = "register"

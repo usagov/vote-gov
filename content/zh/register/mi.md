@@ -2,6 +2,7 @@
 
 state_name = "Michigan"
 state_abbreviation = "mi"
+is_state = "true"
 registration_type = "online"
 translationKey = "Michigan"
 type = "register"

@@ -2,6 +2,7 @@
 
 state_name = "South Carolina"
 state_abbreviation = "sc"
+is_state = "true"
 registration_type = "online"
 translationKey = "South Carolina"
 type = "register"

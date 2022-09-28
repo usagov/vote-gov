@@ -2,6 +2,7 @@
 
 state_name = "South Dakota"
 state_abbreviation = "sd"
+is_state = "true"
 registration_type = "by-mail"
 translationKey = "South Dakota"
 type = "register"

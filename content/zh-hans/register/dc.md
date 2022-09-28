@@ -2,6 +2,7 @@
 
 state_name = "District of Columbia"
 state_abbreviation = "dc"
+is_state = "false"
 registration_type = "online"
 translationKey = "District of Columbia"
 type = "register"

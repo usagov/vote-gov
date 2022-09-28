@@ -2,6 +2,7 @@
 
 state_name = "New Jersey"
 state_abbreviation = "nj"
+is_state = "true"
 registration_type = "online"
 translationKey = "New Jersey"
 type = "register"

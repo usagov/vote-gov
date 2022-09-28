@@ -2,6 +2,7 @@
 
 state_name = "Mississippi"
 state_abbreviation = "ms"
+is_state = "true"
 registration_type = "by-mail"
 translationKey = "Mississippi"
 type = "register"

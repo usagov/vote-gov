@@ -2,6 +2,7 @@
 
 state_name = "Virginia"
 state_abbreviation = "va"
+is_state = "true"
 registration_type = "online"
 translationKey = "Virginia"
 type = "register"

@@ -2,6 +2,7 @@
 
 state_name = "Florida"
 state_abbreviation = "fl"
+is_state = "true"
 registration_type = "online"
 translationKey = "Florida"
 type = "register"

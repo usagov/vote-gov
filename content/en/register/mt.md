@@ -2,6 +2,7 @@
 
 state_name = "Montana"
 state_abbreviation = "mt"
+is_state = "true"
 registration_type = "by-mail"
 translationKey = "Montana"
 type = "register"

@@ -2,6 +2,7 @@
 
 state_name = "Utah"
 state_abbreviation = "ut"
+is_state = "true"
 registration_type = "online"
 translationKey = "Utah"
 type = "register"

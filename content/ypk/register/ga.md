@@ -2,6 +2,7 @@
 
 state_name = "Georgia"
 state_abbreviation = "ga"
+is_state = "true"
 registration_type = "online"
 translationKey = "Georgia"
 type = "register"

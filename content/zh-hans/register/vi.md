@@ -2,6 +2,7 @@
 
 state_name = "U.S. Virgin Islands"
 state_abbreviation = "vi"
+is_state = "false"
 registration_type = "in-person"
 translationKey = "U.S. Virgin Islands"
 type = "register"

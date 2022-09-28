@@ -2,6 +2,7 @@
 
 state_name = "Arkansas"
 state_abbreviation = "ar"
+is_state = "true"
 registration_type = "by-mail"
 translationKey = "Arkansas"
 type = "register"

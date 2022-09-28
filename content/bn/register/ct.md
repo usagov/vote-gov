@@ -2,6 +2,7 @@
 
 state_name = "Connecticut"
 state_abbreviation = "ct"
+is_state = "true"
 registration_type = "online"
 translationKey = "Connecticut"
 type = "register"

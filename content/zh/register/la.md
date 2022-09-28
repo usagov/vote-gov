@@ -2,6 +2,7 @@
 
 state_name = "Louisiana"
 state_abbreviation = "la"
+is_state = "true"
 registration_type = "online"
 translationKey = "Louisiana"
 type = "register"

@@ -1,6 +1,10 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 <a class="reg-link" href="{{ .Params.more_info_link }}{{ if in .Params.more_info_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
-{{ $translation.register.by_mail__link -}}
+{{ if and (isset $translation.register "by_mail__link_territory") (eq .Params.is_state "false") }}
+    {{ $translation.register.by_mail__link_territory -}}
+{{ else }}
+    {{ $translation.register.by_mail__link -}}
+{{ end }}
 {{ if ne .Params.more_info_link_translated "true" }}
 {{ if .Params.more_info_link_language_selection }}
 {{ $translation.register.select_link -}}

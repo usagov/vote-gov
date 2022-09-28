@@ -2,6 +2,7 @@
 
 state_name = "Alaska"
 state_abbreviation = "ak"
+is_state = "true"
 registration_type = "online"
 translationKey = "Alaska"
 type = "register"

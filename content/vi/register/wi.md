@@ -2,6 +2,7 @@
 
 state_name = "Wisconsin"
 state_abbreviation = "wi"
+is_state = "true"
 registration_type = "online"
 translationKey = "Wisconsin"
 type = "register"

@@ -2,6 +2,7 @@
 
 state_name = "New Mexico"
 state_abbreviation = "nm"
+is_state = "true"
 registration_type = "online"
 translationKey = "New Mexico"
 type = "register"

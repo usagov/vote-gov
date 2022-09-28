@@ -1,4 +1,4 @@
-$color-blue-headings: #0071bc;
+@use '../variables' as *;
 
 .footer-contact {
   padding: 24px 0;
@@ -8,6 +8,8 @@ $color-blue-headings: #0071bc;
   text-decoration: none;
   color: black;
   font-weight: 700;
+  font-size: 18px;
+  margin-top: 1.5rem;
 
   &:focus,
   &:hover {
@@ -39,5 +41,44 @@ $color-blue-headings: #0071bc;
 
   span {
     text-decoration: underline;
+  }
+}
+
+.eac-vote-partnership {
+  .vote-logo {
+    height: 3rem;
+    width: auto;
+  }
+
+  .eac-logo {
+    margin-top: 0.5rem;
+    height: 3rem;
+  }
+
+  .eac-container {
+    min-width: 150px;
+  }
+
+  .vote-txt {
+    color: $color-blue-headings;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    margin-left: -.5rem;
+  }
+
+  .partnership-txt {
+    color: $blue-black;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 1rem 1rem 1rem 0.5rem;
+
+    @media (min-width: 639px) {
+      margin-top: 0.5rem;
+    }
+  }
+
+  @media (max-width: 639px) {
+    text-align: center;
   }
 }

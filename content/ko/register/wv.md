@@ -2,6 +2,7 @@
 
 state_name = "West Virginia"
 state_abbreviation = "wv"
+is_state = "true"
 registration_type = "online"
 translationKey = "West Virginia"
 type = "register"

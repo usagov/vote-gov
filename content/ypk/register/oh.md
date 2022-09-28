@@ -2,6 +2,7 @@
 
 state_name = "Ohio"
 state_abbreviation = "oh"
+is_state = "true"
 registration_type = "online"
 translationKey = "Ohio"
 type = "register"
