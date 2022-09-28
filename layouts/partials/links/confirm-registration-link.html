@@ -11,7 +11,7 @@
 {{ if and (isset $translation.register "confirm_registration__link_territory") (eq .Params.is_state "false") }}
     {{replace $translation.register.confirm_registration__link_territory "%state_name%" .Params.state_name -}}
 {{ else }}
-    {{replace $translation.register.confirm_registration__text "%state_name%" .Params.state_name -}}
+    {{replace $confirm_registration__text "%state_name%" .Params.state_name -}}
 {{ end }}
 {{ if ne .Params.confirm_registration_link_translated "true" }}
 {{ if .Params.confirm_registration_link_language_selection }}
