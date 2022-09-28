@@ -15,7 +15,9 @@
     "mail_postmarked_deadline": "debe tener el sello del correo domingo, 09 de octubre de 2022",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
     "default_online_deadline": "hasta 30 días antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "hp_link_overide": "https://elections.alaska.gov/Core/spanishinformation.php",
+    "more_info_link_overide": "https://www.elections.alaska.gov/Core/spanishinformation.php"
   },
   "as": {
     "ip_deadline": "martes, 11 de octubre de 2022",
@@ -31,14 +33,16 @@
     "confirm_registration_link_language_selection": "true",
     "default_ip_deadline": "hasta 29 días antes del día de las elecciones",
     "default_online_deadline": "hasta 29 días antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo 29 días antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 29 días antes del día de las elecciones",
+    "more_info_link_overide": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information-sp"
   },
   "ar": {
     "ip_deadline": "martes, 11 de octubre de 2022",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "confirm_registration_link_overide": "https://www.voterview.ar-nova.org/voterview/?culture=es-MX"
   },
   "ca": {
     "hp_link_translated": "true",
@@ -50,7 +54,11 @@
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta 15 días antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo 15 días antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 15 días antes del día de las elecciones",
+    "hp_link_overide": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/",
+    "registration_link_overide": "https://registertovote.ca.gov/es-mx",
+    "more_link_overide": "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote",
+    "confirm_registration_link_overide": "https://registertovote.ca.gov/es-mx"
   },
   "co": {
     "hp_link_translated": "true",
@@ -62,7 +70,9 @@
     "confirm_registration_link_language_selection": "true",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta 8 días antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo 8 días antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 8 días antes del día de las elecciones",
+    "hp_link_overide": "https://www.sos.state.co.us/pubs/spanish/spanishHome.html"
+
   },
   "ct": {
     "registration_link_language_selection": "true",
@@ -81,7 +91,10 @@
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta el cuarto sábado antes del día de las elecciones",
     "default_online_deadline": "hasta el cuarto sábado antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar el cuarto sábado antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar el cuarto sábado antes del día de las elecciones",
+    "registration_link_overide": "https://ivote.de.gov/voterview/?culture=es-MX",
+    "confirm_registration_link_overide": "https://ivote.de.gov/VoterView/?culture=es-MX"
+
   },
   "dc": {
     "ip_deadline": "martes, 08 de noviembre de 2022",
@@ -100,7 +113,9 @@
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta 29 días antes del día de las elecciones",
     "default_online_deadline": "hasta 29 días antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo 29 días antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 29 días antes del día de las elecciones",
+    "registration_link_overide": "https://registertovoteflorida.gov/home",
+    "confirm_registration_link_overide": "https://registration.elections.myflorida.com/es/CheckVoterStatus/Index"
   },
   "ga": {
     "ip_deadline": "martes, 11 de octubre de 2022",
@@ -165,7 +180,8 @@
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta 21 días antes del día de las elecciones",
     "default_online_deadline": "hasta 21 días antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo 21 días antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 21 días antes del día de las elecciones",
+    "confirm_registration_link_overide": "https://myvoteinfo.voteks.org/voterview/?culture=es-MX"
   },
   "ky": {
     "ip_deadline": "martes, 11 de octubre de 2022",
@@ -226,7 +242,9 @@
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta 21 días antes del día de las elecciones",
-    "default_mail_received_deadline": "a más tardar debe ser recibida 21 días antes del día de las elecciones"
+    "default_mail_received_deadline": "a más tardar debe ser recibida 21 días antes del día de las elecciones",
+    "more_link_overide": "https://www.sos.state.mn.us/elections-voting/spanish",
+    "confirm_registration_link_overide": "https://www.sos.state.mn.us/elections-voting/spanish"
   },
   "ms": {
     "ip_deadline": "lunes, 10 de octubre de 2022",
@@ -256,7 +274,8 @@
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta el segundo viernes antes del día de las elecciones",
     "default_online_deadline": "hasta el tercer viernes antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar el tercer viernes antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar el tercer viernes antes del día de las elecciones",
+    "confirm_registration_link_overide": "https://www.votercheck.necvr.ne.gov/voterview/?culture=es-MX"
   },
   "nv": {
     "registration_link_language_selection": "true",
@@ -289,7 +308,7 @@
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "default_ip_deadline": "hasta el sábado antes del día de las elecciones",
     "default_online_deadline": "hasta 28 días antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo 28 días antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 28 días antes del día de las elecciones",
   },
   "ny": {
     "ip_deadline": "viernes, 14 de octubre de 2022",
@@ -307,7 +326,8 @@
     "default_online_deadline": "hasta 25 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 25 días antes del día de las elecciones"
   },
-  "nd": {},
+  "nd": {
+  },
   "mp": {
     "ip_deadline": "viernes, 09 de septiembre de 2022",
     "mail_received_deadline": "a más tardar debe ser recibida viernes, 09 de septiembre de ",
@@ -354,7 +374,8 @@
     "hp_link_translated": "true",
     "ip_deadline": "lunes, 19 de septiembre de 2022",
     "confirm_registration_link_translated": "true",
-    "default_ip_deadline": "hasta 50 días antes del día de las elecciones"
+    "default_ip_deadline": "hasta 50 días antes del día de las elecciones",
+    "more_link_overide": "https://ww2.ceepur.org/es-pr/Paginas/default.aspx"
   },
   "ri": {
     "registration_link_language_selection": "true",
@@ -365,7 +386,10 @@
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
     "default_online_deadline": "hasta 30 días antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "more_link_overide": "https://vote.sos.ri.gov/VoterSpanish/RegisterToVote",
+    "confirm_registration_link_overide": "https://vote.sos.ri.gov/HomeSpanish/UpdateVoterRecord?ActiveFlag=0"
+
   },
   "sc": {
     "ip_deadline": "domingo, 09 de octubre de 2022",
@@ -373,7 +397,8 @@
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
     "default_online_deadline": "hasta 30 días antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "more_link_overide": "https://www.scvotes.gov/como-votar"
   },
   "sd": {
     "ip_deadline": "lunes, 24 de octubre de 2022",
@@ -396,7 +421,9 @@
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "confirm_registration_link_language_selection": "true",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
+    "hp_link_overide": "https://www.votetexas.gov/es/index.html",
+    "more_link_overide": "https://www.votetexas.gov/es/registrese-para-votar/index.html"
   },
   "ut": {
     "ip_deadline": "martes, 08 de noviembre de 2022",
@@ -423,7 +450,10 @@
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta 22 días antes del día de las elecciones",
     "default_online_deadline": "hasta 22 días antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo 22 días antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 22 días antes del día de las elecciones",
+    "hp_link_overide": "https://www.elections.virginia.gov/es/votar/",
+    "more_link_overide": "https://www.elections.virginia.gov/es/registro/",
+    "confirm_registration_link_overide": "https://www.elections.virginia.gov/es/registro/ver-su-informacion/"
   },
   "vi": {
     "ip_deadline": "domingo, 09 de octubre de 2022",
@@ -440,7 +470,8 @@
     "confirm_registration_link_language_selection": "true",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta 8 días antes del día de las elecciones",
-    "default_mail_received_deadline": "a más tardar debe ser recibida 8 días antes del día de las elecciones"
+    "default_mail_received_deadline": "a más tardar debe ser recibida 8 días antes del día de las elecciones",
+    "hp_link_overide": "https://www.sos.wa.gov/elections/spanish.aspx"
   },
   "wv": {
     "ip_deadline": "martes, 18 de octubre de 2022",
@@ -457,7 +488,8 @@
     "mail_postmarked_deadline": "debe tener el sello del correo miércoles, 19 de octubre de 2022",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta el tercer miércoles antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo hasta el tercer miércoles antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo hasta el tercer miércoles antes del día de las elecciones",
+    "registration_link_overide": "https://myvote.wi.gov/es-es/RegisterToVote"
   },
   "wy": {
     "ip_deadline": "martes, 08 de noviembre de 2022",
