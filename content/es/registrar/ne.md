@@ -18,6 +18,6 @@ confirm_registration_link_translated = "true"
 default_ip_deadline = "hasta el segundo viernes antes del día de las elecciones"
 default_online_deadline = "hasta el tercer viernes antes del día de las elecciones"
 default_mail_postmarked_deadline = "debe tener el sello del correo a más tardar el tercer viernes antes del día de las elecciones"
-confirm_registration_link_overide = "https://www.votercheck.necvr.ne.gov/voterview/?culture=es-MX"
+confirm_registration_link_override = "https://www.votercheck.necvr.ne.gov/voterview/?culture=es-MX"
 
 +++

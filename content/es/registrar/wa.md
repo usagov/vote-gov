@@ -20,6 +20,6 @@ confirm_registration_link_language_selection = "true"
 default_ip_deadline = "hasta el mismo día de las elecciones"
 default_online_deadline = "hasta 8 días antes del día de las elecciones"
 default_mail_received_deadline = "a más tardar debe ser recibida 8 días antes del día de las elecciones"
-hp_link_overide = "https://www.sos.wa.gov/elections/spanish.aspx"
+hp_link_override = "https://www.sos.wa.gov/elections/spanish.aspx"
 
 +++

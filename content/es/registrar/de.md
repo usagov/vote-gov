@@ -18,7 +18,7 @@ confirm_registration_link_translated = "true"
 default_ip_deadline = "hasta el cuarto sábado antes del día de las elecciones"
 default_online_deadline = "hasta el cuarto sábado antes del día de las elecciones"
 default_mail_postmarked_deadline = "debe tener el sello del correo a más tardar el cuarto sábado antes del día de las elecciones"
-registration_link_overide = "https://ivote.de.gov/voterview/?culture=es-MX"
-confirm_registration_link_overide = "https://ivote.de.gov/VoterView/?culture=es-MX"
+registration_link_override = "https://ivote.de.gov/voterview/?culture=es-MX"
+confirm_registration_link_override = "https://ivote.de.gov/VoterView/?culture=es-MX"
 
 +++

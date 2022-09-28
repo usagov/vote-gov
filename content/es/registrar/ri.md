@@ -19,7 +19,7 @@ confirm_registration_link_translated = "true"
 default_ip_deadline = "hasta 30 días antes del día de las elecciones"
 default_online_deadline = "hasta 30 días antes del día de las elecciones"
 default_mail_postmarked_deadline = "debe tener el sello del correo 30 días antes del día de las elecciones"
-more_link_overide = "https://vote.sos.ri.gov/VoterSpanish/RegisterToVote"
-confirm_registration_link_overide = "https://vote.sos.ri.gov/HomeSpanish/UpdateVoterRecord?ActiveFlag=0"
+more_link_override = "https://vote.sos.ri.gov/VoterSpanish/RegisterToVote"
+confirm_registration_link_override = "https://vote.sos.ri.gov/HomeSpanish/UpdateVoterRecord?ActiveFlag=0"
 
 +++

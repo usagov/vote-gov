@@ -20,9 +20,9 @@ confirm_registration_link_translated = "true"
 default_ip_deadline = "hasta el mismo día de las elecciones"
 default_online_deadline = "hasta 15 días antes del día de las elecciones"
 default_mail_postmarked_deadline = "debe tener el sello del correo 15 días antes del día de las elecciones"
-hp_link_overide = "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/"
-registration_link_overide = "https://registertovote.ca.gov/es-mx"
-more_link_overide = "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote"
-confirm_registration_link_overide = "https://registertovote.ca.gov/es-mx"
+hp_link_override = "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/"
+registration_link_override = "https://registertovote.ca.gov/es-mx"
+more_link_override = "https://www.sos.ca.gov/elections/voting-resources/voting-california/spanish/registering-vote"
+confirm_registration_link_override = "https://registertovote.ca.gov/es-mx"
 
 +++

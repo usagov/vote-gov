@@ -1,6 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-<!-- To use a different link than the default one for any language use the variable name 'registration_link_overide' in states-data.json for that language -->
-{{ $registration_link := cond (ne .Params.registration_link_overide nil) .Params.registration_link_overide .Params.registration_link }}
+<!-- To use a different link than the default one for any language use the variable name 'registration_link_override' in states-data.json for that language -->
+{{ $registration_link := cond (ne .Params.registration_link_override nil) .Params.registration_link_override .Params.registration_link }}
 <a href="{{ $registration_link }}{{ if in $registration_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
 {{ if and (isset $translation.register "online__answer1_link_territory") (eq .Params.is_state "false") }}
     {{ $translation.register.online__answer1_link_territory -}}

@@ -1,6 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-<!-- To use a different link than the default one for any language use the variable name 'confirm_registration_link_overide' in states-data.json for that language -->
-{{ $confirm_registration_link := cond (ne .Params.confirm_registration_link_overide nil) .Params.confirm_registration_link_overide .Params.confirm_registration_link }}
+<!-- To use a different link than the default one for any language use the variable name 'confirm_registration_link_override' in states-data.json for that language -->
+{{ $confirm_registration_link := cond (ne .Params.confirm_registration_link_override nil) .Params.confirm_registration_link_override .Params.confirm_registration_link }}
 
 {{ $confirm_registration__text := $translation.register.confirm_registration__link }}
 {{ if and (eq .Params.state_name "Wyoming") (ne $translation.register.confirm_registration__intro_WY nil)}}

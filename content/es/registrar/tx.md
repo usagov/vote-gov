@@ -16,7 +16,7 @@ mail_postmarked_deadline = "debe tener el sello del correo martes, 11 de octubre
 confirm_registration_link_language_selection = "true"
 default_ip_deadline = "hasta 30 días antes del día de las elecciones"
 default_mail_postmarked_deadline = "debe tener el sello del correo 30 días antes del día de las elecciones"
-hp_link_overide = "https://www.votetexas.gov/es/index.html"
-more_link_overide = "https://www.votetexas.gov/es/registrese-para-votar/index.html"
+hp_link_override = "https://www.votetexas.gov/es/index.html"
+more_link_override = "https://www.votetexas.gov/es/registrese-para-votar/index.html"
 
 +++

@@ -17,6 +17,6 @@ mail_postmarked_deadline = "debe tener el sello del correo miércoles, 19 de oct
 default_ip_deadline = "hasta el mismo día de las elecciones"
 default_online_deadline = "hasta el tercer miércoles antes del día de las elecciones"
 default_mail_postmarked_deadline = "debe tener el sello del correo hasta el tercer miércoles antes del día de las elecciones"
-registration_link_overide = "https://myvote.wi.gov/es-es/RegisterToVote"
+registration_link_override = "https://myvote.wi.gov/es-es/RegisterToVote"
 
 +++
