@@ -6,7 +6,6 @@
 {{ $month := index $translation.months (string (lower $time.Month)) }}
 {{ $year := index $translation.years (string $time.Year) }}
 
-
 <!-- If the localized version is incorrect make a language specific format -->
 {{ if eq .Site.Language.Lang "bn" }}
 {{ $weekday := index $translation.days (string (lower $time.Weekday)) }}
@@ -20,6 +19,9 @@
 {{ else if eq .Site.Language.Lang "tl" }}
 {{ $weekday := index $translation.days (string (lower $time.Weekday)) }}
   {{ $weekday }}, ika-{{ $day }} ng {{ $month }} {{ $year }}
+{{ else if eq .Site.Language.Lang "km" }}
+{{ $weekday := index $translation.days (string (lower $time.Weekday)) }}
+  {{ $weekday }} {{ $day }} {{ $month }} {{ $year }}
 {{ else }}
   {{ $time | time.Format ":date_full" }}
 {{end}}

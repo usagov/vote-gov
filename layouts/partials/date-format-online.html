@@ -19,6 +19,9 @@
 {{ else if eq .Site.Language.Lang "tl" }}
 {{ $weekday := index $translation.days (string (lower $time.Weekday)) }}
   {{ $weekday }}, ika-{{ $day }} ng {{ $month }} {{ $year }}
+{{ else if eq .Site.Language.Lang "km" }}
+{{ $weekday := index $translation.days (string (lower $time.Weekday)) }}
+  {{ $weekday }} {{ $day }} {{ $month }} {{ $year }}
 {{ else }}
   {{ $time | time.Format ":date_full" }}
 {{end}}
