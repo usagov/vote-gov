@@ -95,7 +95,7 @@
     "translationKey": "District of Columbia",
     "type": "register",
     "ip_deadline": "2022-11-08",
-    "online_deadline": "2022-10-08"
+    "online_deadline": "2022-10-18"
   },
   "fl": {
     "state_name": "Florida",
@@ -204,7 +204,7 @@
     "translationKey": "Louisiana",
     "type": "register",
     "ip_deadline": "2022-10-11",
-    "online_deadline": "2022-10-19"
+    "online_deadline": "2022-10-18"
   },
   "me": {
     "state_name": "Maine",
