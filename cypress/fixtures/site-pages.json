@@ -1,4 +1,10 @@
 [
+
+  {
+    "name": "homePage",
+    "route": "/"
+  },
+
   {
     "name": "Alabama",
     "route": "/register/al/"
