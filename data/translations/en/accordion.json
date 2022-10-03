@@ -28,5 +28,18 @@
     "content_5_part_3": "You do not usually need to have your voter registration card with you in order to vote, but you may need to present another %link%. ",
     "content_5_part_3_link": "form of ID to vote",
     "content_5_part_4": "Learn more about %link%. ",
-    "content_5_part_4_link": "voter registration"
+    "content_5_part_4_link": "voter registration",
+
+    "title_6": "Register After You’ve Moved",
+    "content_6_part_1": "Whether you’ve moved near or far, you need to update your voter registration after a change of address. Select your state or territory from the dropdown menu to learn how to register online or by mail. If your state has online voter registration, that may be the quickest way to make changes. Submit your changes before your state’s registration deadline, which can be up to 30 days before election day. Your state may also require a new driver's license or ID card. %link%.",
+    "content_6_part_1_link": "See what type of voter ID your state requires",
+    "sub_head_part_2": "Moving within your state",
+    "content_6_part_2": "Even if you move within your same state, you’ll need to update your registration with your new address.",
+    "sub_head_part_3": "Moving to another state",
+    "content_6_part_3": "Some states require you to live in your new state for at least 30 days before registering to vote. If you don’t have time to register in your new state before election day, your old state may allow you to vote by mail or in person. For presidential election years, your old state must allow you to vote by mail or in person. After that, you’ll need to register in your new state. ",
+    "sub_head_part_4": "Moving abroad",
+    "content_6_part_4": "U.S. citizens living outside the U.S. can register to vote and request an absentee ballot by completing the %link%. See the %link%  for more resources on military and overseas voting.",
+    "content_6_part_4_link1": "Federal Post Card Application (FPCA)",
+    "content_6_part_4_link2": "Federal Voting Assistance Program (FVAP)"
+
 }
