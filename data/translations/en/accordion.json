@@ -36,10 +36,11 @@
     "sub_head_part_2": "Moving within your state",
     "content_6_part_2": "Even if you move within your same state, you’ll need to update your registration with your new address.",
     "sub_head_part_3": "Moving to another state",
-    "content_6_part_3": "Some states require you to live in your new state for at least 30 days before registering to vote. If you do not have time to register in your new state before Election Day, your old state may allow you to vote by mail or in person. For presidential election years, your old state must allow you to vote by mail or in person. After that, you’ll need to register in your new state. ",
+    "content_6_part_3": "Register before your new state’s deadline, which may be up to 30 days before the election. If you do not have time to register in your new state before Election Day, your old state may allow you to vote by mail or in person. For presidential election years, your old state must allow you to vote by mail or in person. After that, you’ll need to register in your new state.  ",
     "sub_head_part_4": "Moving abroad",
-    "content_6_part_4": "U.S. citizens living outside the U.S. can register to vote and request an absentee ballot by completing the %link1%. See the %link2%  for more resources on military and overseas voting.",
-    "content_6_part_4_link1": "Federal Post Card Application (FPCA)",
-    "content_6_part_4_link2": "Federal Voting Assistance Program (FVAP)"
+    "content_6_part_4": "U.S. citizens living outside the U.S. can register to vote and request an absentee ballot by completing the %link%. ",
+    "content_6_part_4_link": "Federal Post Card Application (FPCA)",
+    "content_6_part_5": "See the %link%  for more resources on military and overseas voting.",
+    "content_6_part_5_link": "Federal Voting Assistance Program (FVAP)"
 
 }
