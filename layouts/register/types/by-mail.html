@@ -34,8 +34,9 @@
     <option value="{{ $form.file_path }}">{{ $form.language }}</option>
     {{ end }}
     {{ end }}
-    {{ range $key, $form := $.Site.Data.registration_forms }}
-    {{ if ne $key $.Site.Language.Lang }}
+    {{ $langName := .Site.Language.LanguageName }}
+    {{ range $key, $form := sort $.Site.Data.registration_forms "language" }}
+    {{ if ne $form.language $langName }}
     <option value="{{ $form.file_path }}">{{ $form.language }}</option>
     {{ end }}
     {{ end }}
