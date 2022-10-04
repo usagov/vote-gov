@@ -10,7 +10,7 @@
     {{ replace $translation.register.heading2_territory "%state_name%" .Params.state_name }}
   {{ else }}
     {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
-  {{ end }}  
+  {{ end }}
 </h2>
 
 <p>{{ replace $by_mail_intro "%state_name%" .Params.state_name | safeHTML }}</p>
@@ -34,9 +34,8 @@
     <option value="{{ $form.file_path }}">{{ $form.language }}</option>
     {{ end }}
     {{ end }}
-    {{ $langName := .Site.Language.LanguageName }}
     {{ range $key, $form := sort $.Site.Data.registration_forms "language" }}
-    {{ if ne $form.language $langName }}
+    {{ if ne $form.lang ($.Site.Language.Lang | replaceRE "-[a-z]+" "") }}
     <option value="{{ $form.file_path }}">{{ $form.language }}</option>
     {{ end }}
     {{ end }}
