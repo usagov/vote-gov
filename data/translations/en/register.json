@@ -8,7 +8,7 @@
   "by_mail__link": "%state_name%’s state election website",
   "other_language_selection__default": "Select your language",
   "other_language_selection__heading": "Other ways to register to vote in %state_name%",
-  "other_language_selection__label": "You can also download the National Voter Registration Form (PDF) available in English and 14 additional languages from the dropdown menu below.",
+  "other_language_selection__label": "You can also download the National Voter Registration Form (PDF) available in English and additional languages from the dropdown menu below.",
   "other_language_selection__submit": "Download the National Voter Registration Form",
   "in_person__intro": "Register in person at your local election office. Learn more about how to register on %link%.",
   "in_person__link": "%state_name%’s election website",
