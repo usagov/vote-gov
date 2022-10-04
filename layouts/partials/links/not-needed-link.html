@@ -1,6 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 <!-- To use a different link than the default one for any language use the variable name 'more_info_link_override' in states-data.json for that language -->
-{{ $more_info_link := cond (ne .Params.more_info_link_override nil) .Params.more_info_link_override .Params.more_info_link }}
+{{ $more_info_link := .Params.more_info_link_override | default .Params.more_info_link }}
 <a class="reg-link" href="{{ $more_info_link }}{{ if in $more_info_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
 {{ if and (isset $translation.register "not_needed__link_territory") (eq .Params.is_state "false") }}
     {{ $translation.register.not_needed__link_territory -}}

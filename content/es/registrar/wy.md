@@ -12,7 +12,6 @@ more_info_link = "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx"
 confirm_registration_link = "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
 ip_deadline = "martes, 08 de noviembre de 2022"
 mail_received_deadline = "a más tardar debe ser recibida lunes, 24 de octubre de 2022"
-confirm_registration_link_translated = "true"
 default_ip_deadline = "hasta el mismo día de las elecciones"
 default_mail_received_deadline = "a más tardar debe ser recibida 14 días antes del día de las elecciones"
 

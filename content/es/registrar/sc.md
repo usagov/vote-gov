@@ -16,6 +16,6 @@ mail_postmarked_deadline = "debe tener el sello del correo martes, 11 de octubre
 default_ip_deadline = "hasta 30 días antes del día de las elecciones"
 default_online_deadline = "hasta 30 días antes del día de las elecciones"
 default_mail_postmarked_deadline = "debe tener el sello del correo 30 días antes del día de las elecciones"
-more_link_override = "https://www.scvotes.gov/como-votar"
+more_info_link_override = "https://www.scvotes.gov/como-votar"
 
 +++
