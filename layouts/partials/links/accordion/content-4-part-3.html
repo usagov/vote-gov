@@ -1,2 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-<a href="https://www.usa.gov/espanol/proceso-electoral#item-212437">{{ $translation.accordion.content_4_part_3_link }}</a>
+{{ if eq .Site.Language.Lang "es"}}
+    <a href="https://www.usa.gov/espanol/proceso-electoral#item-212437">{{ $translation.accordion.content_4_part_3_link }}</a>
+{{ else }}
+    <a href="https://www.usa.gov/election#item-37162">{{ $translation.accordion.content_4_part_3_link }}{{ .Site.Params.english_only }}</a>
+{{ end }}
