@@ -1,2 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-<a href="https://www.usa.gov/voter-id">{{ $translation.accordion.content_5_part_3_link }}{{ .Site.Params.english_only }}</a>
+{{ if eq .Site.Language.Lang "es"}}
+    <a href="https://www.usa.gov/espanol/documento-para-votar">{{ $translation.accordion.content_5_part_3_link }}</a>
+{{ else }}
+    <a href="https://www.usa.gov/voter-id">{{ $translation.accordion.content_5_part_3_link }}{{ .Site.Params.english_only }}</a>
+{{ end }}
