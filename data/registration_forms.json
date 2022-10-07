@@ -1,86 +1,107 @@
 {
   "en": {
     "language": "English",
+    "lang": "en",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_ENG.pdf"
   },
-  "amh": {
+  "am": {
     "language": "Amharic",
+    "lang": "am",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_AMH.pdf"
   },
   "apa": {
     "language": "Apache",
+    "lang": "apa",
     "file_path": "https://www.eac.gov/national-mail-voter-registration-form-and-state-instructions-audio-files-apache"
   },
   "ar": {
     "language": "Arabic",
+    "lang": "ar",
     "file_path": "https://www.eac.gov/sites/default/files/nvra_translations/Federal_Voter_Registration_ARA.pdf"
   },
   "bn": {
     "language": "Bengali",
+    "lang": "bn",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_BEN.pdf"
   },
   "zh": {
     "language": "Chinese",
+    "lang": "zh",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_CHS.pdf"
   },
   "fr": {
     "language": "French",
+    "lang": "fr",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_FRC.pdf"
   },
   "ht": {
     "language": "Haitian Creole",
+    "lang": "ht",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_CRE.pdf"
   },
   "hi": {
     "language": "Hindi",
+    "lang": "hi",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_HIN.pdf"
   },
   "ja": {
     "language": "Japanese",
+    "lang": "ja",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_JPN.pdf"
   },
   "km": {
     "language": "Khmer",
+    "lang": "km",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_KHM.pdf"
   },
   "ko": {
     "language": "Korean",
+    "lang": "ko",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_KOR.pdf"
   },
   "nv": {
     "language": "Navajo",
+    "lang": "nv",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_NAV.pdf"
   },
   "pl": {
     "language": "Polish",
+    "lang": "pl",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_POL.pdf"
   },
   "pt": {
     "language": "Portuguese",
+    "lang": "pt",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_POR.pdf"
   },
   "ru": {
     "language": "Russian",
+    "lang": "ru",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_RUS.pdf"
   },
   "so": {
     "language": "Somali",
+    "lang": "so",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_SOM.pdf"
   },
   "es": {
-    "language": "Español",
+    "language": "Spanish",
+    "lang": "es",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_SPA.pdf"
   },
   "tl": {
     "language": "Tagalog",
+    "lang": "tl",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_TAG.pdf"
   },
   "vi": {
     "language": "Vietnamese",
+    "lang": "vi",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_VIE.pdf"
   },
   "ypk": {
     "language": "Yup'ik",
+    "lang": "ypk",
     "file_path": "https://www.eac.gov/sites/default/files/eac_assets/1/6/Federal_Voter_Registration_YPK.pdf"
   }
 }

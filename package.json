@@ -25,8 +25,9 @@
     "cy:open": "cypress open",
     "cy:test": "cypress run --spec 'cypress/e2e/tests/**/*'",
     "cy:axe": "cypress run --spec 'cypress/e2e/accessibility/**/*'",
-    "cy:links": "cypress run --spec 'cypress/e2e/link-validator/**/*'",
-    "cy:e2e": "cypress run --spec 'cypress/e2e/**/*'"
+    "cy:links": "cypress run --spec 'cypress/e2e/internalLinks/**/*'",
+    "cy:proofer": "cypress run --spec 'cypress/e2e/externalLinks/**/*'",
+    "testSuite": "npm run cy:test && npm run cy:links && npm run cy:axe"
 
   },
   "repository": {
