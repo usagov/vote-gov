@@ -12,11 +12,15 @@
             alt="Web design standards">
         </div>
         <div class="tablet:grid-col-auto partnership-txt">{{ $translation.footer.eac_text }}</div>
-        <div class="tablet:grid-col eac-container">
+        <div class="tablet:grid-col-auto eac-container">
           <a href="{{ $translation.footer.eac_link }}">
             <img class="eac-logo" width="146" height="48" src="{{ .Site.BaseURL }}/assets/img/eac-logo.webp" alt="{{ replace $translation.footer.eac_logo_alt_text "%" "" }}">
           </a>
+        {{ if eq .Site.Language.Lang "ypk"}}
+        <div class="partnership-txt__1">{{ $translation.footer.eac_text__1 }}</div>
+        {{ end }}          
         </div>
+        <div class="tablet:grid-col"></div>
         <div class="tablet:grid-col-auto">
           <a href="{{ $translation.footer.twitter_link }}" class="twitter-link">
             <span>{{ replace $translation.footer.twitter_text "%" "" }}</span>

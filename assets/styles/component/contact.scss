@@ -57,6 +57,20 @@
 
   .eac-container {
     min-width: 150px;
+    display: block;
+
+    img {
+      display: inline-block;
+    }
+
+    .partnership-txt__1 {
+      display: inline-block;
+      color: $blue-black;
+      font-weight: 700;
+      font-size: 18px;
+      vertical-align: text-bottom;
+      margin-bottom: 1rem;
+    }
   }
 
   .vote-txt {
@@ -64,7 +78,7 @@
     font-weight: 700;
     font-size: 15px;
     text-align: center;
-    margin-left: -.5rem;
+    margin-left: -0.5rem;
   }
 
   .partnership-txt {
