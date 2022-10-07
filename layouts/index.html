@@ -25,7 +25,7 @@
           <div id="skip-target" class="tablet:grid-col-8 right-shift">
             <section class="register align-bottom">
               <header>
-                <h1 class="main-heading" data-test="main-header">{{ $translation.homepage.header }}</h1>
+                <h1 class="main-heading" data-test="main-header">{{ $translation.homepage.header | safeHTML }}</h1>
               </header>
 
               <form class="form-register" method="get" id="register">
@@ -77,12 +77,11 @@
                   {{ replace $resources_intro "%link%" (partial "links/homepage-registration-link.html" .)|safeHTML }}:
                 </h3>
                 <ul class="registered-resources">
-                  <li><a 
-                    href="{{ $translation.homepage.registered_links__absentee_url }}">{{ $translation.homepage.registered_links__absentee }}</a>
-                  </li>
-                  <li><a 
+                  {{ if $translation.homepage.registered_links__absentee_url }}
+                  <li><a
                       href="{{ $translation.homepage.registered_links__absentee_url }}">{{ $translation.homepage.registered_links__absentee }}</a>
                   </li>
+                  {{ end }}
                   <li><a
                       href="{{ $translation.homepage.registered_links__electionday_url }}">{{ $translation.homepage.registered_links__electionday }}</a>
                   </li>

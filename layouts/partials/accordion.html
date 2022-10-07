@@ -69,6 +69,7 @@
       </p>
 
     </div>
+  {{ if $translation.accordion.title_6 }}
     <h3 class="usa-accordion__heading">
       <button
         type="button"
@@ -102,6 +103,7 @@
         {{ replace $translation.accordion.content_6_part_4 "%link%" (partial "links/accordion/content-6-part-4.html" .)|safeHTML }}       {{ replace $translation.accordion.content_6_part_5 "%link%" (partial "links/accordion/content-6-part-5.html" .)|safeHTML }}
       </p>
     </div>
+  {{ end }}
     <h3 class="usa-accordion__heading">
       <button
         type="button"
