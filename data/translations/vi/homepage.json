@@ -17,6 +17,8 @@
   "registered__resources_link_url": "https://www.usa.gov/voting",
   "registered_links__electionday": "Bỏ phiếu vào ngày bầu cử (bằng tiếng Anh)",
   "registered_links__electionday_url": "https://www.usa.gov/election-day",
+  "registered_links__absentee": "Bỏ phiếu Vắng mặt (bằng tiếng Anh)",
+  "registered_links__absentee_url": "https://www.usa.gov/absentee-voting",
   "registered_links__voterid": "Những yêu cầu về ID của người đi bầu (bằng tiếng Anh)",
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
   "registered_links__process": "Tiến trình bầu cử (bằng tiếng Anh)",
