@@ -28,5 +28,18 @@
     "content_5_part_3": "Karaniwang hindi ninyo kailangang dalhin ang inyong kard ng rehistrasyon ng botante para makaboto, ngunit maaaring kailanganin ninyong  magpakita ng iba pang %link%. ",
     "content_5_part_3_link": "anyo ng ID para bumoto",
     "content_5_part_4": "Matuto nang higit pa tungkol sa %link%.",
-    "content_5_part_4_link": "rehistrasyon ng botante"
+    "content_5_part_4_link": "rehistrasyon ng botante",
+
+    "title_6": "Magrehistro Pagkatapos Ninyong Lumipat",
+    "content_6_part_1": "Lumipat man kayo sa malapit o malayo, kailangan ninyong i-update ang inyong rehistrasyon ng botante pagkatapos ng pagbabago ng tirahan. Piliin ang inyong estado o teritoryo mula sa dropdown menu upang matutunan kung paano magrehistro online o sa pamamagitan ng koreo. Kung ang inyong estado ay may online na rehistrasyon ng botante, maaaring iyon ang pinakamabilis na paraan upang gumawa ng mga pagbabago. Isumite ang inyong mga pagbabago bago ang huling araw ng pagpaparehistro ng inyong estado, na maaaring hanggang 30 araw bago ang Araw ng Eleksyon. Ang inyong estado ay maaari ding mangailangan ng bagong lisensya sa pagmamaneho o ID kard. %link%",
+    "content_6_part_1_link": "Tingnan kung anong uri ng ID ng botante ang kinakailangan ng inyong estado",
+    "sub_head_part_2": "Ang paglipat sa loob ng inyong estado",
+    "content_6_part_2": "Kahit na lumipat ka sa inyong parehong estado, kakailanganin ninyong  i-update ang inyong rehistrasyon gamit ang inyong bagong tirahan.",
+    "sub_head_part_3": "Ang paglipat sa ibang estado",
+    "content_6_part_3": "Magrehistro bago ang huling araw ng inyong bagong estado, na maaaring hanggang 30 araw bago ang eleksyon. Kung wala kang oras para magparehistro sa inyong bagong estado bago ang Araw ng Eleksyon, maaaring payagan ka ng inyong lumang estado na bumoto sa pamamagitan ng koreo o nang personal. Para sa mga taon ng eleksyon sa pagkapresidente, dapat kayong payagan ng inyong lumang estado na bumoto sa pamamagitan ng koreo o nang personal. Pagkatapos nito, kailangan ninyong magparehistro sa inyong bagong estado.",
+    "sub_head_part_4": "Paglipat sa ibang bansa",
+    "content_6_part_4": "Ang mga mamamayan ng U.S. na naninirahan sa labas ng U.S. ay maaaring magparehistro para bumoto at humiling ng absentee na balota sa pamamagitan ng pagkumpleto sa %link%",
+    "content_6_part_4_link": "Federal Post Card Application (FPCA-Aplikasyon ng Pederal na Post Kard)",
+    "content_6_part_5": "Tingnan ang %link% para sa higit pang mga mapagkukunan sa pagboto sa militar at sa ibang bansa.",
+    "content_6_part_5_link": "Federal Voting Assistance Program (FVAP-Pederal na Programa ng Tulong sa Pagboto)"
 }
