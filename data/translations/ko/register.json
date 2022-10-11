@@ -13,7 +13,7 @@
   "other_language_selection__default": "언어 선택",
   "other_language_selection__heading": "기타 %state_name% 주 유권자 등록 방법",
   "other_language_selection__heading_territory": "기타 %state_name% 유권자 등록 방법",
-  "other_language_selection__label": "또는 아래 드롭다운 메뉴에서 영어를 비롯하여 14개 추가 언어로 제공되는 전국 유권자 등록 양식(PDF파일)을 다운로드 받아 이용할 수 있습니다.",
+  "other_language_selection__label": "또는 아래 드롭다운 메뉴에서 영어를 비롯하여 추가 언어로 제공되는 전국 유권자 등록 양식(PDF파일)을 다운로드 받아 이용할 수 있습니다.",
   "other_language_selection__submit": "전국 유권자 등록 양식 다운로드",
   "in_person__intro": "귀하의 현지 선거 사무소를 직접 내방하여 등록할 수 있습니다. %link%.",
   "in_person__link": "자세한 등록 방법은 %state_name% 주 선거 사무국 웹사이트를 참조하시기 바랍니다",
