@@ -77,9 +77,11 @@
                   {{ replace $resources_intro "%link%" (partial "links/homepage-registration-link.html" .)|safeHTML }}:
                 </h3>
                 <ul class="registered-resources">
-                  <li><a 
+                  {{ if $translation.homepage.registered_links__absentee_url }}
+                  <li><a
                       href="{{ $translation.homepage.registered_links__absentee_url }}">{{ $translation.homepage.registered_links__absentee }}</a>
                   </li>
+                  {{ end }}
                   <li><a
                       href="{{ $translation.homepage.registered_links__electionday_url }}">{{ $translation.homepage.registered_links__electionday }}</a>
                   </li>
