@@ -58,9 +58,9 @@
     "default_mail_postmarked_deadline": "選舉當日前 7 天郵戳為憑"
   },
   "de": {
-    "ip_deadline": "2022年10月15日星期六",
-    "online_deadline": "2022年10月15日星期六",
-    "mail_postmarked_deadline": "郵戳為憑2022年10月15日星期六",
+    "ip_deadline": "2022年11月8日星期二",
+    "online_deadline": "2022年11月8日星期二",
+    "mail_postmarked_deadline": "郵戳為憑2022年11月8日星期二",
     "default_ip_deadline": "選舉日前 第四個星期六",
     "default_online_deadline": "選舉日前 第四個星期六",
     "default_mail_postmarked_deadline": "必須在選舉日前第四個星期六蓋上郵戳"
@@ -213,7 +213,7 @@
     "default_mail_postmarked_deadline": "必須在選舉日前第四個星期三蓋上郵戳"
   },
   "mt": {
-    "ip_deadline": "2022年11月7日星期一",
+    "ip_deadline": "2022年11月7日星期一 12:00 PM",
     "mail_postmarked_deadline": "郵戳為憑2022年10月11日星期二",
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_mail_postmarked_deadline": "選舉當日前 30 天郵戳為憑"
@@ -263,7 +263,7 @@
     "default_mail_postmarked_deadline": "選舉當日前 25天郵戳為憑"
   },
   "nc": {
-    "ip_deadline": "2022年11月5日星期六",
+    "ip_deadline": "2022年11月5日星期六 3:00 PM",
     "online_deadline": "2022年10月14日星期五",
     "mail_postmarked_deadline": "郵戳為憑2022年10月14日星期五",
     "default_ip_deadline": "提前投票期間可當天登記",
@@ -319,7 +319,7 @@
     "default_mail_postmarked_deadline": "選舉當日前 30天郵戳為憑"
   },
   "sc": {
-    "ip_deadline": "2022年10月9日星期日",
+    "ip_deadline": "2022年10月7日星期五",
     "online_deadline": "2022年10月9日星期日",
     "mail_postmarked_deadline": "郵戳為憑2022年10月11日星期二",
     "default_ip_deadline": "選舉日前 30天",

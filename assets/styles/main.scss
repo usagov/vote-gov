@@ -365,6 +365,12 @@ $logo-width: 130px;
 
 .main-heading {
   font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+
+  @include at-media-max(tablet-lg) {
+    span[hidden] {
+      display: inline;
+    }
+  }
 }
 
 .content-heading {

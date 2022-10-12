@@ -84,9 +84,9 @@
   },
   "de": {
     "registration_link_translated": "true",
-    "ip_deadline": "sábado, 15 de octubre de 2022",
-    "online_deadline": "sábado, 15 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo sábado, 15 de octubre de 2022",
+    "ip_deadline": "martes, 08 de noviembre de 2022",
+    "online_deadline": "martes, 08 de noviembre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello del correo martes, 08 de noviembre de 2022",
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta el cuarto sábado antes del día de las elecciones",
     "default_online_deadline": "hasta el cuarto sábado antes del día de las elecciones",
@@ -265,7 +265,7 @@
   },
   "ne": {
     "registration_link_language_selection": "true",
-    "ip_deadline": "viernes, 28 de octubre de 2022",
+    "ip_deadline": "lunes, 07 de noviembre de 2022, 12:00 P.M.",
     "online_deadline": "viernes, 21 de octubre de 2022",
     "mail_postmarked_deadline": "debe tener el sello del correo viernes, 21 de octubre de 2022",
     "confirm_registration_link_translated": "true",
@@ -316,7 +316,7 @@
     "default_mail_postmarked_deadline": "debe tener el sello del correo 25 días antes del día de las elecciones"
   },
   "nc": {
-    "ip_deadline": "sábado, 05 de noviembre de 2022",
+    "ip_deadline": "sábado, 05 de noviembre de 2022, 3:00 P.M.",
     "online_deadline": "viernes, 14 de octubre de 2022",
     "mail_postmarked_deadline": "debe tener el sello del correo viernes, 14 de octubre de 2022",
     "default_ip_deadline": "disponible durante los días de votación anticipada",
@@ -388,7 +388,7 @@
     "confirm_registration_link_override": "https://vote.sos.ri.gov/HomeSpanish/UpdateVoterRecord?ActiveFlag=0"
   },
   "sc": {
-    "ip_deadline": "domingo, 09 de octubre de 2022",
+    "ip_deadline": "viernes, 07 de octubre de 2022",
     "online_deadline": "domingo, 09 de octubre de 2022",
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
