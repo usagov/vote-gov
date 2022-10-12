@@ -149,6 +149,7 @@
     "translationKey": "Guam",
     "type": "register",
     "hp_link": "https://gec.guam.gov/",
+    "registration_link": "https://gec.guam.gov/",
     "more_info_link": "https://gec.guam.gov/",
     "confirm_registration_link": "https://gec.guam.gov/validate/"
   },

@@ -103,7 +103,6 @@
     "default_mail_received_deadline": "a más tardar debe ser recibida 21 días antes del día de las elecciones"
   },
   "fl": {
-    "registration_link_language_selection": "true",
     "more_info_link_language_selection": "true",
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
@@ -152,7 +151,8 @@
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta 16 días antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar 28 días antes del día de las elecciones"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar 28 días antes del día de las elecciones",
+    "confirm_registration_link_override": "https://spanish-ova.elections.il.gov/"
   },
   "in": {
     "ip_deadline": "martes, 11 de octubre de 2022",
