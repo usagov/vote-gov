@@ -1,620 +1,410 @@
 {
   "al": {
-    "hp_link": "https://www.sos.alabama.gov/alabama-votes",
-    "registration_link": "https://www.alabamainteractive.org/sos/voter_registration/voterRegistrationWelcome.action",
-    "more_info_link": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
     "ip_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "online_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "15 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "15 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark 15 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark 15 araw bago ang Araw ng Eleksyon"
   },
   "ak": {
-    "hp_link": "https://www.elections.alaska.gov/",
-    "registration_link": "https://voterregistration.alaska.gov/",
-    "more_info_link": "https://www.elections.alaska.gov/Core/voterregistration.php",
     "ip_deadline": "Linggo, ika-9 ng Oktubre 2022",
     "online_deadline": "Linggo, ika-9 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Linggo, ika-9 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://myvoterinformation.alaska.gov/"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "as": {
-    "hp_link": "https://aselectionoffice.gov/",
-    "more_info_link": "https://aselectionoffice.gov/",
     "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
-    "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://aselectionoffice.gov/status.php"
+    "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon"
   },
   "az": {
-    "hp_link": "https://azsos.gov/elections",
-    "registration_link": "https://servicearizona.com/VoterRegistration/selectLanguage",
-    "more_info_link": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information",
     "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
     "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_online_deadline": "29 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  29 araw bago ang Araw ng Eleksyon",
-    "default_ip_deadline": "29 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://my.arizona.vote/WhereToVote.aspx?s=individual"
+    "default_ip_deadline": "29 araw bago ang Araw ng Eleksyon"
   },
   "ar": {
-    "hp_link": "https://www.sos.arkansas.gov/elections/",
-    "more_info_link": "https://www.sos.arkansas.gov/elections/voter-information/",
     "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://www.voterview.ar-nova.org/voterview"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "ca": {
-    "hp_link": "https://www.sos.ca.gov/elections",
-    "registration_link": "https://registertovote.ca.gov/",
-    "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "15 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  15 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://registertovote.ca.gov/"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  15 araw bago ang Araw ng Eleksyon"
   },
   "co": {
-    "hp_link": "https://www.sos.state.co.us/pubs/elections/",
-    "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
-    "more_info_link": "https://www.coloradosos.gov/voter/pages/pub/home.xhtml",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Lunes, ika-31 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-31 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "8 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  8 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  8 araw bago ang Araw ng Eleksyon"
   },
   "ct": {
-    "hp_link": "https://portal.ct.gov/sots",
-    "registration_link": "https://voterregistration.ct.gov/OLVR/welcome.do",
-    "more_info_link": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Martes, ika-1 ng Nobyembre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-1 ng Nobyembre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "7 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark 7 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://portaldir.ct.gov/sots/LookUp.aspx"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark 7 araw bago ang Araw ng Eleksyon"
   },
   "de": {
-    "hp_link": "https://elections.delaware.gov/index.shtml",
-    "registration_link": "https://ivote.de.gov/VoterView/",
-    "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-8 ng Nobyembre 2022",
     "default_ip_deadline": "Ika-apat na Sabado bago ang  Araw ng Eleksyon",
     "default_online_deadline": "Ika-apat na Sabado bago ang  Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": " Dapat na naka-postmark sa ika-apat na Sabado bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://ivote.de.gov/VoterView"
+    "default_mail_postmarked_deadline": " Dapat na naka-postmark sa ika-apat na Sabado bago ang Araw ng Eleksyon"
   },
   "dc": {
-    "hp_link": "https://dcboe.org/",
-    "registration_link": "https://vr.dcboe.org/213324797239968?agency_code=12",
-    "more_info_link": "https://www.dcboe.org/Voters/Register-To-Vote/Register-to-Vote",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_received_deadline": "Dapat matanggap ng Martes, ika-18 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_mail_received_deadline": "Dapat matanggap 21 araw bago ang Araw ng Eleksyon",
-    "default_online_deadline": "21 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://dcboe.org/Voters/Register-To-Vote/Check-Voter-Registration-Status"
+    "default_online_deadline": "21 araw bago ang Araw ng Eleksyon"
   },
   "fl": {
-    "hp_link": "https://dos.myflorida.com/elections/",
-    "registration_link": "https://registertovoteflorida.gov/eligibilityreactive",
-    "more_info_link": "https://registertovoteflorida.gov/home",
     "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
     "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "29 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "29 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  29 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://registration.elections.myflorida.com/CheckVoterStatus"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  29 araw bago ang Araw ng Eleksyon"
   },
   "ga": {
-    "hp_link": "https://sos.ga.gov/index.php/elections",
-    "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
-    "more_info_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
     "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
     "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "Ika-limang Lunes bago ang Araw ng Eleksyon",
     "default_online_deadline": "Ika-limang Lunes bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": " Dapat na naka-postmark sa ika-limang Lunes bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://mvp.sos.ga.gov/s/"
+    "default_mail_postmarked_deadline": " Dapat na naka-postmark sa ika-limang Lunes bago ang Araw ng Eleksyon"
   },
   "gu": {
-    "hp_link": "https://gec.guam.gov/",
-    "more_info_link": "https://gec.guam.gov/",
     "ip_deadline": "Biyernes, ika-28 ng Oktubre 2022",
     "mail_received_deadline": "Dapat matanggap ng Biyernes, ika-28 ng Oktubre 2022",
     "default_mail_received_deadline": "Dapat matanggap 10 araw bago ang Araw ng Eleksyon",
-    "default_ip_deadline": "10 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://gec.guam.gov/validate/"
+    "default_ip_deadline": "10 araw bago ang Araw ng Eleksyon"
   },
   "hi": {
-    "hp_link": "https://elections.hawaii.gov/",
-    "registration_link": "https://olvr.hawaii.gov/",
-    "more_info_link": "https://elections.hawaii.gov/voters/registration/",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-31 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat matanggap 30 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://olvr.hawaii.gov/"
+    "default_mail_postmarked_deadline": "Dapat matanggap 30 araw bago ang Araw ng Eleksyon"
   },
   "id": {
-    "hp_link": "https://idahovotes.gov/",
-    "registration_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/ApplicationInstructions.aspx",
-    "more_info_link": "https://idahovotes.gov/voting/",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Biyernes, ika-14 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Biyernes, ika-14 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "25 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  25 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/VoterSearch.aspx"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  25 araw bago ang Araw ng Eleksyon"
   },
   "il": {
-    "hp_link": "https://www.elections.il.gov/",
-    "registration_link": "https://ova.elections.il.gov/",
-    "more_info_link": "https://www.elections.il.gov/Default.aspx",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Linggo, ika-23 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "16 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat matanggap 28 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://ova.elections.il.gov/RegistrationLookup.aspx"
+    "default_mail_postmarked_deadline": "Dapat matanggap 28 araw bago ang Araw ng Eleksyon"
   },
   "in": {
-    "hp_link": "https://www.in.gov/sos/elections/",
-    "registration_link": "https://indianavoters.in.gov/",
-    "more_info_link": "https://www.in.gov/sos/elections/2403.htm",
     "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
     "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "29 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "29 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  29 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://indianavoters.in.gov/"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  29 araw bago ang Araw ng Eleksyon"
   },
   "ia": {
-    "hp_link": "https://sos.iowa.gov/",
-    "registration_link": "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration",
-    "more_info_link": "https://sos.iowa.gov/elections/voterinformation/voterregistration.html",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "15 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  15 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  15 araw bago ang Araw ng Eleksyon"
   },
   "ks": {
-    "hp_link": "https://sos.ks.gov/elections/elections.html",
-    "registration_link": "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx",
-    "more_info_link": "https://sos.ks.gov/elections/voter-information.html",
     "ip_deadline": "Martes, ika-18 ng Oktubre 2022",
     "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-18 ng Oktubre 2022",
     "default_ip_deadline": "21 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "21 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  21 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://myvoteinfo.voteks.org/voterview/"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  21 araw bago ang Araw ng Eleksyon"
   },
   "ky": {
-    "hp_link": "https://elect.ky.gov/Pages/default.aspx",
-    "registration_link": "https://vrsws.sos.ky.gov/ovrweb/",
-    "more_info_link": "https://elect.ky.gov/Resources/Pages/Registration.aspx",
     "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
     "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "Ika-apat na Lunes bago ang Araw ng Eleksyon",
     "default_online_deadline": "Ika-apat na Lunes bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat matanggap sa Ika-apat na Lunes bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://vrsws.sos.ky.gov/VIC/"
+    "default_mail_postmarked_deadline": "Dapat matanggap sa Ika-apat na Lunes bago ang Araw ng Eleksyon"
   },
   "la": {
-    "hp_link": "https://www.sos.la.gov/ElectionsAndVoting/Pages/default.aspx",
-    "registration_link": "https://voterportal.sos.la.gov/VoterRegistration",
-    "more_info_link": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
     "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
     "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "20 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon",
-    "dates_electionday": "Sabado, ika-10 ng Disyembre 2022",
-    "confirm_registration_link": "https://voterportal.sos.la.gov/"
+    "dates_electionday": "Sabado, ika-10 ng Disyembre 2022"
   },
   "me": {
-    "hp_link": "https://www.maine.gov/sos/cec/elec/",
-    "more_info_link": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "mail_received_deadline": "Dapat matanggap ng Martes, ika-18 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
-    "default_mail_received_deadline": "Dapat matanggap 21 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://www.maine.gov/sos/cec/elec/data/index.html"
+    "default_mail_received_deadline": "Dapat matanggap 21 araw bago ang Araw ng Eleksyon"
   },
   "md": {
-    "hp_link": "https://elections.maryland.gov/",
-    "registration_link": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1",
-    "more_info_link": "https://www.elections.maryland.gov/voter_registration/application.html",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-18 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "21 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  21 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://voterservices.elections.maryland.gov/VoterSearch"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  21 araw bago ang Araw ng Eleksyon"
   },
   "ma": {
-    "hp_link": "https://www.sec.state.ma.us/ele/eleidx.htm",
-    "registration_link": "https://www.sec.state.ma.us/ovr/",
-    "more_info_link": "https://www.sec.state.ma.us/ele/eleifv/howreg.htm",
     "ip_deadline": "Sabado, ika-29 ng Oktubre 2022",
     "online_deadline": "Sabado, ika-29 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Sabado, ika-29 ng Oktubre 2022",
     "default_ip_deadline": "20 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "20 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  20 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  20 araw bago ang Araw ng Eleksyon"
   },
   "mi": {
-    "hp_link": "https://www.michigan.gov/sos/0,4670,7-127-1633---,00.html",
-    "registration_link": "https://mvic.sos.state.mi.us/registervoter",
-    "more_info_link": "https://mvic.sos.state.mi.us/",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "15 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  15 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://mvic.sos.state.mi.us/"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  15 araw bago ang Araw ng Eleksyon"
   },
   "mn": {
-    "hp_link": "https://www.sos.state.mn.us/elections-voting/",
-    "registration_link": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
-    "more_info_link": "https://www.sos.state.mn.us/elections-voting/register-to-vote/",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_received_deadline": "Dapat matanggap ng Martes, ika-18 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "21 araw bago ang Araw ng Eleksyon",
-    "default_mail_received_deadline": "Dapat matanggap 21 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
+    "default_mail_received_deadline": "Dapat matanggap 21 araw bago ang Araw ng Eleksyon"
   },
   "ms": {
-    "hp_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
-    "more_info_link": "https://www.sos.ms.gov/elections-voting/voter-registration-information",
     "ip_deadline": "Lunes, ika-10 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-10 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "mo": {
-    "hp_link": "https://www.sos.mo.gov/elections",
-    "registration_link": "https://s1.sos.mo.gov/elections/voterregistration/",
-    "more_info_link": "https://www.sos.mo.gov/elections/goVoteMissouri/register",
     "ip_deadline": "Miyerkoles, ika-12 ng Oktubre 2022",
     "online_deadline": "Miyerkoles, ika-12 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Miyerkoles, ika-12 ng Oktubre 2022",
     "default_ip_deadline": "Ika-apat na Miyerkoles bago ang Araw ng Eleksyon",
     "default_online_deadline": "Ika-apat na Miyerkoles bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark sa ika-apat na Miyerkoles bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark sa ika-apat na Miyerkoles bago ang Araw ng Eleksyon"
   },
   "mt": {
-    "hp_link": "https://sosmt.gov/elections/",
-    "more_info_link": "https://sosmt.gov/elections/vote/",
-    "ip_deadline": "Lunes, ika-7 ng Nobyembre 2022",
+    "ip_deadline": "Lunes, ika-7 ng Nobyembre 2022, alas-dose  ng tanghali",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://sosmt.gov/elections/vote/"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "ne": {
-    "hp_link": "https://sos.nebraska.gov/elections/2020-elections",
-    "registration_link": "https://www.nebraska.gov/apps-sos-voter-registration/",
-    "more_info_link": "https://sos.nebraska.gov/elections/voter-forms",
     "ip_deadline": "Biyernes, ika-28 ng Oktubre 2022",
     "online_deadline": "Biyernes, ika-21 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Biyernes, ika-21 ng Oktubre 2022",
     "default_ip_deadline": "Ika-dalawang  Biyernes bago ang Araw ng Eleksyon",
     "default_online_deadline": "Ika-tatlong Biyernes bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": " Dapat naka-postmark sa ika-tatlong Biyernes bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://www.votercheck.necvr.ne.gov/voterview"
+    "default_mail_postmarked_deadline": " Dapat naka-postmark sa ika-tatlong Biyernes bago ang Araw ng Eleksyon"
   },
   "nv": {
-    "hp_link": "https://www.nvsos.gov/sos/elections",
-    "registration_link": "https://www.nvsos.gov/SOSVoterServices/start.aspx",
-    "more_info_link": "https://www.nvsos.gov/sos/elections/voters/registering-to-vote",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "Ika-apat na Martes bago ang  Araw ng Eleksyon",
     "default_online_deadline": "Huwebes bago magsimula ang maagang pagboto",
-    "default_mail_postmarked_deadline": "Dapat naka-postmark sa ika-apat na Martes bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://www.nvsos.gov/votersearch/"
+    "default_mail_postmarked_deadline": "Dapat naka-postmark sa ika-apat na Martes bago ang Araw ng Eleksyon"
   },
   "nh": {
-    "hp_link": "https://sos.nh.gov/home",
-    "more_info_link": "https://www.sos.nh.gov/elections/voters/register-vote",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
-    "confirm_registration_link": "https://app.sos.nh.gov/voterinformation"
+    "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon"
   },
   "nj": {
-    "hp_link": "https://www.state.nj.us/state/elections/index.shtml",
-    "registration_link": "https://voter.svrs.nj.gov/register",
-    "more_info_link": "https://nj.gov/state/elections/voter-registration.shtml",
     "ip_deadline": "Martes, ika-18 ng Oktubre 2022",
     "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-18 ng Oktubre 2022",
     "default_online_deadline": "21 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat matanggap 21 araw bago ang Araw ng Eleksyon",
-    "default_ip_deadline": "21 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://voter.svrs.nj.gov/registration-check"
+    "default_ip_deadline": "21 araw bago ang Araw ng Eleksyon"
   },
   "nm": {
-    "hp_link": "https://www.sos.state.nm.us/voting-and-elections/",
-    "registration_link": "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx",
-    "more_info_link": "https://www.sos.state.nm.us/voting-and-elections/voter-information/voter-registration-information/",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "Sabado bago ang Araw ng Eleksyon",
     "default_online_deadline": "28 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  28 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  28 araw bago ang Araw ng Eleksyon"
   },
   "ny": {
-    "hp_link": "https://www.elections.ny.gov/",
-    "registration_link": "https://dmv.ny.gov/more-info/electronic-voter-registration-application",
-    "more_info_link": "https://www.elections.ny.gov/votingregister.html",
     "ip_deadline": "Biyernes, ika-14 ng Oktubre 2022",
     "online_deadline": "Biyernes, ika-14 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Biyernes, ika-14 ng Oktubre 2022",
     "default_ip_deadline": "25 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "25 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  25 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://voterlookup.elections.ny.gov/"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  25 araw bago ang Araw ng Eleksyon"
   },
   "nc": {
-    "hp_link": "https://www.ncsbe.gov/voting",
-    "registration_link": "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx",
-    "more_info_link": "https://www.ncsbe.gov/registering/how-register",
-    "ip_deadline": "Sabado, ika-5 ng Nobyembre 2022",
+    "ip_deadline": "Sabado, ika-5 ng Nobyembre 2022, alas-tres ng hapon",
     "online_deadline": "Biyernes, ika-14 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Biyernes, ika-14 ng Oktubre 2022",
     "default_ip_deadline": "Maari ang pagpaparehistro sa parehong araw sa panahon ng maagang pagboto",
     "default_online_deadline": "25 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  25 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://vt.ncsbe.gov/RegLkup/"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  25 araw bago ang Araw ng Eleksyon"
   },
-  "nd": {
-    "hp_link": "https://vip.sos.nd.gov/PortalList.aspx",
-    "more_info_link": "https://vip.sos.nd.gov/PortalList.aspx",
-    "confirm_registration_link": "https://vip.sos.nd.gov/WhereToVote.aspx?tab=&ptlPKID=&ptlhPKID="
-  },
+  "nd": {},
   "mp": {
-    "hp_link": "https://www.votecnmi.gov.mp/",
-    "more_info_link": "https://www.votecnmi.gov.mp/",
     "ip_deadline": "Biyernes, ika-9 ng Septiyembre 2022",
     "mail_received_deadline": "Dapat matanggap ng Biyernes, ika-9 ng Septiyembre 2022",
     "default_ip_deadline": "60 araw bago ang Araw ng Eleksyon",
-    "default_mail_received_deadline": "Dapat matanggap 60 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://www.votecnmi.gov.mp/"
+    "default_mail_received_deadline": "Dapat matanggap 60 araw bago ang Araw ng Eleksyon"
   },
   "oh": {
-    "hp_link": "https://www.sos.state.oh.us/elections/",
-    "registration_link": "https://olvr.ohiosos.gov/",
-    "more_info_link": "https://ohio.gov/wps/portal/gov/site/government/resources/register-to-vote-or-update-your-registration",
     "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
     "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://voterlookup.ohiosos.gov/voterlookup.aspx"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "ok": {
-    "hp_link": "https://www.ok.gov/elections/",
-    "more_info_link": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
     "ip_deadline": "Biyernes, ika-14 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Biyernes, ika-14 ng Oktubre 2022",
     "default_ip_deadline": "25 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  25 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://okvoterportal.okelections.us/"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  25 araw bago ang Araw ng Eleksyon"
   },
   "or": {
-    "hp_link": "https://sos.oregon.gov/voting-elections/Pages/default.aspx",
-    "registration_link": "https://secure.sos.state.or.us/orestar/vr/register.do",
-    "more_info_link": "https://sos.oregon.gov/voting/Pages/registration.aspx",
     "ip_deadline": "Martes, ika-18 ng Oktubre 2022",
     "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-18 ng Oktubre 2022",
     "default_ip_deadline": "21 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "21 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  21 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://secure.sos.state.or.us/orestar/vr/showVoterSearch.do?lang=eng&source=SOS"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  21 araw bago ang Araw ng Eleksyon"
   },
   "pa": {
-    "hp_link": "https://www.pa.gov/guides/voting-and-elections/",
-    "registration_link": "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx",
-    "more_info_link": "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote",
     "ip_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "online_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "mail_received_deadline": "Dapat matanggap ng Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "15 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "15 araw bago ang Araw ng Eleksyon",
-    "default_mail_received_deadline": "Dapat matanggap 15 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
+    "default_mail_received_deadline": "Dapat matanggap 15 araw bago ang Araw ng Eleksyon"
   },
   "pr": {
-    "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
-    "more_info_link": "https://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
     "ip_deadline": "Lunes, ika-19 ng Oktubre 2022",
-    "default_ip_deadline": "50 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://consulta.ceepur.org/"
+    "default_ip_deadline": "50 araw bago ang Araw ng Eleksyon"
   },
   "ri": {
-    "hp_link": "https://elections.ri.gov/",
-    "registration_link": "https://vote.sos.ri.gov/Home/RegistertoVote",
-    "more_info_link": "https://vote.sos.ri.gov/Voter/RegisterToVote",
     "ip_deadline": "Linggo, ika-9 ng Oktubre 2022",
     "online_deadline": "Linggo, ika-9 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Linggo, ika-9 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "sc": {
-    "hp_link": "https://www.scvotes.gov/",
-    "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
-    "more_info_link": "https://scvotes.gov/voters/register-to-vote/",
     "ip_deadline": "Biyernes, ika-7 ng Oktubre 2022",
     "online_deadline": "Linggo, ika-9 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark 30 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark 30 araw bago ang Araw ng Eleksyon"
   },
   "sd": {
-    "hp_link": "https://sdsos.gov/elections-voting/",
-    "more_info_link": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
     "mail_received_deadline": "Dapat matanggap ng Lunes, ika-24 ng Oktubre 2022",
     "ip_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "15 araw bago ang Araw ng Eleksyon",
-    "default_mail_received_deadline": "Dapat matanggap 15 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://vip.sdsos.gov/VIPLogin.aspx"
+    "default_mail_received_deadline": "Dapat matanggap 15 araw bago ang Araw ng Eleksyon"
   },
   "tn": {
-    "hp_link": "https://sos.tn.gov/elections",
-    "registration_link": "https://ovr.govote.tn.gov/",
-    "more_info_link": "https://sos.tn.gov/products/elections/register-vote",
     "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
     "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://tnmap.tn.gov/voterlookup/"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "tx": {
-    "hp_link": "https://www.votetexas.gov/index.html",
-    "more_info_link": "https://www.votetexas.gov/register-to-vote/index.html",
     "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark 30 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark 30 araw bago ang Araw ng Eleksyon"
   },
   "ut": {
-    "hp_link": "https://elections.utah.gov/",
-    "registration_link": "https://secure.utah.gov/voterreg/index.html",
-    "more_info_link": "https://voteinfo.utah.gov/",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Biyernes, ika-28 ng Oktubre 2022",
     "mail_received_deadline": "Dapat matanggap ng Biyernes, ika-28 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "11 araw bago ang Araw ng Eleksyon",
-    "default_mail_received_deadline": "Dapat matanggap 11 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://vote.utah.gov/"
+    "default_mail_received_deadline": "Dapat matanggap 11 araw bago ang Araw ng Eleksyon"
   },
   "vt": {
-    "hp_link": "https://sos.vermont.gov/elections/",
-    "registration_link": "https://olvr.vermont.gov/",
-    "more_info_link": "https://sos.vermont.gov/elections/voters/registration/",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "mail_received_deadline": "Dapat matanggap ng Biyernes, ika-4 ng Nobyembre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "Biyernes bago ang Araw ng Eleksyon",
-    "default_mail_received_deadline": "Dapat matanggap sa Biyernes bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://mvp.vermont.gov/"
+    "default_mail_received_deadline": "Dapat matanggap sa Biyernes bago ang Araw ng Eleksyon"
   },
   "va": {
-    "hp_link": "https://www.elections.virginia.gov/",
-    "registration_link": "https://www.elections.virginia.gov/citizen-portal/",
-    "more_info_link": "https://www.elections.virginia.gov/registration/how-to-register/",
     "ip_deadline": "Lunes, ika-17 ng Oktubre 2022",
     "online_deadline": "Lunes, ika-17 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-17 ng Oktubre 2022",
     "default_ip_deadline": "22 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "22 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  22 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://www.elections.virginia.gov/registration/view-your-info/"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  22 araw bago ang Araw ng Eleksyon"
   },
   "vi": {
-    "hp_link": "https://www.vivote.gov/voters/register-vote",
-    "more_info_link": "https://www.vivote.gov/voters/register-vote",
     "ip_deadline": "Linggo, ika-9 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Linggo, ika-9 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark 30 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://www.vivote.gov/voters/lookup"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark 30 araw bago ang Araw ng Eleksyon"
   },
   "wa": {
-    "hp_link": "https://www.sos.wa.gov/elections/",
-    "registration_link": "https://voter.votewa.gov/WhereToVote.aspx",
-    "more_info_link": "https://www.sos.wa.gov/elections/voters/",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Lunes, ika-31 ng Oktubre 2022",
     "mail_received_deadline": "Dapat matanggap ng Lunes, ika-31 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "8 araw bago ang Araw ng Eleksyon",
-    "default_mail_received_deadline": "Dapat matanggap 8 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://voter.votewa.gov/WhereToVote.aspx"
+    "default_mail_received_deadline": "Dapat matanggap 8 araw bago ang Araw ng Eleksyon"
   },
   "wv": {
-    "hp_link": "https://sos.wv.gov/elections/Pages/default.aspx",
-    "registration_link": "https://ovr.sos.wv.gov/Register/Landing",
-    "more_info_link": "https://ovr.sos.wv.gov/Register/Landing",
     "ip_deadline": "Martes, ika-18 ng Oktubre 2022",
     "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-18 ng Oktubre 2022",
     "default_ip_deadline": "21 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "21 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  21 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://apps.sos.wv.gov/Elections/voter/amiregisteredtovote"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  21 araw bago ang Araw ng Eleksyon"
   },
   "wi": {
-    "hp_link": "https://elections.wi.gov/elections-voting",
-    "registration_link": "https://myvote.wi.gov/en-us/RegisterToVote",
-    "more_info_link": "https://elections.wi.gov/voters/first-time",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "online_deadline": "Miyerkoles, ika-19 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Miyerkoles, ika-19 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "Ika-tatlong Miyerkoles bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat naka-postmark sa ika-tatlong Miyerkoles bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://myvote.wi.gov/en-us/MyVoterInfo"
+    "default_mail_postmarked_deadline": "Dapat naka-postmark sa ika-tatlong Miyerkoles bago ang Araw ng Eleksyon"
   },
   "wy": {
-    "hp_link": "https://sos.wyo.gov/elections/state/registeringtovote.aspx",
-    "more_info_link": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
     "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "mail_received_deadline": "Dapat matanggap ng Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
-    "default_mail_received_deadline": "Dapat matanggap 14 araw bago ang Araw ng Eleksyon",
-    "confirm_registration_link": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
+    "default_mail_received_deadline": "Dapat matanggap 14 araw bago ang Araw ng Eleksyon"
   }
 }
