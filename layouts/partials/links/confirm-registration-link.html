@@ -1,15 +1,17 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+<!-- To use a different link than the default one for any language use the variable name 'confirm_registration_link_override' in states-data.json for that language -->
+{{ $confirm_registration_link := .Params.confirm_registration_link_override | default .Params.confirm_registration_link }}
 
-{{ $confirm_registration__link := $translation.register.confirm_registration__link }}
+{{ $confirm_registration__text := $translation.register.confirm_registration__link }}
 {{ if and (eq .Params.state_name "Wyoming") (ne $translation.register.confirm_registration__intro_WY nil)}}
-{{ $confirm_registration__link = $translation.register.confirm_registration__link_WY }}
+{{ $confirm_registration__text = $translation.register.confirm_registration__link_WY }}
 {{ end }}
 
-<a class="reg-link" href="{{ .Params.confirm_registration_link }}{{ if in .Params.confirm_registration_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
+<a class="reg-link" href="{{ $confirm_registration_link }}{{ if in $confirm_registration_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
 {{ if and (isset $translation.register "confirm_registration__link_territory") (eq .Params.is_state "false") }}
     {{replace $translation.register.confirm_registration__link_territory "%state_name%" .Params.state_name -}}
 {{ else }}
-    {{replace $translation.register.confirm_registration__link "%state_name%" .Params.state_name -}}
+    {{replace $confirm_registration__text "%state_name%" .Params.state_name -}}
 {{ end }}
 {{ if ne .Params.confirm_registration_link_translated "true" }}
 {{ if .Params.confirm_registration_link_language_selection }}

@@ -8,10 +8,10 @@ translationKey = "U.S. Virgin Islands"
 type = "register"
 hp_link = "https://www.vivote.gov/voters/register-vote"
 more_info_link = "https://www.vivote.gov/voters/register-vote"
+confirm_registration_link = "https://www.vivote.gov/voters/lookup"
 ip_deadline = "Linggo, ika-9 ng Oktubre 2022"
 mail_postmarked_deadline = "Dapat na naka-postmark ng Linggo, ika-9 ng Oktubre 2022"
 default_ip_deadline = "30 araw bago ang Araw ng Eleksyon"
 default_mail_postmarked_deadline = "Dapat na naka-postmark 30 araw bago ang Araw ng Eleksyon"
-confirm_registration_link = "https://www.vivote.gov/voters/lookup"
 
 +++
