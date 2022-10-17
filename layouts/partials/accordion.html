@@ -4,18 +4,19 @@
   <h2 class="content-heading">{{ $translation.accordion.header }}</h2>
 </header>
 
-<div class="usa-accordion">
+<div class="usa-accordion" data-test="accordion">
     <h3 class="usa-accordion__heading">
       <button
         type="button"
         class="usa-accordion__button"
+        data-test="accordion-button"
         aria-expanded="false"
         aria-controls="a1"
       >
         {{ $translation.accordion.title_1 }}
       </button>
     </h3>
-    <div id="a1" class="usa-accordion__content usa-prose">
+    <div id="a1" class="usa-accordion__content usa-prose" data-test="accordion-content">
         <p>
           {{ $translation.accordion.content_1_part_1 }}
         </p>
@@ -27,6 +28,7 @@
       <button
         type="button"
         class="usa-accordion__button"
+        data-test="accordion-button"
         aria-expanded="false"
         aria-controls="a2"
       >
@@ -47,6 +49,7 @@
       <button
         type="button"
         class="usa-accordion__button"
+        data-test="accordion-button"
         aria-expanded="false"
         aria-controls="a3"
       >
@@ -74,6 +77,7 @@
       <button
         type="button"
         class="usa-accordion__button"
+        data-test="accordion-button"
         aria-expanded="false"
         aria-controls="a6"
       >
@@ -108,6 +112,7 @@
       <button
         type="button"
         class="usa-accordion__button"
+        data-test="accordion-button"
         aria-expanded="false"
         aria-controls="a4"
       >
@@ -131,6 +136,7 @@
       <button
         type="button"
         class="usa-accordion__button"
+        data-test="accordion-button"
         aria-expanded="false"
         aria-controls="a5"
       >
