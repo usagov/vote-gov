@@ -1,159 +1,120 @@
 {
   "al": {
-    "ip_deadline": "Thứ Hai, 24 tháng 10, 2022",
-    "online_deadline": "Thứ Hai, 24 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Hai, 24 tháng 10, 2022",
     "default_ip_deadline": "15 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "15 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 15 ngày trước Ngày Bầu Cử"
   },
   "ak": {
-    "ip_deadline": "Chủ Nhật, 9 tháng 10, 2022",
-    "online_deadline": "Chủ Nhật, 9 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Chủ Nhật, 9 tháng 10, 2022",
     "default_ip_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 30 ngày trước Ngày Bầu Cử"
   },
   "as": {
-    "ip_deadline": "Thứ Ba, 11 tháng 10, 2022",
     "default_ip_deadline": "30 ngày trước Ngày Bầu Cử"
   },
   "az": {
-    "ip_deadline": "Thứ Ba, 11 tháng 10, 2022",
-    "online_deadline": "Thứ Ba, 11 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022",
     "default_online_deadline": "29 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 29 ngày trước Ngày Bầu Cử",
     "default_ip_deadline": "29 ngày trước Ngày Bầu Cử"
   },
   "ar": {
-    "ip_deadline": "Thứ Ba, 11 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022",
     "default_ip_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 30 ngày trước Ngày Bầu Cử"
   },
   "ca": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Hai, 24 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Hai, 24 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_online_deadline": "15 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 15 ngày trước Ngày Bầu Cử"
   },
   "co": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Ha, 31 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ha, 31 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_online_deadline": "8 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 8 ngày trước Ngày Bầu Cử"
   },
   "ct": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Ba, 1 tháng 11, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 1 tháng 11, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_online_deadline": "7 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 7 ngày trước Ngày Bầu Cử"
   },
   "de": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Ba, 8 tháng 11, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 8 tháng 11, 2022",
     "default_ip_deadline": "Thứ Bảy thứ tư trong tháng trước ngày Bầu Cử",
     "default_online_deadline": "Thứ Bảy thứ tư trong tháng trước ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện đến ngày Thứ Bảy thứ tư của tháng trước Ngày Bầu Cử"
   },
   "dc": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Ba, 18 tháng 10, 2022",
     "mail_received_deadline": "Phải được nhận trước Thứ Ba, 18 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_mail_received_deadline": "Phải được nhận vào trước 21 ngày trước ngày Bầu Cử",
     "default_online_deadline": " 21 ngày trước ngày Bầu Cử"
   },
   "fl": {
-    "ip_deadline": "Thứ Ba, 11 tháng 10, 2022",
-    "online_deadline": "Thứ Ba, 11 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022",
     "default_ip_deadline": "29 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "29 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 29 ngày trước Ngày Bầu Cử"
   },
   "ga": {
-    "ip_deadline": "Thứ Ba, 11 tháng 10, 2022",
-    "online_deadline": "Thứ Ba, 11 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022",
     "default_ip_deadline": "Thứ Hai thứ năm trong tháng trước ngày Bầu Cử",
     "default_online_deadline": "Thứ Hai thứ năm trong tháng trước ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện đến ngày Thứ Hai thứ năm của tháng trước Ngày Bầu Cử"
   },
   "gu": {
-    "ip_deadline": "Thứ Sáu, 28 tháng 10, 2022",
     "mail_received_deadline": "Phải được nhận trước Thứ Sáu, 28 tháng 10, 2022",
     "default_mail_received_deadline": "Phải được nhận vào trước 10 ngày trước ngày Bầu Cử",
     "default_ip_deadline": "10 ngày trước Ngày Bầu Cử"
   },
   "hi": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Ba, 8 tháng 11, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ha, 31 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_online_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được nhận vào trước 30 ngày trước ngày Bầu Cử"
   },
   "id": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Sáu, 14 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Sáu, 14 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_online_deadline": "25 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 25 ngày trước Ngày Bầu Cử"
   },
   "il": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Chủ Nhật, 23 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_online_deadline": "16 ngày trước ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được nhận vào trước 28 ngày trước ngày Bầu Cử"
   },
   "in": {
-    "ip_deadline": "Thứ Ba, 11 tháng 10, 2022",
-    "online_deadline": "Thứ Ba, 11 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022",
     "default_ip_deadline": "29 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "29 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 29 ngày trước Ngày Bầu Cử"
   },
   "ia": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Hai, 24 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Hai, 24 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_online_deadline": "15 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 15 ngày trước Ngày Bầu Cử"
   },
   "ks": {
-    "ip_deadline": "Thứ Ba, 18 tháng 10, 2022",
-    "online_deadline": "Thứ Ba, 18 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 18 tháng 10, 2022",
     "default_ip_deadline": "21 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "21 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 21 ngày trước Ngày Bầu Cử"
   },
   "ky": {
-    "ip_deadline": "Thứ Ba, 11 tháng 10, 2022",
-    "online_deadline": "Thứ Ba, 11 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022",
     "default_ip_deadline": "Thứ Hai thứ tư trong tháng trước ngày Bầu Cử",
     "default_online_deadline": "Thứ Hai thứ tư trong tháng trước ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được nhận vào trước Thứ Hai thứ tư trong tháng trước ngày Bầu Cử"
   },
   "la": {
-    "ip_deadline": "Thứ Ba, 11 tháng 10, 2022",
-    "online_deadline": "Thứ Ba, 18 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022",
     "default_ip_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "20 ngày trước Ngày Bầu Cử",
@@ -161,110 +122,84 @@
     "dates_electionday": "Thứ Bảy, 10 tháng 12, 2022"
   },
   "me": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
     "mail_received_deadline": "Phải được nhận trước Thứ Ba, 18 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_mail_received_deadline": "Phải được nhận vào trước 21 ngày trước ngày Bầu Cử"
   },
   "md": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Ba, 18 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 18 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_online_deadline": "21 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 21 ngày trước Ngày Bầu Cử"
   },
   "ma": {
-    "ip_deadline": "Thứ Bảy, 29 tháng 10, 2022",
-    "online_deadline": "Thứ Bảy, 29 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Bảy, 29 tháng 10, 2022",
     "default_ip_deadline": "20 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "20 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 20 ngày trước Ngày Bầu Cử"
   },
   "mi": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Hai, 24 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Hai, 24 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_online_deadline": "15 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 15 ngày trước Ngày Bầu Cử"
   },
   "mn": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Ba, 18 tháng 10, 2022",
     "mail_received_deadline": "Phải được nhận trước Thứ Ba, 18 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_online_deadline": "21 ngày trước Ngày Bầu Cử",
     "default_mail_received_deadline": "Phải được nhận vào trước 21 ngày trước ngày Bầu Cử"
   },
   "ms": {
-    "ip_deadline": "Thứ Hai, 10 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Hai, 10 tháng 10, 2022",
     "default_ip_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 30 ngày trước Ngày Bầu Cử"
   },
   "mo": {
-    "ip_deadline": "Thứ Tư, 12 tháng 10, 2022",
-    "online_deadline": "Thứ Tư, 12 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Tư, 12 tháng 10, 2022",
     "default_ip_deadline": "Thứ Tư thứ tư trong tháng trước ngày Bầu Cử",
     "default_online_deadline": "Thứ Tư thứ tư trong tháng trước ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện vào trước Thứ Tư thứ tư trong tháng trước ngày Bầu Cử"
   },
   "mt": {
-    "ip_deadline": "Thứ Hai, 7 tháng 11, 2022, Mười hai giờ trưa",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 30 ngày trước Ngày Bầu Cử"
   },
   "ne": {
-    "ip_deadline": "Thứ Sáu, 28 tháng 10, 2022",
-    "online_deadline": "Thứ Sáu, 21 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Sáu, 21 tháng 10, 2022",
     "default_ip_deadline": "Thứ Sáu thứ hai trong tháng trước ngày Bầu Cử",
     "default_online_deadline": "Thứ Sáu thứ ba trong tháng trước ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện vào trước Thứ Sáu thứ ba trong tháng trước ngày Bầu Cử"
   },
   "nv": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Ba, 8 tháng 11, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022",
     "default_ip_deadline": "Thứ Ba thứ tư trong tháng trước ngày Bầu Cử",
     "default_online_deadline": "Thứ Năm trước đợt bầu cử sớm bắt đầu",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện vào trước Thứ Ba thứ tư trong tháng trước ngày Bầu Cử"
   },
   "nh": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử"
   },
   "nj": {
-    "ip_deadline": "Thứ Ba, 18 tháng 10, 2022",
-    "online_deadline": "Thứ Ba, 18 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 18 tháng 10, 2022",
     "default_online_deadline": "21 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được nhận vào trước 21 ngày trước ngày Bầu Cử",
     "default_ip_deadline": "21 ngày trước Ngày Bầu Cử"
   },
   "nm": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Ba, 11 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022",
     "default_ip_deadline": "Thứ Bảy trước ngày Bầu Cử",
     "default_online_deadline": "28 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 28 ngày trước Ngày Bầu Cử"
   },
   "ny": {
-    "ip_deadline": "Thứ Sáu, 14 tháng 10, 2022",
-    "online_deadline": "Thứ Sáu, 14 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Sáu, 14 tháng 10, 2022",
     "default_ip_deadline": "25 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "25 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 25 ngày trước Ngày Bầu Cử"
   },
   "nc": {
-    "ip_deadline": "Thứ Bảy, 5 tháng 11, 2022, Ba giờ trưa",
-    "online_deadline": "Thứ Sáu, 14 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Sáu, 14 tháng 10, 2022",
     "default_ip_deadline": "Được đăng kí và bầu cử cùng một ngày trong giai đoạn bầu cừ sớm",
     "default_online_deadline": "25 ngày trước Ngày Bầu Cử",
@@ -272,137 +207,106 @@
   },
   "nd": {},
   "mp": {
-    "ip_deadline": "Thứ Sáu, 09 tháng 9, 2022",
     "mail_received_deadline": "Phải được nhận trước Thứ Sáu, tháng 9, 2022",
     "default_ip_deadline": "60 ngày trước Ngày Bầu Cử",
     "default_mail_received_deadline": "Phải được nhận vào 60 ngày trước ngày Bầu Cử"
   },
   "oh": {
-    "ip_deadline": "Thứ Ba, 11 tháng 10, 2022",
-    "online_deadline": "Thứ Ba, 11 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022",
     "default_ip_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 30 ngày trước Ngày Bầu Cử"
   },
   "ok": {
-    "ip_deadline": "Thứ Sáu, 14 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Sáu, 14 tháng 10, 2022",
     "default_ip_deadline": "25 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 25 ngày trước Ngày Bầu Cử"
   },
   "or": {
-    "ip_deadline": "Thứ Ba, 18 tháng 10, 2022",
-    "online_deadline": "Thứ Ba, 18 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 18 tháng 10, 2022",
     "default_ip_deadline": "21 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "21 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 21 ngày trước Ngày Bầu Cử"
   },
   "pa": {
-    "ip_deadline": "Thứ Hai, 24 tháng 10, 2022",
-    "online_deadline": "Thứ Hai, 24 tháng 10, 2022",
     "mail_received_deadline": "Phải được nhận trước Thứ Hai, 24 tháng 10, 2022",
     "default_ip_deadline": "15 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "15 ngày trước Ngày Bầu Cử",
     "default_mail_received_deadline": "Phải được nhận vào 15 ngày trước ngày Bầu Cử"
   },
   "pr": {
-    "ip_deadline": "Thứ Hai, 19 tháng 9, 2022",
     "default_ip_deadline": "50 ngày trước Ngày Bầu Cử"
   },
   "ri": {
-    "ip_deadline": "Chủ Nhật, 9 tháng 10, 2022",
-    "online_deadline": "Chủ Nhật, 9 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Chủ Nhật, 9 tháng 10, 2022",
     "default_ip_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 30 ngày trước Ngày Bầu Cử"
   },
   "sc": {
-    "ip_deadline": "Thứ Sáu, 7 tháng 10, 2022",
-    "online_deadline": "Chủ Nhật, 9 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022",
     "default_ip_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 30 ngày trước Ngày Bầu Cử"
   },
   "sd": {
-    "ip_deadline": "Thứ Hai, 24 tháng 10, 2022",
     "mail_received_deadline": "Phải được nhận trước Thứ Hai, 24 tháng 10, 2022",
     "default_ip_deadline": "15 ngày trước Ngày Bầu Cử",
     "default_mail_received_deadline": "Phải được nhận vào 15 ngày trước ngày Bầu Cử"
   },
   "tn": {
-    "ip_deadline": "Thứ Ba, 11 tháng 10, 2022",
-    "online_deadline": "Thứ Ba, 11 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022",
     "default_ip_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 30 ngày trước Ngày Bầu Cử"
   },
   "tx": {
-    "ip_deadline": "Thứ Ba, 11 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022",
     "default_ip_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 30 ngày trước Ngày Bầu Cử"
   },
   "ut": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Sáu, 28 tháng 10, 2022",
     "mail_received_deadline": "Phải được nhận trước Thứ Sáu, 28 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_online_deadline": "11 ngày trước Ngày Bầu Cử",
     "default_mail_received_deadline": "Phải được nhận vào 11 ngày trước ngày Bầu Cử"
   },
   "vt": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Ba, 8 tháng 11, 2022",
     "mail_received_deadline": "Phải được nhận trước Thứ Sáu, 4 tháng 11, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_online_deadline": "Thứ Sáu trước ngày Bầu Cử",
     "default_mail_received_deadline": "Phải được nhận vào Thứ Sáu trước ngày Bầu Cử"
   },
   "va": {
-    "ip_deadline": "Thứ Hai, 17 tháng 10, 2022",
-    "online_deadline": "Thứ Hai, 17 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Hai, 17 tháng 10, 2022",
     "default_ip_deadline": "22 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "22 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 22 ngày trước Ngày Bầu Cử"
   },
   "vi": {
-    "ip_deadline": "Chủ Nhật, 9 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Chủ Nhật, 9 tháng 10, 2022",
     "default_ip_deadline": "30 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 30 ngày trước Ngày Bầu Cử"
   },
   "wa": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Ha, 31 tháng 10, 2022",
     "mail_received_deadline": "Phải được nhận trước Thứ Ha, 31 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_online_deadline": "8 ngày trước Ngày Bầu Cử",
     "default_mail_received_deadline": "Phải được nhận vào 8 ngày trước ngày Bầu Cử"
   },
   "wv": {
-    "ip_deadline": "Thứ Ba, 18 tháng 10, 2022",
-    "online_deadline": "Thứ Ba, 18 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Ba, 18 tháng 10, 2022",
     "default_ip_deadline": "21 ngày trước Ngày Bầu Cử",
     "default_online_deadline": "21 ngày trước Ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 21 ngày trước Ngày Bầu Cử"
   },
   "wi": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
-    "online_deadline": "Thứ Tư, 19 tháng 10, 2022",
     "mail_postmarked_deadline": "Cần được đánh dấu bưu điện trước Thứ Tư, 19 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_online_deadline": "Thứ Tư thứ ba trong tháng trước ngày Bầu Cử",
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện vào trước Thứ Tư thứ ba trong tháng trước ngày Bầu Cử"
   },
   "wy": {
-    "ip_deadline": "Thứ Ba, 8 tháng 11, 2022",
     "mail_received_deadline": "Phải được nhận trước Thứ Hai, 24 tháng 10, 2022",
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
     "default_mail_received_deadline": "Phải được nhận vào 14 ngày trước ngày Bầu Cử"

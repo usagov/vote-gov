@@ -1,89 +1,67 @@
 {
   "al": {
-    "ip_deadline": "ថ្ងៃច័ន្ទ 24 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃច័ន្ទ 24 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃច័ន្ទ 24 ខែតុលា 2022",
     "default_ip_deadline": "15 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "15 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 15 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ak": {
-    "ip_deadline": "ថ្ងៃអាទិត្យ 9 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃអាទិត្យ 9 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអាទិត្យ 9 ខែតុលា 2022",
     "default_ip_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "as": {
-    "ip_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "az": {
-    "ip_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_online_deadline": "29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_ip_deadline": "29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ar": {
-    "ip_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ca": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃច័ន្ទ 24 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃច័ន្ទ 24 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "15 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 15 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "co": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃច័ន្ទ 31 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃច័ន្ទ 31 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "8 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 8 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ct": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 1 ខែវិច្ឆិកា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 1 ខែវិច្ឆិកា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "7 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 7 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "de": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
     "default_ip_deadline": "ថ្ងៃសៅរ៍ទីបួនមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "ថ្ងៃសៅរ៍ទីបួនមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ត្រឹមថ្ងៃសៅរ៍ទីបួន មុនថ្ងៃបោះឆ្នោត"
   },
   "dc": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "mail_received_deadline": "ត្រូវតែបានទទួលត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_mail_received_deadline": "ត្រូវតែបានទទួល 21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "fl": {
-    "ip_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ga": {
-    "ip_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "ថ្ងៃច័ន្ទទីប្រាំមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "ថ្ងៃច័ន្ទទីប្រាំមុនថ្ងៃបោះឆ្នោត",
@@ -91,69 +69,52 @@
   },
   "gu": {
     "mail_received_deadline": "ត្រូវតែបានទទួលត្រឹមថ្ងៃ​ ថ្ងៃសុក្រ 28 ខែតុលា 2022",
-    "ip_deadline": "ថ្ងៃសុក្រ 28 ខែតុលា 2022",
     "default_mail_received_deadline": "ត្រូវតែបានទទួល 1០ ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_ip_deadline": "1០ ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "hi": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃច័ន្ទ 31 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "id": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃសុក្រ 14 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃសុក្រ 14 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "25 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 25 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "il": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃអាទិត្យ 23 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "16 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 28 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "in": {
-    "ip_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ia": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃច័ន្ទ 24 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃច័ន្ទ 24 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "15 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 15 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ks": {
-    "ip_deadline": "ថ្ងៃអង្គារ 18 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "default_ip_deadline": "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ky": {
-    "ip_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "ថ្ងៃច័ន្ទទីបួនមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "ថ្ងៃច័ន្ទទីបួនមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "la": {
-    "ip_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "20 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
@@ -161,110 +122,84 @@
     "dates_electionday": "ថ្ងៃសៅរ៍ 10 ខែធ្នូ 2022"
   },
   "me": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
     "mail_received_deadline": "ត្រូវតែបានទទួលត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_mail_received_deadline": "ត្រូវតែបានទទួល 21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "md": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ma": {
-    "ip_deadline": "ថ្ងៃសៅរ៍ 29 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃសៅរ៍ 29 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃសៅរ៍ 29 ខែតុលា 2022",
     "default_ip_deadline": "20 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "20 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 2០ ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "mi": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃច័ន្ទ 24 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃច័ន្ទ 24 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "15 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 15 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "mn": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "mail_received_deadline": "ត្រូវតែបានទទួលត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_received_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ms": {
-    "ip_deadline": "ថ្ងៃច័ន្ទ 10 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃច័ន្ទ 10 ខែតុលា 2022",
     "default_ip_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "mo": {
-    "ip_deadline": "ថ្ងៃពុធ 12 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃពុធ 12 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃពុធ 12 ខែតុលា 2022",
     "default_ip_deadline": "ថ្ងៃពុធទីបួនមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "ថ្ងៃពុធទីបួនមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ត្រឹមថ្ងៃពុធទីបួនមុនថ្ងៃបោះឆ្នោត"
   },
   "mt": {
-    "ip_deadline": "ថ្ងៃច័ន្ទ 7 ខែវិច្ឆិកា 2022 12:00 ល្ងាច",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ne": {
-    "ip_deadline": "ថ្ងៃសុក្រ 28 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃសុក្រ 21 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃសុក្រ 21 ខែតុលា 2022",
     "default_ip_deadline": "ថ្ងៃសុក្រទីពីរមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "ថ្ងៃសុក្រទីបីមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ត្រឹមថ្ងៃសុក្រទីបីមុនថ្ងៃបោះឆ្នោត"
   },
   "nv": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "ថ្ងៃអង្គារទីបួនមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "ថ្ងៃព្រហស្បតិ៍មុនថ្ងៃបោះឆ្នោតលឿនចាប់ផ្តើម",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ត្រឹមថ្ងៃអង្គារទីបួនមុនថ្ងៃបោះឆ្នោត"
   },
   "nh": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត"
   },
   "nj": {
-    "ip_deadline": "ថ្ងៃអង្គារ 18 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "default_online_deadline": "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_ip_deadline": "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "nm": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "ថ្ងៃសៅរ៍មុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "28 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 28 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ny": {
-    "ip_deadline": "ថ្ងៃសុក្រ 14 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃសុក្រ 14 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃសុក្រ 14 ខែតុលា 2022",
     "default_ip_deadline": "25 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "25 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 25 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "nc": {
-    "ip_deadline": "ថ្ងៃសៅរ៍ 5 ខែវិច្ឆិកា 2022 3:00 ល្ងាច",
-    "online_deadline": "ថ្ងៃសុក្រ 14 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃសុក្រ 14 ខែតុលា 2022",
     "default_ip_deadline": "ការចុះឈ្មោះថ្ងៃតែមួយអាចរកបានកំឡុងពេលបោះឆ្នោតលឿន",
     "default_online_deadline": "25 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
@@ -272,70 +207,54 @@
   },
   "nd": {},
   "mp": {
-    "ip_deadline": "ថ្ងៃសុក្រ 9 ខែកញ្ញា 2022",
     "mail_received_deadline": "ត្រូវតែបានទទួលត្រឹមថ្ងៃ​ ថ្ងៃសុក្រ 9 ខែកញ្ញា 2022",
     "default_ip_deadline": "60 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_received_deadline": "ត្រូវតែបានទទួល 60 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "oh": {
-    "ip_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ok": {
-    "ip_deadline": "ថ្ងៃសុក្រ 14 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃសុក្រ 14 ខែតុលា 2022",
     "default_ip_deadline": "25 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 25 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "or": {
-    "ip_deadline": "ថ្ងៃអង្គារ 18 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "default_ip_deadline": "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "pa": {
-    "ip_deadline": "ថ្ងៃច័ន្ទ 24 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃច័ន្ទ 24 ខែតុលា 2022",
     "mail_received_deadline": "ត្រូវតែបានទទួលត្រឹមថ្ងៃ​ ថ្ងៃច័ន្ទ 24 ខែតុលា 2022",
     "default_ip_deadline": "15 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "15 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_received_deadline": "ត្រូវតែបានទទួល 15 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "pr": {
-    "ip_deadline": "ថ្ងៃច័ន្ទ 19 ខែកញ្ញា 2022",
     "default_ip_deadline": "50 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ri": {
-    "ip_deadline": "ថ្ងៃអាទិត្យ 9 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃអាទិត្យ 9 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអាទិត្យ 9 ខែតុលា 2022",
     "default_ip_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "sc": {
-    "ip_deadline": "ថ្ងៃសុក្រ 7 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃអាទិត្យ 9 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "sd": {
-    "ip_deadline": "ថ្ងៃច័ន្ទ 24 ខែតុលា 2022",
     "mail_received_deadline": "ត្រូវតែបានទទួលត្រឹមថ្ងៃ​ ថ្ងៃច័ន្ទ 24 ខែតុលា 2022",
     "default_ip_deadline": "15 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_received_deadline": "ត្រូវតែបានទទួល 15 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "tn": {
-    "ip_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
@@ -343,66 +262,51 @@
   },
   "tx": {
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 11 ខែតុលា 2022",
-    "ip_deadline": "ថ្ងៃអង្គារ 11 ខែតុលា 2022",
     "default_ip_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ut": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃសុក្រ 28 ខែតុលា 2022",
     "mail_received_deadline": "ត្រូវតែបានទទួលត្រឹមថ្ងៃ​ ថ្ងៃសុក្រ 28 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "11 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_received_deadline": "ត្រូវតែបានទទួល 11 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "vt": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
     "mail_received_deadline": "ត្រូវតែបានទទួលត្រឹមថ្ងៃ​ ថ្ងៃសុក្រ 4 ខែវិច្ឆិកា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "ថ្ងៃសុក្រមុនថ្ងៃបោះឆ្នោត",
     "default_mail_received_deadline": "ត្រូវតែបានទទួលត្រឹមថ្ងៃសុក្រមុនថ្ងៃបោះឆ្នោត"
   },
   "va": {
-    "ip_deadline": "ថ្ងៃច័ន្ទ 17 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃច័ន្ទ 17 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃច័ន្ទ 17 ខែតុលា 2022",
     "default_ip_deadline": "22 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "22 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 22 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "vi": {
-    "ip_deadline": "ថ្ងៃអាទិត្យ 9 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអាទិត្យ 9 ខែតុលា 2022",
     "default_ip_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "wa": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃច័ន្ទ 31 ខែតុលា 2022",
     "mail_received_deadline": "ត្រូវតែបានទទួលត្រឹមថ្ងៃ​ ថ្ងៃច័ន្ទ 31 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "8 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_received_deadline": "ត្រូវតែបានទទួល 8 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "wv": {
-    "ip_deadline": "ថ្ងៃអង្គារ 18 ខែតុលា 2022",
-    "online_deadline": "ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃអង្គារ 18 ខែតុលា 2022",
     "default_ip_deadline": "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "wi": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
-    "online_deadline": "ថ្ងៃពុធ 19 ខែតុលា 2022",
     "mail_postmarked_deadline": "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ត្រឹមថ្ងៃ​ ថ្ងៃពុធ 19 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "ថ្ងៃពុធទីបីមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ត្រឹមថ្ងៃពុធទីបីមុនថ្ងៃបោះឆ្នោត"
   },
   "wy": {
-    "ip_deadline": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
     "mail_received_deadline": "ត្រូវតែបានទទួលត្រឹមថ្ងៃ​ ថ្ងៃច័ន្ទ 24 ខែតុលា 2022",
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_mail_received_deadline": "ត្រូវតែបានទទួល 14 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"

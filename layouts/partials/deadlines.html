@@ -1,8 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-{{ $onlineDeadline := cond (ne .Params.online_deadline nil) .Params.online_deadline .Params.default_online_deadline }}
 {{ $postmarkedDeadline := cond (ne .Params.mail_postmarked_deadline nil) .Params.mail_postmarked_deadline .Params.default_mail_postmarked_deadline }}
 {{ $receivedDeadline := cond (ne .Params.mail_received_deadline nil) .Params.mail_received_deadline .Params.default_mail_received_deadline }}
-{{ $ipDeadline := cond (ne .Params.ip_deadline nil) .Params.ip_deadline .Params.default_ip_deadline }}
 
 {{ if ne .Params.registration_type "not-needed" }}
 	<header>
@@ -17,7 +15,8 @@
 {{end}}
 
 <ul class="registered-resources">
-  {{ if $onlineDeadline }}
+	{{ if or (ne .Params.online_deadline nil) (ne .Params.default_online_deadline nil) }}
+		{{ $onlineDeadline := cond (ne .Params.online_deadline nil) (partial "date-format-online.html" .) .Params.default_online_deadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__byonline_deadline }}</span>
 			{{ $onlineDeadline }}
@@ -38,17 +37,17 @@
 		</li>
 	{{end}}
 
-	{{ if $ipDeadline }}
+	{{ if or (ne .Params.ip_deadline nil) (ne .Params.default_ip_deadline nil) }}
+		{{ $ipDeadline := cond (ne .Params.ip_deadline nil) (partial "date-format-ip.html" .) .Params.default_ip_deadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__inperson_deadline }}</span>
 			{{ $ipDeadline }}
 		</li>
-	{{end}}
+	{{ end }}
 </ul>
 
-<!-- To use a different link than the default one for any language use the variable name 'confirm_registration_link_override' in states-data.json for that language -->
-{{ $confirm_registration_link := .Params.confirm_registration_link_override | default .Params.confirm_registration_link }}
-{{ if $confirm_registration_link }}
+
+{{ if isset .Params "confirm_registration_link" }}
 {{ if not (in .Params.registration_type "not-needed") }}
 <header>
   <h2>{{ $translation.register.confirm_registration__heading }}</h2>

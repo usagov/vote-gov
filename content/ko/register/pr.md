@@ -6,10 +6,7 @@ is_state = "false"
 registration_type = "in-person"
 translationKey = "Puerto Rico"
 type = "register"
-hp_link = "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx"
-more_info_link = "https://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx"
-confirm_registration_link = "https://consulta.ceepur.org/"
-ip_deadline = "2022년 9월 19일 월요일"
+ip_deadline = "2022-09-19"
 default_ip_deadline = "선거일 50일 전까지"
 
 +++

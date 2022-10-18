@@ -8,10 +8,11 @@
 {{ if eq .Site.Language.Lang "bn" }}
   {{ $day }} {{ $month }} {{ $year }}
 {{ else if eq .Site.Language.Lang "ypk" }}
-  {{ $month }} {{ .Lastmod.Day }} {{ $year }}
+  {{ $month }} {{ $day }} {{ $year }}
 {{ else if eq .Site.Language.Lang "zh-hans" }}
   {{ $year }} {{ $month }} {{ $day }}
+{{ else if eq .Site.Language.Lang "tl" }}
+  Ika-{{ $day }} ng {{ $month }} {{ $year }}
 {{ else }}
   {{ .Lastmod | time.Format ":date_long" }}
 {{end}}
-

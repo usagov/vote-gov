@@ -1,89 +1,67 @@
 {
     "al": {
-        "ip_deadline": "সোমবার, ২৮ অক্টোবর, ২০২২",
-        "online_deadline": "রবিবার, ৯ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (রবিবার, ৯ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের ১৫ দিন আগে",
         "default_online_deadline": "নির্বাচনের ১৫ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "ak": {
-        "ip_deadline": "রবিবার, ৯ অক্টোবর, ২০২২",
-        "online_deadline": "রবিবার, ৯ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (রবিবার, ৯ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "default_online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "as": {
-        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে"
     },
     "az": {
-        "online_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
-        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "default_online_deadline": "নির্বাচনের দিন ২৯ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৯ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "default_ip_deadline": "নির্বাচনের দিন ২৯ দিন আগে"
     },
     "ar": {
-        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "ca": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "সোমবার, ২৮ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ২৮ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_mail_postmarked_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "co": {
-        "ip_deadline": "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ৩১ অক্টোবর, ২০২২)",
-        "online_deadline": "সোমবার, ৩১ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ৩১ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের ৮ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ৮ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "ct": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ১ নভেম্বর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১ নভেম্বর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের ৭ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ৭ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "de": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক মঙ্গলবার, ৮ নভেম্বর, ২০২২",
         "default_ip_deadline": "নির্বাচনের আগে চতুর্থ শনিবার",
         "default_online_deadline": "নির্বাচনের আগে চতুর্থ শনিবার",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন আগে চতুর্থ শনিবারের মধ্যে পোস্টমার্ক করা আবশ্যক"
     },
     "dc": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
         "mail_received_deadline": "(মঙ্গলবার, ১৮ অক্টোবর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
-        "online_deadline": "মঙ্গলবার, ১৮ অক্টোবর, ২০২২",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_mail_received_deadline": "নির্বাচনের দিন ২১ দিন আগে পেতে হবে",
         "default_online_deadline": "নির্বাচনের ২১ দিন আগে"
     },
     "fl": {
-        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের দিন ২৯ দিন আগে",
         "default_online_deadline": "নির্বাচনের দিন ২৯ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৯ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "ga": {
-        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের আগে পঞ্চম সোমবার",
         "default_online_deadline": "নির্বাচনের আগে পঞ্চম সোমবার",
@@ -91,69 +69,52 @@
     },
     "gu": {
         "mail_received_deadline": "(শুক্রবার, ২৮ অক্টোবর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
-        "ip_deadline": "শুক্রবার, ২৮ অক্টোবর, ২০২২",
         "default_mail_received_deadline": "নির্বাচনের দিন ১০ দিন আগে পেতে হবে",
         "default_ip_deadline": "নির্বাচনের ১০ দিন আগে"
     },
     "hi": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ৩১ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ৮ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "id": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "শুক্রবার, ১৪ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ৩১ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের ২৫ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৫ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "il": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "রবিবার, ২৩ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের ১৬ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৮ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "in": {
-        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "default_online_deadline": "নির্বাচনের দিন ২৯ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন 29 দিন আগে পোস্টমার্ক করা আবশ্যক",
         "default_ip_deadline": "নির্বাচনের দিন ২৯ দিন আগে"
     },
     "ia": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "সোমবার, ২৮ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ২৮ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের ১৫ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "ks": {
-        "ip_deadline": "মঙ্গলবার, ১৮ অক্টোবর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ১৮ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১৮ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের ২১ দিন আগে",
         "default_online_deadline": "নির্বাচনের ২১ দিন আগে",
         "default_mail_postmarked_deadline": "২১ দিন পোস্টমার্ক করা আবশ্যক"
     },
     "ky": {
-        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের আগের চতুর্থ সোমবার",
         "default_online_deadline": "নির্বাচনের আগের চতুর্থ সোমবার",
         "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "la": {
-        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ১৮ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "dates_electionday": "শনিবার, ১০ ডিসেম্বর, ২০২২",
         "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
@@ -161,110 +122,84 @@
         "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "me": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
         "mail_received_deadline": "(মঙ্গলবার, ১৮ অক্টোবর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_mail_received_deadline": "নির্বাচনের দিন ২১ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "md": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ১৮ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১৮ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের ২১ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২১ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "ma": {
-        "ip_deadline": "শনিবার, ২৯ অক্টোবর, ২০২২",
-        "online_deadline": "শনিবার, ২৯ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (শনিবার, ২৯ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের দিন 2০ দিন আগে",
         "default_online_deadline": "নির্বাচনের দিন 2০ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "mi": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "সোমবার, ২৮ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ২৮ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের ১৫ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "mn": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ১৮ অক্টোবর, ২০২২",
         "mail_received_deadline": "(মঙ্গলবার, ১৮ অক্টোবর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের ২১ দিন আগে",
         "default_mail_received_deadline": "নির্বাচনের দিন ২১ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "ms": {
-        "ip_deadline": "সোমবার, ১০ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ১০ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "mo": {
-        "ip_deadline": "বুধবার, ১২ অক্টোবর, ২০২২",
-        "online_deadline": "বুধবার, ১২ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (বুধবার, ১২ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের আগে চতুর্থ বুধবার",
         "default_online_deadline": "নির্বাচনের আগে চতুর্থ বুধবার",
         "default_mail_postmarked_deadline": "নির্বাচনের আগে চতুর্থ বুধবারের মধ্যে পোস্টমার্ক করতে হবে"
     },
     "mt": {
-        "ip_deadline": "সোমবার, ৭ নভেম্বর, ২০২২, দুপুর ১২টা",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "ne": {
-        "ip_deadline": "শুক্রবার, ২৮ অক্টোবর, ২০২২",
-        "online_deadline": "শুক্রবার, ২১ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (শুক্রবার, ২১ অক্টোবর, ২০২২)",
         "default_online_deadline": "নির্বাচনের আগের তৃতীয় শুক্রবার",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন আগে তৃতীয় শুক্রবারের মধ্যে পোস্টমার্ক করতে হবে",
         "default_ip_deadline": "নির্বাচনের আগের দ্বিতীয় শুক্রবার"
     },
     "nv": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "default_online_deadline": "বৃহস্পতিবার ভোট শুরু হওয়ার আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন আগে চতুর্থ মঙ্গলবারের মধ্যে পোস্টমার্ক করা আবশ্যক",
         "default_ip_deadline": "নির্বাচনের আগে চতুর্থ মঙ্গলবার"
     },
     "nh": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ"
     },
     "nj": {
-        "online_deadline": "মঙ্গলবার, ১৮ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১৮ অক্টোবর, ২০২২)",
-        "ip_deadline": "মঙ্গলবার, ১৮ অক্টোবর, ২০২২",
         "default_online_deadline": "নির্বাচনের ২১ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২১ দিন আগে পোস্টমার্ক করা আবশ্যক",
         "default_ip_deadline": "নির্বাচনের ২১ দিন আগে"
     },
     "nm": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের আগের দিন শনিবার",
         "default_online_deadline": "নির্বাচনের দিন ২৮ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৮ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "ny": {
-        "ip_deadline": "শুক্রবার, ১৪ অক্টোবর, ২০২২",
-        "online_deadline": "শুক্রবার, ১৪ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (শুক্রবার, ১৪ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের ২৫ দিন আগে",
         "default_online_deadline": "নির্বাচনের ২৫ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৫ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "nc": {
-        "ip_deadline": "শনিবার, ৫ নভেম্বর, ২০২২, দুপুর ৩টা",
-        "online_deadline": "শুক্রবার, ১৪ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (শুক্রবার, ১৪ অক্টোবর, ২০২২)",
         "default_ip_deadline": "প্রারম্ভিক ভোটের সময় একই দিনে নিবন্ধন উপলব্ধ",
         "default_online_deadline": "নির্বাচনের ২৫ দিন আগে",
@@ -272,135 +207,104 @@
     },
     "nd": {},
     "mp": {
-        "ip_deadline": "শুক্রবার, ৯ সেপ্টেম্বর, ২০২২",
         "mail_received_deadline": "(শুক্রবার, ৯ সেপ্টেম্বর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
         "default_ip_deadline": "নির্বাচনের ৬০ দিন আগে"
     },
     "oh": {
-        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "default_online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "ok": {
-        "ip_deadline": "শুক্রবার, ১৪ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (শুক্রবার, ১৪ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের ২৫ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৫ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "or": {
-        "ip_deadline": "মঙ্গলবার, ১৮ অক্টোবর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ১৮ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১৮ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের ২১ দিন আগে",
         "default_online_deadline": "নির্বাচনের ২১ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২১ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "pa": {
-        "ip_deadline": "সোমবার, ২৮ অক্টোবর, ২০২২",
-        "online_deadline": "সোমবার, ২৮ অক্টোবর, ২০২২",
         "mail_received_deadline": "(সোমবার, ২৮ অক্টোবর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
         "default_ip_deadline": "নির্বাচনের ১৫ দিন আগে",
         "default_online_deadline": "নির্বাচনের ১৫ দিন আগে",
         "default_mail_received_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "pr": {
-        "ip_deadline": "সোমবার, ১৯ সেপ্টেম্বর, ২০২২",
         "default_ip_deadline": "নির্বাচনের ৫০ দিন আগে"
     },
     "ri": {
-        "ip_deadline": "রবিবার, ৯ অক্টোবর, ২০২২",
-        "online_deadline": "রবিবার, ৯ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (রবিবার, ৯ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "default_online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "sc": {
-        "ip_deadline": "শুক্রবার, ৭ অক্টোবর, ২০২২",
-        "online_deadline": "রবিবার, ৯ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "default_online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "sd": {
-        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "mail_received_deadline": "(সোমবার, ২৮ অক্টোবর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
         "default_ip_deadline": "নির্বাচনের ১৫ দিন আগে",
         "default_mail_received_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "tn": {
-        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "default_online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "tx": {
-        "ip_deadline": "মঙ্গলবার, ১১ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১১ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "ut": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "শুক্রবার, ২৮ অক্টোবর, ২০২২",
         "mail_received_deadline": "(শুক্রবার, ২৮ অক্টোবর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের দিন ১১ দিন আগে",
         "default_mail_received_deadline": "নির্বাচনের দিন ১১ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "vt": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
         "mail_received_deadline": "(শুক্রবার, ৪ নভেম্বর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের আগে শুক্রবার",
         "default_mail_received_deadline": "নির্বাচনের দিন আগে শুক্রবারের মধ্যে গ্রহণ করা আবশ্যক"
     },
     "va": {
-        "ip_deadline": "সোমবার, ১৭ অক্টোবর, ২০২২",
-        "online_deadline": "সোমবার, ১৭ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (সোমবার, ১৭ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের ২২ দিন আগে",
         "default_online_deadline": "নির্বাচনের ২২ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২২ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "vi": {
-        "ip_deadline": "রবিবার, ৯ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (রবিবার, ৯ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে"
     },
     "wa": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "সোমবার, ৩১ অক্টোবর, ২০২২",
         "mail_received_deadline": "(সোমবার, ৩১ অক্টোবর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের ৮ দিন আগে",
         "default_mail_received_deadline": "নির্বাচনের ৮ দিন আগে পেতে হবে"
     },
     "wv": {
-        "ip_deadline": "মঙ্গলবার, ১৮ অক্টোবর, ২০২২",
-        "online_deadline": "মঙ্গলবার, ১৮ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (মঙ্গলবার, ১৮ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের ২১ দিন আগে",
         "default_online_deadline": "নির্বাচনের ২১ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২১ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "wi": {
-        "ip_deadline": "মঙ্গলবার, ৮ নভেম্বর, ২০২২",
-        "online_deadline": "বুধবার, ১৯ অক্টোবর, ২০২২",
         "mail_postmarked_deadline": "পোস্ট চিহ্ন করা আবশ্যক (বুধবার, ১৯ অক্টোবর, ২০২২)",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের আগের তৃতীয় বুধবার",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন আগে তৃতীয় বুধবারের মধ্যে পোস্টমার্ক করতে হবে"
     },
     "wy": {
-        "ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "mail_received_deadline": "(সোমবার, ২৮ অক্টোবর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে",
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_mail_received_deadline": "নির্বাচনের দিন ১৪ দিন আগে পেতে হবে"
