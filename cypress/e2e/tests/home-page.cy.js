@@ -38,10 +38,10 @@ describe('Test vote.gov homepage', () => {
     cy.get('[data-test="language-switcher"]').select("/ypk/")
     cy.get('[data-test="main-header"]').should('contain','Ilaten Nakmikiyaghqaa')
   })
-  it('Check accordion function on homepage', () => {
-    cy.get('[data-test="accordion"]').find('[data-test="accordion-button"]').each(accordionButton => {
+  it.only('Check accordion function on homepage', () => {
+    cy.get('[data-test="accordion-button"]').each(accordionButton => {
       cy.get(accordionButton).click()
-      cy.get('[data-test="accordion-content"]').should('not.be.empty')
+      cy.get('[data-test="accordion-content"]').should('be.visible')
     })
       cy.get('[data-test="accordion"]').find('a').each(link => {
         cy.request(link.prop('href')).then(link => {
