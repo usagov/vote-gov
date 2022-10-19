@@ -2,7 +2,7 @@
   "al": {
     "ip_deadline": "lunes, 24 de octubre de 2022",
     "online_deadline": "lunes, 24 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo lunes, 24 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el lunes, 24 de octubre de 2022",
     "default_ip_deadline": "hasta 15 días antes del día de las elecciones",
     "default_online_deadline": "hasta 15 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 15 días antes del día de las elecciones"
@@ -12,7 +12,7 @@
     "more_info_link_translated": "true",
     "ip_deadline": "domingo, 09 de octubre de 2022",
     "online_deadline": "domingo, 09 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo domingo, 09 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el domingo, 09 de octubre de 2022",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
     "default_online_deadline": "hasta 30 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
@@ -29,7 +29,7 @@
     "more_info_link_language_selection": "true",
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022",
     "confirm_registration_link_language_selection": "true",
     "default_ip_deadline": "hasta 29 días antes del día de las elecciones",
     "default_online_deadline": "hasta 29 días antes del día de las elecciones",
@@ -38,7 +38,7 @@
   },
   "ar": {
     "ip_deadline": "martes, 11 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022",
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
@@ -50,7 +50,7 @@
     "more_info_link_translated": "true",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "lunes, 24 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo lunes, 24 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el lunes, 24 de octubre de 2022",
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta 15 días antes del día de las elecciones",
@@ -66,7 +66,7 @@
     "more_info_link_translated": "true",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "lunes, 31 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo lunes, 31 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el lunes, 31 de octubre de 2022",
     "confirm_registration_link_language_selection": "true",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta 8 días antes del día de las elecciones",
@@ -77,7 +77,7 @@
     "registration_link_language_selection": "true",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "martes, 01 de noviembre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 01 de noviembre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 01 de noviembre de 2022",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta 7 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 7 días antes del día de las elecciones"
@@ -86,7 +86,7 @@
     "registration_link_translated": "true",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "martes, 08 de noviembre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 08 de noviembre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 08 de noviembre de 2022",
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta el cuarto sábado antes del día de las elecciones",
     "default_online_deadline": "hasta el cuarto sábado antes del día de las elecciones",
@@ -106,7 +106,7 @@
     "more_info_link_language_selection": "true",
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022",
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta 29 días antes del día de las elecciones",
     "default_online_deadline": "hasta 29 días antes del día de las elecciones",
@@ -116,7 +116,7 @@
   "ga": {
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022",
     "default_ip_deadline": "hasta el quinto lunes antes del día de las elecciones",
     "default_online_deadline": "hasta el quinto lunes antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar el quinto lunes antes del día de las elecciones"
@@ -130,7 +130,7 @@
   "hi": {
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "martes, 08 de noviembre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo lunes, 31 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el lunes, 31 de octubre de 2022",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta 30 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones"
@@ -138,7 +138,7 @@
   "id": {
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "viernes, 14 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo viernes, 14 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el viernes, 14 de octubre de 2022",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta 25 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar 25 días antes del día de las elecciones"
@@ -147,7 +147,7 @@
     "registration_link_translated": "true",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "domingo, 23 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022",
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta 16 días antes del día de las elecciones",
@@ -157,7 +157,7 @@
   "in": {
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022",
     "default_ip_deadline": "hasta 29 días antes del día de las elecciones",
     "default_online_deadline": "hasta 29 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 29 días antes del día de las elecciones"
@@ -165,7 +165,7 @@
   "ia": {
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "lunes, 24 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo lunes, 24 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el lunes, 24 de octubre de 2022",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta 15 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 15 días antes del día de las elecciones"
@@ -173,7 +173,7 @@
   "ks": {
     "ip_deadline": "martes, 18 de octubre de 2022",
     "online_deadline": "martes, 18 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 18 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 18 de octubre de 2022",
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta 21 días antes del día de las elecciones",
     "default_online_deadline": "hasta 21 días antes del día de las elecciones",
@@ -183,7 +183,7 @@
   "ky": {
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022",
     "default_ip_deadline": "hasta el cuarto lunes antes del día de las elecciones",
     "default_online_deadline": "hasta el cuarto lunes antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar el cuarto lunes antes del día de las elecciones"
@@ -191,7 +191,7 @@
   "la": {
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 18 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022",
     "dates_electionday": "sábado, 10 de diciembre de 2022",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
     "default_online_deadline": "hasta 20 días antes del día de las elecciones",
@@ -207,7 +207,7 @@
     "registration_link_language_selection": "true",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "martes, 18 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 18 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 18 de octubre de 2022",
     "confirm_registration_link_language_selection": "true",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta 21 días antes del día de las elecciones",
@@ -217,7 +217,7 @@
     "registration_link_language_selection": "true",
     "ip_deadline": "sábado, 29 de octubre de 2022",
     "online_deadline": "sábado, 29 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo sábado, 29 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el sábado, 29 de octubre de 2022",
     "confirm_registration_link_language_selection": "true",
     "default_ip_deadline": "hasta 20 días antes del día de las elecciones",
     "default_online_deadline": "hasta 20 días antes del día de las elecciones",
@@ -226,7 +226,7 @@
   "mi": {
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "lunes, 24 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo lunes, 24 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el lunes, 24 de octubre de 2022",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta 15 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 15 días antes del día de las elecciones"
@@ -245,21 +245,21 @@
   },
   "ms": {
     "ip_deadline": "lunes, 10 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo lunes, 10 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el lunes, 10 de octubre de 2022",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones"
   },
   "mo": {
     "ip_deadline": "miércoles, 12 de octubre de 2022",
     "online_deadline": "miércoles, 12 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo miércoles, 12 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el miércoles, 12 de octubre de 2022",
     "default_ip_deadline": "hasta el cuarto miércoles antes del día de las elecciones",
     "default_online_deadline": "hasta el cuarto miércoles antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar el cuarto miércoles antes del día de las elecciones"
   },
   "mt": {
     "ip_deadline": "lunes, 07 de noviembre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones"
   },
@@ -267,7 +267,7 @@
     "registration_link_language_selection": "true",
     "ip_deadline": "lunes, 07 de noviembre de 2022, 12:00 P.M.",
     "online_deadline": "viernes, 21 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo viernes, 21 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el viernes, 21 de octubre de 2022",
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta el segundo viernes antes del día de las elecciones",
     "default_online_deadline": "hasta el tercer viernes antes del día de las elecciones",
@@ -278,7 +278,7 @@
     "registration_link_language_selection": "true",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "martes, 08 de noviembre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022",
     "default_ip_deadline": "hasta el cuarto martes antes del día de las elecciones",
     "default_online_deadline": "hasta el jueves antes de que empiece la votación anticipada",
     "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar el cuarto martes antes del día de las elecciones"
@@ -291,7 +291,7 @@
     "registration_link_language_selection": "true",
     "ip_deadline": "martes, 18 de octubre de 2022",
     "online_deadline": "martes, 18 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 18 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 18 de octubre de 2022",
     "default_ip_deadline": "hasta 21 días antes del día de las elecciones",
     "default_online_deadline": "hasta 21 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 21 días antes del día de las elecciones"
@@ -302,7 +302,7 @@
     "more_info_link_language_selection": "true",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022",
     "default_ip_deadline": "hasta el sábado antes del día de las elecciones",
     "default_online_deadline": "hasta 28 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 28 días antes del día de las elecciones"
@@ -310,7 +310,7 @@
   "ny": {
     "ip_deadline": "viernes, 14 de octubre de 2022",
     "online_deadline": "viernes, 14 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo viernes, 14 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el viernes, 14 de octubre de 2022",
     "default_ip_deadline": "hasta 25 días antes del día de las elecciones",
     "default_online_deadline": "hasta 25 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 25 días antes del día de las elecciones"
@@ -318,7 +318,7 @@
   "nc": {
     "ip_deadline": "sábado, 05 de noviembre de 2022, 3:00 P.M.",
     "online_deadline": "viernes, 14 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo viernes, 14 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el viernes, 14 de octubre de 2022",
     "default_ip_deadline": "disponible durante los días de votación anticipada",
     "default_online_deadline": "hasta 25 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 25 días antes del día de las elecciones"
@@ -334,14 +334,14 @@
     "registration_link_language_selection": "true",
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
     "default_online_deadline": "hasta 30 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones"
   },
   "ok": {
     "ip_deadline": "viernes, 14 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo viernes, 14 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el viernes, 14 de octubre de 2022",
     "confirm_registration_link_language_selection": "true",
     "default_ip_deadline": "hasta 25 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 25 días antes del día de las elecciones"
@@ -351,7 +351,7 @@
     "more_info_link_language_selection": "true",
     "ip_deadline": "martes, 18 de octubre de 2022",
     "online_deadline": "martes, 18 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 18 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 18 de octubre de 2022",
     "confirm_registration_link_language_selection": "true",
     "default_ip_deadline": "hasta 21 días antes del día de las elecciones",
     "default_online_deadline": "hasta 21 días antes del día de las elecciones",
@@ -379,7 +379,7 @@
     "more_info_link_translated": "true",
     "ip_deadline": "domingo, 09 de octubre de 2022",
     "online_deadline": "domingo, 09 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo domingo, 09 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el domingo, 09 de octubre de 2022",
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
     "default_online_deadline": "hasta 30 días antes del día de las elecciones",
@@ -390,7 +390,7 @@
   "sc": {
     "ip_deadline": "viernes, 07 de octubre de 2022",
     "online_deadline": "domingo, 09 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
     "default_online_deadline": "hasta 30 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
@@ -405,7 +405,7 @@
   "tn": {
     "ip_deadline": "martes, 11 de octubre de 2022",
     "online_deadline": "martes, 11 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
     "default_online_deadline": "hasta 30 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones"
@@ -414,7 +414,7 @@
     "hp_link_translated": "true",
     "more_info_link_translated": "true",
     "ip_deadline": "martes, 11 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022",
     "confirm_registration_link_language_selection": "true",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
@@ -442,7 +442,7 @@
     "more_info_link_translated": "true",
     "ip_deadline": "lunes, 17 de octubre de 2022",
     "online_deadline": "lunes, 17 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo lunes, 17 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el lunes, 17 de octubre de 2022",
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta 22 días antes del día de las elecciones",
     "default_online_deadline": "hasta 22 días antes del día de las elecciones",
@@ -453,7 +453,7 @@
   },
   "vi": {
     "ip_deadline": "domingo, 09 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo domingo, 09 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el domingo, 09 de octubre de 2022",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones"
   },
   "wa": {
@@ -472,7 +472,7 @@
   "wv": {
     "ip_deadline": "martes, 18 de octubre de 2022",
     "online_deadline": "martes, 18 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo martes, 18 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 18 de octubre de 2022",
     "default_ip_deadline": "hasta 21 días antes del día de las elecciones",
     "default_online_deadline": "hasta 21 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 21 días antes del día de las elecciones"
@@ -481,7 +481,7 @@
     "registration_link_translated": "true",
     "ip_deadline": "martes, 08 de noviembre de 2022",
     "online_deadline": "miércoles, 19 de octubre de 2022",
-    "mail_postmarked_deadline": "debe tener el sello del correo miércoles, 19 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el miércoles, 19 de octubre de 2022",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta el tercer miércoles antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo hasta el tercer miércoles antes del día de las elecciones",
