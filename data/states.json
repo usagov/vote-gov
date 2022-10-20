@@ -281,7 +281,8 @@
     "registration_type": "by-mail",
     "translationKey": "Montana",
     "type": "register",
-    "ip_deadline": "2022-11-07"
+    "ip_deadline": "2022-11-07",
+    "ip_deadline__time": "12:00 PM"
   },
   "ne": {
     "state_name": "Nebraska",
@@ -350,6 +351,7 @@
     "translationKey": "North Carolina",
     "type": "register",
     "ip_deadline": "2022-11-05",
+    "ip_deadline__time": "3:00 PM",
     "online_deadline": "2022-10-14"
   },
   "nd": {

@@ -1,0 +1,20 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+
+{{ $time := .Params.ip_deadline__time }}
+
+{{ if $time }}
+<!-- translated format with a comma and a space -->
+{{ if or (eq .Site.Language.Lang "bn") (eq .Site.Language.Lang "tl") (eq .Site.Language.Lang "vi") (eq .Site.Language.Lang "ypk") }}
+{{ $time := index $translation.time (string (upper $time)) }}
+, {{ $time }}
+
+<!-- translated format with only a space -->
+{{ else if or (eq .Site.Language.Lang "km") (eq .Site.Language.Lang "ko") }}
+{{ $time := index $translation.time (string (upper $time)) }}
+ {{ $time }}
+
+<!-- don't translate --> 
+{{ else }}
+, {{ upper $time }}
+{{ end }}
+{{ end }}
