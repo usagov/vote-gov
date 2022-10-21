@@ -4,7 +4,7 @@
 
 {{- if $time -}}
 <!-- translated format with a comma and a space -->
-{{- if or (eq .Site.Language.Lang "bn") (eq .Site.Language.Lang "tl") (eq .Site.Language.Lang "vi") (eq .Site.Language.Lang "ypk") -}}
+{{- if or (eq .Site.Language.Lang "bn") (eq .Site.Language.Lang "hi") (eq .Site.Language.Lang "tl") (eq .Site.Language.Lang "vi") (eq .Site.Language.Lang "ypk") -}}
 {{- $time := index $translation.time (string (upper $time)) -}}
 , {{ $time }}
 
