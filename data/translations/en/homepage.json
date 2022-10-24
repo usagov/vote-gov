@@ -9,6 +9,8 @@
   "registered__resources_link_url": "https://www.usa.gov/voting",
   "registered_links__electionday": "Voting on election day",
   "registered_links__electionday_url": "https://www.usa.gov/election-day",
+  "registered_links__absentee": "Absentee voting",
+  "registered_links__absentee_url": "https://www.usa.gov/absentee-voting",
   "registered_links__voterid": "Voter ID requirements",
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
   "registered_links__process": "Election process",
