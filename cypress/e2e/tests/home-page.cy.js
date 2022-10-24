@@ -33,7 +33,7 @@ describe('Test vote.gov homepage', () => {
     cy.get('[data-test="main-header"]').should('contain', 'Magrehistro para bumoto')
     // Test Vietnamese.
     cy.get('[data-test="language-switcher"]').select("/vi/")
-    cy.get('[data-test="main-header"]').should('contain', 'Đăng kí bỏ phiếu bầu')
+    cy.get('[data-test="main-header"]').should('contain', 'Đăng ký bỏ phiếu bầu')
     // Test Yup'ik.
     cy.get('[data-test="language-switcher"]').select("/ypk/")
     cy.get('[data-test="main-header"]').should('contain','Ilaten Nakmikiyaghqaa')
@@ -51,7 +51,7 @@ describe('Test vote.gov homepage', () => {
         cy.get(link[3]).contains('Federal Voting Assistance Program (FVAP)').should('have.attr', 'href').and('include','https://www.fvap.gov/')
         cy.get(link[4]).contains('primary elections and caucuses').should('have.attr', 'href').and('include','https://www.usa.gov/election#item-37162')
         cy.get(link[5]).contains('form of ID to vote').should('have.attr', 'href').and('include','https://www.usa.gov/voter-id')
-        cy.get(link[6]).contains('voter registration').should('have.attr', 'href').and('include','https://www.usa.gov/voter-registration-card')     
+        cy.get(link[6]).contains('voter registration').should('have.attr', 'href').and('include','https://www.usa.gov/voter-registration-card')
                 })
       })
 })
