@@ -17,6 +17,8 @@
   "registered__resources_link_url": "https://www.usa.gov/voting",
   "registered_links__electionday": "选举日投票 (英文)",
   "registered_links__electionday_url": "https://www.usa.gov/election-day",
+  "registered_links__absentee": "不在籍投票 (英文)",
+  "registered_links__absentee_url": "https://www.usa.gov/absentee-voting",
   "registered_links__voterid": "选民身份证要求 (英文)",
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
   "registered_links__process": "选举过程 (英文)",
