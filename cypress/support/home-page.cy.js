@@ -44,7 +44,7 @@ describe('Test vote.gov homepage', () => {
 
     // Test Vietnamese.
     cy.get('[data-test="language-switcher"]').select("/vi/")
-    cy.get('[data-test="main-header"]').should('contain', 'Đăng kí bỏ phiếu bầu')
+    cy.get('[data-test="main-header"]').should('contain', 'Đăng ký bỏ phiếu bầu')
 
     // Test Yup'ik.
     cy.get('[data-test="language-switcher"]').select("/ypk/")
