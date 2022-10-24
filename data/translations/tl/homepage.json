@@ -17,6 +17,8 @@
   "registered__resources_link_url": "https://www.usa.gov/voting",
   "registered_links__electionday": "Pagboto sa araw ng eleksyon (sa Ingles)",
   "registered_links__electionday_url": "https://www.usa.gov/election-day",
+  "registered_links__absentee": "Pagbotong Absentee",
+  "registered_links__absentee_url": "https://www.usa.gov/absentee-voting",
   "registered_links__voterid": "Mga kinakailangan sa ID ng botante (sa Ingles)",
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
   "registered_links__process": "Proseso ng eleksyon (sa Ingles)",

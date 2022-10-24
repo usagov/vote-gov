@@ -1,32 +1,45 @@
 {
-    "header": "Vote.gov Giúp bạn:",
+    "header": "Vote.gov giúp quý vị:",
 
-    "title_1": "Đăng ký bình chọn",
+    "title_1": "Đăng ký để bầu cử",
     "content_1_part_1": "Ngoại trừ Bắc Dakota, tất cả các tiểu bang yêu cầu bạn phải đăng ký trước khi bỏ phiếu trong một cuộc bầu cử.  Chọn tiểu bang hoặc lãnh thổ của bạn từ menu thả xuống bên dưới để tìm các quy tắc áp dụng cho bạn.",
     "content_1_part_2": "Công dân Hoa Kỳ sống bên ngoài Hoa Kỳ, bao gồm các quân nhân phục vụ trong quân đội Hoa Kỳ và gia đình của họ, có thể đăng ký bỏ phiếu và yêu cầu bỏ phiếu vắng mặt bằng cách hoàn thành Đơn đăng ký Phiếu Bưu điện Liên bang (FPCA).  Giống như những người khác, các thành viên gia đình quân nhân Hoa Kỳ, phải đáp ứng các yêu cầu về tính đủ điều kiện của cử tri Hoa Kỳ để đăng ký và yêu cầu phiếu bầu. Để biết thêm thông tin, hãy truy cập %link%. ",
     "content_1_part_2_link": "Chương trình Hỗ trợ Cử tri Liên bang",
 
-    "title_2": "Tìm Thời hạn Đăng ký Cử tri",
+    "title_2": "Tìm hiểu thời hạn đăng ký cử tri",
     "content_2_part_1": "Không có thời hạn đăng ký cử tri toàn quốc. Cử tri ở mỗi tiểu bang và vùng lãnh thổ phải tuân theo luật đăng ký cử tri của họ. Chọn tiểu bang hoặc lãnh thổ của bạn từ menu thả xuống bên  dưới để tìm thời hạn cho việc đăng ký cử tri của bạn.",
     "content_2_part_2": "Ngoại trừ Bắc Dakota các tiểu bang đều yêu cầu công dân đăng ký nếu họ muốn bỏ phiếu. Một số tiểu bang yêu cầu cử tri đăng ký trước cuộc bầu cử 30 ngày, trong khi những tiểu bang khác cho phép đăng ký trước và vào Ngày bầu cử. Điều quan trọng là bạn phải biết các quy tắc tại tiểu bang của bạn.",
-    
-    "title_3": "Kiểm tra đăng ký của bạn",
+
+    "title_3": "Kiểm tra việc đăng ký của bạn",
     "content_3_part_1": "Chọn tiểu bang hoặc lãnh thổ của bạn từ menu thả xuống bên dưới để kiểm tra việc đăng ký của bạn trước thời hạn cuối cùng của tiểu bang. Điều đó có thể là đến 30 ngày trước cuộc bầu cử.",
     "content_3_part_2": "Ngoài ra, hãy kiểm tra xem việc đăng ký của bạn xem có được đánh dấu là “không hoạt động” hay không. Việc đăng ký  của bạn có thể trở thành “không hoạt động” nếu bạn không bỏ phiếu trong ít nhất hai cuộc bầu cử liên bang và đã không trả lời khi các viên chức bầu cử cố gắng liên hệ với bạn.",
     "content_3_part_3": "Trạng thái không hoạt động không nhất thiết có nghĩa là bạn cần phải đăng ký lại. Điều đó có nghĩa là bạn có thể phải thực hiện thêm vài bước trước khi có thể bỏ phiếu. Văn phòng bầu cử chính thức ở tiểu bang hoặc văn phòng bầu cử địa phương của bạn có thể giúp bạn chuyển trạng thái đăng ký của mình trở lại có hiệu lực hay trả lời bất cứ câu hỏi nào bạn có.",
     "content_3_part_4": "Đảm bảo rằng bạn được đăng ký chính xác với tên, địa chỉ và đảng phái chính trị. Hãy truy cập trang đăng ký của tiểu bang bạn để biết thêm thông tin cập nhật về trạng thái đăng ký bầu cử của bạn.",
-    
-    "title_4": "Sự thay đổi mối quan hệ xác định đảng chính trị của bạn",
+
+    "title_4": "Thay đổi đảng phái chính trị của bạn",
     "content_4_part_1": "Mỗi tiểu bang có một quy trình khác nhau để chọn hoặc thay đổi liên kết đảng của bạn. Tùy thuộc vào tiểu bang của bạn, bạn có thể được yêu cầu liên kết đảng của bạn khi bạn đăng ký bỏ phiếu. Tiểu bang của bạn có thể không có đảng phái chính trị cho cử tri.",
     "content_4_part_2": "Chọn tiểu bang hoặc lãnh thổ của bạn từ menu thả xuống bên dưới để kiểm tra việc đăng ký cử tri của bạn, bao gồm cả đảng phái chính trị của bạn nếu bạn có. Truy cập vào trang web đăng ký bầu cử của tiểu bang bạn để thực hiện các thay đổi. Lựa chọn liên kết đảng có thể không có ở tất cả các tiểu bang.",
     "content_4_part_3": "Bất kể bạn chọn đảng nào, quy trình bỏ phiếu đều giống nhau trong cuộc tổng tuyển cử, đó là khi các ứng cử viên được bầu vào các chức vụ phòng ban. Sự lựa chọn liên kết với một đảng của bạn ảnh hưởng đến những người bạn có thể bỏ phiếu trong các %link%.",
     "content_4_part_3_link": "cuộc bầu cử sơ bộ và họp kín",
 
-    "title_5": "Tìm hiểu Cách Nhận Thẻ Đăng ký Cử tri",
+    "title_5": "Tìm hiểu cách nhận thẻ đăng ký cử tri",
     "content_5_part_1": "Khi bạn đăng ký bỏ phiếu, bạn sẽ nhận được một thẻ đăng ký cử tri gửi đến. Thẻ này xác nhận rằng bạn đã đăng ký và sẵn sàng bỏ phiếu. Thẻ đăng ký cử tri của bạn, điển hình, thường bao gồm tên của bạn, địa chỉ nhà riêng của bạn và địa chỉ của địa điểm bầu cử nơi bạn sẽ bỏ phiếu. Bạn cũng có thể kiểm tra đăng ký cử tri của mình bằng công cụ tra cứu đăng ký cử tri của tiểu bang trực tuyến.",
     "content_5_part_2": "Nếu tên hoặc địa chỉ của bạn thay đổi, bạn sẽ cần phải cập nhật đăng ký cử tri của bạn. Một khi bạn cập nhật thông tin đăng ký bầu cử của mình, bạn có thể sẽ nhận được một thẻ đăng ký cử tri mới, tùy thuộc vào tiểu bang của bạn.",
     "content_5_part_3": "Thông thường, để đi bầu cử, bạn không cần phải mang theo thẻ đăng ký cử tri, nhưng bạn có thể cần xuất trình một %link%. ",
     "content_5_part_3_link": "mẫu ID khác để bỏ phiếu",
     "content_5_part_4": "Xin hãy tìm hiểu thêm về %link%. ",
-    "content_5_part_4_link": "việc đăng ký cử tri"
+    "content_5_part_4_link": "việc đăng ký cử tri",
+
+    "title_6": "Đăng ký sau khi bạn đã chuyển đi",
+    "content_6_part_1": "Cho dù bạn đã chuyển đi gần hay xa, bạn cần cập nhật đăng ký cử tri của mình sau khi thay đổi địa chỉ. Chọn tiểu bang hoặc lãnh thổ của bạn từ menu thả xuống bên dưới để tìm hiểu cách đăng ký trực tuyến hoặc qua đường bưu điện. Nếu tiểu bang của bạn có đăng ký cử tri trực tuyến, đó có thể là cách nhanh nhất để thực hiện việc thay đổi. Gửi các thay đổi của bạn trước thời hạn đăng ký của tiểu bang, có thể đến 30 ngày trước Ngày bầu cử. Tiểu bang cũng có thể yêu cầu bằng lái xe hoặc thẻ căn cước mới của bạn. %link%.",
+    "content_6_part_1_link": "Xin xem loại ID cử tri mà tiểu bang của bạn yêu cầu",
+    "sub_head_part_2": "Chuyển đi trong tiểu bang của bạn",
+    "content_6_part_2": "Ngay cả khi bạn chuyển đi trong cùng một tiểu bang của mình, bạn sẽ cần phải cập nhật đăng ký với  địa chỉ mới của mình.",
+    "sub_head_part_3": "Chuyển sang tiểu bang khác",
+    "content_6_part_3": "Đăng ký trước thời hạn của tiểu bang mới của bạn, có thể lên đến 30 ngày trước cuộc bầu cử. Nếu bạn không có thời gian để đăng ký ở tiểu bang mới của mình trước Ngày Bầu cử, tiểu bang cũ của bạn có thể cho phép bạn bỏ phiếu qua đường bưu điện hoặc bỏ phiếu trực tiếp. Đối với những năm bầu cử tổng thống, tiểu bang cũ của bạn phải cho phép bạn bỏ phiếu qua đường bưu điện hoặc trực tiếp. Sau đó, bạn sẽ cần đăng ký ở tiểu bang mới của mình.",
+    "sub_head_part_4": "Ở nước ngoài",
+    "content_6_part_4": "Công dân Hoa Kỳ sống bên ngoài Hoa Kỳ có thể đăng ký bỏ phiếu và yêu cầu bỏ phiếu vắng mặt bằng cách hoàn thành %link%. ",
+    "content_6_part_4_link": "Đơn đăng ký Thẻ Bưu điện Liên bang (FPCA)",
+    "content_6_part_5": "Xin xem %link% để biết thêm các nguồn thông tin về bỏ phiếu trong quân đội và ở nước ngoài.",
+    "content_6_part_5_link": "Chương trình Hỗ trợ Bầu cử Liên bang (FVAP)"
 }
