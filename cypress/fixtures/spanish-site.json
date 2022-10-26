@@ -1,0 +1,287 @@
+[
+
+  {
+    "name": "homePage",
+    "route": "/es"
+  },
+
+  {
+    "name": "Alabama",
+    "route": "/es/register/al/"
+  },
+
+  {
+    "name": "Alaska",
+    "route": "/es/register/ak/"
+  },
+
+  {
+    "name": "American Samoa",
+    "route": "/es/register/as/"
+  },
+
+  {
+    "name": "Arizona",
+    "route": "/es/register/az/"
+  },
+
+  {
+    "name": "Arkansas",
+    "route": "/es/register/ar/"
+  },
+
+  {
+    "name": "California",
+    "route": "/es/register/ca/"
+  },
+
+  {
+    "name": "Colorado",
+    "route": "/es/register/co/"
+  },
+
+  {
+    "name": "Connecticut",
+    "route": "/es/register/ct/"
+  },
+
+  {
+    "name": "Delaware",
+    "route": "/es/register/de/"
+  },
+
+  {
+    "name": "District of Columbia",
+    "route": "/es/register/dc/"
+  },
+
+  {
+    "name": "Flordia",
+    "route": "/es/register/fl/"
+  },
+
+  {
+    "name": "Georiga",
+    "route": "/es/register/ga/"
+  },
+
+  {
+    "name": "Guam",
+    "route": "/es/register/gu/"
+  },
+
+  {
+    "name": "Hawaii",
+    "route": "/es/register/hi/"
+  },
+
+  {
+    "name": "Idaho",
+    "route": "/es/register/id/"
+  },
+
+  {
+    "name": "Illinois",
+    "route": "/es/register/il/"
+  },
+
+  {
+    "name": "Indiana",
+    "route": "/es/register/in/"
+  },
+
+  {
+    "name": "Iowa",
+    "route": "/es/register/ia/"
+  },
+
+  {
+    "name": "Kansas",
+    "route": "/es/register/ks/"
+  },
+
+  {
+    "name": "Kentucky",
+    "route": "/es/register/ky/"
+  },
+
+  {
+    "name": "louisiana",
+    "route": "/es/register/la/"
+  },
+
+  {
+    "name": "Maine",
+    "route": "/es/register/me/"
+  },
+
+  {
+    "name": "Maryland",
+    "route": "/es/register/md/"
+  },
+
+  {
+    "name": "Massachusetts",
+    "route": "/es/register/ma/"
+  },
+
+  {
+    "name": "Michigan",
+    "route": "/es/register/mi/"
+  },
+
+  {
+    "name": "Minnesota",
+    "route": "/es/register/mn/"
+  },
+
+  {
+    "name": "Mississippi",
+    "route": "/es/register/ms/"
+  },
+
+  {
+    "name": "Missouri",
+    "route": "/es/register/mo/"
+  },
+
+  {
+    "name": "Montana",
+    "route": "/es/register/mt/"
+  },
+
+  {
+    "name": "Nebraska",
+    "route": "/es/register/ne/"
+  },
+
+  {
+    "name": "Nevada",
+    "route": "/es/register/nv/"
+  },
+
+  {
+    "name": "New Hampshire",
+    "route": "/es/register/nh/"
+  },
+
+  {
+    "name": "New Jersey",
+    "route": "/es/register/nj/"
+  },
+
+  {
+    "name": "New Mexico",
+    "route": "/es/register/nm/"
+  },
+
+  {
+    "name": "New York",
+    "route": "/es/register/ny/"
+  },
+
+  {
+    "name": "North Carolina",
+    "route": "/es/register/nc/"
+  },
+
+  {
+    "name": "North Dakota",
+    "route": "/es/register/nd/"
+  },
+
+  {
+    "name": "Northern Mariana Islands",
+    "route": "/es/register/mp/"
+  },
+
+  {
+    "name": "Ohio",
+    "route": "/es/register/oh/"
+  },
+
+  {
+    "name": "Oklahoma",
+    "route": "/es/register/ok/"
+  },
+
+  {
+    "name": "Oregon",
+    "route": "/es/register/or/"
+  },
+
+  {
+    "name": "Pennsylvania",
+    "route": "/es/register/pa/"
+  },
+
+  {
+    "name": "Puerto Rico",
+    "route": "/es/register/pr/"
+  },
+
+  {
+    "name": "Rhode Island",
+    "route": "/es/register/ri/"
+  },
+
+  {
+    "name": "South Carolina",
+    "route": "/es/register/sc/"
+  },
+
+  {
+    "name": "South Dakota",
+    "route": "/es/register/sd/"
+  },
+
+  {
+    "name": "Tennessee",
+    "route": "/es/register/tn/"
+  },
+
+  {
+    "name": "Texas",
+    "route": "/es/register/tx/"
+  },
+
+  {
+    "name": "Utah",
+    "route": "/es/register/ut/"
+  },
+
+  {
+    "name": "Vermont",
+    "route": "/es/register/vt/"
+  },
+
+  {
+    "name": "Virginia",
+    "route": "/es/register/va/"
+  },
+
+  {
+    "name": "U.S. Virgin Islands",
+    "route": "/es/register/vi/"
+  },
+
+  {
+    "name": "Washington",
+    "route": "/es/register/wa/"
+  },
+
+  {
+    "name": "West Virginia",
+    "route": "/es/register/wv/"
+  },
+
+  {
+    "name": "Wisconsin",
+    "route": "/es/register/wi/"
+  },
+
+  {
+    "name": "Wyoming",
+    "route": "/es/register/wy/"
+  }
+]
