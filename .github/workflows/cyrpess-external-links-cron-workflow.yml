@@ -1,6 +1,8 @@
-name: Cypress - link validator testing
+name: Cypress - External links validator testing on cron
 
-on: [push]
+on:
+  schedule:
+    - cron: '0 13 * * 4'
 
 jobs:
   build:
@@ -12,8 +14,10 @@ jobs:
       LC_ALL: en_US.UTF-8
 
     steps:
-      - name: Checkout source.
+      - name: Checkout code on main.
         uses: actions/checkout@v2
+        with: 
+          ref: staging
 
       - name: Install node.js.
         uses: actions/setup-node@v2
@@ -27,4 +31,4 @@ jobs:
         run: npm run build && npm run start & sleep 30s
 
       - name: Run Cypress Link Validator test.
-        run: npm run cy:links
+        run: npm run cy:proofer
