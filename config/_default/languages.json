@@ -122,7 +122,7 @@
     "contentDir": "content/vi",
     "title": "Đăng kí bầu cử",
     "languageName": "Tiếng Việt",
-    "weight": 10,
+    "weight": 11,
     "params": {
       "Owner": "%Vote.gov% bằng Tiếng Việt",
       "language_direction": "ltr",
@@ -142,7 +142,7 @@
     "contentDir": "content/tl",
     "title": "Pagpaparehistro ng Botante",
     "languageName": "Tagalog",
-    "weight": 9,
+    "weight": 10,
     "params": {
       "Owner": "%Vote.gov% sa Tagalog",
       "language_direction": "ltr",
@@ -220,20 +220,21 @@
   },
   "nv": {
     "contentDir": "content/nv",
-    "title": "Check Voter Registration Deadlines and Laws in Your State",
+    "title": "Hahoodzoh biyi' k44hon7t'9n7gi an1'1'ah7 b1 ha'dilne'gi hon7'3h",
     "languageName": "Diné",
-    "weight": 1,
+    "weight": 9,
     "params": {
-      "Owner": "%Vote.gov%",
+      "Owner": "%Vote.gov% I'ii'n77[.gov",
       "language_direction": "ltr",
+      "publishDir": "tmp/public/nv",
       "register_path": "register",
-      "go_back": "Go back",
-      "skip_text": "Skip to main content",
-      "meta__title": "Check Voter Registration Deadlines and Laws in Your State",
-      "meta__description": "Official voter registration website of the US federal government. Register to vote. Learn the voting registration deadlines and laws in your state.",
-      "english_only": "",
-      "last_updated": "Last Updated: ",
-      "select_language": "Select Language",
+      "go_back": "N1t'33'",
+      "skip_text": "&yis77 baa hane'7gi nin7[keed",
+      "meta__title": "I'ii'n77[ b1 ha'd7l44h.",
+      "meta__description": "Hahoodzoh biyi' k44hon7t'9n7gi an1'1'ah7 b1 ha'dilne'gi hon7'3h",
+      "english_only": "(Bilag1ana k'ehj7)",
+      "last_updated": "Ak44'di n1zk'33z: ",
+      "select_language": "Saad choid77['88[7g77",
       "english_languageName": "Navajo"
     }
   }
