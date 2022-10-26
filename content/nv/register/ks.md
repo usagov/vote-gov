@@ -1,0 +1,27 @@
++++
+
+state_name = "Kansas"
+state_abbreviation = "ks"
+registration_type = "online"
+translationKey = "Kansas"
+type = "register"
+hp_link = "https://sos.ks.gov/elections/elections.html"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link = "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx"
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link = "https://sos.ks.gov/elections/voter-information.html"
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+online_deadline = "Tuesday, October 18, 2022"
+ip_deadline = "Tuesday, October 18, 2022"
+mail_postmarked_deadline = "Must be postmarked by Tuesday, October 18, 2022"
+confirm_registration_link = "https://myvoteinfo.voteks.org/voterview/"
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "21 days before Election Day"
+default_online_deadline = "21 days before Election Day"
+default_mail_postmarked_deadline = "Must be postmarked 21 days before Election Day"
+
++++

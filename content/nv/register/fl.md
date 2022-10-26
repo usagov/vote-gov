@@ -1,0 +1,27 @@
++++
+
+state_name = "Florida"
+state_abbreviation = "fl"
+registration_type = "online"
+translationKey = "Florida"
+type = "register"
+hp_link = "https://dos.myflorida.com/elections/"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link = "https://registertovoteflorida.gov/eligibilityreactive"
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link = "https://registertovoteflorida.gov/home"
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+online_deadline = "Tuesday, October 11, 2022"
+ip_deadline = "Tuesday, October 11, 2022"
+mail_postmarked_deadline = "Must be postmarked by Tuesday, October 11, 2022"
+confirm_registration_link = "https://registration.elections.myflorida.com/CheckVoterStatus"
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "29 days before Election Day"
+default_online_deadline = "29 days before Election Day"
+default_mail_postmarked_deadline = "Must be postmarked 29 days before Election Day"
+
++++

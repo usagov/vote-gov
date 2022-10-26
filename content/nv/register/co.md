@@ -1,0 +1,27 @@
++++
+
+state_name = "Colorado"
+state_abbreviation = "co"
+registration_type = "online"
+translationKey = "Colorado"
+type = "register"
+hp_link = "https://www.sos.state.co.us/pubs/elections/"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link = "https://www.sos.state.co.us/voter/pages/pub/home.xhtml"
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link = "https://www.coloradosos.gov/voter/pages/pub/home.xhtml"
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+online_deadline = "Monday, October 31, 2022"
+ip_deadline = "Tuesday, November 8, 2022"
+mail_postmarked_deadline = "Must be postmarked by Monday, October 31, 2022"
+confirm_registration_link = "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml"
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "Available up to and including on Election Day"
+default_online_deadline = "8 days before Election Day"
+default_mail_postmarked_deadline = "Must be postmarked 8 days before Election Day"
+
++++

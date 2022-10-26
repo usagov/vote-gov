@@ -1,0 +1,28 @@
++++
+
+state_name = "Louisiana"
+state_abbreviation = "la"
+registration_type = "online"
+translationKey = "Louisiana"
+type = "register"
+hp_link = "https://www.sos.la.gov/ElectionsAndVoting/Pages/default.aspx"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link = "https://voterportal.sos.la.gov/VoterRegistration"
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link = "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx"
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+online_deadline = "Wednesday, October 19, 2022"
+ip_deadline = "Tuesday, October 11, 2022"
+mail_postmarked_deadline = "Must be postmarked by Tuesday, October 11, 2022"
+confirm_registration_link = "https://voterportal.sos.la.gov/"
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+dates__electionday = "General Election Day: Saturday, December 10, 2022."
+default_ip_deadline = "30 days before Election Day"
+default_online_deadline = "20 days before Election Day"
+default_mail_postmarked_deadline = "Must be postmarked 30 days before Election Day"
+
++++

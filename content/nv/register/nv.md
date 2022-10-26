@@ -1,0 +1,27 @@
++++
+
+state_name = "Nevada"
+state_abbreviation = "nv"
+registration_type = "online"
+translationKey = "Nevada"
+type = "register"
+hp_link = "https://www.nvsos.gov/sos/elections"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link = "https://www.nvsos.gov/SOSVoterServices/start.aspx"
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link = "https://www.nvsos.gov/sos/elections/voters/registering-to-vote"
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+online_deadline = "Tuesday, November 8. 2022"
+ip_deadline = "Tuesday, November 8, 2022"
+mail_postmarked_deadline = "Must be postmarked by Tuesday, October 11, 2022"
+confirm_registration_link = "https://www.nvsos.gov/votersearch/"
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "Fourth Tuesday before Election Day"
+default_online_deadline = "Thursday before early voting begins"
+default_mail_postmarked_deadline = "Must be postmarked by the fourth Tuesday before Election Day"
+
++++
