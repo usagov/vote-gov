@@ -7,281 +7,281 @@
 
   {
     "name": "Alabama",
-    "route": "/es/register/al/"
+    "route": "/es/registrar/al/"
   },
 
   {
     "name": "Alaska",
-    "route": "/es/register/ak/"
+    "route": "/es/registrar/ak/"
   },
 
   {
     "name": "American Samoa",
-    "route": "/es/register/as/"
+    "route": "/es/registrar/as/"
   },
 
   {
     "name": "Arizona",
-    "route": "/es/register/az/"
+    "route": "/es/registrar/az/"
   },
 
   {
     "name": "Arkansas",
-    "route": "/es/register/ar/"
+    "route": "/es/registrar/ar/"
   },
 
   {
     "name": "California",
-    "route": "/es/register/ca/"
+    "route": "/es/registrar/ca/"
   },
 
   {
     "name": "Colorado",
-    "route": "/es/register/co/"
+    "route": "/es/registrar/co/"
   },
 
   {
     "name": "Connecticut",
-    "route": "/es/register/ct/"
+    "route": "/es/registrar/ct/"
   },
 
   {
     "name": "Delaware",
-    "route": "/es/register/de/"
+    "route": "/es/registrar/de/"
   },
 
   {
     "name": "District of Columbia",
-    "route": "/es/register/dc/"
+    "route": "/es/registrar/dc/"
   },
 
   {
     "name": "Flordia",
-    "route": "/es/register/fl/"
+    "route": "/es/registrar/fl/"
   },
 
   {
     "name": "Georiga",
-    "route": "/es/register/ga/"
+    "route": "/es/registrar/ga/"
   },
 
   {
     "name": "Guam",
-    "route": "/es/register/gu/"
+    "route": "/es/registrar/gu/"
   },
 
   {
     "name": "Hawaii",
-    "route": "/es/register/hi/"
+    "route": "/es/registrar/hi/"
   },
 
   {
     "name": "Idaho",
-    "route": "/es/register/id/"
+    "route": "/es/registrar/id/"
   },
 
   {
     "name": "Illinois",
-    "route": "/es/register/il/"
+    "route": "/es/registrar/il/"
   },
 
   {
     "name": "Indiana",
-    "route": "/es/register/in/"
+    "route": "/es/registrar/in/"
   },
 
   {
     "name": "Iowa",
-    "route": "/es/register/ia/"
+    "route": "/es/registrar/ia/"
   },
 
   {
     "name": "Kansas",
-    "route": "/es/register/ks/"
+    "route": "/es/registrar/ks/"
   },
 
   {
     "name": "Kentucky",
-    "route": "/es/register/ky/"
+    "route": "/es/registrar/ky/"
   },
 
   {
     "name": "louisiana",
-    "route": "/es/register/la/"
+    "route": "/es/registrar/la/"
   },
 
   {
     "name": "Maine",
-    "route": "/es/register/me/"
+    "route": "/es/registrar/me/"
   },
 
   {
     "name": "Maryland",
-    "route": "/es/register/md/"
+    "route": "/es/registrar/md/"
   },
 
   {
     "name": "Massachusetts",
-    "route": "/es/register/ma/"
+    "route": "/es/registrar/ma/"
   },
 
   {
     "name": "Michigan",
-    "route": "/es/register/mi/"
+    "route": "/es/registrar/mi/"
   },
 
   {
     "name": "Minnesota",
-    "route": "/es/register/mn/"
+    "route": "/es/registrar/mn/"
   },
 
   {
     "name": "Mississippi",
-    "route": "/es/register/ms/"
+    "route": "/es/registrar/ms/"
   },
 
   {
     "name": "Missouri",
-    "route": "/es/register/mo/"
+    "route": "/es/registrar/mo/"
   },
 
   {
     "name": "Montana",
-    "route": "/es/register/mt/"
+    "route": "/es/registrar/mt/"
   },
 
   {
     "name": "Nebraska",
-    "route": "/es/register/ne/"
+    "route": "/es/registrar/ne/"
   },
 
   {
     "name": "Nevada",
-    "route": "/es/register/nv/"
+    "route": "/es/registrar/nv/"
   },
 
   {
     "name": "New Hampshire",
-    "route": "/es/register/nh/"
+    "route": "/es/registrar/nh/"
   },
 
   {
     "name": "New Jersey",
-    "route": "/es/register/nj/"
+    "route": "/es/registrar/nj/"
   },
 
   {
     "name": "New Mexico",
-    "route": "/es/register/nm/"
+    "route": "/es/registrar/nm/"
   },
 
   {
     "name": "New York",
-    "route": "/es/register/ny/"
+    "route": "/es/registrar/ny/"
   },
 
   {
     "name": "North Carolina",
-    "route": "/es/register/nc/"
+    "route": "/es/registrar/nc/"
   },
 
   {
     "name": "North Dakota",
-    "route": "/es/register/nd/"
+    "route": "/es/registrar/nd/"
   },
 
   {
     "name": "Northern Mariana Islands",
-    "route": "/es/register/mp/"
+    "route": "/es/registrar/mp/"
   },
 
   {
     "name": "Ohio",
-    "route": "/es/register/oh/"
+    "route": "/es/registrar/oh/"
   },
 
   {
     "name": "Oklahoma",
-    "route": "/es/register/ok/"
+    "route": "/es/registrar/ok/"
   },
 
   {
     "name": "Oregon",
-    "route": "/es/register/or/"
+    "route": "/es/registrar/or/"
   },
 
   {
     "name": "Pennsylvania",
-    "route": "/es/register/pa/"
+    "route": "/es/registrar/pa/"
   },
 
   {
     "name": "Puerto Rico",
-    "route": "/es/register/pr/"
+    "route": "/es/registrar/pr/"
   },
 
   {
     "name": "Rhode Island",
-    "route": "/es/register/ri/"
+    "route": "/es/registrar/ri/"
   },
 
   {
     "name": "South Carolina",
-    "route": "/es/register/sc/"
+    "route": "/es/registrar/sc/"
   },
 
   {
     "name": "South Dakota",
-    "route": "/es/register/sd/"
+    "route": "/es/registrar/sd/"
   },
 
   {
     "name": "Tennessee",
-    "route": "/es/register/tn/"
+    "route": "/es/registrar/tn/"
   },
 
   {
     "name": "Texas",
-    "route": "/es/register/tx/"
+    "route": "/es/registrar/tx/"
   },
 
   {
     "name": "Utah",
-    "route": "/es/register/ut/"
+    "route": "/es/registrar/ut/"
   },
 
   {
     "name": "Vermont",
-    "route": "/es/register/vt/"
+    "route": "/es/registrar/vt/"
   },
 
   {
     "name": "Virginia",
-    "route": "/es/register/va/"
+    "route": "/es/registrar/va/"
   },
 
   {
     "name": "U.S. Virgin Islands",
-    "route": "/es/register/vi/"
+    "route": "/es/registrar/vi/"
   },
 
   {
     "name": "Washington",
-    "route": "/es/register/wa/"
+    "route": "/es/registrar/wa/"
   },
 
   {
     "name": "West Virginia",
-    "route": "/es/register/wv/"
+    "route": "/es/registrar/wv/"
   },
 
   {
     "name": "Wisconsin",
-    "route": "/es/register/wi/"
+    "route": "/es/registrar/wi/"
   },
 
   {
     "name": "Wyoming",
-    "route": "/es/register/wy/"
+    "route": "/es/registrar/wy/"
   }
 ]

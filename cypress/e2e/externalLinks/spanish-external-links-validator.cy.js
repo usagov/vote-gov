@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-const allPages = require("../../fixtures/site-pages.json");
+const allPages = require("../../fixtures/spanish-site.json");
 
 describe("External Link Validator Test", () => {
   const baseURL = Cypress.env("base_url")
