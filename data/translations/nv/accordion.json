@@ -1,32 +1,45 @@
 {
-    "header": "Vote.gov Helps You:",
+    "header": "Vote.gov helps you:",
 
-    "title_1": "Register to Vote",
+    "title_1": "Register to vote",
     "content_1_part_1": "All states except North Dakota require that you register before voting in an election. Select your state or territory from the dropdown menu to find the rules that apply to you. ",
     "content_1_part_2": "U.S. citizens living outside the U.S., including U.S. service members and their families, can register to vote and request an absentee ballot by completing the Federal Post Card Application (FPCA). U.S. military family members, like everyone else, must meet U.S. voter eligibility requirements to register and request a ballot. For more information, visit the %link%. ",
     "content_1_part_2_link": "Federal Voter Assistance Program",
 
-    "title_2": "Find Voter Registration Deadlines",
+    "title_2": "Find voter registration deadlines",
     "content_2_part_1": "There is no national voter registration deadline. Voters in each state and territory must follow their voter registration laws. Select your state or territory from the dropdown menu to find your voter registration deadline. ",
     "content_2_part_2": "Every state except North Dakota requires citizens to register if they want to vote. Some states require voters to register up to 30 days before an election, while others allow registration up to and on Election Day. It’s important you know the rules in your state. ",
-    
-    "title_3": "Check Your Registration",
+
+    "title_3": "Check your registration",
     "content_3_part_1": "Select your state or territory from the dropdown menu to check your registration before your state’s deadline. That could be up to 30 days before the election. ",
     "content_3_part_2": "Also check to see if your registration is marked “inactive.” You may become “inactive” if you did not vote in at least two federal elections and did not respond when election officials tried to reach you. ",
-    "content_3_part_3": "An inactive status does not necessarily mean that you need to re-register.  It means that you may have to take extra steps before you can vote. Your state’s election website can help you move your registration status back to active. ",
-    "content_3_part_4": "Make sure you are registered with the correct name, address, and political party affiliation. Visit your state’s registration page to re-register or make corrections. ",
-    
-    "title_4": "Change Your Political Party Affiliation",
-    "content_4_part_1": "Select your state or territory from the dropdown menu to check your voter registration, including your political party if you have one. Visit your state’s election registration website to make changes. ",
-    "content_4_part_2": "Depending on your state, you may be asked for your party affiliation when you register to vote. ",
-    "content_4_part_3": "The voting process is the same no matter which party you choose. You may always vote for a candidate from any party in a general election, which is when candidates are elected to offices. Your party affiliation only impacts who you can vote for in %link%. ",
+    "content_3_part_3": "An inactive status does not necessarily mean that you need to re-register.  It means that you may have to take extra steps before you can vote. Your state election official’s office or your local election office can help you move your registration status back to active or answer questions you may have. ",
+    "content_3_part_4": "Make sure you are registered with the correct name, address, and political party affiliation. Visit your state’s registration page for information on how to update your voter registration information. ",
+
+    "title_4": "Change your political party affiliation",
+    "content_4_part_1": "Each state has a different process to select or change your party affiliation. Depending on your state, you may be asked for your party affiliation when you register to vote. Your state may not have political party affiliations for voters. Contact your state or local election office to see what the procedure is and if there are any deadlines for where you live. Selecting a party affiliation is not available in all states.",
+    "content_4_part_2": "",
+    "content_4_part_3": "Regardless of which party you choose, the voting process is the same in a general election, which is when candidates are elected to offices. Your party affiliation impacts who you can vote for in %link%. ",
     "content_4_part_3_link": "primary elections and caucuses",
 
-    "title_5": "Learn How to Get a Voter Registration Card",
-    "content_5_part_1": "When you register to vote, you'll be sent a voter registration card. This card confirms that you are registered and ready to vote. Your voter registration card typically includes your name, your home address, and the address of the polling station where you’ll vote. ",
-    "content_5_part_2": "If your name or address changes, you may no longer be ready to vote. Once you’ve updated your information and re-registered, if necessary, you may receive a new voter registration card, depending on your state. ",
+    "title_5": "Learn how to get a voter registration card",
+    "content_5_part_1": "When you register to vote, you'll be sent a voter registration card. This card confirms that you are registered and ready to vote. Your voter registration card typically includes your name, your home address, and the address of the polling station where you’ll vote. You can also look up your voter registration using your state’s voter registration lookup tool online.",
+    "content_5_part_2": "If your name or address changes, you will need to update your voter registration. Once you’ve updated your voter registration information, you may receive a new voter registration card, depending on your state. If you have questions, your local election office is the best resource to help.",
     "content_5_part_3": "You do not usually need to have your voter registration card with you in order to vote, but you may need to present another %link%. ",
     "content_5_part_3_link": "form of ID to vote",
     "content_5_part_4": "Learn more about %link%. ",
-    "content_5_part_4_link": "voter registration"
+    "content_5_part_4_link": "voter registration",
+
+    "title_6": "Register after you’ve moved",
+    "content_6_part_1": "Whether you’ve moved near or far, you need to update your voter registration after a change of address. Select your state or territory from the dropdown menu to learn how to register online or by mail. If your state has online voter registration, that may be the quickest way to make changes. Submit your changes before your state’s registration deadline, which can be up to 30 days before Election Day. Your state may also require a new driver's license or ID card. %link%.",
+    "content_6_part_1_link": "See what type of voter ID your state requires",
+    "sub_head_part_2": "Moving within your state",
+    "content_6_part_2": "Even if you move within your same state, you’ll need to update your registration with your new address.",
+    "sub_head_part_3": "Moving to another state",
+    "content_6_part_3": "Register before your new state’s deadline, which may be up to 30 days before the election. If you do not have time to register in your new state before Election Day, your old state may allow you to vote by mail or in person. For presidential election years, your old state must allow you to vote by mail or in person. After that, you’ll need to register in your new state.  ",
+    "sub_head_part_4": "Moving abroad",
+    "content_6_part_4": "U.S. citizens living outside the U.S. can register to vote and request an absentee ballot by completing the %link%. ",
+    "content_6_part_4_link": "Federal Post Card Application (FPCA)",
+    "content_6_part_5": "See the %link%  for more resources on military and overseas voting.",
+    "content_6_part_5_link": "Federal Voting Assistance Program (FVAP)"
 }
