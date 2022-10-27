@@ -17,6 +17,8 @@
   "registered__resources_link_url": "https://www.usa.gov/voting",
   "registered_links__electionday": "ការបោះឆ្នោតនៅថ្ងៃបោះឆ្នោត (ជាភាសាអង់គ្លេស)",
   "registered_links__electionday_url": "https://www.usa.gov/election-day",
+  "registered_links__absentee": "ការបោះឆ្នោតសម្រាប់អ្នកអវត្តមាន (ជាភាសាអង់គ្លេស)",
+  "registered_links__absentee_url": "https://www.usa.gov/absentee-voting",
   "registered_links__voterid": "ល័ក្ខខ័ណ្ឌតម្រូវ ID អ្នកបោះឆ្នោត (ជាភាសាអង់គ្លេស)",
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
   "registered_links__process": "ដំណើការបោះឆ្នោត (ជាភាសាអង់គ្លេស)",
