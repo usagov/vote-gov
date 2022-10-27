@@ -33,5 +33,5 @@
   "confirm_registration__intro": "Usted puede verificar su inscripción de votante en %link%.",
   "confirm_registration__link": "el sitio web electoral de %state_name%",
   "confirm_registration__intro_WY": "Usted puede confirmar el estado de su inscripción de votante comunicándose con su oficina de registro local. %link%",
-  "confirm_registration__link_WY": "Haga clic aquí para ver la información de contacto de los secretarios de condado de %state_name%"
+  "confirm_registration__link_WY": "Haga clic aquí para ver la información de contacto de los secretarios de los condados de %state_name%"
 }
