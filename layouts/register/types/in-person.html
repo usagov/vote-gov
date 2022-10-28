@@ -1,15 +1,15 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 {{ $in_person_intro := replace $translation.register.in_person__intro "%link%" (partial "links/in-person-link.html" .) }}
 
-{{ $ipDeadline := cond (ne .Params.ip_deadline nil) .Params.ip_deadline .Params.default_ip_deadline }}
-{{ $dates__electionday := cond (ne .Params.dates__electionday nil) .Params.dates__electionday $translation.register.dates__electionday }}
+{{ $ipDeadline := .Params.ip_deadline | default .Params.default_ip_deadline }}
+{{ $dates__electionday := .Params.dates__electionday | default $translation.register.dates__electionday }}
 
 <h2>
   {{ if and (isset $translation.register "online__h2_question1_territory") (eq .Params.is_state "false") }}
     {{ replace $translation.register.heading2_territory "%state_name%" .Params.state_name }}
   {{ else }}
     {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
-  {{ end }}  
+  {{ end }}
 </h2>
 
 <p>{{ replace $in_person_intro "%state_name%" .Params.state_name | safeHTML }}</p>

@@ -2,15 +2,15 @@
 {{ $online_answer1 := replace $translation.register.online__answer1 "%link%" (partial "links/online-answer1-link.html" .) }}
 {{ $online_answer2 := replace $translation.register.online__answer2 "%link%" (partial "links/online-answer2-link.html" .) }}
 
-{{ $onlineDeadline := cond (ne .Params.online_deadline nil) .Params.online_deadline .Params.default_online_deadline }}
-{{ $dates__electionday := cond (ne .Params.dates__electionday nil) .Params.dates__electionday $translation.register.dates__electionday }}
+{{ $onlineDeadline := .Params.online_deadline | default .Params.default_online_deadline }}
+{{ $dates__electionday := .Params.dates__electionday | default $translation.register.dates__electionday }}
 
 <h2>
   {{ if and (isset $translation.register "online__h2_question1_territory") (eq .Params.is_state "false") }}
     {{ replace $translation.register.online__h2_question1_territory "%state_name%" .Params.state_name }}
   {{ else }}
     {{ replace $translation.register.online__h2_question1 "%state_name%" .Params.state_name }}
-  {{ end }} 
+  {{ end }}
 </h2>
 
 <p class="reg-link">{{ replace $online_answer1 "%state_name%" .Params.state_name | safeHTML }}</p>
