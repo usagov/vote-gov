@@ -90,9 +90,9 @@
     "default_mail_postmarked_deadline": "Tuyumayaghqagu tallimaatanganeng Mantim Nakmikivigem sivunganeng."
   },
   "gu": {
-    "mail_received_deadline": "Kaasimayaghqaguq 10 aghneq Nakmikivigem sivunganeng",
-    "ip_deadline": "Friday-a, Naayvaghvik 28, 2022",
-    "default_mail_received_deadline": "Kaasimayaghqaguq Friday-a, Naayvaghvik 28, 2022",
+    "mail_received_deadline": "Kaasimayaghqaguq Manti, Naayvaghvik 24, 2022",
+    "ip_deadline": "Manti, Naayvaghvik 24, 2022",
+    "default_mail_received_deadline": "Kaasimayaghqaguq 10 aghneq Nakmikivigem sivunganeng",
     "default_ip_deadline": "10 aghneq Nakmikivigem sivunganeng."
   },
   "hi": {
