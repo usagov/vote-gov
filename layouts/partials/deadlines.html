@@ -1,8 +1,8 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-{{ $onlineDeadline := cond (ne .Params.online_deadline nil) .Params.online_deadline .Params.default_online_deadline }}
-{{ $postmarkedDeadline := cond (ne .Params.mail_postmarked_deadline nil) .Params.mail_postmarked_deadline .Params.default_mail_postmarked_deadline }}
-{{ $receivedDeadline := cond (ne .Params.mail_received_deadline nil) .Params.mail_received_deadline .Params.default_mail_received_deadline }}
-{{ $ipDeadline := cond (ne .Params.ip_deadline nil) .Params.ip_deadline .Params.default_ip_deadline }}
+{{ $onlineDeadline := .Params.online_deadline | default .Params.default_online_deadline }}
+{{ $postmarkedDeadline := .Params.mail_postmarked_deadline | default .Params.default_mail_postmarked_deadline }}
+{{ $receivedDeadline := .Params.mail_received_deadline | default .Params.default_mail_received_deadline }}
+{{ $ipDeadline := .Params.ip_deadline | default .Params.default_ip_deadline }}
 
 {{ if ne .Params.registration_type "not-needed" }}
 	<header>
