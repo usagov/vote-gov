@@ -20,7 +20,7 @@ ip_deadline = "Friday, October 28, 2022"
 mail_received_deadline = "Must be received by Friday, October 28, 2022"
 confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""
-default_ip_deadline = "10 days before Election Day"
-default_mail_received_deadline = "Must be received 10 days before Election Day"
+default_ip_deadline = "I'ii'n77[ Bij9j8' t'ahdoo neezn11 yi[kaah7"
+default_mail_received_deadline = "I'ii'n77[ Bij9j8' t'ahdoo neezn11 yi[kaah7 n7didooltsos"
 
 +++

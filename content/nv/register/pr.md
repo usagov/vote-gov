@@ -16,6 +16,6 @@ more_info_link_language_selection = ""
 ip_deadline = "Monday, September 19, 2022"
 confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""
-default_ip_deadline = "50 days before Election Day"
+default_ip_deadline = "I'ii'n77[ Bij9j8' t'ahdoo ashdladiin yi[kaah7"
 
 +++

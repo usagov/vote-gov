@@ -21,8 +21,8 @@ online_deadline = "Friday, October 14, 2022"
 mail_postmarked_deadline = "Must be postmarked by Friday, October 14, 2022"
 confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""
-default_ip_deadline = "Available up to and including on Election Day"
-default_online_deadline = "25 days before Election Day"
-default_mail_postmarked_deadline = "Must be postmarked 25 days before Election Day"
+default_ip_deadline = "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'"
+default_online_deadline = "I'ii'n77[ Bij9j8' t'ahdoo naadiin ashdla' yi[kaah7"
+default_mail_postmarked_deadline = "I'ii'n77[ Bij9j8' t'ahdoo naadiin ashdla' yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
 
 +++
