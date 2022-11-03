@@ -116,7 +116,10 @@
   <!-- CSS
   ================================================== -->
   <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/styles/main.css?v={{ $queryNum }}">
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/fonts/navajo-font/stylesheet.css">
+  <!--If website language is Navajo, load the Navajo font-->
+  {{ if eq .Site.Language.Lang "nv" }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/fonts/navajo-font/stylesheet.css">
+  {{ end }}
 
   <!-- Crazy Egg  -->
   <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0007/9651.js" async="async" ></script>
