@@ -68,7 +68,7 @@
     "default_mail_postmarked_deadline": "必须在选举日之前的第五个星期一之前盖上邮戳"
   },
   "gu": {
-    "mail_received_deadline": "必须在2022年10月28日星期五之前收到",
+    "mail_received_deadline": "必须在2022年10月24日星期一之前到达",
     "default_mail_received_deadline": "必须在选举日前 10 天前收到",
     "default_ip_deadline": "选举日前 10 天"
   },

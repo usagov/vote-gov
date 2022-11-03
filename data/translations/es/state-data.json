@@ -100,7 +100,7 @@
     "default_mail_postmarked_deadline": "debe tener el sello del correo a más tardar el quinto lunes antes del día de las elecciones"
   },
   "gu": {
-    "mail_received_deadline": "a más tardar debe ser recibida viernes, 28 de octubre de 2022",
+    "mail_received_deadline": "a más tardar debe ser recibida lunes, 24 de octubre de 2022",
     "default_ip_deadline": "hasta 10 días antes del día de las elecciones",
     "default_mail_received_deadline": "a más tardar debe ser recibida 10 días antes del día de las elecciones"
   },
@@ -315,8 +315,7 @@
     "mail_postmarked_deadline": "debe tener el sello del correo martes, 11 de octubre de 2022",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
     "default_online_deadline": "hasta 30 días antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
-    "more_info_link_override": "https://www.scvotes.gov/como-votar"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones"
   },
   "sd": {
     "mail_received_deadline": "a más tardar debe ser recibida lunes, 24 de octubre de 2022",
@@ -395,6 +394,8 @@
   "wy": {
     "mail_received_deadline": "a más tardar debe ser recibida lunes, 24 de octubre de 2022",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
-    "default_mail_received_deadline": "a más tardar debe ser recibida 14 días antes del día de las elecciones"
+    "default_mail_received_deadline": "a más tardar debe ser recibida 14 días antes del día de las elecciones",
+    "confirm_registration_link_override": "https://sos.wyo.gov/Elections/Docs/2022/2022_Spanish_Voter_Guide.pdf",
+    "confirm_registration_link_translated": "true"
   }
 }

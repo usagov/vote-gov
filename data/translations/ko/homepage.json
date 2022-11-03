@@ -17,6 +17,8 @@
   "registered__resources_link_url": "https://www.usa.gov/voting",
   "registered_links__electionday": "선거 당일 투표하기 (영어로 제공)",
   "registered_links__electionday_url": "https://www.usa.gov/election-day",
+  "registered_links__absentee": "부재자 투표 (영어로 제공)",
+  "registered_links__absentee_url": "https://www.usa.gov/absentee-voting",
   "registered_links__voterid": "유권자 ID (아이디) 요구 사항 (영어로 제공) ",
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
   "registered_links__process": "선거 절차 (영어로 제공)",
