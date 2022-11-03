@@ -6,7 +6,12 @@ const excludedlinks = [
   'https://voterregistration.ct.gov/OLVR/welcome.do?ref=voteusa_es',
   'https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1?ref=voteusa_es',
   'https://www.sec.state.ma.us/ovr/?ref=voteusa_es',
-  'https://olvr.ohiosos.gov/?ref=voteusa_es'
+  'https://olvr.ohiosos.gov/?ref=voteusa_es',
+  'https://olvr.hawaii.gov/?ref=voteusa_es',
+  'https://elections.hawaii.gov/voters/registration/?ref=voteusa_es',
+  'https://vote.sos.ri.gov/Home/RegistertoVote?ref=voteusa_es',
+  'https://vote.sos.ri.gov/VoterSpanish/RegisterToVote?ref=voteusa_es',
+  'https://vote.sos.ri.gov/HomeSpanish/UpdateVoterRecord?ActiveFlag=0&?ref=voteusa_es'
 ];
 
 describe("External Link Validator Test", () => {
