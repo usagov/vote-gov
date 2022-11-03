@@ -3,10 +3,10 @@
 const allPages = require("../../fixtures/spanish-site.json");
 
 const excludedlinks = [
-  'https://voterregistration.ct.gov/OLVR/welcome.do?ref=voteusa_en',
-  'https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1?ref=voteusa_en',
-  'https://www.sec.state.ma.us/ovr/?ref=voteusa_en',
-  'https://olvr.ohiosos.gov/?ref=voteusa_en'
+  'https://voterregistration.ct.gov/OLVR/welcome.do?ref=voteusa_es',
+  'https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1?ref=voteusa_es',
+  'https://www.sec.state.ma.us/ovr/?ref=voteusa_es',
+  'https://olvr.ohiosos.gov/?ref=voteusa_es'
 ];
 
 describe("External Link Validator Test", () => {
