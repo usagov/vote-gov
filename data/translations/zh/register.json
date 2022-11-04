@@ -21,7 +21,7 @@
   "online__h2_question1": "如何在 %state_name% 登記投票",
   "alert_state__alert_msg": "由於COVID19，您在即將舉行的選舉中投票的時間、地點和方式可能會發生變化。請與%link%聯繫以獲取更多信息。",
   "alert_state__alert_msg1": "您的州選舉網站",
-  "alert_state__alert_after_election": "有關官方選舉結果，請訪問",
+  "alert_state__alert_after_election": "有關官方選舉結果，請訪問 %link%",
   "dates__bymail_deadline": "郵寄報名截止日期：",
   "dates__byonline_deadline": "網路報名截止日期：",
   "dates__electionday": "大選日：2022年11月8日星期二 ",

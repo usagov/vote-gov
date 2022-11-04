@@ -26,6 +26,6 @@
     "globalURL": {
       "about_link": "/about-us"
     },
-    "sitewide_alert": false
+    "sitewide_alert": true
   }
 }
