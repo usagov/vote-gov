@@ -17,6 +17,8 @@
   "registered__resources_link_url": "https://www.usa.gov/voting",
   "registered_links__electionday": "নির্বাচনের দিন ভোট দেওয়া (ইংরেজিতে)",
   "registered_links__electionday_url": "https://www.usa.gov/election-day",
+  "registered_links__absentee": "অনুপস্থিত ভোট (ইংরেজিতে)",
+  "registered_links__absentee_url": "https://www.usa.gov/absentee-voting",
   "registered_links__voterid": "ভোটার আইডির প্রয়োজনীয়তা (ইংরেজিতে)",
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
   "registered_links__process": "নির্বাচন প্রক্রিয়া (ইংরেজিতে)",

@@ -9,13 +9,13 @@
     "title_2": "Find voter registration deadlines",
     "content_2_part_1": "There is no national voter registration deadline. Voters in each state and territory must follow their voter registration laws. Select your state or territory from the dropdown menu to find your voter registration deadline. ",
     "content_2_part_2": "Every state except North Dakota requires citizens to register if they want to vote. Some states require voters to register up to 30 days before an election, while others allow registration up to and on Election Day. It’s important you know the rules in your state. ",
-    
+
     "title_3": "Check your registration",
     "content_3_part_1": "Select your state or territory from the dropdown menu to check your registration before your state’s deadline. That could be up to 30 days before the election. ",
     "content_3_part_2": "Also check to see if your registration is marked “inactive.” You may become “inactive” if you did not vote in at least two federal elections and did not respond when election officials tried to reach you. ",
     "content_3_part_3": "An inactive status does not necessarily mean that you need to re-register.  It means that you may have to take extra steps before you can vote. Your state election official’s office or your local election office can help you move your registration status back to active or answer questions you may have. ",
     "content_3_part_4": "Make sure you are registered with the correct name, address, and political party affiliation. Visit your state’s registration page for information on how to update your voter registration information. ",
-    
+
     "title_4": "Change your political party affiliation",
     "content_4_part_1": "Each state has a different process to select or change your party affiliation. Depending on your state, you may be asked for your party affiliation when you register to vote. Your state may not have political party affiliations for voters. Contact your state or local election office to see what the procedure is and if there are any deadlines for where you live. Selecting a party affiliation is not available in all states.",
     "content_4_part_2": "",
@@ -30,7 +30,7 @@
     "content_5_part_4": "Learn more about %link%. ",
     "content_5_part_4_link": "voter registration",
 
-    "title_6": "Register After You’ve Moved",
+    "title_6": "Register after you’ve moved",
     "content_6_part_1": "Whether you’ve moved near or far, you need to update your voter registration after a change of address. Select your state or territory from the dropdown menu to learn how to register online or by mail. If your state has online voter registration, that may be the quickest way to make changes. Submit your changes before your state’s registration deadline, which can be up to 30 days before Election Day. Your state may also require a new driver's license or ID card. %link%.",
     "content_6_part_1_link": "See what type of voter ID your state requires",
     "sub_head_part_2": "Moving within your state",
@@ -42,5 +42,4 @@
     "content_6_part_4_link": "Federal Post Card Application (FPCA)",
     "content_6_part_5": "See the %link%  for more resources on military and overseas voting.",
     "content_6_part_5_link": "Federal Voting Assistance Program (FVAP)"
-
 }
