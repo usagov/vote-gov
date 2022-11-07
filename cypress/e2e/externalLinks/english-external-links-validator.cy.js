@@ -7,6 +7,7 @@ const excludedlinks = [
   'https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1?ref=voteusa_en',
   'https://www.sec.state.ma.us/ovr/?ref=voteusa_en',
   'https://olvr.ohiosos.gov/?ref=voteusa_en',
+  'https://voterlookup.ohiosos.gov/voterlookup.aspx?ref=voteusa_en',
   'https://olvr.hawaii.gov/?ref=voteusa_en',
   'https://elections.hawaii.gov/voters/registration/?ref=voteusa_en',
   'https://vote.sos.ri.gov/Home/RegistertoVote?ref=voteusa_en',
