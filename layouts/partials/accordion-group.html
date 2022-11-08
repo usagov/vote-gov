@@ -1,0 +1,27 @@
+{{ $headless := .Site.GetPage "/accordion" }}
+{{ $reusablePages := $headless.Resources.Match "homepage-*" }}
+
+{{ with .Site.GetPage "/accordion/index" }}
+<header>
+  <h2 class="content-heading">{{ .Title }}</h2>
+</header>
+{{ end }}
+
+<div class="usa-accordion" data-test="accordion">
+  {{ range $elem_index, $elem_val := (sort $reusablePages ".Name") }}
+  <h3 class="usa-accordion__heading">
+    <button
+      type="button"
+      class="usa-accordion__button"
+      data-test="accordion-button"
+      aria-expanded="false"
+      aria-controls="hp{{ $elem_index }}"
+    >
+      {{ .Title }}
+    </button>
+  </h3>
+  <div id="hp{{ $elem_index }}" class="usa-accordion__content usa-prose" data-test="accordion-content">
+    {{ .Content }}
+  </div>
+  {{ end }}
+</div>

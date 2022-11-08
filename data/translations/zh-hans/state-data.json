@@ -1,89 +1,67 @@
 {
   "al": {
-    "ip_deadline": "2022年10月24日星期六",
-    "online_deadline": "2022年10月24日星期六",
     "mail_postmarked_deadline": "必须在2022年10月24日星期六之前加盖邮戳",
     "default_ip_deadline": "选举日前 15 天",
     "default_online_deadline": "选举日前 15 天",
     "default_mail_postmarked_deadline": "必须在选举日前 15 天盖上邮戳"
   },
   "ak": {
-    "ip_deadline": "2022年10月9日星期日",
-    "online_deadline": "2022年10月9日星期日",
     "mail_postmarked_deadline": "必须在2022年10月9日星期日之前加盖邮戳",
     "default_ip_deadline": "选举日前 30 天",
     "default_online_deadline": "选举日前 30 天",
     "default_mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳"
   },
   "as": {
-    "ip_deadline": "2022年10月11日星期二",
     "default_ip_deadline": "选举日前30 天"
   },
   "az": {
-    "online_deadline": "2022年10月11日星期二",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
-    "ip_deadline": "2022年10月11日星期二",
     "default_online_deadline": "选举日前 29 天",
     "default_mail_postmarked_deadline": "必须在选举日前29 天盖上邮戳",
     "default_ip_deadline": "选举日前 29 天"
   },
   "ar": {
-    "ip_deadline": "2022年10月11日星期二",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前 30 天",
     "default_mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳"
   },
   "ca": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年10月24日星期六",
     "mail_postmarked_deadline": "必须在2022年10月24日星期六之前加盖邮戳",
     "default_ip_deadline": "直到选举日 包括选举日) 都可以使用",
     "default_online_deadline": "选举日前 15 天",
     "default_mail_postmarked_deadline": "必须在选举日前 15 天盖上邮戳"
   },
   "co": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年10月31日星期一",
     "mail_postmarked_deadline": "必须在2022年10月31日星期一之前加盖邮戳",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_online_deadline": "选举日前 8 天",
     "default_mail_postmarked_deadline": "必须在选举日前8天盖上邮戳"
   },
   "ct": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年11月1日星期二",
     "mail_postmarked_deadline": "必须在2022年11月1日星期二之前加盖邮戳",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_online_deadline": "选举日前7 天",
     "default_mail_postmarked_deadline": "必须在选举日前 7 天盖上邮戳"
   },
   "de": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年11月8日星期二",
     "mail_postmarked_deadline": "必须在2022年11月8日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前 第四个星期六",
     "default_online_deadline": "选举日前 第四个星期六",
     "default_mail_postmarked_deadline": "必须在选举日前第四个星期六盖上邮戳"
   },
   "dc": {
-    "ip_deadline": "2022年11月8日星期二",
     "mail_received_deadline": "必须在2022年10月18日星期二之前收到",
-    "online_deadline": "2022年10月18日星期二",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_mail_received_deadline": "必须在选举日之前的21天收到",
     "default_online_deadline": "选举日前21 天"
   },
   "fl": {
-    "ip_deadline": "2022年10月11日星期二",
-    "online_deadline": "2022年10月11日星期二",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前29 天",
     "default_online_deadline": "选举日前29天",
     "default_mail_postmarked_deadline": "必须在选举日之前的29天之前盖上邮戳"
   },
   "ga": {
-    "ip_deadline": "2022年10月11日星期二",
-    "online_deadline": "2022年10月11日星期二",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前的第五个星期一",
     "default_online_deadline": "选举日前的第五个星期一",
@@ -91,69 +69,52 @@
   },
   "gu": {
     "mail_received_deadline": "必须在2022年10月24日星期一之前到达",
-    "ip_deadline": "2022年10月24日星期一",
     "default_mail_received_deadline": "必须在选举日前 10 天前收到",
     "default_ip_deadline": "选举日前 10 天"
   },
   "hi": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年11月8日星期二",
     "mail_postmarked_deadline": "必须在2022年10月31日星期一之前加盖邮戳",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_online_deadline": "选举日前 30 天",
     "default_mail_postmarked_deadline": "必须在选举日之前的30天之前盖上邮戳"
   },
   "id": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年10月14日星期五",
     "mail_postmarked_deadline": "必须在2022年10月14日星期五之前加盖邮戳",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_online_deadline": "选举日前 25 天",
     "default_mail_postmarked_deadline": "必须在选举日前 25 天盖上邮戳"
   },
   "il": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年10月23日星期二",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_online_deadline": "选举日前 16 天",
     "default_mail_postmarked_deadline": "必须在选举日之前的28天之前盖上邮戳"
   },
   "in": {
-    "ip_deadline": "2022年10月11日星期二",
-    "online_deadline": "2022年10月11日星期二",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前 29 天",
     "default_online_deadline": "选举日前 29 天",
     "default_mail_postmarked_deadline": "必须在选举日前 29 天盖上邮戳"
   },
   "ia": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年10月24日星期六",
     "mail_postmarked_deadline": "必须在2022年10月24日星期六之前加盖邮戳",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_online_deadline": "选举日前 15 天",
     "default_mail_postmarked_deadline": "必须在选举日前 15天盖上邮戳"
   },
   "ks": {
-    "ip_deadline": "2022年10月18日星期二",
-    "online_deadline": "2022年10月18日星期二",
     "mail_postmarked_deadline": "必须在2022年10月18日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前 21 天",
     "default_online_deadline": "选举日前 21 天",
     "default_mail_postmarked_deadline": "必须在选举日前 21天盖上邮戳"
   },
   "ky": {
-    "ip_deadline": "2022年10月11日星期二",
-    "online_deadline": "2022年10月11日星期二",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前的第四个星期一",
     "default_online_deadline": "选举日前的第四个星期一",
     "default_mail_postmarked_deadline": "必须在选举日之前的第四个星期一之前盖上邮戳"
   },
   "la": {
-    "ip_deadline": "2022年10月11日星期二",
-    "online_deadline": "2022年10月18日星期二",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "dates_electionday": "2022年12月10日星期六",
     "default_ip_deadline": "选举日前30 天",
@@ -161,110 +122,84 @@
     "default_mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳"
   },
   "me": {
-    "ip_deadline": "2022年11月8日星期二",
     "mail_received_deadline": "必须在2022年10月18日星期二之前收到",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_mail_received_deadline": "必须在选举日前 21 天收到"
   },
   "md": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年10月18日星期二",
     "mail_postmarked_deadline": "必须在2022年10月18日星期二之前加盖邮戳",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_online_deadline": "选举日前 21 天",
     "default_mail_postmarked_deadline": "必须在选举日前 21 天盖上邮戳"
   },
   "ma": {
-    "ip_deadline": "2022年10月29日星期六",
-    "online_deadline": "2022年10月29日星期六",
     "mail_postmarked_deadline": "必须在2022年10月29日星期六之前加盖邮戳",
     "default_ip_deadline": "选举日前 20 天",
     "default_online_deadline": "选举日前 20 天",
     "default_mail_postmarked_deadline": "必须在选举日前 20 天盖上邮戳"
   },
   "mi": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年10月24日星期六",
     "mail_postmarked_deadline": "必须在2022年10月24日星期六之前加盖邮戳",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_online_deadline": "选举日前 15天",
     "default_mail_postmarked_deadline": "必须在选举日前 15天盖上邮戳"
   },
   "mn": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年10月18日星期二",
     "mail_received_deadline": "必须在2022年10月18日星期二之前收到",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_online_deadline": "选举日前 21天",
     "default_mail_received_deadline": "必须在选举日前 21 天前收到"
   },
   "ms": {
-    "ip_deadline": "2022年10月10日2022年",
     "mail_postmarked_deadline": "必须在2022年10月10日星期一之前加盖邮戳",
     "default_ip_deadline": "选举日前 30天",
     "default_mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳"
   },
   "mo": {
-    "ip_deadline": "2022年10月12日星期三",
-    "online_deadline": "2022年10月12日星期三",
     "mail_postmarked_deadline": "必须在2022年10月12日星期三之前加盖邮戳",
     "default_ip_deadline": "选举日前的第四个星期三",
     "default_online_deadline": "选举日前的第四个星期三",
     "default_mail_postmarked_deadline": "必须在选举日前第四个星期三盖上邮戳"
   },
   "mt": {
-    "ip_deadline": "2022年11月7日星期一 12:00 PM",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_mail_postmarked_deadline": "必须在选举日前 30 天盖上邮戳"
   },
   "ne": {
-    "ip_deadline": "2022年10月28日星期五",
-    "online_deadline": "2022年10月21日星期五",
     "mail_postmarked_deadline": "必须在2022年10月21日星期五之前加盖邮戳",
     "default_ip_deadline": "选举日前的第二个星期五",
     "default_online_deadline": "选举日前的第三个星期五",
     "default_mail_postmarked_deadline": "必须在选举日之前的第三个星期五盖上邮戳"
   },
   "nv": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年11月8日星期二",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前的第四个星期二",
     "default_online_deadline": "提前投票开始前的星期四",
     "default_mail_postmarked_deadline": "必须在选举日之前的第四个星期二盖上邮戳"
   },
   "nh": {
-    "ip_deadline": "2022年11月8日星期二",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用"
   },
   "nj": {
-    "online_deadline": "2022年10月18日星期二",
     "mail_postmarked_deadline": "必须在2022年10月18日星期二之前加盖邮戳",
-    "ip_deadline": "2022年10月18日星期二",
     "default_online_deadline": "选举日前 21天",
     "default_mail_postmarked_deadline": "必须在选举日前 21 天盖上邮戳",
     "default_ip_deadline": "选举日前 21天"
   },
   "nm": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年10月11日星期二",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前 的星期六",
     "default_online_deadline": "选举日前 28天",
     "default_mail_postmarked_deadline": "必须在选举日前 28天盖上邮戳"
   },
   "ny": {
-    "ip_deadline": "2022年10月14日星期五",
-    "online_deadline": "2022年10月14日星期五",
     "mail_postmarked_deadline": "必须在2022年10月14日星期五之前加盖邮戳",
     "default_ip_deadline": "选举日前 25天",
     "default_online_deadline": "选举日前 25天",
     "default_mail_postmarked_deadline": "必须在选举日前 25天盖上邮戳"
   },
   "nc": {
-    "ip_deadline": "2022年11月5日星期六 3:00 PM",
-    "online_deadline": "2022年10月14日星期五",
     "mail_postmarked_deadline": "必须在2022年10月14日星期五之前加盖邮戳",
     "default_ip_deadline": "提前投票期间可当天登记",
     "default_online_deadline": "选举日前 25天",
@@ -272,135 +207,104 @@
   },
   "nd": {},
   "mp": {
-    "ip_deadline": "2022年9月9日星期五",
     "mail_received_deadline": "必须在2022年9月9日星期五之前收到",
     "default_ip_deadline": "选举日前 60天"
   },
   "oh": {
-    "ip_deadline": "2022年10月11日星期二",
-    "online_deadline": "2022年10月11日星期二",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前 30天",
     "default_online_deadline": "选举日前 30天",
     "default_mail_postmarked_deadline": "必须在选举日前 30天盖上邮戳"
   },
   "ok": {
-    "ip_deadline": "2022年10月14日星期五",
     "mail_postmarked_deadline": "必须在2022年10月14日星期五之前加盖邮戳",
     "default_ip_deadline": "选举日前 25天",
     "default_mail_postmarked_deadline": "必须在选举日前 25天盖上邮戳"
   },
   "or": {
-    "ip_deadline": "2022年10月18日星期二",
-    "online_deadline": "2022年10月18日星期二",
     "mail_postmarked_deadline": "必须在2022年10月18日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前 21天",
     "default_online_deadline": "选举日前 21天",
     "default_mail_postmarked_deadline": "必须在选举日前 21天盖上邮戳"
   },
   "pa": {
-    "ip_deadline": "2022年10月24日星期六",
-    "online_deadline": "2022年10月24日星期六",
     "mail_received_deadline": "必须在2022年10月24日星期六之前收到",
     "default_ip_deadline": "选举日前 15天",
     "default_online_deadline": "选举日前 15天",
     "default_mail_received_deadline": "必须在选举日前 15天前收到"
   },
   "pr": {
-    "ip_deadline": "2022年9月19日星期一",
     "default_ip_deadline": "选举日前 50天"
   },
   "ri": {
-    "ip_deadline": "2022年10月9日星期日",
-    "online_deadline": "2022年10月9日星期日",
     "mail_postmarked_deadline": "必须在2022年10月9日星期日之前加盖邮戳",
     "default_ip_deadline": "选举日前 30天",
     "default_online_deadline": "选举日前 30天",
     "default_mail_postmarked_deadline": "必须在选举日前 30天盖上邮戳"
   },
   "sc": {
-    "ip_deadline": "2022年10月7日星期五",
-    "online_deadline": "2022年10月9日星期日",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前 30天",
     "default_online_deadline": "选举日前 30天",
     "default_mail_postmarked_deadline": "必须在选举日前 30天盖上邮戳"
   },
   "sd": {
-    "ip_deadline": "2022年10月24日星期六",
     "mail_received_deadline": "必须在2022年10月24日星期六之前收到",
     "default_ip_deadline": "选举日前 15天",
     "default_mail_received_deadline": "必须在选举日前 15天前收到"
   },
   "tn": {
-    "ip_deadline": "2022年10月11日星期二",
-    "online_deadline": "2022年10月11日星期二",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前 30天",
     "default_online_deadline": "选举日前 30天",
     "default_mail_postmarked_deadline": "必须在选举日前 30天盖上邮戳"
   },
   "tx": {
-    "ip_deadline": "2022年10月11日星期二",
     "mail_postmarked_deadline": "必须在2022年10月11日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前 30天",
     "default_mail_postmarked_deadline": "必须在选举日前 30天盖上邮戳"
   },
   "ut": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年10月28日星期五",
     "mail_received_deadline": "必须在2022年10月28日星期五之前收到",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_online_deadline": "选举日前 11天",
     "default_mail_received_deadline": "必须在选举日前 11天前收到"
   },
   "vt": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年11月8日星期二",
     "mail_received_deadline": "必须在2022年11月4日星期五之前收到",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_online_deadline": "选举日前的星期五",
     "default_mail_received_deadline": "必须在选举日之前的星期五收到"
   },
   "va": {
-    "ip_deadline": "2022年10月17日星期一",
-    "online_deadline": "2022年10月17日星期一",
     "mail_postmarked_deadline": "必须在2022年10月17日星期一之前加盖邮戳",
     "default_ip_deadline": "选举日前 22天",
     "default_online_deadline": "选举日前 22天",
     "default_mail_postmarked_deadline": "必须在选举日前 22天盖上邮戳"
   },
   "vi": {
-    "ip_deadline": "2022年10月9日星期日",
     "mail_postmarked_deadline": "必须在2022年10月9日星期日之前加盖邮戳",
     "default_ip_deadline": "选举日前 30天"
   },
   "wa": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年10月31日星期一",
     "mail_received_deadline": "必须在2022年10月31日星期一之前收到",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_online_deadline": "选举日前 8天",
     "default_mail_received_deadline": "必须在选举日前 8天前收到"
   },
   "wv": {
-    "ip_deadline": "2022年10月18日星期二",
-    "online_deadline": "2022年10月18日星期二",
     "mail_postmarked_deadline": "必须在2022年10月18日星期二之前加盖邮戳",
     "default_ip_deadline": "选举日前 21天",
     "default_online_deadline": "选举日前 21天",
     "default_mail_postmarked_deadline": "必须在选举日前 21天盖上邮戳"
   },
   "wi": {
-    "ip_deadline": "2022年11月8日星期二",
-    "online_deadline": "2022年10月19日星期三",
     "mail_postmarked_deadline": "必须在2022年10月19日星期三之前加盖邮戳",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_online_deadline": "选举日前的第三个星期三",
     "default_mail_postmarked_deadline": "必须在选举日前的第三个星期三前盖上邮戳"
   },
   "wy": {
-    "ip_deadline": "2022年11月8日星期二",
     "mail_received_deadline": "必须在2022年10月24日星期六之前收到",
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
     "default_mail_received_deadline": "必须在选举日前 14天前收到"

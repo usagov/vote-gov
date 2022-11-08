@@ -1,159 +1,120 @@
 {
   "al": {
-    "ip_deadline": "Lunes, ika-24 ng Oktubre 2022",
-    "online_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "15 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "15 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark 15 araw bago ang Araw ng Eleksyon"
   },
   "ak": {
-    "ip_deadline": "Linggo, ika-9 ng Oktubre 2022",
-    "online_deadline": "Linggo, ika-9 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Linggo, ika-9 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "as": {
-    "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon"
   },
   "az": {
-    "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
-    "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_online_deadline": "29 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  29 araw bago ang Araw ng Eleksyon",
     "default_ip_deadline": "29 araw bago ang Araw ng Eleksyon"
   },
   "ar": {
-    "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "ca": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "15 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  15 araw bago ang Araw ng Eleksyon"
   },
   "co": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Lunes, ika-31 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-31 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "8 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  8 araw bago ang Araw ng Eleksyon"
   },
   "ct": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Martes, ika-1 ng Nobyembre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-1 ng Nobyembre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "7 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark 7 araw bago ang Araw ng Eleksyon"
   },
   "de": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-8 ng Nobyembre 2022",
     "default_ip_deadline": "Ika-apat na Sabado bago ang  Araw ng Eleksyon",
     "default_online_deadline": "Ika-apat na Sabado bago ang  Araw ng Eleksyon",
     "default_mail_postmarked_deadline": " Dapat na naka-postmark sa ika-apat na Sabado bago ang Araw ng Eleksyon"
   },
   "dc": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_received_deadline": "Dapat matanggap ng Martes, ika-18 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_mail_received_deadline": "Dapat matanggap 21 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "21 araw bago ang Araw ng Eleksyon"
   },
   "fl": {
-    "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
-    "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "29 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "29 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  29 araw bago ang Araw ng Eleksyon"
   },
   "ga": {
-    "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
-    "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "Ika-limang Lunes bago ang Araw ng Eleksyon",
     "default_online_deadline": "Ika-limang Lunes bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": " Dapat na naka-postmark sa ika-limang Lunes bago ang Araw ng Eleksyon"
   },
   "gu": {
-    "ip_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "mail_received_deadline": "Dapat matanggap ng Lunes, ika-24 ng Oktubre 2022",
     "default_mail_received_deadline": "Dapat matanggap 10 araw bago ang Araw ng Eleksyon",
     "default_ip_deadline": "10 araw bago ang Araw ng Eleksyon"
   },
   "hi": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-31 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat matanggap 30 araw bago ang Araw ng Eleksyon"
   },
   "id": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Biyernes, ika-14 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Biyernes, ika-14 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "25 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  25 araw bago ang Araw ng Eleksyon"
   },
   "il": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Linggo, ika-23 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "16 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat matanggap 28 araw bago ang Araw ng Eleksyon"
   },
   "in": {
-    "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
-    "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "29 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "29 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  29 araw bago ang Araw ng Eleksyon"
   },
   "ia": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "15 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  15 araw bago ang Araw ng Eleksyon"
   },
   "ks": {
-    "ip_deadline": "Martes, ika-18 ng Oktubre 2022",
-    "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-18 ng Oktubre 2022",
     "default_ip_deadline": "21 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "21 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  21 araw bago ang Araw ng Eleksyon"
   },
   "ky": {
-    "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
-    "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "Ika-apat na Lunes bago ang Araw ng Eleksyon",
     "default_online_deadline": "Ika-apat na Lunes bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat matanggap sa Ika-apat na Lunes bago ang Araw ng Eleksyon"
   },
   "la": {
-    "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
-    "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "20 araw bago ang Araw ng Eleksyon",
@@ -161,110 +122,84 @@
     "dates_electionday": "Sabado, ika-10 ng Disyembre 2022"
   },
   "me": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "mail_received_deadline": "Dapat matanggap ng Martes, ika-18 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_mail_received_deadline": "Dapat matanggap 21 araw bago ang Araw ng Eleksyon"
   },
   "md": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-18 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "21 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  21 araw bago ang Araw ng Eleksyon"
   },
   "ma": {
-    "ip_deadline": "Sabado, ika-29 ng Oktubre 2022",
-    "online_deadline": "Sabado, ika-29 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Sabado, ika-29 ng Oktubre 2022",
     "default_ip_deadline": "20 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "20 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  20 araw bago ang Araw ng Eleksyon"
   },
   "mi": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "15 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  15 araw bago ang Araw ng Eleksyon"
   },
   "mn": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_received_deadline": "Dapat matanggap ng Martes, ika-18 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "21 araw bago ang Araw ng Eleksyon",
     "default_mail_received_deadline": "Dapat matanggap 21 araw bago ang Araw ng Eleksyon"
   },
   "ms": {
-    "ip_deadline": "Lunes, ika-10 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-10 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "mo": {
-    "ip_deadline": "Miyerkoles, ika-12 ng Oktubre 2022",
-    "online_deadline": "Miyerkoles, ika-12 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Miyerkoles, ika-12 ng Oktubre 2022",
     "default_ip_deadline": "Ika-apat na Miyerkoles bago ang Araw ng Eleksyon",
     "default_online_deadline": "Ika-apat na Miyerkoles bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark sa ika-apat na Miyerkoles bago ang Araw ng Eleksyon"
   },
   "mt": {
-    "ip_deadline": "Lunes, ika-7 ng Nobyembre 2022, alas-dose  ng tanghali",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "ne": {
-    "ip_deadline": "Biyernes, ika-28 ng Oktubre 2022",
-    "online_deadline": "Biyernes, ika-21 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Biyernes, ika-21 ng Oktubre 2022",
     "default_ip_deadline": "Ika-dalawang  Biyernes bago ang Araw ng Eleksyon",
     "default_online_deadline": "Ika-tatlong Biyernes bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": " Dapat naka-postmark sa ika-tatlong Biyernes bago ang Araw ng Eleksyon"
   },
   "nv": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "Ika-apat na Martes bago ang  Araw ng Eleksyon",
     "default_online_deadline": "Huwebes bago magsimula ang maagang pagboto",
     "default_mail_postmarked_deadline": "Dapat naka-postmark sa ika-apat na Martes bago ang Araw ng Eleksyon"
   },
   "nh": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon"
   },
   "nj": {
-    "ip_deadline": "Martes, ika-18 ng Oktubre 2022",
-    "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-18 ng Oktubre 2022",
     "default_online_deadline": "21 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat matanggap 21 araw bago ang Araw ng Eleksyon",
     "default_ip_deadline": "21 araw bago ang Araw ng Eleksyon"
   },
   "nm": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "Sabado bago ang Araw ng Eleksyon",
     "default_online_deadline": "28 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  28 araw bago ang Araw ng Eleksyon"
   },
   "ny": {
-    "ip_deadline": "Biyernes, ika-14 ng Oktubre 2022",
-    "online_deadline": "Biyernes, ika-14 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Biyernes, ika-14 ng Oktubre 2022",
     "default_ip_deadline": "25 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "25 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  25 araw bago ang Araw ng Eleksyon"
   },
   "nc": {
-    "ip_deadline": "Sabado, ika-5 ng Nobyembre 2022, alas-tres ng hapon",
-    "online_deadline": "Biyernes, ika-14 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Biyernes, ika-14 ng Oktubre 2022",
     "default_ip_deadline": "Maari ang pagpaparehistro sa parehong araw sa panahon ng maagang pagboto",
     "default_online_deadline": "25 araw bago ang Araw ng Eleksyon",
@@ -272,56 +207,43 @@
   },
   "nd": {},
   "mp": {
-    "ip_deadline": "Biyernes, ika-9 ng Septiyembre 2022",
     "mail_received_deadline": "Dapat matanggap ng Biyernes, ika-9 ng Septiyembre 2022",
     "default_ip_deadline": "60 araw bago ang Araw ng Eleksyon",
     "default_mail_received_deadline": "Dapat matanggap 60 araw bago ang Araw ng Eleksyon"
   },
   "oh": {
-    "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
-    "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "ok": {
-    "ip_deadline": "Biyernes, ika-14 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Biyernes, ika-14 ng Oktubre 2022",
     "default_ip_deadline": "25 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  25 araw bago ang Araw ng Eleksyon"
   },
   "or": {
-    "ip_deadline": "Martes, ika-18 ng Oktubre 2022",
-    "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-18 ng Oktubre 2022",
     "default_ip_deadline": "21 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "21 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  21 araw bago ang Araw ng Eleksyon"
   },
   "pa": {
-    "ip_deadline": "Lunes, ika-24 ng Oktubre 2022",
-    "online_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "mail_received_deadline": "Dapat matanggap ng Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "15 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "15 araw bago ang Araw ng Eleksyon",
     "default_mail_received_deadline": "Dapat matanggap 15 araw bago ang Araw ng Eleksyon"
   },
   "pr": {
-    "ip_deadline": "Lunes, ika-19 ng Oktubre 2022",
     "default_ip_deadline": "50 araw bago ang Araw ng Eleksyon"
   },
   "ri": {
-    "ip_deadline": "Linggo, ika-9 ng Oktubre 2022",
-    "online_deadline": "Linggo, ika-9 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Linggo, ika-9 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "sc": {
-    "ip_deadline": "Biyernes, ika-7 ng Oktubre 2022",
-    "online_deadline": "Linggo, ika-9 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
@@ -329,80 +251,62 @@
   },
   "sd": {
     "mail_received_deadline": "Dapat matanggap ng Lunes, ika-24 ng Oktubre 2022",
-    "ip_deadline": "Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "15 araw bago ang Araw ng Eleksyon",
     "default_mail_received_deadline": "Dapat matanggap 15 araw bago ang Araw ng Eleksyon"
   },
   "tn": {
-    "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
-    "online_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "tx": {
-    "ip_deadline": "Martes, ika-11 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-11 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark 30 araw bago ang Araw ng Eleksyon"
   },
   "ut": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Biyernes, ika-28 ng Oktubre 2022",
     "mail_received_deadline": "Dapat matanggap ng Biyernes, ika-28 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "11 araw bago ang Araw ng Eleksyon",
     "default_mail_received_deadline": "Dapat matanggap 11 araw bago ang Araw ng Eleksyon"
   },
   "vt": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "mail_received_deadline": "Dapat matanggap ng Biyernes, ika-4 ng Nobyembre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "Biyernes bago ang Araw ng Eleksyon",
     "default_mail_received_deadline": "Dapat matanggap sa Biyernes bago ang Araw ng Eleksyon"
   },
   "va": {
-    "ip_deadline": "Lunes, ika-17 ng Oktubre 2022",
-    "online_deadline": "Lunes, ika-17 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Lunes, ika-17 ng Oktubre 2022",
     "default_ip_deadline": "22 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "22 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  22 araw bago ang Araw ng Eleksyon"
   },
   "vi": {
-    "ip_deadline": "Linggo, ika-9 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Linggo, ika-9 ng Oktubre 2022",
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark 30 araw bago ang Araw ng Eleksyon"
   },
   "wa": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Lunes, ika-31 ng Oktubre 2022",
     "mail_received_deadline": "Dapat matanggap ng Lunes, ika-31 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "8 araw bago ang Araw ng Eleksyon",
     "default_mail_received_deadline": "Dapat matanggap 8 araw bago ang Araw ng Eleksyon"
   },
   "wv": {
-    "ip_deadline": "Martes, ika-18 ng Oktubre 2022",
-    "online_deadline": "Martes, ika-18 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Martes, ika-18 ng Oktubre 2022",
     "default_ip_deadline": "21 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "21 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  21 araw bago ang Araw ng Eleksyon"
   },
   "wi": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
-    "online_deadline": "Miyerkoles, ika-19 ng Oktubre 2022",
     "mail_postmarked_deadline": "Dapat na naka-postmark ng Miyerkoles, ika-19 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "Ika-tatlong Miyerkoles bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat naka-postmark sa ika-tatlong Miyerkoles bago ang Araw ng Eleksyon"
   },
   "wy": {
-    "ip_deadline": "Martes, ika-8 ng Nobyembre 2022",
     "mail_received_deadline": "Dapat matanggap ng Lunes, ika-24 ng Oktubre 2022",
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_mail_received_deadline": "Dapat matanggap 14 araw bago ang Araw ng Eleksyon"

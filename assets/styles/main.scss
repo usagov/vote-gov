@@ -330,6 +330,9 @@ $logo-width: 130px;
 }
 
 .page-vote {
+  min-height: 100%;
+  min-width: 100%;
+  
   .site-logo {
     color: white;
     text-decoration: none;
