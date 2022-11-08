@@ -8,7 +8,7 @@
 {{ if eq .Site.Language.Lang "bn" }}
   {{ $day }} {{ $month }} {{ $year }}
 {{ else if eq .Site.Language.Lang "ypk" }}
-  {{ $month }} {{ $day }} {{ $year }}
+  {{ $month }} {{ .Lastmod.Day }} {{ $year }}
 {{ else if eq .Site.Language.Lang "zh-hans" }}
   {{ $year }} {{ $month }} {{ $day }}
 {{ else if eq .Site.Language.Lang "tl" }}
