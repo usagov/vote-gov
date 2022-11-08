@@ -47,6 +47,12 @@ gulp.task('scripts',  gulp.series ('eslint' , function () {
   bundle = bundle.pipe(rename('main.js'))
     .pipe(gulp.dest('./static/assets/scripts'));
 
-  return bundle;
+  var stream = gulp.src([
+    './node_modules/@uswds/uswds/dist/js/uswds-init.min.js',
+  ]);
+
+  stream = stream.pipe(gulp.dest('./static/assets/scripts'));
+
+  return bundle, stream;
 
 }));
