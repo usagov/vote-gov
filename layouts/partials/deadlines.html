@@ -1,6 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-{{ $postmarkedDeadline := cond (ne .Params.mail_postmarked_deadline nil) .Params.mail_postmarked_deadline .Params.default_mail_postmarked_deadline }}
-{{ $receivedDeadline := cond (ne .Params.mail_received_deadline nil) .Params.mail_received_deadline .Params.default_mail_received_deadline }}
+{{ $postmarkedDeadline := .Params.mail_postmarked_deadline | default .Params.default_mail_postmarked_deadline }}
+{{ $receivedDeadline := .Params.mail_received_deadline | default .Params.default_mail_received_deadline }}
 
 {{ if ne .Params.registration_type "not-needed" }}
 	<header>
@@ -46,8 +46,9 @@
 	{{ end }}
 </ul>
 
-
-{{ if isset .Params "confirm_registration_link" }}
+<!-- To use a different link than the default one for any language use the variable name 'confirm_registration_link_override' in states-data.json for that language -->
+{{ $confirm_registration_link := .Params.confirm_registration_link_override | default .Params.confirm_registration_link }}
+{{ if $confirm_registration_link }}
 {{ if not (in .Params.registration_type "not-needed") }}
 <header>
   <h2>{{ $translation.register.confirm_registration__heading }}</h2>

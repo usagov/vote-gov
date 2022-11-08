@@ -1,9 +1,9 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 {{ $by_mail_intro := replace $translation.register.by_mail__intro "%link%" (partial "links/by-mail-link.html" .) }}
 
-{{ $postmarkedDeadline := cond (ne .Params.mail_postmarked_deadline nil) .Params.mail_postmarked_deadline .Params.default_mail_postmarked_deadline }}
-{{ $receivedDeadline := cond (ne .Params.mail_received_deadline nil) .Params.mail_received_deadline .Params.default_mail_received_deadline }}
-{{ $dates__electionday := cond (ne .Params.dates__electionday nil) .Params.dates__electionday $translation.register.dates__electionday }}
+{{ $postmarkedDeadline := .Params.mail_postmarked_deadline | default .Params.default_mail_postmarked_deadline }}
+{{ $receivedDeadline := .Params.mail_received_deadline | default .Params.default_mail_received_deadline }}
+{{ $dates__electionday := .Params.dates__electionday | default $translation.register.dates__electionday }}
 
 <h2>
   {{ if and (isset $translation.register "online__h2_question1_territory") (eq .Params.is_state "false") }}
