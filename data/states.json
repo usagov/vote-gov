@@ -118,8 +118,8 @@
     "registration_link": "https://ivote.de.gov/VoterView/",
     "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
     "confirm_registration_link": "https://ivote.de.gov/VoterView",
-    "ip_deadline": "2022-10-15",
-    "online_deadline": "2022-10-15"
+    "ip_deadline": "2022-11-08",
+    "online_deadline": "2022-11-08"
   },
   "dc": {
     "state_name": "District of Columbia",
@@ -606,7 +606,7 @@
     "registration_link": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
     "more_info_link": "https://scvotes.gov/voters/register-to-vote/",
     "confirm_registration_link": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo",
-    "ip_deadline": "2022-10-09",
+    "ip_deadline": "2022-10-07",
     "online_deadline": "2022-10-09"
   },
   "sd": {
