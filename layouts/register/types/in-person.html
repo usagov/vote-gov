@@ -1,7 +1,7 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 {{ $in_person_intro := replace $translation.register.in_person__intro "%link%" (partial "links/in-person-link.html" .) }}
 
-{{ $ipDeadline := .Params.ip_deadline | default .Params.default_ip_deadline }}
+{{ $ipDeadline := cond (ne .Params.ip_deadline nil) (partial "date-format-ip.html" .) .Params.default_ip_deadline }}
 {{ $dates__electionday := .Params.dates__electionday | default $translation.register.dates__electionday }}
 
 <h2>

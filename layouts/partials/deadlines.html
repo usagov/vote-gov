@@ -1,8 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-{{ $onlineDeadline := .Params.online_deadline | default .Params.default_online_deadline }}
 {{ $postmarkedDeadline := .Params.mail_postmarked_deadline | default .Params.default_mail_postmarked_deadline }}
 {{ $receivedDeadline := .Params.mail_received_deadline | default .Params.default_mail_received_deadline }}
-{{ $ipDeadline := .Params.ip_deadline | default .Params.default_ip_deadline }}
 
 {{ if ne .Params.registration_type "not-needed" }}
 	<header>
@@ -17,7 +15,8 @@
 {{end}}
 
 <ul class="registered-resources">
-  {{ if $onlineDeadline }}
+	{{ if or (ne .Params.online_deadline nil) (ne .Params.default_online_deadline nil) }}
+		{{ $onlineDeadline := cond (ne .Params.online_deadline nil) (partial "date-format-online.html" .) .Params.default_online_deadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__byonline_deadline }}</span>
 			{{ $onlineDeadline }}
@@ -38,12 +37,13 @@
 		</li>
 	{{end}}
 
-	{{ if $ipDeadline }}
+	{{ if or (ne .Params.ip_deadline nil) (ne .Params.default_ip_deadline nil) }}
+		{{ $ipDeadline := cond (ne .Params.ip_deadline nil) (partial "date-format-ip.html" .) .Params.default_ip_deadline }}
 		<li>
 			<span class="bold-text">{{ $translation.register.dates__inperson_deadline }}</span>
 			{{ $ipDeadline }}
 		</li>
-	{{end}}
+	{{ end }}
 </ul>
 
 <!-- To use a different link than the default one for any language use the variable name 'confirm_registration_link_override' in states-data.json for that language -->
