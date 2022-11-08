@@ -11,7 +11,7 @@ more_info_link = "https://sosmt.gov/elections/vote/"
 confirm_registration_link = "https://sosmt.gov/elections/vote/"
 ip_deadline = "2022-11-07"
 ip_deadline__time = "12:00 PM"
-mail_postmarked_deadline = "Tuyumayaghqaguq Tuwesti, Naayvaghvik 11, 2022"
+mail_postmarked_deadline = "Tuyumayaghqaguq Tuwesti, Naayvaghvik 11, 2022-mi"
 default_ip_deadline = "Piivngallequq Nakmikivigem kenlenganun aghneghanillu."
 default_mail_postmarked_deadline = "Tuyumayaghqaguq 30 aghneq Nakmikivigem sivunganeng."
 

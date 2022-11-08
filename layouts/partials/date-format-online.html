@@ -12,7 +12,7 @@
   {{ $weekday }} {{ $day }} {{ $month }} {{ $year }}
 {{ else if eq .Site.Language.Lang "ypk" }}
 {{ $weekday := index $translation.days (string (lower $time.Weekday)) }}
-  {{ $weekday }}, {{ $month }} {{ $time.Day }} {{ $year }}
+  {{ $weekday }}, {{ $month }} {{ $time.Day }}, {{ $year }}
 {{ else if eq .Site.Language.Lang "zh-hans" }}
 {{ $weekday := index $translation.days (string (lower $time.Weekday)) }}
   {{ $year }}{{ $month }}{{ $day }}{{ $weekday }}

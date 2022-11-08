@@ -12,10 +12,10 @@ more_info_link = "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages
 confirm_registration_link = "https://voterportal.sos.la.gov/"
 ip_deadline = "2022-10-11"
 online_deadline = "2022-10-18"
-mail_postmarked_deadline = "Tuyumayaghqaguq Tuwesti, Naayvaghvik 11, 2022"
+mail_postmarked_deadline = "Tuyumayaghqaguq Tuwesti, Naayvaghvik 11, 2022-mi"
 default_ip_deadline = "30 aghneq Nakmikivigem sivunganeng."
 default_online_deadline = "20 aghneq Nakmikivigem sivunganeng."
 default_mail_postmarked_deadline = "Tuyumayaghqaguq 30 aghneq Nakmikivigem sivunganeng."
-dates__electionday = "Sareri, December 10, 2022"
+dates__electionday = "Sareri, December 10, 2022-mi"
 
 +++

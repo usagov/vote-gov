@@ -10,7 +10,7 @@ hp_link = "https://www.vivote.gov/voters/register-vote"
 more_info_link = "https://www.vivote.gov/voters/register-vote"
 confirm_registration_link = "https://www.vivote.gov/voters/lookup"
 ip_deadline = "2022-10-09"
-mail_postmarked_deadline = "Tuyumayaghqaguq Santi, Naayvaghvik 09, 2022"
+mail_postmarked_deadline = "Tuyumayaghqaguq Santi, Naayvaghvik 09, 2022-mi"
 default_ip_deadline = "30 aghneq Nakmikivigem sivunganeng."
 default_mail_postmarked_deadline = "30 aghneq Nakmikivigem sivunganeng."
 

@@ -12,7 +12,7 @@ more_info_link = "https://azsos.gov/elections/voting-election/register-vote-or-u
 confirm_registration_link = "https://my.arizona.vote/WhereToVote.aspx?s=individual"
 ip_deadline = "2022-10-11"
 online_deadline = "2022-10-11"
-mail_postmarked_deadline = "Tuyumayaghqaguq Tuwesti, Naayvaghvik 11, 2022"
+mail_postmarked_deadline = "Tuyumayaghqaguq Tuwesti, Naayvaghvik 11, 2022-mi"
 default_online_deadline = "29 aghneq sivungani Nakmikivigem"
 default_mail_postmarked_deadline = "Tuyumayaghqaguq 29 aghneq Nakmikivigem sivungani."
 default_ip_deadline = "29 aghneq sivungani Nakmikivigem"
