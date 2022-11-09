@@ -1,0 +1,29 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+
+{{ $date := (time .Params.ip_deadline) }}
+
+{{ $day := index $translation.day_number (string $date.Day) }}
+{{ $month := index $translation.months (string (lower $date.Month)) }}
+{{ $year := index $translation.years (string $date.Year) }}
+<!-- handle punctuation inside time-format-ip.html -->
+{{ $time := (partial "time-format-ip.html" .) }}
+
+<!-- If the localized version is incorrect make a language specific format -->
+{{ if eq .Site.Language.Lang "bn" }}
+{{ $weekday := index $translation.days (string (lower $date.Weekday)) }}
+  {{ $weekday }} {{ $day }} {{ $month }} {{ $year }}{{ $time }}
+{{ else if eq .Site.Language.Lang "ypk" }}
+{{ $weekday := index $translation.days (string (lower $date.Weekday)) }}
+  {{ $weekday }}, {{ $month }} {{ $date.Day }}, {{ $year }}{{ $time }}
+{{ else if eq .Site.Language.Lang "zh-hans" }}
+{{ $weekday := index $translation.days (string (lower $date.Weekday)) }}
+  {{ $year }}{{ $month }}{{ $day }}{{ $weekday }}{{ $time }}
+{{ else if eq .Site.Language.Lang "tl" }}
+{{ $weekday := index $translation.days (string (lower $date.Weekday)) }}
+  {{ $weekday }}, ika-{{ $day }} ng {{ $month }} {{ $year }}{{ $time }}
+{{ else if eq .Site.Language.Lang "km" }}
+{{ $weekday := index $translation.days (string (lower $date.Weekday)) }}
+  {{ $weekday }} {{ $day }} {{ $month }} {{ $year }}{{ $time }}
+{{ else }}
+  {{ $date | time.Format ":date_full" }}{{ $time }}
+{{end}}
