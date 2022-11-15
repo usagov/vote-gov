@@ -1,268 +1,203 @@
 {
   "al": {
-    "ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7",
-    "online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7",
-    "mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee[",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o biisk3n7, Naadiind99' Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "ak": {
-    "online_deadline": "Sunday, October 09, 2022",
-    "ip_deadline": "Sunday, October 9, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Sunday, October 09, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o, N1h1st'47 Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "as": {
-    "ip_deadline": "Tuesday, October 11, 2022",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7"
   },
   "az": {
-    "ip_deadline": "Tuesday, October 11, 2022",
-    "online_deadline": "Tuesday, October 11, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, {a'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiinn1h1st'47 yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiinn1h1st'47 yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiinn1h1st'47 yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "ar": {
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
-    "ip_deadline": "Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, {a'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "ca": {
-    "online_deadline": "Monday, October 24, 2022",
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Monday, October 24, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o biisk3n7, Naadiind99' Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "co": {
-    "online_deadline": "Monday, October 31, 2022",
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Monday, October 31, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o biisk3n7, T1diin d00 ba'aan t'11[1'7 Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo tseeb77 yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo tseeb77ts'11dah yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "ct": {
-    "online_deadline": "Tuesday, November 01, 2022",
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, November 01, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, T'11[1'7 N7[ch'ihts'0s7, Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo tsosts'id yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo tsosts'id yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "de": {
-    "online_deadline": "Tuesday, November 08, 2022",
-    "ip_deadline": "Tuesday, November 08, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, November 08, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, Tseeb77 N7[ch'ihts'0s7, Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij7j8' t'ahdoo d99' g0ne' Dam0o Y1zh7 aleehg00",
     "default_online_deadline": "I'ii'n77[ Bij7j8' t'ahdoo d99' g0ne' Dam0o Y1zh7 aleehg00",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo d99' g0ne' Dam0o Y1zh7 aleehg00 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "dc": {
-    "online_deadline": "Tuesday, October 18, 2022",
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_received_deadline": "Must be received by Tuesday, October 18, 2022",
+    "mail_received_deadline": "Kwe'4 yoo[k11[go n7didooltsos Dam0o naakiij9, Tseeb77ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7",
     "default_mail_received_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7 n7didooltsos"
   },
   "fl": {
-    "online_deadline": "Tuesday, October 11, 2022",
-    "ip_deadline": "Tuesday, October 11, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, {a'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiinn1h1st'47 yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiinn1h1st'47 yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiinn1h1st'47 yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "ga": {
-    "online_deadline": "Tuesday, October 11, 2022",
-    "ip_deadline": "Tuesday, October 11, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, {a'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij7j8' t'ahdoo ashdla' g0ne' Dam0o Biisk3n7 aleehg00",
     "default_online_deadline": "I'ii'n77[ Bij7j8' t'ahdoo ashdla' g0ne' Dam0o Biisk3n7 aleehg00",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla' g0ne' Dam0o Biisk3n7 aleehg00 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "gu": {
-    "ip_deadline": "Friday, October 28, 2022",
-    "mail_received_deadline": "Must be received by Friday, October 28, 2022",
+    "mail_received_deadline": "Kwe'4 yoo[k11[go n7didooltsos Dam0o biisk3n7, Naadiind99' Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo neezn11 yi[kaah7",
     "default_mail_received_deadline": "I'ii'n77[ Bij9j8' t'ahdoo neezn11 yi[kaah7 n7didooltsos"
   },
   "hi": {
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "online_deadline": "Tuesday, November 08, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Monday, October 31, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o biisk3n7, T1diin d00 ba'aan t'11[1'7 Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7"
   },
   "id": {
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "online_deadline": "Friday, October 14, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Friday, October 14, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Nida'iin77sh, D99'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin ashdla' yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin ashdla' yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "il": {
-    "online_deadline": "Sunday, October 23, 2022",
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, {a'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo hast33ts'11dah yi[kaah7"
   },
   "in": {
-    "online_deadline": "Tuesday, October 11, 2022",
-    "ip_deadline": "Tuesday, October 11, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, {a'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiinn1h1st'47 yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiinn1h1st'47 yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiinn1h1st'47 yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "ia": {
-    "online_deadline": "Monday, October 24, 2022",
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Monday, October 24, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o biisk3n7, Naadiind99' Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "ks": {
-    "online_deadline": "Tuesday, October 18, 2022",
-    "ip_deadline": "Tuesday, October 18, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 18, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, Tseeb77ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "ky": {
-    "online_deadline": "Tuesday, October 11, 2022",
-    "ip_deadline": "Tuesday, October 11, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, {a'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij7j8' t'ahdoo d99' g0ne' Dam0o Biisk3n7 aleehg00",
     "default_online_deadline": "I'ii'n77[ Bij7j8' t'ahdoo d99' g0ne' Dam0o Biisk3n7 aleehg00"
   },
   "la": {
-    "online_deadline": "Tuesday, October 18, 2022",
-    "ip_deadline": "Tuesday, October 11, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, {a'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "dates__electionday": "General Election Day: Saturday, December 10, 2022.",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "me": {
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_received_deadline": "Must be received by Tuesday, October 18, 2022",
+    "mail_received_deadline": "Kwe'4 yoo[k11[go n7didooltsos Dam0o naakiij9, Tseeb77ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_mail_received_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7 n7didooltsos"
   },
   "md": {
-    "online_deadline": "Tuesday, October 18, 2022",
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 18, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, Tseeb77ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "ma": {
-    "online_deadline": "Saturday, October 29, 2022",
-    "ip_deadline": "Saturday, October 29, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Saturday, October 29, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o y1zh7, Naadiinn1h1st'47 Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "mi": {
-    "online_deadline": "Monday, October 24, 2022",
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Monday, October 24, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o biisk3n7, Naadiind99' Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "mn": {
-    "online_deadline": "Tuesday, October 18, 2022",
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_received_deadline": "Must be received by Tuesday, October 18, 2022",
+    "mail_received_deadline": "Kwe'4 yoo[k11[go n7didooltsos Dam0o naakiij9, Tseeb77ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7",
     "default_mail_received_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7 n7didooltsos"
   },
   "ms": {
-    "mail_postmarked_deadline": "Must be postmarked by Monday, October 10, 2022",
-    "ip_deadline": "Monday, October 10, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o biisk3n7, Neezn11 Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "mo": {
-    "online_deadline": "Wednesday, October 12, 2022",
-    "ip_deadline": "Wednesday, October 12, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Wednesday, October 12, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o t1g7j9, Naakits'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij7j8' t'ahdoo d99' g0ne' Dam0o T1g7j9 aleehg00",
     "default_online_deadline": "I'ii'n77[ Bij7j8' t'ahdoo d99' g0ne' Dam0o T1g7j9 aleehg00",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo d99' g0ne' Dam0o T1g7j9 aleehg00 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "mt": {
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
-    "ip_deadline": "Monday, November 7, 2022, 12:00 P.M.",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, {a'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "ne": {
-    "online_deadline": "Friday, October 21, 2022",
-    "ip_deadline": "Friday, October 28, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Friday, October 21, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Nida'iin77sh, Naadiin[a' Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij7j8' t'ahdoo naaki g0ne' Nida'iin77sh aleehg00",
     "default_online_deadline": "I'ii'n77[ Bij7j8' t'ahdoo t11' g0ne' Nida'iin77sh aleehg00",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t11' g0ne' Nida'niin77sh yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "nv": {
-    "online_deadline": "Tuesday, November 8. 2022",
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, {a'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij7j8' t'ahdoo d99' g0ne' Dam0o Naakij9 aleehg00",
     "default_online_deadline": "I'ii'n77[ Bij7 t'11 bich'8'd00 i'ii'n77[go Dam0o D99'7j9",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo d99' g0ne' Dam0o Naakij9 yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "nh": {
-    "ip_deadline": "Tuesday, November 8, 2022",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'"
   },
   "nj": {
-    "ip_deadline": "Tuesday, October 18, 2022",
-    "online_deadline": "Tuesday, October 18, 2022",
-    "mail_received_deadline": "Must be postmarked by Tuesday, October 18, 2022",
+    "mail_received_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, Tseeb77ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7",
     "default_mail_received_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7 n7didooltsos"
   },
   "nm": {
-    "online_deadline": "Tuesday, October 11, 2022",
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, {a'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij7j8' t'ahdoo t'11[1'7 Dam0o Y1zh7 aleehg00",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin tseeb77 yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin tseeb77 yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "ny": {
-    "online_deadline": "Friday, October 14, 2022",
-    "ip_deadline": "Friday, October 14, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Friday, October 14, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Nida'iin77sh, D99'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin ashdla' yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin ashdla' yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin ashdla' yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "nc": {
-    "online_deadline": "Friday, October 14, 2022",
-    "ip_deadline": "Saturday, November 5, 2022, 3:00 P.M.",
-    "mail_postmarked_deadline": "Must be postmarked by Friday, October 14, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Nida'iin77sh, D99'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij7 t'11 bich'8'd00 i'ii'n77[go t'11 47 yoo[k11[ g0ne' hada'dilne'",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin ashdla' yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin ashdla' yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
@@ -271,135 +206,104 @@
     "confirm_registration_link_language_selection": ""
   },
   "mp": {
-    "ip_deadline": "Friday, September 09, 2022",
-    "mail_received_deadline": "Must be received by Friday, September 09, 2022",
+    "mail_received_deadline": "Kwe'4 yoo[k11[go n7didooltsos Nida'iin77sh, N1h1st'47 Bini'anint'33tsoh, Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo hast3diin yi[kaah7"
   },
   "oh": {
-    "ip_deadline": "Tuesday, October 11, 2022",
-    "online_deadline": "Tuesday, October 11, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, {a'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "ok": {
-    "ip_deadline": "Friday, October 14, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Friday, October 14, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Nida'iin77sh, D99'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin ashdla' yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin ashdla' yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "or": {
-    "online_deadline": "Tuesday, October 18, 2022",
-    "ip_deadline": "Tuesday, October 18, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 18, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, Tseeb77ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "pa": {
-    "online_deadline": "Monday, October 24, 2022",
-    "ip_deadline": "Monday, October 24, 2022",
-    "mail_received_deadline": "Must be received by Monday, October 24, 2022",
+    "mail_received_deadline": "Kwe'4 yoo[k11[go n7didooltsos Dam0o biisk3n7, Naadiind99' Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7",
     "default_mail_received_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "pr": {
-    "ip_deadline": "Monday, September 19, 2022",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdladiin yi[kaah7"
   },
   "ri": {
-    "online_deadline": "Sunday, October 09, 2022",
-    "ip_deadline": "Sunday, October 09, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Sunday, October 09, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o, N1h1st'47 Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "sc": {
-    "online_deadline": "Sunday, October 09, 2022",
-    "ip_deadline": "Friday, October 07, 2022",
-    "mail_received_deadline": "Must be received by Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, {a'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7"
   },
   "sd": {
-    "mail_received_deadline": "Must be received by Monday, October 24, 2022",
-    "ip_deadline": "Monday, October 24, 2022",
+    "mail_received_deadline": "Kwe'4 yoo[k11[go n7didooltsos Dam0o biisk3n7, Naadiind99' Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7",
     "default_mail_received_deadline": "I'ii'n77[ Bij9j8' t'ahdoo ashdla'ts'11dah yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "tn": {
-    "online_deadline": "Tuesday, October 11, 2022",
-    "ip_deadline": "Tuesday, October 11, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, {a'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "tx": {
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 11, 2022",
-    "ip_deadline": "Tuesday, October 11, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, {a'ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "ut": {
-    "online_deadline": "Friday, October 28, 2022",
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_received_deadline": "Must be received by Friday, October 28, 2022",
+    "mail_received_deadline": "Kwe'4 yoo[k11[go n7didooltsos Nida'iin77sh, Naadiintseeb77 Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo [a'ts'11dah yi[kaah7",
     "default_mail_received_deadline": "I'ii'n77[ Bij9j8' t'ahdoo [a'ts'11dah yi[kaah7 n7didooltsos"
   },
   "vt": {
-    "online_deadline": "Tuesday, November 08, 2022",
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_received_deadline": "Must be received by Friday, November 04, 2022",
+    "mail_received_deadline": "MKwe'4 yoo[k11[go n7didooltsos Dam0o naakiij9, Tseeb77 N7[ch'ihts'0s7, Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_online_deadline": "I'ii'n77[ Bij7j8' t'ahdoo Nida'iin77sh aleehg00",
     "default_mail_received_deadline": "I'ii'n77[ Bij9j8' t'ahdoo Nida'iin77sh yi[kaah7 n7didooltsos"
   },
   "va": {
-    "online_deadline": "Monday, October 17, 2022",
-    "ip_deadline": "Monday, October 17, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Monday, October 17, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o biisk3n7, Tsosts'idts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin naaki yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin naaki yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin naaki yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "vi": {
-    "mail_postmarked_deadline": "Must be postmarked by Sunday, October 09, 2022",
-    "ip_deadline": "Sunday, October 9, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o, N1h1st'47 Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t1diin yi[kaah7"
   },
   "wa": {
-    "online_deadline": "Monday, October 31, 2022",
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_received_deadline": "Must be received by Monday, October 31, 2022",
+    "mail_received_deadline": "Kwe'4 yoo[k11[go n7didooltsos Dam0o biisk3n7, T1diin d00 ba'aan t'11[1'7 Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo tseeb77 yi[kaah7",
     "default_mail_received_deadline": "I'ii'n77[ Bij9j8' t'ahdoo tseeb77 yi[kaah7 n7didooltsos"
   },
   "wv": {
-    "online_deadline": "Tuesday, October 18, 2022",
-    "ip_deadline": "Tuesday, October 18, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Tuesday, October 18, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o naakiij9, Tseeb77ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7",
     "default_online_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "wi": {
-    "online_deadline": "Wednesday, October 19, 2022",
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_postmarked_deadline": "Must be postmarked by Wednesday, October 19, 2022",
+    "mail_postmarked_deadline": "Naaltsoos nin1h1jeehd00 bik'ini'7t'32 doolee[ Dam0o t1g7j9, N1h1st'47ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_online_deadline": "I'ii'n77[ Bij7j8' t'ahdoo t11' g0ne' Dam0o T1g7j9 aleehg00",
     "default_mail_postmarked_deadline": "I'ii'n77[ Bij9j8' t'ahdoo t11' g0ne' Dam0o T1g7j9 yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
   },
   "wy": {
-    "ip_deadline": "Tuesday, November 8, 2022",
-    "mail_received_deadline": "Must be received by Monday, October 24, 2022",
+    "mail_received_deadline": "Kwe'4 yoo[k11[go n7didooltsos Dam0o biisk3n7, Naadiind99' Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah",
     "default_ip_deadline": "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'",
     "default_mail_received_deadline": "I'ii'n77[ Bij9j8' t'ahdoo d99'ts'11dah yi[kaah7 n7didooltsos"
   }

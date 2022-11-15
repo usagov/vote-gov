@@ -9,8 +9,8 @@ type = "register"
 hp_link = "https://www.votecnmi.gov.mp/"
 more_info_link = "https://www.votecnmi.gov.mp/"
 confirm_registration_link = "https://www.votecnmi.gov.mp/"
-ip_deadline = "Friday, September 09, 2022"
-mail_received_deadline = "Must be received by Friday, September 09, 2022"
+ip_deadline = "2022-09-09"
+mail_received_deadline = "Kwe'4 yoo[k11[go n7didooltsos Nida'iin77sh, N1h1st'47 Bini'anint'33tsoh, Naadiin d00 ba'aan naadiiin naakig00 yihah"
 default_ip_deadline = "I'ii'n77[ Bij9j8' t'ahdoo hast3diin yi[kaah7"
 
 +++
