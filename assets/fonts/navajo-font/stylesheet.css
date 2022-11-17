@@ -42,6 +42,10 @@
 *.content-heading,
 *.usa-label,
 *.usa-input,
+*.usa-prose>h2,
+*.usa-prose>h3,
+*.usa-prose>h4,
+*.usa-prose>h5,
 *.usa-select[data-test="state-selection"],
 *[type="button"] {
   font-family: 'times_new_roman_navajoregular';
