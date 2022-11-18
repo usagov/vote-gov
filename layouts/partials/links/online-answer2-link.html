@@ -6,11 +6,11 @@
     {{ $translation.register.online__answer2_link_territory }}
 {{ else }}
     {{- $translation.register.online__answer2_link }}
-{{- end }}
+{{- end -}}
 {{- if ne .Params.more_info_link_translated "true" }}
 {{ if .Params.more_info_link_language_selection }}
 {{ $translation.register.select_link }}
-{{ else }}
-{{ .Site.Params.english_only }}
+{{- else }}
+{{ .Site.Params.english_only -}}
 {{ end }}
-{{ end }}</a>
+{{- end }}</a>

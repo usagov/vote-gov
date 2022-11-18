@@ -3,14 +3,14 @@
 {{ $registration_link := .Params.registration_link_override | default .Params.registration_link }}
 <a href="{{ $registration_link }}{{ if in $registration_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
 {{- if and (isset $translation.register "online__answer1_link_territory") (eq .Params.is_state "false") }}
-    {{ $translation.register.online__answer1_link_territory -}}
+    {{ $translation.register.online__answer1_link_territory }}
 {{ else }}
     {{- $translation.register.online__answer1_link }}
 {{- end -}}
-{{ if ne .Params.registration_link_translated "true" }}
+{{- if ne .Params.registration_link_translated "true" }}
 {{ if .Params.registration_link_language_selection }}
 {{ $translation.register.select_link }}
-{{ else }}
-{{ .Site.Params.english_only }}
+{{- else }}
+{{ .Site.Params.english_only -}}
 {{ end }}
-{{ end }}</a>
+{{- end }}</a>

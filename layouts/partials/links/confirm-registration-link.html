@@ -17,6 +17,6 @@
 {{ if .Params.confirm_registration_link_language_selection }}
 {{ $translation.register.select_link }}
 {{ else }}
-{{ .Site.Params.english_only }}
-{{ end }}
+{{ .Site.Params.english_only -}}
+{{ end -}}
 {{ end }}</a>
