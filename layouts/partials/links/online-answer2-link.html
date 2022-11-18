@@ -2,15 +2,15 @@
 <!-- To use a different link than the default one for any language use the variable name 'more_info_link_override' in states-data.json for that language -->
 {{ $more_info_link := .Params.more_info_link_override | default .Params.more_info_link }}
 <a href="{{ $more_info_link }}{{ if in $more_info_link "?" }}&{{ end }}?ref=voteusa_{{ .Site.Language.Lang }}">
-{{ if and (isset $translation.register "online__answer2_link_territory") (eq .Params.is_state "false") }}
-    {{ $translation.register.online__answer2_link_territory -}}
+{{- if and (isset $translation.register "online__answer2_link_territory") (eq .Params.is_state "false") }}
+    {{ $translation.register.online__answer2_link_territory }}
 {{ else }}
-    {{ $translation.register.online__answer2_link -}}
-{{ end }}
-{{ if ne .Params.more_info_link_translated "true" }}
+    {{- $translation.register.online__answer2_link }}
+{{- end }}
+{{- if ne .Params.more_info_link_translated "true" }}
 {{ if .Params.more_info_link_language_selection }}
-{{ $translation.register.select_link -}}
+{{ $translation.register.select_link }}
 {{ else }}
-{{ .Site.Params.english_only -}}
+{{ .Site.Params.english_only }}
 {{ end }}
 {{ end }}</a>
