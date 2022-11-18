@@ -431,4 +431,8 @@ $logo-width: 130px;
 
 .ext-link {
   white-space: nowrap;
+
+  svg {
+    margin-left: 0.2ex;
+  }
 }
