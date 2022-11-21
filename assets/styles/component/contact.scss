@@ -71,6 +71,18 @@
       vertical-align: text-bottom;
       margin-bottom: 1rem;
     }
+
+    a {
+      text-decoration: none;
+
+      svg {
+        margin-bottom: 35px;
+      }
+    }
+  }
+
+  .twitter-container {
+    margin-top: 2rem;
   }
 
   .vote-txt {
