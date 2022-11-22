@@ -1,7 +1,6 @@
 // Imports -------------- //
-@use 'uswds-core' as * with (
-  $theme-show-compile-warnings: false,
-  $theme-show-notifications: false,
+@use 'uswds-core' as * with ($theme-show-compile-warnings: false,
+$theme-show-notifications: false,
 );
 
 @forward "uswds-core";
@@ -27,109 +26,14 @@
 @forward 'component/alert';
 @forward 'component/sign-up';
 @forward 'component/buttons';
-@forward 'component/homepage';
-@forward 'component/state-page';
 @forward 'component/header';
 @forward 'component/hero';
 
+@forward 'pages/homepage';
+@forward 'pages/state-page';
+@forward 'pages/slicksheet';
 
-// Variables ------------ //
-
-$font-light: 300;
-$font-medium: 400;
-$inner-box-width: 25rem;
-$inner-box-width-state: 35rem;
-$color-blue: #2c7cc7;
-$color-blue-dark: #11385b;
-$color-blue-headings: $color-blue-dark;
-$color-blue-light: #ecf2f8;
-$color-grey: #e1e2e4;
-$color-grey-dark: #4b4b4d;
-$theme-color-base-family: #dcdee0;
-
-svg {
-  max-width: 100%;
-  height: auto;
-}
-
-.bg-blue {
-  background: $color-blue;
-  color: white;
-}
-
-.bold-text {
-  font-weight: bold;
-}
-
-.bg-lightblue {
-  background: $color-blue-light;
-  color: $color-blue-dark;
-}
-
-.bg-grey {
-  background: $color-grey;
-}
-
-.bg-darkblue {
-  background-color: $color-blue-dark;
-}
-
-.text-blue {
-  color: $color-blue-headings;
-}
-
-.text-grey {
-  color: $color-grey-dark;
-}
-
-.font-size-medium {
-  font-size: 1.3em;
-}
-
-.max-width-input {
-  display: inline-block;
-  max-width: 25rem;
-  width: 100%;
-  margin-bottom: 1rem;
-}
-
-label.max-width-input {
-  margin-bottom: 0;
-}
-
-.right-shift {
-  /*
-  move the whole content on the right about 40 pixels to the right
-  (this is due to the spanish logo text being so close to the content on the right)
-  */
-  @include at-media('tablet') {
-    padding-left: 3rem !important;
-  }
-}
-
-.main-heading {
-  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
-
-  @include at-media-max(tablet-lg) {
-    span[hidden] {
-      display: inline;
-    }
-  }
-}
-
-//on both home and state pages
-.registered-resources li {
-  margin-bottom: 6px;
-}
-
-.usa-prose .usa-collection__item {
-  border-top: 0;
-}
-
-.ext-link {
-  white-space: nowrap;
-
-  svg {
-    margin-left: 0.2ex;
-  }
-}
+@forward 'global/colors';
+@forward 'global/typography';
+@forward 'global/media';
+@forward 'global/layout';

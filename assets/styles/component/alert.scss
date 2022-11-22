@@ -2,58 +2,58 @@
 @use '../mixins' as *;
 
 .usa-alert {
-    padding: 0;
-    margin-top: 0;
-    border-left: 0.5rem solid #00bde3;
-  }
-  
-  [dir="rtl"] .usa-alert {
-    border-right: 0.5rem solid #00bde3;
-    border-left: 0;
-  }
-  
-  .usa-alert--info:before {
-    display: none;
-  }
-  
-  .usa-alert--info {
-    background-image: unset;
-    background-color: #e7f6f8;
-    border: 0;
-  
-    .grid-container {
-      background-image: url(../img/info.svg), linear-gradient(transparent, transparent);
-      background-position: 1rem 1rem;
-      background-repeat: no-repeat;
-      background-size: 2rem;
-      display: flex;
-  
-      @include at-media('tablet') {
-        background-position: 1rem 0.3rem;
-      }
+  padding: 0;
+  margin-top: 0;
+  border-left: 0.5rem solid #00bde3;
+}
+
+[dir="rtl"] .usa-alert {
+  border-right: 0.5rem solid #00bde3;
+  border-left: 0;
+}
+
+.usa-alert--info:before {
+  display: none;
+}
+
+.usa-alert--info {
+  background-image: unset;
+  background-color: #e7f6f8;
+  border: 0;
+
+  .grid-container {
+    background-image: url(../img/info.svg), linear-gradient(transparent, transparent);
+    background-position: 1rem 1rem;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    display: flex;
+
+    @include at-media('tablet') {
+      background-position: 1rem 0.3rem;
     }
   }
-  
-  [dir="rtl"] .usa-alert--info {
-    .grid-container {
-      background-position: calc(100% - 1rem) 1rem;
-  
-      @include at-media('tablet') {
-        background-position: calc(100% - 1rem) 0.3rem;
-      }
+}
+
+[dir="rtl"] .usa-alert--info {
+  .grid-container {
+    background-position: calc(100% - 1rem) 1rem;
+
+    @include at-media('tablet') {
+      background-position: calc(100% - 1rem) 0.3rem;
     }
   }
-  
-  .usa-alert--info .usa-alert__body {
-    padding: 0 2.5rem;
-  }
-  
-  .usa-alert--warning .usa-alert__body {
-    padding: 0 2.5rem;
-    line-height: initial;
-  }
-  
-  .usa-alert__text:only-child {
-    margin-bottom: 0.5rem;
-    padding: 0.75rem 0 0.25rem;
-  }
+}
+
+.usa-alert--info .usa-alert__body {
+  padding: 0 2.5rem;
+}
+
+.usa-alert--warning .usa-alert__body {
+  padding: 0 2.5rem;
+  line-height: initial;
+}
+
+.usa-alert__text:only-child {
+  margin-bottom: 0.5rem;
+  padding: 0.75rem 0 0.25rem;
+}

@@ -1,0 +1,27 @@
+@use 'uswds-core' as *;
+@use '../mixins' as *;
+
+.registered-resources li {
+  margin-bottom: 6px;
+}
+
+.right-shift {
+  /*
+  move the whole content on the right about 40 pixels to the right
+  (this is due to the spanish logo text being so close to the content on the right)
+  */
+  @include at-media('tablet') {
+    padding-left: 3rem !important;
+  }
+}
+
+.max-width-input {
+  display: inline-block;
+  max-width: 25rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+label.max-width-input {
+  margin-bottom: 0;
+}
