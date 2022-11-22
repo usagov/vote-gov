@@ -1,0 +1,64 @@
+@use 'uswds-core' as *;
+@use '../variables' as *;
+@use '../mixins' as *;
+@use 'sass:math';
+
+.page-vote {
+    min-height: 100%;
+    min-width: 100%;
+    
+    .site-logo {
+      color: white;
+      text-decoration: none;
+      text-align: center;
+  
+      #SiteLogo {
+        width: $logo-width;
+      }
+  
+      .logo-text {
+        margin: 20px 0 15px;
+      }
+  
+      @include at-media('tablet') {
+        $logo-width: 200px;
+  
+        #SiteLogo {
+          width: $logo-width;
+          bottom: $logo-width * -0.32 + 1;
+          right: calc(50% - #{math.div($logo-width, 2)});
+        }
+  
+        .logo-text {
+          margin: 120px 0 200px;
+        }
+      }
+    }
+  
+    .main-heading {
+      font-size: 2em;
+    }
+  }
+
+.form-register {
+    margin-bottom: 2rem;
+  
+    h2 {
+      margin: 0;
+    }
+  }
+
+  .registered {
+    color: $color-blue-dark;
+    margin: 60px 0 60px;
+  
+    h2 {
+      font-size: 2em;
+    }
+  
+    a {
+      color: $color-blue-dark;
+    }
+  }
+
+  

@@ -1,0 +1,86 @@
+@use 'uswds-core' as *;
+@use '../variables' as *;
+@use '../mixins' as *;
+@use 'sass:math';
+
+.css-arrow {
+    position: relative;
+  
+    &:after {
+      $arrow-width: 100px;
+      $arrow-height: 30px;
+      $arrow-half-width: math.div($arrow-width, 2);
+      content: "";
+      position: absolute;
+      left: calc(50% - #{$arrow-half-width});
+      bottom: -$arrow-height;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: $arrow-height+1 $arrow-half-width 0 $arrow-half-width;
+      border-color: $color-blue transparent transparent transparent;
+      @include at-media('tablet') {
+        content: none;
+      }
+    }
+  }
+
+.site-logo {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+  svg .ballot {
+    transform: translateY(-4px);
+    transition: transform 200ms;
+  }
+
+  &:hover,
+  &:focus {
+    svg .ballot {
+      transform: translateY(0);
+    }
+  }
+
+  #SiteLogo {
+    width: $logo-width;
+    max-width: unset;
+    margin: auto;
+    display: block;
+  }
+
+  @include at-media('mobile') {
+    #SiteLogo {
+      padding: 10px 0 10px;
+    }
+  }
+
+  .logo-text {
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-top: 20px;
+  }
+
+  @include at-media('tablet') {
+    #SiteLogo {
+      position: absolute;
+      bottom: $logo-width * -0.32 + 1;
+      right: calc(50% - #{math.div($logo-width, 2)});
+      margin-bottom: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .logo-text {
+      margin: 40px 0 140px;
+    }
+  }
+}
+
+.align-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+  }
