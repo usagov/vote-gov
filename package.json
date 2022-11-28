@@ -68,7 +68,7 @@
     "gulp-eslint": "^6.0.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-stylelint": "^13.0.0",
-    "hugo-bin": "^0.94.0",
+    "hugo-bin": "^0.95.0",
     "stylelint": "^13.13.1",
     "stylelint-scss": "^3.19.0"
   }
