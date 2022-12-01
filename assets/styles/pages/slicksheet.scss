@@ -1,3 +1,10 @@
 .usa-prose .usa-collection__item {
   border-top: 0;
 }
+
+.align-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 70%;
+}
