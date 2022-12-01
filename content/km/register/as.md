@@ -9,7 +9,6 @@ type = "register"
 hp_link = "https://aselectionoffice.gov/"
 more_info_link = "https://aselectionoffice.gov/"
 confirm_registration_link = "https://aselectionoffice.gov/status.php"
-ip_deadline = "2022-10-11"
 default_ip_deadline = "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
 
 +++
