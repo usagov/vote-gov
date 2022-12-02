@@ -10,7 +10,7 @@
 <div class="usa-accordion" data-test="accordion">
   {{ range $elem_index, $elem_val := (sort $reusablePages ".Name") }}
   <h3 class="usa-accordion__heading">
-    <button
+    <button type="button"
       type="button"
       class="usa-accordion__button"
       data-test="accordion-button"
