@@ -46,6 +46,10 @@
 
 .usa-alert--info .usa-alert__body {
   padding: 0 2.5rem;
+
+  &:before {
+    left: -0.5rem;
+  }
 }
 
 .usa-alert--warning .usa-alert__body {

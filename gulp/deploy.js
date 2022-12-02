@@ -1,15 +1,16 @@
 var gulp = require('gulp');
 var log = require('fancy-log');
 var colors = require('ansi-colors');
-var del = require('del');
+var fs = require('fs');
 var spawn = require('cross-spawn');
 var build = require('./build');
 
-gulp.task('deploy-clean-all', function () {
-  return del([
-    './public',
-    './tmp/public'
-  ]);
+gulp.task('deploy-clean-all', async function () {
+  fs.rmSync(['./public','./tmp/public'
+  ], {
+    force: true,
+    recursive: true
+  });
 });
 
 gulp.task('deploy-create-tmp', function (done) {
