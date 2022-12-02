@@ -12,7 +12,6 @@ more_info_link = "https://www.elections.virginia.gov/registration/how-to-registe
 confirm_registration_link = "https://www.elections.virginia.gov/registration/view-your-info/"
 hp_link_translated = "true"
 more_info_link_translated = "true"
-mail_postmarked_deadline = "debe tener el sello postal a más tardar el lunes, 17 de octubre de 2022"
 confirm_registration_link_translated = "true"
 default_ip_deadline = "hasta 22 días antes del día de las elecciones"
 default_online_deadline = "hasta 22 días antes del día de las elecciones"

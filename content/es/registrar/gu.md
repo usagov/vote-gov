@@ -10,7 +10,6 @@ hp_link = "https://gec.guam.gov/"
 registration_link = "https://gec.guam.gov/"
 more_info_link = "https://gec.guam.gov/"
 confirm_registration_link = "https://gec.guam.gov/validate/"
-mail_received_deadline = "a más tardar debe ser recibida lunes, 24 de octubre de 2022"
 default_ip_deadline = "hasta 10 días antes del día de las elecciones"
 default_mail_received_deadline = "a más tardar debe ser recibida 10 días antes del día de las elecciones"
 

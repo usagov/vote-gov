@@ -9,7 +9,6 @@ type = "register"
 hp_link = "https://www.votecnmi.gov.mp/"
 more_info_link = "https://www.votecnmi.gov.mp/"
 confirm_registration_link = "https://www.votecnmi.gov.mp/"
-mail_received_deadline = "ត្រូវតែបានទទួលត្រឹមថ្ងៃ​ ថ្ងៃសុក្រ 9 ខែកញ្ញា 2022"
 default_ip_deadline = "60 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
 default_mail_received_deadline = "ត្រូវតែបានទទួល 60 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
 

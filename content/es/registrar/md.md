@@ -11,7 +11,6 @@ registration_link = "https://voterservices.elections.maryland.gov/OnlineVoterReg
 more_info_link = "https://www.elections.maryland.gov/voter_registration/application.html"
 confirm_registration_link = "https://voterservices.elections.maryland.gov/VoterSearch"
 registration_link_language_selection = "true"
-mail_postmarked_deadline = "debe tener el sello postal a más tardar el martes, 18 de octubre de 2022"
 confirm_registration_link_language_selection = "true"
 default_ip_deadline = "hasta el mismo día de las elecciones"
 default_online_deadline = "hasta 21 días antes del día de las elecciones"

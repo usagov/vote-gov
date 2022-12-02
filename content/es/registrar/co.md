@@ -13,7 +13,6 @@ confirm_registration_link = "https://www.sos.state.co.us/voter/pages/pub/olvr/fi
 hp_link_translated = "true"
 registration_link_language_selection = "true"
 more_info_link_translated = "true"
-mail_postmarked_deadline = "debe tener el sello postal a más tardar el lunes, 31 de octubre de 2022"
 confirm_registration_link_language_selection = "true"
 default_ip_deadline = "hasta el mismo día de las elecciones"
 default_online_deadline = "hasta 8 días antes del día de las elecciones"

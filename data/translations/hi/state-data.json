@@ -1,12 +1,10 @@
 {
   "al": {
-    "mail_postmarked_deadline": "सोमवार, 24 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 15 दिन पहले ",
     "default_online_deadline": "मतदान दिवस से 15 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 15 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ak": {
-    "mail_postmarked_deadline": "रविवार, 9 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
@@ -15,165 +13,137 @@
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले "
   },
   "az": {
-    "mail_postmarked_deadline": "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_online_deadline": "मतदान दिवस से 29 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 29 दिन पहले पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 29 दिन पहले "
   },
   "ar": {
-    "mail_postmarked_deadline": "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ca": {
-    "mail_postmarked_deadline": "सोमवार, 24 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 15 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 15 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "co": {
-    "mail_postmarked_deadline": "सोमवार, 31 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 8 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 8 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ct": {
-    "mail_postmarked_deadline": "मंगलवार, 1 नवंबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 7 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 7 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "de": {
-    "mail_postmarked_deadline": "मंगलवार, 8 नवंबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से पूर्व चौथा शनिवार",
     "default_online_deadline": "मतदान दिवस से पूर्व चौथा शनिवार",
     "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे शनिवार तक पोस्टमार्क होना चाहिए"
   },
   "dc": {
-    "mail_received_deadline": "मंगलवार, 18 अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_mail_received_deadline": "मतदान दिवस से 21 दिन पहले पहुँच जाना चाहिए",
     "default_online_deadline": "मतदान दिवस से 21 दिन पहले "
   },
   "fl": {
-    "mail_postmarked_deadline": "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 29 दिन पहले ",
     "default_online_deadline": "मतदान दिवस से 29 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 29 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ga": {
-    "mail_postmarked_deadline": "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से पूर्व पांचवां सोमवार",
     "default_online_deadline": "मतदान दिवस से पूर्व पांचवां सोमवार",
     "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व पांचवे सोमवार तक पोस्टमार्क होना चाहिए"
   },
   "gu": {
-    "mail_received_deadline": "सोमवार, 24 अक्तूबर/अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_mail_received_deadline": "मतदान दिवस से 10 दिन पहले पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 10 दिन पहले "
   },
   "hi": {
-    "mail_postmarked_deadline": "सोमवार, 31 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 30 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पहुँच जाना चाहिए"
   },
   "id": {
-    "mail_postmarked_deadline": "शुक्रवार, 14 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 25 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 25 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "il": {
-    "mail_postmarked_deadline": "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 16 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 28 दिन पहले पहुँच जाना चाहिए"
   },
   "in": {
-    "mail_postmarked_deadline": "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 29 दिन पहले ",
     "default_online_deadline": "मतदान दिवस से 29 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 29 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ia": {
-    "mail_postmarked_deadline": "सोमवार, 24 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 15 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 15 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ks": {
-    "mail_postmarked_deadline": "मंगलवार, 18 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 21 दिन पहले ",
     "default_online_deadline": "मतदान दिवस से 21 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ky": {
-    "mail_postmarked_deadline": "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से पूर्व चौथा सोमवार",
     "default_online_deadline": "मतदान दिवस से पूर्व चौथा सोमवार",
     "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे सोमवार तक पहुँच जाना चाहिए "
   },
   "la": {
-    "mail_postmarked_deadline": "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 20 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए",
     "dates__electionday": "शनिवार, 10 दिसंबर 2022"
   },
   "me": {
-    "mail_received_deadline": "मंगलवार, 18 अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_mail_received_deadline": "मतदान दिवस से 21 दिन पहले पहुँच जाना चाहिए"
   },
   "md": {
-    "mail_postmarked_deadline": "मंगलवार, 18 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 21 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ma": {
-    "mail_postmarked_deadline": "शनिवार, 29 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 20 दिन पहले ",
     "default_online_deadline": "मतदान दिवस से 20 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 20 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "mi": {
-    "mail_postmarked_deadline": "सोमवार, 24 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 15 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 15 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "mn": {
-    "mail_received_deadline": "मंगलवार, 18 अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 21 दिन पहले ",
     "default_mail_received_deadline": "मतदान दिवस से 21 दिन पहले पहुँच जाना चाहिए"
   },
   "ms": {
-    "mail_postmarked_deadline": "सोमवार, 10 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "mo": {
-    "mail_postmarked_deadline": "बुधवार, 12 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से पूर्व चौथा बुधवार",
     "default_online_deadline": "मतदान दिवस से पूर्व चौथा बुधवार",
     "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे बुधवार तक पोस्टमार्क होना चाहिए "
   },
   "mt": {
-    "mail_postmarked_deadline": "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ne": {
-    "mail_postmarked_deadline": "शुक्रवार, 21 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से पूर्व दूसरा शुक्रवार",
     "default_online_deadline": "मतदान दिवस से पूर्व तीसरा शुक्रवार",
     "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व तीसरे शुक्रवार तक पोस्टमार्क होना चाहिए"
   },
   "nv": {
-    "mail_postmarked_deadline": "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से पूर्व चौथा मंगलवार",
     "default_online_deadline": "'अर्ली वोटिंग' शुरू होने से पूर्व वाला गुरूवार",
     "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे मंगलवार तक पोस्टमार्क होना चाहिए"
@@ -182,54 +152,45 @@
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी "
   },
   "nj": {
-    "mail_postmarked_deadline": "मंगलवार, 18 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_online_deadline": "मतदान दिवस से 21 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 21 दिन पहले "
   },
   "nm": {
-    "mail_postmarked_deadline": "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से पूर्व शनिवार",
     "default_online_deadline": "मतदान दिवस से 28 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 28 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ny": {
-    "mail_postmarked_deadline": "शुक्रवार, 14 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 25 दिन पहले ",
     "default_online_deadline": "मतदान दिवस से 25 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 25 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "nc": {
-    "mail_postmarked_deadline": "शुक्रवार, 14 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "अर्ली वोटिंग’अवधि के दौरान उसी दिन (‘सेम-डे') पंजीकरण सुविधा उपलब्ध",
     "default_online_deadline": "मतदान दिवस से 25 दिन पहले ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 25 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "nd": {},
   "mp": {
-    "mail_received_deadline": "शुक्रवार, 9 सितंबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 60 दिन पहले",
     "default_mail_received_deadline": "मतदान दिवस से 60 दिन पहले पहुँच जाना चाहिए"
   },
   "oh": {
-    "mail_postmarked_deadline": "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ok": {
-    "mail_postmarked_deadline": "शुक्रवार, 14 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 25 दिन पहले",
     "default_mail_postmarked_deadline": "मतदान दिवस से 25 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "or": {
-    "mail_postmarked_deadline": "मंगलवार, 18 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 21 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 21 दिन पहले",
     "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "pa": {
-    "mail_received_deadline": "सोमवार, 24 अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 15 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 15 दिन पहले",
     "default_mail_received_deadline": "मतदान दिवस से 15 दिन पहले पहुँच जाना चाहिए"
@@ -238,76 +199,63 @@
     "default_ip_deadline": "मतदान दिवस से 50 दिन पहले"
   },
   "ri": {
-    "mail_postmarked_deadline": "रविवार, 9 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "sc": {
-    "mail_postmarked_deadline": "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "sd": {
-    "mail_received_deadline": "सोमवार, 24 अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 15 दिन पहले",
     "default_mail_received_deadline": "मतदान दिवस से 15 दिन पहले पहुँच जाना चाहिए"
   },
   "tn": {
-    "mail_postmarked_deadline": "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "tx": {
-    "mail_postmarked_deadline": "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ut": {
-    "mail_received_deadline": "शुक्रवार, 28 अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 11 दिन पहले",
     "default_mail_received_deadline": "मतदान दिवस से 11 दिन पहले पहुँच जाना चाहिए"
   },
   "vt": {
-    "mail_received_deadline": "शुक्रवार, 4 नवंबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से पूर्व शुक्रवार",
     "default_mail_received_deadline": "मतदान दिवस से पूर्व वाले शुक्रवार तक पहुँच जाना चाहिए"
   },
   "va": {
-    "mail_postmarked_deadline": "सोमवार, 17 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 22 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 22 दिन पहले",
     "default_mail_postmarked_deadline": "मतदान दिवस से 22 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "vi": {
-    "mail_postmarked_deadline": "रविवार, 9 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "wa": {
-    "mail_received_deadline": "सोमवार, 31 अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से 8 दिन पहले",
     "default_mail_received_deadline": "मतदान दिवस से 8 दिन पहले पहुँच जाना चाहिए"
   },
   "wv": {
-    "mail_postmarked_deadline": "मंगलवार, 18 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस से 21 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 21 दिन पहले",
     "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "wi": {
-    "mail_postmarked_deadline": "बुधवार, 19 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_online_deadline": "मतदान दिवस से पूर्व तीसरा बुधवार",
     "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व तीसरे बुधवार तक पोस्टमार्क होना चाहिए"
   },
   "wy": {
-    "mail_received_deadline": "सोमवार, 24 अक्टूबर 2022 तक पहुँच जाना चाहिए",
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_mail_received_deadline": "मतदान दिवस से 14 दिन पहले पहुँच जाना चाहिए"
   }

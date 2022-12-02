@@ -9,7 +9,6 @@ type = "register"
 hp_link = "https://www.vivote.gov/voters/register-vote"
 more_info_link = "https://www.vivote.gov/voters/register-vote"
 confirm_registration_link = "https://www.vivote.gov/voters/lookup"
-mail_postmarked_deadline = "debe tener el sello postal a más tardar el domingo, 9 de octubre de 2022"
 default_ip_deadline = "hasta 30 días antes del día de las elecciones"
 
 +++

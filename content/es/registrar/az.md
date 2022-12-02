@@ -13,7 +13,6 @@ confirm_registration_link = "https://my.arizona.vote/WhereToVote.aspx?s=individu
 hp_link_language_selection = "true"
 registration_link_language_selection = "true"
 more_info_link_language_selection = "true"
-mail_postmarked_deadline = "debe tener el sello postal a más tardar el martes, 11 de octubre de 2022"
 confirm_registration_link_language_selection = "true"
 default_ip_deadline = "hasta 29 días antes del día de las elecciones"
 default_online_deadline = "hasta 29 días antes del día de las elecciones"

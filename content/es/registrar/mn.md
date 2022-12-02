@@ -11,7 +11,6 @@ registration_link = "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegi
 more_info_link = "https://www.sos.state.mn.us/elections-voting/register-to-vote/"
 confirm_registration_link = "https://mnvotes.sos.state.mn.us/VoterStatus.aspx"
 more_info_link_translated = "true"
-mail_received_deadline = "a más tardar debe ser recibida martes, 18 de octubre de 2022"
 confirm_registration_link_translated = "true"
 default_ip_deadline = "hasta el mismo día de las elecciones"
 default_online_deadline = "hasta 21 días antes del día de las elecciones"
