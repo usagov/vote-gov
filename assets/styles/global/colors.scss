@@ -1,0 +1,19 @@
+@use '../variables' as *;
+
+.bg-blue {
+  background: $color-blue;
+  color: white;
+}
+
+.bg-lightblue {
+  background: $color-blue-light;
+  color: $color-blue-dark;
+}
+
+.bg-grey {
+  background: $color-grey;
+}
+
+.bg-darkblue {
+  background-color: $color-blue-dark;
+}

@@ -1,0 +1,29 @@
+@use 'uswds-core' as *;
+@use '../variables' as *;
+@use '../mixins' as *;
+
+.bold-text {
+  font-weight: bold;
+}
+
+.text-blue {
+  color: $color-blue-headings;
+}
+
+.text-grey {
+  color: $color-grey-dark;
+}
+
+.font-size-medium {
+  font-size: 1.3em;
+}
+
+.main-heading {
+  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+
+  @include at-media-max(tablet-lg) {
+    span[hidden] {
+      display: inline;
+    }
+  }
+}
