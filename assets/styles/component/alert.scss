@@ -20,18 +20,6 @@
   background-image: unset;
   background-color: #e7f6f8;
   border: 0;
-
-  .grid-container {
-    background-image: url(../img/info.svg), linear-gradient(transparent, transparent);
-    background-position: 1rem 1rem;
-    background-repeat: no-repeat;
-    background-size: 2rem;
-    display: flex;
-
-    @include at-media('tablet') {
-      background-position: 1rem 0.3rem;
-    }
-  }
 }
 
 [dir="rtl"] .usa-alert--info {
@@ -45,16 +33,11 @@
 }
 
 .usa-alert--info .usa-alert__body {
-  padding: 0 2.5rem;
+  padding-left: 2.5rem;
 
   &:before {
     left: -0.5rem;
   }
-}
-
-.usa-alert--warning .usa-alert__body {
-  padding: 0 2.5rem;
-  line-height: initial;
 }
 
 .usa-alert__text:only-child {
