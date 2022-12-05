@@ -6,7 +6,7 @@
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq 15 aghneq Nakmikivigem sivungani."
   },
   "ak": {
-    "mail_postmarked_deadline": "Tuyumayaghqaguq Santi, Naayvaghvik 09, 2022-mi",
+    "mail_postmarked_deadline": "Tuyumayaghqaguq Santi, Naayvaghvik 9, 2022-mi",
     "default_ip_deadline": "30 aghneq sivungani Nakmikivigem",
     "default_online_deadline": "30 aghneq sivungani Nakmikivigem",
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq 30 aghneq Nakmikivigem sivungani."
@@ -38,13 +38,13 @@
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq 8 aghneq Nakmikivigem sivunganeng."
   },
   "ct": {
-    "mail_postmarked_deadline": "Tuyumayaghqaguq Tuwesti, Aqumuq 01, 2022-mi",
+    "mail_postmarked_deadline": "Tuyumayaghqaguq Tuwesti, Aqumuq 1, 2022-mi",
     "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
     "default_online_deadline": "7 aghneq sivungani Nakmikivigem",
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq 7 aghneq Nakmikivigem sivunganeng."
   },
   "de": {
-    "mail_postmarked_deadline": "Tuyumayaghqaguq Tuwesti, Aqumuq 08, 2022-mi",
+    "mail_postmarked_deadline": "Tuyumayaghqaguq Tuwesti, Aqumuq 8, 2022-mi",
     "default_ip_deadline": "Estamatanga Sarerim Nakmikivigem sivunganeng.",
     "default_online_deadline": "Estamatanga Sarerim Nakmikivigem sivunganeng.",
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq estamaatanganeng Sareringaneng Nakmikivigem sivungani."
@@ -207,7 +207,7 @@
   },
   "nd": {},
   "mp": {
-    "mail_received_deadline": "Kaasimayaghqaguq Friday-a, September 09, 2022-mi",
+    "mail_received_deadline": "Kaasimayaghqaguq Friday-a, September 9, 2022-mi",
     "default_ip_deadline": "60 aghneq Nakmikivigem sivunganeng ",
     "default_mail_received_deadline": "60 aghneq Nakmikivigem sivunganeng "
   },
@@ -238,7 +238,7 @@
     "default_ip_deadline": "50 aghneq Nakmikivigem sivunganeng "
   },
   "ri": {
-    "mail_postmarked_deadline": "Tuyumayaghqaguq Santi, Naayvaghvik 09, 2022-mi",
+    "mail_postmarked_deadline": "Tuyumayaghqaguq Santi, Naayvaghvik 9, 2022-mi",
     "default_ip_deadline": "30 aghneq Nakmikivigem sivunganeng.",
     "default_online_deadline": "30 aghneq Nakmikivigem sivunganeng.",
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq 30 aghneq Nakmikivigem sivunganeng."
@@ -272,7 +272,7 @@
     "default_mail_received_deadline": "Kaasimayaghqaguq 11 aghneq Nakmikivigem sivunganeng"
   },
   "vt": {
-    "mail_received_deadline": "Kaasimayaghqaguq Friday-a, Aqumuq 04, 2022-mi",
+    "mail_received_deadline": "Kaasimayaghqaguq Friday-a, Aqumuq 4, 2022-mi",
     "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
     "default_online_deadline": "Friday-nga Nakmikim sivungani",
     "default_mail_received_deadline": "Kaasimayaghqaguq Friday-ngan Nakmikivigem sivunganeng"
@@ -284,7 +284,7 @@
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq 22 aghneq Nakmikivigem sivunganeng."
   },
   "vi": {
-    "mail_postmarked_deadline": "Tuyumayaghqaguq Santi, Naayvaghvik 09, 2022-mi",
+    "mail_postmarked_deadline": "Tuyumayaghqaguq Santi, Naayvaghvik 9, 2022-mi",
     "default_ip_deadline": "30 aghneq Nakmikivigem sivunganeng.",
     "default_mail_postmarked_deadline": "30 aghneq Nakmikivigem sivunganeng."
   },

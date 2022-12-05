@@ -8,7 +8,7 @@
   "ak": {
     "hp_link_translated": "true",
     "more_info_link_translated": "true",
-    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el domingo, 09 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el domingo, 9 de octubre de 2022",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
     "default_online_deadline": "hasta 30 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 30 días antes del día de las elecciones",
@@ -63,14 +63,14 @@
   },
   "ct": {
     "registration_link_language_selection": "true",
-    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 01 de noviembre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 1 de noviembre de 2022",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta 7 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 7 días antes del día de las elecciones"
   },
   "de": {
     "registration_link_translated": "true",
-    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 08 de noviembre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el martes, 8 de noviembre de 2022",
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta el cuarto sábado antes del día de las elecciones",
     "default_online_deadline": "hasta el cuarto sábado antes del día de las elecciones",
@@ -261,7 +261,7 @@
   "nd": {
   },
   "mp": {
-    "mail_received_deadline": "a más tardar debe ser recibida viernes, 09 de septiembre de ",
+    "mail_received_deadline": "a más tardar debe ser recibida viernes, 9 de septiembre de ",
     "default_ip_deadline": "hasta 60 días antes del día de las elecciones"
   },
   "oh": {
@@ -303,7 +303,7 @@
   "ri": {
     "registration_link_language_selection": "true",
     "more_info_link_translated": "true",
-    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el domingo, 09 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el domingo, 9 de octubre de 2022",
     "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones",
     "default_online_deadline": "hasta 30 días antes del día de las elecciones",
@@ -345,7 +345,7 @@
     "default_mail_received_deadline": "a más tardar debe ser recibida 11 días antes del día de las elecciones"
   },
   "vt": {
-    "mail_received_deadline": "a más tardar debe ser recibida viernes, 04 de noviembre de 2022",
+    "mail_received_deadline": "a más tardar debe ser recibida viernes, 4 de noviembre de 2022",
     "default_ip_deadline": "hasta el mismo día de las elecciones",
     "default_online_deadline": "hasta el viernes anterior al día de las elecciones",
     "default_mail_received_deadline": "a más tardar debe ser recibida a más tardar el viernes anterior al día de las elecciones"
@@ -363,7 +363,7 @@
     "confirm_registration_link_override": "https://www.elections.virginia.gov/es/registro/ver-su-informacion/"
   },
   "vi": {
-    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el domingo, 09 de octubre de 2022",
+    "mail_postmarked_deadline": "debe tener el sello postal a más tardar el domingo, 9 de octubre de 2022",
     "default_ip_deadline": "hasta 30 días antes del día de las elecciones"
   },
   "wa": {

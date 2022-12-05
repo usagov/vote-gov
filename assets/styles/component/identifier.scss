@@ -12,8 +12,8 @@
     padding-bottom: 4rem;
   }
 
-  > .grid-container {
-    > * + * {
+  >.grid-container {
+    >* + * {
       margin-top: 40px;
     }
   }
@@ -34,7 +34,7 @@
     }
 
     @include at-media('tablet') {
-      + li {
+      +li {
         padding-top: 20px;
       }
     }

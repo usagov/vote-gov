@@ -1,4 +1,4 @@
 +++
-title = "Vote.gov आपकी मदद करता है:"
+title = "Vote.gov की सहायता से:"
 headless = true
 +++
