@@ -1,14 +1,16 @@
 var gulp = require('gulp');
 var log = require('fancy-log');
 var colors = require('ansi-colors');
-var del = require('del');
+var fs = require('fs');
 var pkg = require('../package.json');
 var spawn = require('cross-spawn');
 
-
- function cleanAll() {
-   return del(['./static/assets/**/*']);
- }
+ async function cleanAll() {
+  fs.rmSync('./static/assets/**/*', {
+    force: true,
+    recursive: true
+  });
+}
 
 function printPackageInfo (done){
   log(
