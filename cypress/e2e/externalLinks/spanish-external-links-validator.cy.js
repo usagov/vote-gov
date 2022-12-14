@@ -56,7 +56,7 @@ describe("Spanish External Link Validator Test", () => {
               url: link.prop('href'),
               failOnStatusCode: false
             }).then((response) => {
-              expect(response.status).to.oneOf([200])
+              expect(response.status).to.eq(200)
             })
           }
         })
