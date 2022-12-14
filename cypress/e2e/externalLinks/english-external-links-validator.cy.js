@@ -4,6 +4,7 @@ const allPages = require("../../fixtures/site-pages.json");
 
 const excludedlinks = [
   'https://voterregistration.ct.gov/OLVR/welcome.do?ref=voteusa_en',
+  // the above link will throw error code "read ECONNRESET" this will not pass through cypress test and has been checked manually but has not been added to `excluded-links.cy.js` test 
   'https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1?ref=voteusa_en',
   'https://www.sec.state.ma.us/ovr/?ref=voteusa_en',
   'https://olvr.ohiosos.gov/?ref=voteusa_en',
@@ -12,7 +13,11 @@ const excludedlinks = [
   'https://elections.hawaii.gov/voters/registration/?ref=voteusa_en',
   'https://vote.sos.ri.gov/Home/RegistertoVote?ref=voteusa_en',
   'https://vote.sos.ri.gov/Voter/RegisterToVote?ref=voteusa_en',
-  'https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0&?ref=voteusa_en'
+  'https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0&?ref=voteusa_en',
+  // sc links
+  'https://vrems.scvotes.sc.gov/Voter/Login',
+  'https://scvotes.gov/voters/register-to-vote/?ref=voteusa_en',
+  'https://info.scvotes.sc.gov/eng/ovr/start.aspx?ref=voteusa_en'
 ];
 
 describe("External Link Validator Test", () => {
@@ -31,7 +36,7 @@ describe("External Link Validator Test", () => {
       : null;
   const pages = singlePage !== null ? singlePage : allPages;
   pages.forEach((page) => {
-    it(
+    it( 
       `${page.name === "" ? "home" : page.name}`,
       () =>
         Cypress.env("retries") === true
@@ -57,5 +62,5 @@ describe("External Link Validator Test", () => {
         })
       }
     );
-  });
+  });    
 });
