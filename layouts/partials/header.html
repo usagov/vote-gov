@@ -25,7 +25,11 @@
               <span class="usa-banner__button-text">{{ $translation.homepage.banner__banner_action }}</span>
             </button>
           </div>
+
+          <div class="switcher-desktop">
           {{ partial "language-switcher.html" . }}
+          </div>
+
         </div>
       </div>
       <div class="usa-banner__content usa-accordion__content" id="gov-banner">
@@ -69,7 +73,9 @@
   </div>
   {{ end }}
 
-    {{ partial "language-switcher1.html" . }}
+  <div class="switcher-mobile">
+      {{ partial "language-switcher1.html" . }}
+  </div>
 
 </header>
 
