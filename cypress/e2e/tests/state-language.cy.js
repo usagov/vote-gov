@@ -2,7 +2,7 @@
 
 describe('Validate state language options', () => {
 
-it('Test Alaska', () => {
+it.only('Test Alaska', () => {
 cy.visit("localhost:1313/register/ak/")
   // Test Spanish.
   cy.get('[data-test="language-switcher"]').select("Español (Spanish)")
