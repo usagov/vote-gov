@@ -34,8 +34,8 @@ describe('Validate Excluded pages load', () =>{
     it(`check english ${url}`, () => {
       cy.visit(url, {failOnStatusCode: false})
         // eslint-disable-next-line cypress/no-unnecessary-waiting
-        cy.wait(1000)
-        cy.get('body').invoke('text').should('have.length.gt', 0)
+        cy.wait(3000)
+        cy.get('body').children().invoke('text').should('have.length.gt', 0)
         
         // .should('not.be.empty')
         
