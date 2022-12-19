@@ -16,8 +16,8 @@ const excludedlinks = [
   'https://vote.sos.ri.gov/HomeSpanish/UpdateVoterRecord?ActiveFlag=0&?ref=voteusa_es',
     // sc links
     'https://vrems.scvotes.sc.gov/Voter/Login',
-    'https://scvotes.gov/voters/register-to-vote/?ref=voteusa_en',
-    'https://info.scvotes.sc.gov/eng/ovr/start.aspx?ref=voteusa_en'
+    'https://scvotes.gov/voters/register-to-vote/?ref=voteusa_es',
+    'https://info.scvotes.sc.gov/eng/ovr/start.aspx?ref=voteusa_es'
 ];
 
 describe("Spanish External Link Validator Test", () => {
