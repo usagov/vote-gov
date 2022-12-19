@@ -15,7 +15,7 @@ const excludedlinks = [
   'https://vote.sos.ri.gov/Voter/RegisterToVote?ref=voteusa_en',
   'https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0&?ref=voteusa_en',
   // sc links
-  'https://vrems.scvotes.sc.gov/Voter/Login',
+  'https://vrems.scvotes.sc.gov/Voter/Login?ref=voteusa_en',
   'https://scvotes.gov/voters/register-to-vote/?ref=voteusa_en',
   'https://info.scvotes.sc.gov/eng/ovr/start.aspx?ref=voteusa_en'
 ];
