@@ -1,18 +1,13 @@
 name: Vote.gov - External links validator test
 
-# on:
-#   schedule:
-#     - cron: '0 13 * * 1'  
-#     - cron: '0 13 * * 4'
-
 on:
- push:
-  branches:
-      - vote-705
+  schedule:
+    - cron: '0 13 * * 1'  
+    - cron: '0 13 * * 4'
 
 jobs:
   build:
-    # name:
+    name:
     runs-on: ubuntu-latest
     env:
       LANG: en_US.UTF-8
