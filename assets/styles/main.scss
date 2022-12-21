@@ -17,6 +17,7 @@ $theme-show-notifications: false,
 @forward "usa-link";
 @forward "usa-prose";
 @forward "usa-intro";
+@forward "usa-language-selector";
 
 @forward 'component/language-switcher';
 @forward 'component/identifier';
