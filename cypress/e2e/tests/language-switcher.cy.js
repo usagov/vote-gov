@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-const urls = [
+const testPages = [
   "localhost:1313/", 
   "localhost:1313/register/ak/", 
   "localhost:1313/register/as/", 
@@ -10,9 +10,9 @@ const urls = [
 
 describe('Test Language Switcher Function', () => {
 
-  urls.forEach((url) => {
-    it(`check spanish ${url}`, () => {
-      cy.visit(url)
+  testPages.forEach((page) => {
+    it(`test spanish ${page}`, () => {
+      cy.visit(page)
       cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
         cy.get(options[0]).find('li').then(li => {
           cy.get(li[1]).click()
@@ -21,8 +21,8 @@ describe('Test Language Switcher Function', () => {
         )
     })
 
-    it(`check bengali ${url}`, () => {
-      cy.visit(url)
+    it(`test bengali ${page}`, () => {
+      cy.visit(page)
       cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
         cy.get(options[0]).find('li').then(li => {
           cy.get(li[2]).click()
@@ -31,8 +31,8 @@ describe('Test Language Switcher Function', () => {
         )
     })
 
-    it(`check simplified chinese ${url}`, () => {
-      cy.visit(url)
+    it(`test simplified chinese ${page}`, () => {
+      cy.visit(page)
       cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
         cy.get(options[0]).find('li').then(li => {
           cy.get(li[3]).click()
@@ -41,8 +41,8 @@ describe('Test Language Switcher Function', () => {
         )
     })
 
-    it(`check traditional chinese ${url}`, () => {
-      cy.visit(url)
+    it(`test traditional chinese ${page}`, () => {
+      cy.visit(page)
       cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
         cy.get(options[0]).find('li').then(li => {
           cy.get(li[4]).click()
@@ -51,8 +51,8 @@ describe('Test Language Switcher Function', () => {
         )
     })
 
-    it(`check hindi ${url}`, () => {
-      cy.visit(url)
+    it(`test hindi ${page}`, () => {
+      cy.visit(page)
       cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
         cy.get(options[0]).find('li').then(li => {
           cy.get(li[5]).click()
@@ -61,8 +61,8 @@ describe('Test Language Switcher Function', () => {
         )
     })
 
-    it(`check khmer ${url}`, () => {
-      cy.visit(url)
+    it(`test khmer ${page}`, () => {
+      cy.visit(page)
       cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
         cy.get(options[0]).find('li').then(li => {
           cy.get(li[6]).click()
@@ -71,8 +71,8 @@ describe('Test Language Switcher Function', () => {
         )
     })
 
-    it(`check korean ${url}`, () => {
-      cy.visit(url)
+    it(`test korean ${page}`, () => {
+      cy.visit(page)
       cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
         cy.get(options[0]).find('li').then(li => {
           cy.get(li[7]).click()
@@ -81,8 +81,8 @@ describe('Test Language Switcher Function', () => {
         )
     })
 
-    it(`check navajo ${url}`, () => {
-      cy.visit(url)
+    it(`test navajo ${page}`, () => {
+      cy.visit(page)
       cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
         cy.get(options[0]).find('li').then(li => {
           cy.get(li[8]).click()
@@ -91,8 +91,8 @@ describe('Test Language Switcher Function', () => {
         )
     })
 
-    it(`check tagalog ${url}`, () => {
-      cy.visit(url)
+    it(`test tagalog ${page}`, () => {
+      cy.visit(page)
       cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
         cy.get(options[0]).find('li').then(li => {
           cy.get(li[9]).click()
@@ -101,8 +101,8 @@ describe('Test Language Switcher Function', () => {
         )
     })
 
-    it(`check vietnamese ${url}`, () => {
-      cy.visit(url)
+    it(`test vietnamese ${page}`, () => {
+      cy.visit(page)
       cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
         cy.get(options[0]).find('li').then(li => {
           cy.get(li[10]).click()
@@ -111,8 +111,8 @@ describe('Test Language Switcher Function', () => {
         )
     })
 
-  it(`check yup'ik ${url}`, () => {
-    cy.visit(url)
+  it(`test yup'ik ${page}`, () => {
+    cy.visit(page)
     cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
       cy.get(options[0]).find('li').then(li => {
         cy.get(li[11]).click()
