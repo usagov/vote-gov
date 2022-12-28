@@ -11,6 +11,10 @@ module.exports = defineConfig({
       "runMode": 2,
       // "openMode": 0
     },
+    chromeWebSecurity: false,
+    responsetimeout: 10000,
+    "blockHosts": ["www.google-analytics.com", "ssl.google-analytics.com"],
+
 
     // We've imported your old cypress plugins here.
     // You may want to clean this up later by importing these.
