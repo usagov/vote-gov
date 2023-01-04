@@ -10,8 +10,8 @@ hp_link = "https://www.sos.mo.gov/elections"
 registration_link = "https://s1.sos.mo.gov/elections/voterregistration/"
 more_info_link = "https://www.sos.mo.gov/elections/goVoteMissouri/register"
 confirm_registration_link = "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx"
-default_ip_deadline = "मतदान दिवस से पूर्व चौथा बुधवार"
-default_online_deadline = "मतदान दिवस से पूर्व चौथा बुधवार"
-default_mail_postmarked_deadline = "मतदान दिवस से पूर्व चौथे बुधवार तक पोस्टमार्क होना चाहिए "
+default_ip_deadline = "मतदान दिवस से 27 दिन पहले"
+default_online_deadline = "मतदान दिवस से 27 दिन पहले"
+default_mail_postmarked_deadline = "मतदान दिवस से 27 दिन पहले पोस्टमार्क होना चाहिए"
 
 +++

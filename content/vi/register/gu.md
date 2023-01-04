@@ -10,7 +10,8 @@ hp_link = "https://gec.guam.gov/"
 registration_link = "https://gec.guam.gov/"
 more_info_link = "https://gec.guam.gov/"
 confirm_registration_link = "https://gec.guam.gov/validate/"
-default_mail_received_deadline = "Phải được nhận vào trước 10 ngày trước ngày Bầu Cử"
-default_ip_deadline = "10 ngày trước Ngày Bầu Cử"
+default_ip_deadline = "11 ngày trước Ngày Bầu Cử"
+default_online_deadline = "11 ngày trước ngày Bầu Cử"
+default_mail_received_deadline = "Phải được nhận vào trước 11 ngày trước ngày Bầu Cử"
 
 +++

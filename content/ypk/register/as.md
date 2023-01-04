@@ -9,6 +9,7 @@ type = "register"
 hp_link = "https://aselectionoffice.gov/"
 more_info_link = "https://aselectionoffice.gov/"
 confirm_registration_link = "https://aselectionoffice.gov/status.php"
-default_ip_deadline = "30 aghneq sivungani Nakmikivigem"
+default_ip_deadline = "29 aghneq Nakmikivigem sivunganeng."
+default_mail_received_deadline = "Kaasimayaghqaguq 29 aghneq Nakmikivigem sivunganeng."
 
 +++

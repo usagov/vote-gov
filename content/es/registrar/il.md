@@ -14,7 +14,7 @@ registration_link_translated = "true"
 confirm_registration_link_translated = "true"
 default_ip_deadline = "hasta el mismo día de las elecciones"
 default_online_deadline = "hasta 16 días antes del día de las elecciones"
-default_mail_postmarked_deadline = "debe tener el sello del correo a más tardar 28 días antes del día de las elecciones"
+default_mail_postmarked_deadline = "debe tener el sello del correo 28 días antes del día de las elecciones"
 confirm_registration_link_override = "https://spanish-ova.elections.il.gov/"
 
 +++

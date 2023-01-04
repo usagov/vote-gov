@@ -10,8 +10,8 @@ hp_link = "https://sos.ga.gov/index.php/elections"
 registration_link = "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button"
 more_info_link = "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button"
 confirm_registration_link = "https://mvp.sos.ga.gov/s/"
-default_ip_deadline = "ថ្ងៃច័ន្ទទីប្រាំមុនថ្ងៃបោះឆ្នោត"
-default_online_deadline = "ថ្ងៃច័ន្ទទីប្រាំមុនថ្ងៃបោះឆ្នោត"
-default_mail_postmarked_deadline = "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ត្រឹមថ្ងៃច័ន្ទទីប្រាំមុនថ្ងៃបោះឆ្នោត"
+default_ip_deadline = "29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
+default_online_deadline = "29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
+default_mail_postmarked_deadline = "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
 
 +++

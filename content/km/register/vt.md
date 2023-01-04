@@ -11,7 +11,7 @@ registration_link = "https://olvr.vermont.gov/"
 more_info_link = "https://sos.vermont.gov/elections/voters/registration/"
 confirm_registration_link = "https://mvp.vermont.gov/"
 default_ip_deadline = "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត"
-default_online_deadline = "ថ្ងៃសុក្រមុនថ្ងៃបោះឆ្នោត"
-default_mail_received_deadline = "ត្រូវតែបានទទួលត្រឹមថ្ងៃសុក្រមុនថ្ងៃបោះឆ្នោត"
+default_online_deadline = "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត"
+default_mail_received_deadline = "ត្រូវតែបានទទួល 0 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
 
 +++

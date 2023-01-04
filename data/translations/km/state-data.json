@@ -10,7 +10,8 @@
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "as": {
-    "default_ip_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
+    "default_ip_deadline": "29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_mail_received_deadline": "ត្រូវតែបានទទួល 29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "az": {
     "default_online_deadline": "29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
@@ -37,9 +38,9 @@
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 7 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "de": {
-    "default_ip_deadline": "ថ្ងៃសៅរ៍ទីបួនមុនថ្ងៃបោះឆ្នោត",
-    "default_online_deadline": "ថ្ងៃសៅរ៍ទីបួនមុនថ្ងៃបោះឆ្នោត",
-    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ត្រឹមថ្ងៃសៅរ៍ទីបួន មុនថ្ងៃបោះឆ្នោត"
+    "default_ip_deadline": "24 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_online_deadline": "24 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 24 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "dc": {
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
@@ -52,18 +53,19 @@
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ga": {
-    "default_ip_deadline": "ថ្ងៃច័ន្ទទីប្រាំមុនថ្ងៃបោះឆ្នោត",
-    "default_online_deadline": "ថ្ងៃច័ន្ទទីប្រាំមុនថ្ងៃបោះឆ្នោត",
-    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ត្រឹមថ្ងៃច័ន្ទទីប្រាំមុនថ្ងៃបោះឆ្នោត"
+    "default_ip_deadline": "29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_online_deadline": "29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "gu": {
-    "default_mail_received_deadline": "ត្រូវតែបានទទួល 1០ ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
-    "default_ip_deadline": "1០ ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
+    "default_ip_deadline": "11 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_online_deadline": "11 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_mail_received_deadline": "ត្រូវតែបានទទួល 11 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "hi": {
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
-    "default_online_deadline": "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
-    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
+    "default_online_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
+    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 8 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "id": {
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
@@ -91,8 +93,8 @@
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ky": {
-    "default_ip_deadline": "ថ្ងៃច័ន្ទទីបួនមុនថ្ងៃបោះឆ្នោត",
-    "default_online_deadline": "ថ្ងៃច័ន្ទទីបួនមុនថ្ងៃបោះឆ្នោត",
+    "default_ip_deadline": "29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_online_deadline": "29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "la": {
@@ -111,9 +113,9 @@
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ma": {
-    "default_ip_deadline": "20 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
-    "default_online_deadline": "20 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
-    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 2០ ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
+    "default_ip_deadline": "10 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_online_deadline": "10 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 10 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "mi": {
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
@@ -130,26 +132,27 @@
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "mo": {
-    "default_ip_deadline": "ថ្ងៃពុធទីបួនមុនថ្ងៃបោះឆ្នោត",
-    "default_online_deadline": "ថ្ងៃពុធទីបួនមុនថ្ងៃបោះឆ្នោត",
-    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ត្រឹមថ្ងៃពុធទីបួនមុនថ្ងៃបោះឆ្នោត"
+    "default_ip_deadline": "27 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_online_deadline": "27 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 27 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "mt": {
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "ne": {
-    "default_ip_deadline": "ថ្ងៃសុក្រទីពីរមុនថ្ងៃបោះឆ្នោត",
-    "default_online_deadline": "ថ្ងៃសុក្រទីបីមុនថ្ងៃបោះឆ្នោត",
-    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ត្រឹមថ្ងៃសុក្រទីបីមុនថ្ងៃបោះឆ្នោត"
+    "default_ip_deadline": "11 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_online_deadline": "18 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 18 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "nv": {
-    "default_ip_deadline": "ថ្ងៃអង្គារទីបួនមុនថ្ងៃបោះឆ្នោត",
-    "default_online_deadline": "ថ្ងៃព្រហស្បតិ៍មុនថ្ងៃបោះឆ្នោតលឿនចាប់ផ្តើម",
-    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ត្រឹមថ្ងៃអង្គារទីបួនមុនថ្ងៃបោះឆ្នោត"
+    "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
+    "default_online_deadline": "5 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 28 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "nh": {
-    "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត"
+    "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
+    "default_mail_received_deadline": "ត្រូវតែបានទទួល 13 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "nj": {
     "default_online_deadline": "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
@@ -157,7 +160,7 @@
     "default_ip_deadline": "21 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "nm": {
-    "default_ip_deadline": "ថ្ងៃសៅរ៍មុនថ្ងៃបោះឆ្នោត",
+    "default_ip_deadline": "28 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "28 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 28 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
@@ -228,8 +231,8 @@
   },
   "vt": {
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
-    "default_online_deadline": "ថ្ងៃសុក្រមុនថ្ងៃបោះឆ្នោត",
-    "default_mail_received_deadline": "ត្រូវតែបានទទួលត្រឹមថ្ងៃសុក្រមុនថ្ងៃបោះឆ្នោត"
+    "default_online_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
+    "default_mail_received_deadline": "ត្រូវតែបានទទួល 0 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "va": {
     "default_ip_deadline": "22 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
@@ -252,8 +255,8 @@
   },
   "wi": {
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
-    "default_online_deadline": "ថ្ងៃពុធទីបីមុនថ្ងៃបោះឆ្នោត",
-    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ត្រឹមថ្ងៃពុធទីបីមុនថ្ងៃបោះឆ្នោត"
+    "default_online_deadline": "20 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
+    "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 20 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "wy": {
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",

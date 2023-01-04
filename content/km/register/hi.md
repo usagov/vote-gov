@@ -11,7 +11,7 @@ registration_link = "https://olvr.hawaii.gov/"
 more_info_link = "https://elections.hawaii.gov/voters/registration/"
 confirm_registration_link = "https://olvr.hawaii.gov/"
 default_ip_deadline = "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត"
-default_online_deadline = "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
-default_mail_postmarked_deadline = "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
+default_online_deadline = "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត"
+default_mail_postmarked_deadline = "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 8 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
 
 +++

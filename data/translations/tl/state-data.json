@@ -10,7 +10,8 @@
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "as": {
-    "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon"
+    "default_ip_deadline": "29 araw bago ang Araw ng Eleksyon",
+    "default_mail_received_deadline": "Dapat matanggap 29 araw bago ang Araw ng Eleksyon"
   },
   "az": {
     "default_online_deadline": "29 araw bago ang Araw ng Eleksyon",
@@ -37,9 +38,9 @@
     "default_mail_postmarked_deadline": "Dapat na naka-postmark 7 araw bago ang Araw ng Eleksyon"
   },
   "de": {
-    "default_ip_deadline": "Ika-apat na Sabado bago ang  Araw ng Eleksyon",
-    "default_online_deadline": "Ika-apat na Sabado bago ang  Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": " Dapat na naka-postmark sa ika-apat na Sabado bago ang Araw ng Eleksyon"
+    "default_ip_deadline": "24 araw bago ang Araw ng Eleksyon",
+    "default_online_deadline": "24 araw bago ang Araw ng Eleksyon",
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  24 araw bago ang Araw ng Eleksyon"
   },
   "dc": {
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
@@ -52,18 +53,19 @@
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  29 araw bago ang Araw ng Eleksyon"
   },
   "ga": {
-    "default_ip_deadline": "Ika-limang Lunes bago ang Araw ng Eleksyon",
-    "default_online_deadline": "Ika-limang Lunes bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": " Dapat na naka-postmark sa ika-limang Lunes bago ang Araw ng Eleksyon"
+    "default_ip_deadline": "29 araw bago ang Araw ng Eleksyon",
+    "default_online_deadline": "29 araw bago ang Araw ng Eleksyon",
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  29 araw bago ang Araw ng Eleksyon"
   },
   "gu": {
-    "default_mail_received_deadline": "Dapat matanggap 10 araw bago ang Araw ng Eleksyon",
-    "default_ip_deadline": "10 araw bago ang Araw ng Eleksyon"
+    "default_ip_deadline": "11 araw bago ang Araw ng Eleksyon",
+    "default_online_deadline": "11 araw bago ang Araw ng Eleksyon",
+    "default_mail_received_deadline": "Dapat matanggap 11 araw bago ang Araw ng Eleksyon"
   },
   "hi": {
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
-    "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat matanggap 30 araw bago ang Araw ng Eleksyon"
+    "default_online_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  8 araw bago ang Araw ng Eleksyon"
   },
   "id": {
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
@@ -73,7 +75,7 @@
   "il": {
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_online_deadline": "16 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat matanggap 28 araw bago ang Araw ng Eleksyon"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  28 araw bago ang Araw ng Eleksyon"
   },
   "in": {
     "default_ip_deadline": "29 araw bago ang Araw ng Eleksyon",
@@ -91,9 +93,9 @@
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  21 araw bago ang Araw ng Eleksyon"
   },
   "ky": {
-    "default_ip_deadline": "Ika-apat na Lunes bago ang Araw ng Eleksyon",
-    "default_online_deadline": "Ika-apat na Lunes bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat matanggap sa Ika-apat na Lunes bago ang Araw ng Eleksyon"
+    "default_ip_deadline": "29 araw bago ang Araw ng Eleksyon",
+    "default_online_deadline": "29 araw bago ang Araw ng Eleksyon",
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  29 araw bago ang Araw ng Eleksyon"
   },
   "la": {
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
@@ -111,9 +113,9 @@
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  21 araw bago ang Araw ng Eleksyon"
   },
   "ma": {
-    "default_ip_deadline": "20 araw bago ang Araw ng Eleksyon",
-    "default_online_deadline": "20 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark  20 araw bago ang Araw ng Eleksyon"
+    "default_ip_deadline": "10 araw bago ang Araw ng Eleksyon",
+    "default_online_deadline": "10 araw bago ang Araw ng Eleksyon",
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  10 araw bago ang Araw ng Eleksyon"
   },
   "mi": {
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
@@ -130,26 +132,27 @@
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "mo": {
-    "default_ip_deadline": "Ika-apat na Miyerkoles bago ang Araw ng Eleksyon",
-    "default_online_deadline": "Ika-apat na Miyerkoles bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark sa ika-apat na Miyerkoles bago ang Araw ng Eleksyon"
+    "default_ip_deadline": "27 araw bago ang Araw ng Eleksyon",
+    "default_online_deadline": "27 araw bago ang Araw ng Eleksyon",
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  27 araw bago ang Araw ng Eleksyon"
   },
   "mt": {
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "ne": {
-    "default_ip_deadline": "Ika-dalawang  Biyernes bago ang Araw ng Eleksyon",
-    "default_online_deadline": "Ika-tatlong Biyernes bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": " Dapat naka-postmark sa ika-tatlong Biyernes bago ang Araw ng Eleksyon"
+    "default_ip_deadline": "11 araw bago ang Araw ng Eleksyon",
+    "default_online_deadline": "18 araw bago ang Araw ng Eleksyon",
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  18 araw bago ang Araw ng Eleksyon"
   },
   "nv": {
-    "default_ip_deadline": "Ika-apat na Martes bago ang  Araw ng Eleksyon",
-    "default_online_deadline": "Huwebes bago magsimula ang maagang pagboto",
-    "default_mail_postmarked_deadline": "Dapat naka-postmark sa ika-apat na Martes bago ang Araw ng Eleksyon"
+    "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
+    "default_online_deadline": "5 araw bago ang Araw ng Eleksyon",
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  28 araw bago ang Araw ng Eleksyon"
   },
   "nh": {
-    "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon"
+    "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
+    "default_mail_received_deadline": "Dapat matanggap 13 araw bago ang Araw ng Eleksyon"
   },
   "nj": {
     "default_online_deadline": "21 araw bago ang Araw ng Eleksyon",
@@ -157,7 +160,7 @@
     "default_ip_deadline": "21 araw bago ang Araw ng Eleksyon"
   },
   "nm": {
-    "default_ip_deadline": "Sabado bago ang Araw ng Eleksyon",
+    "default_ip_deadline": "28 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "28 araw bago ang Araw ng Eleksyon",
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  28 araw bago ang Araw ng Eleksyon"
   },
@@ -206,7 +209,7 @@
   "sc": {
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
     "default_online_deadline": "30 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark 30 araw bago ang Araw ng Eleksyon"
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  30 araw bago ang Araw ng Eleksyon"
   },
   "sd": {
     "default_ip_deadline": "15 araw bago ang Araw ng Eleksyon",
@@ -228,8 +231,8 @@
   },
   "vt": {
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
-    "default_online_deadline": "Biyernes bago ang Araw ng Eleksyon",
-    "default_mail_received_deadline": "Dapat matanggap sa Biyernes bago ang Araw ng Eleksyon"
+    "default_online_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
+    "default_mail_received_deadline": "Dapat matanggap 0 araw bago ang Araw ng Eleksyon"
   },
   "va": {
     "default_ip_deadline": "22 araw bago ang Araw ng Eleksyon",
@@ -252,8 +255,8 @@
   },
   "wi": {
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
-    "default_online_deadline": "Ika-tatlong Miyerkoles bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat naka-postmark sa ika-tatlong Miyerkoles bago ang Araw ng Eleksyon"
+    "default_online_deadline": "20 araw bago ang Araw ng Eleksyon",
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark  20 araw bago ang Araw ng Eleksyon"
   },
   "wy": {
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",

@@ -10,7 +10,8 @@
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "as": {
-    "default_ip_deadline": "मतदान दिवस से 30 दिन पहले "
+    "default_ip_deadline": "मतदान दिवस से 29 दिन पहले",
+    "default_mail_received_deadline": "मतदान दिवस से 29 दिन पहले पहुँच जाना चाहिए"
   },
   "az": {
     "default_online_deadline": "मतदान दिवस से 29 दिन पहले ",
@@ -37,9 +38,9 @@
     "default_mail_postmarked_deadline": "मतदान दिवस से 7 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "de": {
-    "default_ip_deadline": "मतदान दिवस से पूर्व चौथा शनिवार",
-    "default_online_deadline": "मतदान दिवस से पूर्व चौथा शनिवार",
-    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे शनिवार तक पोस्टमार्क होना चाहिए"
+    "default_ip_deadline": "मतदान दिवस से 24 दिन पहले",
+    "default_online_deadline": "मतदान दिवस से 24 दिन पहले",
+    "default_mail_postmarked_deadline": "मतदान दिवस से 24 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "dc": {
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
@@ -52,18 +53,19 @@
     "default_mail_postmarked_deadline": "मतदान दिवस से 29 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ga": {
-    "default_ip_deadline": "मतदान दिवस से पूर्व पांचवां सोमवार",
-    "default_online_deadline": "मतदान दिवस से पूर्व पांचवां सोमवार",
-    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व पांचवे सोमवार तक पोस्टमार्क होना चाहिए"
+    "default_ip_deadline": "मतदान दिवस से 29 दिन पहले",
+    "default_online_deadline": "मतदान दिवस से 29 दिन पहले",
+    "default_mail_postmarked_deadline": "मतदान दिवस से 29 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "gu": {
-    "default_mail_received_deadline": "मतदान दिवस से 10 दिन पहले पहुँच जाना चाहिए",
-    "default_ip_deadline": "मतदान दिवस से 10 दिन पहले "
+    "default_ip_deadline": "मतदान दिवस से 11 दिन पहले",
+    "default_online_deadline": "मतदान दिवस से 11 दिन पहले",
+    "default_mail_received_deadline": "मतदान दिवस से 11 दिन पहले पहुँच जाना चाहिए"
   },
   "hi": {
-    "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
-    "default_online_deadline": "मतदान दिवस से 30 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पहुँच जाना चाहिए"
+    "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी",
+    "default_online_deadline": "मतदान दिवस तक और मतदान के दिन भी",
+    "default_mail_postmarked_deadline": "मतदान दिवस से 8 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "id": {
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
@@ -72,8 +74,8 @@
   },
   "il": {
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
-    "default_online_deadline": "मतदान दिवस से 16 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 28 दिन पहले पहुँच जाना चाहिए"
+    "default_online_deadline": "मतदान दिवस से 16 दिन पहले",
+    "default_mail_postmarked_deadline": "मतदान दिवस से 28 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "in": {
     "default_ip_deadline": "मतदान दिवस से 29 दिन पहले ",
@@ -91,9 +93,9 @@
     "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ky": {
-    "default_ip_deadline": "मतदान दिवस से पूर्व चौथा सोमवार",
-    "default_online_deadline": "मतदान दिवस से पूर्व चौथा सोमवार",
-    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे सोमवार तक पहुँच जाना चाहिए "
+    "default_ip_deadline": "मतदान दिवस से 29 दिन पहले",
+    "default_online_deadline": "मतदान दिवस से 29 दिन पहले",
+    "default_mail_postmarked_deadline": "मतदान दिवस से 29 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "la": {
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
@@ -111,9 +113,9 @@
     "default_mail_postmarked_deadline": "मतदान दिवस से 21 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ma": {
-    "default_ip_deadline": "मतदान दिवस से 20 दिन पहले ",
-    "default_online_deadline": "मतदान दिवस से 20 दिन पहले ",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 20 दिन पहले पोस्टमार्क होना चाहिए"
+    "default_ip_deadline": "मतदान दिवस से 10 दिन पहले",
+    "default_online_deadline": "मतदान दिवस से 10 दिन पहले",
+    "default_mail_postmarked_deadline": "मतदान दिवस से 10 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "mi": {
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
@@ -130,26 +132,27 @@
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "mo": {
-    "default_ip_deadline": "मतदान दिवस से पूर्व चौथा बुधवार",
-    "default_online_deadline": "मतदान दिवस से पूर्व चौथा बुधवार",
-    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे बुधवार तक पोस्टमार्क होना चाहिए "
+    "default_ip_deadline": "मतदान दिवस से 27 दिन पहले",
+    "default_online_deadline": "मतदान दिवस से 27 दिन पहले",
+    "default_mail_postmarked_deadline": "मतदान दिवस से 27 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "mt": {
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
     "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ne": {
-    "default_ip_deadline": "मतदान दिवस से पूर्व दूसरा शुक्रवार",
-    "default_online_deadline": "मतदान दिवस से पूर्व तीसरा शुक्रवार",
-    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व तीसरे शुक्रवार तक पोस्टमार्क होना चाहिए"
+    "default_ip_deadline": "मतदान दिवस से 11 दिन पहले",
+    "default_online_deadline": "मतदान दिवस से 18 दिन पहले",
+    "default_mail_postmarked_deadline": "मतदान दिवस से 18 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "nv": {
-    "default_ip_deadline": "मतदान दिवस से पूर्व चौथा मंगलवार",
-    "default_online_deadline": "'अर्ली वोटिंग' शुरू होने से पूर्व वाला गुरूवार",
-    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व चौथे मंगलवार तक पोस्टमार्क होना चाहिए"
+    "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी",
+    "default_online_deadline": "मतदान दिवस से 5 दिन पहले",
+    "default_mail_postmarked_deadline": "मतदान दिवस से 28 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "nh": {
-    "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी "
+    "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी",
+    "default_mail_received_deadline": "मतदान दिवस से 13 दिन पहले पहुँच जाना चाहिए"
   },
   "nj": {
     "default_online_deadline": "मतदान दिवस से 21 दिन पहले ",
@@ -157,8 +160,8 @@
     "default_ip_deadline": "मतदान दिवस से 21 दिन पहले "
   },
   "nm": {
-    "default_ip_deadline": "मतदान दिवस से पूर्व शनिवार",
-    "default_online_deadline": "मतदान दिवस से 28 दिन पहले ",
+    "default_ip_deadline": "मतदान दिवस से 28 दिन पहले",
+    "default_online_deadline": "मतदान दिवस से 28 दिन पहले",
     "default_mail_postmarked_deadline": "मतदान दिवस से 28 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "ny": {
@@ -227,9 +230,9 @@
     "default_mail_received_deadline": "मतदान दिवस से 11 दिन पहले पहुँच जाना चाहिए"
   },
   "vt": {
-    "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
-    "default_online_deadline": "मतदान दिवस से पूर्व शुक्रवार",
-    "default_mail_received_deadline": "मतदान दिवस से पूर्व वाले शुक्रवार तक पहुँच जाना चाहिए"
+    "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी",
+    "default_online_deadline": "मतदान दिवस तक और मतदान के दिन भी",
+    "default_mail_received_deadline": "मतदान दिवस से 0 दिन पहले पहुँच जाना चाहिए"
   },
   "va": {
     "default_ip_deadline": "मतदान दिवस से 22 दिन पहले",
@@ -252,8 +255,8 @@
   },
   "wi": {
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
-    "default_online_deadline": "मतदान दिवस से पूर्व तीसरा बुधवार",
-    "default_mail_postmarked_deadline": "मतदान दिवस से पूर्व तीसरे बुधवार तक पोस्टमार्क होना चाहिए"
+    "default_online_deadline": "मतदान दिवस से 20 दिन पहले",
+    "default_mail_postmarked_deadline": "मतदान दिवस से 20 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "wy": {
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",

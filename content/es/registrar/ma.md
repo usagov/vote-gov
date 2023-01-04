@@ -12,8 +12,8 @@ more_info_link = "https://www.sec.state.ma.us/ele/eleifv/howreg.htm"
 confirm_registration_link = "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"
 registration_link_language_selection = "true"
 confirm_registration_link_language_selection = "true"
-default_ip_deadline = "hasta 20 días antes del día de las elecciones"
-default_online_deadline = "hasta 20 días antes del día de las elecciones"
-default_mail_postmarked_deadline = "debe tener el sello del correo 20 días antes del día de las elecciones"
+default_ip_deadline = "hasta 10 días antes del día de las elecciones"
+default_online_deadline = "hasta 10 días antes del día de las elecciones"
+default_mail_postmarked_deadline = "debe tener el sello del correo 10 días antes del día de las elecciones"
 
 +++

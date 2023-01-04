@@ -10,7 +10,8 @@
         "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "as": {
-        "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে"
+        "default_ip_deadline": "নির্বাচনের দিন ২৯ দিন আগে",
+        "default_mail_received_deadline": "নির্বাচনের দিন ২৯ দিন আগে পেতে হবে"
     },
     "az": {
         "default_online_deadline": "নির্বাচনের দিন ২৯ দিন আগে",
@@ -37,9 +38,9 @@
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ৭ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "de": {
-        "default_ip_deadline": "নির্বাচনের আগে চতুর্থ শনিবার",
-        "default_online_deadline": "নির্বাচনের আগে চতুর্থ শনিবার",
-        "default_mail_postmarked_deadline": "নির্বাচনের দিন আগে চতুর্থ শনিবারের মধ্যে পোস্টমার্ক করা আবশ্যক"
+        "default_ip_deadline": "নির্বাচনের দিন ২৪ দিন আগে",
+        "default_online_deadline": "নির্বাচনের দিন ২৪ দিন আগে",
+        "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৪ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "dc": {
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
@@ -52,19 +53,19 @@
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৯ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "ga": {
-        "default_ip_deadline": "নির্বাচনের আগে পঞ্চম সোমবার",
-        "default_online_deadline": "নির্বাচনের আগে পঞ্চম সোমবার",
-        "default_mail_postmarked_deadline": "নির্বাচনের দিন আগে পঞ্চম সোমবারের মধ্যে পোস্টমার্ক করা আবশ্যক"
+        "default_ip_deadline": "নির্বাচনের দিন ২৯ দিন আগে",
+        "default_online_deadline": "নির্বাচনের দিন ২৯ দিন আগে",
+        "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৯ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "gu": {
-        "default_mail_received_deadline": "নির্বাচনের দিন ১০ দিন আগে পেতে হবে",
-        "default_ip_deadline": "নির্বাচনের ১০ দিন আগে"
+        "default_ip_deadline": "নির্বাচনের দিন ১১ দিন আগে",
+        "default_online_deadline": "নির্বাচনের ১১ দিন আগে",
+        "default_mail_received_deadline": "নির্বাচনের দিন ১১ দিন আগে পেতে হবে"
     },
     "hi": {
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "default_online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
-        "default_mail_postmarked_deadline": "নির্বাচনের দিন ৮ দিন আগে পোস্টমার্ক করা আবশ্যক"
-    },
+        "default_online_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
+        "default_mail_postmarked_deadline": "নির্বাচনের দিন ৮ দিন আগে পোস্টমার্ক করা আবশ্যক"    },
     "id": {
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের ২৫ দিন আগে",
@@ -72,7 +73,7 @@
     },
     "il": {
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "default_online_deadline": "নির্বাচনের ১৬ দিন আগে",
+        "default_online_deadline": "নির্বাচনের দিন ১৬ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৮ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "in": {
@@ -91,9 +92,9 @@
         "default_mail_postmarked_deadline": "২১ দিন পোস্টমার্ক করা আবশ্যক"
     },
     "ky": {
-        "default_ip_deadline": "নির্বাচনের আগের চতুর্থ সোমবার",
-        "default_online_deadline": "নির্বাচনের আগের চতুর্থ সোমবার",
-        "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
+        "default_ip_deadline": "নির্বাচনের দিন ২৯ দিন আগে",
+        "default_online_deadline": "নির্বাচনের দিন ২৯ দিন আগে",
+        "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৯ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "la": {
         "dates_electionday": "শনিবার, ১০ ডিসেম্বর, ২০২২",
@@ -111,9 +112,9 @@
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২১ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "ma": {
-        "default_ip_deadline": "নির্বাচনের দিন 2০ দিন আগে",
-        "default_online_deadline": "নির্বাচনের দিন 2০ দিন আগে",
-        "default_mail_postmarked_deadline": "নির্বাচনের দিন ২০ দিন আগে পোস্টমার্ক করা আবশ্যক"
+        "default_ip_deadline": "নির্বাচনের দিন ১০ দিন আগে",
+        "default_online_deadline": "নির্বাচনের দিন ১০ দিন আগে",
+        "default_mail_postmarked_deadline": "নির্বাচনের দিন ১০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "mi": {
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
@@ -130,26 +131,27 @@
         "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "mo": {
-        "default_ip_deadline": "নির্বাচনের আগে চতুর্থ বুধবার",
-        "default_online_deadline": "নির্বাচনের আগে চতুর্থ বুধবার",
-        "default_mail_postmarked_deadline": "নির্বাচনের আগে চতুর্থ বুধবারের মধ্যে পোস্টমার্ক করতে হবে"
+        "default_ip_deadline": "নির্বাচনের দিন ২৭ দিন আগে",
+        "default_online_deadline": "নির্বাচনের দিন ২৭ দিন আগে",
+        "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৭ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "mt": {
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "ne": {
-        "default_online_deadline": "নির্বাচনের আগের তৃতীয় শুক্রবার",
-        "default_mail_postmarked_deadline": "নির্বাচনের দিন আগে তৃতীয় শুক্রবারের মধ্যে পোস্টমার্ক করতে হবে",
-        "default_ip_deadline": "নির্বাচনের আগের দ্বিতীয় শুক্রবার"
+        "default_ip_deadline": "নির্বাচনের দিন ১১ দিন আগে",
+        "default_online_deadline": "নির্বাচনের দিন ১৮ দিন আগে",
+        "default_mail_postmarked_deadline": "নির্বাচনের দিন ১৮ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "nv": {
-        "default_online_deadline": "বৃহস্পতিবার ভোট শুরু হওয়ার আগে",
-        "default_mail_postmarked_deadline": "নির্বাচনের দিন আগে চতুর্থ মঙ্গলবারের মধ্যে পোস্টমার্ক করা আবশ্যক",
-        "default_ip_deadline": "নির্বাচনের আগে চতুর্থ মঙ্গলবার"
+        "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
+        "default_online_deadline": "নির্বাচনের দিন ৫ দিন আগে",
+        "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৮ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "nh": {
-        "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ"
+        "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
+        "default_mail_received_deadline": "নির্বাচনের দিন ১৩ দিন আগে পেতে হবে"
     },
     "nj": {
         "default_online_deadline": "নির্বাচনের ২১ দিন আগে",
@@ -157,7 +159,7 @@
         "default_ip_deadline": "নির্বাচনের ২১ দিন আগে"
     },
     "nm": {
-        "default_ip_deadline": "নির্বাচনের আগের দিন শনিবার",
+        "default_ip_deadline": "নির্বাচনের দিন ২৮ দিন আগে",
         "default_online_deadline": "নির্বাচনের দিন ২৮ দিন আগে",
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৮ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
@@ -203,9 +205,9 @@
         "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "sc": {
-        "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
-        "default_online_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
-        "default_mail_postmarked_deadline": "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
+        "default_ip_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
+        "default_online_deadline": "নির্বাচনের দিন ৩০ দিন আগে",
+        "default_mail_postmarked_deadline": "নির্বাচনের দিন ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "sd": {
         "default_ip_deadline": "নির্বাচনের ১৫ দিন আগে",
@@ -227,7 +229,7 @@
     },
     "vt": {
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "default_online_deadline": "নির্বাচনের আগে শুক্রবার",
+        "default_online_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_mail_received_deadline": "নির্বাচনের দিন আগে শুক্রবারের মধ্যে গ্রহণ করা আবশ্যক"
     },
     "va": {
@@ -250,8 +252,8 @@
     },
     "wi": {
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "default_online_deadline": "নির্বাচনের আগের তৃতীয় বুধবার",
-        "default_mail_postmarked_deadline": "নির্বাচনের দিন আগে তৃতীয় বুধবারের মধ্যে পোস্টমার্ক করতে হবে"
+        "default_online_deadline": "নির্বাচনের দিন ২০ দিন আগে",
+        "default_mail_postmarked_deadline": "নির্বাচনের দিন ২০ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "wy": {
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",

@@ -10,8 +10,8 @@ hp_link = "https://elect.ky.gov/Pages/default.aspx"
 registration_link = "https://vrsws.sos.ky.gov/ovrweb/"
 more_info_link = "https://elect.ky.gov/Resources/Pages/Registration.aspx"
 confirm_registration_link = "https://vrsws.sos.ky.gov/VIC/"
-default_ip_deadline = "選舉日前的第四個星期一"
-default_online_deadline = "選舉日前的第四個星期一"
-default_mail_received_deadline = "必須在選舉日之前的第四個星期一之前蓋上郵戳"
+default_ip_deadline = "選舉日前 29 天"
+default_online_deadline = "選舉日前 29 天"
+default_mail_postmarked_deadline = "選舉當日前 29 天郵戳為憑"
 
 +++

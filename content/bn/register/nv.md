@@ -10,8 +10,8 @@ hp_link = "https://www.nvsos.gov/sos/elections"
 registration_link = "https://www.nvsos.gov/SOSVoterServices/start.aspx"
 more_info_link = "https://www.nvsos.gov/sos/elections/voters/registering-to-vote"
 confirm_registration_link = "https://www.nvsos.gov/votersearch/"
-default_online_deadline = "বৃহস্পতিবার ভোট শুরু হওয়ার আগে"
-default_mail_postmarked_deadline = "নির্বাচনের দিন আগে চতুর্থ মঙ্গলবারের মধ্যে পোস্টমার্ক করা আবশ্যক"
-default_ip_deadline = "নির্বাচনের আগে চতুর্থ মঙ্গলবার"
+default_ip_deadline = "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ"
+default_online_deadline = "নির্বাচনের দিন ৫ দিন আগে"
+default_mail_postmarked_deadline = "নির্বাচনের দিন ২৮ দিন আগে পোস্টমার্ক করা আবশ্যক"
 
 +++

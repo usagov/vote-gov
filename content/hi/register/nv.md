@@ -10,8 +10,8 @@ hp_link = "https://www.nvsos.gov/sos/elections"
 registration_link = "https://www.nvsos.gov/SOSVoterServices/start.aspx"
 more_info_link = "https://www.nvsos.gov/sos/elections/voters/registering-to-vote"
 confirm_registration_link = "https://www.nvsos.gov/votersearch/"
-default_ip_deadline = "मतदान दिवस से पूर्व चौथा मंगलवार"
-default_online_deadline = "'अर्ली वोटिंग' शुरू होने से पूर्व वाला गुरूवार"
-default_mail_postmarked_deadline = "मतदान दिवस से पूर्व चौथे मंगलवार तक पोस्टमार्क होना चाहिए"
+default_ip_deadline = "मतदान दिवस तक और मतदान के दिन भी"
+default_online_deadline = "मतदान दिवस से 5 दिन पहले"
+default_mail_postmarked_deadline = "मतदान दिवस से 28 दिन पहले पोस्टमार्क होना चाहिए"
 
 +++

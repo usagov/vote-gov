@@ -10,8 +10,8 @@ hp_link = "https://sos.ga.gov/index.php/elections"
 registration_link = "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button"
 more_info_link = "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button"
 confirm_registration_link = "https://mvp.sos.ga.gov/s/"
-default_ip_deadline = "Tallimaatanga Mantim Nakmikivigem sivunganeng."
-default_online_deadline = "Tallimaatanga Mantim Nakmikivigem sivunganeng."
-default_mail_postmarked_deadline = "Tuyumayaghqagu tallimaatanganeng Mantim Nakmikivigem sivunganeng."
+default_ip_deadline = "29 aghneq Nakmikivigem sivunganeng."
+default_online_deadline = "29 aghneq Nakmikivigem sivunganeng."
+default_mail_postmarked_deadline = "Tuyumayaghqaguq 29 aghneq Nakmikivigem sivungani."
 
 +++

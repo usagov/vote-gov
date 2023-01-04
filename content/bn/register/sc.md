@@ -10,8 +10,8 @@ hp_link = "https://www.scvotes.gov/"
 registration_link = "https://info.scvotes.sc.gov/eng/ovr/start.aspx"
 more_info_link = "https://scvotes.gov/voters/register-to-vote/"
 confirm_registration_link = "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
-default_ip_deadline = "নির্বাচনী দিনের ৩০ দিন আগে"
-default_online_deadline = "নির্বাচনী দিনের ৩০ দিন আগে"
-default_mail_postmarked_deadline = "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
+default_ip_deadline = "নির্বাচনের দিন ৩০ দিন আগে"
+default_online_deadline = "নির্বাচনের দিন ৩০ দিন আগে"
+default_mail_postmarked_deadline = "নির্বাচনের দিন ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
 
 +++

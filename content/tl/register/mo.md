@@ -10,8 +10,8 @@ hp_link = "https://www.sos.mo.gov/elections"
 registration_link = "https://s1.sos.mo.gov/elections/voterregistration/"
 more_info_link = "https://www.sos.mo.gov/elections/goVoteMissouri/register"
 confirm_registration_link = "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx"
-default_ip_deadline = "Ika-apat na Miyerkoles bago ang Araw ng Eleksyon"
-default_online_deadline = "Ika-apat na Miyerkoles bago ang Araw ng Eleksyon"
-default_mail_postmarked_deadline = "Dapat na naka-postmark sa ika-apat na Miyerkoles bago ang Araw ng Eleksyon"
+default_ip_deadline = "27 araw bago ang Araw ng Eleksyon"
+default_online_deadline = "27 araw bago ang Araw ng Eleksyon"
+default_mail_postmarked_deadline = "Dapat na naka-postmark  27 araw bago ang Araw ng Eleksyon"
 
 +++

@@ -13,7 +13,7 @@ confirm_registration_link = "https://voterportal.servis.sos.state.nm.us/WhereToV
 hp_link_language_selection = "true"
 registration_link_language_selection = "true"
 more_info_link_language_selection = "true"
-default_ip_deadline = "hasta el sábado antes del día de las elecciones"
+default_ip_deadline = "hasta 28 días antes del día de las elecciones"
 default_online_deadline = "hasta 28 días antes del día de las elecciones"
 default_mail_postmarked_deadline = "debe tener el sello del correo 28 días antes del día de las elecciones"
 

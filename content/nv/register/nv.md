@@ -10,8 +10,8 @@ hp_link = "https://www.nvsos.gov/sos/elections"
 registration_link = "https://www.nvsos.gov/SOSVoterServices/start.aspx"
 more_info_link = "https://www.nvsos.gov/sos/elections/voters/registering-to-vote"
 confirm_registration_link = "https://www.nvsos.gov/votersearch/"
-default_ip_deadline = "I'ii'n77[ Bij7j8' t'ahdoo d99' g0ne' Dam0o Naakij9 aleehg00"
-default_online_deadline = "I'ii'n77[ Bij7 t'11 bich'8'd00 i'ii'n77[go Dam0o D99'7j9"
-default_mail_postmarked_deadline = "I'ii'n77[ Bij9j8' t'ahdoo d99' g0ne' Dam0o Naakij9 yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
+default_ip_deadline = "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'"
+default_online_deadline = "I'ii'n77[ Bij9j8' t'ahdoo ashdla yi[kaah7"
+default_mail_postmarked_deadline = "I'ii'n77[ Bij9j8' t'ahdoo naadiintseeb77 yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
 
 +++

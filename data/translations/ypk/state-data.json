@@ -10,8 +10,9 @@
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq 30 aghneq Nakmikivigem sivungani."
   },
   "as": {
-    "default_ip_deadline": "30 aghneq sivungani Nakmikivigem"
-  },
+    "default_ip_deadline": "29 aghneq Nakmikivigem sivunganeng.",
+    "default_mail_received_deadline": "Kaasimayaghqaguq 29 aghneq Nakmikivigem sivunganeng."
+    },
   "az": {
     "default_online_deadline": "29 aghneq sivungani Nakmikivigem",
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq 29 aghneq Nakmikivigem sivungani.",
@@ -37,9 +38,9 @@
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq 7 aghneq Nakmikivigem sivunganeng."
   },
   "de": {
-    "default_ip_deadline": "Estamatanga Sarerim Nakmikivigem sivunganeng.",
-    "default_online_deadline": "Estamatanga Sarerim Nakmikivigem sivunganeng.",
-    "default_mail_postmarked_deadline": "Tuyumayaghqaguq estamaatanganeng Sareringaneng Nakmikivigem sivungani."
+    "default_ip_deadline": "24 aghneq Nakmikivigem sivunganeng.",
+    "default_online_deadline": "24 aghneq Nakmikivigem sivunganeng.",
+    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 24 aghneq Nakmikivigem sivungani."
   },
   "dc": {
     "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
@@ -52,18 +53,19 @@
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq 29 aghneq Nakmikivigem sivunganeng."
   },
   "ga": {
-    "default_ip_deadline": "Tallimaatanga Mantim Nakmikivigem sivunganeng.",
-    "default_online_deadline": "Tallimaatanga Mantim Nakmikivigem sivunganeng.",
-    "default_mail_postmarked_deadline": "Tuyumayaghqagu tallimaatanganeng Mantim Nakmikivigem sivunganeng."
+    "default_ip_deadline": "29 aghneq Nakmikivigem sivunganeng.",
+    "default_online_deadline": "29 aghneq Nakmikivigem sivunganeng.",
+    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 29 aghneq Nakmikivigem sivungani."
   },
   "gu": {
-    "default_mail_received_deadline": "Kaasimayaghqaguq 10 aghneq Nakmikivigem sivunganeng",
-    "default_ip_deadline": "10 aghneq Nakmikivigem sivunganeng."
+    "default_ip_deadline": "11 aghneq Nakmikivigem sivunganeng.",
+    "default_online_deadline": "11 aghneq Nakmikivigem sivunganeng.",
+    "default_mail_received_deadline": "Kaasimayaghqaguq 11 aghneq Nakmikivigem sivunganeng."
   },
   "hi": {
     "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
-    "default_online_deadline": "30 aghneq Nakmikivigem sivunganeng.",
-    "default_mail_postmarked_deadline": "Kaasimayaghqaguq 30 aghneq Nakmikivigem sivunganeng"
+    "default_online_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
+    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 30 aghneq Nakmikivigem sivungani."
   },
   "id": {
     "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
@@ -73,7 +75,7 @@
   "il": {
     "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
     "default_online_deadline": "16 aghneq Nakmikivigem sivunganeng.",
-    "default_mail_postmarked_deadline": "Kaasimayaghqaguq 28 aghneq Nakmikivigem sivunganeng"
+    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 28 aghneq Nakmikivigem sivungani."
   },
   "in": {
     "default_ip_deadline": "29 aghneq Nakmikivigem sivunganeng.",
@@ -91,9 +93,9 @@
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq 21 aghneq Nakmikivigem sivunganeng."
   },
   "ky": {
-    "default_ip_deadline": "Estamaatanga Mantim Nakmikivigem sivunganeng.",
-    "default_online_deadline": "Estamaatanga Mantim Nakmikivigem sivunganeng.",
-    "default_mail_postmarked_deadline": "Kaasimayaghqaguq estamaatanganeng Mantinganeng Nakmikivigem sivunganeng"
+    "default_ip_deadline": "29 aghneq Nakmikivigem sivunganeng.",
+    "default_online_deadline": "29 aghneq Nakmikivigem sivunganeng.",
+    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 29 aghneq Nakmikivigem sivungani."
   },
   "la": {
     "default_ip_deadline": "30 aghneq Nakmikivigem sivunganeng.",
@@ -111,9 +113,9 @@
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq 21 aghneq Nakmikivigem sivunganeng."
   },
   "ma": {
-    "default_ip_deadline": "20 aghneq Nakmikivigem sivunganeng.",
-    "default_online_deadline": "20 aghneq Nakmikivigem sivunganeng.",
-    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 20 aghneq Nakmikivigem sivunganeng."
+    "default_ip_deadline": "10 aghneq Nakmikivigem sivunganeng.",
+    "default_online_deadline": "10 aghneq Nakmikivigem sivunganeng.",
+    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 10 aghneq Nakmikivigem sivungani."
   },
   "mi": {
     "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
@@ -130,26 +132,27 @@
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq 30 aghneq Nakmikivigem sivunganeng."
   },
   "mo": {
-    "default_ip_deadline": "Estamatanga Winestim Nakmikivigem sivunganeng ",
-    "default_online_deadline": "Estamatanga Winestim Nakmikivigem sivunganeng ",
-    "default_mail_postmarked_deadline": "Tuyumayaghqaguq estaamatanganeng Winestinganeng Nakmikivigem sivungani."
+    "default_ip_deadline": "27 aghneq Nakmikivigem sivunganeng.",
+    "default_online_deadline": "27 aghneq Nakmikivigem sivunganeng.",
+    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 27 aghneq Nakmikivigem sivungani."
   },
   "mt": {
     "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
     "default_mail_postmarked_deadline": "Tuyumayaghqaguq 30 aghneq Nakmikivigem sivunganeng."
   },
   "ne": {
-    "default_ip_deadline": "Tuunglii Efraaytim Nakmikivigem sivunganeng",
-    "default_online_deadline": "Pingaayaa Friday-m Nakmikivigem sivunganeng",
-    "default_mail_postmarked_deadline": "Tuyumayaghqaguq pingayaaneng Friday-nganeng Nakmikivigem sivungani."
+    "default_ip_deadline": "11 aghneq Nakmikivigem sivunganeng.",
+    "default_online_deadline": "18 aghneq Nakmikivigem sivunganeng.",
+    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 18 aghneq Nakmikivigem sivungani."
   },
   "nv": {
-    "default_ip_deadline": "Estamatanga Tuwestim Nakmikivigem sivunganeng ",
-    "default_online_deadline": "Thursday-nga nakmimiyagham sivungani",
-    "default_mail_postmarked_deadline": "Tuyumayaghqaguq estaamatanganeng Tuwestinganeng Nakmikivigem sivungani."
+    "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
+    "default_online_deadline": "5 aghneq Nakmikivigem sivunganeng.",
+    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 28 aghneq Nakmikivigem sivungani."
   },
   "nh": {
-    "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu."
+    "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
+    "default_mail_received_deadline": "Kaasimayaghqaguq 13 aghneq Nakmikivigem sivunganeng."
   },
   "nj": {
     "default_online_deadline": "21 aghneq Nakmikivigem sivunganeng ",
@@ -157,9 +160,9 @@
     "default_ip_deadline": "21 aghneq Nakmikivigem sivunganeng."
   },
   "nm": {
-    "default_ip_deadline": "Sareri-nga nakmimiyagham sivungani",
-    "default_online_deadline": "28 aghneq Nakmikivigem sivunganeng ",
-    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 28 aghneq Nakmikivigem sivunganeng."
+    "default_ip_deadline": "28 aghneq Nakmikivigem sivunganeng.",
+    "default_online_deadline": "28 aghneq Nakmikivigem sivunganeng.",
+    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 28 aghneq Nakmikivigem sivungani."
   },
   "ny": {
     "default_ip_deadline": "25 aghneq Nakmikivigem sivunganeng",
@@ -206,7 +209,7 @@
   "sc": {
     "default_ip_deadline": "30 aghneq Nakmikivigem sivunganeng.",
     "default_online_deadline": "30 aghneq Nakmikivigem sivunganeng.",
-    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 30 aghneq Nakmikivigem sivunganeng."
+    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 30 aghneq Nakmikivigem sivungani."
   },
   "sd": {
     "default_ip_deadline": "15 aghneq Nakmikivigem sivunganeng ",
@@ -228,8 +231,8 @@
   },
   "vt": {
     "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
-    "default_online_deadline": "Friday-nga Nakmikim sivungani",
-    "default_mail_received_deadline": "Kaasimayaghqaguq Friday-ngan Nakmikivigem sivunganeng"
+    "default_online_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
+    "default_mail_received_deadline": "Kaasimayaghqaguq 0 aghneq Nakmikivigem sivunganeng."
   },
   "va": {
     "default_ip_deadline": "22 aghneq Nakmikivigem sivunganeng.",
@@ -252,8 +255,8 @@
   },
   "wi": {
     "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",
-    "default_online_deadline": "Pingaayaa Winestim Nakmikivigem sivunganeng",
-    "default_mail_postmarked_deadline": "Tuyumayaghqaguq pingayaaneng Winestinganeng Nakmikivigem sivungani."
+    "default_online_deadline": "20 aghneq Nakmikivigem sivunganeng.",
+    "default_mail_postmarked_deadline": "Tuyumayaghqaguq 20 aghneq Nakmikivigem sivungani."
   },
   "wy": {
     "default_ip_deadline": "Piivngallequq Nakmikivigem kenlenganun aghneghanillu.",

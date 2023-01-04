@@ -1,234 +1,198 @@
 {
   "al": {
-
     "default_ip_deadline": "選舉日前 15 天",
     "default_online_deadline": "選舉日前 15 天",
     "default_mail_postmarked_deadline": "選舉當日前 15 天郵戳為憑"
   },
   "ak": {
-
     "default_ip_deadline": "選舉日前 30 天",
     "default_online_deadline": "選舉日前 30 天",
     "default_mail_postmarked_deadline": "選舉當日前 30 天郵戳為憑"
   },
   "as": {
-    "default_ip_deadline": "選舉日前30 天"
+    "default_ip_deadline": "選舉日前 29 天",
+    "default_mail_received_deadline": "必須在選舉日之前的29天收到"
   },
   "az": {
-
     "default_online_deadline": "選舉日前 29 天",
     "default_mail_postmarked_deadline": "選舉當日前29 天郵戳為憑",
     "default_ip_deadline": "選舉日前 29 天"
   },
   "ar": {
-
     "default_ip_deadline": "選舉日前30 天",
     "default_mail_postmarked_deadline": "選舉當日前 30 天郵戳為憑"
   },
   "ca": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_online_deadline": "選舉日前 15 天",
     "default_mail_postmarked_deadline": "選舉當日前 15 天郵戳為憑"
   },
   "co": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_online_deadline": "選舉日前 8 天",
     "default_mail_postmarked_deadline": "選舉當日前8天郵戳為憑"
   },
   "ct": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_online_deadline": "選舉日前7 天",
     "default_mail_postmarked_deadline": "選舉當日前 7 天郵戳為憑"
   },
   "de": {
-
-    "default_ip_deadline": "選舉日前 第四個星期六",
-    "default_online_deadline": "選舉日前 第四個星期六",
-    "default_mail_postmarked_deadline": "必須在選舉日前第四個星期六蓋上郵戳"
+    "default_ip_deadline": "選舉日前 24 天",
+    "default_online_deadline": "選舉日前 24 天",
+    "default_mail_postmarked_deadline": "選舉當日前 24 天郵戳為憑"
   },
   "dc": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_mail_received_deadline": "必須在選舉日之前的21天收到",
     "default_online_deadline": "選舉日前21 天"
   },
   "fl": {
-
     "default_ip_deadline": "選舉日前29 天",
     "default_online_deadline": "選舉日前29天",
     "default_mail_postmarked_deadline": "必須在選舉日之前的29天之前蓋上郵戳"
   },
   "ga": {
-
-    "default_ip_deadline": "選舉日前的第五個星期一",
-    "default_online_deadline": "選舉日前的第五個星期一",
-    "default_mail_postmarked_deadline": "必須在選舉日之前的第五個星期一之前蓋上郵戳"
+    "default_ip_deadline": "選舉日前 29 天",
+    "default_online_deadline": "選舉日前 29 天",
+    "default_mail_postmarked_deadline": "選舉當日前 29 天郵戳為憑"
   },
   "gu": {
-
-    "default_mail_received_deadline": "選舉當日前 10 天前寄達",
-    "default_ip_deadline": "選舉日前 10 天"
+    "default_ip_deadline": "選舉日前 11 天",
+    "default_online_deadline": "選舉日前 11 天",
+    "default_mail_received_deadline": "必須在選舉日之前的11天收到"
   },
   "hi": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
-    "default_online_deadline": "選舉日前 30 天",
-    "default_mail_postmarked_deadline": "必須在選舉日之前的30天之前蓋上郵戳"
+    "default_online_deadline": "選舉日之前（包括選舉日）都可以使用",
+    "default_mail_postmarked_deadline": "選舉當日前 8 天郵戳為憑"
   },
   "id": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_online_deadline": "選舉日前 25 天",
     "default_mail_postmarked_deadline": "選舉當日前 25 天郵戳為憑"
   },
   "il": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_online_deadline": "選舉日前 16 天",
-    "default_mail_postmarked_deadline": "必須在選舉日之前的28天之前蓋上郵戳"
+    "default_mail_postmarked_deadline": "選舉當日前 28 天郵戳為憑"
   },
   "in": {
-
     "default_ip_deadline": "選舉日前 29 天",
     "default_online_deadline": "選舉日前 29 天",
     "default_mail_postmarked_deadline": "選舉當日前 29 天郵戳為憑"
   },
   "ia": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_online_deadline": "選舉日前 15 天",
     "default_mail_postmarked_deadline": "選舉當日前 15天郵戳為憑"
   },
   "ks": {
-
     "default_ip_deadline": "選舉日前 21 天",
     "default_online_deadline": "選舉日前 21 天",
     "default_mail_postmarked_deadline": "選舉當日前 21天郵戳為憑"
   },
   "ky": {
-
-    "default_ip_deadline": "選舉日前的第四個星期一",
-    "default_online_deadline": "選舉日前的第四個星期一",
-    "default_mail_received_deadline": "必須在選舉日之前的第四個星期一之前蓋上郵戳"
+    "default_ip_deadline": "選舉日前 29 天",
+    "default_online_deadline": "選舉日前 29 天",
+    "default_mail_postmarked_deadline": "選舉當日前 29 天郵戳為憑"
   },
   "la": {
-
     "dates_electionday": "2022年12月10日星期六",
     "default_ip_deadline": "選舉日前30 天",
     "default_online_deadline": "選舉日前 20 天",
     "default_mail_postmarked_deadline": "選舉當日前 30 天郵戳為憑"
   },
   "me": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_mail_received_deadline": "必須在選舉日前 21 天收到"
   },
   "md": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_online_deadline": "選舉日前 21 天",
     "default_mail_postmarked_deadline": "選舉當日前 21 天郵戳為憑"
   },
   "ma": {
-
-    "default_ip_deadline": "選舉日前 20 天",
-    "default_online_deadline": "選舉日前 20 天",
-    "default_mail_postmarked_deadline": "選舉當日前 20 天郵戳為憑"
+    "default_ip_deadline": "選舉日前 10 天",
+    "default_online_deadline": "選舉日前 10 天",
+    "default_mail_postmarked_deadline": "選舉當日前 10 天郵戳為憑"
   },
   "mi": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_online_deadline": "選舉日前 15天",
     "default_mail_postmarked_deadline": "選舉當日前 15天郵戳為憑"
   },
   "mn": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_online_deadline": "選舉日前 21天",
     "default_mail_received_deadline": "必須在選舉日前 21 天前寄達"
   },
   "ms": {
-
     "default_ip_deadline": "選舉日前 30天",
     "default_mail_postmarked_deadline": "選舉當日前 30 天郵戳為憑"
   },
   "mo": {
-
-    "default_ip_deadline": "選舉日前的第四個星期三",
-    "default_online_deadline": "選舉日前的第四個星期三",
-    "default_mail_postmarked_deadline": "必須在選舉日前第四個星期三蓋上郵戳"
+    "default_ip_deadline": "選舉日前 27 天",
+    "default_online_deadline": "選舉日前 27 天",
+    "default_mail_postmarked_deadline": "選舉當日前 27 天郵戳為憑"
   },
   "mt": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_mail_postmarked_deadline": "選舉當日前 30 天郵戳為憑"
   },
   "ne": {
-
-    "default_ip_deadline": "選舉日前的第二個星期五",
-    "default_online_deadline": "選舉日前的第三個星期五",
-    "default_mail_postmarked_deadline": "必須在選舉日之前的第三個星期五蓋上郵戳"
+    "default_ip_deadline": "選舉日前 11 天",
+    "default_online_deadline": "選舉日前 18 天",
+    "default_mail_postmarked_deadline": "選舉當日前 18 天郵戳為憑"
   },
   "nv": {
-
-    "default_ip_deadline": "選舉日前的第四個星期二",
-    "default_online_deadline": "提前投票開始前的星期四",
-    "default_mail_postmarked_deadline": "必須在選舉日之前的第四個星期二蓋上郵戳"
+    "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
+    "default_online_deadline": "選舉日前 5 天",
+    "default_mail_postmarked_deadline": "選舉當日前 28 天郵戳為憑"
   },
   "nh": {
-    "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用"
+    "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
+    "default_mail_received_deadline": "必須在選舉日之前的13天收到"
   },
   "nj": {
-
     "default_online_deadline": "選舉日前 21天",
     "default_mail_postmarked_deadline": "選舉當日前 21 天郵戳為憑",
     "default_ip_deadline": "選舉日前 21天"
   },
   "nm": {
-
-    "default_ip_deadline": "選舉日前 的星期六",
-    "default_online_deadline": "選舉日前 28天",
-    "default_mail_postmarked_deadline": "選舉當日前 28天郵戳為憑"
+    "default_ip_deadline": "選舉日前 28 天",
+    "default_online_deadline": "選舉日前 28 天",
+    "default_mail_postmarked_deadline": "選舉當日前 28 天郵戳為憑"
   },
   "ny": {
-
     "default_ip_deadline": "選舉日前 25天",
     "default_online_deadline": "選舉日前 25天",
     "default_mail_postmarked_deadline": "選舉當日前 25天郵戳為憑"
   },
   "nc": {
-
     "default_ip_deadline": "提前投票期間可當天登記",
     "default_online_deadline": "選舉日前 25天",
     "default_mail_postmarked_deadline": "選舉當日前 25天郵戳為憑"
   },
   "nd": {},
   "mp": {
-
     "default_ip_deadline": "選舉日前 60天"
   },
   "oh": {
-
     "default_ip_deadline": "選舉日前 30天",
     "default_online_deadline": "選舉日前 30天",
     "default_mail_postmarked_deadline": "選舉當日前 30天郵戳為憑"
   },
   "ok": {
-
     "default_ip_deadline": "選舉日前 25天",
     "default_mail_postmarked_deadline": "選舉當日前 25天郵戳為憑"
   },
   "or": {
-
     "default_ip_deadline": "選舉日前 21天",
     "default_online_deadline": "選舉日前 21天",
     "default_mail_postmarked_deadline": "選舉當日前 21天郵戳為憑"
   },
   "pa": {
-
     "default_ip_deadline": "選舉日前 15天",
     "default_online_deadline": "選舉日前 15天",
     "default_mail_received_deadline": "必須在選舉日前 15天前寄達"
@@ -237,75 +201,62 @@
     "default_ip_deadline": "選舉日前 50天"
   },
   "ri": {
-
     "default_ip_deadline": "選舉日前 30天",
     "default_online_deadline": "選舉日前 30天",
     "default_mail_postmarked_deadline": "選舉當日前 30天郵戳為憑"
   },
   "sc": {
-
-    "default_ip_deadline": "選舉日前 30天",
-    "default_online_deadline": "選舉日前 30天",
-    "default_mail_postmarked_deadline": "選舉當日前 30天郵戳為憑"
+    "default_ip_deadline": "選舉日前 30 天",
+    "default_online_deadline": "選舉日前 30 天",
+    "default_mail_postmarked_deadline": "選舉當日前 30 天郵戳為憑"
   },
   "sd": {
-
     "default_ip_deadline": "選舉日前 15天",
     "default_mail_received_deadline": "必須在選舉日前 15天前寄達"
   },
   "tn": {
-
     "default_ip_deadline": "選舉日前 30天",
     "default_online_deadline": "選舉日前 30天",
     "default_mail_postmarked_deadline": "選舉當日前 30天郵戳為憑"
   },
   "tx": {
-
     "default_ip_deadline": "選舉日前 30天",
     "default_mail_postmarked_deadline": "選舉當日前 30天郵戳為憑"
   },
   "ut": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_online_deadline": "選舉日前 11天",
     "default_mail_received_deadline": "必須在選舉日前 11天前寄達"
   },
   "vt": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
-    "default_online_deadline": "選舉日前的星期五",
-    "default_mail_received_deadline": "必須在選舉日之前的星期五收到"
+    "default_online_deadline": "選舉日之前（包括選舉日）都可以使用",
+    "default_mail_received_deadline": "必須在選舉日之前的0天收到"
   },
   "va": {
-
     "default_ip_deadline": "選舉日前 22天",
     "default_online_deadline": "選舉日前 22天",
     "default_mail_postmarked_deadline": "選舉當日前 22天郵戳為憑"
   },
   "vi": {
-
     "default_ip_deadline": "選舉日前 30天"
   },
   "wa": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_online_deadline": "選舉日前 8天",
     "default_mail_received_deadline": "必須在選舉日前 8天前寄達"
   },
   "wv": {
-
     "default_ip_deadline": "選舉日前 21天",
     "default_online_deadline": "選舉日前 21天",
     "default_mail_postmarked_deadline": "選舉當日前 21天郵戳為憑"
   },
   "wi": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
-    "default_online_deadline": "選舉日前的第三個星期三",
-    "default_mail_postmarked_deadline": "必須在選舉日前的第三個星期三前蓋上郵戳"
+    "default_online_deadline": "選舉日前 20 天",
+    "default_mail_postmarked_deadline": "選舉當日前 20 天郵戳為憑"
   },
   "wy": {
-
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
     "default_mail_received_deadline": "必須在選舉日前 14天前寄達"
   }

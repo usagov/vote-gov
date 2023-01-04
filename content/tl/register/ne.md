@@ -10,8 +10,8 @@ hp_link = "https://sos.nebraska.gov/elections/2020-elections"
 registration_link = "https://www.nebraska.gov/apps-sos-voter-registration/"
 more_info_link = "https://sos.nebraska.gov/elections/voter-forms"
 confirm_registration_link = "https://www.votercheck.necvr.ne.gov/voterview"
-default_ip_deadline = "Ika-dalawang  Biyernes bago ang Araw ng Eleksyon"
-default_online_deadline = "Ika-tatlong Biyernes bago ang Araw ng Eleksyon"
-default_mail_postmarked_deadline = " Dapat naka-postmark sa ika-tatlong Biyernes bago ang Araw ng Eleksyon"
+default_ip_deadline = "11 araw bago ang Araw ng Eleksyon"
+default_online_deadline = "18 araw bago ang Araw ng Eleksyon"
+default_mail_postmarked_deadline = "Dapat na naka-postmark  18 araw bago ang Araw ng Eleksyon"
 
 +++

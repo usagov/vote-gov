@@ -18,8 +18,8 @@ more_info_link_translated = "true"
 more_info_link_language_selection = ""
 confirm_registration_link_translated = "true"
 confirm_registration_link_language_selection = ""
-default_ip_deadline = "Fourth Tuesday before Election Day"
-default_online_deadline = "Thursday before early voting begins"
-default_mail_postmarked_deadline = "Must be postmarked by the fourth Tuesday before Election Day"
+default_ip_deadline = "Available up to and including on Election Day"
+default_online_deadline = "5 days before Election Day"
+default_mail_postmarked_deadline = "Must be postmarked 28 days before Election Day"
 
 +++

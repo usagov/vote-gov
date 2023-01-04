@@ -10,8 +10,8 @@ hp_link = "https://elections.delaware.gov/index.shtml"
 registration_link = "https://ivote.de.gov/VoterView/"
 more_info_link = "https://elections.delaware.gov/voter/votereg.shtml"
 confirm_registration_link = "https://ivote.de.gov/VoterView"
-default_ip_deadline = "選舉日前 第四個星期六"
-default_online_deadline = "選舉日前 第四個星期六"
-default_mail_postmarked_deadline = "必須在選舉日前第四個星期六蓋上郵戳"
+default_ip_deadline = "選舉日前 24 天"
+default_online_deadline = "選舉日前 24 天"
+default_mail_postmarked_deadline = "選舉當日前 24 天郵戳為憑"
 
 +++

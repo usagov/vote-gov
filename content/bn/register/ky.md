@@ -10,8 +10,8 @@ hp_link = "https://elect.ky.gov/Pages/default.aspx"
 registration_link = "https://vrsws.sos.ky.gov/ovrweb/"
 more_info_link = "https://elect.ky.gov/Resources/Pages/Registration.aspx"
 confirm_registration_link = "https://vrsws.sos.ky.gov/VIC/"
-default_ip_deadline = "নির্বাচনের আগের চতুর্থ সোমবার"
-default_online_deadline = "নির্বাচনের আগের চতুর্থ সোমবার"
-default_mail_postmarked_deadline = "নির্বাচনী দিনের ৩০ দিন আগে পোস্টমার্ক করা আবশ্যক"
+default_ip_deadline = "নির্বাচনের দিন ২৯ দিন আগে"
+default_online_deadline = "নির্বাচনের দিন ২৯ দিন আগে"
+default_mail_postmarked_deadline = "নির্বাচনের দিন ২৯ দিন আগে পোস্টমার্ক করা আবশ্যক"
 
 +++

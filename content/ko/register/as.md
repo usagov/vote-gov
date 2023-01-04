@@ -9,6 +9,7 @@ type = "register"
 hp_link = "https://aselectionoffice.gov/"
 more_info_link = "https://aselectionoffice.gov/"
 confirm_registration_link = "https://aselectionoffice.gov/status.php"
-default_ip_deadline = "선거일 30일 전까지"
+default_ip_deadline = "선거일 29일 전까지"
+default_mail_received_deadline = "반드시 선거일 29일 전까지 까지 접수해야 합니다."
 
 +++

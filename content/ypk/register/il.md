@@ -12,6 +12,6 @@ more_info_link = "https://www.elections.il.gov/Default.aspx"
 confirm_registration_link = "https://ova.elections.il.gov/RegistrationLookup.aspx"
 default_ip_deadline = "Piivngallequq Nakmikivigem kenlenganun aghneghanillu."
 default_online_deadline = "16 aghneq Nakmikivigem sivunganeng."
-default_mail_postmarked_deadline = "Kaasimayaghqaguq 28 aghneq Nakmikivigem sivunganeng"
+default_mail_postmarked_deadline = "Tuyumayaghqaguq 28 aghneq Nakmikivigem sivungani."
 
 +++
