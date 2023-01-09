@@ -10,8 +10,8 @@ hp_link = "https://gec.guam.gov/"
 registration_link = "https://gec.guam.gov/"
 more_info_link = "https://gec.guam.gov/"
 confirm_registration_link = "https://gec.guam.gov/validate/"
-default_ip_deadline = "I'ii'n77[ Bij9j8' t'ahdoo {a'ts'11dah yi[kaah7"
-default_online_deadline = "I'ii'n77[ Bij9j8' t'ahdoo {a'ts'11dah yi[kaah7"
-default_mail_received_deadline = "I'ii'n77[ Bij9j8' t'ahdoo {a'ts'11dah yi[kaah7 n7didooltsos"
+default_ip_deadline = "{a'ts'11dah jį́ yidziihgo Damoo Biiskání dóó Nidaʼiiníísh góneʼ tʼáadoo iʼiinííł jį́ aleehé"
+default_online_deadline = "{a'ts'11dah jį́ yidziihgo Damoo Biiskání dóó Nidaʼiiníísh góneʼ tʼáadoo iʼiinííł jį́ aleehé"
+default_mail_received_deadline = "{a'ts'11dah jį́ yidzihgo Damóo Biiskání dóó Nidaʼiiníísh góneʼ tʼáadoo iʼiiʼnííł jį́ aleehé kodi nihaanídoolwoł"
 
 +++
