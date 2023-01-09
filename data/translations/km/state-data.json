@@ -58,9 +58,9 @@
     "default_mail_postmarked_deadline": "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 29 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "gu": {
-    "default_ip_deadline": "11 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
-    "default_online_deadline": "11 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
-    "default_mail_received_deadline": "ត្រូវតែបានទទួល 11 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
+    "default_ip_deadline": "11 ថ្ងៃធ្វើការមុនថ្ងៃបោះឆ្នោត",
+    "default_online_deadline": "11 ថ្ងៃធ្វើការមុនថ្ងៃបោះឆ្នោត",
+    "default_mail_received_deadline": "ត្រូវតែបានទទួល 11 ថ្ងៃធ្វើការមុនថ្ងៃបោះឆ្នោត។ "
   },
   "hi": {
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",

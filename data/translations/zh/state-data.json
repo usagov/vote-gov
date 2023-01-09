@@ -58,9 +58,9 @@
     "default_mail_postmarked_deadline": "選舉當日前 29 天郵戳為憑"
   },
   "gu": {
-    "default_ip_deadline": "選舉日前 11 天",
-    "default_online_deadline": "選舉日前 11 天",
-    "default_mail_received_deadline": "必須在選舉日之前的11天收到"
+    "default_ip_deadline": "選舉日前 11 個 营业日工作日",
+    "default_online_deadline": "選舉日前 11 個 营业日工作日",
+    "default_mail_received_deadline": "必須在選舉日前 11 個 营业日收到. 工作日"
   },
   "hi": {
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
