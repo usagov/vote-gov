@@ -58,9 +58,9 @@
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  29 araw bago ang Araw ng Eleksyon"
   },
   "gu": {
-    "default_ip_deadline": "11 araw bago ang Araw ng Eleksyon",
-    "default_online_deadline": "11 araw bago ang Araw ng Eleksyon",
-    "default_mail_received_deadline": "Dapat matanggap 11 araw bago ang Araw ng Eleksyon"
+    "default_ip_deadline": "11 araw ng may negosyo bago ang Araw ng Eleksyon",
+    "default_online_deadline": "11 araw ng may negosyo bago ang Araw ng Eleksyon",
+    "default_mail_received_deadline": "Dapat matanggap sa 11 araw ng may negosyo bago ang Araw ng Eleksyon"
   },
   "hi": {
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",

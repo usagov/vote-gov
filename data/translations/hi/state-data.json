@@ -58,9 +58,9 @@
     "default_mail_postmarked_deadline": "मतदान दिवस से 29 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "gu": {
-    "default_ip_deadline": "मतदान दिवस से 11 दिन पहले",
-    "default_online_deadline": "मतदान दिवस से 11 दिन पहले",
-    "default_mail_received_deadline": "मतदान दिवस से 11 दिन पहले पहुँच जाना चाहिए"
+    "default_ip_deadline": "चुनाव दिवस से 11 कार्य-दिवस (बिज़नस डेज़) पहले",
+    "default_online_deadline": "चुनाव दिवस से 11 कार्य-दिवस (बिज़नस डेज़) पहले",
+    "default_mail_received_deadline": "चुनाव दिवस से 11 कार्य-दिवस (बिज़नस डेज़) पहले पहुंच जाना चाहिए"
   },
   "hi": {
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी",

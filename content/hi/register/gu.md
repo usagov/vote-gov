@@ -10,8 +10,8 @@ hp_link = "https://gec.guam.gov/"
 registration_link = "https://gec.guam.gov/"
 more_info_link = "https://gec.guam.gov/"
 confirm_registration_link = "https://gec.guam.gov/validate/"
-default_ip_deadline = "मतदान दिवस से 11 दिन पहले"
-default_online_deadline = "मतदान दिवस से 11 दिन पहले"
-default_mail_received_deadline = "मतदान दिवस से 11 दिन पहले पहुँच जाना चाहिए"
+default_ip_deadline = "चुनाव दिवस से 11 कार्य-दिवस (बिज़नस डेज़) पहले"
+default_online_deadline = "चुनाव दिवस से 11 कार्य-दिवस (बिज़नस डेज़) पहले"
+default_mail_received_deadline = "चुनाव दिवस से 11 कार्य-दिवस (बिज़नस डेज़) पहले पहुंच जाना चाहिए"
 
 +++
