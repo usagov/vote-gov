@@ -8,10 +8,13 @@
 {{ if eq .Site.Language.Lang "bn" }}
   {{ $day }} {{ $month }} {{ $year }}
 {{ else if eq .Site.Language.Lang "ypk" }}
-  {{ $month }} {{ .Lastmod.Day }} {{ $year }}
+  {{ $month }} {{ .Lastmod.Day }}, {{ $year }}
 {{ else if eq .Site.Language.Lang "zh-hans" }}
   {{ $year }} {{ $month }} {{ $day }}
+{{ else if eq .Site.Language.Lang "tl" }}
+  Ika-{{ $day }} ng {{ $month }} {{ $year }}
+{{ else if eq .Site.Language.Lang "nv" }}
+  {{ $day }} {{ $month }}, {{ $year }}
 {{ else }}
   {{ .Lastmod | time.Format ":date_long" }}
 {{end}}
-

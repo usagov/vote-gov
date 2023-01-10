@@ -15,8 +15,8 @@
 {{ end }}
 
 <!-- check if override meta data is available in front matter, if not use page title and description -->
-{{ $meta_title := cond (ne .Params.meta_title nil) .Params.meta_title .Params.Title }}
-{{ $meta_description := cond (ne .Params.meta_description nil) .Params.meta_description .Site.Params.meta__description }}
+{{ $meta_title := .Params.meta_title | default .Params.Title }}
+{{ $meta_description := .Params.meta_description | default .Site.Params.meta__description }}
 
 <!-- check if page type is "register" and use STATE meta data else use DEFAULT meta data -->
 {{ $meta_title := cond (eq .Type "register") $meta_title__register $meta_title }}
@@ -45,6 +45,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bing Webmaster tools verification -->
+  <meta name="msvalidate.01" content="A4BBA94A35A7C32BD206A988BE2C61FB" />
+
+  <!-- JS
+  ================================================== -->
+  <script src="{{ .Site.BaseURL }}/assets/scripts/uswds-init.min.js"></script>
 
   <!-- Title and meta description
   ================================================== -->
@@ -106,9 +113,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- CSS
   ================================================== -->
   <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/styles/main.css?v={{ $queryNum }}">
+  <!--If website language is Navajo, load the Navajo font-->
+  {{ if eq .Site.Language.Lang "nv" }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/fonts/navajo-font/stylesheet.css">
+  {{ end }}
 
   <!-- Crazy Egg  -->
   <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0007/9651.js" async="async" ></script>
   <!-- End Crazy Egg  -->
-    
+
 </head>

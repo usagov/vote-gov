@@ -1,0 +1,49 @@
+@use 'uswds-core' as *;
+@use '../variables' as *;
+
+@forward 'usa-button';
+
+.usa-button {
+  background-color: $color-blue-dark;
+  color: white;
+  margin-right: 0;
+
+  .page-type--basic & {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.usa-button:hover,
+.usa-button.usa-button--hover {
+  color: white;
+  background-color: $color-grey-dark;
+  border-bottom: 0;
+  text-decoration: none;
+}
+
+//"Go back" arrow button and text
+.arrow {
+  border: solid $color-blue-dark;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+.direction {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  margin-right: 5px;
+}
+
+[dir="rtl"] .direction {
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  margin-left: 5px;
+}
+
+.arrow-text a {
+  color: $color-blue-dark;
+  text-decoration: underline;
+  font-weight: 700;
+}

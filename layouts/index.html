@@ -61,11 +61,9 @@
           </div>
           <div class="tablet:grid-col-8 right-shift">
 
-            {{ if $translation.accordion }}
             <section>
-              {{ partial "accordion.html" . }}
+              {{ partial "accordion-group.html" . }}
             </section>
-            {{end}}
 
             <section class="page-section registered" id="already-registered">
               <header>

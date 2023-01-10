@@ -1,6 +1,0 @@
-{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-{{ if eq .Site.Language.Lang "es"}}
-    <a href="https://www.usa.gov/espanol/como-obtener-tarjeta-registro-electoral">{{ $translation.accordion.content_5_part_4_link }}</a>
-{{ else }}
-    <a href="https://www.usa.gov/voter-registration-card">{{ $translation.accordion.content_5_part_4_link }}{{ .Site.Params.english_only }}</a>
-{{ end }}
