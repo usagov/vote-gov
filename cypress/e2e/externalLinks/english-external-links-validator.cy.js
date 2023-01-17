@@ -1,5 +1,6 @@
 /// <reference types="Cypress" />
 
+
 const allPages = require("../../fixtures/site-pages.json");
 
 const excludedlinks = [
