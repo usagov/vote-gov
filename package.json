@@ -28,7 +28,6 @@
     "cy:links": "cypress run --spec 'cypress/e2e/internalLinks/**/*'",
     "cy:proofer": "cypress run --spec 'cypress/e2e/externalLinks/**/*'",
     "testSuite": "npm run cy:test && npm run cy:links && npm run cy:axe"
-
   },
   "repository": {
     "type": "git",
@@ -41,12 +40,11 @@
   "homepage": "https://github.com/18F/vote-gov#readme",
   "license": "CC0-1.0",
   "dependencies": {
-    "@uswds/uswds": "3.0.2",
+    "@uswds/uswds": "^3.3.0",
     "ansi-colors": "^4.1.1",
-    "autoprefixer": "^10.4.2",
+    "autoprefixer": "^10.4.13",
     "browserify": "^17.0.0",
     "cross-spawn": "^7.0.3",
-    "del": "^6.0.0",
     "fancy-log": "^2.0.0",
     "gulp": "^4.0.2",
     "gulp-dart-scss": "^1.1.0",
@@ -54,22 +52,23 @@
     "gulp-rename": "^2.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-webp": "^4.0.1",
-    "sass": "^1.48.0",
+    "postcss": "^8.4.19",
+    "sass": "^1.56.1",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },
   "devDependencies": {
-    "axe-core": "^4.4.3",
-    "cypress": "^10.4.0",
+    "axe-core": "^4.5.2",
+    "cypress": "^10.8.0",
     "cypress-axe": "^1.0.0",
-    "eslint": "^8.6.0",
+    "eslint": "^8.28.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-import": "^2.25.4",
     "gulp-eslint": "^6.0.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-stylelint": "^13.0.0",
-    "hugo-bin": "^0.80.0",
+    "hugo-bin": "^0.95.0",
     "stylelint": "^13.13.1",
     "stylelint-scss": "^3.19.0"
   }

@@ -1,0 +1,26 @@
+@use '../variables' as *;
+
+.voter-info {
+  color: $color-blue-dark;
+  margin-bottom: 60px;
+  margin-top: 40px;
+
+  a {
+    color: $color-blue-dark;
+  }
+
+  h1 {
+    color: $color-blue-headings;
+  }
+
+  h2 {
+    color: $color-blue-headings;
+    margin-bottom: 0.5em;
+    margin-top: 30px;
+  }
+
+  p {
+    margin-bottom: 1em;
+    margin-top: 0;
+  }
+}
