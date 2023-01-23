@@ -12,6 +12,6 @@ more_info_link = "https://sos.vermont.gov/elections/voters/registration/"
 confirm_registration_link = "https://mvp.vermont.gov/"
 default_ip_deadline = "直到选举日 (包括选举日) 都可以使用"
 default_online_deadline = "直到选举日 (包括选举日) 都可以使用"
-default_mail_received_deadline = "必须在选举日之前的0天收到"
+default_mail_received_deadline = "需于选举日前收悉"
 
 +++

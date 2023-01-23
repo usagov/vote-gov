@@ -232,7 +232,7 @@
   "vt": {
     "default_ip_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "អាចរកបានពីឥឡូវរហូតដល់ថ្ងៃបោះឆ្នោត",
-    "default_mail_received_deadline": "ត្រូវតែបានទទួល 0 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
+    "default_mail_received_deadline": "ត្រូវតែទទួលឱ្យទាន់ថ្ងៃ ឬនៅថ្ងៃបោះឆ្នោត"
   },
   "va": {
     "default_ip_deadline": "22 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
