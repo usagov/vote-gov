@@ -13,6 +13,7 @@
   "your_email_address": "Enter your email address",
   "usagov_logo_alt_text": "%USA.gov% logo",
   "eac_logo_alt_text": "In partnership with %U.S. Election Assistance Commission%",
+  "vote_logo_alt_text": "Illustration of voter box with checked ballot being inserted",
   "identifier_aria": "Agency identifier",
   "identifier_gsa_txt_aria": "Agency description",
   "identifier_gsa_txt": "An official website of the %link%",

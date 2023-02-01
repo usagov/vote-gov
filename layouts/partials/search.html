@@ -2,7 +2,7 @@
 {{ if $translation.homepage.search_placeholder }}
 {{ $search_affiliate := cond (eq $translation.homepage.search_affiliate_translated true) (.Site.Language.Lang | replaceRE "-[a-z]+" "") "en"}}
 {{ $search_disclaimer := cond (ne $translation.homepage.search_affiliate_translated true) .Site.Params.english_only ""}}
-<div class="bg-lightblue search-container">
+<div class="bg-lightblue search-container" aria-label="{{ $translation.homepage.search_aria_text }}">
   <div class="grid-container">
     <form class="usa-search usa-search--small search-bar" role="search" id="search_form"
           action="https://search.vote.gov/search" accept-charset="UTF-8" method="get">

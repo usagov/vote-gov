@@ -9,7 +9,7 @@
         <div class="tablet:grid-col-auto">
           <div class="vote-txt">Vote.gov</div>
           <img class="vote-logo" loading="lazy" width="130" height="160" src="{{ .Site.BaseURL }}/assets/img/ballot_box-blue.svg"
-            alt="Web design standards">
+            alt="{{ $translation.footer.vote_logo_alt_text }}">
         </div>
         <div class="tablet:grid-col-auto partnership-txt">{{ $translation.footer.eac_text }}</div>
         <div class="tablet:grid-col-auto eac-container">
@@ -39,7 +39,7 @@
   <div class="grid-container">
     <section class="identifier-gsa grid-row grid-gap-2" aria-label="{{ $translation.footer.identifier_aria }}">
       <div><img src="{{ .Site.BaseURL }}/assets/img/gsa-logo.svg" alt="GSA logo" width="40" height="40"></div>
-      <div aria-label="{{ $translation.footer.identifier_gsa_txt_aria }}" class="grid-col-auto">
+      <div role="{{ $translation.footer.identifier_gsa_txt_aria }}" class="grid-col-auto">
         Vote.gov <br>
         <strong>{{ replace $translation.footer.identifier_gsa_txt "%link%" (partial "links/footer/identifier-gsa.html"
           .)|safeHTML }}</strong>

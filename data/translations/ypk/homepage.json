@@ -23,5 +23,6 @@
   "registered_links__voterid_url": "https://www.usa.gov/voter-id",
   "registered_links__process": "Nakmikillghem igleghallgha (Laluramkestun)",
   "registered_links__process_url": "https://www.usa.gov/election",
-  "search_placeholder": "Ivaghivikigu vote.gov"
+  "search_placeholder": "Ivaghivikigu vote.gov",
+  "search_aria_text": "Search"
 }
