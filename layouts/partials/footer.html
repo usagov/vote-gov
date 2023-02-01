@@ -5,23 +5,26 @@
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-4"></div>
         <div class="tablet:grid-col-8 right-shift">
-          <form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
-            <h2 class="text-blue font-size-medium">{{ replace $translation.footer.subscribe_email "%USAGov%" "USAGov"
-              }}</h2>
+          <section role="form">
+            <form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
+              <h2 class="text-blue font-size-medium">{{ replace $translation.footer.subscribe_email "%USAGov%" "USAGov"
+                }}</h2>
 
-            <label class="max-width-input text-grey" for="email-2"
-                   id="emailsub">{{ $translation.footer.your_email_address }}</label>
-            <input id="email-2" name="email" type="email" class="usa-input max-width-input">
+              <label class="max-width-input text-grey" for="email-2"
+                    id="emailsub">{{ $translation.footer.your_email_address }}</label>
+              <input id="email-2" name="email" type="email" class="usa-input max-width-input">
 
-            <button class="usa-button max-width-input" id="user-submit" type="submit">
-              {{ $translation.footer.sign_up }}
-            </button>
-          </form>
+              <button class="usa-button max-width-input" id="user-submit" type="submit">
+                {{ $translation.footer.sign_up }}
+              </button>
+            </form>            
+          </section>
         </div>
       </div>
     </div>
   </div>
 
-  {{ partial "partials/contact-identifier.html" . }}
-
+  <section role="contentinfo">
+    {{ partial "partials/contact-identifier.html" . }}
+  </section>
 </footer>
