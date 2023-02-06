@@ -12,6 +12,6 @@ more_info_link = "https://sos.vermont.gov/elections/voters/registration/"
 confirm_registration_link = "https://mvp.vermont.gov/"
 default_ip_deadline = "Piivngallequq Nakmikivigem kenlenganun aghneghanillu."
 default_online_deadline = "Piivngallequq Nakmikivigem kenlenganun aghneghanillu."
-default_mail_received_deadline = "Kaasimayaghqaguq 0 aghneq Nakmikivigem sivunganeng."
+default_mail_received_deadline = "Kaasimayaghqaguq Nakmikivigem tungangani nalighmeng aghneghani."
 
 +++
