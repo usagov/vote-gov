@@ -10,11 +10,8 @@ hp_link = "https://www.sos.state.nm.us/voting-and-elections/"
 registration_link = "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx"
 more_info_link = "https://www.sos.state.nm.us/voting-and-elections/voter-information/voter-registration-information/"
 confirm_registration_link = "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
-ip_deadline = "2022-11-08"
-online_deadline = "2022-10-11"
-mail_postmarked_deadline = "मंगलवार, 11 अक्टूबर 2022 तक पोस्टमार्क होना चाहिए"
-default_ip_deadline = "मतदान दिवस से पूर्व शनिवार"
-default_online_deadline = "मतदान दिवस से 28 दिन पहले "
+default_ip_deadline = "मतदान दिवस से 28 दिन पहले"
+default_online_deadline = "मतदान दिवस से 28 दिन पहले"
 default_mail_postmarked_deadline = "मतदान दिवस से 28 दिन पहले पोस्टमार्क होना चाहिए"
 
 +++

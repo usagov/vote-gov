@@ -9,8 +9,6 @@ type = "register"
 hp_link = "https://www.maine.gov/sos/cec/elec/"
 more_info_link = "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html"
 confirm_registration_link = "https://www.maine.gov/sos/cec/elec/data/index.html"
-ip_deadline = "2022-11-08"
-mail_received_deadline = "Kwe'4 yoo[k11[go n7didooltsos Dam0o naakiij9, Tseeb77ts'11dah Gh22j8', Naadiin d00 ba'aan naadiiin naakig00 yihah"
 default_ip_deadline = "I'ii'n77[ Bij9j8' b1 ah00t'8' d00 bij9 g0ne'"
 default_mail_received_deadline = "I'ii'n77[ Bij9j8' t'ahdoo naadiin[a' yi[kaah7 n7didooltsos"
 

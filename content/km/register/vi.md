@@ -9,8 +9,6 @@ type = "register"
 hp_link = "https://www.vivote.gov/voters/register-vote"
 more_info_link = "https://www.vivote.gov/voters/register-vote"
 confirm_registration_link = "https://www.vivote.gov/voters/lookup"
-ip_deadline = "2022-10-09"
-mail_postmarked_deadline = "ត្រូវតែបានបិទតែមប្រៃសណីយ៍ថ្ងៃ​ ថ្ងៃអាទិត្យ 9 ខែតុលា 2022"
 default_ip_deadline = "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
 default_mail_postmarked_deadline = "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
 

@@ -9,7 +9,7 @@ type = "register"
 hp_link = "https://aselectionoffice.gov/"
 more_info_link = "https://aselectionoffice.gov/"
 confirm_registration_link = "https://aselectionoffice.gov/status.php"
-ip_deadline = "2022-10-11"
-default_ip_deadline = "मतदान दिवस से 30 दिन पहले "
+default_ip_deadline = "मतदान दिवस से 29 दिन पहले"
+default_mail_received_deadline = "मतदान दिवस से 29 दिन पहले पहुँच जाना चाहिए"
 
 +++

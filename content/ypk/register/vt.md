@@ -10,11 +10,8 @@ hp_link = "https://sos.vermont.gov/elections/"
 registration_link = "https://olvr.vermont.gov/"
 more_info_link = "https://sos.vermont.gov/elections/voters/registration/"
 confirm_registration_link = "https://mvp.vermont.gov/"
-ip_deadline = "2022-11-08"
-online_deadline = "2022-11-08"
-mail_received_deadline = "Kaasimayaghqaguq Friday-a, Aqumuq 4, 2022-mi"
 default_ip_deadline = "Piivngallequq Nakmikivigem kenlenganun aghneghanillu."
-default_online_deadline = "Friday-nga Nakmikim sivungani"
-default_mail_received_deadline = "Kaasimayaghqaguq Friday-ngan Nakmikivigem sivunganeng"
+default_online_deadline = "Piivngallequq Nakmikivigem kenlenganun aghneghanillu."
+default_mail_received_deadline = "Kaasimayaghqaguq Nakmikivigem tungangani nalighmeng aghneghani."
 
 +++
