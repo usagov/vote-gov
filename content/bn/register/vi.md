@@ -9,8 +9,6 @@ type = "register"
 hp_link = "https://www.vivote.gov/voters/register-vote"
 more_info_link = "https://www.vivote.gov/voters/register-vote"
 confirm_registration_link = "https://www.vivote.gov/voters/lookup"
-ip_deadline = "2022-10-09"
-mail_postmarked_deadline = "পোস্ট চিহ্ন করা আবশ্যক (রবিবার, ৯ অক্টোবর, ২০২২)"
 default_ip_deadline = "নির্বাচনী দিনের ৩০ দিন আগে"
 
 +++

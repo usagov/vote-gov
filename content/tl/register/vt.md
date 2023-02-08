@@ -10,11 +10,8 @@ hp_link = "https://sos.vermont.gov/elections/"
 registration_link = "https://olvr.vermont.gov/"
 more_info_link = "https://sos.vermont.gov/elections/voters/registration/"
 confirm_registration_link = "https://mvp.vermont.gov/"
-ip_deadline = "2022-11-08"
-online_deadline = "2022-11-08"
-mail_received_deadline = "Dapat matanggap ng Biyernes, ika-4 ng Nobyembre 2022"
 default_ip_deadline = "Maari hanggang at kasama sa  Araw ng Eleksyon"
-default_online_deadline = "Biyernes bago ang Araw ng Eleksyon"
-default_mail_received_deadline = "Dapat matanggap sa Biyernes bago ang Araw ng Eleksyon"
+default_online_deadline = "Maari hanggang at kasama sa  Araw ng Eleksyon"
+default_mail_received_deadline = "Dapat matanggap bago o sa Araw ng Eleksyon"
 
 +++

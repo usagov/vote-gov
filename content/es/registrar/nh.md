@@ -9,7 +9,7 @@ type = "register"
 hp_link = "https://sos.nh.gov/home"
 more_info_link = "https://www.sos.nh.gov/elections/voters/register-vote"
 confirm_registration_link = "https://app.sos.nh.gov/voterinformation"
-ip_deadline = "2022-11-08"
 default_ip_deadline = "hasta el mismo día de las elecciones"
+default_mail_received_deadline = "a más tardar debe ser recibida 13 días antes del día de las elecciones"
 
 +++

@@ -10,11 +10,8 @@ hp_link = "https://sos.vermont.gov/elections/"
 registration_link = "https://olvr.vermont.gov/"
 more_info_link = "https://sos.vermont.gov/elections/voters/registration/"
 confirm_registration_link = "https://mvp.vermont.gov/"
-ip_deadline = "2022-11-08"
-online_deadline = "2022-11-08"
-mail_received_deadline = "(শুক্রবার, ৪ নভেম্বর, ২০২২) এর মধ্যে অবশ্যই গ্রহণ করতে হবে"
 default_ip_deadline = "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ"
-default_online_deadline = "নির্বাচনের আগে শুক্রবার"
-default_mail_received_deadline = "নির্বাচনের দিন আগে শুক্রবারের মধ্যে গ্রহণ করা আবশ্যক"
+default_online_deadline = "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ"
+default_mail_received_deadline = "নি’বাচনের দিন বা তার মধ্যে প্রাপতো করতে হবে"
 
 +++
