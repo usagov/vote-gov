@@ -12,6 +12,6 @@ more_info_link = "https://www.elections.ny.gov/votingregister.html"
 confirm_registration_link = "https://voterlookup.elections.ny.gov/"
 default_ip_deadline = "25 araw bago ang Araw ng Eleksyon"
 default_online_deadline = "25 araw bago ang Araw ng Eleksyon"
-default_mail_postmarked_deadline = "Dapat na naka-postmark  25 araw bago ang Araw ng Eleksyon"
+default_mail_received_deadline = "Dapat matanggap 10 araw bago ang Araw ng Eleksyon"
 
 +++
