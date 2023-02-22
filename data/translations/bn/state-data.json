@@ -166,7 +166,7 @@
     "ny": {
         "default_ip_deadline": "নির্বাচনের ২৫ দিন আগে",
         "default_online_deadline": "নির্বাচনের ২৫ দিন আগে",
-        "default_mail_received_deadline": "নির্বাচনের ১০ দিন আগে পোস্টমার্ক করা আবশ্যক"
+        "default_mail_received_deadline": "নির্বাচনের দিন ১০ দিন আগে পেতে হবে"
     },
     "nc": {
         "default_ip_deadline": "প্রারম্ভিক ভোটের সময় একই দিনে নিবন্ধন উপলব্ধ",
