@@ -12,6 +12,6 @@ more_info_link = "https://voteinfo.utah.gov/"
 confirm_registration_link = "https://vote.utah.gov/"
 default_ip_deadline = "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ"
 default_online_deadline = "নির্বাচনের দিন ১১ দিন আগে"
-default_mail_received_deadline = "নির্বাচনের দিন ১১ দিন আগে পোস্টমার্ক করা আবশ্যক"
+default_mail_received_deadline = "নির্বাচনের দিন ১১ দিন আগে পেতে হবে"
 
 +++
