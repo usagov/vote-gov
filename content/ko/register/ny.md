@@ -12,6 +12,6 @@ more_info_link = "https://www.elections.ny.gov/votingregister.html"
 confirm_registration_link = "https://voterlookup.elections.ny.gov/"
 default_ip_deadline = "선거일 25일 전까지"
 default_online_deadline = "선거일 25일 전까지"
-default_mail_postmarked_deadline = "반드시 선거일 25일 전까지 일자로 소인이 날인되어야 합니다."
+default_mail_received_deadline = "반드시 선거일 10일 전까지 까지 접수해야 합니다."
 
 +++

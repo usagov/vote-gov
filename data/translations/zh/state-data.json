@@ -167,7 +167,7 @@
   "ny": {
     "default_ip_deadline": "選舉日前 25天",
     "default_online_deadline": "選舉日前 25天",
-    "default_mail_postmarked_deadline": "選舉當日前 25天郵戳為憑"
+    "default_mail_received_deadline": "必須在選舉日前 10天前寄達"
   },
   "nc": {
     "default_ip_deadline": "提前投票期間可當天登記",

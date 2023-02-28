@@ -12,6 +12,6 @@ more_info_link = "https://www.elections.ny.gov/votingregister.html"
 confirm_registration_link = "https://voterlookup.elections.ny.gov/"
 default_ip_deadline = "I'ii'n77[ Bij9j8' t'ahdoo naadiin ashdla' yi[kaah7"
 default_online_deadline = "I'ii'n77[ Bij9j8' t'ahdoo naadiin ashdla' yi[kaah7"
-default_mail_postmarked_deadline = "I'ii'n77[ Bij9j8' t'ahdoo naadiin ashdla' yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
+default_mail_received_deadline = "I'ii'n77[ Bij9j8' t'ahdoo neezn11 yi[kaah7 naaltsoos nin1h1jeehd00 bi'k'ini'7t'32 doolee["
 
 +++
