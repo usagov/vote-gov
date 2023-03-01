@@ -12,6 +12,6 @@ more_info_link = "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoV
 confirm_registration_link = "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
 default_ip_deadline = "নির্বাচনের ১৫ দিন আগে"
 default_online_deadline = "নির্বাচনের ১৫ দিন আগে"
-default_mail_received_deadline = "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক"
+default_mail_received_deadline = "নির্বাচনের দিন ১৫ দিন আগে পেতে হবে"
 
 +++

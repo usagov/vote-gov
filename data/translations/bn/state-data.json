@@ -104,7 +104,7 @@
     },
     "me": {
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "default_mail_received_deadline": "নির্বাচনের দিন ২১ দিন আগে পোস্টমার্ক করা আবশ্যক"
+        "default_mail_received_deadline": "নির্বাচনের দিন ২১ দিন আগে পেতে হবে"
     },
     "md": {
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
@@ -124,7 +124,7 @@
     "mn": {
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের ২১ দিন আগে",
-        "default_mail_received_deadline": "নির্বাচনের দিন ২১ দিন আগে পোস্টমার্ক করা আবশ্যক"
+        "default_mail_received_deadline": "নির্বাচনের দিন ২১ দিন আগে পেতে হবে"
     },
     "ms": {
         "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
@@ -194,7 +194,7 @@
     "pa": {
         "default_ip_deadline": "নির্বাচনের ১৫ দিন আগে",
         "default_online_deadline": "নির্বাচনের ১৫ দিন আগে",
-        "default_mail_received_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক"
+        "default_mail_received_deadline": "নির্বাচনের দিন ১৫ দিন আগে পেতে হবে"
     },
     "pr": {
         "default_ip_deadline": "নির্বাচনের ৫০ দিন আগে"
@@ -211,7 +211,8 @@
     },
     "sd": {
         "default_ip_deadline": "নির্বাচনের ১৫ দিন আগে",
-        "default_mail_received_deadline": "নির্বাচনের ১৫ দিন আগে পোস্টমার্ক করা আবশ্যক"
+        "default_mail_received_deadline": "নির্বাচনের দিন ১৫ দিন আগে পেতে হবে"
+
     },
     "tn": {
         "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",
@@ -225,7 +226,7 @@
     "ut": {
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
         "default_online_deadline": "নির্বাচনের দিন ১১ দিন আগে",
-        "default_mail_received_deadline": "নির্বাচনের দিন ১১ দিন আগে পোস্টমার্ক করা আবশ্যক"
+        "default_mail_received_deadline": "নির্বাচনের দিন ১১ দিন আগে পেতে হবে"
     },
     "vt": {
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
