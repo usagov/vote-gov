@@ -12,7 +12,7 @@
         <div class="tablet:grid-col-4">
           <a class="site-logo" href="{{ .Site.Home.RelPermalink }}" aria-label="Vote.gov">
             <div class="logo-text">{{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</div>
-            <div id="SiteLogo">{{ partial "ballot_box-blue.svg" }}</div>
+            <div id="SiteLogo" role="img" aria-lable="{{ $translation.footer.vote_logo_alt_text }}">{{ partial "ballot_box-blue.svg" }}</div>
           </a>
         </div>
         <div id="skip-target" class="tablet:grid-col-8 right-shift">
