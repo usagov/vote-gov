@@ -24,6 +24,5 @@
   "banner__guidance_https_heading": "Secure .gov websites use HTTPS",
   "banner__guidance_https_text": "A lock %lock_icon% or %https% means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.",
   "search_placeholder": "Search Vote.gov",
-  "search_aria_text": "Search",
   "search_affiliate_translated": true
 }
