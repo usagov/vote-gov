@@ -23,7 +23,7 @@
             </a>
           </div>
           <div id="skip-target" class="tablet:grid-col-8 right-shift">
-            <section class="register align-bottom" role="region">
+            <section class="register align-bottom" role="region" aria-label="{{ $translation.homepage.header }}">
               <header>
                 <h1 class="main-heading" data-test="main-header">{{ $translation.homepage.header | safeHTML }}</h1>
               </header>
@@ -60,12 +60,10 @@
 
           </div>
           <div class="tablet:grid-col-8 right-shift">
-
-            <section role="region">
+   
               {{ partial "accordion-group.html" . }}
-            </section>
 
-            <section class="page-section registered" id="already-registered">
+            <section class="page-section registered" id="already-registered" aria-label="{{ $translation.homepage.registered__header }}">
               <header>
                 <h2 class="content-heading">{{ $translation.homepage.registered__header }}</h2>
               </header>
