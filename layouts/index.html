@@ -11,7 +11,7 @@
 
   {{ partial "header.html" . }}
 
-  <div class="page-vote-main" id="main" role="main">
+  <main class="page-vote-main" id="main">
 
     <div class="bg-blue css-arrow">
       <div class="grid-container">
@@ -23,7 +23,7 @@
             </a>
           </div>
           <div id="skip-target" class="tablet:grid-col-8 right-shift">
-            <section class="register align-bottom" role="complementary">
+            <section class="register align-bottom" role="region">
               <header>
                 <h1 class="main-heading" data-test="main-header">{{ $translation.homepage.header | safeHTML }}</h1>
               </header>
@@ -61,7 +61,7 @@
           </div>
           <div class="tablet:grid-col-8 right-shift">
 
-            <section role="complementary">
+            <section role="region">
               {{ partial "accordion-group.html" . }}
             </section>
 
@@ -96,7 +96,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
 
   <!-- Footer BEGIN -->
   {{ partial "footer.html" . }}
