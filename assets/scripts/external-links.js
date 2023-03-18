@@ -32,6 +32,8 @@
           var svgIcon = `<span class="ext-link">&#xFEFF;${svg}</span>`;
           externalLinks[i].setAttribute('target', '_blank');
           externalLinks[i].insertAdjacentHTML( 'beforeend', svgIcon );
+          externalLinks[i].setAttribute('title', 'opens new window');
+          externalLinks[i].setAttribute('aria-label', 'external link opens new window');
         }
       }
     }
