@@ -19,7 +19,7 @@
           <div class="tablet:grid-col-4">
             <a class="site-logo" data-test="vote-logo" href="{{ .Site.Home.RelPermalink }}" aria-label="Vote.gov">
               <div class="logo-text">{{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</div>
-              <div id="SiteLogo" aria-label="{{ $translation.footer.vote_logo_alt_text }}">{{ partial "ballot_box-blue.html" . }}</div>
+              <div id="SiteLogo">{{ partial "ballot_box-blue.html" . }}</div>
             </a>
           </div>
           <div id="skip-target" class="tablet:grid-col-8 right-shift">
@@ -63,7 +63,7 @@
    
               {{ partial "accordion-group.html" . }}
 
-            <section class="page-section registered" id="already-registered" aria-label="{{ $translation.homepage.registered__header }}">
+            <section class="page-section registered" aria-label="{{ $translation.homepage.registered__header }}">
               <header>
                 <h2 class="content-heading">{{ $translation.homepage.registered__header }}</h2>
               </header>
