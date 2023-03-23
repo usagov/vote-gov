@@ -1,6 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 <footer role="contentinfo">
-  <div class="bg-white">
+  <section class="bg-white" aria-label="Email sign-up">
     <div class="grid-container">
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-4"></div>
@@ -20,9 +20,8 @@
         </div>
       </div>
     </div>
-  </div>
-
-  <section>
-    {{ partial "partials/contact-identifier.html" . }}
   </section>
+
+    {{ partial "partials/contact-identifier.html" . }}
+
 </footer>
