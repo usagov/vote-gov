@@ -138,6 +138,26 @@
       "english_languageName": "Vietnamese"
     }
   },
+  "pg": {
+    "contentDir": "content/pg",
+    "title": "Inscrição para votar",
+    "languageName": "Português",
+    "weight": 10,
+    "params": {
+      "Owner": "%Vote.gov% em Português",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/tl",
+      "register_path": "registrar",
+      "go_back": "Voltar",
+      "skip_text": "Ir a conteúdo principal",
+      "meta__title": "Inscrição para votar",
+      "meta__description": "Encontre as opinões de inscrição para votar disponíveis em seu estado",
+      "english_only": "(em Inglês)",
+      "last_updated": "Última atualização",
+      "select_language": "Selecione o idioma",
+      "english_languageName": "Portuguese"
+    }
+  },
   "tl": {
     "contentDir": "content/tl",
     "title": "Pagpaparehistro ng Botante",
