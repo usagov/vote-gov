@@ -37,6 +37,10 @@
         <div class="tablet:grid-col-4"></div>
         <div class="tablet:grid-col-8 right-shift">
           <section class="voter-info" data-test="main-info">
+            {{ if eq .Site.Params.translation_outdated true }}
+              {{ partial "alert-notification.html" . }}
+            {{ end }}
+
             {{ .Render ( print "types/" .Params.registration_type ) }}
             <time class="updated-date" datetime="{{ .Lastmod }}">
               {{ .Site.Params.last_updated }}

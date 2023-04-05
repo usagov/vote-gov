@@ -10,8 +10,6 @@ type = "register"
 hp_link = "https://sos.wyo.gov/elections/state/registeringtovote.aspx"
 more_info_link = "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx"
 confirm_registration_link = "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
-ip_deadline = "2022-11-08"
-mail_received_deadline = "必須在2022年10月24日星期六之前寄達"
 default_ip_deadline = "選舉日之前（包括選舉日）都可以使用"
 default_mail_received_deadline = "必須在選舉日前 14天前寄達"
 

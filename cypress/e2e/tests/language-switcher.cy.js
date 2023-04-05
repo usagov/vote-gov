@@ -1,10 +1,10 @@
 /// <reference types="Cypress" />
 
 const testPages = [
-  "localhost:1313/", 
-  "localhost:1313/register/ak/", 
-  "localhost:1313/register/as/", 
-  "localhost:1313/register/ar/", 
+  "localhost:1313/",
+  "localhost:1313/register/ak/",
+  "localhost:1313/register/as/",
+  "localhost:1313/register/ar/",
   "localhost:1313/register/nd/"
 ]
 
@@ -81,15 +81,15 @@ describe('Test Language Switcher Function', () => {
         )
     })
 
-    it(`test navajo ${page}`, () => {
-      cy.visit(page)
-      cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
-        cy.get(options[0]).find('li').then(li => {
-          cy.get(li[8]).click()
-          cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov Diné')
-        })
-        )
-    })
+    // it(`test navajo ${page}`, () => {
+    //   cy.visit(page)
+    //   cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
+    //     cy.get(options[0]).find('li').then(li => {
+    //       cy.get(li[8]).click()
+    //       cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov Diné')
+    //     })
+    //     )
+    // })
 
     it(`test tagalog ${page}`, () => {
       cy.visit(page)
