@@ -10,11 +10,8 @@ hp_link = "https://www.elections.il.gov/"
 registration_link = "https://ova.elections.il.gov/"
 more_info_link = "https://www.elections.il.gov/Default.aspx"
 confirm_registration_link = "https://ova.elections.il.gov/RegistrationLookup.aspx"
-ip_deadline = "2022-11-08"
-online_deadline = "2022-10-23"
-mail_postmarked_deadline = "Cần được đánh dấu bưu điện trước Thứ Ba, 11 tháng 10, 2022"
 default_ip_deadline = "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử"
-default_online_deadline = "16 ngày trước ngày Bầu Cử"
-default_mail_postmarked_deadline = "Phải được nhận vào trước 28 ngày trước ngày Bầu Cử"
+default_online_deadline = "16 ngày trước Ngày Bầu Cử"
+default_mail_postmarked_deadline = "Phải được đóng dấu bưu điện 28 ngày trước Ngày Bầu Cử"
 
 +++

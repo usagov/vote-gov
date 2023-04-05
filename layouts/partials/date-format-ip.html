@@ -1,5 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 
+{{ if .Params.ip_deadline }}
 {{ $date := (time .Params.ip_deadline) }}
 
 {{ $day := index $translation.day_number (string $date.Day) }}
@@ -30,3 +31,5 @@
 {{ else }}
   {{ $date | time.Format ":date_full" }}{{ $time }}
 {{end}}
+
+{{ end }}
