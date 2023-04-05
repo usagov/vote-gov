@@ -142,11 +142,11 @@
     "contentDir": "content/pg",
     "title": "Inscrição para votar",
     "languageName": "Português",
-    "weight": 10,
+    "weight": 4,
     "params": {
       "Owner": "%Vote.gov% em Português",
       "language_direction": "ltr",
-      "publishDir": "tmp/public/tl",
+      "publishDir": "tmp/public/pg",
       "register_path": "registrar",
       "go_back": "Voltar",
       "skip_text": "Ir a conteúdo principal",
