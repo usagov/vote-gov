@@ -7,8 +7,8 @@
    <a href="{{ .Permalink | relURL }}" class="usa-button"><span lang="{{ .Language.Lang | replaceRE "-[a-z]+" "" }}" xml:lang="{{ .Language.Lang | replaceRE "-[a-z]+" "" }}">{{ .Language.LanguageName }}</span></a>
 {{ end }}
 {{ else }}
-  <ul class="usa-language__primary usa-accordion">
-    <li class="usa-language__primary-item">
+  <div class="usa-language__primary usa-accordion">
+    <div class="usa-language__primary-item">
       <button class="usa-button usa-language__link" data-test="language-button" aria-expanded="false"
         aria-controls="language-options">
         {{ replace .Site.Params.select_language "%dropdown-list%" "" }}
@@ -21,8 +21,8 @@
         </li>
       {{ end }}
       </ul>
-    </li>
-  </ul>
+    </div>
+  </div>
 {{ end }}
 </div>
 {{ end }}
