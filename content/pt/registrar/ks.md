@@ -1,0 +1,25 @@
++++
+
+state_name = "Kansas"
+state_abbreviation = "ks"
+is_state = "true"
+registration_type = "online"
+translationKey = "Kansas"
+type = "register"
+hp_link = "https://sos.ks.gov/elections/elections.html"
+registration_link = "https://www.kdor.ks.gov/Apps/VoterReg/Default.aspx"
+more_info_link = "https://sos.ks.gov/elections/voter-information.html"
+confirm_registration_link = "https://myvoteinfo.voteks.org/voterview/"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "21 dias antes do dia da eleição"
+default_online_deadline = "21 dias antes do dia da eleição"
+default_mail_postmarked_deadline = "Deve ser marcado 21 dias antes do dia das eleições"
+
++++

@@ -1,0 +1,25 @@
++++
+
+state_name = "Kentucky"
+state_abbreviation = "ky"
+is_state = "true"
+registration_type = "online"
+translationKey = "Kentucky"
+type = "register"
+hp_link = "https://elect.ky.gov/Pages/default.aspx"
+registration_link = "https://vrsws.sos.ky.gov/ovrweb/"
+more_info_link = "https://elect.ky.gov/Resources/Pages/Registration.aspx"
+confirm_registration_link = "https://vrsws.sos.ky.gov/VIC/"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "29 dias antes do dia das eleições"
+default_online_deadline = "29 dias antes do dia das eleições"
+default_mail_postmarked_deadline = "Deve ser marcado 29 dias antes do dia das eleições"
+
++++

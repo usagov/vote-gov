@@ -1,0 +1,25 @@
++++
+
+state_name = "Hawaii"
+state_abbreviation = "hi"
+is_state = "true"
+registration_type = "online"
+translationKey = "Hawaii"
+type = "register"
+hp_link = "https://elections.hawaii.gov/"
+registration_link = "https://olvr.hawaii.gov/"
+more_info_link = "https://elections.hawaii.gov/voters/registration/"
+confirm_registration_link = "https://olvr.hawaii.gov/"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "Disponível até e inclusive no dia da eleição"
+default_online_deadline = "Disponível até e inclusive no dia da eleição"
+default_mail_postmarked_deadline = "Deve ser marcado 8 dias antes do dia das eleições"
+
++++

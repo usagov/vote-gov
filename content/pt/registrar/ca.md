@@ -1,0 +1,25 @@
++++
+
+state_name = "California"
+state_abbreviation = "ca"
+is_state = "true"
+registration_type = "online"
+translationKey = "California"
+type = "register"
+hp_link = "https://www.sos.ca.gov/elections"
+registration_link = "https://registertovote.ca.gov/"
+more_info_link = "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote"
+confirm_registration_link = "https://registertovote.ca.gov/"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "Disponível até e inclusive no dia da eleição"
+default_online_deadline = "15 dias antes do dia das eleições"
+default_mail_postmarked_deadline = "Deve ser marcado 15 dias antes do dia das eleições"
+
++++

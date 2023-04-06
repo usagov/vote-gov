@@ -1,0 +1,25 @@
++++
+
+state_name = "West Virginia"
+state_abbreviation = "wv"
+is_state = "true"
+registration_type = "online"
+translationKey = "West Virginia"
+type = "register"
+hp_link = "https://sos.wv.gov/elections/Pages/default.aspx"
+registration_link = "https://ovr.sos.wv.gov/Register/Landing"
+more_info_link = "https://ovr.sos.wv.gov/Register/Landing"
+confirm_registration_link = "https://apps.sos.wv.gov/Elections/voter/amiregisteredtovote"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "21 dias antes do dia da eleição"
+default_online_deadline = "21 dias antes do dia da eleição"
+default_mail_postmarked_deadline = "Deve ser marcado 21 dias antes do dia das eleições"
+
++++

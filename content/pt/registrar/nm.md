@@ -1,0 +1,25 @@
++++
+
+state_name = "New Mexico"
+state_abbreviation = "nm"
+is_state = "true"
+registration_type = "online"
+translationKey = "New Mexico"
+type = "register"
+hp_link = "https://www.sos.state.nm.us/voting-and-elections/"
+registration_link = "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx"
+more_info_link = "https://www.sos.state.nm.us/voting-and-elections/voter-information/voter-registration-information/"
+confirm_registration_link = "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "28 dias antes do dia da eleição"
+default_online_deadline = "28 dias antes do dia da eleição"
+default_mail_postmarked_deadline = "Deve ser marcado 28 dias antes do dia das eleições"
+
++++

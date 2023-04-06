@@ -1,0 +1,25 @@
++++
+
+state_name = "South Carolina"
+state_abbreviation = "sc"
+is_state = "true"
+registration_type = "online"
+translationKey = "South Carolina"
+type = "register"
+hp_link = "https://www.scvotes.gov/"
+registration_link = "https://info.scvotes.sc.gov/eng/ovr/start.aspx"
+more_info_link = "https://scvotes.gov/voters/register-to-vote/"
+confirm_registration_link = "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "30 dias antes do dia da eleição"
+default_online_deadline = "30 dias antes do dia da eleição"
+default_mail_postmarked_deadline = "Deve ser marcado 30 dias antes do dia das eleições"
+
++++

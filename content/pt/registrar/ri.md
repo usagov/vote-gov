@@ -1,0 +1,25 @@
++++
+
+state_name = "Rhode Island"
+state_abbreviation = "ri"
+is_state = "true"
+registration_type = "online"
+translationKey = "Rhode Island"
+type = "register"
+hp_link = "https://elections.ri.gov/"
+registration_link = "https://vote.sos.ri.gov/Home/RegistertoVote"
+more_info_link = "https://vote.sos.ri.gov/Voter/RegisterToVote"
+confirm_registration_link = "https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "30 dias antes do dia da eleição"
+default_online_deadline = "30 dias antes do dia da eleição"
+default_mail_postmarked_deadline = "Deve ser marcado 30 dias antes do dia das eleições"
+
++++

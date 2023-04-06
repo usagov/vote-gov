@@ -1,0 +1,25 @@
++++
+
+state_name = "Pennsylvania"
+state_abbreviation = "pa"
+is_state = "true"
+registration_type = "online"
+translationKey = "Pennsylvania"
+type = "register"
+hp_link = "https://www.pa.gov/guides/voting-and-elections/"
+registration_link = "https://www.pavoterservices.pa.gov/Pages/VoterRegistrationApplication.aspx"
+more_info_link = "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoVote"
+confirm_registration_link = "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "15 dias antes do dia das eleições"
+default_online_deadline = "15 dias antes do dia das eleições"
+default_mail_received_deadline = "Deve ser recebido 15 dias antes do dia das eleições"
+
++++

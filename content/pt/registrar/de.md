@@ -1,0 +1,25 @@
++++
+
+state_name = "Delaware"
+state_abbreviation = "de"
+is_state = "true"
+registration_type = "online"
+translationKey = "Delaware"
+type = "register"
+hp_link = "https://elections.delaware.gov/index.shtml"
+registration_link = "https://ivote.de.gov/VoterView/"
+more_info_link = "https://elections.delaware.gov/voter/votereg.shtml"
+confirm_registration_link = "https://ivote.de.gov/VoterView"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "24 dias antes do dia das eleições"
+default_online_deadline = "24 dias antes do dia das eleições"
+default_mail_postmarked_deadline = "Deve ser marcado 24 dias antes do dia das eleições"
+
++++

@@ -1,0 +1,25 @@
++++
+
+state_name = "Illinois"
+state_abbreviation = "il"
+is_state = "true"
+registration_type = "online"
+translationKey = "Illinois"
+type = "register"
+hp_link = "https://www.elections.il.gov/"
+registration_link = "https://ova.elections.il.gov/"
+more_info_link = "https://www.elections.il.gov/Default.aspx"
+confirm_registration_link = "https://ova.elections.il.gov/RegistrationLookup.aspx"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "Disponível até e inclusive no dia da eleição"
+default_online_deadline = "16 dias antes do dia da eleição"
+default_mail_postmarked_deadline = "Deve ser marcado 28 dias antes do dia das eleições"
+
++++

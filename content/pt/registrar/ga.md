@@ -1,0 +1,25 @@
++++
+
+state_name = "Georgia"
+state_abbreviation = "ga"
+is_state = "true"
+registration_type = "online"
+translationKey = "Georgia"
+type = "register"
+hp_link = "https://sos.ga.gov/index.php/elections"
+registration_link = "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button"
+more_info_link = "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button"
+confirm_registration_link = "https://mvp.sos.ga.gov/s/"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "29 dias antes do dia das eleições"
+default_online_deadline = "29 dias antes do dia das eleições"
+default_mail_postmarked_deadline = "Deve ser marcado 29 dias antes do dia das eleições"
+
++++

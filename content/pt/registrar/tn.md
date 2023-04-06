@@ -1,0 +1,25 @@
++++
+
+state_name = "Tennessee"
+state_abbreviation = "tn"
+is_state = "true"
+registration_type = "online"
+translationKey = "Tennessee"
+type = "register"
+hp_link = "https://sos.tn.gov/elections"
+registration_link = "https://ovr.govote.tn.gov/"
+more_info_link = "https://sos.tn.gov/products/elections/register-vote"
+confirm_registration_link = "https://tnmap.tn.gov/voterlookup/"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "30 dias antes do dia da eleição"
+default_online_deadline = "30 dias antes do dia da eleição"
+default_mail_postmarked_deadline = "Deve ser marcado 30 dias antes do dia das eleições"
+
++++

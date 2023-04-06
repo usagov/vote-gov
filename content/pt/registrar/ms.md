@@ -1,0 +1,21 @@
++++
+
+state_name = "Mississippi"
+state_abbreviation = "ms"
+is_state = "true"
+registration_type = "by-mail"
+translationKey = "Mississippi"
+type = "register"
+hp_link = "https://www.sos.ms.gov/elections-voting/voter-registration-information"
+more_info_link = "https://www.sos.ms.gov/elections-voting/voter-registration-information"
+confirm_registration_link = "https://www.msegov.com/sos/voter_registration/amiregistered/Search"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "30 dias antes do dia da eleição"
+default_mail_postmarked_deadline = "Deve ser marcado 30 dias antes do dia das eleições"
+
++++

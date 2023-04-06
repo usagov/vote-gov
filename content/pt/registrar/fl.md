@@ -1,0 +1,25 @@
++++
+
+state_name = "Florida"
+state_abbreviation = "fl"
+is_state = "true"
+registration_type = "online"
+translationKey = "Florida"
+type = "register"
+hp_link = "https://dos.myflorida.com/elections/"
+registration_link = "https://registertovoteflorida.gov/eligibilityreactive"
+more_info_link = "https://registertovoteflorida.gov/home"
+confirm_registration_link = "https://registration.elections.myflorida.com/CheckVoterStatus"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "29 dias antes do dia das eleições"
+default_online_deadline = "29 dias antes do dia das eleições"
+default_mail_postmarked_deadline = "Deve ser marcado 29 dias antes do dia das eleições"
+
++++

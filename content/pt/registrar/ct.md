@@ -1,0 +1,25 @@
++++
+
+state_name = "Connecticut"
+state_abbreviation = "ct"
+is_state = "true"
+registration_type = "online"
+translationKey = "Connecticut"
+type = "register"
+hp_link = "https://portal.ct.gov/sots"
+registration_link = "https://voterregistration.ct.gov/OLVR/welcome.do"
+more_info_link = "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet"
+confirm_registration_link = "https://portaldir.ct.gov/sots/LookUp.aspx"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "Disponível até e inclusive no dia da eleição"
+default_online_deadline = "7 dias antes do dia das eleições"
+default_mail_postmarked_deadline = "Deve ser marcado 7 dias antes do dia das eleições"
+
++++

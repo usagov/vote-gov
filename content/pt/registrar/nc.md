@@ -1,0 +1,25 @@
++++
+
+state_name = "North Carolina"
+state_abbreviation = "nc"
+is_state = "true"
+registration_type = "online"
+translationKey = "North Carolina"
+type = "register"
+hp_link = "https://www.ncsbe.gov/voting"
+registration_link = "https://www.ncdot.gov/dmv/offices-services/online/Pages/voter-registration-application.aspx"
+more_info_link = "https://www.ncsbe.gov/registering/how-register"
+confirm_registration_link = "https://vt.ncsbe.gov/RegLkup/"
+hp_link_translated = "true"
+hp_link_language_selection = ""
+registration_link_translated = "true"
+registration_link_language_selection = ""
+more_info_link_translated = "true"
+more_info_link_language_selection = ""
+confirm_registration_link_translated = "true"
+confirm_registration_link_language_selection = ""
+default_ip_deadline = "Registro no mesmo dia disponível durante o período de votação antecipado"
+default_online_deadline = "25 dias antes do dia da eleição"
+default_mail_postmarked_deadline = "Deve ser marcado 25 dias antes do dia das eleições"
+
++++
