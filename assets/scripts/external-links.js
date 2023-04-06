@@ -32,6 +32,7 @@
           var svgIcon = `<span class="ext-link">&#xFEFF;${svg}</span>`;
           externalLinks[i].setAttribute('target', '_blank');
           externalLinks[i].insertAdjacentHTML( 'beforeend', svgIcon );
+          externalLinks[i].setAttribute('title', 'external link opens new window');
         }
       }
     }
