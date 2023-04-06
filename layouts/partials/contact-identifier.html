@@ -2,7 +2,7 @@
 {{ $aboutLink := $translation.footer.about_link | default .Site.Params.globalURL.about_link }}
 
 <!-- contact START -->
-<section class="bg-lightblue footer-contact" data-test="footer-contact" aria-label="Contact">
+<section class="bg-lightblue footer-contact" data-test="footer-contact" title="Contact" aria-label="Contact">
     <div class="grid-container eac-vote-partnership">
       <div class="grid-row">
         <div class="tablet:grid-col-auto">
@@ -36,7 +36,7 @@
 <!-- identifier START -->
 <div class="footer-identifier" data-test="footer">
   <div class="grid-container">
-    <section class="identifier-gsa grid-row grid-gap-2" aria-label="{{ $translation.footer.identifier_aria }}">
+    <section class="identifier-gsa grid-row grid-gap-2" title="{{ $translation.footer.identifier_aria }}" aria-label="{{ $translation.footer.identifier_aria }}">
       <div><img src="{{ .Site.BaseURL }}/assets/img/gsa-logo.svg" alt="GSA logo" width="40" height="40"></div>
       <div class="grid-col-auto">
         Vote.gov <br>
@@ -44,7 +44,7 @@
           .)|safeHTML }}</strong>
       </div>
     </section>
-    <nav class="grid-row grid-gap identifier" aria-label="{{ $translation.footer.identifier_link_aria }}">
+    <nav class="grid-row grid-gap identifier" title="{{ $translation.footer.identifier_link_aria }} aria-label="{{ $translation.footer.identifier_link_aria }}">
       <div class="tablet:grid-col-3">
         <ul class="usa-list usa-list--unstyled identifier-links">
           <li><a href="{{ .Site.BaseURL }}{{ $aboutLink }}">{{ $translation.footer.identifier_link_1 }}</a></li>
@@ -74,7 +74,7 @@
         </ul>
       </div>
     </nav>
-    <section aria-label="{{ $translation.footer.identifier_more_info_aria }}" class="identifier-gov-info">{{ replace
+    <section title="{{ $translation.footer.identifier_more_info_aria }}" class="identifier-gov-info">{{ replace
       $translation.footer.identifier_more_info "%link%" (partial "links/footer/identifier-more-info.html" .)|safeHTML }}
     </section>
   </div>
