@@ -4,7 +4,7 @@
   "state_selection__default": "Selecione seu estado ou território",
   "state_selection__submit": "Descubra como se registrar",
   "registered__header": "Já registrado?",
-  "registered__resources_intro": "Explore nosso %Link %em %USA.gov %",
+  "registered__resources_intro": "Explora nossos %link% no %USA.gov%",
   "registered__resources_link_text": "Recursos de votação e eleição",
   "registered__resources_link_url": "https://www.usa.gov/voting",
   "registered_links__electionday": "Votação no dia da eleição",
