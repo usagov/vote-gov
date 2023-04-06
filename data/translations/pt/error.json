@@ -1,0 +1,11 @@
+{
+  "error_main_heading": "Erro 404",
+  "error_intro": "Não se encontra a pagina",
+  "error_msg": "não conseguimos em encontrar a pagina que você está procurando. A pagina dever ser removida, mudou seu nome, ou está indiponível temporariamente.",
+  "error_msg1": "Se entrou o URL da pagina manualmente, verifique a ortografia.",
+  "error_msg2": "vai á nosso %link% e tentar de novo.",
+  "error_msg2_link": "pagina do início",
+  "error_msg3": "Visitar seu %link% por mais informação.",
+  "error_msg3_link": "escritória eleitoral do seu estado o território (en inglês)",
+  "error_usa_link": "https://www.usa.gov/election-office"
+}
