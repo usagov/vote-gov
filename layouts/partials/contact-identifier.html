@@ -74,7 +74,7 @@
         </ul>
       </div>
     </nav>
-    <section title="{{ $translation.footer.identifier_more_info_aria }}" class="identifier-gov-info">{{ replace
+    <section title="{{ $translation.footer.identifier_more_info_aria }}" aria-label="{{ $translation.footer.identifier_more_info_aria }}" class="identifier-gov-info">{{ replace
       $translation.footer.identifier_more_info "%link%" (partial "links/footer/identifier-more-info.html" .)|safeHTML }}
     </section>
   </div>
