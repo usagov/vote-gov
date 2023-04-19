@@ -3,6 +3,7 @@
 {{ $envURL := cond (eq $envURL nil) $.Site.Params.envURL.fed $envURL }}
 {{ $queryNum := substr (md5 now.Unix) 0 9 }}
 
+<!--- test comment -->
 <!-- unique state meta data variables -->
 {{ $meta_title__register := replace $translation.register.state_heading "%state_name%" .Params.state_name }}
 {{ if and (isset $translation.register "state_heading_territory") (eq .Params.is_state "false") }}
