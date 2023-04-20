@@ -238,5 +238,25 @@
       "english_languageName": "Navajo",
       "translation_outdated": true
     }
+  },
+  "ht": {
+    "contentDir": "content/ht",
+    "title": "Enskripsyon Votè",
+    "languageName": "Kreyòl Ayisyen",
+    "weight": 13,
+    "params": {
+      "Owner": "%Vote.gov% nan Kreyòl Ayisyen",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/ht",
+      "register_path": "register",
+      "go_back": "Retounen",
+      "skip_text": "Ale nan kontni prensipal la",
+      "meta__title": "Enskri pou vote",
+      "meta__description": "Jwenn tout opsyon pou enskri pou vote nan Eta pa w.",
+      "english_only": "(ann Anglè)",
+      "last_updated": "Dènye mizajou: ",
+      "select_language": "Chwazi lang",
+      "english_languageName": "Hatian Creole"
+    }
   }
 }

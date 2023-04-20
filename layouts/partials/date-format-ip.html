@@ -28,6 +28,9 @@
 {{ else if eq .Site.Language.Lang "nv" }}
 {{ $weekday := index $translation.days (string (lower $date.Weekday)) }}
   {{ $weekday }}, {{ $day }} {{ $month }}, {{ $year }}{{ $time }}
+{{ else if eq .Site.Language.Lang "ht" }}
+{{ $weekday := index $translation.days (string (lower $time.Weekday)) }}
+  {{ $weekday }}, {{ $day }} {{ $month }}, {{ $year }}
 {{ else }}
   {{ $date | time.Format ":date_full" }}{{ $time }}
 {{end}}
