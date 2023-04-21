@@ -2,7 +2,7 @@
 
 state_name = "Guam"
 state_abbreviation = "gu"
-registration_type = "in-person"
+registration_type = "online"
 is_state = "false"
 translationKey = "Guam"
 type = "register"
