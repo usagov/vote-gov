@@ -1,8 +1,8 @@
 +++
-title = "Learn how to get a voter registration card"
+title = "Aprenda como conseguir seu cartão de registro eleitoral"
 +++
-When you register to vote, you'll be sent a voter registration card. This card confirms that you are registered and ready to vote. Your voter registration card typically includes your name, your home address, and the address of the polling station where you’ll vote. You can also look up your voter registration using your state’s voter registration lookup tool online.
+Quando você se registrar para votar, receberá um cartão de registro eleitoral. Este cartão confirma que você está registrado/a e pronto/a para votar. O cartão de registro eleitoral tipicamente inclui seu nome, sua direção, e a direção da sua estação de eleição onde irá votar. Também pode procurar sua inscrição eleitoral usando a ferramenta on-line de pesquisa de registros eleitorais do seu estado.
 
-If your name or address changes, you will need to update your voter registration. Once you’ve updated your voter registration information, you may receive a new voter registration card, depending on your state. If you have questions, your local election office is the best resource to help.
+Se seu nome ou endereço mudar, você precisará atualizar seu registro de eleitor. Depois de atualizar suas informações de registro de eleitor, você pode receber um novo cartão de registro de eleitor, dependendo do seu estado. Se você tiver dúvidas, o escritório eleitoral local é o melhor recurso para ajudar.
 
-You do not usually need to have your voter registration card with you in order to vote, but you may need to present another [form of ID to vote](https://www.usa.gov/voter-id). Learn more about [voter registration](https://www.usa.gov/voter-registration-card).
+Normalmente, você não precisa estar com o título de eleitor para votar, mas, dependendo do seu estado, pode ser necessário apresentar outro documento de [identificação para votar](https://www.usa.gov/voter-id). Aprenda mais sobre o [registro eleitoral](https://www.usa.gov/voter-registration-card).
