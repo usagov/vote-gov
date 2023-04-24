@@ -1,0 +1,265 @@
+{
+  "al": {
+    "default_ip_deadline": "15 dias antes do Dia da Eleição ",
+    "default_online_deadline": "15 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 15 dias antes do Dia de Eleição "
+  },
+  "ak": {
+    "default_ip_deadline": "30 dias antes do Dia da Eleição",
+    "default_online_deadline": "30 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 30 dias antes do Dia da Eleição"
+  },
+  "as": {
+    "default_ip_deadline": "29 dias antes do Dia da Eleição",
+    "default_mail_received_deadline": "Deve ser recebido 29 dias antes do Dia da Eleição"
+  },
+  "az": {
+    "default_online_deadline": "29 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 29 dias antes do Dia da Eleição",
+    "default_ip_deadline": "29 dias antes do Dia da Eleição"
+  },
+  "ar": {
+    "default_ip_deadline": "30 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 30 dias antes do Dia da Eleição"
+  },
+  "ca": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 15 dias antes do Dia da Eleição",
+    "default_online_deadline": "15 dias antes do Dia da Eleição "
+  },
+  "co": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_online_deadline": "8 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 8 dias antes do Dia da Eleição"
+  },
+  "ct": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_online_deadline": "7 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 7 dias antes do Dia da Eleição"
+  },
+  "de": {
+    "default_ip_deadline": "24 dias antes do Dia da Eleição ",
+    "default_online_deadline": "24 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 24 dias antes do Dia da Eleição"
+  },
+  "dc": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_mail_received_deadline": "Deve ser recebido 21 dias antes do Dia da Eleição",
+    "default_online_deadline": "21 dias antes do Dia da Eleição "
+  },
+  "fl": {
+    "default_ip_deadline": "29 dias antes do Dia da Eleição",
+    "default_online_deadline": "29 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 29 dias antes do Dia da Eleição"
+  },
+  "ga": {
+    "default_ip_deadline": "29 dias antes do Dia da Eleição ",
+    "default_online_deadline": "29 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 29 dias antes do Dia da Eleição"
+  },
+  "gu": {
+    "default_ip_deadline": "11 dias úteis antes do Dia da Eleição",
+    "default_online_deadline": "11 dias úteis antes do Dia da Eleição",
+    "default_mail_received_deadline": "Deve ser recebido 11 dias úteis antes do Dia da Eleição"
+  },
+  "hi": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_online_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 8 dias antes do Dia da Eleição"
+  },
+  "id": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_online_deadline": "25 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 25 dias antes do Dia da Eleição"
+  },
+  "il": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_online_deadline": "16 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 28 dias antes do Dia da Eleição"
+  },
+  "in": {
+    "default_ip_deadline": "29 dias antes do Dia da Eleição ",
+    "default_online_deadline": "29 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 29 dias antes do Dia da Eleição"
+  },
+  "ia": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_online_deadline": "15 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 15 dias antes do Dia da Eleição"
+  },
+  "ks": {
+    "default_ip_deadline": "21 dias antes do Dia da Eleição ",
+    "default_online_deadline": "21 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 21 dias antes do Dia da Eleição"
+  },
+  "ky": {
+    "default_ip_deadline": "29 dias antes do Dia da Eleição ",
+    "default_online_deadline": "29 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 29 dias antes do Dia da Eleição"
+  },
+  "la": {
+    "default_ip_deadline": "30 dias antes do Dia da Eleição ",
+    "default_online_deadline": "20 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 30 dias antes do Dia da Eleição",
+    "dates_electionday": ""
+  },
+  "me": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_mail_received_deadline": "Deve ser recebido 21 dias antes do Dia da Eleição"
+  },
+  "md": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_online_deadline": "21 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 21 dias antes do Dia da Eleição"
+  },
+  "ma": {
+    "default_ip_deadline": "10 dias antes do Dia da Eleição ",
+    "default_online_deadline": "10 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 10 dias antes do Dia da Eleição"
+  },
+  "mi": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_online_deadline": "15 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 15 dias antes do Dia da Eleição"
+  },
+  "mn": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_online_deadline": "21 dias antes do Dia da Eleição ",
+    "default_mail_received_deadline": "Deve ser recebido 21 dias antes do Dia da Eleição"
+  },
+  "ms": {
+    "default_ip_deadline": "30 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 15 dias antes do Dia da Eleição"
+  },
+  "mo": {
+    "default_ip_deadline": "27 dias antes do Dia da Eleição",
+    "default_online_deadline": "27 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 27 dias antes do Dia da Eleição"
+  },
+  "mt": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 30 dias antes do Dia da Eleição"
+  },
+  "ne": {
+    "default_ip_deadline": "11 dias antes do Dia da Eleição ",
+    "default_online_deadline": "18 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 18 dias antes do Dia da Eleição"
+  },
+  "nv": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_online_deadline": "5 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 28 dias antes do Dia da Eleição"
+  },
+  "nh": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_mail_received_deadline": "Deve ser recebido 13 dias antes do Dia da Eleição"
+  },
+  "nj": {
+    "default_online_deadline": "21 dias antes do Dia da Eleição ",
+    "default_mail_received_deadline": "Deve ser recebido 21 dias antes do Dia da Eleição",
+    "default_ip_deadline": "21 dias antes do Dia da Eleição "
+  },
+  "nm": {
+    "default_ip_deadline": "28 dias antes do Dia da Eleição ",
+    "default_online_deadline": "28 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 28 dias antes do Dia da Eleição"
+  },
+  "ny": {
+    "default_ip_deadline": "25 dias antes do Dia da Eleição",
+    "default_online_deadline": "25 dias antes do Dia da Eleição",
+    "default_mail_received_deadline": "Deve ser recebido 10 dias antes do Dia da Eleição"
+  },
+  "nc": {
+    "default_ip_deadline": "Registro no mesmo dia disponível durante o período de votação temprano ",
+    "default_online_deadline": "25 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 25 dias antes do Dia da Eleição"
+  },
+  "nd": {},
+  "mp": {
+    "default_ip_deadline": "60 dias antes do Dia da Eleição",
+    "default_mail_received_deadline": "Deve ser recebido 60 dias antes do Dia da Eleição"
+  },
+  "oh": {
+    "default_ip_deadline": "30 dias antes do Dia da Eleição",
+    "default_online_deadline": "30 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 30 dias antes do Dia da Eleição"
+  },
+  "ok": {
+    "default_ip_deadline": "25 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 25 dias antes do Dia da Eleição"
+  },
+  "or": {
+    "default_ip_deadline": "21 dias antes do Dia da Eleição ",
+    "default_online_deadline": "21 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 21 dias antes do Dia da Eleição"
+  },
+  "pa": {
+    "default_ip_deadline": "15 dias antes do Dia da Eleição ",
+    "default_online_deadline": "15 dias antes do Dia da Eleição ",
+    "default_mail_received_deadline": "Deve ser recebido 15 dias antes do Dia da Eleição"
+  },
+  "pr": {
+    "default_ip_deadline": "50 dias antes do Dia da Eleição "
+  },
+  "ri": {
+    "default_ip_deadline": "30 dias antes do Dia da Eleição",
+    "default_online_deadline": "30 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 30 dias antes do Dia da Eleição"
+  },
+  "sc": {
+    "default_ip_deadline": "30 dias antes do Dia da Eleição",
+    "default_online_deadline": "30 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 30 dias antes do Dia da Eleição"
+  },
+  "sd": {
+    "default_ip_deadline": "15 dias antes do Dia da Eleição ",
+    "default_mail_received_deadline": "Deve ser recebido 15 dias antes do Dia da Eleição"
+  },
+  "tn": {
+    "default_ip_deadline": "30 dias antes do Dia da Eleição",
+    "default_online_deadline": "30 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 30 dias antes do Dia da Eleição"
+  },
+  "tx": {
+    "default_ip_deadline": "30 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 30 dias antes do Dia da Eleição"
+  },
+  "ut": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_online_deadline": "11 dias antes do Dia da Eleição ",
+    "default_mail_received_deadline": "Deve ser recebido 11 dias antes do Dia da Eleição"
+  },
+  "vt": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_online_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_mail_received_deadline": "Deve ser recebido até e inclusive o Dia da Eleição "
+  },
+  "va": {
+    "default_ip_deadline": "22 dias antes do Dia da Eleição",
+    "default_online_deadline": "22 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 22 dias antes do Dia da Eleição"
+  },
+  "vi": {
+    "default_ip_deadline": "30 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 30 dias antes do Dia da Eleição"
+  },
+  "wa": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_online_deadline": "8 dias antes do Dia da Eleição ",
+    "default_mail_received_deadline": "Deve ser recebido 8 dias antes do Dia da Eleição"
+  },
+  "wv": {
+    "default_ip_deadline": "21 dias antes do Dia da Eleição ",
+    "default_online_deadline": "21 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 21 dias antes do Dia da Eleição"
+  },
+  "wi": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_online_deadline": "20 dias antes do Dia da Eleição",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 20 dias antes do Dia da Eleição"
+  },
+  "wy": {
+    "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
+    "default_mail_received_deadline": "Deve ser recebido 14 dias antes do Dia da Eleição"
+  }
+}

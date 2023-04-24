@@ -122,7 +122,7 @@
     "contentDir": "content/vi",
     "title": "Đăng kí bầu cử",
     "languageName": "Tiếng Việt",
-    "weight": 11,
+    "weight": 12,
     "params": {
       "Owner": "%Vote.gov% bằng Tiếng Việt",
       "language_direction": "ltr",
@@ -142,7 +142,7 @@
     "contentDir": "content/tl",
     "title": "Pagpaparehistro ng Botante",
     "languageName": "Tagalog",
-    "weight": 10,
+    "weight": 11,
     "params": {
       "Owner": "%Vote.gov% sa Tagalog",
       "language_direction": "ltr",
@@ -202,7 +202,7 @@
     "contentDir": "content/ypk",
     "title": "Nakmikimun Ilatelleq",
     "languageName": "Yup'ik",
-    "weight": 12,
+    "weight": 13,
     "params": {
       "Owner": "%Vote.gov% Akuzipigestun",
       "language_direction": "ltr",
@@ -237,6 +237,26 @@
       "select_language": "Saad choid77['88[7g77",
       "english_languageName": "Navajo",
       "translation_outdated": true
+    }
+  },
+  "pt": {
+    "contentDir": "content/pt",
+    "title": "Registro de Eleitores",
+    "languageName": "Português",
+    "weight": 10,
+    "params": {
+      "Owner": "%Vote.gov% em Português",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/pt",
+      "register_path": "register",
+      "go_back": "Voltar",
+      "skip_text": "Saltar para o conteúdo principal",
+      "meta__title": "Registre-se para votar",
+      "meta__description": "Encontre as opções de registro de eleitores no seu estado.",
+      "english_only": "(em inglês)",
+      "last_updated": "Última Atualização: ",
+      "select_language": "Selecionar a língua",
+      "english_languageName": "Portuguese"
     }
   }
 }
