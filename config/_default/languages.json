@@ -3,7 +3,7 @@
     "contentDir": "content/bn",
     "title": "ভোটার নিবন্ধন",
     "languageName": "বাংলা",
-    "weight": 3,
+    "weight": 4,
     "params": {
       "Owner": "বাংলায় %Vote.gov%",
       "language_direction": "ltr",
@@ -62,7 +62,7 @@
     "contentDir": "content/hi",
     "title": "मतदाता पंजीकरण ",
     "languageName": "हिन्दी ",
-    "weight": 6,
+    "weight": 7,
     "params": {
       "Owner": "%Vote.gov% हिन्दी में",
       "language_direction": "ltr",
@@ -82,7 +82,7 @@
     "contentDir": "content/ko",
     "title": "유권자 등록 ",
     "languageName": "한국어",
-    "weight": 8,
+    "weight": 9,
     "params": {
       "Owner": "%Vote.gov% 한국어 ",
       "language_direction": "ltr",
@@ -102,7 +102,7 @@
     "contentDir": "content/km",
     "title": "ការចុះឈ្មោះអ្នកបោះឆ្នោត",
     "languageName": "ភាសាខ្មែរ",
-    "weight": 7,
+    "weight": 8,
     "params": {
       "Owner": "%Vote.gov% ជាភាសាខ្មែរ",
       "language_direction": "ltr",
@@ -122,7 +122,7 @@
     "contentDir": "content/vi",
     "title": "Đăng kí bầu cử",
     "languageName": "Tiếng Việt",
-    "weight": 11,
+    "weight": 12,
     "params": {
       "Owner": "%Vote.gov% bằng Tiếng Việt",
       "language_direction": "ltr",
@@ -142,7 +142,7 @@
     "contentDir": "content/tl",
     "title": "Pagpaparehistro ng Botante",
     "languageName": "Tagalog",
-    "weight": 10,
+    "weight": 11,
     "params": {
       "Owner": "%Vote.gov% sa Tagalog",
       "language_direction": "ltr",
@@ -162,7 +162,7 @@
     "contentDir": "content/zh",
     "title": "選民登記",
     "languageName": "繁體中文",
-    "weight": 5,
+    "weight": 6,
     "params": {
       "Owner": "%Vote.gov% 中文",
       "language_direction": "ltr",
@@ -182,7 +182,7 @@
     "contentDir": "content/zh-hans",
     "title": "选民登记",
     "languageName": "中文",
-    "weight":4,
+    "weight": 5,
     "params": {
       "Owner": "%Vote.gov% 中文",
       "language_direction": "ltr",
@@ -202,7 +202,7 @@
     "contentDir": "content/ypk",
     "title": "Nakmikimun Ilatelleq",
     "languageName": "Yup'ik",
-    "weight": 12,
+    "weight": 13,
     "params": {
       "Owner": "%Vote.gov% Akuzipigestun",
       "language_direction": "ltr",
@@ -222,7 +222,7 @@
     "contentDir": "content/nv",
     "title": "Check Voter Registration Deadlines and Laws in Your State in Diné (Navajo)",
     "languageName": "Diné",
-    "weight": 9,
+    "weight": 10,
     "params": {
       "Owner": "%Vote.gov% Diné",
       "language_direction": "ltr",
@@ -238,5 +238,27 @@
       "english_languageName": "Navajo",
       "translation_outdated": true
     }
+  },
+    "ar":
+    {
+      "contentDir": "content/ar",
+      "title": "تسجيل الناخبين",
+      "languageName": "اسم اللغة",
+      "weight": 3,
+      "params": {
+        "Owner": "في  اسم اللغة %Vote.gov%",
+        "language_direction": "rtl",
+        "publishDir": "tmp/public/ar",
+        "register_path": "تسجيل",
+        "go_back": "الرجوع للخلف",
+        "skip_text": "تخطي إلى المحتوى الرئيسي",
+        "meta__title": "سجل للتصويت",
+        "meta__description": "اعثر على خيارات تسجيل الناخبين في ولايتك.",
+        "english_only": "(باللغة الإنجليزية)",
+        "last_updated": "آخر تحديث:",
+        "select_language": " %dropdown-list% اختر اللغة",
+        "english_languageName": "Arabic"
+      }
+    }
   }
-}
+

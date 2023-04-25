@@ -1,0 +1,262 @@
+{
+  "al": {
+    "default_ip_deadline": "15 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "15 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 15 يومًا من يوم الانتخابات"
+  },
+  "ak": {
+    "default_ip_deadline": "30 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "30 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 30 يومًا من يوم الانتخابات"
+  },
+  "as": {
+    "default_ip_deadline": "29 يومًا قبل يوم الانتخابات",
+    "mail_received_deadline": "يجب أن يتم الاستلام قبل 29 يومًا من يوم الانتخابات"
+  },
+  "az": {
+    "default_online_deadline": "29 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 29 يومًا من يوم الانتخابات",
+    "default_ip_deadline": "29 يومًا قبل يوم الانتخابات"
+  },
+  "ar": {
+    "default_ip_deadline": "30 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 30 يومًا من يوم الانتخابات"
+  },
+  "ca": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "15 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 15 يومًا من يوم الانتخابات"
+  },
+  "co": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "8 أيام قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 8 أيام من يوم الانتخابات"
+  },
+  "ct": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "7 أيام قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل7 أيام من يوم الانتخابات"
+  },
+  "de": {
+    "default_ip_deadline": "24 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "24 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل24 يومًا من يوم الانتخابات"
+  },
+  "dc": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "mail_received_deadline": "يجب أن يتم الاستلام قبل 21 يومًا من يوم الانتخابات",
+    "default_online_deadline": "21 يومًا قبل يوم الانتخابات"
+  },
+  "fl": {
+    "default_ip_deadline": "29 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "29 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 29 يومًا من يوم الانتخابات"
+  },
+  "ga": {
+    "default_ip_deadline": "29 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "29 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب أن يتم الاستلام قبل 29 يومًا من يوم الانتخابات"
+  },
+  "gu": {
+    "default_online_deadline": "11 يومًا عمل قبل يوم الانتخابات",
+    "mail_received_deadline": "يجب الاستلام قبل 11 يومًا عمل من يوم الانتخابات",
+    "default_ip_deadline": "11 يومًا عمل قبل يوم الانتخابات"
+  },
+  "hi": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "متاح حتى يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 8 أيام من يوم الانتخابات"
+  },
+  "id": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "25 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 25يومًا من يوم الانتخابات"
+  },
+  "il": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "16 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 28 يومًا من يوم الانتخابات"
+  },
+  "in": {
+    "default_ip_deadline": "29 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "29 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 29 يومًا من يوم الانتخابات"
+  },
+  "ia": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "15 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 15 يومًا من يوم الانتخابات"
+  },
+  "ks": {
+    "default_ip_deadline": "21 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "21 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 21 يومًا من يوم الانتخابات"
+  },
+  "ky": {
+    "default_ip_deadline": "29 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "29 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 29 يومًا من يوم الانتخابات"
+  },
+  "la": {
+    "default_ip_deadline": "30 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "20 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 30 يومًا من يوم الانتخابات"
+  },
+  "me": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "mail_received_deadline": "يجب أن يتم الاستلام قبل 21 يومًا من يوم الانتخابات"
+  },
+  "md": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "21 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 21 يومًا من يوم الانتخابات"
+  },
+  "ma": {
+    "default_ip_deadline": "10 أيام قبل يوم الانتخابات",
+    "default_online_deadline": "10 أيام قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 10 أيام من يوم الانتخابات"
+  },
+  "mi": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "15 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 15 يومًا من يوم الانتخابات"
+  },
+  "mn": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "21 يومًا قبل يوم الانتخابات",
+    "mail_received_deadline": "يجب أن يتم الاستلام قبل 21 يومًا من يوم الانتخابات"
+  },
+  "ms": {
+    "default_ip_deadline": "30 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 30 يومًا من يوم الانتخابات"
+  },
+  "mo": {
+    "default_ip_deadline": "27يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "27يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 27 يومًا من يوم الانتخابات"
+  },
+  "mt": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 30 يومًا من يوم الانتخابات"
+  },
+  "ne": {
+    "default_ip_deadline": "11 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "18 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 18 يومًا من يوم الانتخابات"
+  },
+  "nv": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "5 أيام قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 28 يومًا من يوم الانتخابات"
+  },
+  "nh": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "mail_received_deadline": "يجب أن يتم الاستلام قبل 13 يومًا من يوم الانتخابات"
+  },
+  "nj": {
+    "default_online_deadline": "21 يومًا قبل يوم الانتخابات",
+    "mail_received_deadline": "يجب الختم بختم البريد قبل 21 يومًا من يوم الانتخابات",
+    "default_ip_deadline": "21 يومًا قبل يوم الانتخابات"
+  },
+  "nm": {
+    "default_ip_deadline": "28 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "28 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 28 يومًا من يوم الانتخابات"
+  },
+  "ny": {
+    "default_ip_deadline": "قبل 25 يومًا من يوم الانتخابات",
+    "default_online_deadline": "قبل 25 يومًا من يوم الانتخابات",
+    "mail_received_deadline": "يجب أن يتم الاستلام قبل 10 أيام من يوم الانتخابات"
+  },
+  "nc": {
+    "default_ip_deadline": "التسجيل في نفس اليوم متاح خلال فترة التصويت المبكر",
+    "default_online_deadline": "قبل 25 يومًا من يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 25 يومًا من يوم الانتخابات"
+  },
+  "nd": {},
+  "mp": {
+    "default_ip_deadline": "60 يومًا قبل يوم الانتخابات"
+  },
+  "oh": {
+    "default_ip_deadline": "30 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "30 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 30 يومًا من يوم الانتخابات"
+  },
+  "ok": {
+    "default_ip_deadline": "قبل 25 يومًا من يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 25 يومًا من يوم الانتخابات"
+  },
+  "or": {
+    "default_ip_deadline": "21 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "21 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 21 يومًا من يوم الانتخابات"
+  },
+  "pa": {
+    "default_ip_deadline": "15 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "15 يومًا قبل يوم الانتخابات",
+    "mail_received_deadline": "يجب أن يتم الاستلام قبل 15 يومًا من يوم الانتخابات"
+  },
+  "pr": {
+    "default_ip_deadline": "50 يومًا قبل يوم الانتخابات"
+  },
+  "ri": {
+    "default_ip_deadline": "30 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "30 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 30 يومًا من يوم الانتخابات"
+  },
+  "sc": {
+    "default_ip_deadline": "30 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "30 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 30 يومًا من يوم الانتخابات"
+  },
+  "sd": {
+    "default_ip_deadline": "15 يومًا قبل يوم الانتخابات",
+    "mail_received_deadline": "يجب أن يتم الاستلام قبل 15 يومًا من يوم الانتخابات"
+  },
+  "tn": {
+    "default_ip_deadline": "30 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "30 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 30 يومًا من يوم الانتخابات"
+  },
+  "tx": {
+    "default_ip_deadline": "30 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 30 يومًا من يوم الانتخابات"
+  },
+  "ut": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "11يومًا قبل يوم الانتخابات",
+    "mail_received_deadline": "يجب أن يتم الاستلام قبل 11 يومًا من يوم الانتخابات"
+  },
+  "vt": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "متاح حتى يوم الانتخابات",
+    "mail_received_deadline": "يجب أن يتم الاستلام بحلول يوم الانتخابات أو في يومه"
+  },
+  "va": {
+    "default_ip_deadline": "22 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "22 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 22يومًا من يوم الانتخابات"
+  },
+  "vi": {
+    "default_ip_deadline": "30 يومًا قبل يوم الانتخابات"
+  },
+  "wa": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "8 أيام قبل يوم الانتخابات",
+    "mail_received_deadline": "يجب أن يتم الاستلام قبل 8 أيام من يوم الانتخابات"
+  },
+  "wv": {
+    "default_ip_deadline": "21 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "21 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 21يومًا من يوم الانتخابات"
+  },
+  "wi": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "20 يومًا قبل يوم الانتخابات",
+    "default_mail_postmarked_deadline": "يجب الختم بختم البريد قبل 20يومًا من يوم الانتخابات"
+  },
+  "wy": {
+    "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "mail_received_deadline": "يجب أن يتم الاستلام قبل 14 يومًا من يوم الانتخابات"
+  }
+}
