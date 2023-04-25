@@ -16,6 +16,8 @@ describe('Test Language Switcher Function', () => {
       cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
         cy.get(options[0]).find('li').then(li => {
           cy.get(li[1]).click()
+           // eslint-disable-next-line cypress/no-unnecessary-waiting
+           cy.wait(3000)
           cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov en Español')
         })
         )
@@ -81,6 +83,18 @@ describe('Test Language Switcher Function', () => {
         )
     })
 
+    it(`test portuguese ${page}`, () => {
+      cy.visit(page)
+      cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
+        cy.get(options[0]).find('li').then(li => {
+          cy.get(li[9]).click()
+          // eslint-disable-next-line cypress/no-unnecessary-waiting
+          cy.wait(3000)
+          cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov em Português')
+        })
+        )
+    })
+
     // it(`test navajo ${page}`, () => {
     //   cy.visit(page)
     //   cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
@@ -95,7 +109,7 @@ describe('Test Language Switcher Function', () => {
       cy.visit(page)
       cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
         cy.get(options[0]).find('li').then(li => {
-          cy.get(li[9]).click()
+          cy.get(li[10]).click()
           cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov sa Tagalog')
         })
         )
@@ -105,7 +119,7 @@ describe('Test Language Switcher Function', () => {
       cy.visit(page)
       cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
         cy.get(options[0]).find('li').then(li => {
-          cy.get(li[10]).click()
+          cy.get(li[11]).click()
           cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov bằng Tiếng Việt')
         })
         )
@@ -115,7 +129,7 @@ describe('Test Language Switcher Function', () => {
     cy.visit(page)
     cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
       cy.get(options[0]).find('li').then(li => {
-        cy.get(li[11]).click()
+        cy.get(li[12]).click()
         cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov Akuzipigestun')
       })
       )
