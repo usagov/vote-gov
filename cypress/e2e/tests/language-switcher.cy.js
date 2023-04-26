@@ -15,9 +15,8 @@ describe('Test Language Switcher Function', () => {
       cy.visit(page)
       cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
         cy.get(options[0]).find('li').then(li => {
-          cy.get(li[1]).click()
            // eslint-disable-next-line cypress/no-unnecessary-waiting
-           cy.wait(3000)
+          cy.get(li[1]).wait(3000).click()
           cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov en Español')
         })
         )
