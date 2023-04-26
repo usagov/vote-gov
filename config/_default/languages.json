@@ -238,5 +238,24 @@
       "english_languageName": "Navajo",
       "translation_outdated": true
     }
+  },
+  "ru": {
+    "contentDir": "content/ru",
+    "title": "Регистрация Избирателей",
+    "languageName": "Русский",
+    "params" : {
+      "Owner": "%Vote.gov% in Русский",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/ru",
+      "register_path": "register",
+      "go_back": "Вернитесь назад",
+      "skip_text": "Перейдите к основному содержанию",
+      "meta__title": "Зарегистрируйтесь для голосования",
+      "meta__description": "Найдите способы регистрации в вашем штате",
+      "english_only": "(по-английски)",
+      "last_updated": "Последнее обновление:",
+      "select_language": "Выберите Язык %dropdown-list%",
+      "english_languageName": "Russian"
+    }
   }
 }
