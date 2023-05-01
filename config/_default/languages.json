@@ -243,7 +243,7 @@
     "contentDir": "content/fr",
     "title": "Inscription au vote",
     "languageName": "Français",
-    "weight": 13,
+    "weight": 14,
     "params": {
       "Owner": "%Vote.gov% en Français",
       "language_direction": "ltr",
@@ -256,7 +256,7 @@
       "english_only": "(en anglais)",
       "last_updated": "Dernière mise à jour :",
       "select_language": "Sélectionner la langue %dropdown-list%",
-      "english_languageName": "Vietnamese"
+      "english_languageName": ""
     }
   }
 }
