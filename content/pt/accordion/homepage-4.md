@@ -1,16 +1,16 @@
 +++
-title = "Register after you’ve moved"
+title = "Registre-se depois de se mudar"
 +++
-Whether you’ve moved near or far, you need to update your voter registration after a change of address. Select your state or territory from the dropdown menu to learn how to register online or by mail. If your state has online voter registration, that may be the quickest way to make changes. Submit your changes before your state’s registration deadline, which can be up to 30 days before Election Day. Your state may also require a new driver's license or ID card. [See what type of voter ID your state requires](https://www.ncsl.org/research/elections-and-campaigns/voter-id.aspx#Laws%20in%20Effect).
+Se você se mudou para perto ou para longe, você tem de atualizar o seu registro de eleitor depois de uma mudança de endereço. Selecione seu estado ou território do menu suspenso para aprender como se registrar on-line ou por correio. Se o seu estado tiver registro de eleitores on-line, isso pode ser a maneira mais rápida de fazer alterações. Envie as suas alterações antes do prazo de inscrição do seu estado, que pode ser até 30 dias antes do dia da eleição. Seu estado também pode requerer uma carteira de motorista ou carteira de identificação. [Veja qual tipo de identificação de eleitor o seu estado requer](https://www.ncsl.org/research/elections-and-campaigns/voter-id.aspx#Laws%20in%20Effect).
 
-#### Moving within your state
+#### Mudando-se dentro do seu estado
 
-Even if you move within your same state, you’ll need to update your registration with your new address.
+Mesmo que você se mude dentro do seu mesmo estado, você tem de atualizar seu registro com o seu novo endereço.
 
-#### Moving to another state
+#### Mudando-se para outros estados
 
-Register before your new state’s deadline, which may be up to 30 days before the election. If you do not have time to register in your new state before Election Day, your old state may allow you to vote by mail or in person. For presidential election years, your old state must allow you to vote by mail or in person. After that, you’ll need to register in your new state.
+Alguns estados requerem que você viva no seu estado novo por pelo menos 30 dias antes de poder registrar-se para votar. Se você não tiver tempo de registrar-se no seu estado novo antes do dia de eleição, o seu antigo estado pode permitir que você vote por correio ou em pessoa. Para os anos de eleições presidenciais, o seu antigo estado deve permitir que você vote pelo correio ou em pessoa. Depois disso, você precisa registrar-se no seu novo estado.
 
-#### Moving abroad
+#### Mudança para o exterior
 
-U.S. citizens living outside the U.S. can register to vote and request an absentee ballot by completing the [Federal Post Card Application (FPCA)](https://www.fvap.gov/eo/overview/materials/forms). See the [Federal Voting Assistance Program (FVAP)](https://www.fvap.gov/) for more resources on military and overseas voting.
+Cidadãos Estadounienses que vivem fora dos EUA podem registrar-se para votar e pedir uma cédula de ausente preenchendo a [Solicitação de Cartão Postal Federal (FPCA)](https://www.fvap.gov/eo/overview/materials/forms). Consulte o [Federal Voting Assistance Program (FVAP)](https://www.fvap.gov/) por obter mais recursos sobre o voto militar e no exterior.
