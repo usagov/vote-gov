@@ -182,7 +182,7 @@
     "contentDir": "content/zh-hans",
     "title": "选民登记",
     "languageName": "中文",
-    "weight":4,
+    "weight": 4,
     "params": {
       "Owner": "%Vote.gov% 中文",
       "language_direction": "ltr",
@@ -237,6 +237,26 @@
       "select_language": "Saad choid77['88[7g77",
       "english_languageName": "Navajo",
       "translation_outdated": true
+    }
+  },
+  "fr": {
+    "contentDir": "content/fr",
+    "title": "Inscription au vote",
+    "languageName": "Français",
+    "weight": 13,
+    "params": {
+      "Owner": "%Vote.gov% en Français",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/fr",
+      "register_path": "register",
+      "go_back": "Retourner en arrière",
+      "skip_text": "Passer au contenu principal",
+      "meta__title": "Inscrivez-vous pour voter",
+      "meta__description": "Découvrez les modes d'inscription au vote dans votre État",
+      "english_only": "(en anglais)",
+      "last_updated": "Dernière mise à jour :",
+      "select_language": "Sélectionner la langue %dropdown-list%",
+      "english_languageName": "Vietnamese"
     }
   }
 }
