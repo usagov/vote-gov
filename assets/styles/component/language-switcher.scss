@@ -23,7 +23,7 @@ li.usa-language__submenu-item[data-lang="lang-nv"] {
 
 .usa-language__primary-item:last-of-type .usa-language__submenu {
   [dir="rtl"] & {
-    right: -1;
+    right: unset;
     left: 0;
     padding-right: 0;
   }
