@@ -24,5 +24,6 @@
   "registered_links__process": "선거 절차 (영어로 제공)",
   "registered_links__process_url": "https://www.usa.gov/election",
   "search_placeholder": "Vote.gov 사이트 검색",
-  "search_affiliate_translated": true
+  "search_affiliate_translated": true,
+  "section_banner": "공식 정부 웹사이트"
 }

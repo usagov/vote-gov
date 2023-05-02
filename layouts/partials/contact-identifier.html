@@ -2,7 +2,7 @@
 {{ $aboutLink := $translation.footer.about_link | default .Site.Params.globalURL.about_link }}
 
 <!-- contact START -->
-<section class="bg-lightblue footer-contact" data-test="footer-contact" title="Contact" aria-label="Contact">
+<section class="bg-lightblue footer-contact" data-test="footer-contact" title="{{ $translation.footer.section_contact }}" aria-label="{{ $translation.footer.section_contact }}">
     <div class="grid-container eac-vote-partnership">
       <div class="grid-row">
         <div class="tablet:grid-col-auto">
@@ -37,7 +37,7 @@
 <div class="footer-identifier" data-test="footer">
   <div class="grid-container">
     <section class="identifier-gsa grid-row grid-gap-2" title="{{ $translation.footer.identifier_aria }}" aria-label="{{ $translation.footer.identifier_aria }}">
-      <div><img src="{{ .Site.BaseURL }}/assets/img/gsa-logo.svg" alt="GSA logo" width="40" height="40"></div>
+      <div><img src="{{ .Site.BaseURL }}/assets/img/gsa-logo.svg" alt="{{ $translation.footer.gsa_logo_alt }}" width="40" height="40"></div>
       <div class="grid-col-auto">
         Vote.gov <br>
         <strong aria-label="{{ $translation.footer.identifier_gsa_txt_aria }}" >{{ replace $translation.footer.identifier_gsa_txt "%link%" (partial "links/footer/identifier-gsa.html"

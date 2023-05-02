@@ -1,6 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 <footer role="contentinfo">
-  <section class="bg-white" title="Email sign-up" aria-label="Email sign-up">
+  <section class="bg-white" title="{{ $translation.footer.section_sign_up }}" aria-label="{{ $translation.footer.section_sign_up }}">
     <div class="grid-container">
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-4"></div>

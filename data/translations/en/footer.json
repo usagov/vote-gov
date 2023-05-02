@@ -28,5 +28,8 @@
   "identifier_link_7": "Privacy Policy",
   "identifier_more_info_aria": "Government information and services",
   "identifier_more_info": "Looking for U.S. government information and services? %link%",
-  "identifier_more_info__1": "Visit USA.gov"
+  "identifier_more_info__1": "Visit USA.gov",
+  "gsa_logo_alt": "GSA logo",
+  "section_sign_up": "Email sign-up",
+  "section_contact": "Contact"
 }
