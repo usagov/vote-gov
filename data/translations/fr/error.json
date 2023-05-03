@@ -1,11 +1,11 @@
 {
-  "error_main_heading": "Oops! 404 error",
-  "error_intro": "Page Not Found",
-  "error_msg": "We can't find the page you're looking for. It might have been removed, had its name changed, or is temporarily unavailable.",
-  "error_msg1": "If you typed the page URL, check the spelling.",
-  "error_msg2": "Go to our %link% and try again.",
-  "error_msg2_link": "main page",
-  "error_msg3": "Visit your %link% for state-wide voting guidance.",
-  "error_msg3_link": "state’s election office website",
+  "error_main_heading": "Oups ! Erreur 404",
+  "error_intro": "Page introuvable",
+  "error_msg": "Nous ne pouvons pas trouver la page que vous cherchez. C'est possible que la page ait été supprimée, ait changé de nom ou soit temporairement indisponible.",
+  "error_msg1": "Si vous avez tapé l'URL de la page, vérifiez l'orthographe.",
+  "error_msg2": "Allez à notre %link% et essayez encore.",
+  "error_msg2_link": "page d'accueil",
+  "error_msg3": "Visitez le %link% pour les conseils de vote au niveau de l'État.",
+  "error_msg3_link": "site Web du bureau électoral de votre État",
   "error_usa_link": "https://www.usa.gov/election-office"
 }
