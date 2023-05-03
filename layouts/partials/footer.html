@@ -23,5 +23,7 @@
   </section>
 
     {{ partial "partials/contact-identifier.html" . }}
-
+    
+    <!-- hidden page variable to use title translations in ext-links.js -->
+    <div id="ext-link-title" data-title="{{ .Site.Params.ext_link_title }}" />
 </footer>

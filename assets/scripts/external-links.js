@@ -7,6 +7,9 @@
     // Enable external links behavior.
     const externalLinks = document.querySelectorAll('a[href^="https"]');
 
+    //Get title text translation from footer element
+    const title_text = document.getElementById('ext-link-title').getAttribute('data-title');
+
     // Process external links.
     if (externalLinks.length) {
       for (let i = 0; i < externalLinks.length; i++) {
@@ -14,7 +17,7 @@
           var svgIcon = `<span class="ext-link">&#xFEFF;${svg}</span>`;
           externalLinks[i].setAttribute('target', '_blank');
           externalLinks[i].insertAdjacentHTML( 'beforeend', svgIcon );
-          externalLinks[i].setAttribute('title', 'External link opens new window');
+          externalLinks[i].setAttribute('title', title_text);
       }
     }
 
