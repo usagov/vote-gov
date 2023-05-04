@@ -7,7 +7,7 @@
   "subscribe_email": "Inscreva-se para receber correios eletrônicos (em inglês) de %USAGov%",
   "subscribe_email_link_url": "https://connect.usa.gov/subscribe",
   "twitter_link": "https://twitter.com/votegov",
-  "twitter_text": "Siga Vote.gov no Twitter",
+  "twitter_text": "Siga Vote.gov no Twitter (em inglês)",
   "about_link": "/pt/about-us",
   "usagov_img": "img/usagov-logo.webp",
   "usagov_link": "https://www.usa.gov/",
@@ -16,8 +16,8 @@
   "eac_logo_alt_text": "Em parceria com %U.S. Election Assistance Commission%",
   "identifier_aria": "Identificador da agência ",
   "identfier_gsa_txt_aria": "Descrição da agência ",
-  "identifier_gsa_txt": "Uma página web oficial da (Administração dos Serviços Gerais)",
-  "identifier_gsa_txt__1": "General Services Administration",
+  "identifier_gsa_txt": "Uma página web oficial da %link%",
+  "identifier_gsa_txt__1": "Administração dos Serviços Gerais",
   "identifier_link_aria": "Links importantes ",
   "identifier_link_1": "Sobre Vote.gov",
   "identifier_link_2": "Acessibilidade (em inglês)",
@@ -27,6 +27,6 @@
   "identifier_link_6": "Relatórios de desempenho (em inglês)",
   "identifier_link_7": "Política de privacidade (em inglês)",
   "identifier_more_info_aria": "Informação e serviços do governo ",
-  "identifier_more_info": "Você procura informação e serviços do governo dos EUA? (Visite USA.gov)",
-  "identifier_more_info__1": "Visit USA.gov"
+  "identifier_more_info": "Você procura informação e serviços do governo dos EUA? %link%",
+  "identifier_more_info__1": "Visite USA.gov"
 }
