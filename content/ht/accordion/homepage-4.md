@@ -1,16 +1,16 @@
 +++
-title = "Register after you’ve moved"
+title = "Enskri Apre W Fin Demenaje "
 +++
-Whether you’ve moved near or far, you need to update your voter registration after a change of address. Select your state or territory from the dropdown menu to learn how to register online or by mail. If your state has online voter registration, that may be the quickest way to make changes. Submit your changes before your state’s registration deadline, which can be up to 30 days before Election Day. Your state may also require a new driver's license or ID card. [See what type of voter ID your state requires](https://www.ncsl.org/research/elections-and-campaigns/voter-id.aspx#Laws%20in%20Effect).
+Kèlkeswa w demenaje al rete toupre oswa lwen, ou dwe mete ajou enskripsyon votè w chak fwa w chanje adrès. Chwazi Eta oswa teritwa w nan lis meni an pou aprann kijan pou w enskri anliy oswa pa kourye lapòs. Si Eta w lan gen enskripsyon votè anliy, se ka fason ki pi rapid la pou fè chanjman sa a. Soumèt chanjman ou yo anvan dat limit enskripsyon pou Eta w lan, ki ka jiska 30 jou anvan jou eleksyon an. Eta w lan gen dwa mande tou pou w prezante yon nouvo lisans chofè machin oswa kat idantite. [Gade ki kalite kat idantite votè Eta w lan egzije pou w genyen](https://www.ncsl.org/research/elections-and-campaigns/voter-id.aspx#Laws%20in%20Effect). 
 
-#### Moving within your state
+#### Deplase andedan Eta w lan 
 
-Even if you move within your same state, you’ll need to update your registration with your new address.
+Menmsi w deplase anndan menm Eta a, ou dwe mete ajou enskripsyon ou lan pou nouvo adrès ou an anrejistre.
 
-#### Moving to another state
+#### Deplase al nan yon lòt Eta 
 
-Register before your new state’s deadline, which may be up to 30 days before the election. If you do not have time to register in your new state before Election Day, your old state may allow you to vote by mail or in person. For presidential election years, your old state must allow you to vote by mail or in person. After that, you’ll need to register in your new state.
+Gen sèten Eta ki egzije pou w abite nan nouvo Eta w lan pandan omwen 30 jou anvan ou ka enskri pou w vote. Si w pa gen tan pou w enskri nan nouvo Eta w lan anvan jou eleksyon an, ansyen Eta w lan gen dwa otorize  w pou w vote pa kourye lapòs oswa vote an pèsòn. Pou ane eleksyon prezidansyèl yo, ansyen Eta w lan dwe ba w otorizasyon pou w ka vote pa kourye lapòs oswa an pèsòn. Apresa, ou dwe enskri nan nouvo Eta w lan. 
 
-#### Moving abroad
+#### Deplase al aletranje 
 
-U.S. citizens living outside the U.S. can register to vote and request an absentee ballot by completing the [Federal Post Card Application (FPCA)](https://www.fvap.gov/eo/overview/materials/forms). See the [Federal Voting Assistance Program (FVAP)](https://www.fvap.gov/) for more resources on military and overseas voting.
+Sitwayen ameriken k ap viv andeyò Etazini kapab enskri pou vote epi yo ka mande yon bilten vòt pou moun ki absan, lè yo ranpli Aplikasyon Kat Postal Federal [Federal Post Card Application, FPCA](https://www.fvap.gov/eo/overview/materials/forms). Al gade Pwogram Asistans Federal pou Vote [Federal Voting Assistance Program, FVAP](https://www.fvap.gov/) la pou jwenn plis resous konsènan vòt militè ak vòt pou moun ki aletranje. 
