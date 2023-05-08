@@ -12,6 +12,6 @@ more_info_link = "https://www.elections.il.gov/Default.aspx"
 confirm_registration_link = "https://ova.elections.il.gov/RegistrationLookup.aspx"
 default_ip_deadline = "Доступно до дня выборов включительно"
 default_online_deadline = "За 16 дней до дня выборов"
-default_mail_postmarked_deadline = "Должен быть проштемпелёван за 25 дней до дня выборов"
+default_mail_postmarked_deadline = "Должен быть проштемпелёван за 28 дней до дня выборов"
 
 +++

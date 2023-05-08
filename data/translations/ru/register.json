@@ -21,7 +21,7 @@
   "online__h2_question1": "Как зарегистрироваться для голосования в %state_name%",
   "alert_state__alert_msg": "Из-за COVID-19 могут произойти изменения в том, когда, где и как вы голосуете на предстоящих выборах. Для получения дополнительной информации свяжитесь с %link%. ",
   "alert_state__alert_msg1": "веб-сайтом выборов вашего штата",
-  "alert_state__alert_after_election": "Для получения официальных результатов выборов перейдите по ссылке (веб-сайта вашего штата)",
+  "alert_state__alert_after_election": "Для получения официальных результатов выборов перейдите по ссылке %link%",
   "dates__bymail_deadline": "Зарегистрируйтесь по почте в срок:",
   "dates__byonline_deadline": "Крайний срок регистрации он-лайн:",
   "dates__electionday": "День Всеобщих Выборов: 3 ноября, 2020.",
@@ -31,7 +31,6 @@
   "confirm_registration__heading": "Как проверить вашу регистрацию избирателя",
   "confirm_registration__intro": "Вы можете подтвердить свой статус избирателя на %link% ",
   "confirm_registration__link": "веб-сайте штата %state_name%",
-  "confirm_registration__intro": "Вы можете подтвердить свой статус регистрации избирателя, связавшись с местным регистрационным офисом. %link%.",
-  "confirm_registration__link": "Нажмите здесь, чтобы просмотреть контактную информацию клерка округа Вайоминг (PDF)",
-  "confirm_registration__url": "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf?ref=voteusa_en"
+  "confirm_registration__intro_WY": "Вы можете подтвердить свой статус регистрации избирателя, связавшись с местным регистрационным офисом. %link%.",
+  "confirm_registration__link_WY": "Нажмите здесь, чтобы просмотреть контактную информацию клерка округа Вайоминг (PDF)"
 }
