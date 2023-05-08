@@ -6,72 +6,72 @@
   },
 
   "ak": {
-    "default_ip_deadline_1": "30 jours avant le Jour des élections",
-    "default_online_deadline_1": "30 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline_1": "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_ip_deadline": "30 jours avant le Jour des élections",
+    "default_online_deadline": "30 jours avant le Jour des élections",
+    "default_mail_postmarked_deadline": "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "as": {
-    "default_ip_deadline_2": "29 jours avant le Jour des élections",
+    "default_ip_deadline": "29 jours avant le Jour des élections",
     "default_mail_received_deadline": "Doit être reçu au plus tard 29 jours avant le Jour des élections"
   },
 
   "az": {
-    "default_online_deadline_2": "29 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline_2": "Envoyer au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "default_ip_deadline_3": "29 jours avant le Jour des élections"
+    "default_online_deadline": "29 jours avant le Jour des élections",
+    "default_mail_postmarked_deadline": "Envoyer au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi",
+    "default_ip_deadline": "29 jours avant le Jour des élections"
   },
 
   "ar": {
-    "default_ip_deadline_4": "30 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline_3": "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_ip_deadline": "30 jours avant le Jour des élections",
+    "default_mail_postmarked_deadline": "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "ca": {
-    "default_ip_deadline_5": "Disponible jusqu'au et y compris le Jour des élections",
-    "default_online_deadline_3": "15 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline_4": "Envoyer au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
+    "default_online_deadline": "15 jours avant le Jour des élections",
+    "default_mail_postmarked_deadline": "Envoyer au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "co": {
-    "default_ip_deadline_6": "Disponible jusqu'au et y compris le Jour des élections",
-    "default_online_deadline_4": "8 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline_5": "Envoyer au plus tard 8 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
+    "default_online_deadline": "8 jours avant le Jour des élections",
+    "default_mail_postmarked_deadline": "Envoyer au plus tard 8 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "ct": {
-    "default_ip_deadline_7": "Disponible jusqu'au et y compris le Jour des élections",
-    "default_online_deadline_5": "7 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline_6": "Envoyer au plus tard 7 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
+    "default_online_deadline": "7 jours avant le Jour des élections",
+    "default_mail_postmarked_deadline": "Envoyer au plus tard 7 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "de": {
-    "default_ip_deadline_8": "24 jours avant le Jour des élections",
-    "default_online_deadline_6": "24 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline_7": "Envoyer au plus tard 24 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_ip_deadline": "24 jours avant le Jour des élections",
+    "default_online_deadline": "24 jours avant le Jour des élections",
+    "default_mail_postmarked_deadline": "Envoyer au plus tard 24 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "dc": {
-    "default_ip_deadline_9": "Disponible jusqu'au et y compris le Jour des élections",
-    "default_mail_received_deadline_1": "Envoyer au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "default_online_deadline_7": "21 jours avant le le Jour des élections"
+    "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
+    "default_mail_received_deadline": "Envoyer au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi",
+    "default_online_deadline": "21 jours avant le le Jour des élections"
   },
 
   "fl": {
     "default_ip_deadline": "29 jours avant le Jour des élections",
-    "default_online_deadline_8": "29 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline_8": "Envoyer au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_online_deadline": "29 jours avant le Jour des élections",
+    "default_mail_postmarked_deadline": "Envoyer au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "ga": {
     "default_ip_deadline": "29 jours avant le Jour des élections",
-    "default_online_deadline_9": "29 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline_9": "Envoyer au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_online_deadline": "29 jours avant le Jour des élections",
+    "default_mail_postmarked_deadline": "Envoyer au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "gu": {
     "default_online_deadline": "11 jours ouvrables avant le Jour des élections",
-    "default_mail_received_deadline_2": "Doit être reçu au plus tard 11 jours ouvrables avant le Jour des élections",
+    "default_mail_received_deadline": "Doit être reçu au plus tard 11 jours ouvrables avant le Jour des élections",
     "default_ip_deadline": "11 jours ouvrables avant le Jour des élections"
   },
 
@@ -125,7 +125,7 @@
 
   "me": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
-    "default_mail_received_deadline_3": "Doit être reçu au plus tard 21 jours avant le Jour des élections"
+    "default_mail_received_deadline": "Doit être reçu au plus tard 21 jours avant le Jour des élections"
   },
 
   "md": {
@@ -149,7 +149,7 @@
   "mn": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "21 jours avant le Jour des élections",
-    "default_mail_received_deadline_4": "Doit être reçu au plus tard 21 jours avant le Jour des élections"
+    "default_mail_received_deadline": "Doit être reçu au plus tard 21 jours avant le Jour des élections"
   },
 
   "ms": {
@@ -182,12 +182,12 @@
 
   "nh": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
-    "default_mail_received_deadline_5": "Doit être reçu au plus tard 13 jours avant le Jour des élections"
+    "default_mail_received_deadline": "Doit être reçu au plus tard 13 jours avant le Jour des élections"
   },
 
   "nj": {
     "default_online_deadline": "21 jours avant le le Jour des élections",
-    "default_mail_received_deadline_6": "Doit être reçu au plus tard 21 jours avant le Jour des élections",
+    "default_mail_received_deadline": "Doit être reçu au plus tard 21 jours avant le Jour des élections",
     "default_ip_deadline": "21 jours avant le le Jour des élections"
   },
 
@@ -200,7 +200,7 @@
   "ny": {
     "default_ip_deadline": "25 jours avant le Jour des élections",
     "default_online_deadline": "25 jours avant le Jour des élections",
-    "default_mail_received_deadline_7": "Doit être reçu au plus tard 10 jours avant le Jour des élections"
+    "default_mail_received_deadline": "Doit être reçu au plus tard 10 jours avant le Jour des élections"
   },
 
   "nc": {
@@ -232,7 +232,7 @@
   "pa": {
     "default_ip_deadline": "15 jours avant le Jour des élections",
     "default_online_deadline": "15 jours avant le Jour des élections",
-    "default_mail_received_deadline_8": "Doit être reçu au plus tard 15 jours avant le Jour des élections"
+    "default_mail_received_deadline": "Doit être reçu au plus tard 15 jours avant le Jour des élections"
   },
 
   "pr": { "default_ip_deadline": "50 jours avant le Jour des élections" },
@@ -251,7 +251,7 @@
 
   "sd": {
     "default_ip_deadline": "15 jours avant le Jour des élections",
-    "default_mail_received_deadline_9": "Doit être reçu au plus tard 15 jours avant le Jour des élections"
+    "default_mail_received_deadline": "Doit être reçu au plus tard 15 jours avant le Jour des élections"
   },
 
   "tn": {

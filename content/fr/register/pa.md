@@ -12,6 +12,6 @@ more_info_link = "https://www.pa.gov/guides/voting-and-elections/#RegisteringtoV
 confirm_registration_link = "https://www.pavoterservices.pa.gov/pages/voterregistrationstatus.aspx"
 default_ip_deadline = "15 jours avant le Jour des élections"
 default_online_deadline = "15 jours avant le Jour des élections"
-default_mail_received_deadline_8 = "Doit être reçu au plus tard 15 jours avant le Jour des élections"
+default_mail_received_deadline = "Doit être reçu au plus tard 15 jours avant le Jour des élections"
 
 +++
