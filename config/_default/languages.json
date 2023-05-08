@@ -226,7 +226,7 @@
       "last_updated": "Kingulighmi Nutaghtekat:",
       "select_language": "Ulu nakmiighhu %dropdown-list%",
       "english_languageName": "",
-      "ext_link_title": ""
+      "ext_link_title": "External link opens new window"
     }
   },
   "nv": {
@@ -248,7 +248,7 @@
       "select_language": "Saad choid77['88[7g77",
       "english_languageName": "Navajo",
       "translation_outdated": true,
-      "ext_link_title": ""
+      "ext_link_title": "External link opens new window"
     }
   }
 }
