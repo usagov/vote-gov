@@ -249,7 +249,7 @@
         "Owner": "في  اسم اللغة %Vote.gov%",
         "language_direction": "rtl",
         "publishDir": "tmp/public/ar",
-        "register_path": "تسجيل",
+        "register_path": "register",
         "go_back": "الرجوع للخلف",
         "skip_text": "تخطي إلى المحتوى الرئيسي",
         "meta__title": "سجل للتصويت",
