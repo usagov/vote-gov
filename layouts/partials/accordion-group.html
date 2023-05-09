@@ -2,6 +2,7 @@
 {{ $reusablePages := $headless.Resources.Match "homepage-*" }}
 
 {{ with .Site.GetPage "/accordion/index" }}
+<section aria-label="{{ .Title }}">
 <header>
   <h2 class="content-heading">{{ .Title }}</h2>
 </header>
@@ -25,3 +26,4 @@
   </div>
   {{ end }}
 </div>
+</section>

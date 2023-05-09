@@ -8,7 +8,8 @@
   "usagov_logo_alt_text": "និមិត្តសញ្ញា %USA.gov%",
   "eac_link": "https://www.eac.gov/",
   "eac_text": "ក្នុងភាពជាដៃគូជាមួយ",
-  "eac_logo_alt_text": "ក្នុងភាពជាដៃគូជាមួយ %U.S. Election Assistance Commission%",
+  "eac_logo_alt_text": "ស្លាកសញ្ញាគណៈកម្មការជំនួយការបោះឆ្នោតសហរដ្ឋអាមេរិក ដែលបង្ហាញពីភាពជាដៃគូជាមួយ Vote.gov",
+  "vote_logo_alt_text": "រូបភាពនៃប្រអប់អ្នកបោះឆ្នោតដែលមានសន្លឹកឆ្នោតបានគូសធីកត្រូវបានបញ្ចូល ដើម្បីបង្ហាញពីសកម្មភាពបោះឆ្នោត",
   "privacy_policy": "គោលការណ៍ឯកជនភាព (ជាភាសាអង់គ្លេស)",
   "privacy_policy_link_url": "https://www.usa.gov/policies",
   "twitter_link": "https://twitter.com/votegov",
@@ -28,5 +29,8 @@
   "identifier_link_7": "គោលការណ៍ឯកជនភាព (ជាភាសាអង់គ្លេស)",
   "identifier_more_info_aria": "ព័ត៌មាននិងសេវាកម្មរដ្ឋាភិបាល",
   "identifier_more_info": "កំពុងស្វែងរកព័ត៌មាននិងសេវាកម្មរដ្ឋាភិបាលអាមេរិចមែនទេ? %link%",
-  "identifier_more_info__1": "ចូលមើល​ USA.gov"
+  "identifier_more_info__1": "ចូលមើល​ USA.gov",
+  "gsa_logo_alt": "និមិត្តសញ្ញារបស់ GSA",
+  "section_sign_up": "ការចុះឈ្មោះដើម្បីទទួលសារឣ៊ីមែល",
+  "section_contact": "លេខទំនាក់ទំនង"
 }

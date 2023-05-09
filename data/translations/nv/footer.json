@@ -12,7 +12,8 @@
   "usagov_link": "https://www.usa.gov/",
   "your_email_address": "Ni'email hane' nich'8' 1l'8n7gi bik11' 1n7l44h",
   "usagov_logo_alt_text": "%USAGov% na'ashch'22' bee b44h0zin logo woly4h7g77",
-  "eac_logo_alt_text": "U.S. Election Assistance Commission yi[ nidaalnish",
+  "eac_logo_alt_text": "US Election Assistance Commission bee bik'7'diidlid7g77 47 biniy4h7g77 Vote.gov yi[ ah77'1azhgo yaa halne'",
+  "vote_logo_alt_text": "&'ii'n77[ b1 sits'aa y1zh7 si'1n7g77 biyi' asdzoh naashch'22'7g77 47 n7l47 o'oot'ah n7igo yaa y1[ti'go si'32go 1lyaa ",
   "about_link": "/nv/about-us",
   "identifier_aria": "Da'7n77sh bee 44h0zin7g77",
   "identifier_gsa_txt_aria": "Da'7n77sh baa hane'",
@@ -28,5 +29,8 @@
   "identifier_link_7": "Privacy Policy woly4ego hane' nanil'in bee haz'32nii <Bilag1ana k'ehj7>",
   "identifier_more_info_aria": "W1ashindoonj7 dahane' d00 bee 1k1 an7da'awo'",
   "identifier_more_info": "W1ashindoon da'7n77shj77sh hane' d00 bee 1k1 an7da'awo' han7t1h? %link%",
-  "identifier_more_info__1": "USA.gov d7n77['88["
+  "identifier_more_info__1": "USA.gov d7n77['88[",
+  "gsa_logo_alt": "GSA logo",
+  "section_sign_up": "Email sign-up",
+  "section_contact": "Contact"
 }
