@@ -5,14 +5,14 @@
 
 <body class="page-register-{{ .Params.registration_type }}">
 {{ partial "header.html" . }}
-<div id="main-content" role="main">
+<main id="main-content">
   <div class="bg-blue css-arrow">
     <div class="grid-container">
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-4">
           <a class="site-logo" data-test="vote-logo" href="{{ .Site.Home.RelPermalink }}" aria-label="Vote.gov">
             <div class="logo-text">{{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</div>
-            <div id="SiteLogo">{{ partial "ballot_box-blue.svg" }}</div>
+            <div id="SiteLogo">{{ partial "ballot_box-blue.html" . }}</div>
           </a>
         </div>
         <div id="skip-target" class="tablet:grid-col-8 right-shift">
@@ -55,7 +55,7 @@
       </div>
     </div>
   </div>
-</div>
+</main>
 {{ partial "footer.html" . }}
 {{ partial "analytics.html" . }}
 {{ partial "scripts.html" . }}

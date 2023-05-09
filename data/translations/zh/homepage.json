@@ -24,5 +24,6 @@
   "registered_links__process": "選舉流程（英文）",
   "registered_links__process_url": "https://www.usa.gov/election",
   "search_placeholder": "搜尋 Vote.gov",
-  "search_affiliate_translated": true
+  "search_affiliate_translated": true,
+  "section_banner": "官方政府網站"
 }
