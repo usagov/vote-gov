@@ -2,12 +2,16 @@
 {{ $envURL := cond (eq $envURL nil) .Site.Params.envURL.fed $envURL }}
 
 <ol style="list-style-type: none;">
+    
     {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-    <li><a hreflang="{{ $translation.Language.Lang }}" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Home.RelPermalink }}</a></li>
+    <h2><li><a hreflang="{{ $translation.Language.Lang }}" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Home.RelPermalink }}</a></li></h2>
+
+    
     {{ range where .Site.RegularPages "Section" "!=" .Site.Params.register_path }}
-    <li><a hreflang="{{ .Language.Lang }}" href="{{ $envURL }}{{ .Permalink }}">{{ $envURL }}{{ .Permalink }}</a></li>
+    <h2><li><a hreflang="{{ .Language.Lang }}" href="{{ $envURL }}{{ .Permalink }}">{{ $envURL }}{{ .Permalink }}</a></li></h2>
     {{ end }}
     {{ range where .Site.Pages "Section" .Site.Params.register_path}}
-        <li><a hreflang="{{ .Language.Lang }}" href="{{ $envURL }}{{ .Permalink }}">{{ $envURL }}{{ .Permalink }}</a></li>
+        <h3><li><a hreflang="{{ .Language.Lang }}" href="{{ $envURL }}{{ .Permalink }}">{{ $envURL }}{{ .Permalink }}</a></li></h3>
     {{ end }}
+    
 </ol> 
