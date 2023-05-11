@@ -1,13 +1,13 @@
 {{ $envURL := ( index .Site.Params.envURL (os.Getenv "BRANCH") ) }}
 {{ $envURL := cond (eq $envURL nil) .Site.Params.envURL.fed $envURL }}
-{{ range .Site.Pages }}
-    <ul>
-    {{ $title := cond (eq .Type "register") .Params.state_name .Title }}
-    {{ $title }}
-    {{ if .IsTranslated }}
-        {{ range .Translations }}
-        <li><a hreflang="{{ .Language.Lang }}" href="{{ $envURL }}{{ .Permalink }}">{{ $envURL }}{{ .Permalink }}</a></li>
-        {{ end }}
+
+<ol style="list-style-type: none;">
+    {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+    <li><a hreflang="{{ $translation.Language.Lang }}" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Home.RelPermalink }}</a></li>
+    {{ range where .Site.RegularPages "Section" "!=" .Site.Params.register_path }}
+    <li><a hreflang="{{ .Language.Lang }}" href="{{ $envURL }}{{ .Permalink }}">{{ $envURL }}{{ .Permalink }}</a></li>
     {{ end }}
-    </ul>    
-{{ end }}
+    {{ range where .Site.Pages "Section" .Site.Params.register_path}}
+        <li><a hreflang="{{ .Language.Lang }}" href="{{ $envURL }}{{ .Permalink }}">{{ $envURL }}{{ .Permalink }}</a></li>
+    {{ end }}
+</ol> 
