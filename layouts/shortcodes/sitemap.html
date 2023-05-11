@@ -2,16 +2,21 @@
 {{ $envURL := cond (eq $envURL nil) .Site.Params.envURL.fed $envURL }}
 
 <ol style="list-style-type: none;">
-    
     {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-    <h2><li><a hreflang="{{ $translation.Language.Lang }}" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Home.RelPermalink }}</a></li></h2>
+    <h2><li><a hreflang="{{ $translation.Language.Lang }}" href="{{ .Site.Home.RelPermalink }}">{{ $translation.homepage.header }} (Homepage)</a></li></h2>
 
-    
-    {{ range where .Site.RegularPages "Section" "!=" .Site.Params.register_path }}
-    <h2><li><a hreflang="{{ .Language.Lang }}" href="{{ $envURL }}{{ .Permalink }}">{{ $envURL }}{{ .Permalink }}</a></li></h2>
-    {{ end }}
     {{ range where .Site.Pages "Section" .Site.Params.register_path}}
-        <h3><li><a hreflang="{{ .Language.Lang }}" href="{{ $envURL }}{{ .Permalink }}">{{ $envURL }}{{ .Permalink }}</a></li></h3>
+        <h3><li><a hreflang="{{ .Language.Lang }}" href="{{ $envURL }}{{ .Permalink }}">
+            {{ if and (isset $translation.register "heading_territory") (eq .Params.is_state "false") }}
+            {{ replace $translation.register.heading_territory "%state_name%" .Params.state_name }}
+          {{ else }}
+            {{ replace $translation.register.heading "%state_name%" .Params.state_name }}
+          {{ end }}
+        </a></li></h3>
     {{ end }}
-    
+
+    {{ range where .Site.RegularPages "Section" "!=" .Site.Params.register_path }}
+    <h2><li><a hreflang="{{ .Language.Lang }}" href="{{ $envURL }}{{ .Permalink }}">{{ .Title }}</a></li></h2>
+    {{ end }}
 </ol> 
+
