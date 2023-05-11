@@ -1,0 +1,9 @@
+{{ $envURL := ( index .Site.Params.envURL (os.Getenv "BRANCH") ) }}
+{{ $envURL := cond (eq $envURL nil) .Site.Params.envURL.fed $envURL }}
+{{ range .Site.Pages }}
+    {{ if .IsTranslated }}
+    {{ range .Translations }}
+    <li><a hreflang="{{ .Language.Lang }}" href="{{ $envURL }}{{ .Permalink }}">{{ $envURL }}{{ .Permalink }}</a></li>
+    {{ end }}
+    {{ end }}
+{{ end }}
