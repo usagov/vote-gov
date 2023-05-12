@@ -10,9 +10,10 @@
   "eac_text": "an patenarya ak",
   "eac_logo_alt_text": "An patenarya ak Komisyon Asistans Etazini pou Eleksyon %U.S. Election Assistance Commission%",
   "privacy_policy": "Règ sou enfòmasyon prive (ann Anglè)",
-  "privacy_policy_link_url": "Swiv %Vote.gov% sou Twitter",
-  "twitter_link": "Swiv %Vote.gov% sou Twitter",
+  "privacy_policy_link_url": "/policies",
+  "twitter_link": "https://twitter.com/votegov",
   "twitter_text": "Swiv Vote.org sou Twitter (ann Anglè)",
+  "about_link": "/ht/about-us",
   "identifier_aria": "Idantifikasyon Ajans lan",
   "identfier_gsa_txt_aria": "Deskripsyon ajans lan",
   "identifier_gsa_txt": "Sitwèb ofisyèl %link% la",
@@ -26,6 +27,6 @@
   "identifier_link_6": "Rapò Pèfòmans (ann Anglè)",
   "identifier_link_7": "Règ sou enfòmasyon prive (ann Anglè)",
   "identifier_more_info_aria": "Enfòmasyon ak sèvis gouvènman an",
-  "identifier_more_info": "Èske w ap chèche enfòmasyon ak sèvis gouvènman ameriken an? (Vizite USA.gov)",
+  "identifier_more_info": "Èske w ap chèche enfòmasyon ak sèvis gouvènman ameriken an? %link%",
   "identifier_more_info__1": "Vizite USA.gov"
 }
