@@ -51,7 +51,7 @@ describe("Spanish External Link Validator Test", () => {
         cy.visit({
           url: baseURL + page.route,
         });
-        cy.get("div[role='main'] a[href^='https://']").each(link => {
+        cy.get("main a[href^='https://']").each(link => {
           if (excludedlinks.indexOf(link.prop('href')) == -1) {
             cy.request({
               url: link.prop('href'),
