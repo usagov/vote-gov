@@ -6,6 +6,6 @@
   "error_msg2": "Allez à notre %link% et essayez encore.",
   "error_msg2_link": "page d'accueil",
   "error_msg3": "Visitez le %link% pour les conseils de vote au niveau de l'État.",
-  "error_msg3_link": "site Web du bureau électoral de votre État",
+  "error_msg3_link": "site Web du bureau électoral de votre État (en anglais)",
   "error_usa_link": "https://www.usa.gov/election-office"
 }
