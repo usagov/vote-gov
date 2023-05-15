@@ -1,22 +1,22 @@
 {{ $envURL := ( index .Site.Params.envURL (os.Getenv "BRANCH") ) }}
 {{ $envURL := cond (eq $envURL nil) .Site.Params.envURL.fed $envURL }}
 
-<ol style="list-style-type: none;">
+<h2>Main Navigation</h2>
+<ul style="list-style-type: none;">
     {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-    <h2><li><a hreflang="{{ $translation.Language.Lang }}" href="{{ .Site.Home.RelPermalink }}">{{ $translation.homepage.header }} (Homepage)</a></li></h2>
-
-    {{ range where .Site.Pages "Section" .Site.Params.register_path}}
-        <h3><li><a hreflang="{{ .Language.Lang }}" href="{{ $envURL }}{{ .Permalink }}">
-            {{ if and (isset $translation.register "heading_territory") (eq .Params.is_state "false") }}
-            {{ replace $translation.register.heading_territory "%state_name%" .Params.state_name }}
-          {{ else }}
-            {{ replace $translation.register.heading "%state_name%" .Params.state_name }}
-          {{ end }}
-        </a></li></h3>
-    {{ end }}
-
+    <h3><li><a hreflang="{{ $translation.Language.Lang }}" href="{{ .Site.Home.RelPermalink }}">Home</a></li></h3>
     {{ range where .Site.RegularPages "Section" "!=" .Site.Params.register_path }}
-    <h2><li><a hreflang="{{ .Language.Lang }}" href="{{ $envURL }}{{ .Permalink }}">{{ .Title }}</a></li></h2>
+    <h3><li><a hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ .Title }}</a></li></h3>
     {{ end }}
-</ol> 
+</ul> 
+
+<h2>Register to Vote - by State and Territory</h2>
+<ul style="list-style-type: none;">
+  {{ range where .Site.Pages "Section" .Site.Params.register_path}}
+      <h3><li><a hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+        {{ .Params.state_name }}
+      </a></li></h3>
+  {{ end }}
+</ul> 
+
 
