@@ -240,8 +240,7 @@
     "default_mail_postmarked_deadline": "Deve ser carimbado 22 dias antes do Dia da Eleição"
   },
   "vi": {
-    "default_ip_deadline": "30 dias antes do Dia da Eleição",
-    "default_mail_postmarked_deadline": "Deve ser carimbado 30 dias antes do Dia da Eleição"
+    "default_ip_deadline": "30 dias antes do Dia da Eleição"
   },
   "wa": {
     "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
