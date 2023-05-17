@@ -12,6 +12,6 @@ more_info_link = "https://sos.ks.gov/elections/voter-information.html"
 confirm_registration_link = "https://myvoteinfo.voteks.org/voterview/"
 default_ip_deadline = "За 21 дней до дня выборов"
 default_online_deadline = "За 21 дней до дня выборов"
-default_mail_postmarked_deadline = "Должен быть проштемпелёван за 21 дней до дня выборов"
+default_mail_postmarked_deadline = "Письмо должно быть проштемпелёвано за 21 дней до дня выборов"
 
 +++

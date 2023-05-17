@@ -11,7 +11,7 @@ registration_link = "https://gec.guam.gov/"
 more_info_link = "https://gec.guam.gov/"
 confirm_registration_link = "https://gec.guam.gov/validate/"
 default_online_deadline = "За 11 рабочих дней до дня выборов"
-default_mail_received_deadline = "Должен быть получен за 11 рабочих дней до дня выборов"
+default_mail_received_deadline = "Письмо должно быть получен за 11 рабочих дней до дня выборов"
 default_ip_deadline = "За 11 рабочих дней до дня выборов"
 
 +++

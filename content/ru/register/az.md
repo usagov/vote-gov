@@ -11,7 +11,7 @@ registration_link = "https://servicearizona.com/VoterRegistration/selectLanguage
 more_info_link = "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information"
 confirm_registration_link = "https://my.arizona.vote/WhereToVote.aspx?s=individual"
 default_online_deadline = "За 29 дней до дня выборов "
-default_mail_postmarked_deadline = "Должен быть проштемпелёван за 29 дней до дня выборов"
+default_mail_postmarked_deadline = "Письмо должно быть проштемпелёвано за 29 дней до дня выборов"
 default_ip_deadline = "За 29 дней до дня выборов "
 
 +++

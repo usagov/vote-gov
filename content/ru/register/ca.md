@@ -12,6 +12,6 @@ more_info_link = "https://www.sos.ca.gov/elections/voting-resources/voting-calif
 confirm_registration_link = "https://registertovote.ca.gov/"
 default_ip_deadline = "Доступно до дня выборов включительно"
 default_online_deadline = "За 15 дней до дня выборов"
-default_mail_postmarked_deadline = "Должен быть проштемпелёван за 15 дней до дня выборов"
+default_mail_postmarked_deadline = "Письмо должно быть проштемпелёвано за 15 дней до дня выборов"
 
 +++

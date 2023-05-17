@@ -12,6 +12,6 @@ more_info_link = "https://www.sos.state.nm.us/voting-and-elections/voter-informa
 confirm_registration_link = "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
 default_ip_deadline = "За 28 дней до дня выборов"
 default_online_deadline = "За 28 дней до дня выборов"
-default_mail_postmarked_deadline = "Должен быть проштемпелёван за 28 дней до дня выборов"
+default_mail_postmarked_deadline = "Письмо должно быть проштемпелёвано за 28 дней до дня выборов"
 
 +++

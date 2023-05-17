@@ -12,6 +12,6 @@ more_info_link = "https://www.elections.virginia.gov/registration/how-to-registe
 confirm_registration_link = "https://www.elections.virginia.gov/registration/view-your-info/"
 default_ip_deadline = "За 22 дней до дня выборов"
 default_online_deadline = "За 22 дней до дня выборов"
-default_mail_postmarked_deadline = "Должен быть проштемпелёван за 22 дня до дня выборов"
+default_mail_postmarked_deadline = "Письмо должно быть проштемпелёвано за 22 дня до дня выборов"
 
 +++

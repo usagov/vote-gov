@@ -12,6 +12,6 @@ more_info_link = "https://www.elections.maryland.gov/voter_registration/applicat
 confirm_registration_link = "https://voterservices.elections.maryland.gov/VoterSearch"
 default_ip_deadline = "Доступно до дня выборов включительно"
 default_online_deadline = "За 21 дней до дня выборов"
-default_mail_postmarked_deadline = "Должен быть проштемпелёван за 21 дней до дня выборов"
+default_mail_postmarked_deadline = "Письмо должно быть проштемпелёвано за 21 дней до дня выборов"
 
 +++

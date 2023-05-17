@@ -12,6 +12,6 @@ more_info_link = "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-bu
 confirm_registration_link = "https://mvp.sos.ga.gov/s/"
 default_ip_deadline = "За 29 дней до дня выборов"
 default_online_deadline = "За 29 дней до дня выборов"
-default_mail_postmarked_deadline = "Должен быть проштемпелёван за 29 дней до дня выборов"
+default_mail_postmarked_deadline = "Письмо должно быть проштемпелёвано за 29 дней до дня выборов"
 
 +++

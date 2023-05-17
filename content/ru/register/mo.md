@@ -12,6 +12,6 @@ more_info_link = "https://www.sos.mo.gov/elections/goVoteMissouri/register"
 confirm_registration_link = "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx"
 default_ip_deadline = "За 27 дней до дня выборов"
 default_online_deadline = "За 27 дней до дня выборов"
-default_mail_postmarked_deadline = "Должен быть проштемпелёван за 27 дней до дня выборов"
+default_mail_postmarked_deadline = "Письмо должно быть проштемпелёвано за 27 дней до дня выборов"
 
 +++

@@ -10,6 +10,6 @@ hp_link = "https://www.maine.gov/sos/cec/elec/"
 more_info_link = "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html"
 confirm_registration_link = "https://www.maine.gov/sos/cec/elec/data/index.html"
 default_ip_deadline = "Доступно до дня выборов включительно"
-default_mail_received_deadline = "Должен быть получен за 21 день до дня выборов"
+default_mail_received_deadline = "Письмо должно быть получен за 21 день до дня выборов"
 
 +++

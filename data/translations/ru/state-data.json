@@ -2,171 +2,172 @@
   "al": {
     "default_ip_deadline": "За 15 дней до дня выборов",
     "default_online_deadline": "За 15 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 15 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 15 дней до дня выборов",
+    "default_mail_postmarked_deadline": "Должен быть проштемпелёвано за 15 дней до дня выборов"
   },
   "ak": {
     "default_online_deadline": "За 30 дней до дня выборов ",
     "default_ip_deadline": "За 30 дней до дня выборов ",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 30 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Должен быть проштемпелёвано за 30 дней до дня выборов"
   },
   "as": {
     "default_ip_deadline": "За 29 дней до дня выборов ",
-    "default_mail_received_deadline": "Должен быть получен за 29 дней до дня выборов"
+    "default_mail_received_deadline": "Письмо должно быть получен за 29 дней до дня выборов"
   },
   "az": {
     "default_online_deadline": "За 29 дней до дня выборов ",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 29 дней до дня выборов",
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 29 дней до дня выборов",
     "default_ip_deadline": "За 29 дней до дня выборов "
   },
   "ar": {
     "default_ip_deadline": "За 30 дней до дня выборов ",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 30 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 30 дней до дня выборов"
   },
   "ca": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
     "default_online_deadline": "За 15 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 15 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 15 дней до дня выборов"
   },
   "co": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
     "default_online_deadline": "За 8 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 8 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 8 дней до дня выборов"
   },
   "ct": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
     "default_online_deadline": "За 7 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 7 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 7 дней до дня выборов"
   },
   "de": {
     "default_ip_deadline": "За 24 дня до дня выборов",
     "default_online_deadline": "За 24 дня до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 24 дня до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 24 дня до дня выборов"
   },
   "dc": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
-    "default_mail_received_deadline": "Должен быть получен за 21 день до дня выборов",
+    "default_mail_received_deadline": "Письмо должно быть получен за 21 день до дня выборов",
     "default_online_deadline": "За 21 день до дня выборов"
   },
   "fl": {
     "default_ip_deadline": "За 29 дней до дня выборов",
     "default_online_deadline": "За 29 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 29 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 29 дней до дня выборов"
   },
   "ga": {
     "default_ip_deadline": "За 29 дней до дня выборов",
     "default_online_deadline": "За 29 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 29 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 29 дней до дня выборов"
   },
   "gu": {
     "default_online_deadline": "За 11 рабочих дней до дня выборов",
-    "default_mail_received_deadline": "Должен быть получен за 11 рабочих дней до дня выборов",
+    "default_mail_received_deadline": "Письмо должно быть получен за 11 рабочих дней до дня выборов",
     "default_ip_deadline": "За 11 рабочих дней до дня выборов"
   },
   "hi": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
     "default_online_deadline": "Доступно до дня выборов включительно",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 8 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 8 дней до дня выборов"
   },
   "id": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
     "default_online_deadline": "За 25 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 25 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 25 дней до дня выборов"
   },
   "il": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
     "default_online_deadline": "За 16 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 28 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 28 дней до дня выборов"
   },
   "in": {
     "default_ip_deadline": "За 29 дней до дня выборов",
     "default_online_deadline": "За 29 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 29 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 29 дней до дня выборов"
   },
   "ia": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
     "default_online_deadline": "За 15 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 15 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 15 дней до дня выборов"
   },
   "ks": {
     "default_ip_deadline": "За 21 дней до дня выборов",
     "default_online_deadline": "За 21 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 21 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 21 дней до дня выборов"
   },
   "ky": {
     "default_ip_deadline": "За 29 дней до дня выборов",
     "default_online_deadline": "За 29 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 29 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 29 дней до дня выборов"
   },
   "la": {
     "default_ip_deadline": "За 30 дней до дня выборов",
     "default_online_deadline": "За 20 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 30 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 30 дней до дня выборов"
   },
   "me": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
-    "default_mail_received_deadline": "Должен быть получен за 21 день до дня выборов"
+    "default_mail_received_deadline": "Письмо должно быть получен за 21 день до дня выборов"
   },
   "md": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
     "default_online_deadline": "За 21 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 21 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 21 дней до дня выборов"
   },
   "ma": {
     "default_ip_deadline": "За 10 дней до дня выборов",
     "default_online_deadline": "За 10 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 10 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 10 дней до дня выборов"
   },
   "mi": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
     "default_online_deadline": "За 15 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 15 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 15 дней до дня выборов"
   },
   "mn": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
     "default_online_deadline": "За 21 день до дня выборов",
-    "default_mail_received_deadline": "Должен быть получен за 21 день до дня выборов"
+    "default_mail_received_deadline": "Письмо должно быть получен за 21 день до дня выборов"
   },
   "ms": {
     "default_ip_deadline": "За 30 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 30 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 30 дней до дня выборов"
   },
   "mo": {
     "default_ip_deadline": "За 27 дней до дня выборов",
     "default_online_deadline": "За 27 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 27 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 27 дней до дня выборов"
   },
   "mt": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 30 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 30 дней до дня выборов"
   },
   "ne": {
     "default_ip_deadline": "За 11 дней до дня выборов",
     "default_online_deadline": "За 18 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 18 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 18 дней до дня выборов"
   },
   "nv": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
     "default_online_deadline": "За 5 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 28 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 28 дней до дня выборов"
   },
   "nh": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
-    "default_mail_received_deadline": "Должен быть получен за 13 дней до дня выборов"
+    "default_mail_received_deadline": "Письмо должно быть получен за 13 дней до дня выборов"
   },
   "nj": {
     "default_online_deadline": "За 21 день до дня выборов",
-    "default_mail_received_deadline": "Должен быть получен за 21 дней до дня выборов",
+    "default_mail_received_deadline": "Письмо должно быть получен за 21 дней до дня выборов",
     "default_ip_deadline": "За 21 день до дня выборов"
   },
   "nm": {
     "default_ip_deadline": "За 28 дней до дня выборов",
     "default_online_deadline": "За 28 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 28 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 28 дней до дня выборов"
   },
   "ny": {
     "default_ip_deadline": "За 25 дней до дня выборов",
     "default_online_deadline": "За 25 дней до дня выборов",
-    "default_mail_received_deadline": "Должен быть получен за 10 дней до дня выборов"
+    "default_mail_received_deadline": "Письмо должно быть получен за 10 дней до дня выборов"
   },
   "nc": {
   "default_ip_deadline": "Регистрация в тот же день доступна в период досрочного голосования",
@@ -179,21 +180,21 @@
   "oh": {
     "default_ip_deadline": "За 30 дней до дня выборов",
     "default_online_deadline": "За 30 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 30 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 30 дней до дня выборов"
   },
   "ok": {
     "default_ip_deadline": "За 25 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 25 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 25 дней до дня выборов"
   },
   "or": {
     "default_ip_deadline": "За 21 день до дня выборов",
     "default_online_deadline": "За 21 день до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 21 день до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 21 день до дня выборов"
   },
   "pa": {
     "default_ip_deadline": "За 15 дней до дня выборов",
     "default_online_deadline": "За 15 дней до дня выборов",
-    "default_mail_received_deadline": "Должен быть получен за 15 дней до дня выборов"
+    "default_mail_received_deadline": "Письмо должно быть получен за 15 дней до дня выборов"
   },
   "pr": {
     "default_ip_deadline": "За 50 дней до дня выборов"
@@ -201,40 +202,40 @@
   "ri": {
     "default_ip_deadline": "За 30 дней до дня выборов",
     "default_online_deadline": "За 30 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 30 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 30 дней до дня выборов"
   },
   "sc": {
     "default_ip_deadline": "За 30 дней до дня выборов",
     "default_online_deadline": "За 30 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 30 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 30 дней до дня выборов"
   },
   "sd": {
     "default_ip_deadline": "За 15 дней до дня выборов",
-    "default_mail_received_deadline": "Должен быть получен за 15 дней до дня выборов"
+    "default_mail_received_deadline": "Письмо должно быть получен за 15 дней до дня выборов"
   },
   "tn": {
     "default_ip_deadline": "За 30 дней до дня выборов",
     "default_online_deadline": "За 30 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 30 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 30 дней до дня выборов"
   },
   "tx": {
     "default_ip_deadline": "За 30 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 30 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 30 дней до дня выборов"
   },
   "ut": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
     "default_online_deadline": "За 11 дней до дня выборов",
-    "default_mail_received_deadline": "Должен быть получен за 11 дней до дня выборов"
+    "default_mail_received_deadline": "Письмо должно быть получен за 11 дней до дня выборов"
   },
   "vt": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
     "default_online_deadline": "Доступно до дня выборов включительно",
-    "default_mail_received_deadline": "Должен быть получен до или в День Выборов"
+    "default_mail_received_deadline": "Письмо должно быть получен до или в День Выборов"
   },
   "va": {
     "default_ip_deadline": "За 22 дней до дня выборов",
     "default_online_deadline": "За 22 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 22 дня до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 22 дня до дня выборов"
   },
   "vi": {
     "default_ip_deadline": "За 30 дней до дня выборов"
@@ -242,20 +243,20 @@
   "wa": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
     "default_online_deadline": "За 8 дней до дня выборов",
-    "default_mail_received_deadline": "Должен быть получен за 8 дней до дня выборов"
+    "default_mail_received_deadline": "Письмо должно быть получен за 8 дней до дня выборов"
   },
   "wv": {
     "default_ip_deadline": "За 21 день до дня выборов",
     "default_online_deadline": "За 21 день до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 21 день до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 21 день до дня выборов"
   },
   "wi": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
     "default_online_deadline": "За 20 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Должен быть проштемпелёван за 20 дней до дня выборов"
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 20 дней до дня выборов"
   },
   "wy": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
-    "default_mail_received_deadline": "Должен быть получен за 14 дней до дня выборов"
+    "default_mail_received_deadline": "Письмо должно быть получен за 14 дней до дня выборов"
   }
 }

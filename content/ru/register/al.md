@@ -12,6 +12,6 @@ more_info_link = "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vo
 confirm_registration_link = "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do"
 default_ip_deadline = "За 15 дней до дня выборов"
 default_online_deadline = "За 15 дней до дня выборов"
-default_mail_postmarked_deadline = "Должен быть проштемпелёван за 15 дней до дня выборов"
+default_mail_postmarked_deadline = "Должен быть проштемпелёвано за 15 дней до дня выборов"
 
 +++

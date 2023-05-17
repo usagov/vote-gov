@@ -12,6 +12,6 @@ more_info_link = "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages
 confirm_registration_link = "https://voterportal.sos.la.gov/"
 default_ip_deadline = "За 30 дней до дня выборов"
 default_online_deadline = "За 20 дней до дня выборов"
-default_mail_postmarked_deadline = "Должен быть проштемпелёван за 30 дней до дня выборов"
+default_mail_postmarked_deadline = "Письмо должно быть проштемпелёвано за 30 дней до дня выборов"
 
 +++

@@ -12,6 +12,6 @@ more_info_link = "https://scvotes.gov/voters/register-to-vote/"
 confirm_registration_link = "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=VoterInfo"
 default_ip_deadline = "За 30 дней до дня выборов"
 default_online_deadline = "За 30 дней до дня выборов"
-default_mail_postmarked_deadline = "Должен быть проштемпелёван за 30 дней до дня выборов"
+default_mail_postmarked_deadline = "Письмо должно быть проштемпелёвано за 30 дней до дня выборов"
 
 +++

@@ -12,6 +12,6 @@ more_info_link = "https://www.sec.state.ma.us/divisions/elections/voter-resource
 confirm_registration_link = "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"
 default_ip_deadline = "За 10 дней до дня выборов"
 default_online_deadline = "За 10 дней до дня выборов"
-default_mail_postmarked_deadline = "Должен быть проштемпелёван за 10 дней до дня выборов"
+default_mail_postmarked_deadline = "Письмо должно быть проштемпелёвано за 10 дней до дня выборов"
 
 +++
