@@ -12,6 +12,6 @@ more_info_link = "https://www.sec.state.ma.us/divisions/elections/voter-resource
 confirm_registration_link = "https://www.sec.state.ma.us/VoterRegistrationSearch/MyVoterRegStatus.aspx"
 default_ip_deadline = "10 jours avant le Jour des élections"
 default_online_deadline = "10 jours avant le Jour des élections"
-default_mail_postmarked_deadline = "Envoyer au plus tard 10 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+default_mail_postmarked_deadline = "Envoyez votre inscription au plus tard 10 jours avant le Jour des élections avec un cachet de la poste faisant foi"
 
 +++

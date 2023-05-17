@@ -12,6 +12,6 @@ more_info_link = "https://registertovoteflorida.gov/home"
 confirm_registration_link = "https://registration.elections.myflorida.com/CheckVoterStatus"
 default_ip_deadline = "29 jours avant le Jour des élections"
 default_online_deadline = "29 jours avant le Jour des élections"
-default_mail_postmarked_deadline = "Envoyer au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+default_mail_postmarked_deadline = "Envoyez votre inscription au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
 
 +++

@@ -2,13 +2,13 @@
   "al": {
     "default_ip_deadline": "15 jours avant le Jour des élections",
     "default_online_deadline": "15 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "ak": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
     "default_online_deadline": "30 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "as": {
@@ -18,55 +18,55 @@
 
   "az": {
     "default_online_deadline": "29 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi",
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi",
     "default_ip_deadline": "29 jours avant le Jour des élections"
   },
 
   "ar": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "ca": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "15 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "co": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "8 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 8 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 8 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "ct": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "7 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 7 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 7 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "de": {
     "default_ip_deadline": "24 jours avant le Jour des élections",
     "default_online_deadline": "24 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 24 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 24 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "dc": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
-    "default_mail_received_deadline": "Envoyer au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi",
+    "default_mail_received_deadline": "Envoyez votre inscription au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi",
     "default_online_deadline": "21 jours avant le le Jour des élections"
   },
 
   "fl": {
     "default_ip_deadline": "29 jours avant le Jour des élections",
     "default_online_deadline": "29 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "ga": {
     "default_ip_deadline": "29 jours avant le Jour des élections",
     "default_online_deadline": "29 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "gu": {
@@ -78,49 +78,49 @@
   "hi": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "Disponible jusqu'au et y compris le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 8 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 8 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "id": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "25 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 25 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 25 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "il": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "16 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 28 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 28 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "in": {
     "default_ip_deadline": "29 jours avant le Jour des élections",
     "default_online_deadline": "29 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "ia": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "15 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "ks": {
     "default_ip_deadline": "21 jours avant le le Jour des élections",
     "default_online_deadline": "21 jours avant le le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "ky": {
     "default_ip_deadline": "29 jours avant le Jour des élections",
     "default_online_deadline": "29 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "la": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
     "default_online_deadline": "20 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "me": {
@@ -131,19 +131,19 @@
   "md": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "21 jours avant le le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "ma": {
     "default_ip_deadline": "10 jours avant le Jour des élections",
     "default_online_deadline": "10 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 10 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 10 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "mi": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "15 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "mn": {
@@ -154,30 +154,30 @@
 
   "ms": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "mo": {
     "default_ip_deadline": "27 jours avant le Jour des élections",
     "default_online_deadline": "27 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 27 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 27 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "mt": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "ne": {
     "default_ip_deadline": "11 jours avant le Jour des élections",
     "default_online_deadline": "18 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 18 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 18 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "nv": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "5 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 28 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 28 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "nh": {
@@ -194,7 +194,7 @@
   "nm": {
     "default_ip_deadline": "28 jours avant le Jour des élections",
     "default_online_deadline": "28 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 28 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 28 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "ny": {
@@ -206,7 +206,7 @@
   "nc": {
     "default_ip_deadline": "L'inscription le jour même disponible pendant la période de vote anticipé",
     "default_online_deadline": "25 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 25 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 25 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "nd": {},
@@ -215,18 +215,18 @@
   "oh": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
     "default_online_deadline": "30 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "ok": {
     "default_ip_deadline": "25 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 25 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 25 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "or": {
     "default_ip_deadline": "21 jours avant le le Jour des élections",
     "default_online_deadline": "21 jours avant le le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "pa": {
@@ -240,13 +240,13 @@
   "ri": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
     "default_online_deadline": "30 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "sc": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
     "default_online_deadline": "30 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "sd": {
@@ -257,12 +257,12 @@
   "tn": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
     "default_online_deadline": "30 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "tx": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "ut": {
@@ -280,7 +280,7 @@
   "va": {
     "default_ip_deadline": "22 jours avant le Jour des élections",
     "default_online_deadline": "22 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 22 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 22 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "vi": { "default_ip_deadline": "30 jours avant le Jour des élections" },
@@ -294,13 +294,13 @@
   "wv": {
     "default_ip_deadline": "21 jours avant le le Jour des élections",
     "default_online_deadline": "21 jours avant le le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "wi": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "20 jours avant le Jour des élections",
-    "default_mail_postmarked_deadline": "Envoyer au plus tard 20 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+    "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 20 jours avant le Jour des élections avec un cachet de la poste faisant foi"
   },
 
   "wy": {

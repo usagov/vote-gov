@@ -12,6 +12,6 @@ more_info_link = "https://www.sos.state.nm.us/voting-and-elections/voter-informa
 confirm_registration_link = "https://voterportal.servis.sos.state.nm.us/WhereToVote.aspx"
 default_ip_deadline = "28 jours avant le Jour des élections"
 default_online_deadline = "28 jours avant le Jour des élections"
-default_mail_postmarked_deadline = "Envoyer au plus tard 28 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+default_mail_postmarked_deadline = "Envoyez votre inscription au plus tard 28 jours avant le Jour des élections avec un cachet de la poste faisant foi"
 
 +++

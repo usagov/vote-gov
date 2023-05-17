@@ -12,6 +12,6 @@ more_info_link = "https://sos.ks.gov/elections/voter-information.html"
 confirm_registration_link = "https://myvoteinfo.voteks.org/voterview/"
 default_ip_deadline = "21 jours avant le le Jour des élections"
 default_online_deadline = "21 jours avant le le Jour des élections"
-default_mail_postmarked_deadline = "Envoyer au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+default_mail_postmarked_deadline = "Envoyez votre inscription au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi"
 
 +++

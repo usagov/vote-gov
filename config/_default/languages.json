@@ -255,7 +255,7 @@
       "meta__description": "Découvrez les modes d'inscription au vote dans votre État",
       "english_only": "(en anglais)",
       "last_updated": "Dernière mise à jour :",
-      "select_language": "Sélectionner la langue %dropdown-list%",
+      "select_language": "Sélectionner une langue %dropdown-list%",
       "english_languageName": "French"
     }
   }

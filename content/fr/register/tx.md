@@ -10,6 +10,6 @@ hp_link = "https://www.votetexas.gov/index.html"
 more_info_link = "https://www.votetexas.gov/register-to-vote/index.html"
 confirm_registration_link = "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
 default_ip_deadline = "30 jours avant le Jour des élections"
-default_mail_postmarked_deadline = "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+default_mail_postmarked_deadline = "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
 
 +++

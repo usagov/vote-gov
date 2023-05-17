@@ -12,6 +12,6 @@ more_info_link = "https://ohio.gov/wps/portal/gov/site/government/resources/regi
 confirm_registration_link = "https://voterlookup.ohiosos.gov/voterlookup.aspx"
 default_ip_deadline = "30 jours avant le Jour des élections"
 default_online_deadline = "30 jours avant le Jour des élections"
-default_mail_postmarked_deadline = "Envoyer au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+default_mail_postmarked_deadline = "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
 
 +++
