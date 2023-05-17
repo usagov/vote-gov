@@ -1,7 +1,7 @@
 {
-  "subscribe_email": "Enskri pou resevwa imèl (an angle) ki soti nan %USAGov%",
+  "subscribe_email": "Enskri pou resevwa imèl (ann Anglè) ki soti nan %USAGov%",
   "subscribe_email_link_url": "https://connect.usa.gov/subscribe",
-  "your_email_address": "Make imèl ou",
+  "your_email_address": "Tape imèl ou",
   "sign_up": "Enskri",
   "usagov_img": "img/usagov-logo.png",
   "usagov_link": "https://www.usa.gov/",
@@ -27,6 +27,6 @@
   "identifier_link_6": "Rapò Pèfòmans (ann Anglè)",
   "identifier_link_7": "Règ sou enfòmasyon prive (ann Anglè)",
   "identifier_more_info_aria": "Enfòmasyon ak sèvis gouvènman an",
-  "identifier_more_info": "Èske w ap chèche enfòmasyon ak sèvis gouvènman ameriken an? %link%",
+  "identifier_more_info": "Èske w ap chèche enfòmasyon ak sèvis gouvènman ameriken lofri? %link%",
   "identifier_more_info__1": "Vizite USA.gov"
 }

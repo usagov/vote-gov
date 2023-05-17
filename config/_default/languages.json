@@ -245,7 +245,7 @@
     "languageName": "Kreyòl Ayisyen",
     "weight": 13,
     "params": {
-      "Owner": "%Vote.gov% nan Kreyòl Ayisyen",
+      "Owner": "%Vote.gov% an Kreyòl Ayisyen",
       "language_direction": "ltr",
       "publishDir": "tmp/public/ht",
       "register_path": "register",
