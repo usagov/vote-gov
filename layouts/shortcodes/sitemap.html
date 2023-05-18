@@ -1,22 +1,23 @@
 {{ $envURL := ( index .Site.Params.envURL (os.Getenv "BRANCH") ) }}
 {{ $envURL := cond (eq $envURL nil) .Site.Params.envURL.fed $envURL }}
 
-<h3 aria-label="A list of all main navigation links">Main Navigation</h3>
-<ul style="list-style-type: none;">
-    {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-    <li><a hreflang="{{ $translation.Language.Lang }}" href="{{ .Site.Home.RelPermalink }}">Home</a></li>
-    {{ range where .Site.RegularPages "Section" "!=" .Site.Params.register_path }}
-    <li><a hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
+<div class="sitemap">
+  <h2 aria-label="A list of all main navigation links">Main Navigation</h2>
+  <ul class="main-nav usa-list">
+      {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+      <li><a hreflang="{{ $translation.Language.Lang }}" href="{{ .Site.Home.RelPermalink }}">Home</a></li>
+      {{ range where .Site.RegularPages "Section" "!=" .Site.Params.register_path }}
+      <li><a hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+  </ul> 
+
+  <h2 aria-label="All Register to Vote links listed by State or territory name">Register to Vote - by State and Territory</h2>
+  <ul class="register-nav usa-list">
+    {{ range where .Site.Pages "Section" .Site.Params.register_path}}
+        <li><a hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+          {{ .Params.state_name }}
+        </a></li>
     {{ end }}
-</ul> 
-
-<h3 aria-label="All Register to Vote links listed by State or territory name">Register to Vote - by State and Territory</h3>
-<ul style="list-style-type: none;">
-  {{ range where .Site.Pages "Section" .Site.Params.register_path}}
-      <li><a hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
-        {{ .Params.state_name }}
-      </a></li>
-  {{ end }}
-</ul> 
-
+  </ul> 
+</div>
 

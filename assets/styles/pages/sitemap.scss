@@ -1,0 +1,16 @@
+@use 'uswds-core' as *;
+@use '../mixins' as *;
+
+.sitemap {
+    ul.main-nav, ul.register-nav {
+        list-style-type: none;
+    }
+
+    ul.register-nav {
+        columns: 2;
+
+        @include at-media('tablet') {
+            columns: 3;
+        }
+    }
+}
