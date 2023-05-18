@@ -9,7 +9,7 @@ type = "register"
 hp_link = "https://www.maine.gov/sos/cec/elec/"
 more_info_link = "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html"
 confirm_registration_link = "https://www.maine.gov/sos/cec/elec/data/index.html"
-default_ip_deadline = "Disponib jiska ki enkli tou jou Eleksyon an"
+default_ip_deadline = "Disponib jiska tou jou Eleksyon an"
 default_mail_received_deadline = "Dwe rive 21 jou anvan jou eleksyon an"
 
 +++

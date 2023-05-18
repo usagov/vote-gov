@@ -10,7 +10,7 @@ type = "register"
 hp_link = "https://sos.wyo.gov/elections/state/registeringtovote.aspx"
 more_info_link = "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx"
 confirm_registration_link = "https://sos.wyo.gov/Elections/Docs/WYCountyClerks.pdf"
-default_ip_deadline = "Disponib jiska ki enkli jou Eleksyon an"
+default_ip_deadline = "Disponib jiska jou Eleksyon an"
 default_mail_received_deadline = "Dwe rive 14 jou anvan jou eleksyon an"
 
 +++
