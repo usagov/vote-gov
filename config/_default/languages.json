@@ -243,6 +243,7 @@
     "contentDir": "content/ru",
     "title": "Регистрация Избирателей",
     "languageName": "Русский",
+    "weight": 10,
     "params" : {
       "Owner": "%Vote.gov% in Русский",
       "language_direction": "ltr",
