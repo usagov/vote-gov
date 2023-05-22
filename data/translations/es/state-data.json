@@ -307,9 +307,6 @@
     "default_mail_received_deadline": "Debe recibirse antes del día de las elecciones; o a más tardar, el día de las elecciones "
   },
   "va": {
-    "hp_link_translated": "true",
-    "more_info_link_translated": "true",
-    "confirm_registration_link_translated": "true",
     "default_ip_deadline": "hasta 22 días antes del día de las elecciones",
     "default_online_deadline": "hasta 22 días antes del día de las elecciones",
     "default_mail_postmarked_deadline": "debe tener el sello del correo 22 días antes del día de las elecciones"
