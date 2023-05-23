@@ -2,7 +2,7 @@
 {{ $envURL := cond (eq $envURL nil) .Site.Params.envURL.fed $envURL }}
 
 <div class="sitemap">
-  <h2 aria-label="A list of all main navigation links">Main Navigation</h2>
+  <h2>Main Navigation</h2>
   <ul class="main-nav usa-list">
       {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
       <li><a hreflang="{{ $translation.Language.Lang }}" href="{{ .Site.Home.RelPermalink }}">Home</a></li>
@@ -11,7 +11,7 @@
       {{ end }}
   </ul> 
 
-  <h2 aria-label="All Register to Vote links listed by State or territory name">Register to Vote - by State and Territory</h2>
+  <h2>Register to Vote - by State and Territory</h2>
   <ul class="register-nav usa-list">
     {{ range where .Site.Pages "Section" .Site.Params.register_path}}
         <li><a hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
@@ -20,4 +20,3 @@
     {{ end }}
   </ul> 
 </div>
-
