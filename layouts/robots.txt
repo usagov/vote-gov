@@ -1,0 +1,7 @@
+{{- $envURL := ( index .Site.Params.envURL (os.Getenv "BRANCH") ) -}}
+User-agent: *
+{{ if eq $envURL "master" -}}
+Sitemap: https://vote.gov/sitemap.xml
+{{- else -}}
+Disallow: /
+{{- end }}
