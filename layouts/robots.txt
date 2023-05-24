@@ -1,6 +1,6 @@
-{{- $envURL := ( index .Site.Params.envURL (os.Getenv "BRANCH") ) -}}
+{{- $env := (os.Getenv "BRANCH") -}}
 User-agent: *
-{{ if eq $envURL "master" -}}
+{{ if eq $env "master" -}}
 Sitemap: https://vote.gov/sitemap.xml
 {{- else -}}
 Disallow: /
