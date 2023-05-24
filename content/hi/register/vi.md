@@ -6,10 +6,9 @@ is_state = "false"
 registration_type = "in-person"
 translationKey = "U.S. Virgin Islands"
 type = "register"
-hp_link = "https://www.vivote.gov/voters/register-vote"
-more_info_link = "https://www.vivote.gov/voters/register-vote"
-confirm_registration_link = "https://www.vivote.gov/voters/lookup"
+hp_link = "https://www.vivote.gov/voters/register-to-vote/"
+more_info_link = "https://www.vivote.gov/voters/register-to-vote/"
+confirm_registration_link = "https://www.vivote.gov/voters/voter-lookup/"
 default_ip_deadline = "मतदान दिवस से 30 दिन पहले"
-default_mail_postmarked_deadline = "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
 
 +++

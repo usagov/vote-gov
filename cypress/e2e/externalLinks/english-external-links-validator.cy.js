@@ -16,10 +16,11 @@ const excludedlinks = [
   'https://vote.sos.ri.gov/Voter/RegisterToVote?ref=voteusa_en',
   'https://vote.sos.ri.gov/Home/UpdateVoterRecord?ActiveFlag=0&?ref=voteusa_en',
   'https://my.arizona.vote/WhereToVote.aspx?s=individual&?ref=voteusa_en',
+  'https://sosmt.gov/elections/vote/?ref=voteusa_en',
   // sc links
   'https://vrems.scvotes.sc.gov/Voter/Login?ref=voteusa_en',
   'https://scvotes.gov/voters/register-to-vote/?ref=voteusa_en',
-  'https://info.scvotes.sc.gov/eng/ovr/start.aspx?ref=voteusa_en'
+  'https://info.scvotes.sc.gov/eng/ovr/start.aspx?ref=voteusa_en',
 ];
 
 describe("External Link Validator Test", () => {
@@ -52,7 +53,7 @@ describe("External Link Validator Test", () => {
         cy.visit({
           url: baseURL + page.route,
         });
-        cy.get("div[role='main'] a[href^='https://']").each(link => {
+        cy.get("main a[href^='https://']").each(link => {
           if (excludedlinks.indexOf(link.prop('href')) == -1) {
             cy.request({
               url: link.prop('href'),

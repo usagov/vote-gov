@@ -11,7 +11,7 @@ registration_link = "https://voter.svrs.nj.gov/register"
 more_info_link = "https://nj.gov/state/elections/voter-registration.shtml"
 confirm_registration_link = "https://voter.svrs.nj.gov/registration-check"
 default_online_deadline = "21 araw bago ang Araw ng Eleksyon"
-default_mail_postmarked_deadline = "Dapat matanggap 21 araw bago ang Araw ng Eleksyon"
+default_mail_received_deadline = "Dapat matanggap 21 araw bago ang Araw ng Eleksyon"
 default_ip_deadline = "21 araw bago ang Araw ng Eleksyon"
 
 +++

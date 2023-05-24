@@ -12,7 +12,8 @@
   "usagov_link": "https://www.usa.gov/espanol/",
   "your_email_address": "Ingrese su email",
   "usagov_logo_alt_text": "%USA.gov% en español logo",
-  "eac_logo_alt_text": "En colaboración con la %U.S. Election Assistance Commission%",
+  "eac_logo_alt_text": "Logotipo de la Comisión de Asistencia Electoral de EE. UU. para indicar su asociación con Vote.gov.",
+  "vote_logo_alt_text": "Ilustración del acto del voto donde una boleta marcada está siendo insertada en una urna.",
   "about_link": "/es/acerca-de-votegov",
   "identifier_aria": "Identificador de la agencia",
   "identifier_gsa_txt_aria": "Descripción de la agencia",
@@ -28,5 +29,9 @@
   "identifier_link_7": "Política de privacidad",
   "identifier_more_info_aria": "Información y servicios del gobierno",
   "identifier_more_info": "¿Busca información y servicios del Gobierno de Estados Unidos? %link%",
-  "identifier_more_info__1": "USAGov en Español"
+  "identifier_more_info__1": "USAGov en Español",
+  "gsa_logo_alt": "Logotipo de la GSA (Administración General de Servicios)",
+  "privacy_policy_link": "https://www.usa.gov/es/politicas-privacidad",
+  "section_sign_up": "Email para inscripción",
+  "section_contact": "Contacto"
 }

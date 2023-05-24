@@ -240,8 +240,7 @@
     "default_mail_postmarked_deadline": "मतदान दिवस से 22 दिन पहले पोस्टमार्क होना चाहिए"
   },
   "vi": {
-    "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",
-    "default_mail_postmarked_deadline": "मतदान दिवस से 30 दिन पहले पोस्टमार्क होना चाहिए"
+    "default_ip_deadline": "मतदान दिवस से 30 दिन पहले"
   },
   "wa": {
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
