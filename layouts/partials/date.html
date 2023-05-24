@@ -15,6 +15,8 @@
   Ika-{{ $day }} ng {{ $month }} {{ $year }}
 {{ else if eq .Site.Language.Lang "nv" }}
   {{ $day }} {{ $month }}, {{ $year }}
+{{ else if eq .Site.Language.Lang "nv" }}
+  {{ $day }} {{ $month }}, {{ $year }}
 {{ else }}
   {{ .Lastmod | time.Format ":date_long" }}
 {{end}}
