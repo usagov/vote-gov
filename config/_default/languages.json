@@ -65,7 +65,7 @@
     "contentDir": "content/hi",
     "title": "मतदाता पंजीकरण ",
     "languageName": "हिन्दी ",
-    "weight": 6,
+    "weight": 7,
     "params": {
       "Owner": "%Vote.gov% हिन्दी में",
       "language_direction": "ltr",
@@ -86,7 +86,7 @@
     "contentDir": "content/ko",
     "title": "유권자 등록 ",
     "languageName": "한국어",
-    "weight": 8,
+    "weight": 9,
     "params": {
       "Owner": "%Vote.gov% 한국어 ",
       "language_direction": "ltr",
@@ -107,7 +107,7 @@
     "contentDir": "content/km",
     "title": "ការចុះឈ្មោះអ្នកបោះឆ្នោត",
     "languageName": "ភាសាខ្មែរ",
-    "weight": 7,
+    "weight": 8,
     "params": {
       "Owner": "%Vote.gov% ជាភាសាខ្មែរ",
       "language_direction": "ltr",
@@ -128,7 +128,7 @@
     "contentDir": "content/ru",
     "title": "Регистрация Избирателей",
     "languageName": "Русский",
-    "weight": 10,
+    "weight": 11,
     "params" : {
       "Owner": "%Vote.gov% in Русский",
       "language_direction": "ltr",
@@ -149,7 +149,7 @@
     "contentDir": "content/tl",
     "title": "Pagpaparehistro ng Botante",
     "languageName": "Tagalog",
-    "weight": 11,
+    "weight": 12,
     "params": {
       "Owner": "%Vote.gov% sa Tagalog",
       "language_direction": "ltr",
@@ -170,7 +170,7 @@
     "contentDir": "content/vi",
     "title": "Đăng kí bầu cử",
     "languageName": "Tiếng Việt",
-    "weight": 12,
+    "weight": 13,
     "params": {
       "Owner": "%Vote.gov% bằng Tiếng Việt",
       "language_direction": "ltr",
@@ -233,7 +233,7 @@
     "contentDir": "content/ypk",
     "title": "Nakmikimun Ilatelleq",
     "languageName": "Yup'ik-Akuzipik",
-    "weight": 13,
+    "weight": 14,
     "params": {
       "Owner": "%Vote.gov% Akuzipigestun",
       "language_direction": "ltr",
@@ -254,7 +254,7 @@
     "contentDir": "content/nv",
     "title": "Check Voter Registration Deadlines and Laws in Your State in Diné (Navajo)",
     "languageName": "Diné",
-    "weight": 9,
+    "weight": 10,
     "params": {
       "Owner": "%Vote.gov% Diné",
       "language_direction": "ltr",
@@ -270,6 +270,27 @@
       "english_languageName": "Navajo",
       "translation_outdated": true,
       "ext_link_title": "External link opens new window"
+    }
+  },
+  "ht": {
+    "contentDir": "content/ht",
+    "title": "Enskripsyon Votè",
+    "languageName": "Kreyòl Ayisyen",
+    "weight": 6,
+    "params": {
+      "Owner": "%Vote.gov% an Kreyòl Ayisyen",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/ht",
+      "register_path": "register",
+      "go_back": "Retounen",
+      "skip_text": "Ale nan kontni prensipal la",
+      "meta__title": "Enskri pou vote",
+      "meta__description": "Jwenn tout opsyon pou enskri pou vote nan Eta pa w.",
+      "english_only": "(ann Anglè)",
+      "last_updated": "Dènye mizajou: ",
+      "select_language": "Chwazi lang",
+      "english_languageName": "Haitian Creole",
+      "ext_link_title": "Lyen ekstèn lan ap louvri yon nouvo fenèt"
     }
   }
 }
