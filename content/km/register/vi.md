@@ -10,6 +10,5 @@ hp_link = "https://www.vivote.gov/voters/register-to-vote/"
 more_info_link = "https://www.vivote.gov/voters/register-to-vote/"
 confirm_registration_link = "https://www.vivote.gov/voters/voter-lookup/"
 default_ip_deadline = "30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
-default_mail_postmarked_deadline = "ត្រូវតែបានបោះតែមប្រៃសណីយ៍ 30 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
 
 +++

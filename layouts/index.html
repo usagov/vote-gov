@@ -11,19 +11,19 @@
 
   {{ partial "header.html" . }}
 
-  <div class="page-vote-main" id="main" role="main">
+  <main class="page-vote-main" id="main">
 
     <div class="bg-blue css-arrow">
       <div class="grid-container">
         <div class="grid-row grid-gap">
           <div class="tablet:grid-col-4">
-            <a class="site-logo" data-test="vote-logo" href="{{ .Site.Home.RelPermalink }}" aria-label="Vote.gov">
+            <div class="site-logo" data-test="vote-logo" aria-label="Vote.gov">
               <div class="logo-text">{{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</div>
-              <div id="SiteLogo">{{ partial "ballot_box-blue.svg" }}</div>
-            </a>
+              <div id="SiteLogo">{{ partial "ballot_box-blue.html" . }}</div>
+            </div>
           </div>
           <div id="skip-target" class="tablet:grid-col-8 right-shift">
-            <section class="register align-bottom">
+            <section class="register align-bottom" role="region" aria-label="{{ $translation.homepage.header }}">
               <header>
                 <h1 class="main-heading" data-test="main-header">{{ $translation.homepage.header | safeHTML }}</h1>
               </header>
@@ -60,12 +60,10 @@
 
           </div>
           <div class="tablet:grid-col-8 right-shift">
-
-            <section>
+   
               {{ partial "accordion-group.html" . }}
-            </section>
 
-            <section class="page-section registered" id="already-registered">
+            <section class="page-section registered" aria-label="{{ $translation.homepage.registered__header }}">
               <header>
                 <h2 class="content-heading">{{ $translation.homepage.registered__header }}</h2>
               </header>
@@ -77,18 +75,18 @@
                 <ul class="registered-resources">
                   {{ if $translation.homepage.registered_links__absentee_url }}
                   <li><a
-                      href="{{ $translation.homepage.registered_links__absentee_url }}">{{ $translation.homepage.registered_links__absentee }}</a>
-                  </li>
-                  {{ end }}
-                  <li><a
-                      href="{{ $translation.homepage.registered_links__electionday_url }}">{{ $translation.homepage.registered_links__electionday }}</a>
-                  </li>
-                  <li><a
-                      href="{{ $translation.homepage.registered_links__voterid_url }}">{{ $translation.homepage.registered_links__voterid }}</a>
-                  </li>
-                  <li><a
-                      href="{{ $translation.homepage.registered_links__process_url }}">{{ $translation.homepage.registered_links__process }}</a>
-                  </li>
+                    href="{{ $translation.homepage.registered_links__absentee_url }}">{{ $translation.homepage.registered_links__absentee }}</a>
+                </li>
+                {{ end }}
+                <li><a
+                    href="{{ $translation.homepage.registered_links__electionday_url }}">{{ $translation.homepage.registered_links__electionday }}</a>
+                </li>
+                <li><a
+                    href="{{ $translation.homepage.registered_links__voterid_url }}">{{ $translation.homepage.registered_links__voterid }}</a>
+                </li>
+                <li><a
+                    href="{{ $translation.homepage.registered_links__process_url }}">{{ $translation.homepage.registered_links__process }}</a>
+                </li>
                 </ul>
               </div>
             </section>
@@ -96,7 +94,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
 
   <!-- Footer BEGIN -->
   {{ partial "footer.html" . }}

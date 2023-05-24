@@ -1,27 +1,29 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-<footer>
-  <div class="bg-white">
+<footer role="contentinfo">
+  <section class="bg-white" title="{{ $translation.footer.section_sign_up }}" aria-label="{{ $translation.footer.section_sign_up }}">
     <div class="grid-container">
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-4"></div>
         <div class="tablet:grid-col-8 right-shift">
-          <form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
-            <h2 class="text-blue font-size-medium">{{ replace $translation.footer.subscribe_email "%USAGov%" "USAGov"
-              }}</h2>
+            <form class="form-signup" action="{{ $translation.footer.subscribe_email_link_url }}" method="get">
+              <h2 class="text-blue font-size-medium">{{ replace $translation.footer.subscribe_email "%USAGov%" "USAGov"
+                }}</h2>
 
-            <label class="max-width-input text-grey" for="email-2"
-                   id="emailsub">{{ $translation.footer.your_email_address }}</label>
-            <input id="email-2" name="email" type="email" class="usa-input max-width-input">
+              <label class="max-width-input text-grey" for="email-2"
+                    id="emailsub">{{ $translation.footer.your_email_address }}</label>
+              <input id="email-2" name="email" type="email" class="usa-input max-width-input">
 
-            <button class="usa-button max-width-input" id="user-submit" type="submit">
-              {{ $translation.footer.sign_up }}
-            </button>
-          </form>
+              <button class="usa-button max-width-input" id="user-submit" type="submit">
+                {{ $translation.footer.sign_up }}
+              </button>
+            </form>            
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  {{ partial "partials/contact-identifier.html" . }}
-
+    {{ partial "partials/contact-identifier.html" . }}
+    
+    <!-- hidden page variable to use title translations in ext-links.js -->
+    <div id="ext-link-title" data-title="{{ .Site.Params.ext_link_title }}" />
 </footer>

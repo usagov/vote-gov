@@ -1,6 +1,7 @@
 {
   "defaultContentLanguage": "en",
   "enableGitInfo": "true",
+  "enableRobotsTXT": true,
   "publishDir": "tmp/public",
   "title": "Voter Registration",
   "baseURL": "",

@@ -9,7 +9,8 @@
   "eac_link": "https://www.eac.gov/",
   "eac_text": "ilalkiilluteng",
   "eac_text__1": "-nkutgun",
-  "eac_logo_alt_text": "Ilalkiilluteng %US Election Assistance Commission%-nkutgun",
+  "eac_logo_alt_text": "US-em Kestistengita Kayutangita Qepghaghtengita igaa kelgutkanga ilakullghiit Vote.gov-enkunun",
+  "vote_logo_alt_text": "Teruwiiq nakmikellghem salngaganeng igaq apeghiiqaq kananghtekanga kelgutilghii nakmikilleghmeng. ",
   "privacy_policy": "Aksaqegkam igaa (Laluramkestun)",
   "privacy_policy_link_url": "https://www.usa.gov/policies",
   "twitter_link": "https://twitter.com/votegov",
@@ -29,5 +30,8 @@
   "identifier_link_7": "Aksaqegkam apellgha (Laluramkestun)",
   "identifier_more_info_aria": "Kavemem ungipiillu salqumsugillu",
   "identifier_more_info": "Ivaghiiqsin U.S.-em kavemengan sameng pillghillu qepghaghvigillu? %link%",
-  "identifier_more_info__1": "Takugu USA.gov"
+  "identifier_more_info__1": "Takugu USA.gov",
+  "gsa_logo_alt": "GSA logo",
+  "section_sign_up": "Email sign-up",
+  "section_contact": "Contact"
 }

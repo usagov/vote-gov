@@ -8,7 +8,8 @@
   "usagov_logo_alt_text": "%USA.gov% 徽標",
   "eac_link": "https://www.eac.gov/",
   "eac_text": "與合作 ",
-  "eac_logo_alt_text": "與 %U.S. Election Assistance Commission%合作 ",
+  "eac_logo_alt_text": "美國選舉援助委員會標誌，顯示與 Vote.gov 的合作關係",
+  "vote_logo_alt_text": "插有已勾選選票的投票箱圖示，表示投票行為",
   "privacy_policy": "隱私政策（英文）",
   "privacy_policy_link_url": "https://www.usa.gov/policies",
   "twitter_link": "https://twitter.com/votegov",
@@ -28,5 +29,8 @@
   "identifier_link_7": "隱私政策（英文）",
   "identifier_more_info_aria": "政府資訊和服務",
   "identifier_more_info": "尋找美國政府資訊與服務？ %link%",
-  "identifier_more_info__1": "訪問 USA.gov"
+  "identifier_more_info__1": "訪問 USA.gov",
+  "gsa_logo_alt": "GSA 標誌",
+  "section_sign_up": "電郵註冊",
+  "section_contact": "聯繫"
 }

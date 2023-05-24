@@ -16,7 +16,8 @@
       "english_only": "(ইংরেজীতে)",
       "last_updated": "সর্বশেষ সংষ্করণ",
       "select_language": "ভাষা নির্বাচন করুন",
-      "english_languageName": "Bengali"
+      "english_languageName": "Bengali",
+      "ext_link_title": "বাহ্যিক লিঙ্ক নতুন উইন্ডো খোলে"
     }
   },
   "en": {
@@ -35,7 +36,8 @@
       "english_only": "",
       "last_updated": "Last Updated: ",
       "select_language": "Select Language",
-      "english_languageName": ""
+      "english_languageName": "",
+      "ext_link_title": "External link opens new window"
     }
   },
   "es": {
@@ -55,7 +57,8 @@
       "english_only": "(en inglés)",
       "last_updated": "Última actualización: ",
       "select_language": "Seleccione el idioma",
-      "english_languageName": "Spanish"
+      "english_languageName": "Spanish",
+      "ext_link_title": "El enlace externo se abre en una nueva ventana"
     }
   },
   "hi": {
@@ -75,7 +78,8 @@
       "english_only": "(अंग्रेज़ी में)",
       "last_updated": "नवीनतम अपडेट:",
       "select_language": "भाषा चुनें",
-      "english_languageName": "Hindi"
+      "english_languageName": "Hindi",
+      "ext_link_title": "बाहरी लिंक नई विंडो खोलता है"
     }
   },
   "ko": {
@@ -95,7 +99,8 @@
       "english_only": "(영어로 제공)",
       "last_updated": "마지막 업데이트일자:",
       "select_language": "언어 선택",
-      "english_languageName": "Korean"
+      "english_languageName": "Korean",
+      "ext_link_title": "외부 링크 사이트는 새 창에서 연결됩니다"
     }
   },
   "km": {
@@ -115,7 +120,8 @@
       "english_only": "(ជាភាសាអង់គ្លេស)",
       "last_updated": "បានធ្វើបច្ចុប្បន្នភាពលើកចុងក្រោយ៖",
       "select_language": "ជ្រើសរើសភាសា %dropdown-list%",
-      "english_languageName": "Khmer"
+      "english_languageName": "Khmer",
+      "ext_link_title": "តំណខាងក្រៅបើកផ្ទាំងបង្ឣួចថ្មី"
     }
   },
   "ru": {
@@ -135,7 +141,8 @@
       "english_only": "(по-английски)",
       "last_updated": "Последнее обновление:",
       "select_language": "Выберите Язык %dropdown-list%",
-      "english_languageName": "Russian"
+      "english_languageName": "Russian",
+      "ext_link_title": "External link opens new window"
     }
   },
   "tl": {
@@ -155,7 +162,8 @@
       "english_only": "(sa Ingles)",
       "last_updated": "Huling Na-update:",
       "select_language": "Pumili ng wika",
-      "english_languageName": ""
+      "english_languageName": "",
+      "ext_link_title": "Ang panlabas na link ay magbubukas ng bagong window"
     }
   },
   "vi": {
@@ -175,7 +183,8 @@
       "english_only": "(bằng Tiếng Anh)",
       "last_updated": "Cập nhật lần cuối:",
       "select_language": "Lựa chọn ngôn ngữ %dropdown-list%",
-      "english_languageName": "Vietnamese"
+      "english_languageName": "Vietnamese",
+      "ext_link_title": "Liên kết bên ngoài mở cửa sổ mới"
     }
   },
   "zh": {
@@ -195,14 +204,15 @@
       "english_only": "(英語)",
       "last_updated": "最近更新時間：",
       "select_language": "選擇語言 %dropdown-list%",
-      "english_languageName": "Chinese - Traditional"
+      "english_languageName": "Chinese - Traditional",
+      "ext_link_title": "外部鏈接打開新窗口"
     }
   },
   "zh-hans": {
     "contentDir": "content/zh-hans",
     "title": "选民登记",
     "languageName": "中文",
-    "weight":4,
+    "weight": 4,
     "params": {
       "Owner": "%Vote.gov% 中文",
       "language_direction": "ltr",
@@ -215,13 +225,14 @@
       "english_only": "(英语)",
       "last_updated": "最近更新时间：",
       "select_language": "选择语言",
-      "english_languageName": "Chinese - Simplified"
+      "english_languageName": "Chinese - Simplified",
+      "ext_link_title": "外部链接打开新窗口"
     }
   },
   "ypk": {
     "contentDir": "content/ypk",
     "title": "Nakmikimun Ilatelleq",
-    "languageName": "Yup'ik",
+    "languageName": "Yup'ik-Akuzipik",
     "weight": 13,
     "params": {
       "Owner": "%Vote.gov% Akuzipigestun",
@@ -235,7 +246,8 @@
       "english_only": "(Laluramkestun)",
       "last_updated": "Kingulighmi Nutaghtekat:",
       "select_language": "Ulu nakmiighhu %dropdown-list%",
-      "english_languageName": ""
+      "english_languageName": "",
+      "ext_link_title": "External link opens new window"
     }
   },
   "nv": {
@@ -256,7 +268,8 @@
       "last_updated": "Ak44'di n1zk'33z: ",
       "select_language": "Saad choid77['88[7g77",
       "english_languageName": "Navajo",
-      "translation_outdated": true
+      "translation_outdated": true,
+      "ext_link_title": "External link opens new window"
     }
   }
 }

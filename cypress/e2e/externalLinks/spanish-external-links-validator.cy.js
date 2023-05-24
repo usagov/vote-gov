@@ -15,6 +15,7 @@ const excludedlinks = [
   'https://vote.sos.ri.gov/VoterSpanish/RegisterToVote?ref=voteusa_es',
   'https://vote.sos.ri.gov/HomeSpanish/UpdateVoterRecord?ActiveFlag=0&?ref=voteusa_es',
   'https://my.arizona.vote/WhereToVote.aspx?s=individual&?ref=voteusa_es',
+  "https://sosmt.gov/elections/vote/?ref=voteusa_es",
     // sc links
   'https://vrems.scvotes.sc.gov/Voter/Login?ref=voteusa_es',
   'https://scvotes.gov/voters/register-to-vote/?ref=voteusa_es',
@@ -51,7 +52,7 @@ describe("Spanish External Link Validator Test", () => {
         cy.visit({
           url: baseURL + page.route,
         });
-        cy.get("div[role='main'] a[href^='https://']").each(link => {
+        cy.get("main a[href^='https://']").each(link => {
           if (excludedlinks.indexOf(link.prop('href')) == -1) {
             cy.request({
               url: link.prop('href'),
