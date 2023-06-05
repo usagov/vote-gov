@@ -7,13 +7,16 @@
       {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
       <li><a hreflang="{{ $translation.Language.Lang }}" href="{{ .Site.Home.RelPermalink }}">Home</a></li>
       {{ range where .Site.RegularPages "Section" "!=" .Site.Params.register_path }}
-      <li><a hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ if ne .Title "Sitemap" }}
+          <li><a hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
       {{ end }}
   </ul> 
 
   <h2>Register to Vote - by State and Territory</h2>
   <ul class="register-nav usa-list">
-    {{ range where .Site.Pages "Section" .Site.Params.register_path}}
+    {{ $states := where .Site.Pages "Section" .Site.Params.register_path }}
+    {{ range ($states.ByParam "state_name") }}
         <li><a hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
           {{ .Params.state_name }}
         </a></li>
