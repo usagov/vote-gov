@@ -16,7 +16,8 @@
       "english_only": "(ইংরেজীতে)",
       "last_updated": "সর্বশেষ সংষ্করণ",
       "select_language": "ভাষা নির্বাচন করুন",
-      "english_languageName": "Bengali"
+      "english_languageName": "Bengali",
+      "ext_link_title": "বাহ্যিক লিঙ্ক নতুন উইন্ডো খোলে"
     }
   },
   "en": {
@@ -35,7 +36,8 @@
       "english_only": "",
       "last_updated": "Last Updated: ",
       "select_language": "Select Language",
-      "english_languageName": ""
+      "english_languageName": "",
+      "ext_link_title": "External link opens new window"
     }
   },
   "es": {
@@ -55,14 +57,15 @@
       "english_only": "(en inglés)",
       "last_updated": "Última actualización: ",
       "select_language": "Seleccione el idioma",
-      "english_languageName": "Spanish"
+      "english_languageName": "Spanish",
+      "ext_link_title": "El enlace externo se abre en una nueva ventana"
     }
   },
   "hi": {
     "contentDir": "content/hi",
     "title": "मतदाता पंजीकरण ",
     "languageName": "हिन्दी ",
-    "weight": 6,
+    "weight": 7,
     "params": {
       "Owner": "%Vote.gov% हिन्दी में",
       "language_direction": "ltr",
@@ -75,14 +78,15 @@
       "english_only": "(अंग्रेज़ी में)",
       "last_updated": "नवीनतम अपडेट:",
       "select_language": "भाषा चुनें",
-      "english_languageName": "Hindi"
+      "english_languageName": "Hindi",
+      "ext_link_title": "बाहरी लिंक नई विंडो खोलता है"
     }
   },
   "ko": {
     "contentDir": "content/ko",
     "title": "유권자 등록 ",
     "languageName": "한국어",
-    "weight": 8,
+    "weight": 9,
     "params": {
       "Owner": "%Vote.gov% 한국어 ",
       "language_direction": "ltr",
@@ -95,14 +99,15 @@
       "english_only": "(영어로 제공)",
       "last_updated": "마지막 업데이트일자:",
       "select_language": "언어 선택",
-      "english_languageName": "Korean"
+      "english_languageName": "Korean",
+      "ext_link_title": "외부 링크 사이트는 새 창에서 연결됩니다"
     }
   },
   "km": {
     "contentDir": "content/km",
     "title": "ការចុះឈ្មោះអ្នកបោះឆ្នោត",
     "languageName": "ភាសាខ្មែរ",
-    "weight": 7,
+    "weight": 8,
     "params": {
       "Owner": "%Vote.gov% ជាភាសាខ្មែរ",
       "language_direction": "ltr",
@@ -115,34 +120,36 @@
       "english_only": "(ជាភាសាអង់គ្លេស)",
       "last_updated": "បានធ្វើបច្ចុប្បន្នភាពលើកចុងក្រោយ៖",
       "select_language": "ជ្រើសរើសភាសា %dropdown-list%",
-      "english_languageName": "Khmer"
+      "english_languageName": "Khmer",
+      "ext_link_title": "តំណខាងក្រៅបើកផ្ទាំងបង្ឣួចថ្មី"
     }
   },
-  "vi": {
-    "contentDir": "content/vi",
-    "title": "Đăng kí bầu cử",
-    "languageName": "Tiếng Việt",
+  "ru": {
+    "contentDir": "content/ru",
+    "title": "Регистрация Избирателей",
+    "languageName": "Русский",
     "weight": 12,
-    "params": {
-      "Owner": "%Vote.gov% bằng Tiếng Việt",
+    "params" : {
+      "Owner": "%Vote.gov% in Русский",
       "language_direction": "ltr",
-      "publishDir": "tmp/public/vi",
+      "publishDir": "tmp/public/ru",
       "register_path": "register",
-      "go_back": "Quay lại",
-      "skip_text": "Bỏ qua để đi thẳng vào nội dung chính",
-      "meta__title": "Đăng kí bỏ phiếu bầu",
-      "meta__description": "Tìm những lựa chọn đăng kí bầu cử trong tiểu bang của bạn",
-      "english_only": "(bằng Tiếng Anh)",
-      "last_updated": "Cập nhật lần cuối:",
-      "select_language": "Lựa chọn ngôn ngữ %dropdown-list%",
-      "english_languageName": "Vietnamese"
+      "go_back": "Вернитесь назад",
+      "skip_text": "Перейдите к основному содержанию",
+      "meta__title": "Зарегистрируйтесь для голосования",
+      "meta__description": "Найдите способы регистрации в вашем штате",
+      "english_only": "(по-английски)",
+      "last_updated": "Последнее обновление:",
+      "select_language": "Выберите Язык %dropdown-list%",
+      "english_languageName": "Russian",
+      "ext_link_title": "Внешняя ссылка открывает новое окно"
     }
   },
   "tl": {
     "contentDir": "content/tl",
     "title": "Pagpaparehistro ng Botante",
     "languageName": "Tagalog",
-    "weight": 11,
+    "weight": 13,
     "params": {
       "Owner": "%Vote.gov% sa Tagalog",
       "language_direction": "ltr",
@@ -155,7 +162,29 @@
       "english_only": "(sa Ingles)",
       "last_updated": "Huling Na-update:",
       "select_language": "Pumili ng wika",
-      "english_languageName": ""
+      "english_languageName": "",
+      "ext_link_title": "Ang panlabas na link ay magbubukas ng bagong window"
+    }
+  },
+  "vi": {
+    "contentDir": "content/vi",
+    "title": "Đăng kí bầu cử",
+    "languageName": "Tiếng Việt",
+    "weight": 14,
+    "params": {
+      "Owner": "%Vote.gov% bằng Tiếng Việt",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/vi",
+      "register_path": "register",
+      "go_back": "Quay lại",
+      "skip_text": "Bỏ qua để đi thẳng vào nội dung chính",
+      "meta__title": "Đăng kí bỏ phiếu bầu",
+      "meta__description": "Tìm những lựa chọn đăng kí bầu cử trong tiểu bang của bạn",
+      "english_only": "(bằng Tiếng Anh)",
+      "last_updated": "Cập nhật lần cuối:",
+      "select_language": "Lựa chọn ngôn ngữ %dropdown-list%",
+      "english_languageName": "Vietnamese",
+      "ext_link_title": "Liên kết bên ngoài mở cửa sổ mới"
     }
   },
   "zh": {
@@ -175,14 +204,15 @@
       "english_only": "(英語)",
       "last_updated": "最近更新時間：",
       "select_language": "選擇語言 %dropdown-list%",
-      "english_languageName": "Chinese - Traditional"
+      "english_languageName": "Chinese - Traditional",
+      "ext_link_title": "外部鏈接打開新窗口"
     }
   },
   "zh-hans": {
     "contentDir": "content/zh-hans",
     "title": "选民登记",
     "languageName": "中文",
-    "weight":4,
+    "weight": 4,
     "params": {
       "Owner": "%Vote.gov% 中文",
       "language_direction": "ltr",
@@ -195,14 +225,15 @@
       "english_only": "(英语)",
       "last_updated": "最近更新时间：",
       "select_language": "选择语言",
-      "english_languageName": "Chinese - Simplified"
+      "english_languageName": "Chinese - Simplified",
+      "ext_link_title": "外部链接打开新窗口"
     }
   },
   "ypk": {
     "contentDir": "content/ypk",
     "title": "Nakmikimun Ilatelleq",
     "languageName": "Yup'ik-Akuzipik",
-    "weight": 13,
+    "weight": 15,
     "params": {
       "Owner": "%Vote.gov% Akuzipigestun",
       "language_direction": "ltr",
@@ -215,14 +246,15 @@
       "english_only": "(Laluramkestun)",
       "last_updated": "Kingulighmi Nutaghtekat:",
       "select_language": "Ulu nakmiighhu %dropdown-list%",
-      "english_languageName": ""
+      "english_languageName": "",
+      "ext_link_title": "External link opens new window"
     }
   },
   "nv": {
     "contentDir": "content/nv",
     "title": "Check Voter Registration Deadlines and Laws in Your State in Diné (Navajo)",
     "languageName": "Diné",
-    "weight": 9,
+    "weight": 10,
     "params": {
       "Owner": "%Vote.gov% Diné",
       "language_direction": "ltr",
@@ -236,14 +268,36 @@
       "last_updated": "Ak44'di n1zk'33z: ",
       "select_language": "Saad choid77['88[7g77",
       "english_languageName": "Navajo",
-      "translation_outdated": true
+      "translation_outdated": true,
+      "ext_link_title": "External link opens new window"
+    }
+  },
+  "ht": {
+    "contentDir": "content/ht",
+    "title": "Enskripsyon Votè",
+    "languageName": "Kreyòl Ayisyen",
+    "weight": 6,
+    "params": {
+      "Owner": "%Vote.gov% an Kreyòl Ayisyen",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/ht",
+      "register_path": "register",
+      "go_back": "Retounen",
+      "skip_text": "Ale nan kontni prensipal la",
+      "meta__title": "Enskri pou vote",
+      "meta__description": "Jwenn tout opsyon pou enskri pou vote nan Eta pa w.",
+      "english_only": "(ann Anglè)",
+      "last_updated": "Dènye mizajou: ",
+      "select_language": "Chwazi lang",
+      "english_languageName": "Haitian Creole",
+      "ext_link_title": "Lyen ekstèn lan ap louvri yon nouvo fenèt"
     }
   },
   "pt": {
     "contentDir": "content/pt",
     "title": "Registro de Eleitores",
     "languageName": "Português",
-    "weight": 10,
+    "weight": 11,
     "params": {
       "Owner": "%Vote.gov% em Português",
       "language_direction": "ltr",

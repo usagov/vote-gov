@@ -24,5 +24,6 @@
   "banner__guidance_https_heading": "Los sitios web seguros .gov usan HTTPS",
   "banner__guidance_https_text": "Un candado %lock_icon% o %https% significa que usted se conectó de forma segura a un sitio web .gov. Comparta información sensible sólo en sitios web oficiales y seguros.",
   "search_placeholder": "Busque en Vote.gov",
-  "search_affiliate_translated": true
+  "search_affiliate_translated": true,
+  "section_banner": "Sitio web oficial del gobierno"
 }

@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-// this test will run out of the pipeline and will be a manaul test each sprint 
+// this test will run out of the pipeline and will be a manual test each sprint 
 
 const english = require("../../fixtures/excluded-links-english.json");
 
