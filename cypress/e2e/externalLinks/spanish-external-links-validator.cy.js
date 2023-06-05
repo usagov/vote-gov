@@ -19,7 +19,9 @@ const excludedlinks = [
     // sc links
   'https://vrems.scvotes.sc.gov/Voter/Login?ref=voteusa_es',
   'https://scvotes.gov/voters/register-to-vote/?ref=voteusa_es',
-  'https://info.scvotes.sc.gov/eng/ovr/start.aspx?ref=voteusa_es'
+  'https://info.scvotes.sc.gov/eng/ovr/start.aspx?ref=voteusa_es',
+  'https://www.vivote.gov/voters/register-to-vote/?ref=voteusa_es',
+  'https://www.vivote.gov/voters/voter-lookup/?ref=voteusa_es'
 ];
 
 describe("Spanish External Link Validator Test", () => {

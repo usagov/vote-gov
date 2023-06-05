@@ -21,6 +21,8 @@ const excludedlinks = [
   'https://vrems.scvotes.sc.gov/Voter/Login?ref=voteusa_en',
   'https://scvotes.gov/voters/register-to-vote/?ref=voteusa_en',
   'https://info.scvotes.sc.gov/eng/ovr/start.aspx?ref=voteusa_en',
+  'https://www.vivote.gov/voters/register-to-vote/?ref=voteusa_en',
+  'https://www.vivote.gov/voters/voter-lookup/?ref=voteusa_en'
 ];
 
 describe("External Link Validator Test", () => {
