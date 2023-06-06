@@ -33,6 +33,7 @@ $theme-show-notifications: false,
 @forward 'pages/homepage';
 @forward 'pages/state-page';
 @forward 'pages/basic-page';
+@forward 'pages/sitemap';
 
 @forward 'global/colors';
 @forward 'global/typography';
