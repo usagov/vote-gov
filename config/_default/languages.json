@@ -128,7 +128,7 @@
     "contentDir": "content/ru",
     "title": "Регистрация Избирателей",
     "languageName": "Русский",
-    "weight": 11,
+    "weight": 12,
     "params" : {
       "Owner": "%Vote.gov% in Русский",
       "language_direction": "ltr",
@@ -149,7 +149,7 @@
     "contentDir": "content/tl",
     "title": "Pagpaparehistro ng Botante",
     "languageName": "Tagalog",
-    "weight": 12,
+    "weight": 13,
     "params": {
       "Owner": "%Vote.gov% sa Tagalog",
       "language_direction": "ltr",
@@ -170,7 +170,7 @@
     "contentDir": "content/vi",
     "title": "Đăng kí bầu cử",
     "languageName": "Tiếng Việt",
-    "weight": 13,
+    "weight": 14,
     "params": {
       "Owner": "%Vote.gov% bằng Tiếng Việt",
       "language_direction": "ltr",
@@ -233,7 +233,7 @@
     "contentDir": "content/ypk",
     "title": "Nakmikimun Ilatelleq",
     "languageName": "Yup'ik-Akuzipik",
-    "weight": 14,
+    "weight": 15,
     "params": {
       "Owner": "%Vote.gov% Akuzipigestun",
       "language_direction": "ltr",
@@ -291,6 +291,26 @@
       "select_language": "Chwazi lang",
       "english_languageName": "Haitian Creole",
       "ext_link_title": "Lyen ekstèn lan ap louvri yon nouvo fenèt"
+    }
+  },
+  "pt": {
+    "contentDir": "content/pt",
+    "title": "Registro de Eleitores",
+    "languageName": "Português",
+    "weight": 11,
+    "params": {
+      "Owner": "%Vote.gov% em Português",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/pt",
+      "register_path": "register",
+      "go_back": "Voltar",
+      "skip_text": "Saltar para o conteúdo principal",
+      "meta__title": "Registre-se para votar",
+      "meta__description": "Encontre as opções de registro de eleitores no seu estado.",
+      "english_only": "(em inglês)",
+      "last_updated": "Última Atualização: ",
+      "select_language": "Selecionar a língua",
+      "english_languageName": "Portuguese"
     }
   }
 }

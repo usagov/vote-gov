@@ -1,0 +1,11 @@
+{
+  "error_main_heading":"Opa! Erro de 404",
+  "error_intro": "Página Não Encontrada",
+  "error_msg": "Não podemos encontrar a página que pesquisa. Pode ter sido removida, que o seu nome mudasse, ou está temporariamente indisponível.",
+  "error_msg1": "Se você digitou a página URL, verifique a ortografia. ",
+  "error_msg2": "Acesse nossa %link% e tente novamente.",
+  "error_msg2_link": "página principal",
+  "error_msg3": "Visite o seu %link% para obter orientação de votação em todo o estado.",
+  "error_msg3_link": "site do escritório eleitoral do estado (em inglês)",
+  "error_usa_link": "https://www.usa.gov/election-office"
+}
