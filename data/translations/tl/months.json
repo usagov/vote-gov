@@ -1,14 +1,14 @@
 {
-  "1": "Enero",
-  "2": "Pebrero",
-  "3": "Marso",
-  "4": "April",
-  "5": "Mayo",
-  "6": "Hunyo",
-  "7": "Hulyo",
-  "8": "Agosto",
-  "9": "Septiyembre",
-  "10": "Oktubre",
-  "11": "Nobyembre",
-  "12": "Disyembre"
+  "january": "Enero",
+  "february": "Pebrero",
+  "march": "Marso",
+  "april": "April",
+  "may": "Mayo",
+  "june": "Hunyo",
+  "july": "Hulyo",
+  "august": "Agosto",
+  "september": "Septiyembre",
+  "october": "Oktubre",
+  "november": "Nobyembre",
+  "december": "Disyembre"
 }
