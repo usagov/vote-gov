@@ -2,10 +2,10 @@
 {{ $envURL := cond (eq $envURL nil) .Site.Params.envURL.fed $envURL }}
 
 <div class="sitemap">
-  <h2>Main Navigation</h2>
+  <h2>{{ .Params.main_nav_header }}</h2>
   <ul class="main-nav usa-list">
       {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
-      <li><a hreflang="{{ $translation.Language.Lang }}" href="{{ .Site.Home.RelPermalink }}">Home</a></li>
+      <li><a hreflang="{{ $translation.Language.Lang }}" href="{{ .Site.Home.RelPermalink }}">{{ .Params.home_link_title }}</a></li>
       {{ range where .Site.RegularPages "Section" "!=" .Site.Params.register_path }}
         {{ if ne .Title "Sitemap" }}
           <li><a hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
@@ -13,7 +13,7 @@
       {{ end }}
   </ul> 
 
-  <h2>Register to Vote - by State and Territory</h2>
+  <h2>{{ .Params.state_header }}</h2>
   <ul class="register-nav usa-list">
     {{ $states := where .Site.Pages "Section" .Site.Params.register_path }}
     {{ range ($states.ByParam "state_name") }}
