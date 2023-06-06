@@ -61,11 +61,31 @@
       "ext_link_title": "El enlace externo se abre en una nueva ventana"
     }
   },
+  "ar": {
+    "contentDir": "content/ar",
+    "title": "تسجيل الناخبين",
+    "languageName": "اسم اللغة",
+    "weight": 3,
+    "params": {
+      "Owner": "في  اسم اللغة %Vote.gov%",
+      "language_direction": "rtl",
+      "publishDir": "tmp/public/ar",
+      "register_path": "register",
+      "go_back": "الرجوع للخلف",
+      "skip_text": "تخطي إلى المحتوى الرئيسي",
+      "meta__title": "سجل للتصويت",
+      "meta__description": "اعثر على خيارات تسجيل الناخبين في ولايتك.",
+      "english_only": "(باللغة الإنجليزية)",
+      "last_updated": "آخر تحديث:",
+      "select_language": " %dropdown-list% اختر اللغة",
+      "english_languageName": "Arabic"
+    }
+  },
   "hi": {
     "contentDir": "content/hi",
     "title": "मतदाता पंजीकरण ",
     "languageName": "हिन्दी ",
-    "weight": 7,
+    "weight": 8,
     "params": {
       "Owner": "%Vote.gov% हिन्दी में",
       "language_direction": "ltr",
@@ -86,7 +106,7 @@
     "contentDir": "content/ko",
     "title": "유권자 등록 ",
     "languageName": "한국어",
-    "weight": 9,
+    "weight": 10,
     "params": {
       "Owner": "%Vote.gov% 한국어 ",
       "language_direction": "ltr",
@@ -107,7 +127,7 @@
     "contentDir": "content/km",
     "title": "ការចុះឈ្មោះអ្នកបោះឆ្នោត",
     "languageName": "ភាសាខ្មែរ",
-    "weight": 8,
+    "weight": 9,
     "params": {
       "Owner": "%Vote.gov% ជាភាសាខ្មែរ",
       "language_direction": "ltr",
@@ -124,32 +144,32 @@
       "ext_link_title": "តំណខាងក្រៅបើកផ្ទាំងបង្ឣួចថ្មី"
     }
   },
-  "vi": {
-    "contentDir": "content/vi",
-    "title": "Đăng kí bầu cử",
-    "languageName": "Tiếng Việt",
-    "weight": 12,
-    "params": {
-      "Owner": "%Vote.gov% bằng Tiếng Việt",
+  "ru": {
+    "contentDir": "content/ru",
+    "title": "Регистрация Избирателей",
+    "languageName": "Русский",
+    "weight": 13,
+    "params" : {
+      "Owner": "%Vote.gov% in Русский",
       "language_direction": "ltr",
-      "publishDir": "tmp/public/vi",
+      "publishDir": "tmp/public/ru",
       "register_path": "register",
-      "go_back": "Quay lại",
-      "skip_text": "Bỏ qua để đi thẳng vào nội dung chính",
-      "meta__title": "Đăng kí bỏ phiếu bầu",
-      "meta__description": "Tìm những lựa chọn đăng kí bầu cử trong tiểu bang của bạn",
-      "english_only": "(bằng Tiếng Anh)",
-      "last_updated": "Cập nhật lần cuối:",
-      "select_language": "Lựa chọn ngôn ngữ %dropdown-list%",
-      "english_languageName": "Vietnamese",
-      "ext_link_title": "Liên kết bên ngoài mở cửa sổ mới"
+      "go_back": "Вернитесь назад",
+      "skip_text": "Перейдите к основному содержанию",
+      "meta__title": "Зарегистрируйтесь для голосования",
+      "meta__description": "Найдите способы регистрации в вашем штате",
+      "english_only": "(по-английски)",
+      "last_updated": "Последнее обновление:",
+      "select_language": "Выберите Язык %dropdown-list%",
+      "english_languageName": "Russian",
+      "ext_link_title": "Внешняя ссылка открывает новое окно"
     }
   },
   "tl": {
     "contentDir": "content/tl",
     "title": "Pagpaparehistro ng Botante",
     "languageName": "Tagalog",
-    "weight": 11,
+    "weight": 14,
     "params": {
       "Owner": "%Vote.gov% sa Tagalog",
       "language_direction": "ltr",
@@ -164,6 +184,27 @@
       "select_language": "Pumili ng wika",
       "english_languageName": "",
       "ext_link_title": "Ang panlabas na link ay magbubukas ng bagong window"
+    }
+  },
+  "vi": {
+    "contentDir": "content/vi",
+    "title": "Đăng kí bầu cử",
+    "languageName": "Tiếng Việt",
+    "weight": 15,
+    "params": {
+      "Owner": "%Vote.gov% bằng Tiếng Việt",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/vi",
+      "register_path": "register",
+      "go_back": "Quay lại",
+      "skip_text": "Bỏ qua để đi thẳng vào nội dung chính",
+      "meta__title": "Đăng kí bỏ phiếu bầu",
+      "meta__description": "Tìm những lựa chọn đăng kí bầu cử trong tiểu bang của bạn",
+      "english_only": "(bằng Tiếng Anh)",
+      "last_updated": "Cập nhật lần cuối:",
+      "select_language": "Lựa chọn ngôn ngữ %dropdown-list%",
+      "english_languageName": "Vietnamese",
+      "ext_link_title": "Liên kết bên ngoài mở cửa sổ mới"
     }
   },
   "zh": {
@@ -211,8 +252,8 @@
   "ypk": {
     "contentDir": "content/ypk",
     "title": "Nakmikimun Ilatelleq",
-    "weight": 13,
     "languageName": "Yup'ik-Akuzipik",
+    "weight": 16,
     "params": {
       "Owner": "%Vote.gov% Akuzipigestun",
       "language_direction": "ltr",
@@ -233,7 +274,7 @@
     "contentDir": "content/nv",
     "title": "Check Voter Registration Deadlines and Laws in Your State in Diné (Navajo)",
     "languageName": "Diné",
-    "weight": 10,
+    "weight": 11,
     "params": {
       "Owner": "%Vote.gov% Diné",
       "language_direction": "ltr",
@@ -251,26 +292,46 @@
       "ext_link_title": "External link opens new window"
     }
   },
-    "ar":
-    {
-      "contentDir": "content/ar",
-      "title": "تسجيل الناخبين",
-      "languageName": "اسم اللغة",
-      "weight": 3,
-      "params": {
-        "Owner": "في  اسم اللغة %Vote.gov%",
-        "language_direction": "rtl",
-        "publishDir": "tmp/public/ar",
-        "register_path": "register",
-        "go_back": "الرجوع للخلف",
-        "skip_text": "تخطي إلى المحتوى الرئيسي",
-        "meta__title": "سجل للتصويت",
-        "meta__description": "اعثر على خيارات تسجيل الناخبين في ولايتك.",
-        "english_only": "(باللغة الإنجليزية)",
-        "last_updated": "آخر تحديث:",
-        "select_language": " %dropdown-list% اختر اللغة",
-        "english_languageName": "Arabic"
-      }
+  "ht": {
+    "contentDir": "content/ht",
+    "title": "Enskripsyon Votè",
+    "languageName": "Kreyòl Ayisyen",
+    "weight": 7,
+    "params": {
+      "Owner": "%Vote.gov% an Kreyòl Ayisyen",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/ht",
+      "register_path": "register",
+      "go_back": "Retounen",
+      "skip_text": "Ale nan kontni prensipal la",
+      "meta__title": "Enskri pou vote",
+      "meta__description": "Jwenn tout opsyon pou enskri pou vote nan Eta pa w.",
+      "english_only": "(ann Anglè)",
+      "last_updated": "Dènye mizajou: ",
+      "select_language": "Chwazi lang",
+      "english_languageName": "Haitian Creole",
+      "ext_link_title": "Lyen ekstèn lan ap louvri yon nouvo fenèt"
+    }
+  },
+  "pt": {
+    "contentDir": "content/pt",
+    "title": "Registro de Eleitores",
+    "languageName": "Português",
+    "weight": 12,
+    "params": {
+      "Owner": "%Vote.gov% em Português",
+      "language_direction": "ltr",
+      "publishDir": "tmp/public/pt",
+      "register_path": "register",
+      "go_back": "Voltar",
+      "skip_text": "Saltar para o conteúdo principal",
+      "meta__title": "Registre-se para votar",
+      "meta__description": "Encontre as opções de registro de eleitores no seu estado.",
+      "english_only": "(em inglês)",
+      "last_updated": "Última Atualização: ",
+      "select_language": "Selecionar a língua",
+      "english_languageName": "Portuguese"
     }
   }
+}
 
