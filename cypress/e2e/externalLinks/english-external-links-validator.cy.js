@@ -20,6 +20,7 @@ const excludedlinks = [
   'https://www.vivote.gov/voters/register-to-vote/?ref=voteusa_en',
   'https://www.vivote.gov/voters/voter-lookup/?ref=voteusa_en',
   'https://www.elections.ny.gov/votingregister.html?ref=voteusa_en',
+  'https://voterlookup.elections.ny.gov/?ref=voteusa_en',
   // sc links
   'https://vrems.scvotes.sc.gov/Voter/Login?ref=voteusa_en',
   'https://scvotes.gov/voters/register-to-vote/?ref=voteusa_en',
