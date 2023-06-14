@@ -17,7 +17,7 @@
   "online__answer2": "Vous pouvez aussi %link% sur leur site Web.",
   "online__answer2_link": "vous inscrire pour voter par courrier ou en personne",
   "online__h2_question2": "Autres façons de vous inscrire au vote",
-  "online__h2_question1": "Comment vous inscrire pour voter en %state_name%",
+  "online__h2_question1": "Comment vous inscrire pour voter",
   "alert_state__alert_msg": "En raison du COVID-19, il peut y avoir des changements concernant quand, où et comment vous votez à vos prochaines élections. Pour en savoir plus, consultez %link%.",
   "alert_state__alert_msg1": "le site Web électoral de votre État",
   "alert_state__alert_after_election": "Pour les résultats officiels des élections, visitez %link%",
