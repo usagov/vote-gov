@@ -19,7 +19,7 @@ describe('Test the site contact/identifier footer on site',() => {
       cy.get(link[5]).contains('Office of the Inspector General').should('have.attr', 'href').and('include', 'https://www.gsaig.gov/')
       cy.get(link[6]).contains('Performance Reports').should('have.attr', 'href').and('include', 'https://www.gsa.gov/reference/reports/budget-performance')
       cy.get(link[7]).contains('Privacy Policy').should('have.attr', 'href').and('include', 'https://www.usa.gov/policies')
-      cy.get(link[8]).contains('Sitemap').should('have.attr', 'href').and('include', Cypress.config().baseUrl+'/sitemap')
+      cy.get(link[8]).contains('Sitemap').should('have.attr', 'href').and('include', '/sitemap')
       cy.get(link[9]).contains('Visit USA.gov').should('have.attr', 'href').and('include', 'https://www.usa.gov/')
     })
   })
