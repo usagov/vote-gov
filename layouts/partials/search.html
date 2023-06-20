@@ -2,7 +2,7 @@
 {{ if $translation.homepage.search_placeholder }}
 {{ $search_affiliate := cond (eq $translation.homepage.search_affiliate_translated true) (.Site.Language.Lang | replaceRE "-[a-z]+" "") "en"}}
 {{ $search_disclaimer := cond (ne $translation.homepage.search_affiliate_translated true) .Site.Params.english_only ""}}
-<div class="bg-lightblue search-container">
+<div class="bg-lightblue search-container" role="search" aria-label="{{ $translation.homepage.search_placeholder }}">
   <div class="grid-container">
     <form class="usa-search usa-search--small search-bar" role="search" id="search_form"
           action="https://search.vote.gov/search" accept-charset="UTF-8" method="get">
@@ -27,7 +27,7 @@
 
       <button class="usa-button" type="submit" name="commit" data-disable-with="Search">
         <img
-          src="{{ .Site.BaseURL }}/assets/img/usa-icons-bg/search--white.svg"
+          src="{{ .Site.BaseURL }}/assets/img/search--white.svg"
           class="usa-search__submit-icon"
           alt="{{ $translation.homepage.search_placeholder }} {{ $search_disclaimer }}"
         />

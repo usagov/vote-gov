@@ -1,0 +1,25 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+{{ $envURL := ( index .Site.Params.envURL (os.Getenv "BRANCH") ) }}
+{{ $envURL := cond (eq $envURL nil) .Site.Params.envURL.fed $envURL }}
+
+<div class="sitemap">
+  <h2>{{ .Page.Params.main_nav_header }}</h2>
+  <ul class="main-nav usa-list">
+      <li><a hreflang="{{ $translation.Language.Lang }}" href="{{ .Site.Home.RelPermalink }}">{{ .Page.Params.home_link_title }}</a></li>
+      {{ range where .Site.RegularPages "Section" "!=" .Site.Params.register_path }}
+        {{ if ne .Title "Sitemap" }}
+          <li><a hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      {{ end }}
+  </ul> 
+
+  <h2>{{ .Page.Params.states_header }}</h2>
+  <ul class="register-nav usa-list">
+    {{ $states := where .Site.Pages "Section" .Site.Params.register_path }}
+    {{ range ($states.ByParam "state_name") }}
+        <li><a hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+          {{ .Params.state_name }}
+        </a></li>
+    {{ end }}
+  </ul> 
+</div>

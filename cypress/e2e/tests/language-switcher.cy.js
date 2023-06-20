@@ -1,124 +1,24 @@
 /// <reference types="Cypress" />
 
-const testPages = [
-  "localhost:1313/",
-  "localhost:1313/register/ak/",
-  "localhost:1313/register/as/",
-  "localhost:1313/register/ar/",
-  "localhost:1313/register/nd/"
-]
+const languageTestPages = require("../../fixtures/language-switcher-pages.json");
+const languagesTranslations = require("../../fixtures/language-translations.json");
 
-describe('Test Language Switcher Function', () => {
+describe("Test Language Switcher Function", () => {
+  languageTestPages.forEach((languageTestPage) => {
+    it(`Validate language switcher functionality for ${languageTestPage.name}`, () => {
+      cy.visit({ url: languageTestPage.route });
 
-  testPages.forEach((page) => {
-    it(`test spanish ${page}`, () => {
-      cy.visit(page)
-      cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
-        cy.get(options[0]).find('li').then(li => {
-          cy.get(li[1]).click()
-          cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov en Español')
-        })
-        )
-    })
+      languagesTranslations.forEach((languageTranslation) => {
 
-    it(`test bengali ${page}`, () => {
-      cy.visit(page)
-      cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
-        cy.get(options[0]).find('li').then(li => {
-          cy.get(li[2]).click()
-          cy.get('[data-test="vote-logo"]').should('contain', 'বাংলায় Vote.gov')
-        })
-        )
-    })
+        cy.get('[data-test="language-button"]').click();
 
-    it(`test simplified chinese ${page}`, () => {
-      cy.visit(page)
-      cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
-        cy.get(options[0]).find('li').then(li => {
-          cy.get(li[3]).click()
-          cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov 中文')
-        })
-        )
-    })
+        cy.contains(languageTranslation.language).click({ force: true });
 
-    it(`test traditional chinese ${page}`, () => {
-      cy.visit(page)
-      cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
-        cy.get(options[0]).find('li').then(li => {
-          cy.get(li[4]).click()
-          cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov 中文')
-        })
-        )
-    })
+        cy.get('[data-test="vote-logo"]').should('contain.text', languageTranslation.logoText);
 
-    it(`test hindi ${page}`, () => {
-      cy.visit(page)
-      cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
-        cy.get(options[0]).find('li').then(li => {
-          cy.get(li[5]).click()
-          cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov हिन्दी में')
-        })
-        )
-    })
+        cy.url().should('include', Cypress.config().baseUrl + languageTranslation.hrefTitle)
 
-    it(`test khmer ${page}`, () => {
-      cy.visit(page)
-      cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
-        cy.get(options[0]).find('li').then(li => {
-          cy.get(li[6]).click()
-          cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov ជាភាសាខ្មែរ')
-        })
-        )
-    })
-
-    it(`test korean ${page}`, () => {
-      cy.visit(page)
-      cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
-        cy.get(options[0]).find('li').then(li => {
-          cy.get(li[7]).click()
-          cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov 한국어 ')
-        })
-        )
-    })
-
-    // it(`test navajo ${page}`, () => {
-    //   cy.visit(page)
-    //   cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
-    //     cy.get(options[0]).find('li').then(li => {
-    //       cy.get(li[8]).click()
-    //       cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov Diné')
-    //     })
-    //     )
-    // })
-
-    it(`test tagalog ${page}`, () => {
-      cy.visit(page)
-      cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
-        cy.get(options[0]).find('li').then(li => {
-          cy.get(li[9]).click()
-          cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov sa Tagalog')
-        })
-        )
-    })
-
-    it(`test vietnamese ${page}`, () => {
-      cy.visit(page)
-      cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
-        cy.get(options[0]).find('li').then(li => {
-          cy.get(li[10]).click()
-          cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov bằng Tiếng Việt')
-        })
-        )
-    })
-
-  it(`test yup'ik ${page}`, () => {
-    cy.visit(page)
-    cy.get('[data-test="language-button"]').click().get('[data-test="language-switcher"]').then(options =>
-      cy.get(options[0]).find('li').then(li => {
-        cy.get(li[11]).click()
-        cy.get('[data-test="vote-logo"]').should('contain', 'Vote.gov Akuzipigestun')
-      })
-      )
-  })
-  })
-})
+      });
+    });
+  });
+});

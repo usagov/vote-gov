@@ -1,0 +1,262 @@
+{
+    "al": {
+        "default_ip_deadline": "15 jou anvan jou eleksyon an",
+        "default_online_deadline": "15 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen yon so lapòs 15 jou anvan Jou Eleksyon an"
+    },
+    "ak": {
+        "default_ip_deadline": "30 jou anvan jou eleksyon an",
+        "default_online_deadline": "30 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen yon so lapòs 30 jou anvan Jou Eleksyon an"
+    },
+    "as": {
+        "default_ip_deadline": "29 jou anvan jou eleksyon an",
+        "default_mail_received_deadline": "Dwe rive 29 jou anvan Jou Eleksyon an"
+    },
+    "az": {
+        "default_online_deadline": "29 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 29 jou anvan Jou Eleksyon an",
+        "default_ip_deadline": "29 jou anvan jou eleksyon an"
+    },
+    "ar": {
+        "default_ip_deadline": "30 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen yon so lapòs 30 jou anvan Jou Eleksyon an"
+    },
+    "ca": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "15 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 15 jou anvan Jou Eleksyon an"
+    },
+    "co": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "8 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 8 jou anvan Jou Eleksyon an"
+    },
+    "ct": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "7 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 7 jou anvan Jou Eleksyon an"
+    },
+    "de": {
+        "default_ip_deadline": "24 jou anvan jou eleksyon an",
+        "default_online_deadline": "24 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 24 jou anvan Jou Eleksyon an"
+    },
+    "dc": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_mail_received_deadline": "Dwe rive 21 jou anvan jou eleksyon an",
+        "default_online_deadline": "21 jou anvan jou eleksyon an"
+    },
+    "fl": {
+        "default_ip_deadline": "29 jou anvan jou eleksyon an",
+        "default_online_deadline": "29 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 29 jou anvan Jou Eleksyon an"
+    },
+    "ga": {
+        "default_ip_deadline": "29 jou anvan jou eleksyon an",
+        "default_online_deadline": "29 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 29 jou anvan Jou Eleksyon an"
+    },
+    "gu": {
+        "default_online_deadline": "11 jou anvan jou eleksyon an",
+        "default_mail_received_deadline": "Dwe rive 11 jou anvan jou eleksyon an",
+        "default_ip_deadline": "11 jou ouvrab anvan jou eleksyon an"
+    },
+    "hi": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 29 jou anvan Jou Eleksyon an"
+    },
+    "id": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "25 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 25 jou anvan Jou Eleksyon an"
+    },
+    "il": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "16 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 28 jou anvan Jou Eleksyon an"
+    },
+    "in": {
+        "default_ip_deadline": "29 jou anvan jou eleksyon an",
+        "default_online_deadline": "29 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 29 jou anvan Jou Eleksyon an"
+    },
+    "ia": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "15 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 15 jou anvan Jou Eleksyon an"
+    },
+    "ks": {
+        "default_ip_deadline": "21 jou anvan jou eleksyon an",
+        "default_online_deadline": "21 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 21 jou anvan Jou Eleksyon an"
+    },
+    "ky": {
+        "default_ip_deadline": "29 jou anvan jou eleksyon an",
+        "default_online_deadline": "29 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 29 jou anvan Jou Eleksyon an"
+    },
+    "la": {
+        "default_ip_deadline": "30 jou anvan jou eleksyon an",
+        "default_online_deadline": "20 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 30 jou anvan Jou Eleksyon an"
+    },
+    "me": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_mail_received_deadline": "Dwe rive 21 jou anvan jou eleksyon an"
+    },
+    "md": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "21 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 21 jou anvan Jou Eleksyon an"
+    },
+    "ma": {
+        "default_ip_deadline": "10 jou anvan jou eleksyon an",
+        "default_online_deadline": "10 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 10 jou anvan Jou Eleksyon an"
+    },
+    "mi": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "15 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 15 jou anvan Jou Eleksyon an"
+    },
+    "mn": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "21 jou anvan jou eleksyon an",
+        "default_mail_received_deadline": "Dwe rive 21 jou anvan jou eleksyon an"
+    },
+    "ms": {
+        "default_ip_deadline": "30 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 30 jou anvan Jou Eleksyon an"
+    },
+    "mo": {
+        "default_ip_deadline": "27 jou anvan jou eleksyon an",
+        "default_online_deadline": "27 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 27 jou anvan Jou Eleksyon an"
+    },
+    "mt": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 30 jou anvan Jou Eleksyon an"
+    },
+    "ne": {
+        "default_ip_deadline": "11 jou anvan jou eleksyon an",
+        "default_online_deadline": "18 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 18 jou anvan Jou Eleksyon an"
+    },
+    "nv": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "5 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 28 jou anvan Jou Eleksyon an"
+    },
+    "nh": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_mail_received_deadline": "Dwe rive 13 jou anvan Jou Eleksyon an"
+    },
+    "nj": {
+        "default_online_deadline": "21 jou anvan jou eleksyon an",
+        "default_mail_received_deadline": "Dwe rive 21 jou anvan jou eleksyon an",
+        "default_ip_deadline": "21 jou anvan jou eleksyon an"
+    },
+    "nm": {
+        "default_ip_deadline": "28 jou anvan jou eleksyon an",
+        "default_online_deadline": "28 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 28 jou anvan Jou Eleksyon an"
+    },
+    "ny": {
+        "default_ip_deadline": "25 jou anvan jou eleksyon an",
+        "default_online_deadline": "25 jou anvan jou eleksyon an",
+        "default_mail_received_deadline": "Dwe rive 10 jou anvan jou eleksyon an"
+    },
+    "nc": {
+        "default_ip_deadline": "Anrejistreman menm jou disponib pandan peryòd vòt anvan lè",
+        "default_online_deadline": "25 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 25 jou anvan Jou Eleksyon an"
+    },
+    "nd": {},
+    "mp": {
+        "default_ip_deadline": "60 jou anvan jou eleksyon an"
+    },
+    "oh": {
+        "default_ip_deadline": "30 jou anvan jou eleksyon an",
+        "default_online_deadline": "30 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 30 jou anvan Jou Eleksyon an"
+    },
+    "ok": {
+        "default_ip_deadline": "25 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 25 jou anvan Jou Eleksyon an"
+    },
+    "or": {
+        "default_ip_deadline": "21 jou anvan jou eleksyon an",
+        "default_online_deadline": "21 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 21 jou anvan Jou Eleksyon an"
+    },
+    "pa": {
+        "default_ip_deadline": "15 jou anvan jou eleksyon an",
+        "default_online_deadline": "15 jou anvan jou eleksyon an",
+        "default_mail_received_deadline": "Dwe gen so lapòs 15 jou anvan Jou Eleksyon an"
+    },
+    "pr": {
+        "default_ip_deadline": "50 jou anvan jou eleksyon an"
+    },
+    "ri": {
+        "default_ip_deadline": "30 jou anvan jou eleksyon an",
+        "default_online_deadline": "30 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 30 jou anvan Jou Eleksyon an"
+    },
+    "sc": {
+        "default_ip_deadline": "30 jou anvan jou eleksyon an",
+        "default_online_deadline": "30 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 30 jou anvan Jou Eleksyon an"
+    },
+    "sd": {
+        "default_ip_deadline": "15 jou anvan jou eleksyon an",
+        "default_mail_received_deadline": "Dwe rive 15 jou anvan jou eleksyon an"
+    },
+    "tn": {
+        "default_ip_deadline": "30 jou anvan jou eleksyon an",
+        "default_online_deadline": "30 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 30 jou anvan Jou Eleksyon an"
+    },
+    "tx": {
+        "default_ip_deadline": "30 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 30 jou anvan Jou Eleksyon an"
+    },
+    "ut": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "11 jou anvan jou eleksyon an",
+        "default_mail_received_deadline": "Dwe rive 11 jou anvan jou eleksyon an"
+    },
+    "vt": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "Disponib jiska epi enkli jou Eleksyon an",
+        "default_mail_received_deadline": "Dwe rive anvan oswa jou eleksyon an"
+    },
+    "va": {
+        "default_ip_deadline": "22 jou anvan jou eleksyon an",
+        "default_online_deadline": "22 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 22 jou anvan Jou Eleksyon an"
+    },
+    "vi": {
+        "default_ip_deadline": "30 jou anvan jou eleksyon an"
+    },
+    "wa": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "8 jou anvan jou eleksyon an",
+        "default_mail_received_deadline": "Dwe rive 8 jou anvan jou eleksyon an"
+    },
+    "wv": {
+        "default_ip_deadline": "21 jou anvan jou eleksyon an",
+        "default_online_deadline": "21 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 21 jou anvan Jou Eleksyon an"
+    },
+    "wi": {
+        "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "20 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 20 jou anvan Jou Eleksyon an"
+    },
+    "wy": {
+        "default_ip_deadline": "Disponib jiska jou Eleksyon an",
+        "default_mail_received_deadline": "Dwe rive 14 jou anvan jou eleksyon an"
+    }
+}
