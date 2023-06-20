@@ -1,0 +1,78 @@
+[
+    {
+        "language":"English",
+        "logoText":"Vote.gov",
+        "hrefTitle":"/"
+    },
+    {
+        "language":"Spanish",
+        "logoText":"Vote.gov en Español",
+        "hrefTitle":"/es/"
+    }
+    ,
+    {
+        "language":"Arabic",
+        "logoText":"Vote.gov باللغة العربية",
+        "hrefTitle":"/ar/"
+    },
+    {
+        "language":"Bengali",
+        "logoText":"বাংলায় Vote.gov",
+        "hrefTitle":"/bn/"
+    },
+    {
+        "language":"Chinese - Simplified",
+        "logoText":"Vote.gov 中文",
+        "hrefTitle":"/zh-hans/"
+    },
+    {
+        "language":"Chinese - Traditional",
+        "logoText":"Vote.gov 中文",
+        "hrefTitle":"/zh/"
+    },
+    {
+        "language":"Haitian Creole",
+        "logoText":"Vote.gov an Kreyòl Ayisyen",
+        "hrefTitle":"/ht/"
+    },
+    {
+        "language":"Hindi",
+        "logoText":"Vote.gov हिन्दी में",
+        "hrefTitle":"/hi/"
+    },
+    {
+        "language":"Khmer",
+        "logoText":"Vote.gov ជាភាសាខ្មែរ",
+        "hrefTitle":"/km/"
+    },
+    {
+        "language":"Korean",
+        "logoText":"Vote.gov 한국어",
+        "hrefTitle":"/ko/"
+    },
+    {
+        "language":"Portuguese",
+        "logoText":"Vote.gov em Português",
+        "hrefTitle":"/pt/"
+    },
+    {
+        "language":"Russian",
+        "logoText":"Vote.gov in Русский",
+        "hrefTitle":"/ru/"
+    },
+    {
+        "language":"Tagalog",
+        "logoText":"Vote.gov sa Tagalog",
+        "hrefTitle":"/tl/"
+    },
+    {
+        "language":"Vietnamese",
+        "logoText":"Vote.gov bằng Tiếng Việt",
+        "hrefTitle":"/vi/"
+    },
+    {
+        "language":"Yup'ik-Akuzipik",
+        "logoText":"Vote.gov Akuzipigestun",
+        "hrefTitle":"/ypk/"
+    }
+]
