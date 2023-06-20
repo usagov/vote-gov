@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Home Page",
+        "route": "/"
+    },
+    {
+        "name": "Alaska",
+        "route": "/register/ak/"
+    },
+    {
+        "name": "American Samoa",
+        "route": "/register/as/"
+    },
+    {
+        "name": "Arkansas",
+        "route": "/register/ar/"
+    },
+    {
+        "name": "North Dakota",
+        "route": "/register/nd/"
+    }
+]
