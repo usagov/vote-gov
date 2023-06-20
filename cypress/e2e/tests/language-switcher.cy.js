@@ -14,7 +14,7 @@ describe("Test Language Switcher Function", () => {
 
         cy.contains(languageTranslation.language).click({ force: true });
 
-        cy.get(".logo-text").should("contain.text", languageTranslation.logoText);
+        cy.get('[data-test="vote-logo"]').should('contain.text', languageTranslation.logoText);
 
         cy.url().should('include', Cypress.config().baseUrl + languageTranslation.hrefTitle)
 
