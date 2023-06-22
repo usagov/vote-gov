@@ -16,45 +16,7 @@
 <p>{{ replace $by_mail_intro "%state_name%" .Params.state_name | safeHTML }}</p>
 
 {{ partial "deadlines.html" . }}
-{{ if ne .Params.national_voter_registration_form_accepted "false" }}
-<form class="state-download" method="get" id="register">
-  <h2>
-    {{ if and (isset $translation.register "other_language_selection__heading_territory") (eq .Params.is_state "false") }}
-      {{ replace $translation.register.other_language_selection__heading_territory "%state_name%" .Params.state_name }}
-    {{ else }}
-      {{ replace $translation.register.other_language_selection__heading "%state_name%" .Params.state_name }}
-    {{ end }}
-  </h2>
-  <p>{{ $translation.register.other_language_selection__label }}</p>
-  <label class="usa-sr-only" for="js-user-selection">{{ replace .Site.Params.select_language "%dropdown-list%" "" }}</label>
-
-  <select class="usa-select  max-width-input" name="userselection" id="js-user-selection">
-    {{ range $key, $form := $.Site.Data.registration_forms }}
-    {{ if eq $key ($.Site.Language.Lang | replaceRE "-[a-z]+" "") }}
-    <option value="{{ $form.file_path }}">{{ $form.language }}</option>
-    {{ end }}
-    {{ end }}
-    {{ range $key, $form := sort $.Site.Data.registration_forms "language" }}
-    {{ if ne $form.lang ($.Site.Language.Lang | replaceRE "-[a-z]+" "") }}
-    <option value="{{ $form.file_path }}">{{ $form.language }}</option>
-    {{ end }}
-    {{ end }}
-  </select>
-
-  <button class="usa-button max-width-input" id="js-user-submit" type="submit">
-    {{ $translation.register.other_language_selection__submit }}
-  </button>
-
-</form>
-
-<script type="text/javascript">
-  document.getElementById('register').onsubmit = function (ev) {
-    ev.preventDefault();
-    var languageSelected = document.getElementById('js-user-selection').value;
-    window.open(languageSelected, '_blank');
-  };
-</script>
-{{ end }}
+{{ partial "NVRF-download-tool.html" . }}
 
 <script type="application/ld+json">
   {
