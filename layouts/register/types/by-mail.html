@@ -5,26 +5,14 @@
 {{ $receivedDeadline := .Params.mail_received_deadline | default .Params.default_mail_received_deadline }}
 {{ $dates__electionday := .Params.dates__electionday | default $translation.register.dates__electionday }}
 
-<h2>
-  {{ if and (isset $translation.register "online__h2_question1_territory") (eq .Params.is_state "false") }}
-    {{ replace $translation.register.heading2_territory "%state_name%" .Params.state_name }}
-  {{ else }}
-    {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
-  {{ end }}
-</h2>
+<h2>{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}</h2>
 
 <p>{{ replace $by_mail_intro "%state_name%" .Params.state_name | safeHTML }}</p>
 
 {{ partial "deadlines.html" . }}
 {{ if ne .Params.national_voter_registration_form_accepted "false" }}
 <form class="state-download" method="get" id="register">
-  <h2>
-    {{ if and (isset $translation.register "other_language_selection__heading_territory") (eq .Params.is_state "false") }}
-      {{ replace $translation.register.other_language_selection__heading_territory "%state_name%" .Params.state_name }}
-    {{ else }}
-      {{ replace $translation.register.other_language_selection__heading "%state_name%" .Params.state_name }}
-    {{ end }}
-  </h2>
+  <h2>{{ replace $translation.register.other_language_selection__heading "%state_name%" .Params.state_name }}</h2>
   <p>{{ $translation.register.other_language_selection__label }}</p>
   <label class="usa-sr-only" for="js-user-selection">{{ replace .Site.Params.select_language "%dropdown-list%" "" }}</label>
 
