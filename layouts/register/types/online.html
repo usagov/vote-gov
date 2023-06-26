@@ -10,6 +10,7 @@
 <p class="reg-link">{{ replace $online_answer1 "%state_name%" .Params.state_name | safeHTML }}</p>
 <p class="reg-link">{{ replace $online_answer2 "%state_name%" .Params.state_name | safeHTML }}</p>
 {{ partial "deadlines.html" . }}
+{{ partial "NVRF-download-tool.html" . }}
 
 <script type="application/ld+json">
   {
