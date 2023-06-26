@@ -5,13 +5,7 @@
 {{ $receivedDeadline := .Params.mail_received_deadline | default .Params.default_mail_received_deadline }}
 {{ $dates__electionday := .Params.dates__electionday | default $translation.register.dates__electionday }}
 
-<h2>
-  {{ if and (isset $translation.register "online__h2_question1_territory") (eq .Params.is_state "false") }}
-    {{ replace $translation.register.heading2_territory "%state_name%" .Params.state_name }}
-  {{ else }}
-    {{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}
-  {{ end }}
-</h2>
+<h2>{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}</h2>
 
 <p>{{ replace $by_mail_intro "%state_name%" .Params.state_name | safeHTML }}</p>
 
