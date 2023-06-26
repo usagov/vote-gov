@@ -4,7 +4,7 @@
   "banner__guidance_gov_heading": "المواقع الرسمية تستخدم .gov",
   "banner__guidance_gov_text": "ينتمي موقع الويب %.gov% إلى منظمة حكومية رسمية في الولايات المتحدة.",
   "banner__guidance_https_heading": "تستخدم مواقع .gov الآمنة HTTPS",
-  "banner__guidance_https_text": "يعني القفل %lock_icon%  أو  %https%   أنك اتصلت بأمان بموقع gov. مشاركة المعلومات الحساسة فقط على المواقع الرسمية والآمنة.",
+  "banner__guidance_https_text": "رمز القفل%lock_icon%  أو  %https%   أنك اتصلت بأمان بموقع gov. مشاركة المعلومات الحساسة فقط على المواقع الرسمية والآمنة.",
   "alert__alert_msg": "بسبب كوفيد -19 ، قد تكون هناك تغييرات في وقت ومكان وكيفية التصويت في الانتخابات القادمة. تحقق مع موقع الانتخابات في ولايتك لمزيد من المعلومات.",
   "alert__alert_after_election": "للحصول على نتائج الانتخابات الرسمية ، انتقل إلى الموقع  الخاص بالانتخابات في ولايتك.",
   "header": "سجل للتصويت",
@@ -24,5 +24,7 @@
   "registered_links__absentee": "الاقــتـــراع الـغـيـابــي (باللغة الإنجليزية)",
   "registered_links__absentee_url": "https://www.usa.gov/absentee-voting",
   "search_placeholder": "ابحث عن Vote.gov",
-  "search_affiliate_translated": false
+  "search_affiliate_translated": false,
+  "section_banner": "الموقع الالكتروني الرسمي للحكومة"
+
 }
