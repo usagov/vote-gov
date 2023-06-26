@@ -22,7 +22,9 @@
   "banner__guidance_gov_heading": "Официальные сайты используют .gov",
   "banner__guidance_gov_text": "%.gov% принадлежит официальной правительственной организации в Соединённых Штатах.",
   "banner__guidance_https_heading": "Безопасные веб-сайты .gov используют HTTPS",
-  "banner__guidance_https_text": "Блокировка %lock_icon% или %https% означает, что вы безопасно подключились к веб-сайту .gov. Делитесь конфиденциальной информацией только на официальных, защищённых веб-сайтах.",
+  "banner__guidance_https_text": "Значок блокировки %lock_icon% или %https% означает, что вы безопасно подключились к веб-сайту .gov. Делитесь конфиденциальной информацией только на официальных, защищённых веб-сайтах.",
   "search_placeholder": "Поиск vote.gov",
-  "search_affiliate_translated": true
+  "search_affiliate_translated": true,
+  "section_banner": "Официальный правительственный сайт"
+
 }
