@@ -78,7 +78,9 @@
       "english_only": "(باللغة الإنجليزية)",
       "last_updated": "آخر تحديث:",
       "select_language": " %dropdown-list% اختر اللغة",
-      "english_languageName": "Arabic"
+      "english_languageName": "Arabic",
+      "ext_link_title": "رابط خارجي يفتح نافذة جديدة"
+      
     }
   },
   "hi": {
@@ -331,7 +333,9 @@
       "english_only": "(em inglês)",
       "last_updated": "Última Atualização: ",
       "select_language": "Selecionar a língua",
-      "english_languageName": "Portuguese"
+      "english_languageName": "Portuguese",
+      "ext_link_title": "Links externos abrem novas páginas web"
+
     }
   }
 }
