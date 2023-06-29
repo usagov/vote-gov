@@ -29,6 +29,7 @@ $theme-show-notifications: false,
 @forward 'component/buttons';
 @forward 'component/header';
 @forward 'component/hero';
+@forward 'component/state-selector';
 
 @forward 'pages/homepage';
 @forward 'pages/state-page';

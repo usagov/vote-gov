@@ -13,45 +13,7 @@
 
   <main class="page-vote-main" id="main">
 
-    <div class="bg-blue css-arrow">
-      <div class="grid-container">
-        <div class="grid-row grid-gap">
-          <div class="tablet:grid-col-4">
-            <div class="site-logo" data-test="vote-logo" aria-label="Vote.gov">
-              <div class="logo-text">{{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</div>
-              <div id="SiteLogo">{{ partial "ballot_box-blue.html" . }}</div>
-            </div>
-          </div>
-          <div id="skip-target" class="tablet:grid-col-8 right-shift">
-            <section class="register align-bottom" role="region" aria-label="{{ $translation.homepage.header }}">
-              <header>
-                <h1 class="main-heading" data-test="main-header">{{ $translation.homepage.header | safeHTML }}</h1>
-              </header>
-
-              <form class="form-register" method="get" id="register">
-                <h2>{{ $translation.homepage.state_selection__heading }}</h2>
-                <label class="usa-sr-only" for="js-user-selection">
-                  {{ $translation.homepage.state_selection__default }}
-                </label>
-                <select class="usa-select max-width-input" name="userselection" id="js-user-selection" data-test="state-selection">
-                  <option value="default">
-                    {{ $translation.homepage.state_selection__default }}
-                  </option>
-                  {{ $states := where .Site.RegularPages.ByTitle "Section" .Site.Params.register_path }}
-                  {{ range ($states.ByParam "state_name") }}
-                  <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
-                {{ end }}
-
-                </select>
-                <button class="usa-button max-width-input" id="js-user-submit" type="submit" data-test="register-button">
-                  {{ $translation.homepage.state_selection__submit }}
-                </button>
-              </form>
-            </section>
-          </div>
-        </div>
-      </div>
-    </div>
+    {{ partial "state-selector.html" . }}
 
     <div class="bg-lightblue">
       <div class="grid-container accordion homepage-acc">
@@ -99,21 +61,6 @@
   <!-- Footer BEGIN -->
   {{ partial "footer.html" . }}
   <!-- Footer END -->
-
-  <script type="text/javascript">
-    document.getElementById('register').onsubmit = function (ev) {
-      var stateSelected = document.getElementById('js-user-selection').value;
-      if (stateSelected === 'default') {
-        return false;
-      } else {
-        ev.preventDefault();
-        // var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}register/';
-        var redirectURL = '{{ .Site.Home.RelPermalink }}{{ .Site.Params.register_path }}/';
-        redirectURL = redirectURL + stateSelected + '/';
-        window.location.href = redirectURL;
-      }
-    };
-  </script>
 
   {{ partial "analytics.html" . }}
   {{ partial "scripts.html" . }}
