@@ -375,7 +375,8 @@
     "type": "register",
     "hp_link": "https://sos.nh.gov/home",
     "more_info_link": "https://www.sos.nh.gov/elections/voters/register-vote",
-    "confirm_registration_link": "https://app.sos.nh.gov/voterinformation"
+    "confirm_registration_link": "https://app.sos.nh.gov/voterinformation",
+    "national_voter_registration_form_accepted": "false"
   },
   "nj": {
     "state_name": "New Jersey",
@@ -434,7 +435,8 @@
     "type": "register",
     "hp_link": "https://vip.sos.nd.gov/PortalList.aspx",
     "more_info_link": "https://vip.sos.nd.gov/PortalList.aspx",
-    "confirm_registration_link": "https://vip.sos.nd.gov/WhereToVote.aspx?tab=&ptlPKID=&ptlhPKID="
+    "confirm_registration_link": "https://vip.sos.nd.gov/WhereToVote.aspx?tab=&ptlPKID=&ptlhPKID=",
+    "national_voter_registration_form_accepted": "false"
   },
   "mp": {
     "state_name": "Northern Mariana Islands",
