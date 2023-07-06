@@ -15,7 +15,7 @@
   "eac_logo_alt_text": "Logotipo de la Comisión de Asistencia Electoral de EE. UU. para indicar su asociación con Vote.gov.",
   "vote_logo_alt_text": "Ilustración del acto del voto donde una boleta marcada está siendo insertada en una urna.",
   "about_link": "/es/acerca-de-votegov",
-  "sitemap_link": "/es/sitemap",
+  "sitemap_link": "/es/sitemap/",
   "identifier_aria": "Identificador de la agencia",
   "identifier_gsa_txt_aria": "Descripción de la agencia",
   "identifier_gsa_txt": "Un sitio web oficial de la %link%",
