@@ -13,5 +13,6 @@ confirm_registration_link = "https://www.votercheck.necvr.ne.gov/voterview"
 default_ip_deadline = "11 jours avant le Jour des élections"
 default_online_deadline = "18 jours avant le Jour des élections"
 default_mail_postmarked_deadline = "Envoyez votre inscription au plus tard 18 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+override_page_title = "Inscrivez-vous pour voter au %state_name%"
 
 +++

@@ -13,5 +13,6 @@ confirm_registration_link = "https://voterlookup.elections.ny.gov/"
 default_ip_deadline = "25 jours avant le Jour des élections"
 default_online_deadline = "25 jours avant le Jour des élections"
 default_mail_received_deadline = "Doit être reçu au plus tard 10 jours avant le Jour des élections"
+override_page_title = "Inscrivez-vous pour voter dans l'État de %state_name%"
 
 +++

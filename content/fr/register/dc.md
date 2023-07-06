@@ -13,5 +13,6 @@ confirm_registration_link = "https://dcboe.org/Voters/Register-To-Vote/Check-Vot
 default_ip_deadline = "Disponible jusqu'au et y compris le Jour des élections"
 default_mail_received_deadline = "Envoyez votre inscription au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi"
 default_online_deadline = "21 jours avant le le Jour des élections"
+override_page_title = "Inscrivez-vous pour voter dans le %state_name%"
 
 +++

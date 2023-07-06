@@ -13,5 +13,6 @@ confirm_registration_link = "https://mvic.sos.state.mi.us/"
 default_ip_deadline = "Disponible jusqu'au et y compris le Jour des élections"
 default_online_deadline = "15 jours avant le Jour des élections"
 default_mail_postmarked_deadline = "Envoyez votre inscription au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+override_page_title = "Inscrivez-vous pour voter au %state_name%"
 
 +++

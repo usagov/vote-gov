@@ -13,5 +13,6 @@ confirm_registration_link = "https://ova.elections.il.gov/RegistrationLookup.asp
 default_ip_deadline = "Disponible jusqu'au et y compris le Jour des élections"
 default_online_deadline = "16 jours avant le Jour des élections"
 default_mail_postmarked_deadline = "Envoyez votre inscription au plus tard 28 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+override_page_title = "Inscrivez-vous pour voter en %state_name%"
 
 +++

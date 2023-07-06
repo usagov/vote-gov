@@ -13,5 +13,6 @@ confirm_registration_link = "https://voter.votewa.gov/WhereToVote.aspx"
 default_ip_deadline = "Disponible jusqu'au et y compris le Jour des élections"
 default_online_deadline = "8 jours avant le Jour des élections"
 default_mail_received_deadline = "Doit être reçu au plus tard 8 jours avant le Jour des élections"
+override_page_title = "Inscrivez-vous pour voter dans l'État de %state_name%"
 
 +++

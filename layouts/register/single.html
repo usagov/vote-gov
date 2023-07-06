@@ -19,7 +19,7 @@
           <div class="align-bottom">
             <h1 class="main-heading" data-test="main-header">
               {{ if isset .Params "override_page_title" }}
-                {{ .Params.override_page_title }}
+                {{ replace .Params.override_page_title "%state_name%" .Params.state_name }}
               {{ else if and (isset $translation.register "heading_territory") (eq .Params.is_state "false") }}
               <!--if the page is in Korean, and the state is a territory, do not show the Korean "state" character-->
                 {{ replace $translation.register.heading_territory "%state_name%" .Params.state_name }}
