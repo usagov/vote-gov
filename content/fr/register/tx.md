@@ -11,6 +11,7 @@ more_info_link = "https://www.votetexas.gov/register-to-vote/index.html"
 confirm_registration_link = "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do"
 default_ip_deadline = "30 jours avant le Jour des élections"
 default_mail_postmarked_deadline = "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi"
-override_page_title = "Inscrivez-vous pour voter au %state_name%"
+in_state_name = "au %state_name%"
+of_state_name = "du %state_name%"
 
 +++

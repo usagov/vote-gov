@@ -10,6 +10,7 @@ hp_link = "https://www.votecnmi.gov.mp/"
 more_info_link = "https://www.votecnmi.gov.mp/"
 confirm_registration_link = "https://www.votecnmi.gov.mp/"
 default_ip_deadline = "60 jours avant le Jour des élections"
-override_page_title = "Inscrivez-vous pour voter aux %state_name%"
+in_state_name = "aux %state_name%"
+of_state_name = "des %state_name%"
 
 +++

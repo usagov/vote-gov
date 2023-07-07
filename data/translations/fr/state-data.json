@@ -3,372 +3,428 @@
     "default_ip_deadline": "15 jours avant le Jour des élections",
     "default_online_deadline": "15 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de l'%state_name%"
   },
 
   "ak": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
     "default_online_deadline": "30 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de l'%state_name%"
   },
 
   "as": {
     "default_ip_deadline": "29 jours avant le Jour des élections",
     "default_mail_received_deadline": "Doit être reçu au plus tard 29 jours avant le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter aux %state_name%"
+    "in_state_name": "aux %state_name%",
+    "of_state_name": "des %state_name%"
   },
 
   "az": {
     "default_online_deadline": "29 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi",
     "default_ip_deadline": "29 jours avant le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de l'%state_name%"
   },
 
   "ar": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de l'%state_name%"
   },
 
   "ca": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "15 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de la %state_name%"
   },
 
   "co": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "8 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 8 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "ct": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "7 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 7 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "de": {
     "default_ip_deadline": "24 jours avant le Jour des élections",
     "default_online_deadline": "24 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 24 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "dc": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_mail_received_deadline": "Envoyez votre inscription au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi",
     "default_online_deadline": "21 jours avant le le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter dans le %state_name%"
+    "in_state_name": "dans le %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "fl": {
     "default_ip_deadline": "29 jours avant le Jour des élections",
     "default_online_deadline": "29 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de la %state_name%"
   },
 
   "ga": {
     "default_ip_deadline": "29 jours avant le Jour des élections",
     "default_online_deadline": "29 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de la %state_name%"
   },
 
   "gu": {
     "default_online_deadline": "11 jours ouvrables avant le Jour des élections",
     "default_mail_received_deadline": "Doit être reçu au plus tard 11 jours ouvrables avant le Jour des élections",
     "default_ip_deadline": "11 jours ouvrables avant le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter à %state_name%"
+    "in_state_name": "à %state_name%",
+    "of_state_name": "de %state_name%"
   },
 
   "hi": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 8 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter à %state_name%"
+    "in_state_name": "à %state_name%",
+    "of_state_name": "de %state_name%"
   },
 
   "id": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "25 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 25 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de l'%state_name%"
   },
 
   "il": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "16 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 28 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de l'%state_name%"
   },
 
   "in": {
     "default_ip_deadline": "29 jours avant le Jour des élections",
     "default_online_deadline": "29 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de l'%state_name%"
   },
 
   "ia": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "15 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de l'%state_name%"
   },
 
   "ks": {
     "default_ip_deadline": "21 jours avant le le Jour des élections",
     "default_online_deadline": "21 jours avant le le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "ky": {
     "default_ip_deadline": "29 jours avant le Jour des élections",
     "default_online_deadline": "29 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "la": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
     "default_online_deadline": "20 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de la %state_name%"
   },
 
   "me": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_mail_received_deadline": "Doit être reçu au plus tard 21 jours avant le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "md": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "21 jours avant le le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "ma": {
     "default_ip_deadline": "10 jours avant le Jour des élections",
     "default_online_deadline": "10 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 10 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "mi": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "15 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "mn": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "21 jours avant le Jour des élections",
     "default_mail_received_deadline": "Doit être reçu au plus tard 21 jours avant le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "ms": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "mo": {
     "default_ip_deadline": "27 jours avant le Jour des élections",
     "default_online_deadline": "27 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 27 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "mt": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "ne": {
     "default_ip_deadline": "11 jours avant le Jour des élections",
     "default_online_deadline": "18 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 18 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "nv": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "5 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 28 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "nh": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_mail_received_deadline": "Doit être reçu au plus tard 13 jours avant le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "nj": {
     "default_online_deadline": "21 jours avant le le Jour des élections",
     "default_mail_received_deadline": "Doit être reçu au plus tard 21 jours avant le Jour des élections",
     "default_ip_deadline": "21 jours avant le le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "nm": {
     "default_ip_deadline": "28 jours avant le Jour des élections",
     "default_online_deadline": "28 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 28 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "ny": {
     "default_ip_deadline": "25 jours avant le Jour des élections",
     "default_online_deadline": "25 jours avant le Jour des élections",
     "default_mail_received_deadline": "Doit être reçu au plus tard 10 jours avant le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter dans l'État de %state_name%"
+    "in_state_name": "dans l'État de %state_name%",
+    "of_state_name": "de l'État de %state_name%"
   },
 
   "nc": {
     "default_ip_deadline": "L'inscription le jour même disponible pendant la période de vote anticipé",
     "default_online_deadline": "25 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 25 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de la %state_name%"
   },
 
   "nd": {
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "mp": {
     "default_ip_deadline": "60 jours avant le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter aux %state_name%"
+    "in_state_name": "aux %state_name%",
+    "of_state_name": "des %state_name%"
   },
 
   "oh": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
     "default_online_deadline": "30 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de l'%state_name%"
   },
 
   "ok": {
     "default_ip_deadline": "25 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 25 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de l'%state_name%"
   },
 
   "or": {
     "default_ip_deadline": "21 jours avant le le Jour des élections",
     "default_online_deadline": "21 jours avant le le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de l'%state_name%"
   },
 
   "pa": {
     "default_ip_deadline": "15 jours avant le Jour des élections",
     "default_online_deadline": "15 jours avant le Jour des élections",
     "default_mail_received_deadline": "Doit être reçu au plus tard 15 jours avant le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de la %state_name%"
   },
 
   "pr": {
     "default_ip_deadline": "50 jours avant le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter à %state_name%"
+    "in_state_name": "à %state_name%",
+    "of_state_name": "de %state_name%"
   },
 
   "ri": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
     "default_online_deadline": "30 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "sc": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
     "default_online_deadline": "30 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de la %state_name%"
   },
 
   "sd": {
     "default_ip_deadline": "15 jours avant le Jour des élections",
     "default_mail_received_deadline": "Doit être reçu au plus tard 15 jours avant le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "tn": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
     "default_online_deadline": "30 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "tx": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 30 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "ut": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "11 jours avant le Jour des élections",
     "default_mail_received_deadline": "Doit être reçu au plus tard 11 jours avant le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter dans %state_name%"
+    "in_state_name": "dans %state_name%",
+    "of_state_name": "de l'%state_name%"
   },
 
   "vt": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_mail_received_deadline": "Doit être reçu au plus tard le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "va": {
     "default_ip_deadline": "22 jours avant le Jour des élections",
     "default_online_deadline": "22 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 22 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de la %state_name%"
   },
 
   "vi": {
     "default_ip_deadline": "30 jours avant le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter aux %state_name%"
+    "in_state_name": "aux %state_name%",
+    "of_state_name": "des %state_name%"
   },
 
   "wa": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "8 jours avant le Jour des élections",
     "default_mail_received_deadline": "Doit être reçu au plus tard 8 jours avant le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter dans l'État de %state_name%"
+    "in_state_name": "dans l'État de %state_name%",
+    "of_state_name": "de l'État de %state_name%"
   },
 
   "wv": {
     "default_ip_deadline": "21 jours avant le le Jour des élections",
     "default_online_deadline": "21 jours avant le le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 21 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter en %state_name%"
+    "in_state_name": "en %state_name%",
+    "of_state_name": "de la %state_name%"
   },
 
   "wi": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_online_deadline": "20 jours avant le Jour des élections",
     "default_mail_postmarked_deadline": "Envoyez votre inscription au plus tard 20 jours avant le Jour des élections avec un cachet de la poste faisant foi",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   },
 
   "wy": {
     "default_ip_deadline": "Disponible jusqu'au et y compris le Jour des élections",
     "default_mail_received_deadline": "Doit être reçu au plus tard 14 jours avant le Jour des élections",
-    "override_page_title": "Inscrivez-vous pour voter au %state_name%"
+    "in_state_name": "au %state_name%",
+    "of_state_name": "du %state_name%"
   }
 }

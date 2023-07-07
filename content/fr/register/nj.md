@@ -13,6 +13,7 @@ confirm_registration_link = "https://voter.svrs.nj.gov/registration-check"
 default_online_deadline = "21 jours avant le le Jour des élections"
 default_mail_received_deadline = "Doit être reçu au plus tard 21 jours avant le Jour des élections"
 default_ip_deadline = "21 jours avant le le Jour des élections"
-override_page_title = "Inscrivez-vous pour voter au %state_name%"
+in_state_name = "au %state_name%"
+of_state_name = "du %state_name%"
 
 +++

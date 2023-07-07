@@ -10,6 +10,7 @@ hp_link = "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/defaul
 more_info_link = "https://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx"
 confirm_registration_link = "https://consulta.ceepur.org/"
 default_ip_deadline = "50 jours avant le Jour des élections"
-override_page_title = "Inscrivez-vous pour voter à %state_name%"
+in_state_name = "à %state_name%"
+of_state_name = "de %state_name%"
 
 +++

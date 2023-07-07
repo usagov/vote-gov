@@ -13,6 +13,7 @@ confirm_registration_link = "https://vote.utah.gov/"
 default_ip_deadline = "Disponible jusqu'au et y compris le Jour des élections"
 default_online_deadline = "11 jours avant le Jour des élections"
 default_mail_received_deadline = "Doit être reçu au plus tard 11 jours avant le Jour des élections"
-override_page_title = "Inscrivez-vous pour voter dans %state_name%"
+in_state_name = "dans %state_name%"
+of_state_name = "de l'%state_name%"
 
 +++

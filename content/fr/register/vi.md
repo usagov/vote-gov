@@ -10,6 +10,7 @@ hp_link = "https://www.vivote.gov/voters/register-to-vote/"
 more_info_link = "https://www.vivote.gov/voters/register-to-vote/"
 confirm_registration_link = "https://www.vivote.gov/voters/voter-lookup/"
 default_ip_deadline = "30 jours avant le Jour des élections"
-override_page_title = "Inscrivez-vous pour voter aux %state_name%"
+in_state_name = "aux %state_name%"
+of_state_name = "des %state_name%"
 
 +++

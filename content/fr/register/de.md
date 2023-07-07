@@ -13,6 +13,7 @@ confirm_registration_link = "https://ivote.de.gov/VoterView"
 default_ip_deadline = "24 jours avant le Jour des élections"
 default_online_deadline = "24 jours avant le Jour des élections"
 default_mail_postmarked_deadline = "Envoyez votre inscription au plus tard 24 jours avant le Jour des élections avec un cachet de la poste faisant foi"
-override_page_title = "Inscrivez-vous pour voter au %state_name%"
+in_state_name = "au %state_name%"
+of_state_name = "du %state_name%"
 
 +++

@@ -13,6 +13,7 @@ confirm_registration_link = "https://mvp.vermont.gov/"
 default_ip_deadline = "Disponible jusqu'au et y compris le Jour des élections"
 default_online_deadline = "Disponible jusqu'au et y compris le Jour des élections"
 default_mail_received_deadline = "Doit être reçu au plus tard le Jour des élections"
-override_page_title = "Inscrivez-vous pour voter au %state_name%"
+in_state_name = "au %state_name%"
+of_state_name = "du %state_name%"
 
 +++

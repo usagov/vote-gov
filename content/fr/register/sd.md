@@ -11,6 +11,7 @@ more_info_link = "https://sdsos.gov/elections-voting/voting/register-to-vote/def
 confirm_registration_link = "https://vip.sdsos.gov/VIPLogin.aspx"
 default_ip_deadline = "15 jours avant le Jour des élections"
 default_mail_received_deadline = "Doit être reçu au plus tard 15 jours avant le Jour des élections"
-override_page_title = "Inscrivez-vous pour voter au %state_name%"
+in_state_name = "au %state_name%"
+of_state_name = "du %state_name%"
 
 +++
