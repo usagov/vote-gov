@@ -1,22 +1,29 @@
-.vote--state-selector {
+#voteStateSelector {
   justify-content: flex-start;
   position: relative;
   margin-bottom: 2rem;
 
-  .usa-language__primary-item,
-  .usa-language__primary-item:last-of-type {
-    position: static;
+  button {
+    background-image: url(../img/usa-icons/unfold_more.svg), linear-gradient(transparent, transparent);
+    background-repeat: no-repeat;
+    background-position: right 0.5rem center;
+    background-size: 1.25rem;
+    padding-right: 2.25rem;
+    font-weight: normal;
+    background-color: #f0f0f0;
+    color: #000;
+  }
 
+  &:focus-within {
     button {
-      &[aria-expanded="false"] {
-        background-color: #f0f0f0;
-        color: #162e51;
-      }
+      border-radius: 0.25rem 0.25rem 0 0;
+      background-color: #162e51;
+      color: #fff;
+      background-image: url(../img/unfold_more-white.svg), linear-gradient(transparent, transparent);
+    }
 
-      &[aria-expanded="true"] {
-        border-radius: 0.25rem 0.25rem 0 0;
-        background-color: #162e51;
-      }
+    #stateOptions {
+      display: block;
     }
   }
 
@@ -26,6 +33,11 @@
     right: 0;
     border-radius: 0 0.25rem 0.25rem;
     padding: 1.2rem;
+  }
+
+  .usa-language__submenu__list {
+    padding: 0;
+    margin-top: 0;
 
     @media(min-width: 768px) {
       column-count: 2;
@@ -48,4 +60,8 @@
       text-decoration: underline;
     }
   }
+}
+
+#stateOptions {
+  display: none;
 }

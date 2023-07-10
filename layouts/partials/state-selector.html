@@ -15,30 +15,27 @@
             <h1 class="main-heading" data-test="main-header">{{ $translation.homepage.header | safeHTML }}</h1>
           </header>
 
-          <h2>{{ $translation.homepage.state_selection__heading }}</h2>
+          <h2>{{ $translation.homepage.state_selection__heading }} {{ $translation.homepage.state_selection__submit }}</h2>
 
-          <div class="usa-language-container usa-language--large vote--state-selector">
-            <ul class="usa-language__primary usa-accordion">
-              <li class="usa-language__primary-item">
-                <button
-                  type="button"
-                  class="usa-button usa-language__link"
-                  role="button"
-                  aria-expanded="false"
-                  aria-controls="state-options"
-                >
-                  {{ $translation.homepage.state_selection__default }}
-                </button>
-                <ul id="state-options" class="usa-language__submenu" hidden="true">
-                  {{ $states := where .Site.RegularPages.ByTitle "Section" .Site.Params.register_path }}
-                  {{ range ($states.ByParam "state_name") }}
-                  <li class="usa-language__submenu-item">
-                    <a href="{{ .Site.Home.RelPermalink }}{{ .Site.Params.register_path }}/{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</a>
-                  </li>
-                  {{ end }}
-                </ul>
-              </li>
-            </ul>
+          <div id="voteStateSelector">
+            <button
+              type="button"
+              class="usa-button"
+              role="button"
+              aria-controls="stateOptions"
+            >
+              {{ $translation.homepage.state_selection__default }}
+            </button>
+            <div id="stateOptions" class="usa-language__submenu">
+              <ul class="usa-language__submenu__list">
+                {{ $states := where .Site.RegularPages.ByTitle "Section" .Site.Params.register_path }}
+                {{ range ($states.ByParam "state_name") }}
+                <li class="usa-language__submenu-item">
+                  <a href="{{ .Site.Home.RelPermalink }}{{ .Site.Params.register_path }}/{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</a>
+                </li>
+                {{ end }}
+              </ul>
+            </div>
           </div>
         </section>
       </div>
