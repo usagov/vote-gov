@@ -11,7 +11,7 @@
     "eac_logo_alt_text": "بالشراكة مع %U.S. Election Assistance Commission%",
     "privacy_policy": "سياسة الخصوصية",
     "privacy_policy_link_url": "https://www.usa.gov/policies",
-    "about_link": "/ar/about-us",
+    "about_link": "/ar/about-us/",
     "twitter_link": "https://twitter.com/votegov",
     "twitter_text": "تابع Vote.gov على تويتر (باللغة الإنجليزية) ",
     "identifier_aria": "معرّف الوكالة",
@@ -28,5 +28,8 @@
     "identifier_link_7": "سياسة الخصوصية (باللغة الإنجليزية)",
     "identifier_more_info_aria": "المعلومات والخدمات الحكومية",
     "identifier_more_info": "هل تبحث عن معلومات وخدمات حكومية أمريكية؟ %link%",
-    "identifier_more_info__1": "قم بزيارة  USA.gov"
+    "identifier_more_info__1": "قم بزيارة  USA.gov",
+    "gsa_logo_alt": "شعار GSA",
+    "section_sign_up": "الاشتراك في البريد الإلكتروني",
+    "section_contact": "التواصل"
 }

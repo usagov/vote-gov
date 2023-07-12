@@ -12,8 +12,8 @@ describe('Test the site contact/identifier footer on site',() => {
   it("Validate that the identifier links are working as expected", () =>{
     cy.get('[data-test="footer"]').should('be.visible').find('a').then(link => {
       cy.get(link[0]).contains('General Services Administration').should('have.attr', 'href').and('include', 'https://www.gsa.gov/')
-      cy.get(link[1]).contains('About Vote.gov').should('have.attr', 'href').and('include', '/about-us')
-      cy.get(link[2]).contains('Accessibility').should('have.attr', 'href').and('include', '/accessibility')
+      cy.get(link[1]).contains('About Vote.gov').should('have.attr', 'href').and('include', '/about-us/')
+      cy.get(link[2]).contains('Accessibility').should('have.attr', 'href').and('include', '/accessibility/')
       cy.get(link[3]).contains('FOIA Requests').should('have.attr', 'href').and('include', 'https://www.gsa.gov/reference/freedom-of-information-act-foia')
       cy.get(link[4]).contains('No Fear Act data').should('have.attr', 'href').and('include', 'https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002')
       cy.get(link[5]).contains('Office of the Inspector General').should('have.attr', 'href').and('include', 'https://www.gsaig.gov/')

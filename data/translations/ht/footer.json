@@ -13,7 +13,7 @@
   "privacy_policy_link_url": "/policies",
   "twitter_link": "https://twitter.com/votegov",
   "twitter_text": "Swiv Vote.org sou Twitter (ann Anglè)",
-  "about_link": "/ht/about-us",
+  "about_link": "/ht/about-us/",
   "identifier_aria": "Idantifikasyon Ajans lan",
   "identfier_gsa_txt_aria": "Deskripsyon ajans lan",
   "identifier_gsa_txt": "Sitwèb ofisyèl %link% la",
@@ -28,5 +28,8 @@
   "identifier_link_7": "Règ sou enfòmasyon prive (ann Anglè)",
   "identifier_more_info_aria": "Enfòmasyon ak sèvis gouvènman an",
   "identifier_more_info": "Èske w ap chèche enfòmasyon ak sèvis gouvènman ameriken lofri? %link%",
-  "identifier_more_info__1": "Vizite USA.gov"
+  "identifier_more_info__1": "Vizite USA.gov",
+  "gsa_logo_alt": "Logo GSA a",
+  "section_sign_up": "Enskripsyon imèl",
+  "section_contact": "Kontak"
 }
