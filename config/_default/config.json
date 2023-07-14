@@ -25,8 +25,7 @@
       "fed": "https://cg-9e8debaf-b030-4825-a43c-cb2bc850c96c.app.cloud.gov"
     },
     "globalURL": {
-      "about_link": "/about-us/",
-      "accessibility_link": "/accessibility/"
+      "about_link": "/about-us/"
     },
     "sitewide_alert": false
   }
