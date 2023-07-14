@@ -8,7 +8,7 @@ translationKey = "Montana"
 type = "register"
 hp_link = "https://sosmt.gov/elections/"
 more_info_link = "https://sosmt.gov/elections/vote/"
-confirm_registration_link = "https://sosmt.gov/elections/vote/"
+confirm_registration_link = "https://prodvoterportal.mt.gov/WhereToVote.aspx"
 default_ip_deadline = "Disponib jiska tou jou Eleksyon an"
 default_mail_postmarked_deadline = "Dwe gen so lapòs 30 jou anvan Jou Eleksyon an"
 
