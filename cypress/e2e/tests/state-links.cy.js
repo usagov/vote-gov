@@ -21,7 +21,7 @@ describe('Validate links on stage pages', () => {
 
     // Test links on page.
     cy.get('[data-test="main-info"]').find('a').then(regLink => {
-      cy.get(regLink[0]).should('have.attr', 'href').and('include', 'https://aselectionoffice.gov/?ref=voteusa_en')
+      cy.get(regLink[0]).should('have.attr', 'href').and('include', 'https://aselectionoffice.gov/node/3?ref=voteusa_en')
       cy.get(regLink[1]).should('have.attr', 'href').and('include', 'https://aselectionoffice.gov/status.php?ref=voteusa_en')
     })
 
