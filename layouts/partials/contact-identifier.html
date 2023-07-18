@@ -1,5 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 {{ $aboutLink := $translation.footer.about_link | default .Site.Params.globalURL.about_link }}
+{{ $sitemapLink := $translation.footer.sitemap_link | default .Site.Params.globalURL.sitemap_link }}
 {{ $privacy_policy := $translation.footer.privacy_policy_link | default "https://www.usa.gov/policies" }}
 
 <!-- contact START -->
@@ -73,7 +74,7 @@
         <ul class="usa-list usa-list--unstyled identifier-links">
           <li><a href="{{ $privacy_policy }}">{{ $translation.footer.identifier_link_7 }}</a></li>
           {{ if $translation.footer.identifier_link_8 }}
-          <li><a href="{{ .Site.BaseURL }}/sitemap">{{ $translation.footer.identifier_link_8 }}</a></li>
+          <li><a href="{{ .Site.BaseURL }}{{ $sitemapLink }}">{{ $translation.footer.identifier_link_8 }}</a></li>
           {{ end }}
         </ul>
       </div>

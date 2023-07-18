@@ -31,7 +31,7 @@
     "translationKey": "American Samoa",
     "type": "register",
     "hp_link": "https://aselectionoffice.gov/",
-    "more_info_link": "https://aselectionoffice.gov/",
+    "more_info_link": "https://aselectionoffice.gov/node/3",
     "confirm_registration_link": "https://aselectionoffice.gov/status.php"
   },
   "az": {
@@ -67,7 +67,7 @@
     "hp_link": "https://www.sos.ca.gov/elections",
     "registration_link": "https://registertovote.ca.gov/",
     "more_info_link": "https://www.sos.ca.gov/elections/voting-resources/voting-california/registering-vote",
-    "confirm_registration_link": "https://registertovote.ca.gov/"
+    "confirm_registration_link": "https://voterstatus.sos.ca.gov/"
   },
   "co": {
     "state_name": "Colorado",
@@ -77,7 +77,7 @@
     "translationKey": "Colorado",
     "type": "register",
     "hp_link": "https://www.sos.state.co.us/pubs/elections/",
-    "registration_link": "https://www.sos.state.co.us/voter/pages/pub/home.xhtml",
+    "registration_link": "https://www.sos.state.co.us/voter/pages/pub/olvr/verifyNewVoter.xhtml",
     "more_info_link": "https://www.coloradosos.gov/voter/pages/pub/home.xhtml",
     "confirm_registration_link": "https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml"
   },
@@ -101,7 +101,7 @@
     "translationKey": "Delaware",
     "type": "register",
     "hp_link": "https://elections.delaware.gov/index.shtml",
-    "registration_link": "https://ivote.de.gov/VoterView/",
+    "registration_link": "https://ivote.de.gov/VoterView/registrant/newregistrant",
     "more_info_link": "https://elections.delaware.gov/voter/votereg.shtml",
     "confirm_registration_link": "https://ivote.de.gov/VoterView"
   },
@@ -138,7 +138,7 @@
     "type": "register",
     "hp_link": "https://sos.ga.gov/index.php/elections",
     "registration_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
-    "more_info_link": "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-button",
+    "more_info_link": "https://sos.ga.gov/elections-division-georgia-secretary-states-office",
     "confirm_registration_link": "https://mvp.sos.ga.gov/s/"
   },
   "gu": {
@@ -149,7 +149,7 @@
     "translationKey": "Guam",
     "type": "register",
     "hp_link": "https://gec.guam.gov/",
-    "registration_link": "https://gec.guam.gov/",
+    "registration_link": "https://gec.guam.gov/register/",
     "more_info_link": "https://gec.guam.gov/",
     "confirm_registration_link": "https://gec.guam.gov/validate/"
   },
@@ -294,7 +294,7 @@
     "hp_link": "https://www.michigan.gov/sos/elections",
     "registration_link": "https://mvic.sos.state.mi.us/registervoter",
     "more_info_link": "https://mvic.sos.state.mi.us/",
-    "confirm_registration_link": "https://mvic.sos.state.mi.us/"
+    "confirm_registration_link": "https://mvic.sos.state.mi.us/Voter/Index"
   },
   "mn": {
     "state_name": "Minnesota",
@@ -329,7 +329,7 @@
     "hp_link": "https://www.sos.mo.gov/elections",
     "registration_link": "https://s1.sos.mo.gov/elections/voterregistration/",
     "more_info_link": "https://www.sos.mo.gov/elections/goVoteMissouri/register",
-    "confirm_registration_link": "https://s1.sos.mo.gov/elections/goVoteMissouri/register.aspx"
+    "confirm_registration_link": "https://voteroutreach.sos.mo.gov/portal/"
   },
   "mt": {
     "state_name": "Montana",
@@ -340,7 +340,7 @@
     "type": "register",
     "hp_link": "https://sosmt.gov/elections/",
     "more_info_link": "https://sosmt.gov/elections/vote/",
-    "confirm_registration_link": "https://sosmt.gov/elections/vote/"
+    "confirm_registration_link": "https://prodvoterportal.mt.gov/WhereToVote.aspx"
   },
   "ne": {
     "state_name": "Nebraska",
@@ -447,7 +447,7 @@
     "type": "register",
     "hp_link": "https://www.votecnmi.gov.mp/",
     "more_info_link": "https://www.votecnmi.gov.mp/",
-    "confirm_registration_link": "https://www.votecnmi.gov.mp/"
+    "confirm_registration_link": "https://www.votecnmi.gov.mp/voter/are-you-registered-to-vote"
   },
   "oh": {
     "state_name": "Ohio",
@@ -458,7 +458,7 @@
     "type": "register",
     "hp_link": "https://www.sos.state.oh.us/elections/",
     "registration_link": "https://olvr.ohiosos.gov/",
-    "more_info_link": "https://ohio.gov/wps/portal/gov/site/government/resources/register-to-vote-or-update-your-registration",
+    "more_info_link": "https://olvr.ohiosos.gov/",
     "confirm_registration_link": "https://voterlookup.ohiosos.gov/voterlookup.aspx"
   },
   "ok": {
@@ -573,9 +573,9 @@
     "translationKey": "Utah",
     "type": "register",
     "hp_link": "https://elections.utah.gov/",
-    "registration_link": "https://secure.utah.gov/voterreg/index.html",
+    "registration_link": "https://secure.utah.gov/voterreg/login.html?selection=REGISTER",
     "more_info_link": "https://voteinfo.utah.gov/",
-    "confirm_registration_link": "https://vote.utah.gov/"
+    "confirm_registration_link": "https://votesearch.utah.gov/voter-search/search/search-by-voter/voter-info"
   },
   "vt": {
     "state_name": "Vermont",
@@ -610,7 +610,7 @@
     "type": "register",
     "hp_link": "https://www.vivote.gov/voters/register-to-vote/",
     "more_info_link": "https://www.vivote.gov/voters/register-to-vote/",
-    "confirm_registration_link": "https://www.vivote.gov/voters/voter-lookup/"
+    "confirm_registration_link": "https://vivote.gov/voters/lookup/"
   },
   "wa": {
     "state_name": "Washington",
