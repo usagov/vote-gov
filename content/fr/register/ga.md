@@ -12,7 +12,7 @@ more_info_link = "https://registertovote.sos.ga.gov/GAOLVR/welcome.do#no-back-bu
 confirm_registration_link = "https://mvp.sos.ga.gov/s/"
 default_ip_deadline = "29 jours avant le Jour des élections"
 default_online_deadline = "29 jours avant le Jour des élections"
-default_mail_postmarked_deadline = "Envoyez votre inscription au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+default_mail_postmarked_deadline = "envoyez votre inscription au plus tard 29 jours avant le Jour des élections avec un cachet de la poste faisant foi"
 in_state_name = "en %state_name%"
 of_state_name = "de la %state_name%"
 

@@ -12,7 +12,7 @@ more_info_link = "https://www.ncsbe.gov/registering/how-register"
 confirm_registration_link = "https://vt.ncsbe.gov/RegLkup/"
 default_ip_deadline = "L'inscription le jour même disponible pendant la période de vote anticipé"
 default_online_deadline = "25 jours avant le Jour des élections"
-default_mail_postmarked_deadline = "Envoyez votre inscription au plus tard 25 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+default_mail_postmarked_deadline = "envoyez votre inscription au plus tard 25 jours avant le Jour des élections avec un cachet de la poste faisant foi"
 in_state_name = "en %state_name%"
 of_state_name = "de la %state_name%"
 

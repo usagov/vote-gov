@@ -12,7 +12,7 @@ more_info_link = "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vo
 confirm_registration_link = "https://myinfo.alabamavotes.gov/VoterView/RegistrantSearch.do"
 default_ip_deadline = "15 jours avant le Jour des élections"
 default_online_deadline = "15 jours avant le Jour des élections"
-default_mail_postmarked_deadline = "Envoyez votre inscription au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi"
+default_mail_postmarked_deadline = "envoyez votre inscription au plus tard 15 jours avant le Jour des élections avec un cachet de la poste faisant foi"
 in_state_name = "en %state_name%"
 of_state_name = "de l'%state_name%"
 
