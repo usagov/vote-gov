@@ -17,7 +17,7 @@
 
   "as": {
     "default_ip_deadline": "29 jours avant le Jour des élections",
-    "default_mail_received_deadline": "Doit être reçu au plus tard 29 jours avant le Jour des élections",
+    "default_mail_received_deadline": "votre inscription doit être reçue au plus tard 29 jours avant le Jour des élections",
     "in_state_name": "aux %state_name%",
     "of_state_name": "des %state_name%"
   },
