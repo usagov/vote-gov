@@ -9,7 +9,6 @@ const stylelint = require("stylelint");
 gulp.task('scss-lint', async function lintSass(callback) {
   if (process.env.NODE_ENV === 'production') {
     log(colors.cyan('scss-lint'), 'Disabling linting');
-    return done();
   }
   else {
       const { errored, output } = await stylelint.lint({
