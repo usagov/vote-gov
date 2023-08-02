@@ -67,9 +67,8 @@
     "eslint-plugin-import": "^2.25.4",
     "gulp-eslint": "^6.0.0",
     "gulp-sourcemaps": "^3.0.0",
-    "gulp-stylelint": "^13.0.0",
     "hugo-bin": "^0.95.0",
-    "stylelint": "^13.13.1",
-    "stylelint-scss": "^3.19.0"
+    "stylelint": "^15.10.1",
+    "stylelint-config-standard-scss": "^10.0.0"
   }
 }

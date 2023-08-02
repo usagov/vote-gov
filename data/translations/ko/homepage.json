@@ -13,7 +13,7 @@
   "state_selection__submit": "유권자 등록 방법 안내 ",
   "registered__header": "이미 등록하셨습니까?",
   "registered__resources_intro": "%USA.gov% 사이트에서 %link% 정보를 검색하십시오",
-  "registered__resources_link_text": "투표 및 선거 관련 리소스",
+  "registered__resources_link_text": "투표 및 선거 관련 리소스 (영어로 제공)",
   "registered__resources_link_url": "https://www.usa.gov/voting",
   "registered_links__electionday": "선거 당일 투표하기 (영어로 제공)",
   "registered_links__electionday_url": "https://www.usa.gov/election-day",
