@@ -10,8 +10,8 @@ Vous devrez mettre à jour votre inscription en indiquant votre nouvelle adresse
 
 #### Déménagement à un autre État
 
-Certains États exigent que vous viviez dans votre nouvel État pendant au moins 30 jours avant de pouvoir vous inscrire au vote. Votre ancien État peut vous permettre de voter par courrier ou en personne si vous ne pouvez pas vous inscrire dans votre nouvel État avant le jour de vote. Votre ancien État doit vous permettre de voter par correspondance ou en personne pour les années d'élection présidentielle. Ensuite, vous devrez vous inscrire dans votre nouvel État.
+Certains États exigent que vous viviez dans votre nouvel État pendant au moins 30 jours avant de pouvoir vous inscrire au vote. Votre ancien État peut vous permettre de voter par courrier ou en personne si vous ne pouvez pas vous inscrire dans votre nouvel État avant le jour de vote. Votre ancien État doit vous permettre de voter par courrier ou en personne pour les années d'élection présidentielle. Ensuite, vous devrez vous inscrire dans votre nouvel État.
 
 #### Déménagement à l’étranger
 
-Les citoyens américains vivant en dehors des États-Unis peuvent s'inscrire pour voter et peuvent demander un bulletin de vote par correspondance en remplissant la [Demande de carte postale fédérale (FPCA) {{< inenglish >}}](https://www.fvap.gov/eo/overview/materials/forms). Consultez le [Programme fédéral d'aide au vote (FVAP) {{< inenglish >}}](https://www.fvap.gov/) pour plus de ressources sur le vote militaire et le vote à l'étranger.
+Les citoyens américains vivant en dehors des États-Unis peuvent s’inscrire pour voter et peuvent demander un bulletin de vote par courrier en remplissant la [Demande de carte postale fédérale (FPCA) {{< inenglish >}}](https://www.fvap.gov/eo/overview/materials/forms). Consultez le [Programme fédéral d'aide au vote (FVAP) {{< inenglish >}}](https://www.fvap.gov/) pour plus de ressources sur le vote militaire et le vote à l'étranger.
