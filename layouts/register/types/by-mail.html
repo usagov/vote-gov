@@ -7,7 +7,12 @@
 
 <h2>{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}</h2>
 
+{{ if isset .Params "of_state_name" }}
+{{ $of_state_name := ( replace .Params.of_state_name "%state_name%" .Params.state_name ) }}
+<p>{{ replace $by_mail_intro "%of_state_name%" $of_state_name | safeHTML }}</p>
+{{ else }}
 <p>{{ replace $by_mail_intro "%state_name%" .Params.state_name | safeHTML }}</p>
+{{ end }}
 
 {{ partial "deadlines.html" . }}
 {{ partial "NVRF-download-tool.html" . }}

@@ -6,12 +6,20 @@
 <!-- unique state meta data variables -->
 {{ $meta_title__register := replace $translation.register.state_heading "%state_name%" .Params.state_name }}
 {{ if and (isset $translation.register "state_heading_territory") (eq .Params.is_state "false") }}
-  {{ $meta_title__register := replace $translation.register.state_heading_territory "%state_name%" .Params.state_name }}
+  {{ $meta_title__register = replace $translation.register.state_heading_territory "%state_name%" .Params.state_name }}
 {{ end }}
 
 {{ $meta_description__register := replace $translation.register.meta_name "%state_name%" .Params.state_name }}
 {{ if and (isset $translation.register "meta_name_territory") (eq .Params.is_state "false") }}
-  {{ $meta_title__register := replace $translation.register.meta_name_territory "%state_name%" .Params.state_name }}
+  {{ $meta_title__register = replace $translation.register.meta_name_territory "%state_name%" .Params.state_name }}
+{{ end }}
+
+
+<!--use alternative strings for "in state name"-->
+{{ $in_state_name := replace .Params.in_state_name "%state_name%" .Params.state_name }}
+{{ if isset .Params "in_state_name" }}
+  {{ $meta_title__register = replace $translation.register.state_heading "%in_state_name%" $in_state_name }}
+  {{ $meta_description__register = replace $translation.register.meta_name "%in_state_name%" $in_state_name }}
 {{ end }}
 
 <!-- check if override meta data is available in front matter, if not use page title and description -->
@@ -19,8 +27,8 @@
 {{ $meta_description := .Params.meta_description | default .Site.Params.meta__description }}
 
 <!-- check if page type is "register" and use STATE meta data else use DEFAULT meta data -->
-{{ $meta_title := cond (eq .Type "register") $meta_title__register $meta_title }}
-{{ $meta_description := cond (eq .Type "register") $meta_description__register $meta_description }}
+{{ $meta_title = cond (eq .Type "register") $meta_title__register $meta_title }}
+{{ $meta_description = cond (eq .Type "register") $meta_description__register $meta_description }}
 
 
 <!doctype html>
