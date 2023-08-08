@@ -152,7 +152,7 @@
     "languageName": "Русский",
     "weight": 14,
     "params" : {
-      "Owner": "%Vote.gov% in Русский",
+      "Owner": "%Vote.gov% по-русски",
       "language_direction": "ltr",
       "publishDir": "tmp/public/ru",
       "register_path": "register",
