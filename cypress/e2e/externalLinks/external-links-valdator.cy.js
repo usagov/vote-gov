@@ -4,7 +4,7 @@ const allPages = require("../../fixtures/site-pages.json");
 
 const excludedlinks = [
   'https://voterregistration.ct.gov/OLVR/welcome.do?ref=voteusa_es',
-  'https://voterregistration.ct.gov/OLVR/welcome.do',
+  'https://voterregistration.ct.gov/OLVR/welcome.do?ref=voteusa_en'
     // the above link will throw error code "read ECONNRESET" this will not pass through cypress test and has been checked manually
 ];
 
