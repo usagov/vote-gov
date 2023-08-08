@@ -2,6 +2,29 @@
   display: flex;
   justify-content: flex-end;
   padding: 0.5rem 1rem 0.5rem 0;
+  .usa-button {
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.usa-language__submenu {
+  padding: 20px;
+  width: auto;
+  border-radius: 3px;
+  white-space: nowrap;
+  @media (max-width: 768px) {
+    overflow: scroll;
+    height: 80vh;
+  }
+  @media (min-width: 768px) {
+    columns: 2 auto;
+  }
+}
+.usa-language__submenu-item {
+  padding: 8px;
+  border: unset;
 }
 
 .switcher-desktop {
@@ -23,8 +46,8 @@ li.usa-language__submenu-item[data-lang="lang-nv"] {
 
 .usa-language__primary-item:last-of-type .usa-language__submenu {
   [dir="rtl"] & {
+    position: absolute;
     right: unset;
     left: 0;
-    padding-right: 0;
   }
 }
