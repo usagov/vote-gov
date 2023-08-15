@@ -17,7 +17,7 @@
       {{ range .AllTranslations }}
         <li class="usa-language__submenu-item" data-lang="lang-{{ .Language.Lang | replaceRE "-[a-z]+" "" }}">
           <a href="{{ .Permalink | relURL }}" title="{{ .Permalink | relURL }}"><span lang="{{ .Language.Lang | replaceRE "-[a-z]+" "" }}"
-            xml:lang="{{ .Language.Lang | replaceRE "-[a-z]+" "" }}"><strong>{{ .Language.LanguageName }} {{ if not (eq .Site.Params.english_languageName "") }}({{ .Site.Params.english_languageName }}){{ end }}</strong></span></a>
+            xml:lang="{{ .Language.Lang | replaceRE "-[a-z]+" "" }}"><strong>{{ .Language.LanguageName }}</strong> {{ if not (eq .Site.Params.english_languageName "") }}({{ .Site.Params.english_languageName }}){{ end }}</span></a>
         </li>
       {{ end }}
       </ul>

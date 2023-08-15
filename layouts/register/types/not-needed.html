@@ -4,7 +4,14 @@
 {{ $dates__electionday := .Params.dates__electionday | default $translation.register.dates__electionday }}
 
 <h2>{{ replace $translation.register.heading2 "%state_name%" .Params.state_name }}</h2>
+{{ if isset .Params "of_state_name" }}
+{{ $of_state_name := ( replace .Params.of_state_name "%state_name%" .Params.state_name ) }}
+{{ $in_state_name := ( replace .Params.in_state_name "%state_name%" .Params.state_name ) }}
+{{ $not_needed_intro = replace $not_needed_intro "%in_state_name%" $in_state_name }}
+<p>{{ replace $not_needed_intro "%of_state_name%" $of_state_name | safeHTML }}</p>
+{{ else }}
 <p>{{ replace $not_needed_intro "%state_name%" .Params.state_name | safeHTML }}</p>
+{{ end }}
 
 {{ partial "deadlines.html" . }}
 
