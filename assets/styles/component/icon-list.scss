@@ -1,0 +1,53 @@
+@use 'uswds-utilities' as *;
+@use '../variables' as *;
+@use '../mixins' as *;
+
+.icon-list-item {
+  @include grid-row;
+  @include grid-gap;
+
+  .usa-prose > h2 + &,
+  * + & {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+  &__icon {
+    max-width: 136px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include at-media('tablet') {
+      @include grid-col(3);
+
+      max-width: none;
+    }
+  }
+
+  &__text {
+    @include at-media-max('tablet') {
+      .icon-list-item__icon + & {
+        margin-top: 1.8rem;
+      }
+    }
+
+    @include at-media('tablet') {
+      @include grid-col;
+
+      *:first-child {
+        margin-top: 0;
+      }
+    }
+
+    > h3 {
+      @include u-font-family('sans');
+
+      font-size: 26px;
+    }
+
+    .voter-info & * + p,
+    * + * {
+      margin-top: 1em;
+    }
+  }
+}

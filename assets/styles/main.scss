@@ -5,6 +5,7 @@ $theme-show-notifications: false,
 
 @forward "uswds-core";
 @forward "uswds-global";
+@forward "uswds-utilities";
 
 // Components ------------ //
 
@@ -29,6 +30,7 @@ $theme-show-notifications: false,
 @forward 'component/buttons';
 @forward 'component/header';
 @forward 'component/hero';
+@forward 'component/icon-list';
 
 @forward 'pages/homepage';
 @forward 'pages/state-page';

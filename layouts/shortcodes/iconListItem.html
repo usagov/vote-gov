@@ -1,0 +1,14 @@
+{{ $src := .Get "icon" }}
+{{ $alt := .Get "icon-alt" }}
+{{ $baseurl := .Site.BaseURL }}
+<div class="icon-list-item">
+  {{ with $src }}
+    <div class="icon-list-item__icon"><img src="{{ $baseurl }}/assets/img/nvrf/{{ . }}" alt="{{ $alt }}"/></div>
+  {{ end }}
+  <div class="icon-list-item__text usa-prose">
+    {{ with .Get "title" }}
+      <h3>{{ . }}</h3>
+    {{ end }}
+    <p>{{ .Inner }}</p>
+  </div>
+</div>
