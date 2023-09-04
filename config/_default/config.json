@@ -26,7 +26,8 @@
     },
     "globalURL": {
       "about_link": "/about-us/",
-      "sitemap_link": "/sitemap/"
+      "sitemap_link": "/sitemap/",
+      "accessibility_link": "/accessibility/"
     },
     "sitewide_alert": false
   }
