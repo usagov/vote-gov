@@ -6,7 +6,7 @@ describe('Test the site contact/identifier footer on site',() => {
   })
 
   it("Validate that contact component is present", () =>{
-    cy.get('[data-test="footer-contact"]').should('not.be.visible')
+    cy.get('[data-test="footer-contact"]').should('be.visible')
   })
 
   it("Validate that the identifier links are working as expected", () =>{
