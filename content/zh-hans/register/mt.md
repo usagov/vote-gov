@@ -8,7 +8,7 @@ translationKey = "Montana"
 type = "register"
 hp_link = "https://sosmt.gov/elections/"
 more_info_link = "https://sosmt.gov/elections/vote/"
-confirm_registration_link = "https://sosmt.gov/elections/vote/"
+confirm_registration_link = "https://prodvoterportal.mt.gov/WhereToVote.aspx"
 default_ip_deadline = "直到选举日 (包括选举日) 都可以使用"
 default_mail_postmarked_deadline = "必须在选举日前 30 天盖上邮戳"
 

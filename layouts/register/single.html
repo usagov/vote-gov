@@ -18,11 +18,18 @@
         <div id="skip-target" class="tablet:grid-col-8 right-shift">
           <div class="align-bottom">
             <h1 class="main-heading" data-test="main-header">
-             <!--if the page is in Korean, and the state is a territory, do not show the Korean "state" character-->
+              <!--if the page is in Korean, and the state is a territory, do not show the Korean "state" character-->
               {{ if and (isset $translation.register "heading_territory") (eq .Params.is_state "false") }}
                 {{ replace $translation.register.heading_territory "%state_name%" .Params.state_name }}
               {{ else }}
+              <!--use alternative strings for "in state name"-->
+              {{ if isset .Params "in_state_name" }}
+                {{ $in_state_name := ( replace .Params.in_state_name "%state_name%" .Params.state_name ) }}
+                {{ replace $translation.register.heading "%in_state_name%" $in_state_name }}
+              {{ else }}
                 {{ replace $translation.register.heading "%state_name%" .Params.state_name }}
+              {{ end }}
+
               {{ end }}
             </h1>
           </div>

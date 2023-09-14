@@ -4,24 +4,22 @@ var colors = require('ansi-colors');
 var scss = require('gulp-dart-scss');
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
+const stylelint = require("stylelint");
 
-
-gulp.task('scss-lint', function (done) {
+gulp.task('scss-lint', async function lintSass(callback) {
   if (process.env.NODE_ENV === 'production') {
     log(colors.cyan('scss-lint'), 'Disabling linting');
-    return done();
   }
   else {
-    var gulpStylelint = require('gulp-stylelint');
-
-    return gulp.src('./assets/styles/**/*.scss')
-      .pipe(gulpStylelint({
-        configFile: './.stylelintrc.json',
-        failAfterError: false,
-        reporters: [{formatter: "string", console: true}]
-      }));
+      const { errored, output } = await stylelint.lint({
+        files: [
+          `./assets/styles/**/*.scss`,
+        ],
+        formatter: "string",
+      });
+    
+      callback(errored ? new Error(output) : null);
   }
-
 });
 
 gulp.task('styles', gulp.series('scss-lint', function () {
