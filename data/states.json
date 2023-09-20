@@ -643,9 +643,9 @@
     "registration_type": "online",
     "translationKey": "Wisconsin",
     "type": "register",
-    "hp_link": "https://elections.wi.gov/elections-voting",
+    "hp_link": "https://elections.wi.gov/voters",
     "registration_link": "https://myvote.wi.gov/en-us/RegisterToVote",
-    "more_info_link": "https://elections.wi.gov/voters/first-time",
+    "more_info_link": "https://elections.wi.gov/Register",
     "confirm_registration_link": "https://myvote.wi.gov/en-us/MyVoterInfo"
   },
   "wy": {

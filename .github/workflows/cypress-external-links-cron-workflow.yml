@@ -15,14 +15,14 @@ jobs:
 
     steps:
       - name: Checkout code on main.
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with: 
           ref: master
 
       - name: Install node.js.
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '18'
 
       - name: Install NPM dependencies.
         run: npm install
