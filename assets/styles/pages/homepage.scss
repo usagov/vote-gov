@@ -60,3 +60,57 @@
     color: $color-blue-dark;
   }
 }
+
+.usa-combo-box__input-button-separator {
+  background-color: #c6cace;
+  top: 1px;
+  height: calc(100% - 1rem);
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  width: 1px;
+  right: calc(2.5em + 2px);
+  box-sizing: border-box;
+  z-index: 200;
+}
+
+.state-search {
+  button, [type=button], [type=reset], [type=submit] {
+    all: unset;
+  }  
+}
+
+.input-buttons-group {
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+
+  input {
+    border-width: 1px;
+    border-color: #5c5c5c;
+    border-style: solid;
+    border-radius: 0;
+    color: #1b1b1b;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    max-width: 30rem;
+    padding: 0.5rem;
+    width: 100%;
+  }
+
+  button {
+    background-color: transparent;
+    height: 80%;
+    aspect-ratio: 1;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    border: none;
+    border-bottom: 1px 0 solid black;
+  }
+
+  .reset-btn {
+    margin-right: 40px;
+    border-right: 1px solid black;
+  }
+
+}
