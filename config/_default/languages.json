@@ -80,7 +80,7 @@
       "select_language": " %dropdown-list% اختر اللغة",
       "english_languageName": "Arabic",
       "ext_link_title": "رابط خارجي يفتح نافذة جديدة"
-      
+
     }
   },
   "hi": {
@@ -291,7 +291,7 @@
       "last_updated": "Ak44'di n1zk'33z: ",
       "select_language": "Saad choid77['88[7g77",
       "english_languageName": "Navajo",
-      "translation_outdated": true,
+      "translation_outdated": false,
       "ext_link_title": "External link opens new window"
     }
   },
@@ -355,7 +355,6 @@
       "select_language": "Selecionar a língua",
       "english_languageName": "Portuguese",
       "ext_link_title": "Links externos abrem novas páginas web"
-
     }
   }
 }

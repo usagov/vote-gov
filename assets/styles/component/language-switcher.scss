@@ -39,11 +39,6 @@
   }
 }
 
-// Hide Navajo translation temporarily.
-li.usa-language__submenu-item[data-lang="lang-nv"] {
-  display: none;
-}
-
 .usa-language__primary-item:last-of-type .usa-language__submenu {
   [dir="rtl"] & {
     position: absolute;
