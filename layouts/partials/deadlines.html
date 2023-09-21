@@ -45,7 +45,7 @@
 {{ if $confirm_registration_link }}
 {{ if not (in .Params.registration_type "not-needed") }}
 <header>
-  <h2>{{ $translation.register.confirm_registration__heading }}</h2>
+  <h2>{{ replace $translation.register.confirm_registration__heading "%state_name%" .Params.state_name | safeHTML }}</h2>
 </header>
 
 {{ $confirm_registration__intro := $translation.register.confirm_registration__intro }}
