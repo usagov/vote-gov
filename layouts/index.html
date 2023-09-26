@@ -30,6 +30,7 @@
 
               <form id="state-combo-box">
                 <h2>{{ $translation.homepage.state_selection__heading }}</h2>
+                <div class="registration-tool">
                 <div class="input-buttons-group">
                 <input class="state-input" list="states" id="state-input" autocomplete="off" 
                   onfocus="stateListVisible()" onblur="stateListVisible()" onkeyup="filterStateList()">
@@ -41,16 +42,17 @@
                     <span class="btn-divider"></span>
                   </div>
                 </div>
-                <div id="filtered-states-list" class="usa-language__submenu" style="display: none;">
-                    <ul id="state-list-results" class="usa-language__submenu__list">
-                      {{ $states := where .Site.RegularPages.ByTitle "Section" .Site.Params.register_path }}
-                      {{ range ($states.ByParam "state_name") }}
-                      <li class="usa-language__submenu-item">
-                        <a key="{{ .Params.state_abbreviation | lower }}" href="">{{ .Params.state_name }}</a>
-                      </li>
-                    {{ end }}
-                    </ul>
+                <div id="results-container" style="display: none;">
+                  <ul id="results-list">
+                    {{ $states := where .Site.RegularPages.ByTitle "Section" .Site.Params.register_path }}
+                    {{ range ($states.ByParam "state_name") }}
+                    <li >
+                      <a key="{{ .Params.state_abbreviation | lower }}" href="">{{ .Params.state_name }}</a>
+                    </li>
+                  {{ end }}
+                  </ul>
                 </div>
+              </div>
               </form>
 
             </section>
@@ -107,24 +109,11 @@
   <!-- Footer END -->
 
   <script type="text/javascript">
-    document.getElementById('register').onsubmit = function (ev) {
-      var stateSelected = document.getElementById('js-user-selection').value;
-      if (stateSelected === 'default') {
-        return false;
-      } else {
-        ev.preventDefault();
-        // var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}register/';
-        var redirectURL = '{{ .Site.Home.RelPermalink }}{{ .Site.Params.register_path }}/';
-        redirectURL = redirectURL + stateSelected + '/';
-        window.location.href = redirectURL;
-      }
-    };
-
     function filterStateList() {
       var input, filter, ul, li, a, i, txtValue;
       input = document.getElementById("state-input");
       filter = input.value.toUpperCase();
-      ul = document.getElementById("state-list-results");
+      ul = document.getElementById("results-list");
       li = ul.getElementsByTagName("li");
       for (i = 0; i < li.length; i++) {
           a = li[i].getElementsByTagName("a")[0];
@@ -138,7 +127,7 @@
     }
 
     function stateListVisible() {
-      var x = document.getElementById("filtered-states-list");
+      var x = document.getElementById("results-container");
       if (x.style.display === "none") {
         x.style.display = "block";
       } else {
