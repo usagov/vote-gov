@@ -61,6 +61,10 @@
   }
 }
 
+#state-combo-box {
+  margin-bottom: 50px;
+}
+
 .usa-combo-box__input-button-separator {
   background-color: #c6cace;
   top: 1px;
@@ -73,10 +77,14 @@
   z-index: 200;
 }
 
-.state-search {
-  button, [type=button], [type=reset], [type=submit] {
-    all: unset;
-  }  
+.usa-language__submenu {
+  columns: 3 auto;
+}
+
+.usa-language__submenu__list {
+  list-style: none;
+  white-space: normal;
+  margin-top: 0;
 }
 
 .input-buttons-group {
@@ -109,8 +117,31 @@
   }
 
   .reset-btn {
-    margin-right: 40px;
-    border-right: 1px solid black;
+    margin-right: 29px;
+    background-image: url(../img/usa-icons/close.svg),linear-gradient(transparent,transparent);
+    background-repeat: no-repeat;
+    margin-bottom: -6px;  
+    fill: #5c5c5c;
+  }
+
+  .dropdown-btn {
+    background-image: url(../img/usa-icons/expand_more.svg),linear-gradient(transparent,transparent);
+    background-repeat: no-repeat;
+    background-size: auto 2.3rem;
+    fill: #5c5c5c;
+    }
+
+  .btn-divider {
+    background-color: #c6cace;
+    position: absolute;
+    top: 8%;
+    height: calc(100% - 1rem);
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    width: 1px;
+    right: 37px;
+    box-sizing: border-box;
+    z-index: 200;
   }
 
 }
