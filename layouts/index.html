@@ -44,7 +44,7 @@
                     {{ $states := where .Site.RegularPages.ByTitle "Section" .Site.Params.register_path }}
                     {{ range ($states.ByParam "state_name") }}
                     <li >
-                      <a key="{{ .Params.state_abbreviation | lower }}" href="">{{ .Params.state_name }}</a>
+                      <a key="{{ .Params.state_abbreviation | lower }}" href="{{ .Site.Home.RelPermalink }}{{ .Site.Params.register_path }}/{{ .Params.state_abbreviation | lower }}/">{{ .Params.state_name }}</a>
                     </li>
                   {{ end }}
                   </ul>
