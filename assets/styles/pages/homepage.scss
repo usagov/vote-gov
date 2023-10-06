@@ -148,15 +148,10 @@
 
 #results-container {
   background-color: #1C2D4E;
-  padding: 30px 30px 24px 30px;
   border-radius: 5px;
   border-top-left-radius: 0px;
   color: white;
   columns: 3;
-  column-fill: auto;
-  min-width: 600px;
-  min-height: 860px;
-  max-height: 850px;
   position: absolute;
   z-index: 400;
 
@@ -179,7 +174,10 @@
       font-weight: 600;
       font-size: 16px;
       color:#FFF;  
-      padding-bottom: 24px;
+      padding-bottom: 15px;
+      padding-top: 25px;
+      padding-left: 30px;
+      overflow: auto;
       
       a {
         color: white;

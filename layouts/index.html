@@ -32,7 +32,7 @@
                 <h2>{{ $translation.homepage.state_selection__heading }}</h2>
                 <div class="input-buttons-group">
                 <input class="state-input" list="states" id="state-input" autocomplete="off" 
-                  onclick="stateListVisible('input click')" onkeyup="filterStateList()">
+                  onclick="stateListVisible('input click')" onkeyup="filterStateList(), noResults()">
                   <div class="input-control-container">
                     <button class="reset-btn" type="reset" alt="Clear the search form" onclick="filterStateList('reset')"></button>
                     <button class="dropdown-btn" type="button" onclick="stateListVisible('button click')"></button>
@@ -128,8 +128,7 @@
       }
     }
 
-    function stateListVisible(type) {
-      console.log('handle visible: ', type)
+    function stateListVisible() {
       var x = document.getElementById("results-container");
       if (x.style.display === "none") {
         x.style.display = "block";
