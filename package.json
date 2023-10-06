@@ -52,15 +52,15 @@
     "gulp-rename": "^2.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-webp": "^4.0.1",
-    "postcss": "^8.4.19",
+    "postcss": "^8.4.31",
     "sass": "^1.56.1",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },
   "devDependencies": {
     "axe-core": "^4.5.2",
-    "cypress": "^10.8.0",
-    "cypress-axe": "^1.0.0",
+    "cypress": "^13.2.0",
+    "cypress-axe": "^1.5.0",
     "eslint": "^8.28.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-cypress": "^2.12.1",
