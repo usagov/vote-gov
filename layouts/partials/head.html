@@ -66,21 +66,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {{ if .IsHome }}
 <!--  HOME -->
   <title>{{ .Site.Title }} | {{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</title>
-  <meta name="description" content="{{ .Site.Params.meta__description }}"/>
+  <meta name="description" property="og:description" content="{{ .Site.Params.meta__description }}"/>
   <meta name="title" property="og:title" content="{{ .Site.Params.meta__title }}"/>
   <meta property="twitter:title" content="{{ .Site.Params.meta__title }}"/>
-
-  <meta name="description" property="og:description" content="{{ .Site.Params.meta__description }}"/>
   <meta property="twitter:description" content="{{ .Site.Params.meta__description }}"/>
 
   {{ else }}
 <!--  NODE -->
   <title>{{ $meta_title }} | {{ replace .Site.Params.Owner "%Vote.gov%" "Vote.gov" }}</title>
-  <meta name="description" content="{{ $meta_description }}" />
+  <meta name="description" property="og:description" content="{{ $meta_description }}" />
   <meta property="og:title" content="{{ $meta_title }}" />
   <meta property="twitter:title" content="{{ $meta_title }}" />
-
-  <meta property="og:description" content="{{ $meta_description }}" />
   <meta property="twitter:description" content="{{ $meta_description }}" />
   {{ end }}
   <meta property="og:type" content="website"/>
