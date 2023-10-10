@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>National Voter Registration Form Prototype | Vote.gov</title>
+  <meta name="description" content="Vote.gov is a United States government website that provides trusted voting information and can help you find voter registration rules for your state." />
+  <meta property="og:title" content="About Us" />
+  <meta property="twitter:title" content="About Us" />
+
+  <meta property="og:description" content="Vote.gov is a United States government website that provides trusted voting information and can help you find voter registration rules for your state." />
+  <meta property="twitter:description" content="Vote.gov is a United States government website that provides trusted voting information and can help you find voter registration rules for your state." />
+
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="/about-us/"/>
+  <meta name="image" property="og:image" content="theme/assets/img/ballot-box-OG.png"/>
+  <meta property="twitter:image" content="theme/assets/img/ballot-box-OG.png"/>
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@votegov">
+  <meta name="twitter:widgets:autoload" content="off">
+  <meta name="twitter:dnt" content="on">
+  <meta name="twitter:widgets:csp" content="on">
+  <link rel="me" href="https://twitter.com/votegov">
+  <link rel="canonical" href="/about-us/"/>
+
+
+
+  <link rel="shortcut icon" type="image/ico" href="theme/assets/img/favicon.ico"/>
+  <link rel="icon" type="image/png" href="theme/assets/img/favicon.png"/>
+
+
+  <link rel="icon" type="image/png" sizes="192x192" href="theme/assets/img/favicon-192.png"/>
+
+
+  <link rel="apple-touch-icon" href="theme/assets/img/favicon-57.png">
+
+  <link rel="apple-touch-icon" sizes="72x72" href="theme/assets/img/favicon-72.png">
+
+  <link rel="apple-touch-icon" sizes="114x114"
+        href="theme/assets/img/favicon-114.png">
+
+  <link rel="apple-touch-icon" sizes="144x144"
+        href="theme/assets/img/favicon-144.png">
+
+  <link rel="stylesheet" href="theme/assets/styles/main.css">
+
+
+
+
+  <script type="module" crossorigin src="./assets/index-49a2ab6d.js"></script>
+  <link rel="stylesheet" href="./assets/index-87a4c664.css">
+</head>
+
+
+<body class="page-basic">
+
+<dialog id="loginDialog" data-enabled="true" style="width: 480px; border: 0; border-radius: 0.5rem; padding: 1.5rem;">
+  <form class="usa-form" style="max-width: none;">
+    <h2>Sign in</h2>
+    <p>This prototype is restricted to authenticated users.</p>
+    <div id="loginError" class="usa-alert usa-alert--error usa-alert--slim" role="alert" style="border-left-color: #d54309;" hidden>
+      <div class="usa-alert__body">
+        <p class="usa-alert__text">
+          <strong>Error</strong>: Please enter valid username and password.
+        </p>
+      </div>
+    </div>
+    <p>
+      <label for="loginUser" class="usa-label">Username*</label><input class="usa-input" id="loginUser" name="loginUser" required="true" type="text"/>
+    </p>
+    <p>
+      <label for="loginPass" class="usa-label">Password*</label><input class="usa-input" id="loginPass" name="loginPass" required="true" type="password"/>
+    </p>
+    <div>
+      <button id="loginConfirm" value="default" class="usa-button">Confirm</button>
+    </div>
+  </form>
+</dialog>
+<div id="protoContainer" hidden>
+  <a class="usa-skipnav" href="#skip-target" onclick="document.getElementById('skip-target').focus();">Skip to main content</a>
+  <header class="usa-header" role="banner">
+
+    <section class="usa-banner" aria-label="Official government website">
+      <div class="usa-accordion">
+        <div class="usa-banner__header">
+          <div class="usa-banner__inner">
+            <div class="banner__text-container grid-row">
+              <div class="grid-col-auto">
+                <img class="usa-banner__header-flag" width="16" height="11" loading="lazy" src="theme/assets/img/us_flag_small.webp" alt="U.S. flag">
+              </div>
+              <div class="grid-col-fill tablet:grid-col-auto">
+                <div class="usa-banner__header-text">An official website of the United States government</div>
+                <div class="usa-banner__header-action" aria-hidden="true">Here’s how you know</div>
+              </div>
+              <button type="button" class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+                <span class="usa-banner__button-text">Here’s how you know</span>
+              </button>
+            </div>
+
+            <div class="switcher-desktop">
+
+
+
+              <div class="usa-language-container usa-language--big">
+
+                <ul class="usa-language__primary usa-accordion">
+                  <li class="usa-language__primary-item">
+                    <button class="usa-button usa-language__link" data-test="language-button" role="button" aria-expanded="false"
+                            aria-controls="language-options">
+                      Select Language
+                    </button>
+                    <ul id="language-options" class="usa-language__submenu" data-test="language-switcher" name="language-switcher" hidden="true">
+
+                      <li class="usa-language__submenu-item">
+                        <a href="https://vote.gov/" title="https://vote.gov/"><span lang="en"
+                                                                                    xml:lang="en"><strong>English </strong></span></a>
+                      </li>
+
+                    </ul>
+                  </li>
+                </ul>
+
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+        <div class="usa-banner__content usa-accordion__content" id="gov-banner" hidden>
+          <div class="grid-row grid-gap-lg">
+            <div class="usa-banner__guidance tablet:grid-col-6">
+              <img class="usa-banner__icon usa-media-block__img" loading="lazy" width="40" height="40" src="theme/assets/img/icon-dot-gov.svg"
+                   role="presentation" alt aria-hidden="true">
+              <div class="usa-media-block__body">
+                <p>
+                  <strong>Official websites use .gov</strong>
+                  <br />
+                  A <strong>.gov</strong> website belongs to an official government organization in the United States.
+                </p>
+              </div>
+            </div>
+            <div class="usa-banner__guidance tablet:grid-col-6">
+              <img class="usa-banner__icon usa-media-block__img" loading="lazy" width="40" height="40" src="theme/assets/img/icon-https.svg"
+                   role="presentation" alt aria-hidden="true">
+              <div class="usa-media-block__body">
+                <p>
+                  <strong>Secure .gov websites use HTTPS</strong>
+                  <br />
+                  A lock (<span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64"
+                                                       viewBox="0 0 52 64" class="usa-banner__lock-image">
+                    <path fill="#000000" fill-rule="evenodd"
+                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z">
+                    </path>
+                  </svg></span>) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <div class="switcher-mobile">
+
+
+
+      <div class="usa-language-container usa-language--big">
+
+        <ul class="usa-language__primary usa-accordion">
+          <li class="usa-language__primary-item">
+            <button class="usa-button usa-language__link" role="button" aria-expanded="false"
+                    aria-controls="language-options-1">
+              Select Language
+            </button>
+            <ul id="language-options-1" class="usa-language__submenu" data-test="language-switcher" name="language-switcher" hidden="true">
+
+              <li class="usa-language__submenu-item">
+                <a href="/about-us/" title="/about-us/"><span lang="en"
+                                                              xml:lang="en"><strong>English </strong></span></a>
+              </li>
+
+              <li class="usa-language__submenu-item">
+                <a href="/es/acerca-de-votegov/" title="/es/acerca-de-votegov/"><span lang="es"
+                                                                                      xml:lang="es"><strong>Español (Spanish)</strong></span></a>
+              </li>
+
+              <li class="usa-language__submenu-item">
+                <a href="/bn/about-us/" title="/bn/about-us/"><span lang="bn"
+                                                                    xml:lang="bn"><strong>বাংলা (Bengali)</strong></span></a>
+              </li>
+
+              <li class="usa-language__submenu-item">
+                <a href="/zh-hans/about-us/" title="/zh-hans/about-us/"><span lang="zh"
+                                                                              xml:lang="zh"><strong>中文 (Chinese - Simplified)</strong></span></a>
+              </li>
+
+              <li class="usa-language__submenu-item">
+                <a href="/zh/about-us/" title="/zh/about-us/"><span lang="zh"
+                                                                    xml:lang="zh"><strong>繁體中文 (Chinese - Traditional)</strong></span></a>
+              </li>
+
+              <li class="usa-language__submenu-item">
+                <a href="/hi/about-us/" title="/hi/about-us/"><span lang="hi"
+                                                                    xml:lang="hi"><strong>हिन्दी  (Hindi)</strong></span></a>
+              </li>
+
+              <li class="usa-language__submenu-item">
+                <a href="/km/about-us/" title="/km/about-us/"><span lang="km"
+                                                                    xml:lang="km"><strong>ភាសាខ្មែរ (Khmer)</strong></span></a>
+              </li>
+
+              <li class="usa-language__submenu-item">
+                <a href="/ko/about-us/" title="/ko/about-us/"><span lang="ko"
+                                                                    xml:lang="ko"><strong>한국어 (Korean)</strong></span></a>
+              </li>
+
+              <li class="usa-language__submenu-item">
+                <a href="/nv/about-us/" title="/nv/about-us/"><span lang="nv"
+                                                                    xml:lang="nv"><strong>Diné (Navajo)</strong></span></a>
+              </li>
+
+              <li class="usa-language__submenu-item">
+                <a href="/tl/about-us/" title="/tl/about-us/"><span lang="tl"
+                                                                    xml:lang="tl"><strong>Tagalog </strong></span></a>
+              </li>
+
+              <li class="usa-language__submenu-item">
+                <a href="/vi/about-us/" title="/vi/about-us/"><span lang="vi"
+                                                                    xml:lang="vi"><strong>Tiếng Việt (Vietnamese)</strong></span></a>
+              </li>
+
+              <li class="usa-language__submenu-item">
+                <a href="/ypk/about-us/" title="/ypk/about-us/"><span lang="ypk"
+                                                                      xml:lang="ypk"><strong>Yup&#39;ik </strong></span></a>
+              </li>
+
+            </ul>
+          </li>
+        </ul>
+
+      </div>
+
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <div class="bg-lightblue search-container">
+    <div class="grid-container">
+      <form class="usa-search usa-search--small search-bar" role="search" id="search_form"
+            action="https://search.vote.gov/search" accept-charset="UTF-8" method="get">
+        <input
+                type="hidden"
+                name="affiliate"
+                id="affiliate"
+                value="vote_en"
+                autocomplete="off"
+        />
+
+        <label class="usa-sr-only" for="search-field-en-small">Search Vote.gov </label>
+
+        <input
+                class="usa-input"
+                id="search-field-en-small"
+                type="search"
+                name="query"
+                autocomplete="off"
+                placeholder="Search Vote.gov "
+        />
+
+        <button class="usa-button" type="submit" name="commit" data-disable-with="Search">
+          <img
+                  src="theme/assets/img/usa-icons-bg/search--white.svg"
+                  class="usa-search__submit-icon"
+                  alt="Search Vote.gov "
+          />
+        </button>
+      </form>
+    </div>
+  </div>
+
+
+
+  <div id="main-content" role="main">
+    <div class="bg-blue css-arrow">
+      <div class="grid-container">
+        <div class="grid-row grid-gap">
+          <div class="tablet:grid-col-3">
+            <a class="site-logo" href="/" aria-label="Vote.gov">
+              <div class="logo-text">Vote.gov</div>
+              <div id="SiteLogo"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 170 210" width="200" height="247" enable-background="new 0 0 170 210" xml:space="preserve">
+<polygon fill="#112E51" points="26.6,131.1 10.8,156 82.4,203.1 154,156 138.2,131.1 "/>
+<polygon fill="#0071BC" points="82.4,17.1 14,61.5 14,151.3 82.4,196.3 150.7,151.3 150.7,61.5 "/>
+<polygon fill="#112E51" points="150.7,151.3 150.7,61.5 82.4,108.1 82.4,196.3 "/>
+<g>
+	<polygon fill="#112E51" points="66.8,97.5 14,97.5 14,99.5 69.8,99.5 	"/>
+  <polygon fill="#112E51" points="72.7,101.5 14,101.5 14,103.5 75.6,103.5 	"/>
+  <polygon fill="#112E51" points="61,93.5 14,93.5 14,95.5 63.9,95.5 	"/>
+  <polygon fill="#112E51" points="78.6,105.5 14,105.5 14,107.5 81.5,107.5 	"/>
+  <rect x="14" y="133.5" fill="#112E51" width="68.4" height="2"/>
+  <polygon fill="#112E51" points="49.2,85.5 14,85.5 14,87.5 52.2,87.5 	"/>
+  <rect x="14" y="117.5" fill="#112E51" width="68.4" height="2"/>
+  <rect x="14" y="121.5" fill="#112E51" width="68.4" height="2"/>
+  <rect x="14" y="125.5" fill="#112E51" width="68.4" height="2"/>
+  <rect x="14" y="129.5" fill="#112E51" width="68.4" height="2"/>
+  <rect x="14" y="109.5" fill="#112E51" width="68.4" height="2"/>
+  <polygon fill="#112E51" points="43.4,81.5 14,81.5 14,83.5 46.3,83.5 	"/>
+  <rect x="14" y="113.5" fill="#112E51" width="68.4" height="2"/>
+  <polygon fill="#112E51" points="55.1,89.5 14,89.5 14,91.5 58,91.5 	"/>
+  <polygon fill="#112E51" points="37.5,77.5 14,77.5 14,79.5 40.4,79.5 	"/>
+  <polygon fill="#112E51" points="31.6,73.5 14,73.5 14,75.5 34.5,75.5 	"/>
+  <polygon fill="#112E51" points="25.7,69.5 14,69.5 14,71.5 28.7,71.5 	"/>
+  <polygon fill="#112E51" points="14,61.5 14,63.5 16.9,63.5 	"/>
+  <polygon fill="#112E51" points="19.9,65.5 14,65.5 14,67.5 22.8,67.5 	"/>
+  <polygon fill="#112E51" points="82.4,189.5 72.1,189.5 75.1,191.5 82.4,191.5 	"/>
+  <polygon fill="#112E51" points="82.4,193.5 78.1,193.5 81.2,195.5 82.4,195.5 	"/>
+  <rect x="14" y="141.5" fill="#112E51" width="68.4" height="2"/>
+  <polygon fill="#112E51" points="82.4,153.5 17.3,153.5 20.4,155.5 82.4,155.5 	"/>
+  <polygon fill="#112E51" points="82.4,149.5 14,149.5 14,151.3 14.3,151.5 82.4,151.5 	"/>
+  <polygon fill="#112E51" points="82.4,185.5 66,185.5 69,187.5 82.4,187.5 	"/>
+  <polygon fill="#112E51" points="82.4,157.5 23.4,157.5 26.5,159.5 82.4,159.5 	"/>
+  <rect x="14" y="145.5" fill="#112E51" width="68.4" height="2"/>
+  <rect x="14" y="137.5" fill="#112E51" width="68.4" height="2"/>
+  <polygon fill="#112E51" points="82.4,161.5 29.5,161.5 32.5,163.5 82.4,163.5 	"/>
+  <polygon fill="#112E51" points="82.4,181.5 59.9,181.5 62.9,183.5 82.4,183.5 	"/>
+  <polygon fill="#112E51" points="82.4,165.5 35.6,165.5 38.6,167.5 82.4,167.5 	"/>
+  <polygon fill="#112E51" points="82.4,177.5 53.8,177.5 56.9,179.5 82.4,179.5 	"/>
+  <polygon fill="#112E51" points="82.4,173.5 47.7,173.5 50.8,175.5 82.4,175.5 	"/>
+  <polygon fill="#112E51" points="82.4,169.5 41.7,169.5 44.7,171.5 82.4,171.5 	"/>
+</g>
+<rect x="31.3" y="57.6" fill="#112E51" width="100.9" height="7.6"/>
+<g class="ballot">
+	<rect x="43.6" y="8.4" fill="#FFFFFF" width="78.5" height="69.3"/>
+  <path fill="#112E51" d="M94.6,54.4H70.4c-1,0-1.8-0.8-1.8-1.8V28.5c0-1,0.8-1.8,1.8-1.8h24.2c1,0,1.8,0.8,1.8,1.8v24.2
+		C96.4,53.6,95.6,54.4,94.6,54.4z M71.4,50.8H92V30.3H71.4V50.8z"/>
+  <g>
+		<path fill="#E31C3D" d="M84.9,48.2c-0.7,0-1.5-0.3-2.1-0.7l-8.2-6.4c-1.5-1.1-1.7-3.3-0.6-4.8c0.6-0.8,1.6-1.3,2.7-1.3
+			c0.8,0,1.5,0.2,2.1,0.7l5.7,4.4l19.9-22c0.6-0.7,1.6-1.1,2.5-1.1c0.8,0,1.6,0.3,2.3,0.9c1.4,1.3,1.5,3.4,0.2,4.8l-22,24.4
+			C86.8,47.8,85.9,48.2,84.9,48.2z"/>
+    <g>
+			<path fill="#FFFFFF" d="M107,18.1c0.6,0,1.1,0.2,1.6,0.6c1,0.9,1.1,2.4,0.2,3.4L86.7,46.4c-0.5,0.5-1.1,0.8-1.8,0.8
+				c-0.5,0-1-0.2-1.5-0.5l-8.2-6.4c-1-0.8-1.2-2.3-0.4-3.4c0.5-0.6,1.2-0.9,1.9-0.9c0.5,0,1,0.2,1.5,0.5l6.4,5l20.6-22.7
+				C105.7,18.3,106.3,18.1,107,18.1 M107,16.1L107,16.1c-1.2,0-2.4,0.5-3.3,1.4L84.4,38.9l-5-3.9c-0.8-0.6-1.7-0.9-2.7-0.9
+				c-1.4,0-2.6,0.6-3.5,1.7c-1.5,1.9-1.1,4.7,0.8,6.2l8.2,6.4c0.8,0.6,1.7,0.9,2.7,0.9c1.2,0,2.4-0.5,3.3-1.4l22.1-24.4
+				c1.6-1.8,1.5-4.6-0.3-6.2C109.1,16.5,108.1,16.1,107,16.1L107,16.1z"/>
+		</g>
+	</g>
+</g>
+<rect x="42.4" y="65.2" fill="#0071BC" width="80.9" height="13.5"/>
+</svg>
+              </div>
+            </a>
+          </div>
+          <div id="skip-target" class="tablet:grid-col-9 right-shift">
+            <div class="align-center">
+              <h1 class="main-heading" data-test="main-header">National Voter Registration Form</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="grid-container">
+        <div class="grid-row grid-gap">
+          <div class="tablet:grid-col-3"></div>
+          <div class="tablet:grid-col-9 right-shift">
+            <section class="voter-info page-type--basic">
+
+              <div class="about-page">
+                <div id="root"></div>
+                
+              </div>
+
+            </section>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+
+
+
+
+
+    <div class="bg-lightblue footer-contact" data-test="footer-contact">
+
+      <div class="grid-container eac-vote-partnership">
+        <div class="grid-row">
+          <div class="tablet:grid-col-auto">
+            <div class="vote-txt">Vote.gov</div>
+            <img class="vote-logo" loading="lazy" width="130" height="160" src="theme/assets/img/ballot_box-blue.svg"
+                 alt="Web design standards">
+          </div>
+          <div class="tablet:grid-col-auto partnership-txt">in partnership with</div>
+          <div class="tablet:grid-col-auto eac-container">
+            <a href="https://www.eac.gov/">
+              <img class="eac-logo" width="146" height="48" src="theme/assets/img/eac-logo.webp" alt="In partnership with U.S. Election Assistance Commission">
+            </a>
+
+          </div>
+          <div class="tablet:grid-col"></div>
+          <div class="tablet:grid-col-auto twitter-container">
+            <a href="https://twitter.com/votegov" class="twitter-link">
+              <span>Follow Vote.gov on Twitter</span>
+              <svg class="usa-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.912 7.925v.527A11.562 11.562 0 0 1 8.265 20.098 11.443 11.443 0 0 1 2 18.265c.328.017.657.017.985 0a8.132 8.132 0 0 0 5.093-1.698 4.092 4.092 0 0 1-3.786-2.852c.255.062.518.091.781.085.36-.002.72-.047 1.07-.136a4.109 4.109 0 0 1-3.21-4.024c.566.32 1.202.494 1.851.51a4.126 4.126 0 0 1-1.34-5.518 11.613 11.613 0 0 0 8.488 4.295 4.397 4.397 0 0 1-.119-.934 4.092 4.092 0 0 1 4.092-4.092 4.04 4.04 0 0 1 3.005 1.29 7.929 7.929 0 0 0 2.53-1c-.3.953-.94 1.763-1.8 2.274A7.725 7.725 0 0 0 22 5.803a8.489 8.489 0 0 1-2.088 2.122Z" fill-rule="evenodd"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="footer-identifier" data-test="footer">
+      <div class="grid-container">
+        <section class="identifier-gsa grid-row grid-gap-2" aria-label="Agency identifier">
+          <div><img src="theme/assets/img/gsa-logo.svg" alt="GSA logo" width="40" height="40"></div>
+          <div aria-label="Agency description" class="grid-col-auto">
+            Vote.gov <br>
+            <strong>An official website of the
+              <a href="https://www.gsa.gov/">General Services Administration</a></strong>
+          </div>
+        </section>
+        <nav class="grid-row grid-gap identifier" aria-label="Important links">
+          <div class="tablet:grid-col-3">
+            <ul class="usa-list usa-list--unstyled identifier-links">
+              <li><a href="/about-us">About Vote.gov</a></li>
+              <li><a href="https://www.gsa.gov/website-information/accessibility-aids">Accessibility</a></li>
+            </ul>
+          </div>
+          <div class="tablet:grid-col-3">
+            <ul class="usa-list usa-list--unstyled identifier-links">
+              <li><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia">FOIA Requests</a></li>
+              <li><a
+                      href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002">No Fear Act data</a></li>
+            </ul>
+          </div>
+          <div class="tablet:grid-col-3">
+            <ul class="usa-list usa-list--unstyled identifier-links">
+              <li><a href="https://www.gsaig.gov/">Office of the Inspector General</a></li>
+              <li><a href="https://www.gsa.gov/reference/reports/budget-performance">Performance Reports</a></li>
+            </ul>
+          </div>
+          <div class="tablet:grid-col-3">
+            <ul class="usa-list usa-list--unstyled identifier-links">
+              <li><a href="https://www.usa.gov/policies">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </nav>
+        <section aria-label="Government information and services" class="identifier-gov-info">Looking for U.S. government information and services?
+          <a href="https://www.usa.gov/">Visit USA.gov</a>
+
+        </section>
+      </div>
+    </div>
+
+
+
+  </footer>
+</div>
+
+<script src="theme/assets/scripts/login.js"></script>
+
+</body>
+
+</html>
+
