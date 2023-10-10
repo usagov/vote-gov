@@ -1,7 +1,6 @@
 {
   "header": "Registre-se para votar",
-  "state_selection__heading": "Onde mora você?",
-  "state_selection__default": "Selecione seu estado ou território ",
+  "state_selection__heading": "Selecione o seu estado ou território para obter informação sobre como começar.",
   "state_selection__submit": "Informe-se como registar-se",
   "registered__header": "Já se registrou?",
   "registered__resources_intro": "Explore os nossos %link% em %USA.gov%",

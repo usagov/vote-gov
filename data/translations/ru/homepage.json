@@ -1,7 +1,6 @@
 {
   "header": "Зарегистрируйтесь для голосования",
-  "state_selection__heading": "Где вы живете?",
-  "state_selection__default": "Выберите свой штат или территорию",
+  "state_selection__heading": "Выберите ваш штат или территорию для информации о том, как начать процесс.",
   "state_selection__submit": "Узнайте, как зарегистрироваться",
   "registered__header": "Уже зарегистрировались?",
   "registered__resources_intro": "Ознакомьтесь с нашими %link% на %USA.gov%",
