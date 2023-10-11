@@ -642,6 +642,7 @@
     "is_state": "true",
     "registration_type": "online",
     "translationKey": "Wisconsin",
+    "national_voter_registration_form_accepted": "false",
     "type": "register",
     "hp_link": "https://elections.wi.gov/voters",
     "registration_link": "https://myvote.wi.gov/en-us/RegisterToVote",
