@@ -3,10 +3,9 @@
  */
 
 (() => {
-  let stateComboBox, stateInput, stateResetBtn, stateDropdownBtn, stateResultsContainer, stateFilteredOptions, stateListResults;
+  let stateComboBox, stateInput, stateDropdownBtn, stateResultsContainer, stateFilteredOptions, stateListResults;
   stateComboBox = document.getElementById("state-combo-box");
   stateInput = document.getElementById("state-input");
-  stateResetBtn = document.getElementById("state-reset-btn");
   stateDropdownBtn = document.getElementById("state-dropdown-btn");
   stateResultsContainer = document.getElementById("state-results-container");
   stateFilteredOptions = stateResultsContainer.getElementsByTagName('a');
@@ -24,13 +23,13 @@
     stateResultsContainer.toggleAttribute('hidden');
   }
 
-  function stateListFilter(reset) {
+  function stateListFilter() {
     let filter, txtValue;
     filter = stateInput.value.toUpperCase();
     txtValue = "";
     stateListResults = [];
 
-    if (filter === '' || reset === 'reset') {
+    if (filter === '') {
       stateResultsContainer.removeAttribute('data-filtered');
     }
     else {
@@ -41,17 +40,11 @@
       let li = stateFilteredOptions[i].parentNode;
       txtValue = li.textContent || li.innerText;
 
-      if (reset === 'reset') {
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
         li.removeAttribute('hidden');
         stateListResults.push(stateFilteredOptions[i]);
-      }
-      else {
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          li.removeAttribute('hidden');
-          stateListResults.push(stateFilteredOptions[i]);
-        } else {
-          li.setAttribute('hidden', '');
-        }
+      } else {
+        li.setAttribute('hidden', '');
       }
     }
 
@@ -69,7 +62,7 @@
     }
   });
   stateComboBox.addEventListener('load', () => {
-    stateListFilter('reset');
+    stateListFilter();
   });
   stateComboBox.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -135,17 +128,6 @@
       }
     });
   }
-
-  stateResetBtn.addEventListener('click', (e) => {
-    stateInput.focus();
-    stateListFilter('reset');
-    stateListShow();
-  });
-  stateResetBtn.addEventListener('keydown', (e) => {
-    if (e.key === "Tab") {
-      stateListHide();
-    }
-  });
 
   stateDropdownBtn.addEventListener('click', (e) => {
     e.preventDefault();
