@@ -107,6 +107,10 @@
   max-width: 400px;
   width: 100%;
 
+  &[data-empty] {
+    display: none;
+  }
+
   @media all and (min-width: 800px) {
     max-width: 500px;
 
