@@ -18,6 +18,8 @@ $theme-show-notifications: false,
 @forward "usa-prose";
 @forward "usa-intro";
 @forward "usa-language-selector";
+@forward "usa-card";
+@forward "usa-process-list";
 
 @forward 'component/language-switcher';
 @forward 'component/identifier';
