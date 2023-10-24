@@ -18,8 +18,6 @@ $theme-show-notifications: false,
 @forward "usa-prose";
 @forward "usa-intro";
 @forward "usa-language-selector";
-// @forward "usa-card";
-// @forward "usa-process-list";
 
 @forward 'component/language-switcher';
 @forward 'component/identifier';
@@ -41,3 +39,10 @@ $theme-show-notifications: false,
 @forward 'global/typography';
 @forward 'global/media';
 @forward 'global/layout';
+
+// NVRF --------------- //
+@forward "usa-card";
+@forward "usa-process-list";
+@forward "usa-step-indicator";
+@forward "uswds-fonts";
+@forward "uswds-helpers";
