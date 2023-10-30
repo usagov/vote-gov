@@ -1,0 +1,20 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+
+
+{{ partial "head.html" . }}
+
+<body class="page-basic">
+{{ partial "header.html" . }}
+<main id="main-content">
+  <div class="grid-container">
+    <section class="voter-info page-type--basic">
+      {{ .Content }}
+    </section>
+  </div>
+</main>
+{{ partial "footer.html" . }}
+{{ partial "analytics.html" . }}
+{{ partial "scripts.html" . }}
+</body>
+
+</html>
