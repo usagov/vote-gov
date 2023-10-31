@@ -25,6 +25,10 @@
 .usa-language__submenu-item {
   padding: 8px;
   border: unset;
+  
+  * {
+    font-family: "Source Sans Pro Web", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  }
 }
 
 .switcher-desktop {
