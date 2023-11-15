@@ -9,6 +9,7 @@
   "alert__alert_after_election": "Para sa opisyal na mga resulta ng eleksyon, pumunta sa website ng eleksyon ng iyong estado.",
   "header": "Magrehistro para bumoto",
   "state_selection__heading": "Piliin ang inyong estado o teritoryo para sa impormasyon kung paano magsimula.",
+  "state_selection__placeholder": "Ipasok ang pangalan ng inyong estado o teritoryo",
   "state_selection__submit": "Alamin kung paano magparehistro",
   "registered__header": "Nakarehistro na para bumoto?",
   "registered__resources_intro": "Saliksikin ang aming %link% sa %USA.gov%",
