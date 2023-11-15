@@ -80,7 +80,7 @@
       "select_language": " %dropdown-list% اختر اللغة",
       "english_languageName": "Arabic",
       "ext_link_title": "رابط خارجي يفتح نافذة جديدة"
-      
+
     }
   },
   "hi": {
@@ -285,14 +285,14 @@
       "register_path": "register",
       "go_back": "N1t'33'",
       "skip_text": "&yis77 baa hane'7gi nin7[keed",
-      "meta__title": "Check Voter Registration Deadlines and Laws in Your State in Diné (Navajo)",
-      "meta__description": "Official voter registration website of the US federal government. Register to vote. Learn the voting registration deadlines and laws in your state in Diné (Navajo).",
+      "meta__title": "Check Voter Registration Deadlines and Laws in Your State - Diné (Navajo)",
+      "meta__description": "Official voter registration website of the US federal government. Register to vote. Learn the voting registration deadlines and laws in your state - Diné (Navajo).",
       "english_only": "<Bilag1ana k'ehj7>",
       "last_updated": "Ak44'di n1zk'33z: ",
       "select_language": "Saad choid77['88[7g77",
       "english_languageName": "Navajo",
-      "translation_outdated": true,
-      "ext_link_title": "External link opens new window"
+      "translation_outdated": false,
+      "ext_link_title": "T['00'd66' link-7g77 ts4ts-' 1niid7g77 22'1n11yiil'88h"
     }
   },
   "ht": {
@@ -355,7 +355,6 @@
       "select_language": "Selecionar a língua",
       "english_languageName": "Portuguese",
       "ext_link_title": "Links externos abrem novas páginas web"
-
     }
   }
 }
