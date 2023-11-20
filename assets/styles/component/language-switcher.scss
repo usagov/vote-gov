@@ -2,6 +2,7 @@
   display: flex;
   justify-content: flex-end;
   padding: 0.5rem 1rem 0.5rem 0;
+
   .usa-button {
     a {
       color: #fff;
@@ -22,9 +23,14 @@
     columns: 2 auto;
   }
 }
+
 .usa-language__submenu-item {
   padding: 8px;
   border: unset;
+  
+  * {
+    font-family: "Source Sans Pro Web", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  }
 }
 
 .switcher-desktop {
@@ -37,11 +43,6 @@
   @media (min-width: 800px) {
     display: none;
   }
-}
-
-// Hide Navajo translation temporarily.
-li.usa-language__submenu-item[data-lang="lang-nv"] {
-  display: none;
 }
 
 .usa-language__primary-item:last-of-type .usa-language__submenu {

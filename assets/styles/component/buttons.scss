@@ -22,7 +22,7 @@
   text-decoration: none;
 }
 
-//"Go back" arrow button and text
+// "Go back" arrow button and text
 .arrow {
   border: solid $color-blue-dark;
   border-width: 0 4px 4px 0;
@@ -32,13 +32,11 @@
 
 .direction {
   transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
   margin-right: 5px;
 }
 
 [dir="rtl"] .direction {
   transform: rotate(315deg);
-  -webkit-transform: rotate(315deg);
   margin-left: 5px;
 }
 

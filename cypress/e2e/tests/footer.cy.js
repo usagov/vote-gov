@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 
 describe('Test the site contact/identifier footer on site',() => {
-  before('visit page', () => {
+  beforeEach('visit page', () => {
     cy.visit('localhost:1313')
   })
 

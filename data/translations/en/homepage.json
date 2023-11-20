@@ -1,6 +1,7 @@
 {
   "header": "Register to vote",
   "state_selection__heading": "Select your state or territory for information on how to get started.",
+  "state_selection__placeholder": "Enter your state or territory name",
   "state_selection__submit": "Find out how to register",
   "registered__header": "Already registered?",
   "registered__resources_intro": "Explore our %link% on %USA.gov%",

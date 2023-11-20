@@ -19,7 +19,7 @@
 }
 
 .main-heading {
-  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+  font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
 
   @include at-media-max(tablet-lg) {
     span[hidden] {

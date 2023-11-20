@@ -30,7 +30,7 @@
       }
 
       .logo-text {
-        margin: 120px 0 200px;
+        margin: 100px 0 200px;
       }
     }
   }
@@ -40,17 +40,9 @@
   }
 }
 
-.form-register {
-  margin-bottom: 2rem;
-
-  h2 {
-    margin: 0;
-  }
-}
-
 .registered {
   color: $color-blue-dark;
-  margin: 60px 0 60px;
+  margin: 60px 0;
 
   h2 {
     font-size: 2em;
@@ -62,134 +54,117 @@
 }
 
 #state-combo-box {
-  margin-bottom: 50px;
-}
+  margin-bottom: 2.5rem;
 
-.usa-combo-box__input-button-separator {
-  background-color: #c6cace;
-  top: 1px;
-  height: calc(100% - 1rem);
-  margin-bottom: 0.5rem;
-  margin-top: 0.5rem;
-  width: 1px;
-  right: calc(2.5em + 2px);
-  box-sizing: border-box;
-  z-index: 200;
-}
-
-.usa-language__submenu {
-  columns: 3 auto;
-}
-
-.usa-language__submenu__list {
-  list-style: none;
-  white-space: normal;
-  margin-top: 0;
+  label {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+    margin: 0 0 1rem;
+  }
 }
 
 .input-buttons-group {
-  width: 400px;
-  max-width: 100%;
+  max-width: 400px;
+  width: auto;
   position: relative;
 
-  input {
-    border-width: 1px;
-    border-color: #5c5c5c;
-    border-style: solid;
-    border-radius: 0;
-    color: #1b1b1b;
-    height: 2.5rem;
-    margin-top: 0.5rem;
-    max-width: 30rem;
-    padding: 0.5rem;
+  input[type="text"] {
+    border: 0;
+    padding: 0.5rem 48px 0.5rem 0.5rem;
+    height: 40px;
     width: 100%;
+    line-height: 1.5;
   }
 
-  button {
-    background-color: transparent;
-    height: 80%;
-    aspect-ratio: 1;
-    right: 0;
+  .input-control-container {
+    position: absolute;
+    display: flex;
+    top: 0;
     bottom: 0;
-    position: absolute;
-    border: none;
-    border-bottom: 1px 0 solid black;
-  }
+    right: 0;
 
-  .reset-btn {
-    margin-right: 29px;
-    background-image: url(../img/usa-icons/close.svg),linear-gradient(transparent,transparent);
-    background-repeat: no-repeat;
-    margin-bottom: -6px;  
-    fill: #5c5c5c;
-  }
-
-  .dropdown-btn {
-    background-image: url(../img/usa-icons/expand_more.svg),linear-gradient(transparent,transparent);
-    background-repeat: no-repeat;
-    background-size: auto 2.3rem;
-    fill: #5c5c5c;
+    button.dropdown-btn {
+      padding: 0;
+      height: calc(100% - 0.5rem);
+      margin: 0.25rem 0;
+      width: 40px;
+      border: none;
+      background: transparent url("../img/usa-icons/expand_more.svg") center center no-repeat;
+      background-size: auto 2.3rem;
+      border-left: 1px solid #c6cace;
     }
-
-  .btn-divider {
-    background-color: #c6cace;
-    position: absolute;
-    top: 8%;
-    height: calc(100% - 1rem);
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
-    width: 1px;
-    right: 37px;
-    box-sizing: border-box;
-    z-index: 200;
   }
-
 }
 
-#results-container {
+#state-results-container {
   background-color: #1C2D4E;
   border-radius: 5px;
-  border-top-left-radius: 0px;
-  color: white;
-  columns: 3;
-  column-gap: 48px;
+  border-top-left-radius: 0;
   position: absolute;
   z-index: 400;
-  padding: 30px 30px 24px 30px;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
 
-  @media only screen and (max-width: 600px) {
-    columns: auto;
-    overflow: auto;
-    min-height: unset;
-    max-height: 230px;
-    min-width: unset;
-    width: 400px;
-    border-top-right-radius: 0px;
+  &[data-empty] {
+    display: none;
   }
 
-  #results-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  @media all and (min-width: 800px) {
+    max-width: 500px;
 
-    li {
-      font-weight: 600;
-      font-size: 16px;
-      color:#FFF;  
-      overflow: auto;
-      padding-bottom: 24px;
-      
-      a {
-        color: white;
-        text-decoration: none;
+    &[data-filtered] {
+      max-width: 400px;
+    }
+  }
+
+  @media all and (min-width: 1024px) {
+    max-width: 600px;
+  }
+}
+
+#results-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  @media all and (min-width: 800px) {
+    columns: 2;
+
+    [data-filtered] & {
+      columns: 1;
+    }
+  }
+
+  @media all and (min-width: 1024px) {
+    columns: 3;
+
+    [data-filtered] & {
+      columns: 1;
+    }
+  }
+
+
+  li {
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+
+    &[hidden] {
+      display: none;
+    }
+
+    a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      display: block;
+      padding: 0.5rem;
+
+      &:hover {
+        text-decoration: underline;
       }
     }
-    li:hover {
-      font-weight: 900;
-      text-decoration:underline;
-      font-size: 16px;
-      color:#FFF;
-    }
-
   }
 }

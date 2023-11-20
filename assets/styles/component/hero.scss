@@ -10,6 +10,7 @@
     $arrow-width: 100px;
     $arrow-height: 30px;
     $arrow-half-width: math.div($arrow-width, 2);
+
     content: "";
     position: absolute;
     left: calc(50% - #{$arrow-half-width});
@@ -17,7 +18,7 @@
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: $arrow-height+1 $arrow-half-width 0 $arrow-half-width;
+    border-width: $arrow-height + 1 $arrow-half-width 0 $arrow-half-width;
     border-color: $color-blue transparent transparent transparent;
 
     @include at-media('tablet') {
@@ -53,7 +54,7 @@
 
   @include at-media('mobile') {
     #SiteLogo {
-      padding: 10px 0 10px;
+      padding: 10px 0;
     }
   }
 

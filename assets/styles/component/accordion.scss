@@ -31,7 +31,7 @@
     }
   }
 
-  .usa-accordion__button[aria-expanded=true] {
+  .usa-accordion__button[aria-expanded="true"] {
     background-color: #fff;
     color: $deep-blue;
   }
@@ -39,7 +39,7 @@
   .usa-accordion__content {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     margin-top: -0.5rem;
     padding-bottom: 1.25rem;
 
@@ -60,7 +60,7 @@
 }
 
 .content-heading {
-  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+  font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
   font-weight: normal;
 }
 

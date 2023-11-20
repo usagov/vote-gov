@@ -29,18 +29,15 @@
               </header>
 
               <form id="state-combo-box">
-                <h2>{{ $translation.homepage.state_selection__heading }}</h2>
+                <label for="state-input">{{ $translation.homepage.state_selection__heading }}</label>
                 <div class="input-buttons-group">
-                <input class="state-input" list="states" id="state-input" autocomplete="off" 
-                  onclick="stateListVisible()" onkeyup="filterStateList()">
+                <input type="text" class="state-input" id="state-input" autocomplete="off" placeholder="{{ $translation.homepage.state_selection__placeholder }}">
                   <div class="input-control-container">
-                    <button class="reset-btn" type="reset" alt="Clear the search form" onclick="filterStateList('reset')"></button>
-                    <button class="dropdown-btn" type="button" onclick="stateListVisible()"></button>
-                    <span class="btn-divider"></span>
+                    <button id="state-dropdown-btn" tabindex="-1" class="dropdown-btn" type="button" aria-hidden="true"></button>
                   </div>
                 </div>
-                <div id="results-container" style="display: none;">
-                  <ul id="results-list" tabindex="0">
+                <nav id="state-results-container" hidden>
+                  <ul id="results-list">
                     {{ $states := where .Site.RegularPages.ByTitle "Section" .Site.Params.register_path }}
                     {{ range ($states.ByParam "state_name") }}
                     <li >
@@ -48,7 +45,7 @@
                     </li>
                   {{ end }}
                   </ul>
-                </div>
+                </nav>
               </div>
               </form>
 
@@ -104,50 +101,6 @@
   <!-- Footer BEGIN -->
   {{ partial "footer.html" . }}
   <!-- Footer END -->
-
-  <script type="text/javascript">
-    function filterStateList(reset) {
-      var input, filter, ul, li, a, i, txtValue;
-      input = document.getElementById("state-input");
-      filter = input.value.toUpperCase();
-      ul = document.getElementById("results-list");
-      li = ul.getElementsByTagName("li");
-      let no_results = [];
-      
-      for (i = 0; i < li.length; i++) {
-          a = li[i].getElementsByTagName("a")[0];
-          txtValue = a.textContent || a.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-              li[i].style.display = "";
-              no_results.push(1);
-          } else {
-              li[i].style.display = "none";
-              no_results.push(0);
-          }
-      }
-      if (reset === 'reset') {
-        for (i = 0; i < li.length; i++) {
-              li[i].style.display = "";
-      }
-      }
-
-      var x = document.getElementById("results-container");
-      if (!no_results.includes(1)) {
-        x.style.display = "none" 
-      } else {
-          x.style.display = "block";
-      }
-    }
-
-    function stateListVisible() {
-      var x = document.getElementById("results-container");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
-  </script>
 
   {{ partial "analytics.html" . }}
   {{ partial "scripts.html" . }}
