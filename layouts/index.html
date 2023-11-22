@@ -28,25 +28,27 @@
                 <h1 class="main-heading" data-test="main-header">{{ $translation.homepage.header | safeHTML }}</h1>
               </header>
 
-              <form class="form-register" method="get" id="register">
-                <h2>{{ $translation.homepage.state_selection__heading }}</h2>
-                <label class="usa-sr-only" for="js-user-selection">
-                  {{ $translation.homepage.state_selection__default }}
-                </label>
-                <select class="usa-select max-width-input" name="userselection" id="js-user-selection" data-test="state-selection">
-                  <option value="default">
-                    {{ $translation.homepage.state_selection__default }}
-                  </option>
-                  {{ $states := where .Site.RegularPages.ByTitle "Section" .Site.Params.register_path }}
-                  {{ range ($states.ByParam "state_name") }}
-                  <option value="{{ .Params.state_abbreviation | lower }}">{{ .Params.state_name }}</option>
-                {{ end }}
-
-                </select>
-                <button class="usa-button max-width-input" id="js-user-submit" type="submit" data-test="register-button">
-                  {{ $translation.homepage.state_selection__submit }}
-                </button>
+              <form id="state-combo-box">
+                <label for="state-input">{{ $translation.homepage.state_selection__heading }}</label>
+                <div class="input-buttons-group">
+                <input type="text" class="state-input" id="state-input" autocomplete="off" placeholder="{{ $translation.homepage.state_selection__placeholder }}">
+                  <div class="input-control-container">
+                    <button id="state-dropdown-btn" tabindex="-1" class="dropdown-btn" type="button" aria-hidden="true"></button>
+                  </div>
+                </div>
+                <nav id="state-results-container" hidden>
+                  <ul id="results-list">
+                    {{ $states := where .Site.RegularPages.ByTitle "Section" .Site.Params.register_path }}
+                    {{ range ($states.ByParam "state_name") }}
+                    <li >
+                      <a key="{{ .Params.state_abbreviation | lower }}" href="{{ .Site.Home.RelPermalink }}{{ .Site.Params.register_path }}/{{ .Params.state_abbreviation | lower }}/">{{ .Params.state_name }}</a>
+                    </li>
+                  {{ end }}
+                  </ul>
+                </nav>
+              </div>
               </form>
+
             </section>
           </div>
         </div>
@@ -99,21 +101,6 @@
   <!-- Footer BEGIN -->
   {{ partial "footer.html" . }}
   <!-- Footer END -->
-
-  <script type="text/javascript">
-    document.getElementById('register').onsubmit = function (ev) {
-      var stateSelected = document.getElementById('js-user-selection').value;
-      if (stateSelected === 'default') {
-        return false;
-      } else {
-        ev.preventDefault();
-        // var redirectURL = window.location.protocol + '//' + window.location.host + '/{{ .Site.Params.root_path }}register/';
-        var redirectURL = '{{ .Site.Home.RelPermalink }}{{ .Site.Params.register_path }}/';
-        redirectURL = redirectURL + stateSelected + '/';
-        window.location.href = redirectURL;
-      }
-    };
-  </script>
 
   {{ partial "analytics.html" . }}
   {{ partial "scripts.html" . }}
