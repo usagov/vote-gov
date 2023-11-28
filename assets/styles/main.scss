@@ -18,6 +18,12 @@ $theme-show-notifications: false,
 @forward "usa-prose";
 @forward "usa-intro";
 @forward "usa-language-selector";
+// NVRF dependencies --------------- //
+@forward "usa-card";
+@forward "usa-process-list";
+@forward "usa-step-indicator";
+@forward "uswds-fonts";
+@forward "uswds-helpers";
 
 @forward 'component/language-switcher';
 @forward 'component/identifier';
