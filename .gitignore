@@ -30,6 +30,7 @@ public/
 content/registrar
 layouts/registrar
 content/*/*/data
+content/*/*/files
 
 tmp/
 
