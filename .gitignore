@@ -29,6 +29,7 @@ public/
 # The generated language content and layouts directories
 content/registrar
 layouts/registrar
+content/*/*/data
 
 tmp/
 

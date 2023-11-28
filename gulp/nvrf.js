@@ -21,11 +21,19 @@ gulp.task('nvrf-files', function () {
 });
 
 gulp.task('nvrf-data', function () {
+  var destPagePath = 'nvrf-test';
+
   var stream = gulp.src([
-    './node_modules/vote-gov-nvrf-app/dist/data/en/*'
+    './node_modules/vote-gov-nvrf-app/dist/data/**/*'
   ]);
 
-  return stream.pipe(gulp.dest('./content/en/nvrf-test/data/en'));
+  return stream.pipe(gulp.dest(function(file) {
+    var path = file.path;
+    var base = file.base + '/';
+    var lang = path.replace(base, '').split('/')[0];
+
+    return `./content/${lang}/${destPagePath}/data`;
+  }));
 
 });
 
