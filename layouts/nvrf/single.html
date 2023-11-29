@@ -3,17 +3,20 @@
 {{ partial "head.html" . }}
 
 <body class="page-basic">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/styles/nvrf.css">
 {{ partial "header.html" . }}
 <main id="main-content">
   <div class="grid-container">
     <section class="voter-info page-type--basic">
       {{ .Content }}
+      <div class="nvrf-app-container" id="root"></div>
     </section>
   </div>
 </main>
 {{ partial "footer.html" . }}
 {{ partial "analytics.html" . }}
 {{ partial "scripts.html" . }}
+<script type="module" crossorigin src="{{ .Site.BaseURL }}/assets/nvrf/index.js"></script>
 </body>
 
 </html>

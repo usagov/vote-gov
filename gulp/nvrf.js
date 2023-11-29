@@ -6,10 +6,10 @@ var destPagePath = 'nvrf-test';
 
 gulp.task('nvrf-assets', function () {
   var stream = gulp.src([
-    './node_modules/vote-gov-nvrf-app/dist/assets/*'
+    './node_modules/vote-gov-nvrf-app/dist/assets/index.js'
   ]);
 
-  return stream.pipe(gulp.dest('./static/assets/nvrf/assets'));
+  return stream.pipe(gulp.dest('./static/assets/nvrf'));
 
 });
 
