@@ -42,16 +42,22 @@
 
   // Filter dropdown results based on user input.
   function stateListFilter() {
-    let filter, txtValue;
+    let filter, txtValue, wordTxtValues, keyValue;
     filter = stateInput.value.toUpperCase();
     txtValue = "";
+    wordTxtValues = [];
+    keyValue = "";
     stateListResults = [];
 
     for (let i = 0; i < stateFilteredOptions.length; i++) {
       let li = stateFilteredOptions[i].parentNode;
-      txtValue = li.textContent || li.innerText;
+      txtValue = li.textContent.trim() || li.innerText.trim();
+      wordTxtValues = txtValue.split(' ');
+      keyValue = li.firstElementChild.getAttribute('key');
 
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      // Match user input with the start of the state name or state abbrev.
+      if (wordTxtValues.some((elem) => elem.length > 2 && elem.toUpperCase().startsWith(filter))
+        || (filter.length === 2 && keyValue.toUpperCase() === filter)) {
         li.removeAttribute('hidden');
         stateListResults.push(stateFilteredOptions[i]);
       } else {
