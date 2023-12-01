@@ -30,14 +30,14 @@
 
               <form id="state-combo-box">
                 <label for="state-input">{{ $translation.homepage.state_selection__heading }}</label>
-                <div class="input-buttons-group">
+                <div class="input-buttons-group" data-test="state-selection">
                 <input type="text" class="state-input" id="state-input" autocomplete="off" placeholder="{{ $translation.homepage.state_selection__placeholder }}">
                   <div class="input-control-container">
-                    <button id="state-dropdown-btn" tabindex="-1" class="dropdown-btn" type="button" aria-hidden="true"></button>
+                    <button id="state-dropdown-btn" tabindex="-1" class="dropdown-btn" type="button" aria-hidden="true" data-test="dropdown-btn"></button>
                   </div>
                 </div>
                 <nav id="state-results-container" hidden>
-                  <ul id="results-list">
+                  <ul id="results-list" data-test="state-list">
                     {{ $states := where .Site.RegularPages.ByTitle "Section" .Site.Params.register_path }}
                     {{ range ($states.ByParam "state_name") }}
                     <li >
