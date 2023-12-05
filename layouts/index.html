@@ -74,7 +74,6 @@
                   {{ $resources_intro := replace $translation.homepage.registered__resources_intro "%USA.gov%" "USA.gov" }}
                   {{ replace $resources_intro "%link%" (partial "links/homepage-registration-link.html" .)|safeHTML }}:
                 </h3>
-                <ul class="registered-resources">
                   {{ if $translation.homepage.registered_links__absentee_url }}
                   <li><a
                     href="{{ $translation.homepage.registered_links__absentee_url }}">{{ $translation.homepage.registered_links__absentee }}</a>
