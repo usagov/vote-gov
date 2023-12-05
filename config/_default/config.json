@@ -5,7 +5,7 @@
   "publishDir": "tmp/public",
   "title": "Voter Registration",
   "baseURL": "",
-  "disableKinds": ["taxonomy", "taxonomyTerm", "section"],
+  "disableKinds": ["taxonomy", "section"],
   "security": {
     "funcs": {
       "getenv": [
