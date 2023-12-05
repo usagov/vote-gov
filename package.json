@@ -45,6 +45,7 @@
     "autoprefixer": "^10.4.13",
     "browserify": "^17.0.0",
     "cross-spawn": "^7.0.3",
+    "cypress-real-events": "^1.11.0",
     "fancy-log": "^2.0.0",
     "gulp": "^4.0.2",
     "gulp-dart-scss": "^1.1.0",

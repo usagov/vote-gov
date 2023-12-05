@@ -28,33 +28,35 @@ describe('Validate state selection options', () => {
     cy.get('[data-test="state-list"]').should('contain', 'Maryland', 'Northern Mariana Islands')
   })
 
-  it('Verify that user can navigate to state page', () => {
+  it('Verify that user can navigate to state page from dropdown', () => {
     // * Check Alaska
-    cy.get('[data-test="state-selection"]').type('Alaska')
+    cy.get('[data-test="dropdown-btn"]').click()
     cy.get('[data-test=state-list]').find('li').then(option => {
-      cy.get(option[1]).click()
-      cy.url().should('include', '/register/ak/')
+      cy.get(option[1]).realClick()
     })
+    cy.url().should('include', '/register/ak/')
     cy.get('[data-test="vote-logo"]').click()
     // * Check American Samoa
-    cy.get('[data-test="state-selection"]').type('American Samoa')
+    cy.get('[data-test="dropdown-btn"]').click()
     cy.get('[data-test=state-list]').find('li').then(option => {
-      cy.get(option[2]).click()
-      cy.url().should('include', '/register/as/')
+      cy.get(option[2]).realClick()
     })
+    cy.url().should('include', '/register/as/')
     cy.get('[data-test="vote-logo"]').click()
     // * Check Arkansas
-    cy.get('[data-test="state-selection"]').type('Arkansas')
+    cy.get('[data-test="dropdown-btn"]').click()
     cy.get('[data-test=state-list]').find('li').then(option => {
-      cy.get(option[4]).click()
-      cy.url().should('include', '/register/ar/')
+      cy.get(option[4]).realClick()
     })
+    cy.url().should('include', '/register/ar/')
     cy.get('[data-test="vote-logo"]').click()
     // * Check North Dakota
-    cy.get('[data-test="state-selection"]').type('North Dakota')
+    cy.get('[data-test="dropdown-btn"]').click()
     cy.get('[data-test=state-list]').find('li').then(option => {
-      cy.get(option[36]).click()
-      cy.url().should('include', '/register/nd/')
+      cy.get(option[36]).realClick()
     })  
+    cy.url().should('include', '/register/nd/')
   })
 })
+
+
