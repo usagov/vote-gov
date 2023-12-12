@@ -7,9 +7,7 @@
 		<h2>{{ replace $translation.register.dates__heading "%state_name%" .Params.state_name }}</h2>
 	</header>
 {{end}}
-{{ if eq .Params.registration_type "not-needed"}}
-			{{/* Exclude registered-resources content for accessability*/}}
-	{{ else }}
+{{ if ne .Params.registration_type "not-needed"}}
 <ul class="registered-resources">
 	{{ if or (ne .Params.online_deadline nil) (ne .Params.default_online_deadline nil) }}
 		{{ $onlineDeadline := cond (ne .Params.online_deadline nil) (partial "date-format-online.html" .) .Params.default_online_deadline }}
