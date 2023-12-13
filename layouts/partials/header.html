@@ -25,10 +25,12 @@
               <span class="usa-banner__button-text">{{ $translation.homepage.banner__banner_action }}</span>
             </button>
           </div>
-
+          
+        {{ if ne .Type "nvrf" }}
           <div class="switcher-desktop">
           {{ partial "language-switcher.html" . }}
           </div>
+        {{ end }}
 
         </div>
       </div>
@@ -73,10 +75,14 @@
   </div>
   {{ end }}
 
-  <div class="switcher-mobile">
-      {{ partial "language-switcher1.html" . }}
-  </div>
+  {{ if ne .Type "nvrf" }}
+    <div class="switcher-mobile">
+        {{ partial "language-switcher1.html" . }}
+    </div>
+  {{ end }}
 
 </header>
 
-{{ partial "partials/search.html" . }}
+{{ if ne .Type "nvrf" }}
+  {{ partial "partials/search.html" . }}
+{{ end }}
