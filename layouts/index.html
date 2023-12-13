@@ -30,8 +30,7 @@
 
               <form id="state-combo-box">
                 <label for="state-input">{{ $translation.homepage.state_selection__heading }}</label>
-                <!-- Setting drop down box for Navajo and Yupik to be large enough to fit full text string -->
-                <div class="input-buttons-group" data-test="state-selection" {{ if eq .Site.Language.Lang "nv" "ypk"}} style="max-width: 525px;" {{ end }}>
+                <div class="input-buttons-group" data-test="state-selection">
                 <input type="text" class="state-input" id="state-input" autocomplete="off" placeholder="{{ $translation.homepage.state_selection__placeholder }}">
                   <div class="input-control-container">
                     <button id="state-dropdown-btn" tabindex="-1" class="dropdown-btn" type="button" aria-hidden="true" data-test="dropdown-btn"></button>
