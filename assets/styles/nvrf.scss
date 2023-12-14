@@ -15,6 +15,7 @@
 
   .back-button {
     background-color: transparent;
+    color: #11385B;
   }
 
   .divider-grey {
@@ -26,23 +27,6 @@
 
   .usa-form a:visited {
     color: unset;
-  }
-
-  .link-button-outline {
-    background-color: rgba(0,0,0,0);
-    box-shadow: inset 0 0 0 2px #11385B;
-    color: #11385B;
-    text-decoration: none;
-  }
-
-  .link-button-outline:hover {
-    color: white !important;
-    background-color: #11385B;
-  }
-
-  .link-button-filled {
-    color: white !important;
-    text-decoration: none;
   }
 
   /* Form */
