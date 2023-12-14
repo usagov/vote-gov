@@ -26,11 +26,9 @@
             </button>
           </div>
           
-        {{ if ne .Type "nvrf" }}
-          <div class="switcher-desktop">
-          {{ partial "language-switcher.html" . }}
-          </div>
-        {{ end }}
+        <div class="switcher-desktop">
+        {{ partial "language-switcher.html" . }}
+        </div>
 
         </div>
       </div>
@@ -75,11 +73,9 @@
   </div>
   {{ end }}
 
-  {{ if ne .Type "nvrf" }}
-    <div class="switcher-mobile">
-        {{ partial "language-switcher1.html" . }}
-    </div>
-  {{ end }}
+  <div class="switcher-mobile">
+      {{ partial "language-switcher1.html" . }}
+  </div>
 
 </header>
 
