@@ -10,6 +10,7 @@
   "header": "登記投票",
   "state_selection__heading": "選擇您所在的州或領地以獲取有關如何開始的資訊。",
   "state_selection__placeholder": "輸入您的州或領地名稱",
+  "state_selection__aria_label": "選擇後將開啟狀態頁面",
   "state_selection__submit": "了解如何登記",
   "registered__header": "已經登記了？",
   "registered__resources_intro": "在 %USA.gov% 上探索我們的%link%",
