@@ -1,0 +1,27 @@
+{
+    "main_heading": "Your %state_name% registration form is complete and ready to print.",
+    "main_help_text1": "You’re almost done! Click below to open your completed form in a new window, where you can download and print. ",
+    "main_help_text2": "Once printed, be sure to sign it, date it, put it in an envelope with the correct postage, and mail it to your state election office.",
+    "mail_to_header": "Mail your %state_name% registration form to:",
+    "delivery_text": "You may also deliver the application in person to your local voter registration office.",
+    "reminder_messages": {
+        "A": "Set a reminder in your smart phone to mail your registration.",
+        "B": "Make a post-it note on your computer to remind yourself to mail your registration.",
+        "C": "Tell your friend to bug you until you mail in your registration.",
+        "D": "Email the PDF to yourself with a surly message to stop procrastinating and mail your registration."
+    },
+    "reminder_main_header": "A few important notes",
+    "reminder_sub_header1": "Don’t forget to mail your form",
+    "reminder_parag1": "Taking a minute to set a reminder for yourself could help make sure you mail in your form — add it to your calendar or jot it down on a notepad and put it on your fridge to help you remember.",
+    "reminder_sub_header2": "Make a plan to vote",
+    "reminder_parag2": "Be sure to bring valid ID with you if it’s your first time voting in this state.",
+    "reminder_parag3": "If you are registering to vote for the first time in your jurisdiction and are mailing this registration application, Federal law requires you to show proof of identification the first time you vote. ",
+    "reminder_parag4": "Proof of identification includes the following ",
+    "reminder_parag4_li1": "A current and valid photo identification or ",
+    "reminder_parag4_li2": "A current utility bill, bank statement, government check, paycheck or government document that shows your name and address. ",
+    "reminder_subheader3": "Protect your personal information",
+    "reminder_parag5": "Are you on a public machine? Once you have downloaded or printed your form, close your browser window.",
+    "usagov_rescources": "Explore USA.gov's resources on %link%.",
+    "usagov_resources_link": "how to vote",
+    "open_btn": "Open form in a new window"
+}

@@ -1,0 +1,12 @@
+{
+    "heading_one": "Let’s get started with your %state_name% voting registration",
+    "subheading_one": "Choose whether to report a change to your registration or to begin a new registration. Complete your voter registration by answering a few questions. It should take you between 5 to 10 minutes.",
+    "heading_two": "Select one of the options below to continue.",
+    "update_btn_header": "I am already registered in %state_name% and need to report a change in my information.",
+    "update_btn_paragraph": "Click here to report a change to the information associated with your registration, such as name,  address, or political party. ",
+    "update_btn_txt": "Change registration information",
+    "new_btn_header": "I am registering in %state_name% for the first time.",
+    "new_btn_paragraph": "Click here to register for the first time in this state. We recommend you have a driver’s license or non-driver identification number available for registration.",
+    "new_btn_txt": "Begin new registration",
+    "back_btn": "Back to State Eligibility Requirements"
+}

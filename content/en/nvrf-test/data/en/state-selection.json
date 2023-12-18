@@ -1,0 +1,12 @@
+{
+   "main_heading": "Register to vote",
+   "main_parag": "All states except North Dakota require that you register before voting in an election. The process can be a little different for each state. Select your state or territory from the dropdown menu below to see your registration options.",
+   "subheading": "Living outside of the United States?",
+   "parag2": "U.S. citizens living outside the U.S., including U.S. service members and their families, can register to vote and request an absentee ballot by completing the Federal Post Card Application (FPCA). For more information, visit the Federal Voter Assistance Program.",
+   "get_started": "Get started by selecting your state",
+   "dropdown_text": "I live in: ",
+   "back_btn": "Go back to vote.gov",
+   "dropdown_label": "Select your state or territory",
+   "next_btn": "Next",
+   "error_state_dropdown": "State or territory selection must be made."
+}

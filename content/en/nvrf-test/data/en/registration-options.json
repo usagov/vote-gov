@@ -1,0 +1,30 @@
+{
+    "main_heading": "%state_name% registration options",
+    "parag_online": "Begin your registration on %state_name%’s state election website. Save time by checking to see if you are already registered first.",
+    "parag_bymail": "Online registration is not currently available for %state_name%. You may fill out the National Voter Registration Form here on vote.gov, then print and mail in your application.",
+    "divider_text": "OR",
+    "process_heading": "Create a form to print and mail on vote.gov",
+    "process_parag": "Fill out the National Mail Voter Registration Form to print and mail using our simple form filler tool. You can register for the first time or report a change of name, address or political party to your election office.",
+    "process_heading1": "Make sure you meet registration eligibility requirements",
+    "process_text1": "Confirm that you're eligible by reviewing requirements for your state.",
+    "process_heading2": "Take 5-10 minutes to answer a few questions",
+    "process_text2": "We’ll need to get your name, address and identification information. Proof of identification is required for first-time voters.",
+    "process_heading3": "Confirm all information is correct",
+    "process_text3": "Double check that all your information is correct. You'll have the chance to make any necessary edits before printing your form.",
+    "process_heading4": "Print, sign, and mail to your election office",
+    "process_text4": "Don’t forget these last steps! You will need to print your completed form, sign it, and mail it to your state office. We’ll provide the address; you provide the postage.",
+    "online_form_btn": "Go to %state_name%'s online form",
+    "check_reg_btn": "Check your registration",
+    "mail_in_link": "Go to %state_name%'s mail-in form",
+    "next_btn": "Start your mail-in registration on vote.gov",
+    "back_btn": "Go back to Select your State",
+    "not_needed": {
+        "main_heading": "%state_name% does not have voter registration!",
+        "more_info": "%link% on %state_name%'s election website.",
+        "more_info_link": "Learn more about voting",
+        "heading_vote": "Don’t forget to vote!",
+        "text_vote": "Prepare to cast your vote. Explore Vote.gov to learn more about how U.S. elections are run and your voting options. ",
+        "more_button": "Learn more about your voting options",
+        "back_button": "Back to vote.gov"        
+    }
+}

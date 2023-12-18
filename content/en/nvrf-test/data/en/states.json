@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Alaska",
+        "abbreviation": "ak",
+        "reg_type": "online",
+        "election_website_url": "https://www.elections.alaska.gov/",
+        "registration_url": "https://voterregistration.alaska.gov/?ref=voteusa_en",
+        "download_form": "https://www.elections.alaska.gov/doc/forms/C03.pdf",
+        "fields_required":
+        {
+            "name": true,
+            "address": true,
+            "mailing_address": true,
+            "DOB": true,
+            "telephone": false,
+            "ID_num": true,
+            "party": false,
+            "race": false,
+            "acknowledgement": true
+        },
+        "fields_visible":
+        {
+            "name": true,
+            "address": true,
+            "mailing_address": true,
+            "DOB": true,
+            "telephone": true,
+            "ID_num": true,
+            "party": true,
+            "race": false,
+            "acknowledgement": true
+        },
+
+        "eligibility_list": ["be a citizen of the United States", "be at least 18 years old within 90 days of completing this registration", "be a resident of Alaska", "not be a convicted felon (unless unconditionally discharged)", "not be registered to vote in another State"],
+        "deadlines_list": ["Must be postmarked 30 days before Election Day"],
+        "state_field_instructions":
+        {
+            "ID_num_text": "You must provide one of the following identification numbers; Alaska Driver's License or Alaska State Identification Card Number. If you do not have an Alaska Driver's License or Alaska State Identification Card, enter the last four digits of your Social Security Number. \n\nIf you do not have any of these identification numbers, indicate that below. A unique identifying number will be assigned to you for voter registration purposes. This information is kept confidential. Having this information assists in maintaining your voter record and may assist in verifying your identity (Title 15 of the Alaska Statutes).",
+            "party_text": "You do not have to declare a party affiliation when registering to vote. If you do not choose a party, you will be registered as Undeclared. Alaska has a closed primary election system. Each recognized political party has a separate ballot listing only candidates from that political party. Voters registered as a member of a political party may only vote that party's ballot. Voters registered as undeclared or non-partisan may choose one ballot from the ballots available.",
+            "race_text": ""
+        },
+        "state_address":
+        {
+            "office_name": "Division of Elections State of Alaska",
+            "street_address": "PO Box 110017",
+            "city_state": "Juneau, AK 99811-0017"
+        },
+        "nvrf_pages_list": [0,1,2,3,4,5,6,7]
+    },
+    {
+        "name": "Maine",
+        "abbreviation": "me",
+        "reg_type": "in-person",
+        "election_website_url": "https://www.maine.gov/sos/cec/elec/",
+        "registration_url": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html?ref=voteusa_en",
+        "download_form": "https://www.maine.gov/sos/cec/elec/upcoming/pdf/voterregcard20.pdf",
+        "fields_required":
+        {
+            "name": true,
+            "address": true,
+            "mailing_address": true,
+            "DOB": true,
+            "telephone": false,
+            "ID_num": true,
+            "party": true,
+            "race": false,
+            "acknowledgement": true
+        },
+        "fields_visible":
+        {
+            "name": true,
+            "address": true,
+            "mailing_address": true,
+            "DOB": true,
+            "telephone": true,
+            "ID_num": true,
+            "party": true,
+            "race": false,
+            "acknowledgement": true
+        },
+        "eligibility_list": ["be a citizen of the United States", "be a resident of Maine and the municipality in which you want to vote", "be at least 17 years old (you must be 18 years old to vote)"],
+        "deadlines_list": ["Must be postmarked 21 days before Election Day"],
+        "state_field_instructions":
+        {
+            "ID_num_text": "You must list your valid Maine driver's license number. If you don't have a valid Maine driver's license, then you must provide the last four digits of your Social Security Number. Voters who don't have either of these forms of ID should check this box. ",
+            "party_text": "You must register with a party if you want to take part in that party’s primary election, caucus, or convention (unless otherwise permitted by a political party).",
+            "race_text": ""
+        },
+        "state_address":
+        {
+            "office_name": "Elections Division Bureau of Corporations,\nElections and Commissions",
+            "street_address": "101 State House Station",
+            "city_state": "Augusta, ME 04333-0101"
+        },
+        "nvrf_pages_list": [0,1,2,3,4,5,14,15]
+    },
+    {
+        "name": "North Dakota",
+        "abbreviation": "nd",
+        "reg_type": "not-needed",
+        "eligibility_requirements": ["citizen", "age"],
+        "election_website_url": "https://vip.sos.nd.gov/PortalList.aspx",
+        "fields_required":
+        {
+            "name": false,
+            "address": false,
+            "mailing_address": false,
+            "DOB": false,
+            "telephone": false,
+            "ID_num": false,
+            "party": false,
+            "race": false,
+            "acknowledgement": false
+        },
+        "fields_visible":
+        {
+            "name": false,
+            "address": false,
+            "mailing_address": false,
+            "DOB": false,
+            "telephone": false,
+            "ID_num": false,
+            "party": false,
+            "race": false,
+            "acknowledgement": false
+        }
+    }
+]
