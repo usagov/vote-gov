@@ -14,6 +14,7 @@
   "about_link": "/fr/about-us",
   "accessibility_link": "/fr/accessibility",
   "twitter_link": "https://twitter.com/votegov",
+  "sitemap_link": "/fr/sitemap/",
   "twitter_text": "Suivez %Vote.gov% sur Twitter (en anglais)",
   "identifier_aria": "Identifiant de l'agence",
   "identfier_gsa_txt_aria": "Description de l'agence",
@@ -27,6 +28,7 @@
   "identifier_link_5": "Bureau de l'Inspecteur général (en anglais)",
   "identifier_link_6": "Rapports de performance (en anglais)",
   "identifier_link_7": "Politique de confidentialité (en anglais)",
+  "identifier_link_8": "Plan du site",
   "identifier_more_info_aria": "Informations et services du gouvernement",
   "identifier_more_info": "Vous recherchez des informations et des services du gouvernement américain ? %link%",
   "identifier_more_info__1": "Visitez USA.gov"
