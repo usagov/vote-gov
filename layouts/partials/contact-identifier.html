@@ -2,7 +2,7 @@
 {{ $aboutLink := $translation.footer.about_link | default .Site.Params.globalURL.about_link }}
 {{ $acclink := $translation.footer.accessibility_link | default .Site.Params.globalURL.accessibility_link }}
 {{ $sitemapLink := $translation.footer.sitemap_link | default .Site.Params.globalURL.sitemap_link }}
-{{ $privacy_policy := $translation.footer.privacy_policy_link | default "https://www.usa.gov/policies" }}
+{{ $privacy_policy := $translation.footer.privacy_policy_link | default .Site.Params.globalURL.privacypolicy_link }}
 
 <!-- contact START -->
 <section class="bg-lightblue footer-contact" data-test="footer-contact" title="{{ $translation.footer.section_contact }}" aria-label="{{ $translation.footer.section_contact }}">
@@ -72,7 +72,7 @@
       </div>
       <div class="tablet:grid-col-3">
         <ul class="usa-list usa-list--unstyled identifier-links">
-          <li><a href="{{ $privacy_policy }}">{{ $translation.footer.identifier_link_7 }}</a></li>
+          <li><a href="{{ .Site.BaseURL }}{{ $privacy_policy }}">{{ $translation.footer.identifier_link_7 }}</a></li>
           {{ if $translation.footer.identifier_link_8 }}
           <li><a href="{{ .Site.BaseURL }}{{ $sitemapLink }}">{{ $translation.footer.identifier_link_8 }}</a></li>
           {{ end }}

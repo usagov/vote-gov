@@ -27,8 +27,10 @@
     "globalURL": {
       "about_link": "/about-us/",
       "sitemap_link": "/sitemap/",
-      "accessibility_link": "/accessibility/"
+      "accessibility_link": "/accessibility/",
+      "privacypolicy_link": "/privacy-policy/"
     },
     "sitewide_alert": false
-  }
+  },
+  "ignoreErrors": ["error-disable-taxonomy"]
 }
