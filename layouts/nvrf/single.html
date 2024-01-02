@@ -1,9 +1,10 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+{{ $queryNum := substr (md5 now.Unix) 0 9 }}
 
 {{ partial "head.html" . }}
 
 <body class="page-basic">
-<link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/styles/nvrf.css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/styles/nvrf.css?v={{ $queryNum }}">
 {{ partial "header.html" . }}
 <main id="main-content">
   <div class="bg-blue" id="skip-target">
@@ -26,7 +27,7 @@
 {{ partial "footer.html" . }}
 {{ partial "analytics.html" . }}
 {{ partial "scripts.html" . }}
-<script type="module" crossorigin src="{{ .Site.BaseURL }}/assets/nvrf/index.js"></script>
+<script type="module" crossorigin src="{{ .Site.BaseURL }}/assets/nvrf/index.js?v={{ $queryNum }}"></script>
 </body>
 
 </html>
