@@ -56,7 +56,7 @@
     "sass": "^1.56.1",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
-    "vote-gov-nvrf-app": "github:usagov/vote-gov-nvrf-app#v0.1.0"
+    "vote-gov-nvrf-app": "github:usagov/vote-gov-nvrf-app#v0.2.0"
   },
   "devDependencies": {
     "axe-core": "^4.5.2",
