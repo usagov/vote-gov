@@ -22,6 +22,8 @@
   "alert_state__alert_msg": "Do COVID-19, có thể có những thay đổi về thời gian, địa điểm và cách bạn đi bầu trong những cuộc bầu cử sắp tới. Vui lòng kiểm tra %link% để biết thêm thông tin",
   "alert_state__alert_msg1": "trên trang mạng bầu cử ở tiều bang của bạn",
   "alert_state__alert_after_election": "Để biết kết quả bầu cử chính thức, xin vui lòng vào %link%",
+  "alert_state__alert_primary_election": "Cuộc bầu cử tổng thống sơ bộ năm 2024 diễn ra trên tất cả 50 tiểu bang và các vùng lãnh thổ từ tháng Giêng  đến tháng Sáu. %link%.",
+  "alert_state__alert_primary_election_link": "Hãy kiểm tra ngày tháng sắp tới và các thời hạn cuối cùng cho tiểu bang và đảng chính trị của bạn",
   "dates__bymail_deadline": "Thời hạn đăng ký qua đường bưu điện: ",
   "dates__byonline_deadline": "Thời hạn đăng ký trực tuyến: ",
   "dates__electionday": "Ngày bầu cử chung toàn quốc: Thứ Ba, 8 tháng 11, 2022",
