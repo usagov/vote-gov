@@ -5,7 +5,7 @@
   margin-bottom: 60px;
   margin-top: 40px;
 
-  a {
+  a:not(.usa-button) {
     color: $color-blue-dark;
   }
 
