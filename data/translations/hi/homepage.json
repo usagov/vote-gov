@@ -10,6 +10,7 @@
   "header": "मतदान करने के लिए पंजीकरण करें",
   "state_selection__heading": "आरंभ करने के तरीके के बारे में जानकारी के लिए अपना राज्य या क्षेत्र चुनें।",
   "state_selection__placeholder": "अपने राज्य या क्षेत्र का नाम दर्ज करें",
+  "state_selection__aria_label": "चयन करने पर स्टेट पेज खुलेगा।",
   "state_selection__submit": "जानें पंजीकरण कैसे करना है ",
   "registered__header": "पहले से पंजीकृत हैं?",
   "registered__resources_intro": "%USA.gov% पर हमारे %link% की विस्तृत जानकारी प्राप्त करें।",

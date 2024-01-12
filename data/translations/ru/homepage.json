@@ -2,6 +2,7 @@
   "header": "Зарегистрируйтесь для голосования",
   "state_selection__heading": "Выберите свой штат или территорию, чтобы получить информацию о том, как начать.",
   "state_selection__placeholder": "Введите название вашего штата или территории",
+  "state_selection__aria_label": "Страница вашего штата откроется после выбора штата.",
   "state_selection__submit": "Узнайте, как зарегистрироваться",
   "registered__header": "Уже зарегистрировались?",
   "registered__resources_intro": "Ознакомьтесь с нашими %link% на %USA.gov%",

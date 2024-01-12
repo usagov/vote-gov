@@ -10,6 +10,7 @@
   "header": "Đăng ký bỏ phiếu bầu",
   "state_selection__heading": "Chọn tiểu bang hoặc lãnh thổ bạn ở để có thông tin làm thế nào để bắt đầu.",
   "state_selection__placeholder": "Nhập tên tiểu bang hoặc lãnh thổ bạn ở.",
+  "state_selection__aria_label": "Trang tiểu bang sẽ mở ra khi lựa chọn.",
   "state_selection__submit": "Tìm hiểu cách đăng ký",
   "registered__header": "Bạn đã đăng ký?",
   "registered__resources_intro": "Tìm hiều %link% trên %USA.gov%",
