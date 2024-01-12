@@ -10,6 +10,7 @@
   "header": "ចុះឈ្មោះដើម្បីបោះឆ្នោត",
   "state_selection__heading": "ជ្រើសរើសរដ្ឋ ឬដែនដីរបស់អ្នកសម្រាប់ព័ត៌មានអំពីរបៀបចាប់ផ្តើម។",
   "state_selection__placeholder": "វាយបញ្ចូលឈ្មោះរដ្ឋ ឬដែនដីរបស់អ្នក",
+  "state_selection__aria_label": "ទំព័ររបស់រដ្ឋនឹងបើកក្រោយពីមានការជ្រើសរើស។",
   "state_selection__submit": "ស្វែងយល់ពីរបៀបចុះឈ្មោះ",
   "registered__header": "បានចុះឈ្មោះរួចហើយមែនទេ?",
   "registered__resources_intro": "ស្រាវជ្រាវ %link% របស់យើងនៅ %USA.gov%",

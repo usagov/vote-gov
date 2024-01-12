@@ -10,6 +10,7 @@
   "header": "ভোট দিতে নিবন্ধন করুন",
   "state_selection__heading": "কিভাবে শুরু করবেন তার তথ্যের জন্য আপনার রাজ্য বা অঞ্চল নির্বাচন করুন।",
   "state_selection__placeholder": "আপনার রাজ্য বা অঞ্চলের নাম লিখুন",
+  "state_selection__aria_label": "নির্বাচন করার পরে রাজ্য পৃষ্ঠা খুলবে।",
   "state_selection__submit": "কীভাবে নিবন্ধন করবেন তা খুঁজে বের করুন",
   "registered__header": "ইতিমধ্যে নিবন্ধন করেছেন ?",
   "registered__resources_intro": "%USA.gov%-এ আমাদের %link% অনুসন্ধান করুন",

@@ -21,6 +21,8 @@
   "alert_state__alert_msg": "En raison du COVID-19, il peut y avoir des changements concernant quand, où et comment vous votez à vos prochaines élections. Pour en savoir plus, consultez %link%.",
   "alert_state__alert_msg1": "le site Web électoral de votre État",
   "alert_state__alert_after_election": "Pour les résultats officiels des élections, visitez %link%",
+  "alert_state__alert_primary_election": "Les élections primaires présidentielles de 2024 auront lieu entre janvier et juin, dans tous les 50 États et territoires. %link%.",
+  "alert_state__alert_primary_election_link": "Vérifiez les prochaines dates et dates limites pour votre État et votre parti politique",
   "dates__bymail_deadline": "La date limite d'inscription par courrier : ",
   "dates__byonline_deadline": "La date limite d'inscription en ligne : ",
   "dates__electionday": "Le Jour des élections générales : le mardi 3 novembre 2020.",

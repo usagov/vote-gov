@@ -10,6 +10,7 @@
   "header": "Magrehistro para bumoto",
   "state_selection__heading": "Piliin ang inyong estado o teritoryo para sa impormasyon kung paano magsimula.",
   "state_selection__placeholder": "Ipasok ang pangalan ng inyong estado o teritoryo",
+  "state_selection__aria_label": "Ang pahina ng estado ay magbubukas pagkapili",
   "state_selection__submit": "Alamin kung paano magparehistro",
   "registered__header": "Nakarehistro na para bumoto?",
   "registered__resources_intro": "Saliksikin ang aming %link% sa %USA.gov%",

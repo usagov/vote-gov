@@ -23,6 +23,8 @@
   "alert_state__alert_msg": "Due to COVID-19, there may be changes to when, where and how you vote in your upcoming elections. For more information check with %link%",
   "alert_state__alert_msg1": "your state election website",
   "alert_state__alert_after_election": "For official election results, go to %link%.",
+  "alert_state__alert_primary_election": "The 2024 presidential primary elections take place in all 50 states and territories between January and June. %link%.",
+  "alert_state__alert_primary_election_link": "Check upcoming dates and deadlines for your state and political party",
   "dates__bymail_deadline": "Register by mail deadline:",
   "dates__byonline_deadline": "Online registration deadline:",
   "dates__electionday": "General Election Day: Tuesday, November 8, 2022.",
