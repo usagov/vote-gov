@@ -29,7 +29,6 @@
       "sitemap_link": "/sitemap/",
       "accessibility_link": "/accessibility/"
     },
-    "sitewide_alert": false
-  },
-  "ignoreErrors": ["error-disable-taxonomy"]
+    "sitewide_alert": true
+  }
 }

@@ -2,6 +2,7 @@
   "header": "Inscríbase para votar",
   "state_selection__heading": "Seleccione su estado o territorio para obtener información acerca de cómo empezar.",
   "state_selection__placeholder": "Ingrese el nombre de su estado o territorio.",
+  "state_selection__aria_label": "Una vez hecha la selección, la página del estado se abrirá",
   "state_selection__submit": "Averigüe cómo registrarse",
   "registered__header": "¿Ya se inscribió para votar?",
   "registered__resources_intro": "Vea nuestra %link% en USAGov en Español",
