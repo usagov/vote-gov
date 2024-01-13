@@ -10,6 +10,7 @@
   "header": "Enskri pou vote",
   "state_selection__heading": "Chwazi Eta oswa teritwa w la pou jwenn enfòmasyon sou kouman pou demare.",
   "state_selection__placeholder": "Ekri non Eta a oswa teritwa w lan.",
+  "state_selection__aria_label": "Paj pou Eta a ap ouvri kou w fè seleksyon an.",
   "state_selection__submit": "Jwenn fason pou enskri",
   "registered__header": "Ou gentan enskri?",
   "registered__resources_intro": "Eksplore %link% nou yo sou %USA.gov%",

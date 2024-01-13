@@ -10,6 +10,7 @@
   "header": "سجل للتصويت",
   "state_selection__heading": "حدد ولايتك أو إقليمك للحصول على معلومات حول كيفية البدء",
   "state_selection__placeholder": "أدخل اسم ولايتك أو إقليمك",
+  "state_selection__aria_label": "ستفتح صفحة الولاية عند الاختيار",
   "state_selection__submit": "تعرف على كيفية التسجيل",
   "registered__header": "هل أنت مسجل بالفعل؟",
   "registered__resources_intro": "استكشف %link% على %USA.gov%",

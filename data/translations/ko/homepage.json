@@ -10,6 +10,7 @@
   "header": "유권자 등록하기",
   "state_selection__heading": "해당 주 또는 영토를 선택하여 시작하는 방법을 확인하십시오.",
   "state_selection__placeholder": "해당 주 또는 영토 이름을 입력하십시오.",
+  "state_selection__aria_label": "주 정부 페이지를 선택하시면 페이지가 열립니다.",
   "state_selection__submit": "유권자 등록 방법 안내 ",
   "registered__header": "이미 등록하셨습니까?",
   "registered__resources_intro": "%USA.gov% 사이트에서 %link% 정보를 검색하십시오",
