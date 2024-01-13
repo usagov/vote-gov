@@ -1,0 +1,52 @@
+.nvrf-app-container {
+  .usa-button {
+    line-height: 1.2;
+  }
+
+  @media only screen and (max-width: 639px) {
+    .mobile-width {
+      width: 100%;
+      max-width: 480px;
+    }
+  }
+
+  .grid-container-tablet {
+    max-width: 720px;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid #adadad;
+  }
+
+  .usa-form .usa-input {
+    max-width: 480px;
+  }
+
+  .edit-btn {
+    margin-left: 8px;
+    margin-top: 37px;
+  }
+
+  fieldset + .usa-hint {
+    margin-top: 0.5rem;
+  }
+
+  .error-container {
+    border-left: 3px solid #b50909;
+    padding-left: 15px;
+  }
+
+  .error-text {
+    color: #b50909;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    display: block;
+  }
+
+  .usa-step-indicator__header {
+    position: absolute;
+    text-indent: -9000px;
+    overflow: hidden;
+  }
+}

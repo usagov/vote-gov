@@ -19,6 +19,14 @@ $theme-show-notifications: false,
 @forward "usa-intro";
 @forward "usa-language-selector";
 
+// NVRF dependencies --------------- //
+@forward "usa-card";
+@forward "usa-step-indicator";
+@forward "usa-icon-list";
+@forward "uswds-fonts";
+@forward "uswds-helpers";
+@forward "uswds-utilities";
+
 @forward 'component/language-switcher';
 @forward 'component/identifier';
 @forward 'component/contact';
