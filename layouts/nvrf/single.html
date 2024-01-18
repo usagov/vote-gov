@@ -5,6 +5,33 @@
 
 <body class="page-basic">
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/styles/nvrf.css?v={{ $queryNum }}">
+
+<!-- START LOGIN FORM -->
+<dialog id="loginDialog" data-enabled="true" style="width: 480px; border: 0; border-radius: 0.5rem; padding: 1.5rem;">
+  <form class="usa-form" style="max-width: none;">
+    <h2>Sign in</h2>
+    <p>This prototype is restricted to authenticated users.</p>
+    <div id="loginError" class="usa-alert usa-alert--error usa-alert--slim" role="alert" style="border-left-color: #d54309;" hidden>
+      <div class="usa-alert__body">
+        <p class="usa-alert__text">
+          <strong>Error</strong>: Please enter valid username and password.
+        </p>
+      </div>
+    </div>
+    <p>
+      <label for="loginUser" class="usa-label">Username*</label><input class="usa-input" id="loginUser" name="loginUser" required="true" type="text"/>
+    </p>
+    <p>
+      <label for="loginPass" class="usa-label">Password*</label><input class="usa-input" id="loginPass" name="loginPass" required="true" type="password"/>
+    </p>
+    <div>
+      <button id="loginConfirm" value="default" class="usa-button">Confirm</button>
+    </div>
+  </form>
+</dialog>
+<div id="protoContainer" hidden>
+<!-- END LOGIN FORM -->
+
 {{ partial "header.html" . }}
 <main id="main-content">
   <div class="bg-blue" id="skip-target">
@@ -25,9 +52,19 @@
   </div>
 </main>
 {{ partial "footer.html" . }}
+
+<!-- START LOGIN FORM CLOSURE -->
+</div>
+<!--END LOGIN FORM CLOSURE-->
+
 {{ partial "analytics.html" . }}
 {{ partial "scripts.html" . }}
 <script type="module" crossorigin src="{{ .Site.BaseURL }}/assets/nvrf/index.js?v={{ $queryNum }}"></script>
+
+<!-- START LOGIN SCRIPT -->
+<script src="login.js"></script>
+<!-- END LOGIN SCRIPT -->
+
 </body>
 
 </html>
