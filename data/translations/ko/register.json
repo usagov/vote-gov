@@ -33,8 +33,6 @@
   "alert_state__alert_msg1": "귀하의 주 선거 사무국 웹사이트",
   "alert_state__alert_msg2": "를 참조하시기 바랍니다.",
   "alert_state__alert_after_election": "공식 선거 사무국 웹사이트 바로 가기 %link%.",
-  "alert_state__alert_primary_election": "2024년 대통령 예비선거는 50개 주와 영토 전체에서  1월부터 6월 사이에 실시됩니다. %link%.",
-  "alert_state__alert_primary_election_link": "귀하의 선거 주와 정당의 일정 및 마감일은 다음 링크에서 확인하실 수 있습니다.",
   "dates__bymail_deadline": "우편 투표자 등록 마감일:",
   "dates__byonline_deadline": "온라인 등록 마감일:",
   "dates__electionday": "총 선거일: 2022년 11월 8일 화요일",

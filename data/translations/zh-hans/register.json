@@ -22,8 +22,6 @@
   "alert_state__alert_msg": "由于 COVID-19，您在即将举行的选举中投票的时间、地点和方式可能会发生变化。请与 %link% 联系以获取更多信息。",
   "alert_state__alert_msg1": "您的州选举网站",
   "alert_state__alert_after_election": "有关官方选举结果，请访问 %link%",
-  "alert_state__alert_primary_election": "2024 年总统初选将于 1 月至 6 月在所有 50 个州和地区举行。 %link%.",
-  "alert_state__alert_primary_election_link": "查看您所在州和政党即将到来的初选日期和截止日期",
   "dates__bymail_deadline": "邮寄报名截止日期：",
   "dates__byonline_deadline": "网上报名截止日期：",
   "dates__electionday": "大选日：2022年11月8日星期二 ",

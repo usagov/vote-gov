@@ -23,8 +23,6 @@
   "alert_state__alert_msg": "Debido al COVID-19, su estado podría haber modificado cuándo, dónde y cómo usted podrá votar en las próximas elecciones. Verifique esta información en el %link%.",
   "alert_state__alert_msg1": "sitio web electoral de su estado",
   "alert_state__alert_after_election":"Para ver los resultados oficiales de las elecciones visite el %link%.",
-  "alert_state__alert_primary_election": "Las elecciones primarias presidenciales del 2024 se celebrarán en todos los 50 estados y territorios entre enero y junio. %link%.",
-  "alert_state__alert_primary_election_link": "Revise las próximas fechas y plazos de su estado y de su partido político",
   "dates__bymail_deadline": "Registrarse por correo postal:",
   "dates__byonline_deadline": "Inscripción por internet:",
   "dates__electionday": "Día de la elección general: martes, 8 de noviembre de 2022",

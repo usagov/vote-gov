@@ -23,8 +23,6 @@
   "alert_state__alert_msg1": "website ng eleksyon ng iyong estado",
   "alert_state__alert_msg2": "para sa higit pang impormasyon.",
   "alert_state__alert_after_election": "Para sa opisyal na mga resulta ng eleksyon, pumunta sa %link%.",
-  "alert_state__alert_primary_election": "Ang 2024 na pangunahing eleksyon sa pagkapresidente ay nagaganap sa lahat ng 50 estado at mga teritoryo sa pagitan ng Enero at Hunyo. %link%.",
-  "alert_state__alert_primary_election_link": "Tingnan ang mga paparating na petsa at mga deadline para sa inyong estado at partidong pampulitika",
   "dates__bymail_deadline": "Deadline ng pagpaparehistro sa pamamagitan ng koreo",
   "dates__byonline_deadline": "Deadline ng pagpaparehistro sa online",
   "dates__electionday": "Araw ng Pangkalahatang Eleksyon: Martes, ika-8 ng Nobyembre 2022",

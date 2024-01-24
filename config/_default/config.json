@@ -29,6 +29,6 @@
       "sitemap_link": "/sitemap/",
       "accessibility_link": "/accessibility/"
     },
-    "sitewide_alert": true
+    "sitewide_alert": false
   }
 }
