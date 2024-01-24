@@ -165,8 +165,8 @@
     "default_mail_postmarked_deadline": "必须在选举日前 28 天盖上邮戳"
   },
   "ny": {
-    "default_ip_deadline": "选举日前 25天",
-    "default_online_deadline": "选举日前 25天",
+    "default_ip_deadline": "选举日前 10天",
+    "default_online_deadline": "选举日前 10天",
     "default_mail_received_deadline": "必须在选举日前 10天前收到"
   },
   "nc": {
