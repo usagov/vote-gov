@@ -24,8 +24,7 @@
     "confirm_registration_link_language_selection": "true",
     "default_ip_deadline": "hasta 29 días antes del día de las elecciones",
     "default_online_deadline": "hasta 29 días antes del día de las elecciones",
-    "default_mail_postmarked_deadline": "debe tener el sello del correo 29 días antes del día de las elecciones",
-    "more_info_link_override": "https://azsos.gov/elections/voting-election/register-vote-or-update-your-current-voter-information-sp"
+    "default_mail_postmarked_deadline": "debe tener el sello del correo 29 días antes del día de las elecciones"
   },
   "ar": {
     "confirm_registration_link_translated": "true",
