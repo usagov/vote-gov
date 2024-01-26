@@ -10,8 +10,8 @@ hp_link = "https://www.elections.ny.gov/"
 registration_link = "https://dmv.ny.gov/more-info/electronic-voter-registration-application"
 more_info_link = "https://www.elections.ny.gov/votingregister.html"
 confirm_registration_link = "https://voterlookup.elections.ny.gov/"
-default_ip_deadline = "25 ngày trước Ngày Bầu Cử"
-default_online_deadline = "25 ngày trước Ngày Bầu Cử"
+default_ip_deadline = "10 ngày trước Ngày Bầu Cử"
+default_online_deadline = "10 ngày trước Ngày Bầu Cử"
 default_mail_received_deadline = "Phải được nhận vào 10 ngày trước ngày Bầu Cử"
 
 +++

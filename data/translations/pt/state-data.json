@@ -165,8 +165,8 @@
     "default_mail_postmarked_deadline": "Deve ser carimbado 28 dias antes do Dia da Eleição"
   },
   "ny": {
-    "default_ip_deadline": "25 dias antes do Dia da Eleição",
-    "default_online_deadline": "25 dias antes do Dia da Eleição",
+    "default_ip_deadline": "10 dias antes do Dia da Eleição",
+    "default_online_deadline": "10 dias antes do Dia da Eleição",
     "default_mail_received_deadline": "Deve ser recebido 10 dias antes do Dia da Eleição"
   },
   "nc": {
