@@ -10,8 +10,8 @@ hp_link = "https://www.elections.ny.gov/"
 registration_link = "https://dmv.ny.gov/more-info/electronic-voter-registration-application"
 more_info_link = "https://www.elections.ny.gov/votingregister.html"
 confirm_registration_link = "https://voterlookup.elections.ny.gov/"
-default_ip_deadline = "নির্বাচনের ২৫ দিন আগে"
-default_online_deadline = "নির্বাচনের ২৫ দিন আগে"
+default_ip_deadline = "নির্বাচনের ১০ দিন আগে"
+default_online_deadline = "নির্বাচনের ১০ দিন আগে"
 default_mail_received_deadline = "নির্বাচনের দিন ১০ দিন আগে পেতে হবে"
 
 +++
