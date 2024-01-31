@@ -40,7 +40,7 @@
   "homepage": "https://github.com/18F/vote-gov#readme",
   "license": "CC0-1.0",
   "dependencies": {
-    "@uswds/uswds": "^3.3.0",
+    "@uswds/uswds": "^3.7.1",
     "ansi-colors": "^4.1.1",
     "autoprefixer": "^10.4.13",
     "browserify": "^17.0.0",
