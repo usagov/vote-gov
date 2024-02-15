@@ -37,13 +37,17 @@
   .error-container {
     border-left: 3px solid #b50909;
     padding-left: 15px;
+
+    .error-text {
+      display: block;
+    }
   }
 
   .error-text {
     color: #b50909;
     font-size: 1rem;
     margin-top: 0.5rem;
-    display: block;
+    display: none;
   }
 
   .usa-step-indicator__header {
