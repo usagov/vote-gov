@@ -74,10 +74,10 @@
     stateListResults.find((element, index) => {
       if (element === option) {
         if (index === 0) {
-          stateInput.activate();
+          stateInput.focus();
         }
         else {
-          stateListResults[index - 1].activate();
+          stateListResults[index - 1].focus();
         }
       }
     });
@@ -88,10 +88,10 @@
     stateListResults.find((element, index) => {
       if (element === option) {
         if (index === stateListResults.length - 1) {
-          stateListResults[0].activate();
+          stateListResults[0].focus();
         }
         else {
-          stateListResults[index + 1].activate();
+          stateListResults[index + 1].focus();
         }
       }
     });
@@ -135,7 +135,7 @@
     stateInput.addEventListener('focus', stateListShow);
     stateInput.addEventListener('keydown', (e) => {
       if (e.key === "ArrowDown") {
-        stateListResults[0].activate();
+        stateListResults[0].focus();
       }
     });
     stateInput.addEventListener('keyup', (e) => {
