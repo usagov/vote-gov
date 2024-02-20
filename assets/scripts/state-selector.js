@@ -135,7 +135,7 @@
     stateInput.addEventListener('focus', stateListShow);
     stateInput.addEventListener('keydown', (e) => {
       if (e.key === "ArrowDown") {
-        stateListResults[0].focus();
+        stateListResults[0].activate();
       }
     });
     stateInput.addEventListener('keyup', (e) => {
