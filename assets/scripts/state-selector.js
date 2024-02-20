@@ -120,7 +120,7 @@
   // Initialize event listeners if combobox loaded.
   if (stateComboBox) {
     // Attach events for combobox component.
-    stateComboBox.addEventListener('focusin', (e) => {
+    stateComboBox.addEventListener('focusout', (e) => {
       if (!e.currentTarget.contains(e.relatedTarget)) {
         stateListHide();
       }

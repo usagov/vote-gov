@@ -28,10 +28,10 @@
                 <h1 class="main-heading" data-test="main-header">{{ $translation.homepage.header | safeHTML }}</h1>
               </header>
 
-              <form id="state-combo-box">
+              <form id="state-combo-box" tabindex="-1" style="outline: 0 none;">
                 <label for="state-input">{{ $translation.homepage.state_selection__heading }}</label>
                 <div class="input-buttons-group" aria-label="{{ $translation.homepage.state_selection__aria_label }}" data-test="state-selection">
-                <input type="text" class="state-input" id="state-input" autocomplete="off" placeholder="{{ $translation.homepage.state_selection__placeholder }}">
+                <input type="text" class="state-input" id="state-input" placeholder="{{ $translation.homepage.state_selection__placeholder }}">
                   <div class="input-control-container">
                     <button id="state-dropdown-btn" tabindex="-1" class="dropdown-btn" type="button" aria-hidden="true" data-test="dropdown-btn"></button>
                   </div>
