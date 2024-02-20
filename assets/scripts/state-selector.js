@@ -74,10 +74,10 @@
     stateListResults.find((element, index) => {
       if (element === option) {
         if (index === 0) {
-          stateInput.focus();
+          stateInput.activate();
         }
         else {
-          stateListResults[index - 1].focus();
+          stateListResults[index - 1].activate();
         }
       }
     });
@@ -88,10 +88,10 @@
     stateListResults.find((element, index) => {
       if (element === option) {
         if (index === stateListResults.length - 1) {
-          stateListResults[0].focus();
+          stateListResults[0].activate();
         }
         else {
-          stateListResults[index + 1].focus();
+          stateListResults[index + 1].activate();
         }
       }
     });
