@@ -12,6 +12,6 @@ more_info_link = "https://www.elections.ny.gov/votingregister.html"
 confirm_registration_link = "https://voterlookup.elections.ny.gov/"
 default_ip_deadline = "10 jou anvan jou eleksyon an"
 default_online_deadline = "10 jou anvan jou eleksyon an"
-default_mail_received_deadline = "Dwe rive 10 jou anvan jou eleksyon an"
+default_mail_received_deadline = "Dwe gen so lapòs sou li, date 15 jou anvan epi ki resevwa 10 jou anvan Jou Eleksyon an"
 
 +++
