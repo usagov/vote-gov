@@ -433,7 +433,7 @@
     "confirm_registration_link_language_selection": "",
     "default_ip_deadline": "10 days before Election Day",
     "default_online_deadline": "10 days before Election Day",
-    "default_mail_received_deadline": "Must be received 10 days before Election Day"
+    "default_mail_received_deadline": "Must be postmarked 15 days before and received 10 days before Election Day"
   },
   "nc": {
     "hp_link_translated": "true",
