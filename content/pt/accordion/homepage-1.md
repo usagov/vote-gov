@@ -1,6 +1,6 @@
 +++
-title = "Registrar-se para a votação:"
+title = "Fazer cadastramento eleitoral para a votação:"
 +++
-Todos os estados menos Dakota do Norte requerem que se registre antes de votar numa eleição. Selecionar o seu estado ou território do menu descendente para encontrar as regras que se lhe aplicam.
+Todos os estados, exceto North Dakota, exigem que você faça o cadastro antes de votar numa eleição. Selecione o seu estado ou território do menu suspenso para ver as regras aplicáveis a você.
 
-Os cidadãos americanos que vivem fora dos EUA, incluso os membros do serviço militar dos EUA e suas famílias, podem registrar-se a votar e pedir um voto por correspondência para completar uma Aplicação Federal do Cartão Postal (AFCP). Membros familiares do militar dos EUA, igual a todos, devem cumprir com os requisitos de elegibilidade dos eleitores dos EUA para registrar-se e pedir um voto por correspondência. Para mais informação, visitar o [Programa Federal de Assistência para os Eleitores (em inglês)](https://www.fvap.gov/).
+Os cidadãos americanos que vivem fora dos EUA, incluindo os militares dos EUA e suas famílias, podem se cadastrar para votar e solicitar o voto por correspondência ao preencher o formulário Federal Post Card Application (FPCA) (Formulário para registro de voto de cédula de solicitação e ausente para militares, suas famílias e cidadãos no exterior). Os familiares de militares dos EUA, como todas as outras pessoas, devem cumprir os requisitos de elegibilidade dos eleitores dos EUA para se cadastrarem e pedirem votação pelo correio. Para obter outras informações, acesse o [Federal Voter Assistance Program {{< inenglish >}}](https://www.fvap.gov/) (Programa de assistência à votação de militares em serviço, suas famílias e cidadãos no exterior).

@@ -1,12 +1,10 @@
 +++
-title = "Verificar o seu registro"
+title = "Verificar seu cadastro"
 +++
-Selecione o seu estado ou território do menu descendente para verificar o seu registro antes do prazo final do seu estado. Em alguns estados, o prazo final pode ser até 30 dias antes da eleição.
+Selecione o seu estado ou território no menu suspenso para verificar o seu cadastro antes do prazo final do seu estado. Em alguns estados, você pode fazer o cadastramento até 30 dias antes da eleição.
 
-Verifique também se o seu registro está marcado como “inativo”. Pode tornar-se “inativo” se não votou em pelo menos duas eleições federais e não respondeu quando os oficiais eleitorais tentaram entrar em contato com você.
+Verifique também se o seu cadastro está “inativo”. Você pode ficar “inativo” se não tiver votado em, pelo menos, duas eleições federais e não tiver respondido aos funcionários eleitorais.
 
-Um status “inativo” não necessariamente significa que tenha de registrar-se de novo. Só significa que tem de tomar alguns passos adicionais antes que puder votar. O gabinete eleitoral do seu estado ou o seu gabinete eleitoral local podem ajudar a retornar seu status de registro a “ativo” ou responder a qualquer pergunta que tiver.
+Um cadastro “inativo” não significa necessariamente que você precise se cadastrar de novo. Isso significa que talvez você tenha que tomar outras medidas antes de poder votar. A repartição eleitoral do seu estado ou da sua cidade poderá ajudar a alterar a situação do seu cadastro para “ativo” ou responder a qualquer dúvida que você possa ter.
 
-Assegure-se que seja registrado/a com o nome, direção, e afiliação do partido política correta.
-Visite a página web de registro do seu estado para informação de como puder atualizar sua informação de registro eleitoral.
-
+Verifique se seu nome, endereço e afiliação partidária estão corretos no cadastro. Acesse a página de registro do seu estado na internet para obter informações sobre como atualizar suas informações de cadastro eleitoral.

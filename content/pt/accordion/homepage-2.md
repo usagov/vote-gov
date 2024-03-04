@@ -1,6 +1,6 @@
 +++
-title = "Encontrar os prazos finais de registro eleitoral"
+title = "Localizar os prazos finais para o cadastramento eleitoral"
 +++
-Não há prazo final de registro eleitoral nacional. Os eleitores em cada estado e território têm de seguir as suas regras de inscrição dos eleitores. Selecionar seu estado ou território do menu descendente para encontrar seu prazo final de registro eleitoral.
+Não há prazo final para o cadastramento eleitoral nacional. Os eleitores em cada estado e território têm de seguir as leis de cadastramento eleitoral dos respectivos estados e territórios. Selecione seu estado ou território no menu suspenso para encontrar seu prazo final de cadastramento eleitoral.
 
-Cada estado menos Dakota do Norte requere que os cidadãos se registrem se quiserem votar. Alguns estados requerem que os eleitores se registrem até 30 dias antes de uma eleição, enquanto outros permitem o registro até o Dia de Eleição e no próprio Dia.
+Todos os estados, exceto North Dakota, exigem que os cidadãos se cadastrem se quiserem votar. Alguns estados exigem que os eleitores se registrem até 30 dias antes da eleição, enquanto outros permitem o cadastramento até no Dia da Eleição. É importante saber as regras do seu estado.
