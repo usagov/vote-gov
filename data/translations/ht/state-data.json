@@ -164,9 +164,9 @@
         "default_mail_postmarked_deadline": "Dwe gen so lapòs 28 jou anvan Jou Eleksyon an"
     },
     "ny": {
-        "default_ip_deadline": "25 jou anvan jou eleksyon an",
-        "default_online_deadline": "25 jou anvan jou eleksyon an",
-        "default_mail_received_deadline": "Dwe rive 10 jou anvan jou eleksyon an"
+        "default_ip_deadline": "10 jou anvan jou eleksyon an",
+        "default_online_deadline": "10 jou anvan jou eleksyon an",
+        "default_mail_received_deadline": "Dwe gen so lapòs sou li, date 15 jou anvan epi ki resevwa 10 jou anvan Jou Eleksyon an"
     },
     "nc": {
         "default_ip_deadline": "Anrejistreman menm jou disponib pandan peryòd vòt anvan lè",

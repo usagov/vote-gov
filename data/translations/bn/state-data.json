@@ -164,9 +164,9 @@
         "default_mail_postmarked_deadline": "নির্বাচনের দিন ২৮ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "ny": {
-        "default_ip_deadline": "নির্বাচনের ২৫ দিন আগে",
-        "default_online_deadline": "নির্বাচনের ২৫ দিন আগে",
-        "default_mail_received_deadline": "নির্বাচনের দিন ১০ দিন আগে পেতে হবে"
+        "default_ip_deadline": "নির্বাচনের ১০ দিন আগে",
+        "default_online_deadline": "নির্বাচনের ১০ দিন আগে",
+        "default_mail_received_deadline": "১৫ দিন আগে পোস্টমার্ক করতে হবে এবং নির্বাচনের দিন ১০ দিন আগে পেতে হবে"
     },
     "nc": {
         "default_ip_deadline": "প্রারম্ভিক ভোটের সময় একই দিনে নিবন্ধন উপলব্ধ",

@@ -164,9 +164,9 @@
     "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 28 ngày trước Ngày Bầu Cử"
   },
   "ny": {
-    "default_ip_deadline": "25 ngày trước Ngày Bầu Cử",
-    "default_online_deadline": "25 ngày trước Ngày Bầu Cử",
-    "default_mail_received_deadline": "Phải được nhận vào 10 ngày trước ngày Bầu Cử"
+    "default_ip_deadline": "10 ngày trước Ngày Bầu Cử",
+    "default_online_deadline": "10 ngày trước Ngày Bầu Cử",
+    "default_mail_received_deadline": "Phải được đóng dấu bưu điện trước 15 ngày và nhận được 10 ngày trước Ngày Bầu Cử"
   },
   "nc": {
     "default_ip_deadline": "Được đăng kí và bầu cử cùng một ngày trong giai đoạn bầu cừ sớm",
