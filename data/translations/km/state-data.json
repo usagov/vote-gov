@@ -167,7 +167,7 @@
   "ny": {
     "default_ip_deadline": "10 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
     "default_online_deadline": "10 ថ្ងៃមុនថ្ងៃបោះឆ្នោត",
-    "default_mail_received_deadline": "ត្រូវតែបានទទួល 10 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
+    "default_mail_received_deadline": "ត្រូវតែបានបោះត្រា 15 ថ្ងៃមុន និងត្រូវបានគេទទួល 10 ថ្ងៃមុនថ្ងៃបោះឆ្នោត"
   },
   "nc": {
     "default_ip_deadline": "ការចុះឈ្មោះថ្ងៃតែមួយអាចរកបានកំឡុងពេលបោះឆ្នោតលឿន",

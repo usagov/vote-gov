@@ -167,7 +167,7 @@
   "ny": {
     "default_ip_deadline": "10 dias antes do Dia da Eleição",
     "default_online_deadline": "10 dias antes do Dia da Eleição",
-    "default_mail_received_deadline": "Deve ser recebido 10 dias antes do Dia da Eleição"
+    "default_mail_received_deadline": "Deve ser postado 15 dias antes e recibido 10 dias antes do Dia da Eleição "
   },
   "nc": {
     "default_ip_deadline": "Registro no mesmo dia disponível durante o período de votação temprano ",
