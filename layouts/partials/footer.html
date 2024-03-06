@@ -1,5 +1,6 @@
 {{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
 <footer role="contentinfo">
+  {{ if ne .Type "nvrf" }}
   <section class="bg-white" title="{{ $translation.footer.section_sign_up }}" aria-label="{{ $translation.footer.section_sign_up }}">
     <div class="grid-container">
       <div class="grid-row grid-gap">
@@ -21,6 +22,7 @@
       </div>
     </div>
   </section>
+  {{ end }}
 
     {{ partial "partials/contact-identifier.html" . }}
     
