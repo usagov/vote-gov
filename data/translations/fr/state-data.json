@@ -266,9 +266,9 @@
   },
 
   "ny": {
-    "default_ip_deadline": "25 jours avant le Jour des élections",
-    "default_online_deadline": "25 jours avant le Jour des élections",
-    "default_mail_received_deadline": "Doit être reçu au plus tard 10 jours avant le Jour des élections",
+    "default_ip_deadline": "10 jours avant le Jour des élections",
+    "default_online_deadline": "10 jours avant le Jour des élections",
+    "default_mail_received_deadline": "Doit porter le cachet de la poste au plus tard 15 jours avant le jour de l'élection et doit être reçu au plus tard 10 jours avant le jour de l'élection",
     "in_state_name": "dans l'État de %state_name%",
     "of_state_name": "de l'État de %state_name%"
   },

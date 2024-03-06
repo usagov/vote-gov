@@ -1,8 +1,0 @@
-+++
-title = "Alamin kung paano kumuha ng kard ng rehistrasyon ng botante"
-+++
-Kapag kayo ay nagparehistro para bumoto, kayo ay padadalhan ng kard ng rehistrasyon ng botante. Kinukumpirma ng kard na ito na kayo ay nakarehistro at handang bumoto. Karaniwang kasama sa inyong kard ng rehistrasyon ng botante ang inyong pangalan, tirahan, at address ng istasyon ng botohan kung saan kayo boboto. Maaari din ninyong  hanapin ang inyong rehistrasyon ng botante gamit ang lookup tool ng rehistrasyon ng botante sa inyong estado sa online.
-
-Kung nagbago ang inyong pangalan o tirahan, kailangan ninyong  i-update ang inyong rehistrasyon ng botante. Kapag na-update na ninyo  ang inyong impormasyon sa rehistrasyon ng botante, maaari kayong makatanggap ng bagong kard ng rehistrasyon ng botante, depende sa inyong estado. Kung mayroon kayong mga katanungan, ang inyong lokal na opisina ng eleksyon ay ang pinakamahusay na mapagkukunan para makatulong.
-
-Karaniwang hindi ninyo kailangang dalhin ang inyong kard ng rehistrasyon ng botante para makaboto, ngunit maaaring kailanganin ninyong  magpakita ng iba pang [anyo ng ID para bumoto {{< inenglish >}}](https://www.usa.gov/voter-id). Matuto nang higit pa tungkol sa [rehistrasyon ng botante {{< inenglish >}}](https://www.usa.gov/voter-registration-card).

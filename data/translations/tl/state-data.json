@@ -165,9 +165,9 @@
     "default_mail_postmarked_deadline": "Dapat na naka-postmark  28 araw bago ang Araw ng Eleksyon"
   },
   "ny": {
-    "default_ip_deadline": "25 araw bago ang Araw ng Eleksyon",
-    "default_online_deadline": "25 araw bago ang Araw ng Eleksyon",
-    "default_mail_received_deadline": "Dapat matanggap 10 araw bago ang Araw ng Eleksyon"
+    "default_ip_deadline": "10 araw bago ang Araw ng Eleksyon",
+    "default_online_deadline": "10 araw bago ang Araw ng Eleksyon",
+    "default_mail_received_deadline": "Dapat na naka-postmark 15 araw bago at natanggap 10 araw bago ang Araw ng Eleksyon"
   },
   "nc": {
     "default_ip_deadline": "Maari ang pagpaparehistro sa parehong araw sa panahon ng maagang pagboto",
