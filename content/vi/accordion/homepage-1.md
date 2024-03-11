@@ -1,6 +1,6 @@
 +++
 title = "Đăng ký để bầu cử"
 +++
-Ngoại trừ Bắc Dakota, tất cả các tiểu bang yêu cầu bạn phải đăng ký trước khi bỏ phiếu trong một cuộc bầu cử.  Chọn tiểu bang hoặc lãnh thổ của bạn từ menu thả xuống bên dưới để tìm các quy tắc áp dụng cho bạn.
+Ngoại trừ North Dakota, tất cả các tiểu bang yêu cầu quý vị phải đăng ký trước khi bỏ phiếu trong một cuộc bầu cử. Chọn tiểu bang hoặc lãnh thổ của quý vị từ danh sách thả xuống để tìm các quy tắc áp dụng cho quý vị.
 
 Công dân Hoa Kỳ sống bên ngoài Hoa Kỳ, bao gồm các quân nhân phục vụ trong quân đội Hoa Kỳ và gia đình của họ, có thể đăng ký bỏ phiếu và yêu cầu bỏ phiếu vắng mặt bằng cách hoàn thành Federal Post Card Application (FPCA) (Biểu mẫu đăng ký bỏ phiếu và yêu cầu bỏ phiếu vắng mặt dành cho các quân nhân phục vụ trong quân đội, gia đình của họ và các công dân sống ở nước ngoài). Giống như những người khác, các thành viên gia đình quân nhân Hoa Kỳ phải đáp ứng các yêu cầu hội đủ điều kiện của cử tri Hoa Kỳ để đăng ký và yêu cầu phiếu bầu. Để biết thêm thông tin, hãy truy cập [Federal Voter Assistance Program {{< inenglish >}}](https://www.fvap.gov/) (Chương trình hỗ trợ bỏ phiếu dành cho các quân nhân phục vụ trong quân đội, gia đình của họ và các công dân sống ở nước ngoài).
