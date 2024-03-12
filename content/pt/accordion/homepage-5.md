@@ -1,6 +1,6 @@
 +++
-title = "Troca de afiliação de partido político"
+title = "Alterar filiação partidária"
 +++
-Cada estado tem um processo diferente de selecionar ou trocar a sua afiliação do partido. Dependendo do seu estado, você pode estar solicitado/a a declarar sua afiliação do partido quando se registrar para votar. Seu estado pode evitar afiliações de partido político para os eleitores. Contacte o seu gabinete eleitoral local ou do estado para saber qual é o procedimento e se há algum prazo para  onde reside. A escolha de afiliação do partido não é disponível em todos estados.
+Cada estado tem um processo diferente para selecionar ou trocar a sua filiação partidária. Dependendo do seu estado, você poderá ser obrigado a declarar sua afiliação partidária ao se cadastrar para votar. Seu estado pode não ter afiliações partidárias para os eleitores. Entre em contato com a repartição eleitoral da sua cidade ou do seu estado para saber qual é o procedimento e se há algum prazo onde você reside. A afiliação partidária não está disponível em todos estados.
 
-Independentemente do partido que escolha, o processo de eleição é o mesmo numa eleição geral, que é quando os candidatos são eleitos para os gabinetes. A sua afiliação partidária afeta em quem você pode votar nas [eleições primárias e convenções partidárias (em inglês)](https://www.usa.gov/election#item-37162).
+Independentemente do partido escolhido, o processo de votação é o mesmo em uma eleição geral, que ocorre quando os candidatos são eleitos para os cargos. A sua afiliação partidária afeta em quem você pode votar nas [eleições primárias e convenções partidárias {{< inenglish >}}](https://www.usa.gov/election#item-37162).

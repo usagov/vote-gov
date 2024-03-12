@@ -1,16 +1,13 @@
 +++
-title = "Registre-se depois de se mudar"
+title = "Fazer seu cadastramento eleitoral após sua mudança"
 +++
-Se você se mudou para perto ou para longe, você tem de atualizar o seu registro de eleitor depois de uma mudança de endereço. Selecione seu estado ou território do menu suspenso para aprender como se registrar on-line ou por correio. Se o seu estado tiver registro de eleitores on-line, isso pode ser a maneira mais rápida de fazer alterações. Envie as suas alterações antes do prazo de inscrição do seu estado, que pode ser até 30 dias antes do dia da eleição. Seu estado também pode requerer uma carteira de motorista ou carteira de identificação. [Veja qual tipo de identificação de eleitor o seu estado requer (em inglês)](https://www.ncsl.org/research/elections-and-campaigns/voter-id.aspx#Laws%20in%20Effect).
+Quer você tenha se mudado para perto ou para longe, você precisa atualizar o seu cadastro eleitoral depois de uma mudança de endereço. Selecione seu estado ou território no menu suspenso para saber como se cadastrar on-line ou por correio. Se o seu estado tiver cadastramento de eleitores on-line, essa pode ser a maneira mais rápida de fazer alterações. Envie as suas alterações antes do término do prazo de cadastramento do seu estado, que pode ser de até 30 dias antes do dia da eleição. Seu estado também pode exigir uma nova carteira de motorista ou carteira de identificação. [Veja qual tipo de identificação de eleitor o seu estado exige {{< inenglish >}}](https://www.ncsl.org/elections-and-campaigns/voter-id#Laws%20in%20Effect)﻿.
 
-#### Mudando-se dentro do seu estado
+#### Mudança para dentro do seu estado
+Mesmo que você se mude para um local dentro do mesmo estado, você precisará atualizar seu cadastro com o seu novo endereço.
 
-Mesmo que você se mude dentro do seu mesmo estado, você tem de atualizar seu registro com o seu novo endereço.
-
-#### Mudando-se para outros estados
-
-Alguns estados requerem que você viva no seu estado novo por pelo menos 30 dias antes de poder registrar-se para votar. Se você não tiver tempo de registrar-se no seu estado novo antes do dia de eleição, o seu antigo estado pode permitir que você vote por correio ou em pessoa. Para os anos de eleições presidenciais, o seu antigo estado deve permitir que você vote pelo correio ou em pessoa. Depois disso, você precisa registrar-se no seu novo estado.
+#### Mudança para outro estado
+Cadastre-se antes do término do prazo no seu novo estado, que pode ser de até 30 dias antes da eleição. Se você não tiver tempo de se cadastrar no seu novo estado antes do dia de eleição, o seu antigo estado pode permitir que você vote pelo correio ou pessoalmente. Em anos de eleições presidenciais, o seu antigo estado deve permitir que você vote pelo correio ou pessoalmente. Depois disso, você precisará se cadastrar no seu novo estado. 
 
 #### Mudança para o exterior
-
-Cidadãos Estadounienses que vivem fora dos EUA podem registrar-se para votar e pedir uma cédula de ausente preenchendo a [Solicitação de Cartão Postal Federal (FPCA) (em inglês)](https://www.fvap.gov/eo/overview/materials/forms). Consulte o [Federal Voting Assistance Program (FVAP) (em inglês)](https://www.fvap.gov/) por obter mais recursos sobre o voto militar e no exterior.
+Cidadãos americanos que vivem fora dos EUA podem se cadastrar para votar e solicitar voto pelo correio ao preencher o formulário [Federal Post Card Application (FPCA) {{< inenglish >}}](https://www.fvap.gov/eo/overview/materials/forms) (Formulário para registro de voto de cédula de solicitação e ausente para militares, suas famílias e cidadãos no exterior). Consulte o [Federal Voting Assistance Program (FVAP) {{< inenglish >}}](https://www.fvap.gov/) (Programa de assistência à votação de militares em serviço, suas famílias e cidadãos no exterior) para obter outros recursos sobre a votação de militares e votação no exterior.

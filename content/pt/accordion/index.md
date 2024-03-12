@@ -1,4 +1,4 @@
 +++
-title = "O Vote.gov ajuda-a/o a:"
+title = "O Vote.gov ajuda você a:"
 headless = true
 +++
