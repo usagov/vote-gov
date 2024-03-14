@@ -12,6 +12,7 @@ more_info_link = "https://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx"
 confirm_registration_link = "https://consulta.ceepur.org/"
 national_voter_registration_form_accepted = "false"
 default_ip_deadline = "50 jours avant le Jour des élections"
+default_online_deadline = "50 jours avant le Jour des élections"
 in_state_name = "à %state_name%"
 of_state_name = "de %state_name%"
 

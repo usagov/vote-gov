@@ -197,7 +197,8 @@
         "default_mail_received_deadline": "নির্বাচনের দিন ১৫ দিন আগে পেতে হবে"
     },
     "pr": {
-        "default_ip_deadline": "নির্বাচনের ৫০ দিন আগে"
+        "default_ip_deadline": "নির্বাচনের ৫০ দিন আগে",
+        "default_online_deadline": "নির্বাচনের ৫০ দিন আগে"
     },
     "ri": {
         "default_ip_deadline": "নির্বাচনী দিনের ৩০ দিন আগে",

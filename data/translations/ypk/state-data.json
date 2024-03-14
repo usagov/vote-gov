@@ -199,7 +199,8 @@
     "default_mail_received_deadline": "Kaasimayaghqaguq 15 aghneq Nakmikivigem sivunganeng"
   },
   "pr": {
-    "default_ip_deadline": "50 aghneq Nakmikivigem sivunganeng "
+    "default_ip_deadline": "50 aghneq Nakmikivigem sivunganeng ",
+    "default_online_deadline": "50 aghneq Nakmikivigem sivunganeng "
   },
   "ri": {
     "default_ip_deadline": "30 aghneq Nakmikivigem sivunganeng.",
