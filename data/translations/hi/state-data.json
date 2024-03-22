@@ -199,7 +199,8 @@
     "default_mail_received_deadline": "मतदान दिवस से 15 दिन पहले पहुँच जाना चाहिए"
   },
   "pr": {
-    "default_ip_deadline": "मतदान दिवस से 50 दिन पहले"
+    "default_ip_deadline": "मतदान दिवस से 50 दिन पहले",
+    "default_online_deadline": "मतदान दिवस से 50 दिन पहले"
   },
   "ri": {
     "default_ip_deadline": "मतदान दिवस से 30 दिन पहले",

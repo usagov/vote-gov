@@ -197,7 +197,8 @@
         "default_mail_received_deadline": "Dwe gen so lapòs 15 jou anvan Jou Eleksyon an"
     },
     "pr": {
-        "default_ip_deadline": "50 jou anvan jou eleksyon an"
+        "default_ip_deadline": "50 jou anvan jou eleksyon an",
+        "default_online_deadline": "50 jou anvan jou eleksyon an"
     },
     "ri": {
         "default_ip_deadline": "30 jou anvan jou eleksyon an",

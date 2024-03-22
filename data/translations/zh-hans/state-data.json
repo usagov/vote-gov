@@ -198,7 +198,8 @@
     "default_mail_received_deadline": "必须在选举日前 15天前收到"
   },
   "pr": {
-    "default_ip_deadline": "选举日前 50天"
+    "default_ip_deadline": "选举日前 50天",
+    "default_online_deadline": "选举日前 50天"
   },
   "ri": {
     "default_ip_deadline": "选举日前 30天",

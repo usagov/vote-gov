@@ -198,7 +198,8 @@
     "default_mail_received_deadline": "Phải được nhận vào 15 ngày trước ngày Bầu Cử"
   },
   "pr": {
-    "default_ip_deadline": "50 ngày trước Ngày Bầu Cử"
+    "default_ip_deadline": "50 ngày trước Ngày Bầu Cử",
+    "default_online_deadline": "50 ngày trước Ngày Bầu Cử"
   },
   "ri": {
     "default_ip_deadline": "30 ngày trước Ngày Bầu Cử",
