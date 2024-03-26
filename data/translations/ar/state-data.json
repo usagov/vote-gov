@@ -197,7 +197,8 @@
     "default_mail_received_deadline": "يجب أن يتم الاستلام قبل 15 يومًا من يوم الانتخابات"
   },
   "pr": {
-    "default_ip_deadline": "50 يومًا قبل يوم الانتخابات"
+    "default_ip_deadline": "50 يومًا قبل يوم الانتخابات",
+    "default_online_deadline": "50 يومًا قبل يوم الانتخابات"
   },
   "ri": {
     "default_ip_deadline": "30 يومًا قبل يوم الانتخابات",

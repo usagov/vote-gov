@@ -199,7 +199,8 @@
     "default_mail_received_deadline": "Dapat matanggap 15 araw bago ang Araw ng Eleksyon"
   },
   "pr": {
-    "default_ip_deadline": "50 araw bago ang Araw ng Eleksyon"
+    "default_ip_deadline": "50 araw bago ang Araw ng Eleksyon",
+    "default_online_deadline": "50 araw bago ang Araw ng Eleksyon"
   },
   "ri": {
     "default_ip_deadline": "30 araw bago ang Araw ng Eleksyon",
