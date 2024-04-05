@@ -34,8 +34,8 @@
   },
   "ct": {
     "default_ip_deadline": "Disponível até e inclusive o Dia da Eleição ",
-    "default_online_deadline": "7 dias antes do Dia da Eleição ",
-    "default_mail_postmarked_deadline": "Deve ser carimbado 7 dias antes do Dia da Eleição"
+    "default_online_deadline": "18 dias antes do Dia da Eleição ",
+    "default_mail_postmarked_deadline": "Deve ser carimbado 18 dias antes do Dia da Eleição"
   },
   "de": {
     "default_ip_deadline": "24 dias antes do Dia da Eleição ",

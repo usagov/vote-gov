@@ -34,8 +34,8 @@
   },
   "ct": {
     "default_ip_deadline": "Maari hanggang at kasama sa  Araw ng Eleksyon",
-    "default_online_deadline": "7 araw bago ang Araw ng Eleksyon",
-    "default_mail_postmarked_deadline": "Dapat na naka-postmark 7 araw bago ang Araw ng Eleksyon"
+    "default_online_deadline": "18 araw bago ang Araw ng Eleksyon",
+    "default_mail_postmarked_deadline": "Dapat na naka-postmark 18 araw bago ang Araw ng Eleksyon"
   },
   "de": {
     "default_ip_deadline": "24 araw bago ang Araw ng Eleksyon",

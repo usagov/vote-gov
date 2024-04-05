@@ -11,7 +11,7 @@ registration_link = "https://voterregistration.ct.gov/OLVR/welcome.do"
 more_info_link = "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Voter-Fact-Sheet"
 confirm_registration_link = "https://portaldir.ct.gov/sots/LookUp.aspx"
 default_ip_deadline = "直到选举日 (包括选举日) 都可以使用"
-default_online_deadline = "选举日前7 天"
-default_mail_postmarked_deadline = "必须在选举日前 7 天盖上邮戳"
+default_online_deadline = "选举日前18 天"
+default_mail_postmarked_deadline = "必须在选举日前 18 天盖上邮戳"
 
 +++
