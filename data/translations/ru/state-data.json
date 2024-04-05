@@ -35,8 +35,8 @@
   },
   "ct": {
     "default_ip_deadline": "Доступно до дня выборов включительно",
-    "default_online_deadline": "За 7 дней до дня выборов",
-    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 7 дней до дня выборов"
+    "default_online_deadline": "За 18 дней до дня выборов",
+    "default_mail_postmarked_deadline": "Письмо должно быть проштемпелёвано за 18 дней до дня выборов"
   },
   "de": {
     "default_ip_deadline": "За 24 дня до дня выборов",

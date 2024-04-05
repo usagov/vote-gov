@@ -34,8 +34,8 @@
     },
     "ct": {
         "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
-        "default_online_deadline": "7 jou anvan jou eleksyon an",
-        "default_mail_postmarked_deadline": "Dwe gen so lapòs 7 jou anvan Jou Eleksyon an"
+        "default_online_deadline": "18 jou anvan jou eleksyon an",
+        "default_mail_postmarked_deadline": "Dwe gen so lapòs 18 jou anvan Jou Eleksyon an"
     },
     "de": {
         "default_ip_deadline": "24 jou anvan jou eleksyon an",

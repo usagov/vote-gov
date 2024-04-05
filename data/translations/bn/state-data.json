@@ -34,8 +34,8 @@
     },
     "ct": {
         "default_ip_deadline": "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ",
-        "default_online_deadline": "নির্বাচনের ৭ দিন আগে",
-        "default_mail_postmarked_deadline": "নির্বাচনের দিন ৭ দিন আগে পোস্টমার্ক করা আবশ্যক"
+        "default_online_deadline": "নির্বাচনের ১৮ দিন আগে",
+        "default_mail_postmarked_deadline": "নির্বাচনের দিন ১৮ দিন আগে পোস্টমার্ক করা আবশ্যক"
     },
     "de": {
         "default_ip_deadline": "নির্বাচনের দিন ২৪ দিন আগে",

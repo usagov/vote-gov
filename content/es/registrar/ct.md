@@ -12,7 +12,7 @@ more_info_link = "https://portal.ct.gov/SOTS/Election-Services/Voter-Information
 confirm_registration_link = "https://portaldir.ct.gov/sots/LookUp.aspx"
 registration_link_language_selection = "true"
 default_ip_deadline = "hasta el mismo día de las elecciones"
-default_online_deadline = "hasta 7 días antes del día de las elecciones"
-default_mail_postmarked_deadline = "debe tener el sello del correo 7 días antes del día de las elecciones"
+default_online_deadline = "hasta 18 días antes del día de las elecciones"
+default_mail_postmarked_deadline = "debe tener el sello del correo 18 días antes del día de las elecciones"
 
 +++
