@@ -33,8 +33,8 @@
   },
   "ct": {
     "default_ip_deadline": "Có sẵn cho đến và bao gồm cả vào ngày Bầu Cử",
-    "default_online_deadline": "7 ngày trước Ngày Bầu Cử",
-    "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 7 ngày trước Ngày Bầu Cử"
+    "default_online_deadline": "18 ngày trước Ngày Bầu Cử",
+    "default_mail_postmarked_deadline": "Phải được đóng dấu bưu điện 18 ngày trước Ngày Bầu Cử"
   },
   "de": {
     "default_ip_deadline": "24 ngày trước Ngày Bầu Cử",
