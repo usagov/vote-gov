@@ -15,5 +15,9 @@ default_ip_deadline = "50 jours avant le Jour des élections"
 default_online_deadline = "50 jours avant le Jour des élections"
 in_state_name = "à %state_name%"
 of_state_name = "de %state_name%"
+hp_link_override = "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx"
+registration_link_override = "https://ere.ceepur.org/"
+more_info_link_override = "https://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx"
+confirm_registration_link_override = "https://consulta.ceepur.org/"
 
 +++
