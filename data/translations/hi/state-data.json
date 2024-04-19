@@ -199,6 +199,10 @@
     "default_mail_received_deadline": "मतदान दिवस से 15 दिन पहले पहुँच जाना चाहिए"
   },
   "pr": {
+    "hp_link_translated": "true",
+    "confirm_registration_link_translated": "true",
+    "registration_link_translated": "true",
+    "more_info_link_translated": "true",
     "default_ip_deadline": "मतदान दिवस से 50 दिन पहले",
     "default_online_deadline": "मतदान दिवस से 50 दिन पहले",
     "hp_link_override": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",

@@ -199,6 +199,10 @@
     "default_mail_received_deadline": "Kaasimayaghqaguq 15 aghneq Nakmikivigem sivunganeng"
   },
   "pr": {
+    "hp_link_translated": "true",
+    "confirm_registration_link_translated": "true",
+    "registration_link_translated": "true",
+    "more_info_link_translated": "true",
     "default_ip_deadline": "50 aghneq Nakmikivigem sivunganeng ",
     "default_online_deadline": "50 aghneq Nakmikivigem sivunganeng ",
     "hp_link_override": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",

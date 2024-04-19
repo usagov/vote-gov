@@ -199,6 +199,10 @@
     "default_mail_received_deadline": "반드시 선거일 15일 전까지 까지 접수해야 합니다."
   },
   "pr": {
+    "hp_link_translated": "true",
+    "confirm_registration_link_translated": "true",
+    "registration_link_translated": "true",
+    "more_info_link_translated": "true",
     "default_ip_deadline": "선거일 50일 전까지",
     "default_online_deadline": "선거일 50일 전까지",
     "hp_link_override": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
