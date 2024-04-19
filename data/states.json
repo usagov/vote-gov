@@ -115,7 +115,7 @@
     "hp_link": "https://dcboe.org/",
     "registration_link": "https://vr.dcboe.org/213324797239968?agency_code=12",
     "more_info_link": "https://www.dcboe.org/voters/register-to-vote/register-update-voter-registration",
-    "confirm_registration_link": "https://vr.dcboe.org/213324797239968?agency_code=12"
+    "confirm_registration_link": "https://apps.dcboe.org/vrs"
   },
   "fl": {
     "state_name": "Florida",
@@ -338,8 +338,8 @@
     "registration_type": "by-mail",
     "translationKey": "Montana",
     "type": "register",
-    "hp_link": "https://sosmt.gov/elections/",
-    "more_info_link": "https://sosmt.gov/elections/vote/",
+    "hp_link": "https://votemt.gov/",
+    "more_info_link": "https://votemt.gov/",
     "confirm_registration_link": "https://prodvoterportal.mt.gov/WhereToVote.aspx"
   },
   "ne": {
@@ -500,12 +500,14 @@
     "state_name": "Puerto Rico",
     "state_abbreviation": "pr",
     "is_state": "false",
-    "registration_type": "in-person",
+    "registration_type": "online",
     "translationKey": "Puerto Rico",
     "type": "register",
     "hp_link": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
+    "registration_link": "https://ere.ceepur.org/",
     "more_info_link": "https://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
-    "confirm_registration_link": "https://consulta.ceepur.org/"
+    "confirm_registration_link": "https://consulta.ceepur.org/",
+    "national_voter_registration_form_accepted": "false"
   },
   "ri": {
     "state_name": "Rhode Island",

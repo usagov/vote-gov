@@ -1,8 +1,8 @@
 +++
-title = "Aprenda como conseguir seu cartão de registro eleitoral"
+title = "Saiba como obter seu título de eleitor"
 +++
-Quando você se registrar para votar, receberá um cartão de registro eleitoral. Este cartão confirma que você está registrado/a e pronto/a para votar. O cartão de registro eleitoral tipicamente inclui seu nome, sua direção, e a direção da sua estação de eleição onde irá votar. Também pode procurar sua inscrição eleitoral usando a ferramenta on-line de pesquisa de registros eleitorais do seu estado.
+Quando você se cadastrar para votar, você receberá um título de eleitor. Este título de eleitor confirma que você está cadastrado(a) e pronto(a) para votar. O título de eleitor normalmente inclui seu nome, seu endereço e o endereço da sua seção eleitoral. Você também pode consultar seu cadastro eleitoral usando a ferramenta on-line de pesquisa de cadastros eleitorais do seu estado.
 
-Se seu nome ou endereço mudar, você precisará atualizar seu registro de eleitor. Depois de atualizar suas informações de registro de eleitor, você pode receber um novo cartão de registro de eleitor, dependendo do seu estado. Se você tiver dúvidas, o escritório eleitoral local é o melhor recurso para ajudar.
+Se seu nome ou endereço mudar, você precisará atualizar seu cadastro de eleitor. Depois de atualizar suas informações do cadastro de eleitor, você pode receber um novo título de eleitor, dependendo do seu estado. Se você tiver dúvidas, a repartição eleitoral da sua cidade é a melhor forma de obter ajuda.
 
-Normalmente, você não precisa estar com o título de eleitor para votar, mas, dependendo do seu estado, pode ser necessário apresentar outro documento de [identificação para votar (em inglês)](https://www.usa.gov/voter-id). Aprenda mais sobre o [registro eleitoral (em inglês)](https://www.usa.gov/voter-registration-card).
+Normalmente não é necessário levar seu título de eleitor para votar. Porém, dependendo do seu estado, poderá ser necessário apresentar outro documento de [identificação para votar {{< inenglish >}}](https://www.usa.gov/voter-id). Saiba mais sobre o [cadastramento eleitoral {{< inenglish >}}](https://www.usa.gov/voter-registration-card).

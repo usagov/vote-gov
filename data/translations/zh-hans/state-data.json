@@ -34,8 +34,8 @@
   },
   "ct": {
     "default_ip_deadline": "直到选举日 (包括选举日) 都可以使用",
-    "default_online_deadline": "选举日前7 天",
-    "default_mail_postmarked_deadline": "必须在选举日前 7 天盖上邮戳"
+    "default_online_deadline": "选举日前18 天",
+    "default_mail_postmarked_deadline": "必须在选举日前 18 天盖上邮戳"
   },
   "de": {
     "default_ip_deadline": "选举日前 24 天",
@@ -198,7 +198,8 @@
     "default_mail_received_deadline": "必须在选举日前 15天前收到"
   },
   "pr": {
-    "default_ip_deadline": "选举日前 50天"
+    "default_ip_deadline": "选举日前 50天",
+    "default_online_deadline": "选举日前 50天"
   },
   "ri": {
     "default_ip_deadline": "选举日前 30天",
