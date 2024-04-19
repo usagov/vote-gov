@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var log = require('fancy-log');
 var colors = require('ansi-colors');
 
-var destPagePath = 'national-voter-registration-form';
+var destPagePath = 'national-voter-registration-form-review';
 
 gulp.task('nvrf-assets', function () {
   var stream = gulp.src([
