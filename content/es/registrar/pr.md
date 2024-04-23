@@ -17,6 +17,9 @@ registration_link_translated = "true"
 more_info_link_translated = "true"
 default_ip_deadline = "hasta 50 días antes del día de las elecciones"
 default_online_deadline = "hasta 50 días antes del día de las elecciones"
+hp_link_override = "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx"
+registration_link_override = "https://ere.ceepur.org/"
+confirm_registration_link_override = "https://consulta.ceepur.org/"
 more_info_link_override = "https://ww2.ceepur.org/es-pr/Paginas/default.aspx"
 
 +++

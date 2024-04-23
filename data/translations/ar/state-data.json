@@ -197,8 +197,16 @@
     "default_mail_received_deadline": "يجب أن يتم الاستلام قبل 15 يومًا من يوم الانتخابات"
   },
   "pr": {
+    "hp_link_translated": "true",
+    "confirm_registration_link_translated": "true",
+    "registration_link_translated": "true",
+    "more_info_link_translated": "true",
     "default_ip_deadline": "50 يومًا قبل يوم الانتخابات",
-    "default_online_deadline": "50 يومًا قبل يوم الانتخابات"
+    "default_online_deadline": "50 يومًا قبل يوم الانتخابات",
+    "hp_link_override": "https://ww2.ceepur.org/Home/Index?aspxerrorpath=/es-pr/Paginas/default.aspx",
+    "registration_link_override": "https://ere.ceepur.org/",
+    "more_info_link_override": "https://ww2.ceepur.org/es-pr/Paginas/cee-english.aspx",
+    "confirm_registration_link_override": "https://consulta.ceepur.org/"
   },
   "ri": {
     "default_ip_deadline": "30 يومًا قبل يوم الانتخابات",
