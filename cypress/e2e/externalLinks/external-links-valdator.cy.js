@@ -6,7 +6,8 @@ const excludedlinks = [
   'https://voterregistration.ct.gov/OLVR/welcome.do?ref=voteusa_es',
   'https://voterregistration.ct.gov/OLVR/welcome.do?ref=voteusa_en',
   // the above link will throw error code "read ECONNRESET" this will not pass through cypress test and has been checked manually
-  'https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1',
+  'https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1?ref=voteusa_en',
+  'https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1?ref=voteusa_es'
   // maryland has online reg closed... link will be active again on May 27th
 ];
 
