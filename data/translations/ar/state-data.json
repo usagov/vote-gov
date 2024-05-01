@@ -104,6 +104,7 @@
   },
   "me": {
     "default_ip_deadline": "متاح حتى يوم الانتخابات",
+    "default_online_deadline": "21 يومًا قبل يوم الانتخابات",
     "default_mail_received_deadline": "يجب أن يتم الاستلام قبل 21 يومًا من يوم الانتخابات"
   },
   "md": {

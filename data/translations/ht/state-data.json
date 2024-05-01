@@ -104,6 +104,7 @@
     },
     "me": {
         "default_ip_deadline": "Disponib jiska tou jou Eleksyon an",
+        "default_online_deadline": "21 jou anvan jou eleksyon an",
         "default_mail_received_deadline": "Dwe rive 21 jou anvan jou eleksyon an"
     },
     "md": {
