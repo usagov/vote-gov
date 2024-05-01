@@ -105,6 +105,7 @@
   },
   "me": {
     "default_ip_deadline": "選舉日之前（包括選舉日）都可以使用",
+    "default_online_deadline": "選舉日前 21 天",
     "default_mail_received_deadline": "必須在選舉日前 21 天收到"
   },
   "md": {

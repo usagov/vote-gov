@@ -105,6 +105,7 @@
   },
   "me": {
     "default_ip_deadline": "मतदान दिवस तक और मतदान के दिन भी ",
+    "default_online_deadline": "मतदान दिवस से 21 दिन पहले ",
     "default_mail_received_deadline": "मतदान दिवस से 21 दिन पहले पहुँच जाना चाहिए"
   },
   "md": {
