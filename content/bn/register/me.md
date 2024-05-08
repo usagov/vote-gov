@@ -3,13 +3,15 @@
 state_name = "Maine"
 state_abbreviation = "me"
 is_state = "true"
-registration_type = "by-mail"
+registration_type = "online"
 translationKey = "Maine"
 type = "register"
 hp_link = "https://www.maine.gov/sos/cec/elec/"
-more_info_link = "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html"
-confirm_registration_link = "https://www.maine.gov/sos/cec/elec/data/index.html"
+registration_link = "https://registertovote.sos.maine.gov/"
+more_info_link = "https://maine.gov/sos/cec/elec/voter-info/voterguide.html"
+confirm_registration_link = "https://maine.gov/sos/cec/elec/munic.html"
 default_ip_deadline = "নির্বাচনের দিন পর্যন্ত এবং সহ উপলব্ধ"
+default_online_deadline = "নির্বাচনের ২১ দিন আগে"
 default_mail_received_deadline = "নির্বাচনের দিন ২১ দিন আগে পেতে হবে"
 
 +++
