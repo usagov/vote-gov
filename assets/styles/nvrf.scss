@@ -25,9 +25,13 @@
     max-width: 480px;
   }
 
-  .edit-btn {
-    margin-left: 8px;
-    margin-top: 37px;
+  h2.margin-0 {
+    margin: 0;
+  }
+
+  .edit-btn .usa-button.usa-button--unstyled {
+    background-color: transparent;
+    color: #005ea2;
   }
 
   fieldset + .usa-hint {
@@ -51,12 +55,24 @@
   }
 
   .usa-step-indicator__header {
-    position: absolute;
-    text-indent: -9000px;
-    overflow: hidden;
+    @media (min-width: 640px) {
+      position: absolute;
+      text-indent: -9000px;
+      overflow: hidden;
+    }
+  }
+
+  .usa-alert__text {
+    > *:first-child {
+      margin-top: 0;
+    }
+    > *:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 
 #touchpoints-form-embed .fba-modal-dialog {
   margin: 0;
 }
+
