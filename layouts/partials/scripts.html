@@ -6,7 +6,7 @@
 
     <script src="{{ .Site.BaseURL }}/assets/scripts/main.js"></script>
 -->
-{{ if eq .Site.Language.Lang "en" }}
+{{ if (and (eq .Site.Language.Lang "en") (ne .Params.hide_touchpoints "true"))  }}
 <button type="button" id="touchpoints-form-embed" class="usa-button" data-test="improve-button">How can we improve Vote.gov?
 </button>
 <script src="https://touchpoints.app.cloud.gov/touchpoints/3680b407.js" async></script>

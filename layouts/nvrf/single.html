@@ -1,0 +1,36 @@
+{{ $translation := ( index $.Site.Data.translations .Site.Language.Lang ) }}
+{{ $queryNum := substr (md5 now.Unix) 0 9 }}
+
+{{ partial "head.html" . }}
+
+<body class="page-basic">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/styles/nvrf.css?v={{ $queryNum }}">
+
+{{ partial "header.html" . }}
+<main id="main-content">
+  <div class="bg-blue" id="skip-target">
+    <div class="grid-container">
+        <div class="tablet:grid-col-6 nvrf-hero">
+          <a href="{{ .Site.Home.RelPermalink }}" aria-label="Vote.gov">
+            <img width="150" height="59" src="{{ .Site.BaseURL }}/assets/img/NVRF_hero_lockup.png"
+              alt="{{ $translation.footer.vote_logo_alt_text }}" aria-label="Vote.gov"/>
+          </a>
+        </div>
+    </div>
+  </div>
+  <div class="grid-container">
+    <section class="voter-info">
+      {{ .Content }}
+      <div class="nvrf-app-container" id="root"></div>
+    </section>
+  </div>
+</main>
+{{ partial "footer.html" . }}
+
+{{ partial "analytics.html" . }}
+{{ partial "scripts.html" . }}
+<script type="module" crossorigin src="{{ .Site.BaseURL }}/assets/nvrf/index.js?v={{ $queryNum }}"></script>
+
+</body>
+
+</html>
