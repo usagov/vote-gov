@@ -25,6 +25,7 @@
   "alert_state__alert_after_election": "Para sa opisyal na mga resulta ng eleksyon, pumunta sa %link%.",
   "alert_state__alert_primary_election": "Ang 2024 pangunahing eleksyon sa pagkapangulo ay magaganap sa lahat ng 50 estado at teritoryo para pumili ng mga kandidato na kakatawan sa mga partidong pampulitika sa pangkalahatang eleksyon sa pagkapangulo. %link%.",
   "alert_state__alert_primary_election_link": "Alamin ang mga paparating na petsa at mga deadline para sa inyong estado at partidong pampulitika",
+  "alert_maintenence": "The vote.gov website will not be available during a short period on Tuesday, July 30th, between 6-8 AM EST",
   "dates__bymail_deadline": "Deadline ng pagpaparehistro sa pamamagitan ng koreo",
   "dates__byonline_deadline": "Deadline ng pagpaparehistro sa online",
   "dates__electionday": "Araw ng Pangkalahatang Eleksyon: Martes, ika-8 ng Nobyembre 2022",

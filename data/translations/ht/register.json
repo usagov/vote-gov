@@ -25,6 +25,7 @@
 "alert_state__alert_after_election": "Pou jwenn rezilta ofisyèl eleksyon an, ale nan %link%",
 "alert_state__alert_primary_election": "Eleksyon prezidansyèl primè 2024 la pral òganize nan tout 50 Eta ak teritwa yo pou chwazi kandida ki pral reprezante pati politik yo nan eleksyon prezidansyèl jeneral la. %link%.",
 "alert_state__alert_primary_election_link": "Tcheke dat ak dat limit ki pwograme yo pou Eta w ak pati politik ou an",
+"alert_maintenence": "The vote.gov website will not be available during a short period on Tuesday, July 30th, between 6-8 AM EST",
 "dates__bymail_deadline": "Dat limit enskripsyon pa korespondans:",
 "dates__byonline_deadline": "Dat limit enskripsyon anliy:",
 "dates__electionday": "Dat Eleksyon Jeneral: madi 3 novanm 2020",

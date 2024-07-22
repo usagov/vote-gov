@@ -24,6 +24,7 @@
   "alert_state__alert_after_election": "অফিসিয়াল নির্বাচনের ফলাফলের জন্য, যান %link%",
   "alert_state__alert_primary_election": "২০২৪ সালের রাষ্ট্রপতি প্রাথমিক নির্বাচনগুলি ৫০টি রাজ্য এবং অঞ্চলগুলিতে সাধারণ রাষ্ট্রপতি নির্বাচনেরাজনৈতিক দলগুলির প্রতিনিধিত্বকারী প্রার্থীদের নির্বাচন করার জন্য অনুষ্ঠিত হয়। %link%.",
   "alert_state__alert_primary_election_link": "আপনার রাজ্য এবং রাজনৈতিক দলের জন্য আসন্ন তারিখ এবং সময়সীমা দেখুন",
+  "alert_maintenence": "The vote.gov website will not be available during a short period on Tuesday, July 30th, between 6-8 AM EST",
   "dates__bymail_deadline": "ডাকযোগে নিবন্ধনের সময়সীমা:",
   "dates__byonline_deadline": "অনলাইন নিবন্ধনের সময়সীমা:",
   "dates__electionday": "সাধারণ নির্বাচনের দিন: মঙ্গলবার, ৮ নভেম্বর, ২০২২",
