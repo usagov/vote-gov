@@ -12,14 +12,6 @@
     margin-top: 1rem;
     margin-bottom: 3rem;
   }
-
-  &.usa-button--outline,
-  &.usa-button--outline:hover,
-  &.usa-button--outline:focus {
-    background-color: transparent;
-    color: $color-blue-dark;
-    box-shadow: inset 0 0 0 2px $color-blue-dark;
-  }
 }
 
 .usa-button:hover,

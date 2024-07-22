@@ -26,9 +26,9 @@
             </button>
           </div>
 
-        <div class="switcher-desktop">
-        {{ partial "language-switcher.html" . }}
-        </div>
+          <div class="switcher-desktop">
+          {{ partial "language-switcher.html" . }}
+          </div>
 
         </div>
       </div>
@@ -62,14 +62,12 @@
   </section>
 
   {{ if .Site.Params.sitewide_alert }}
-  <div class="sitewide-alert">
-    <div class="usa-alert usa-alert--info">
-      <div class="grid-container">
-        <div class="usa-alert__body">
-          <p class="usa-alert__text">
-            {{ replace $translation.register.alert_state__alert_primary_election "%link%" (partial "links/state-primary-alert-link.html" .)|safeHTML }}
-          </p>
-        </div>
+  <div class="usa-alert usa-alert--info">
+    <div class="grid-container">
+      <div class="usa-alert__body">
+        <p class="usa-alert__text">
+          {{ replace $translation.register.alert_state__alert_primary_election "%link%" (partial "links/state-primary-alert-link.html" .)|safeHTML }}
+        </p>
       </div>
     </div>
   </div>
@@ -81,6 +79,4 @@
 
 </header>
 
-{{ if ne .Type "nvrf" }}
-  {{ partial "partials/search.html" . }}
-{{ end }}
+{{ partial "partials/search.html" . }}

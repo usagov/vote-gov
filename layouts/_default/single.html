@@ -33,9 +33,7 @@
             {{ .Content }}
           </section>
 
-          {{ if ne .Params.hide_back_link "true" }}
           <p class="arrow-text"><a href="{{ .Site.Home.RelPermalink }}" title="Vote.gov" data-test="back-button"><span class="arrow direction"></span>{{ .Site.Params.go_back }}</a></p>
-          {{ end }}
 
         </div>
       </div>

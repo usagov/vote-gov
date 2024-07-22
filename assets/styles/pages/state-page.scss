@@ -5,7 +5,7 @@
   margin-bottom: 60px;
   margin-top: 40px;
 
-  a:not(.usa-button) {
+  a {
     color: $color-blue-dark;
   }
 
@@ -17,5 +17,10 @@
     color: $color-blue-headings;
     margin-bottom: 0.5em;
     margin-top: 30px;
+  }
+
+  p {
+    margin-bottom: 1em;
+    margin-top: 0;
   }
 }
