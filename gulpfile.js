@@ -7,6 +7,7 @@ require('./gulp/styles');
 require('./gulp/scripts');
 require('./gulp/images');
 require('./gulp/fonts');
+require('./gulp/nvrf');
 require('./gulp/data');
 var build = require('./gulp/build');
 var gulp = require('gulp');
