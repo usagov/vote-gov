@@ -25,6 +25,7 @@
   "alert_state__alert_after_election": "Para resultados das eleições oficias, ir à %link%. ",
   "alert_state__alert_primary_election": "As eleições primárias presidenciais de 2024 terão lugar em todos os 50 estados e territórios para selecionar os candidatos que representarão os partidos políticos nas eleições presidenciais gerais. %link%.",
   "alert_state__alert_primary_election_link": "Verifique as próximas datas e prazos para o seu estado e partido político",
+  "alert_maintenence": "The vote.gov website will not be available during a short period on Tuesday, July 30th, between 6-8 AM EST",
   "dates__bymail_deadline": "Prazo final para registrar-se por correspondência:",
   "dates__byonline_deadline": "Prazo final para registrar-se on-line:",
   "dates__electionday": "Dia da Eleição Geral: Terça-feira, 3 de Novembro de 2020",

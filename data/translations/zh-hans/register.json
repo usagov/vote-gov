@@ -24,6 +24,7 @@
   "alert_state__alert_after_election": "有关官方选举结果，请访问 %link%",
   "alert_state__alert_primary_election": "2024 年总统初选将在全美 50个州和地区举行， 选出代表政党 参加总统大选 的候选人。 %link%。",
   "alert_state__alert_primary_election_link": "检查您所在州和政党即将到来的选举日期和截止日期",
+  "alert_maintenence": "The vote.gov website will not be available during a short period on Tuesday, July 30th, between 6-8 AM EST",
   "dates__bymail_deadline": "邮寄报名截止日期：",
   "dates__byonline_deadline": "网上报名截止日期：",
   "dates__electionday": "大选日：2022年11月8日星期二 ",

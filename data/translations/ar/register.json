@@ -25,6 +25,7 @@
     "alert_state__alert_after_election": "للاطلاع على النتائج الرسمية للانتخابات، انتقل إلى %link%",
     "alert_state__alert_primary_election": "تجرى الانتخابات التمهيدية الرئاسية لعام 2024 في جميع الولايات والأقاليم الخمسين لاختيار المرشحين الذين سيمثلون الأحزاب السياسية في الانتخابات الرئاسية العامة. %link%.",
     "alert_state__alert_primary_election_link": "تحقق من التواريخ والمواعيد النهائية القادمة لولايتك وحزبك السياسي.",
+    "alert_maintenence": "The vote.gov website will not be available during a short period on Tuesday, July 30th, between 6-8 AM EST",
     "dates__bymail_deadline": "التسجيل عن طريق البريد الموعد النهائي:",
     "dates__byonline_deadline": "الموعد النهائي للتسجيل عبر الإنترنت:",
     "dates__electionday": "يوم الانتخابات العامة: الثلاثاء 3 نوفمبر 2020.",

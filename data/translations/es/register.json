@@ -25,6 +25,7 @@
   "alert_state__alert_after_election":"Para ver los resultados oficiales de las elecciones visite el %link%.",
   "alert_state__alert_primary_election": "Las elecciones primarias presidenciales de 2024 se celebran en 50 estados y territorios para elegir a los candidatos que representarán a los partidos políticos en las elecciones presidenciales generales. %link%.",
   "alert_state__alert_primary_election_link": "Consulte las próximas fechas y plazos para su estado y su partido político",
+  "alert_maintenence": "El sitio web vote.gov no estará disponible entre las 7 y las 8 a.m. EST el martes 31 de julio.",
   "dates__bymail_deadline": "Registrarse por correo postal:",
   "dates__byonline_deadline": "Inscripción por internet:",
   "dates__electionday": "Día de la elección general: martes, 8 de noviembre de 2022",

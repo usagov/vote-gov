@@ -24,6 +24,7 @@
     "alert_state__alert_after_election": "आधिकारिक चुनाव परिणामों के लिए %link% पर जाएं।",
     "alert_state__alert_primary_election": "2024 के राष्ट्रपति प्राथमिक चुनाव सभी 50 राज्यों और क्षेत्रों में ऐसे उम्मीदवारों का चयन करने के लिए होते हैं जो आम राष्ट्रपति चुनाव में राजनीतिक दलों का प्रतिनिधित्व करेंगे। %link%।",
     "alert_state__alert_primary_election_link": "अपने राज्य और राजनीतिक दल के लिए आगामी तिथियां और समय-सीमाएं जांचें",
+    "alert_maintenence": "The vote.gov website will not be available during a short period on Tuesday, July 30th, between 6-8 AM EST",
     "dates__bymail_deadline": "डाक द्वारा पंजीकरण की अंतिम तिथि:",
     "dates__byonline_deadline": "ऑनलाइन पंजीकरण की अंतिम तिथि:",
     "dates__electionday": "आम चुनाव दिवस: मंगलवार, 8 नवंबर 2022",

@@ -25,6 +25,7 @@
   "alert_state__alert_after_election": "For official election results, go to %link%.",
   "alert_state__alert_primary_election": "The 2024 presidential primary elections take place in all 50 states and territories to select candidates who will represent political parties in the general presidential election. %link%.",
   "alert_state__alert_primary_election_link": "Check upcoming dates and deadlines for your state and political party",
+  "alert_maintenence": "The vote.gov website will not be available during a short period on Tuesday, July 30th, between 6-8 AM EST",
   "dates__bymail_deadline": "Register by mail deadline:",
   "dates__byonline_deadline": "Online registration deadline:",
   "dates__electionday": "General Election Day: Tuesday, November 8, 2022.",

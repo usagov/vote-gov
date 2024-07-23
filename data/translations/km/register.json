@@ -24,6 +24,7 @@
   "alert_state__alert_after_election": "សម្រាប់លទ្ធផលបោះឆ្នោតផ្លូវការ ចូលទៅកាន់ %link%",
   "alert_state__alert_primary_election": "ការបោះឆ្នោតបឋមជ្រើសរើសប្រធានាធិបតីឆ្នាំ 2024 ធ្វើឡើងនៅក្នុងដែនដីនិងរដ្ឋទាំង 50 ដើម្បីជ្រើសរើសបេក្ខជនដែលនឹងតំណាងឱ្យគណបក្សនយោបាយនៅក្នុងការបោះឆ្នោតប្រធានាធិបតីទូទៅ។ %link%។",
   "alert_state__alert_primary_election_link": "សូមពិនិត្យមើលកាលបរិច្ឆេទ និងថ្ងៃផុតកំណត់នាពេលខាងមុខសម្រាប់រដ្ឋ និងគណបក្សនយោបាយរបស់អ្នក",
+  "alert_maintenence": "The vote.gov website will not be available during a short period on Tuesday, July 30th, between 6-8 AM EST",
   "dates__bymail_deadline": "ថ្ងៃផុតកំណត់ចុះឈ្មោះតាមសំបុត្រ៖",
   "dates__byonline_deadline": "ថ្ងៃផុតកំណត់ការចុះឈ្មោះអនឡាញ៖",
   "dates__electionday": "ថ្ងៃអង្គារ 8 ខែវិច្ឆិកា 2022",
