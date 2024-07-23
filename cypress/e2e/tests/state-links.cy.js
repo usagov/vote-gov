@@ -9,7 +9,7 @@ describe('Validate links on stage pages', () => {
     cy.get('[data-test="main-info"]').find('a').then(regLink => {
       cy.get(regLink[0]).should('have.attr', 'href').and('include', 'https://voterregistration.alaska.gov/?ref=voteusa_en')
       cy.get(regLink[1]).should('have.attr', 'href').and('include', 'https://www.elections.alaska.gov/Core/voterregistration.php?ref=voteusa_en')
-      cy.get(regLink[2]).should('have.attr', 'href').and('include', 'https://myvoterinformation.alaska.gov/?ref=voteusa_en')
+      cy.get(regLink[2]).should('have.attr', 'href').and('include', 'https://myvoterportal.alaska.gov/')
     })
     cy.get('[data-test="back-button"]').click()
     cy.url().should('be.equal', 'http://localhost:1313/')
