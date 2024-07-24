@@ -35,6 +35,7 @@
   "alert_state__alert_after_election": "공식 선거 사무국 웹사이트 바로 가기 %link%.",
   "alert_state__alert_primary_election": "2024년 대통령 예비선거는 총선에서 정당을 대표할 후보자를 선출하기 위해 50개 주와 영토 전체에서 치러집니다. %link%.",
   "alert_state__alert_primary_election_link": "해당 주와 정당의 예정된 날짜와 마감일을 확인하세요",
+  "alert_maintenence": "The vote.gov website will not be available during a short period on Tuesday, July 30th, between 6-8 AM EST",
   "dates__bymail_deadline": "우편 투표자 등록 마감일:",
   "dates__byonline_deadline": "온라인 등록 마감일:",
   "dates__electionday": "총 선거일: 2022년 11월 8일 화요일",
